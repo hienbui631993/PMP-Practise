@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>PMP Quiz Study</title>
+<style>
+  :root {
+    --bg: #0f172a;
+    --card: #1e293b;
+    --card2: #273449;
+    --text: #e2e8f0;
+    --muted: #94a3b8;
+    --accent: #38bdf8;
+    --accent-ink: #06283d;
+    --good: #22c55e;
+    --bad: #ef4444;
+    --border: #334155;
+    --good-bg: #14321f;
+    --bad-bg: #3a1a1a;
+    --sel-bg: #2a3b54;
+  }
+  body.light {
+    --bg: #eef2f7;
+    --card: #ffffff;
+    --card2: #f1f5f9;
+    --text: #0f172a;
+    --muted: #64748b;
+    --accent: #0284c7;
+    --accent-ink: #ffffff;
+    --good: #16a34a;
+    --bad: #dc2626;
+    --border: #cbd5e1;
+    --good-bg: #dcfce7;
+    --bad-bg: #fee2e2;
+    --sel-bg: #e0f2fe;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.5;
+    transition: background .2s, color .2s;
+  }
+  header {
+    background: var(--card);
+    padding: 12px 20px;
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  .topbar { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; justify-content: space-between; }
+  h1 { font-size: 18px; margin: 0; color: var(--accent); }
+  .stats { display: flex; gap: 18px; flex-wrap: wrap; font-size: 13px; color: var(--muted); align-items: center; }
+  .stats b { color: var(--text); }
+  #cd-wrap b { color: var(--bad); }
+  .progressbar { height: 6px; background: var(--card2); border-radius: 4px; margin-top: 10px; overflow: hidden; }
+  .progressbar > div { height: 100%; background: var(--accent); width: 0%; transition: width .3s; }
+
+  main { max-width: 820px; margin: 24px auto; padding: 0 16px; }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 22px; }
+  .qmeta { display: flex; justify-content: space-between; align-items: center; font-size: 13px; color: var(--muted); margin-bottom: 12px; gap: 8px; }
+  .qnum { font-weight: 700; color: var(--accent); }
+  .qtext { font-size: 17px; margin-bottom: 18px; }
+
+  .options { display: flex; flex-direction: column; gap: 10px; }
+  .opt {
+    display: flex; gap: 12px; align-items: flex-start;
+    padding: 12px 14px; border: 1px solid var(--border); border-radius: 8px;
+    cursor: pointer; background: var(--card2); transition: border-color .15s, background .15s;
+  }
+  .opt:hover { border-color: var(--accent); }
+  .opt .letter { font-weight: 700; color: var(--accent); min-width: 18px; }
+  .opt.selected { border-color: var(--accent); background: var(--sel-bg); }
+  .opt.correct { border-color: var(--good); background: var(--good-bg); }
+  .opt.incorrect { border-color: var(--bad); background: var(--bad-bg); }
+
+  .answerbox { margin-top: 18px; padding: 14px 16px; border-radius: 8px; background: var(--card2); border-left: 4px solid var(--accent); display: none; }
+  .answerbox.show { display: block; }
+  .answerbox .verdict { font-weight: 700; margin-bottom: 6px; }
+  .answerbox .verdict.good { color: var(--good); }
+  .answerbox .verdict.bad { color: var(--bad); }
+  .answerbox .ca { color: var(--accent); font-weight: 700; }
+
+  .controls { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; align-items: center; }
+  button {
+    background: var(--card2); color: var(--text); border: 1px solid var(--border);
+    padding: 9px 16px; border-radius: 8px; cursor: pointer; font-size: 14px; transition: background .15s, border-color .15s;
+  }
+  button:hover { border-color: var(--accent); }
+  button:disabled { opacity: .4; cursor: not-allowed; }
+  button.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); font-weight: 700; }
+  button.toggle-on { background: var(--good-bg); border-color: var(--good); color: var(--good); }
+  button.small { padding: 6px 12px; font-size: 13px; }
+  .spacer { flex: 1; }
+  .jump { display: flex; gap: 6px; align-items: center; font-size: 13px; color: var(--muted); }
+  .jump input { width: 64px; background: var(--card2); border: 1px solid var(--border); color: var(--text); border-radius: 6px; padding: 6px 8px; }
+  label.chk { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; color: var(--muted); cursor: pointer; }
+
+  .sessionbar { display: flex; align-items: center; gap: 12px; background: var(--card2); border: 1px solid var(--accent); border-radius: 10px; padding: 10px 14px; margin-bottom: 14px; flex-wrap: wrap; }
+  .sessionbar .si { font-weight: 600; }
+
+  /* Modal */
+  .overlay { position: fixed; inset: 0; background: rgba(0,0,0,.6); display: none; align-items: center; justify-content: center; z-index: 100; padding: 16px; }
+  .overlay.show { display: flex; }
+  .modal { background: var(--card); border: 1px solid var(--border); border-radius: 12px; max-width: 720px; width: 100%; padding: 24px; max-height: 88vh; overflow: auto; }
+  .modal h2 { margin: 0 0 6px; font-size: 17px; color: var(--accent); }
+  .modal .close-row { display: flex; justify-content: flex-end; margin-top: 16px; }
+  .loader { text-align: center; padding: 60px 20px; color: var(--muted); }
+  .badge { font-size: 12px; padding: 2px 8px; border-radius: 999px; background: var(--card2); border: 1px solid var(--border); }
+  .hint { font-size: 12px; color: var(--muted); margin-top: 8px; }
+
+  /* Question list (rows with short text) */
+  .legend { display: flex; gap: 16px; flex-wrap: wrap; font-size: 12px; color: var(--muted); margin: 8px 0 14px; }
+  .legend span { display: inline-flex; align-items: center; gap: 6px; }
+  .dot { width: 12px; height: 12px; border-radius: 3px; border: 1px solid var(--border); display: inline-block; }
+  .dot.u { background: var(--card2); }
+  .dot.c { background: var(--good-bg); border-color: var(--good); }
+  .dot.i { background: var(--bad-bg); border-color: var(--bad); }
+  .listRows { display: flex; flex-direction: column; gap: 6px; }
+  .lrow {
+    display: flex; gap: 10px; align-items: center; padding: 8px 10px;
+    border: 1px solid var(--border); border-left-width: 4px; border-radius: 6px;
+    background: var(--card2); cursor: pointer;
+  }
+  .lrow:hover { border-color: var(--accent); }
+  .lrow.c { border-left-color: var(--good); }
+  .lrow.i { border-left-color: var(--bad); }
+  .lrow.u { border-left-color: var(--border); }
+  .lrow.current { outline: 2px solid var(--accent); }
+  .lrow .ln { font-weight: 700; color: var(--accent); min-width: 34px; }
+  .lrow .lt { font-size: 13px; color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex: 1; }
+
+  /* Results summary */
+  .summary-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; margin: 12px 0 18px; }
+  .stat-box { background: var(--card2); border: 1px solid var(--border); border-radius: 10px; padding: 14px; text-align: center; }
+  .stat-box .num { font-size: 26px; font-weight: 800; color: var(--accent); }
+  .stat-box .lbl { font-size: 12px; color: var(--muted); margin-top: 2px; }
+  .chiprow { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+  .chip { padding: 4px 10px; border-radius: 999px; border: 1px solid var(--border); background: var(--card2); cursor: pointer; font-size: 13px; }
+  .chip:hover { border-color: var(--accent); }
+  .chip.bad { border-color: var(--bad); }
+  .section-title { font-size: 13px; color: var(--muted); margin: 14px 0 4px; text-transform: uppercase; letter-spacing: .04em; }
+</style>
+</head>
+<body>
+<header>
+  <div class="topbar">
+    <h1>📘 PMP Quiz Study</h1>
+    <div class="stats">
+      <span>Answered: <b id="st-answered">0</b>/<b id="st-total">0</b></span>
+      <span>Score: <b id="st-score">0</b></span>
+      <span>This Q: <b id="st-qtime">0s</b></span>
+      <span>Total: <b id="st-total-time">0m 0s</b></span>
+      <span id="cd-wrap" style="display:none">⏱ <b id="st-countdown">--</b> left</span>
+      <button id="themeBtn" class="small">🌙 Dark</button>
+    </div>
+  </div>
+  <div class="progressbar"><div id="progressfill"></div></div>
+</header>
+
+<main>
+  <div id="loader" class="loader">Loading questions…</div>
+  <div id="app" style="display:none">
+
+    <div id="sessionBar" class="sessionbar" style="display:none">
+      <span class="si" id="sessionInfo"></span>
+      <span class="spacer"></span>
+      <button id="finishBtn" class="primary small">Finish &amp; see results</button>
+    </div>
+
+    <div class="card">
+      <div class="qmeta">
+        <span class="qnum" id="qnum">Question 1</span>
+        <span>
+          <span class="badge" id="qpos"></span>
+          <span class="badge" id="qtype">single answer</span>
+        </span>
+      </div>
+      <div class="qtext" id="qtext"></div>
+      <div class="options" id="options"></div>
+
+      <div class="answerbox" id="answerbox">
+        <div class="verdict" id="verdict"></div>
+        <div>Correct answer: <span class="ca" id="correctans"></span></div>
+        <div id="explanation" style="margin-top:8px"></div>
+      </div>
+
+      <div class="controls">
+        <button id="prevBtn">◀ Prev</button>
+        <button id="nextBtn">Next ▶</button>
+        <button id="clearBtn">Clear Answer</button>
+        <button id="showBtn" class="primary">Show Answer</button>
+        <div class="spacer"></div>
+        <div class="jump">
+          Go to # <input type="number" id="jumpInput" min="1" />
+          <button id="jumpBtn">Go</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Practice set / random exam -->
+    <div class="controls">
+      <span class="hint" style="margin:0">🎯 Random practice set:</span>
+      <button class="exam small" data-n="15">15 Q</button>
+      <button class="exam small" data-n="50">50 Q</button>
+      <button class="exam small" data-n="180">180 Q</button>
+      <label class="chk"><input type="checkbox" id="timedChk" /> with time limit</label>
+    </div>
+
+    <!-- Tools -->
+    <div class="controls">
+      <button id="listBtn">☰ Question List</button>
+      <button id="resultsBtn">📊 Results Summary</button>
+      <button id="shuffleBtn">🔀 Shuffle: Off</button>
+      <button id="instantBtn">✓ Instant Feedback: Off</button>
+      <div class="spacer"></div>
+      <button id="exportBtn">⬇ Export CSV</button>
+      <button id="resetBtn">🗑 Reset</button>
+    </div>
+    <div class="controls">
+      <span class="hint">Reminder pops up every 30 min · ←/→ navigate · S shows answer · Esc closes · progress auto-saves.</span>
+    </div>
+  </div>
+</main>
+
+<!-- File picker fallback -->
+<div class="overlay" id="fileOverlay">
+  <div class="modal">
+    <h2>Load quiz data</h2>
+    <p>Could not auto-load <code>qa_dataset.json</code> (browsers block local file reads when opened directly).</p>
+    <p>Either run a local server in this folder, or pick the JSON file:</p>
+    <input type="file" id="filePicker" accept=".json" />
+    <p class="hint">Server tip: open a terminal here and run <code>python -m http.server</code>, then visit <code>http://localhost:8000/quiz.html</code></p>
+  </div>
+</div>
+
+<!-- Question list modal -->
+<div class="overlay" id="listOverlay">
+  <div class="modal">
+    <h2>Question List</h2>
+    <div class="legend">
+      <span><i class="dot u"></i> Unanswered</span>
+      <span><i class="dot c"></i> Correct</span>
+      <span><i class="dot i"></i> Incorrect</span>
+    </div>
+    <div class="listRows" id="listRows"></div>
+    <div class="close-row"><button id="listCloseBtn">Close</button></div>
+  </div>
+</div>
+
+<!-- Results summary modal -->
+<div class="overlay" id="resultsOverlay">
+  <div class="modal">
+    <h2>📊 Results Summary</h2>
+    <div class="hint" id="resultsScope" style="margin-top:0"></div>
+    <div class="summary-grid" id="summaryGrid"></div>
+    <div class="section-title">Incorrect questions (click to review)</div>
+    <div class="chiprow" id="incorrectChips"></div>
+    <div class="section-title">Unanswered questions</div>
+    <div class="chiprow" id="unansweredChips"></div>
+    <div class="close-row"><button id="resultsCloseBtn">Close</button></div>
+  </div>
+</div>
+
+<!-- 30-min reminder modal -->
+<div class="overlay" id="reminderOverlay">
+  <div class="modal">
+    <h2>⏰ 30-minute check-in</h2>
+    <p>Quick review question to keep you sharp:</p>
+    <div class="qmeta"><span class="qnum" id="r-qnum"></span></div>
+    <div class="qtext" id="r-qtext"></div>
+    <div class="options" id="r-options"></div>
+    <div class="answerbox" id="r-answerbox">
+      <div>Correct answer: <span class="ca" id="r-correctans"></span></div>
+    </div>
+    <div class="controls">
+      <button id="r-revealBtn" class="primary">Reveal answer</button>
+      <button id="r-gotoBtn">Open this question</button>
+      <button id="r-closeBtn">Dismiss</button>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  const LS_KEY = "pmp_quiz_state_v1";
+  const REMINDER_MS = 30 * 60 * 1000;       // 30 minutes
+  const SECS_PER_Q = 75;                    // time-limit budget per question
+
+  let DATA = [];          // canonical, sorted by number
+  let order = [];         // display order: array of indices into DATA
+  let pos = 0;            // current position within `order`
+  let shuffled = false;
+
+  let state = { answers: {}, time: {}, settings: { theme: "dark", instant: false } };
+  let settings = state.settings;
+
+  let session = { active: false, numbers: [], timed: false, limitSec: 0, startTs: 0 };
+  let questionEnterTs = null;
+  let reminderQ = null;
+  let timeUpFired = false;
+
+  function curQ() { return DATA[order[pos]]; }
+  function activeNumbers() { return order.map(i => DATA[i].number); }
+
+  // ---------- persistence ----------
+  function loadState() {
+    try {
+      const raw = localStorage.getItem(LS_KEY);
+      if (raw) state = JSON.parse(raw);
+    } catch (e) {}
+    if (!state.answers) state.answers = {};
+    if (!state.time) state.time = {};
+    if (!state.settings) state.settings = {};
+    if (state.settings.theme == null) state.settings.theme = "dark";
+    if (state.settings.instant == null) state.settings.instant = false;
+    settings = state.settings;
+  }
+  function saveState() { try { localStorage.setItem(LS_KEY, JSON.stringify(state)); } catch (e) {} }
+
+  // ---------- time tracking ----------
+  function commitTime() {
+    if (questionEnterTs == null) return;
+    const q = curQ();
+    if (!q) return;
+    state.time[q.number] = (state.time[q.number] || 0) + (Date.now() - questionEnterTs) / 1000;
+    questionEnterTs = Date.now();
+    saveState();
+  }
+  function startTimer() { questionEnterTs = Date.now(); }
+
+  document.addEventListener("visibilitychange", function () {
+    if (document.hidden) { commitTime(); questionEnterTs = null; }
+    else { startTimer(); }
+  });
+
+  setInterval(function () {
+    commitTime();
+    updateStats();
+    if (session.active && session.timed) {
+      const rem = session.limitSec - (Date.now() - session.startTs) / 1000;
+      if (rem <= 0 && !timeUpFired) {
+        timeUpFired = true;
+        endSession(true);
+      } else if (rem > 0) {
+        document.getElementById("st-countdown").textContent = fmtClock(rem);
+      }
+    }
+  }, 1000);
+
+  // ---------- helpers ----------
+  function correctSet(q) { return q.correct_answer.split(",").map(s => s.trim().toUpperCase()).filter(Boolean); }
+  function isMulti(q) { return correctSet(q).length > 1; }
+  function fmtTime(secs) {
+    secs = Math.round(secs);
+    const m = Math.floor(secs / 60), s = secs % 60;
+    return m > 0 ? (m + "m " + s + "s") : (s + "s");
+  }
+  function fmtClock(secs) {
+    secs = Math.max(0, Math.round(secs));
+    const m = Math.floor(secs / 60), s = secs % 60;
+    return m + ":" + (s < 10 ? "0" : "") + s;
+  }
+  function getSelected(num) {
+    const a = state.answers[num];
+    return a ? a.split(",").map(s => s.trim().toUpperCase()).filter(Boolean) : [];
+  }
+  function setSelected(num, arr) {
+    if (!arr.length) delete state.answers[num]; else state.answers[num] = arr.join(",");
+    saveState();
+  }
+  function statusOf(q) {
+    const sel = getSelected(q.number);
+    if (!sel.length) return "unanswered";
+    const cs = correctSet(q);
+    return sel.slice().sort().join(",") === cs.slice().sort().join(",") ? "correct" : "incorrect";
+  }
+  function escapeHtml(s) {
+    return String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  }
+
+  // ---------- theme ----------
+  function applyTheme() {
+    const light = settings.theme === "light";
+    document.body.classList.toggle("light", light);
+    document.getElementById("themeBtn").textContent = light ? "☀️ Light" : "🌙 Dark";
+  }
+  function toggleTheme() {
+    settings.theme = settings.theme === "light" ? "dark" : "light";
+    saveState(); applyTheme();
+  }
+
+  // ---------- instant feedback ----------
+  function applyInstantBtn() {
+    const b = document.getElementById("instantBtn");
+    b.textContent = "✓ Instant Feedback: " + (settings.instant ? "On" : "Off");
+    b.classList.toggle("toggle-on", settings.instant);
+  }
+  function toggleInstant() {
+    settings.instant = !settings.instant;
+    saveState(); applyInstantBtn();
+    if (settings.instant) revealAnswer(); // reveal current immediately
+    else { document.getElementById("answerbox").classList.remove("show"); render(); }
+  }
+
+  // ---------- rendering ----------
+  function render() {
+    const q = curQ();
+    if (!q) return;
+    document.getElementById("qnum").textContent = "Question " + q.number;
+    document.getElementById("qpos").textContent = (pos + 1) + " of " + order.length +
+      (session.active ? " (exam)" : (shuffled ? " (shuffled)" : ""));
+    document.getElementById("qtype").textContent = isMulti(q) ? ("select " + correctSet(q).length) : "single answer";
+    document.getElementById("qtext").textContent = q.question;
+    document.getElementById("jumpInput").value = q.number;
+
+    const selected = getSelected(q.number);
+    const optWrap = document.getElementById("options");
+    optWrap.innerHTML = "";
+    Object.keys(q.options).forEach(function (letter) {
+      const div = document.createElement("div");
+      div.className = "opt";
+      if (selected.includes(letter)) div.classList.add("selected");
+      div.innerHTML = '<span class="letter">' + letter + '</span><span>' + escapeHtml(q.options[letter]) + '</span>';
+      div.addEventListener("click", function () { choose(letter); });
+      optWrap.appendChild(div);
+    });
+
+    document.getElementById("answerbox").classList.remove("show");
+    document.getElementById("prevBtn").disabled = pos === 0;
+    document.getElementById("nextBtn").disabled = pos === order.length - 1;
+    updateStats();
+  }
+
+  function choose(letter) {
+    const q = curQ();
+    let sel = getSelected(q.number);
+    if (isMulti(q)) {
+      if (sel.includes(letter)) sel = sel.filter(l => l !== letter); else sel.push(letter);
+    } else { sel = [letter]; }
+    setSelected(q.number, sel);
+    render();
+    if (settings.instant) revealAnswer();
+  }
+
+  function revealAnswer() {
+    const q = curQ();
+    const cs = correctSet(q), sel = getSelected(q.number);
+    Array.from(document.getElementById("options").children).forEach(function (el) {
+      const letter = el.querySelector(".letter").textContent;
+      el.classList.remove("selected", "correct", "incorrect");
+      if (cs.includes(letter)) el.classList.add("correct");
+      else if (sel.includes(letter)) el.classList.add("incorrect");
+    });
+    const box = document.getElementById("answerbox");
+    box.classList.add("show");
+    const verdict = document.getElementById("verdict");
+    const st = statusOf(q);
+    if (st === "unanswered") { verdict.textContent = "Not answered yet"; verdict.className = "verdict"; }
+    else if (st === "correct") { verdict.textContent = "✔ Correct"; verdict.className = "verdict good"; }
+    else { verdict.textContent = "✘ Incorrect"; verdict.className = "verdict bad"; }
+    document.getElementById("correctans").textContent = q.correct_answer;
+    document.getElementById("explanation").textContent = q.explanation;
+  }
+
+  function updateStats() {
+    const nums = activeNumbers();
+    const total = nums.length;
+    let answered = 0, score = 0;
+    nums.forEach(function (n) {
+      const q = DATA.find(x => x.number === n);
+      const st = statusOf(q);
+      if (st !== "unanswered") answered++;
+      if (st === "correct") score++;
+    });
+    const live = questionEnterTs ? (Date.now() - questionEnterTs) / 1000 : 0;
+    const totalTime = nums.reduce((a, n) => a + (state.time[n] || 0), 0) + live;
+    const q = curQ();
+    const curTime = (q ? (state.time[q.number] || 0) : 0) + live;
+
+    document.getElementById("st-answered").textContent = answered;
+    document.getElementById("st-total").textContent = total;
+    document.getElementById("st-score").textContent = score;
+    document.getElementById("st-qtime").textContent = fmtTime(curTime);
+    document.getElementById("st-total-time").textContent = fmtTime(totalTime);
+    document.getElementById("progressfill").style.width = (total ? (answered / total * 100) : 0) + "%";
+  }
+
+  function go(newPos) {
+    if (newPos < 0 || newPos >= order.length) return;
+    commitTime(); pos = newPos; startTimer(); render();
+  }
+  function gotoNumber(num) {
+    const dataIdx = DATA.findIndex(q => q.number === num);
+    if (dataIdx < 0) return;
+    const p = order.indexOf(dataIdx);
+    if (p >= 0) go(p);
+  }
+
+  // ---------- shuffle ----------
+  function setSequential() { order = DATA.map((_, i) => i); shuffled = false; }
+  function shuffleIndices(arr) {
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
+  }
+  function toggleShuffle() {
+    if (session.active) return;
+    commitTime();
+    if (shuffled) setSequential();
+    else { order = shuffleIndices(DATA.map((_, i) => i)); shuffled = true; }
+    pos = 0; startTimer();
+    const btn = document.getElementById("shuffleBtn");
+    btn.textContent = "🔀 Shuffle: " + (shuffled ? "On" : "Off");
+    btn.classList.toggle("toggle-on", shuffled);
+    render();
+  }
+
+  // ---------- random practice set / exam ----------
+  function startSession(n, timed) {
+    n = Math.min(n, DATA.length);
+    commitTime();
+    const chosen = shuffleIndices(DATA.map((_, i) => i)).slice(0, n);
+    order = chosen;
+    shuffled = false;
+    pos = 0;
+    timeUpFired = false;
+    session = { active: true, numbers: chosen.map(i => DATA[i].number), timed: !!timed, limitSec: n * SECS_PER_Q, startTs: Date.now() };
+    document.getElementById("shuffleBtn").classList.remove("toggle-on");
+    document.getElementById("shuffleBtn").textContent = "🔀 Shuffle: Off";
+    startTimer();
+    updateSessionBar();
+    render();
+  }
+  function endSession(auto) {
+    if (!session.active) return;
+    const numbers = session.numbers.slice();
+    const wasTimed = session.timed;
+    session.active = false;
+    updateSessionBar();
+    openResults(numbers, true, wasTimed, auto);
+    // restore full sequential set behind the results modal
+    setSequential(); pos = 0; startTimer(); render();
+  }
+  function updateSessionBar() {
+    const bar = document.getElementById("sessionBar");
+    const cd = document.getElementById("cd-wrap");
+    if (session.active) {
+      bar.style.display = "flex";
+      document.getElementById("sessionInfo").textContent =
+        "🎯 Practice exam · " + session.numbers.length + " questions · " +
+        (session.timed ? ("timed (" + fmtClock(session.limitSec) + ")") : "untimed");
+      cd.style.display = session.timed ? "inline" : "none";
+      document.getElementById("shuffleBtn").disabled = true;
+    } else {
+      bar.style.display = "none";
+      cd.style.display = "none";
+      document.getElementById("shuffleBtn").disabled = false;
+    }
+  }
+
+  // ---------- question list (short text rows) ----------
+  function openList() {
+    const wrap = document.getElementById("listRows");
+    wrap.innerHTML = "";
+    const set = new Set(activeNumbers());
+    const curNum = curQ().number;
+    DATA.filter(q => set.has(q.number)).forEach(function (q) {
+      const st = statusOf(q);
+      const row = document.createElement("div");
+      row.className = "lrow " + (st === "correct" ? "c" : st === "incorrect" ? "i" : "u");
+      if (q.number === curNum) row.classList.add("current");
+      const short = q.question.length > 90 ? q.question.slice(0, 90) + "…" : q.question;
+      row.innerHTML = '<span class="ln">' + q.number + '</span><span class="lt">' + escapeHtml(short) + '</span>';
+      row.addEventListener("click", function () {
+        gotoNumber(q.number);
+        document.getElementById("listOverlay").classList.remove("show");
+      });
+      wrap.appendChild(row);
+    });
+    document.getElementById("listOverlay").classList.add("show");
+  }
+
+  // ---------- results summary ----------
+  function openResults(scopeNumbers, isSession, wasTimed, auto) {
+    const nums = (scopeNumbers && scopeNumbers.length) ? scopeNumbers : DATA.map(q => q.number);
+    const qs = nums.map(n => DATA.find(q => q.number === n)).filter(Boolean);
+    const total = qs.length;
+    let correct = 0, incorrect = [], unanswered = [];
+    qs.forEach(function (q) {
+      const st = statusOf(q);
+      if (st === "correct") correct++;
+      else if (st === "incorrect") incorrect.push(q.number);
+      else unanswered.push(q.number);
+    });
+    const answered = total - unanswered.length;
+    const totalTime = nums.reduce((a, n) => a + (state.time[n] || 0), 0);
+    const avg = answered ? totalTime / answered : 0;
+    const accuracy = answered ? Math.round(correct / answered * 100) : 0;
+
+    document.getElementById("resultsScope").textContent = isSession
+      ? ("Practice exam result" + (wasTimed ? " · timed" : "") + (auto ? " · time expired" : ""))
+      : "Full question set (" + total + " questions)";
+
+    const boxes = [
+      [answered + "/" + total, "Answered"],
+      [correct, "Correct"],
+      [incorrect.length, "Incorrect"],
+      [accuracy + "%", "Accuracy"],
+      [fmtTime(totalTime), "Total time"],
+      [fmtTime(avg), "Avg / answered"]
+    ];
+    document.getElementById("summaryGrid").innerHTML = boxes.map(b =>
+      '<div class="stat-box"><div class="num">' + b[0] + '</div><div class="lbl">' + b[1] + '</div></div>').join("");
+
+    function chips(arr, cls) {
+      if (!arr.length) return '<span class="hint">None 🎉</span>';
+      return arr.map(n => '<span class="chip ' + cls + '" data-n="' + n + '">' + n + '</span>').join("");
+    }
+    document.getElementById("incorrectChips").innerHTML = chips(incorrect, "bad");
+    document.getElementById("unansweredChips").innerHTML = chips(unanswered, "");
+    document.querySelectorAll("#resultsOverlay .chip").forEach(function (c) {
+      c.addEventListener("click", function () {
+        gotoNumber(parseInt(c.getAttribute("data-n"), 10));
+        document.getElementById("resultsOverlay").classList.remove("show");
+      });
+    });
+    document.getElementById("resultsOverlay").classList.add("show");
+  }
+
+  // ---------- export ----------
+  function exportCsv() {
+    const rows = [["number", "your_answer", "correct_answer", "is_correct", "time_seconds"]];
+    DATA.forEach(function (q) {
+      const sel = getSelected(q.number), st = statusOf(q);
+      rows.push([q.number, sel.join(" "), q.correct_answer,
+        st === "correct" ? "yes" : (st === "incorrect" ? "no" : ""),
+        (state.time[q.number] || 0).toFixed(1)]);
+    });
+    const csv = rows.map(r => r.map(v => '"' + String(v).replace(/"/g, '""') + '"').join(",")).join("\n");
+    const blob = new Blob([csv], { type: "text/csv" });
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob); a.download = "quiz_results.csv"; a.click();
+  }
+
+  // ---------- reminder ----------
+  function showReminder() {
+    if (!DATA.length) return;
+    reminderQ = DATA[Math.floor(Math.random() * DATA.length)];
+    document.getElementById("r-qnum").textContent = "Question " + reminderQ.number;
+    document.getElementById("r-qtext").textContent = reminderQ.question;
+    const wrap = document.getElementById("r-options");
+    wrap.innerHTML = "";
+    Object.keys(reminderQ.options).forEach(function (letter) {
+      const div = document.createElement("div");
+      div.className = "opt";
+      div.innerHTML = '<span class="letter">' + letter + '</span><span>' + escapeHtml(reminderQ.options[letter]) + '</span>';
+      wrap.appendChild(div);
+    });
+    document.getElementById("r-answerbox").classList.remove("show");
+    document.getElementById("r-correctans").textContent = reminderQ.correct_answer;
+    document.getElementById("reminderOverlay").classList.add("show");
+  }
+
+  // ---------- init ----------
+  function initApp(data) {
+    DATA = data.slice().sort((a, b) => a.number - b.number);
+    setSequential();
+    document.getElementById("jumpInput").max = DATA.length;
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("app").style.display = "block";
+    loadState();
+    applyTheme();
+    applyInstantBtn();
+    pos = 0; startTimer(); render();
+
+    document.getElementById("prevBtn").onclick = () => go(pos - 1);
+    document.getElementById("nextBtn").onclick = () => go(pos + 1);
+    document.getElementById("clearBtn").onclick = function () { setSelected(curQ().number, []); render(); };
+    document.getElementById("showBtn").onclick = revealAnswer;
+    document.getElementById("jumpBtn").onclick = function () { gotoNumber(parseInt(document.getElementById("jumpInput").value, 10)); };
+    document.getElementById("jumpInput").addEventListener("keydown", function (e) { if (e.key === "Enter") document.getElementById("jumpBtn").click(); });
+
+    document.getElementById("themeBtn").onclick = toggleTheme;
+    document.getElementById("instantBtn").onclick = toggleInstant;
+    document.getElementById("listBtn").onclick = openList;
+    document.getElementById("listCloseBtn").onclick = () => document.getElementById("listOverlay").classList.remove("show");
+    document.getElementById("resultsBtn").onclick = () => openResults(session.active ? session.numbers : null, session.active, session.timed, false);
+    document.getElementById("resultsCloseBtn").onclick = () => document.getElementById("resultsOverlay").classList.remove("show");
+    document.getElementById("shuffleBtn").onclick = toggleShuffle;
+    document.getElementById("finishBtn").onclick = () => endSession(false);
+
+    document.querySelectorAll(".exam").forEach(function (b) {
+      b.onclick = function () {
+        const n = parseInt(b.getAttribute("data-n"), 10);
+        const timed = document.getElementById("timedChk").checked;
+        const msg = "Start a random " + n + "-question practice set" +
+          (timed ? (" with a " + fmtClock(n * SECS_PER_Q) + " time limit") : " (no time limit)") + "?";
+        if (confirm(msg)) startSession(n, timed);
+      };
+    });
+
+    document.getElementById("exportBtn").onclick = exportCsv;
+    document.getElementById("resetBtn").onclick = function () {
+      if (confirm("Reset all answers and timing data?")) {
+        const keepSettings = state.settings;
+        state = { answers: {}, time: {}, settings: keepSettings };
+        settings = state.settings;
+        saveState();
+        if (session.active) { session.active = false; updateSessionBar(); setSequential(); }
+        pos = 0; startTimer(); render();
+      }
+    };
+
+    ["listOverlay", "resultsOverlay", "reminderOverlay"].forEach(function (id) {
+      document.getElementById(id).addEventListener("click", function (e) {
+        if (e.target.id === id) e.currentTarget.classList.remove("show");
+      });
+    });
+
+    document.addEventListener("keydown", function (e) {
+      if (document.activeElement.tagName === "INPUT") return;
+      if (e.key === "ArrowLeft") go(pos - 1);
+      else if (e.key === "ArrowRight") go(pos + 1);
+      else if (e.key.toLowerCase() === "s") revealAnswer();
+      else if (e.key === "Escape") document.querySelectorAll(".overlay.show").forEach(o => o.classList.remove("show"));
+    });
+
+    document.getElementById("r-revealBtn").onclick = () => document.getElementById("r-answerbox").classList.add("show");
+    document.getElementById("r-gotoBtn").onclick = function () { gotoNumber(reminderQ.number); document.getElementById("reminderOverlay").classList.remove("show"); };
+    document.getElementById("r-closeBtn").onclick = () => document.getElementById("reminderOverlay").classList.remove("show");
+
+    setInterval(showReminder, REMINDER_MS);
+  }
+
+  function showFilePicker() {
+    document.getElementById("loader").textContent = "Waiting for file…";
+    document.getElementById("fileOverlay").classList.add("show");
+    document.getElementById("filePicker").addEventListener("change", function (e) {
+      const f = e.target.files[0];
+      if (!f) return;
+      const reader = new FileReader();
+      reader.onload = function () {
+        try {
+          const data = JSON.parse(reader.result);
+          document.getElementById("fileOverlay").classList.remove("show");
+          initApp(data);
+        } catch (err) { alert("Invalid JSON file."); }
+      };
+      reader.readAsText(f);
+    });
+  }
+
+  fetch("qa_dataset.json")
+    .then(r => { if (!r.ok) throw new Error("no"); return r.json(); })
+    .then(initApp)
+    .catch(showFilePicker);
+
+})();
+</script>
+</body>
+</html>
