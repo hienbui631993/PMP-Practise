@@ -177,6 +177,7 @@
       <div class="qmeta">
         <span class="qnum" id="qnum">Question 1</span>
         <span>
+          <a id="watchLink" target="_blank" rel="noopener" class="badge" style="text-decoration:none; color:var(--accent); border-color:var(--accent); display:none">▶ Watch</a>
           <span class="badge" id="qpos"></span>
           <span class="badge" id="qtype">single answer</span>
         </span>
@@ -418,6 +419,12 @@
     document.getElementById("qpos").textContent = (pos + 1) + " of " + order.length +
       (session.active ? " (exam)" : (shuffled ? " (shuffled)" : ""));
     document.getElementById("qtype").textContent = isMulti(q) ? ("select " + correctSet(q).length) : "single answer";
+    var wl = document.getElementById("watchLink");
+    if (q.video_time != null) {
+      wl.style.display = "";
+      wl.href = "https://www.youtube.com/watch?v=1sWpc6765AI&t=" + q.video_time + "s";
+      wl.textContent = "▶ Watch " + fmtClock(q.video_time);
+    } else { wl.style.display = "none"; }
     document.getElementById("qtext").textContent = q.question;
     document.getElementById("jumpInput").value = q.number;
 

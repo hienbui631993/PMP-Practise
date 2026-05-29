@@ -155,6 +155,7 @@
         <button id="fcKnown" class="small">✅ Mark "Known"</button>
       </div>
       <div class="small-muted" id="fcProgress"></div>
+      <div id="fcWatch"></div>
     </div>
   </section>
 
@@ -169,7 +170,7 @@
     <div class="qcard">
       <div class="qmeta">
         <span><b id="qPos"></b></span>
-        <span class="badge" id="qCat"></span>
+        <span><a id="qWatch" target="_blank" rel="noopener" class="badge" style="text-decoration:none;color:var(--accent);border-color:var(--accent);display:none">▶ Watch</a> <span class="badge" id="qCat"></span></span>
       </div>
       <div style="font-weight:600; margin-bottom:6px" id="qPrinciple"></div>
       <div id="qText" style="margin-bottom:14px"></div>
@@ -204,6 +205,7 @@
     <div class="badge" id="dCat" style="margin-bottom:8px"></div>
     <div style="color:var(--accent2); font-weight:600; margin-bottom:8px" id="dKey"></div>
     <div id="dKnow"></div>
+    <div id="dWatch" style="margin-top:10px"></div>
     <div class="close-row">
       <button id="dLearn" class="small">Open in Learn</button>
       <button id="dClose" class="small primary">Close</button>
@@ -235,6 +237,10 @@
   function save(){ try{ localStorage.setItem(LS, JSON.stringify(state)); }catch(e){} }
   function esc(s){ return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
   function byNum(n){ return DATA.find(p=>p.number===n); }
+  const PVID="-u0rO-YQr9c";
+  function fmtClock(s){ s=Math.max(0,Math.round(s||0)); var m=Math.floor(s/60),x=s%60; return m+":"+(x<10?"0":"")+x; }
+  function ytLink(p){ return "https://www.youtube.com/watch?v="+PVID+"&t="+(p.video_time||0)+"s"; }
+  function watchHTML(p){ return (p.video_time!=null)?'<a href="'+ytLink(p)+'" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none;font-weight:600">▶ Watch '+fmtClock(p.video_time)+'</a>':''; }
 
   // ---- theme ----
   function applyTheme(){ const l=state.theme==="light"; document.body.classList.toggle("light",l);
@@ -267,7 +273,8 @@
         const c=document.createElement("div"); c.className="pcard"; c.id="learn-"+p.number;
         c.innerHTML='<h3><span class="num">'+p.number+'.</span>'+esc(p.title)+'</h3>'+
           '<div class="key">💡 '+esc(p.key_point)+'</div>'+
-          '<div class="know">'+esc(p.knowledge)+'</div>';
+          '<div class="know">'+esc(p.knowledge)+'</div>'+
+          '<div style="margin-top:8px">'+watchHTML(p)+'</div>';
         wrap.appendChild(c);
       });
     });
@@ -304,6 +311,7 @@
         '<div class="lbl">Why</div><div style="font-size:14px">'+esc(p.explanation)+'</div>';
     }
     document.getElementById("fcProgress").textContent="Card "+(fcPos+1)+" of "+fcOrder.length;
+    document.getElementById("fcWatch").innerHTML=watchHTML(p);
   }
   function flip(){ fcFlipped=!fcFlipped; document.getElementById("fcInner").classList.toggle("flipped",fcFlipped); }
   function fcGo(d){ fcPos=(fcPos+d+fcOrder.length)%fcOrder.length; renderCard(); }
@@ -318,6 +326,8 @@
     const p=byNum(qOrder[qPos]); if(!p) return;
     document.getElementById("qPos").textContent="Question "+(qPos+1)+" of "+qOrder.length+" (Principle "+p.number+")";
     document.getElementById("qCat").textContent=p.category;
+    var qw=document.getElementById("qWatch");
+    if(p.video_time!=null){ qw.style.display=""; qw.href=ytLink(p); qw.textContent="▶ Watch "+fmtClock(p.video_time); } else qw.style.display="none";
     document.getElementById("qPrinciple").textContent="";
     document.getElementById("qText").textContent=p.question;
     const sel=qSel(p.number);
@@ -374,6 +384,7 @@
     document.getElementById("dCat").textContent=p.category;
     document.getElementById("dKey").textContent="💡 "+p.key_point;
     document.getElementById("dKnow").textContent=p.knowledge;
+    document.getElementById("dWatch").innerHTML=watchHTML(p);
     document.getElementById("dLearn").onclick=()=>{ document.getElementById("detailOverlay").classList.remove("show");
       show("learn"); const el=document.getElementById("learn-"+n); if(el){ el.scrollIntoView({behavior:"smooth"}); el.style.outline="2px solid var(--accent)"; setTimeout(()=>el.style.outline="",1500);} };
     document.getElementById("detailOverlay").classList.add("show");

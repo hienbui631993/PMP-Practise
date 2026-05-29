@@ -13,7 +13,8 @@
       "D": "Continue with the current Sprint and address the CMO's concerns during the next project phase."
     },
     "correct_answer": "B",
-    "explanation": "A new stakeholder must be assessed by meeting with them (ideally face-to-face) to understand their concerns and impact, then updating the stakeholder register, which is maintained throughout the project. The other options ignore or defer the new stakeholder."
+    "explanation": "A new stakeholder must be assessed by meeting with them (ideally face-to-face) to understand their concerns and impact, then updating the stakeholder register, which is maintained throughout the project. The other options ignore or defer the new stakeholder.",
+    "video_time": 195
   },
   {
     "number": 2,
@@ -29,7 +30,8 @@
       "D": "Create a more detailed email template with charts and graphics."
     },
     "correct_answer": "B",
-    "explanation": "Different stakeholders need different, tailored communication channels, which improves engagement. A and D just intensify one channel, and C forces a single method that not everyone can attend."
+    "explanation": "Different stakeholders need different, tailored communication channels, which improves engagement. A and D just intensify one channel, and C forces a single method that not everyone can attend.",
+    "video_time": 405
   },
   {
     "number": 3,
@@ -45,7 +47,8 @@
       "D": "Schedule another meeting with all stakeholders to revisit the timeline."
     },
     "correct_answer": "C",
-    "explanation": "Your EI detects the director is upset; address it privately with that one person. A does nothing, and B and D involve everyone when only one person is affected."
+    "explanation": "Your EI detects the director is upset; address it privately with that one person. A does nothing, and B and D involve everyone when only one person is affected.",
+    "video_time": 638
   },
   {
     "number": 4,
@@ -61,7 +64,8 @@
       "D": "Ask the sales director to coordinate with them on your behalf."
     },
     "correct_answer": "B",
-    "explanation": "Indirectly impacted parties are still stakeholders, so add them to the register and communicate with them. A and C exclude impacted stakeholders, and D gives away your work."
+    "explanation": "Indirectly impacted parties are still stakeholders, so add them to the register and communicate with them. A and C exclude impacted stakeholders, and D gives away your work.",
+    "video_time": 927
   },
   {
     "number": 5,
@@ -77,7 +81,8 @@
       "D": "Explain that the scope is approved and any change requires a formal change control procedure."
     },
     "correct_answer": "A",
-    "explanation": "Since it asks what to do first, meet with the client to understand the business value before estimating (C) or routing them to change control (D). B dismisses the client outright."
+    "explanation": "Since it asks what to do first, meet with the client to understand the business value before estimating (C) or routing them to change control (D). B dismisses the client outright.",
+    "video_time": 1164
   },
   {
     "number": 6,
@@ -93,7 +98,8 @@
       "D": "Reject the request since it wasn't part of the original scope."
     },
     "correct_answer": "B",
-    "explanation": "Agile changes go to the product backlog via the product owner; there's no formal change control board (A), you don't add to the current Sprint (C), and the PM never rejects changes (D)."
+    "explanation": "Agile changes go to the product backlog via the product owner; there's no formal change control board (A), you don't add to the current Sprint (C), and the PM never rejects changes (D).",
+    "video_time": 1435
   },
   {
     "number": 7,
@@ -109,7 +115,8 @@
       "D": "Schedule a follow-up meeting to discuss the impact of the accelerated timeline."
     },
     "correct_answer": "B",
-    "explanation": "This is a traditional project (project sponsor), so the change must be submitted as a change request and assessed before proceeding. A implements the change immediately, and C acts without the formal change request."
+    "explanation": "This is a traditional project (project sponsor), so the change must be submitted as a change request and assessed before proceeding. A implements the change immediately, and C acts without the formal change request.",
+    "video_time": 1800
   },
   {
     "number": 8,
@@ -125,7 +132,8 @@
       "D": "Since it's simple, implement the feature now and document the change."
     },
     "correct_answer": "C",
-    "explanation": "Always assess a change's impact across the project before deciding. The PM can't approve changes (A), shouldn't tell people to wait (B), and shouldn't implement without assessment (D)."
+    "explanation": "Always assess a change's impact across the project before deciding. The PM can't approve changes (A), shouldn't tell people to wait (B), and shouldn't implement without assessment (D).",
+    "video_time": 1969
   },
   {
     "number": 9,
@@ -141,7 +149,8 @@
       "D": "Begin the migration on schedule but implement additional monitoring."
     },
     "correct_answer": "C",
-    "explanation": "Never act without a plan; create a plan for this major issue first. A acts without a plan, B jumps to postponing, and D proceeds despite a serious data-loss risk."
+    "explanation": "Never act without a plan; create a plan for this major issue first. A acts without a plan, B jumps to postponing, and D proceeds despite a serious data-loss risk.",
+    "video_time": 2194
   },
   {
     "number": 10,
@@ -157,7 +166,8 @@
       "D": "Consult with the development team about both architecture options before making your final recommendation."
     },
     "correct_answer": "D",
-    "explanation": "Even after researching, involve the team (the experts) before finalizing. A decides alone, B pushes it onto the sponsor without team input, and C unnecessarily delays."
+    "explanation": "Even after researching, involve the team (the experts) before finalizing. A decides alone, B pushes it onto the sponsor without team input, and C unnecessarily delays.",
+    "video_time": 2460
   },
   {
     "number": 11,
@@ -173,7 +183,8 @@
       "D": "Split the team's time across all three issues."
     },
     "correct_answer": "A",
-    "explanation": "Serve the overall project: a major security flaw could devastate the project and business, outweighing the shorter-term revenue issue (B) and the cosmetic bug (C). D contradicts the constraint of one issue this week."
+    "explanation": "Serve the overall project: a major security flaw could devastate the project and business, outweighing the shorter-term revenue issue (B) and the cosmetic bug (C). D contradicts the constraint of one issue this week.",
+    "video_time": 2656
   },
   {
     "number": 12,
@@ -189,7 +200,8 @@
       "D": "Facilitate a discussion between them to find a compromise on the testing timeline."
     },
     "correct_answer": "B",
-    "explanation": "Understand the root cause first via one-on-ones, then facilitate (D). A is harsh/tyrannical, and C fixes before understanding."
+    "explanation": "Understand the root cause first via one-on-ones, then facilitate (D). A is harsh/tyrannical, and C fixes before understanding.",
+    "video_time": 2859
   },
   {
     "number": 13,
@@ -205,7 +217,8 @@
       "D": "Facilitate a discussion between team members to fix the code error."
     },
     "correct_answer": "A",
-    "explanation": "It is happening now, so it's an issue (not a risk, ruling out B) and goes in the issue log first. C jumps to a resolution, and D would be the next step after logging it."
+    "explanation": "It is happening now, so it's an issue (not a risk, ruling out B) and goes in the issue log first. C jumps to a resolution, and D would be the next step after logging it.",
+    "video_time": 3091
   },
   {
     "number": 14,
@@ -221,7 +234,8 @@
       "D": "Consult the company's HIPAA compliance officer, review lessons learned from previous healthcare projects, and check organizational compliance procedures."
     },
     "correct_answer": "D",
-    "explanation": "Seek the subject matter expert (HIPAA compliance officer), lessons learned, and OPAs. You shouldn't decide alone on unfamiliar compliance (A), the sponsor isn't an SME (B), and the team may not be experts either (C)."
+    "explanation": "Seek the subject matter expert (HIPAA compliance officer), lessons learned, and OPAs. You shouldn't decide alone on unfamiliar compliance (A), the sponsor isn't an SME (B), and the team may not be experts either (C).",
+    "video_time": 3304
   },
   {
     "number": 15,
@@ -237,7 +251,8 @@
       "D": "Contact your sponsor to inform them of the threat and get guidance on how to proceed."
     },
     "correct_answer": "B",
-    "explanation": "Investigate first: review the deliverable and acceptance criteria before responding. A acts without analysis, and C/D give away a problem that's within your jurisdiction to handle."
+    "explanation": "Investigate first: review the deliverable and acceptance criteria before responding. A acts without analysis, and C/D give away a problem that's within your jurisdiction to handle.",
+    "video_time": 3517
   },
   {
     "number": 16,
@@ -253,7 +268,8 @@
       "D": "Reassure stakeholders the project is on track per schedule and ask them to trust it."
     },
     "correct_answer": "B",
-    "explanation": "Demonstrating working software lets stakeholders see and test progress. Reports (A) and verbal updates (C) only tell rather than show, and D simply asks for trust."
+    "explanation": "Demonstrating working software lets stakeholders see and test progress. Reports (A) and verbal updates (C) only tell rather than show, and D simply asks for trust.",
+    "video_time": 3724
   },
   {
     "number": 17,
@@ -269,7 +285,8 @@
       "D": "Escalate to senior leadership."
     },
     "correct_answer": "B",
-    "explanation": "Managing the team is within your authority, so resolve it yourself by facilitating. A, C, and D all give away a problem you should handle."
+    "explanation": "Managing the team is within your authority, so resolve it yourself by facilitating. A, C, and D all give away a problem you should handle.",
+    "video_time": 3931
   },
   {
     "number": 18,
@@ -285,7 +302,8 @@
       "D": "Reassign complex tasks to seniors and give juniors simpler tasks."
     },
     "correct_answer": "C",
-    "explanation": "Empower and coach the team (servant leadership). A dictates, B empowers an outsider instead of the team, and D removes growth opportunities from the team."
+    "explanation": "Empower and coach the team (servant leadership). A dictates, B empowers an outsider instead of the team, and D removes growth opportunities from the team.",
+    "video_time": 4116
   },
   {
     "number": 19,
@@ -301,7 +319,8 @@
       "D": "Escalate to the sponsor."
     },
     "correct_answer": "B",
-    "explanation": "Integrate by bringing all work streams together to align dependencies and timelines. A focuses on only one area, C pushes coordination off without your involvement, and D gives the work away."
+    "explanation": "Integrate by bringing all work streams together to align dependencies and timelines. A focuses on only one area, C pushes coordination off without your involvement, and D gives the work away.",
+    "video_time": 4341
   },
   {
     "number": 20,
@@ -317,7 +336,8 @@
       "D": "Create a high-level WBS based on your experience, then have the team add detail."
     },
     "correct_answer": "A",
-    "explanation": "The team are the experts who should break down the work, so wait and do it together. B and D have you decompose it yourself, and C gives it to one person instead of the team."
+    "explanation": "The team are the experts who should break down the work, so wait and do it together. B and D have you decompose it yourself, and C gives it to one person instead of the team.",
+    "video_time": 4517
   },
   {
     "number": 21,
@@ -333,7 +353,8 @@
       "D": "Create the schedule based on your experience but remain flexible to modify if the team finds constraints."
     },
     "correct_answer": "C",
-    "explanation": "Let the team determine both sequence and durations using their expertise. A, B, and D have you do most of the work rather than the team."
+    "explanation": "Let the team determine both sequence and durations using their expertise. A, B, and D have you do most of the work rather than the team.",
+    "video_time": 4745
   },
   {
     "number": 22,
@@ -349,7 +370,8 @@
       "D": "Discuss Sarah's performance decline with the team."
     },
     "correct_answer": "B",
-    "explanation": "Meet privately with Sarah to understand the cause. A forces measures, C reassigns prematurely, and D discusses one person's issue with the group."
+    "explanation": "Meet privately with Sarah to understand the cause. A forces measures, C reassigns prematurely, and D discusses one person's issue with the group.",
+    "video_time": 4877
   },
   {
     "number": 23,
@@ -365,7 +387,8 @@
       "D": "Focus on the team member's deliverable quality rather than time tracking since results matter more."
     },
     "correct_answer": "A",
-    "explanation": "Stay ethical and address the violation directly with documentation. B and D let the ethical problem continue, and C drags others into a single person's issue."
+    "explanation": "Stay ethical and address the violation directly with documentation. B and D let the ethical problem continue, and C drags others into a single person's issue.",
+    "video_time": 5047
   },
   {
     "number": 24,
@@ -381,7 +404,8 @@
       "D": "Rotate meeting leadership so juniors take turns presenting and leading discussions."
     },
     "correct_answer": "B",
-    "explanation": "Create a safe environment that encourages open disagreement and model it yourself. A keeps concerns private/anonymous (not open), and C/D don't open the environment for everyone to contribute."
+    "explanation": "Create a safe environment that encourages open disagreement and model it yourself. A keeps concerns private/anonymous (not open), and C/D don't open the environment for everyone to contribute.",
+    "video_time": 5341
   },
   {
     "number": 25,
@@ -397,7 +421,8 @@
       "D": "Discuss the request with the lead to understand their capacity and decline if it would compromise their focus on primary responsibilities."
     },
     "correct_answer": "D",
-    "explanation": "Work with the team member and protect their focus, declining if needed. A overworks them, and C adds training work on top of their full load."
+    "explanation": "Work with the team member and protect their focus, declining if needed. A overworks them, and C adds training work on top of their full load.",
+    "video_time": 5474
   },
   {
     "number": 26,
@@ -413,7 +438,8 @@
       "D": "Outsource the analytics components to an external vendor."
     },
     "correct_answer": "B",
-    "explanation": "Since the team already includes expertise, use peer learning so they teach each other. A trains everyone unnecessarily, and C/D bring in outsiders when the team can develop the skills."
+    "explanation": "Since the team already includes expertise, use peer learning so they teach each other. A trains everyone unnecessarily, and C/D bring in outsiders when the team can develop the skills.",
+    "video_time": 5581
   },
   {
     "number": 27,
@@ -429,7 +455,8 @@
       "D": "Reassign the problematic team member."
     },
     "correct_answer": "A",
-    "explanation": "Meet privately with the individual to understand the cause. B calls them out in front of everyone, C gives the issue away to HR, and D effectively removes them."
+    "explanation": "Meet privately with the individual to understand the cause. B calls them out in front of everyone, C gives the issue away to HR, and D effectively removes them.",
+    "video_time": 5785
   },
   {
     "number": 28,
@@ -445,7 +472,8 @@
       "D": "Work with the product owner to quickly prioritize the most critical features and document just those stories needed to start the Sprint."
     },
     "correct_answer": "D",
-    "explanation": "Work with the product owner (who owns the backlog) to prioritize and document enough to start, avoiding delay. A and B have the team do the product owner's job, and C delays unnecessarily."
+    "explanation": "Work with the product owner (who owns the backlog) to prioritize and document enough to start, avoiding delay. A and B have the team do the product owner's job, and C delays unnecessarily.",
+    "video_time": 5885
   },
   {
     "number": 29,
@@ -461,7 +489,8 @@
       "D": "Reorganize the work to minimize dependencies and let each site work independently."
     },
     "correct_answer": "B",
-    "explanation": "Because they're in the same city, collocation (face-to-face) is feasible and best. C likely adds overhead, and D splits the team apart instead of bringing them together. (If they were spread worldwide, A would be more appropriate.)"
+    "explanation": "Because they're in the same city, collocation (face-to-face) is feasible and best. C likely adds overhead, and D splits the team apart instead of bringing them together. (If they were spread worldwide, A would be more appropriate.)",
+    "video_time": 6264
   },
   {
     "number": 30,
@@ -477,7 +506,8 @@
       "D": "Divide teams into groups and implement agile in phases on a fixed schedule."
     },
     "correct_answer": "B",
-    "explanation": "Pilot, learn, refine, then roll out gradually. A is a chaotic big-bang, and C/D don't emphasize gathering lessons learned and refining."
+    "explanation": "Pilot, learn, refine, then roll out gradually. A is a chaotic big-bang, and C/D don't emphasize gathering lessons learned and refining.",
+    "video_time": 6360
   },
   {
     "number": 31,
@@ -493,7 +523,8 @@
       "D": "Pause development until the customer becomes available for regular feedback."
     },
     "correct_answer": "A",
-    "explanation": "Keep getting customer feedback, adjusting the schedule if needed, rather than pausing the whole project (D). B and C proceed without the essential customer input."
+    "explanation": "Keep getting customer feedback, adjusting the schedule if needed, rather than pausing the whole project (D). B and C proceed without the essential customer input.",
+    "video_time": 6608
   },
   {
     "number": 32,
@@ -509,7 +540,8 @@
       "D": "Facilitate sessions with stakeholders to define quality requirements (performance, stability, usability, reliability) before development begins."
     },
     "correct_answer": "D",
-    "explanation": "Quality is subjective, so define it with stakeholders before building. A and B start before quality is known, and C assumes defaults instead of asking the stakeholders."
+    "explanation": "Quality is subjective, so define it with stakeholders before building. A and B start before quality is known, and C assumes defaults instead of asking the stakeholders.",
+    "video_time": 6736
   },
   {
     "number": 33,
@@ -525,7 +557,8 @@
       "D": "Present the system to a customer representative or proxy who can preliminarily validate until the customer is ready."
     },
     "correct_answer": "D",
-    "explanation": "Get validation from a customer or proxy rather than deploying without it (A), proceeding without it (B), or waiting until the next phase and causing a long delay (C)."
+    "explanation": "Get validation from a customer or proxy rather than deploying without it (A), proceeding without it (B), or waiting until the next phase and causing a long delay (C).",
+    "video_time": 7024
   },
   {
     "number": 34,
@@ -541,7 +574,8 @@
       "D": "Organize a workshop where everyone can sketch ideas on a whiteboard."
     },
     "correct_answer": "D",
-    "explanation": "A whiteboard workshop is inclusive low-tech/high-touch for mixed backgrounds. A, B, and C are all more technical/digital and less inclusive."
+    "explanation": "A whiteboard workshop is inclusive low-tech/high-touch for mixed backgrounds. A, B, and C are all more technical/digital and less inclusive.",
+    "video_time": 7311
   },
   {
     "number": 35,
@@ -557,7 +591,8 @@
       "D": "Use historical data for initial estimates, then have technical leads validate."
     },
     "correct_answer": "C",
-    "explanation": "Bottom-up estimates from the people doing the work are most accurate. A and D rely on historical/top-down data, and B is only high-level."
+    "explanation": "Bottom-up estimates from the people doing the work are most accurate. A and D rely on historical/top-down data, and B is only high-level.",
+    "video_time": 7608
   },
   {
     "number": 36,
@@ -573,7 +608,8 @@
       "D": "Focus only on technical risks since those impact the cloud the most."
     },
     "correct_answer": "A",
-    "explanation": "Identify and document risks before starting the work. B and C begin work without knowing the risks, and D narrows risk identification to only technical risks."
+    "explanation": "Identify and document risks before starting the work. B and C begin work without knowing the risks, and D narrows risk identification to only technical risks.",
+    "video_time": 7708
   },
   {
     "number": 37,
@@ -589,7 +625,8 @@
       "D": "Begin implementing the changes right away."
     },
     "correct_answer": "C",
-    "explanation": "These are positive risks (opportunities) to document in the risk register with responses, rather than acting/changing scope without assessment (A, D) or jumping to a strategy meeting (B)."
+    "explanation": "These are positive risks (opportunities) to document in the risk register with responses, rather than acting/changing scope without assessment (A, D) or jumping to a strategy meeting (B).",
+    "video_time": 7896
   },
   {
     "number": 38,
@@ -605,7 +642,8 @@
       "D": "Accept the terms but add a bonus."
     },
     "correct_answer": "B",
-    "explanation": "Contracts should be fair and mutually beneficial. A and C keep one-sided terms, and D just adds icing to a lopsided contract."
+    "explanation": "Contracts should be fair and mutually beneficial. A and C keep one-sided terms, and D just adds icing to a lopsided contract.",
+    "video_time": 8085
   },
   {
     "number": 39,
@@ -621,7 +659,8 @@
       "D": "Focus on completing the current deliverable first, then schedule time after release."
     },
     "correct_answer": "B",
-    "explanation": "Capture lessons learned immediately in the register. A and D wait too long, and C keeps them informal/undocumented."
+    "explanation": "Capture lessons learned immediately in the register. A and D wait too long, and C keeps them informal/undocumented.",
+    "video_time": 8285
   },
   {
     "number": 40,
@@ -637,7 +676,8 @@
       "D": "Document the project status and outstanding items, then hand over closure to operations."
     },
     "correct_answer": "B",
-    "explanation": "Even cancelled projects must be formally closed (contracts, equipment, financial reconciliation). A, C, and D skip or hand off proper formal closure."
+    "explanation": "Even cancelled projects must be formally closed (contracts, equipment, financial reconciliation). A, C, and D skip or hand off proper formal closure.",
+    "video_time": 8486
   },
   {
     "number": 41,
@@ -653,7 +693,8 @@
       "D": "Schedule regular sessions to discuss and reinforce how the technical work connects to the overall vision."
     },
     "correct_answer": "D",
-    "explanation": "Reinforce the vision with the team yourself. A does nothing, B brings in someone else to do your job, and writing user stories (C) isn't the PM's role."
+    "explanation": "Reinforce the vision with the team yourself. A does nothing, B brings in someone else to do your job, and writing user stories (C) isn't the PM's role.",
+    "video_time": 8686
   },
   {
     "number": 42,
@@ -669,7 +710,8 @@
       "D": "Document the different expectations and plan to address them through multiple success criteria."
     },
     "correct_answer": "A",
-    "explanation": "Align everyone on measurable success and failure criteria. B does nothing, C focuses on one dimension, and D documents differences without creating a shared definition."
+    "explanation": "Align everyone on measurable success and failure criteria. B does nothing, C focuses on one dimension, and D documents differences without creating a shared definition.",
+    "video_time": 8858
   },
   {
     "number": 43,
@@ -685,7 +727,8 @@
       "D": "Replace the retrospective with a celebration of the successful Sprint."
     },
     "correct_answer": "C",
-    "explanation": "Always hold the full retrospective; continuous improvement is possible even after success. A and D skip it, and B shortchanges it."
+    "explanation": "Always hold the full retrospective; continuous improvement is possible even after success. A and D skip it, and B shortchanges it.",
+    "video_time": 9021
   },
   {
     "number": 44,
@@ -701,7 +744,8 @@
       "D": "Schedule a detailed post-mortem of the first module to conduct after the second."
     },
     "correct_answer": "A",
-    "explanation": "Apply the lessons immediately to the next module. B and D defer applying them, and C ignores the improvements entirely."
+    "explanation": "Apply the lessons immediately to the next module. B and D defer applying them, and C ignores the improvements entirely.",
+    "video_time": 9128
   },
   {
     "number": 45,
@@ -717,7 +761,8 @@
       "D": "Seek a balanced approach that partially addresses both, accepting smaller overruns in each."
     },
     "correct_answer": "C",
-    "explanation": "On a traditional project, address the budget first with cost-reduction measures, then the schedule. A accepts the overrun, B just adds funding, and D leaves both partially unresolved."
+    "explanation": "On a traditional project, address the budget first with cost-reduction measures, then the schedule. A accepts the overrun, B just adds funding, and D leaves both partially unresolved.",
+    "video_time": 9230
   },
   {
     "number": 46,
@@ -733,7 +778,8 @@
       "D": "Work on all delays simultaneously."
     },
     "correct_answer": "A",
-    "explanation": "Only critical-path delays move the end date, so prioritize those. B and C react to importance/longest delay rather than the critical path, and D spreads resources too thin."
+    "explanation": "Only critical-path delays move the end date, so prioritize those. B and C react to importance/longest delay rather than the critical path, and D spreads resources too thin.",
+    "video_time": 9464
   },
   {
     "number": 47,
@@ -749,7 +795,8 @@
       "D": "Never make significant changes without first conducting thorough analysis."
     },
     "correct_answer": "C",
-    "explanation": "C avoids absolutes and correctly tailors communication to each stakeholder. A and B use absolutes (always/all), and D, while sound, uses 'never' and is about changes rather than the communication the question asks about."
+    "explanation": "C avoids absolutes and correctly tailors communication to each stakeholder. A and B use absolutes (always/all), and D, while sound, uses 'never' and is about changes rather than the communication the question asks about.",
+    "video_time": 9697
   },
   {
     "number": 48,
@@ -765,7 +812,8 @@
       "D": "Contact the vendor to understand the issue."
     },
     "correct_answer": "D",
-    "explanation": "Be proactive and contact the vendor. A, B, and C all do nothing and let the problem keep progressing."
+    "explanation": "Be proactive and contact the vendor. A, B, and C all do nothing and let the problem keep progressing.",
+    "video_time": 9862
   },
   {
     "number": 49,
@@ -781,7 +829,8 @@
       "D": "Deploy to a limited user group first to test the security risk in a controlled way."
     },
     "correct_answer": "B",
-    "explanation": "Never release a known security vulnerability; delaying to fix it is the best of imperfect options. A, C, and D all push the vulnerability to users."
+    "explanation": "Never release a known security vulnerability; delaying to fix it is the best of imperfect options. A, C, and D all push the vulnerability to users.",
+    "video_time": 10006
   },
   {
     "number": 50,
@@ -797,6 +846,7 @@
       "D": "Add the feature to the backlog for the next phase, acknowledging its value while maintaining current commitments."
     },
     "correct_answer": "C",
-    "explanation": "When no option is clearly perfect, negotiating a compromise (a simplified version) is the best of the four. A just implements despite the tight timeline, B declines outright, and D defers it entirely."
+    "explanation": "When no option is clearly perfect, negotiating a compromise (a simplified version) is the best of the four. A just implements despite the tight timeline, B declines outright, and D defers it entirely.",
+    "video_time": 10234
   }
 ]
