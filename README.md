@@ -7,10 +7,21 @@ question dataset it runs on.
 
 | File | Description |
 |------|-------------|
-| `quiz.html` | The quiz app (no build step — open in a browser). |
+| `quiz.html` | The 200-question quiz app (no build step — open in a browser). |
 | `qa_dataset.json` | 200 PMP practice questions: `number`, `question`, `options` (A–E), `correct_answer`, `explanation`. |
-| `200 untra hard transcript.md` | Source transcript the dataset was extracted from. |
+| `principles.html` | The 50 Mindset Principles study app — Learn, Flashcards, Quiz, and Mind Map modes. |
+| `principles_dataset.json` | 50 PMP mindset principles: `number`, `title`, `category`, `key_point`, `knowledge`, plus a practice `question`/`options`/`correct_answer`/`explanation`. |
+| `200 untra hard transcript.md` | Source transcript for the question dataset. |
+| `50 Principles.md` | Source transcript for the principles dataset. |
 | `progress.md` | Extraction progress log. |
+
+## 50 Mindset Principles app (`principles.html`)
+
+- **Learn** — all 50 principles grouped by category, with a key idea + explanation, searchable.
+- **Flashcards** — two modes: *Principle → meaning* and *Scenario → apply*; flip, shuffle, mark Known / Need-review, review-only filter.
+- **Quiz** — one practice question per principle with instant scoring and explanations.
+- **Mind Map** — central node → 11 category branches → principle leaves; click a leaf for its key idea.
+- Dark/light theme, progress saved to localStorage.
 
 ## Features
 

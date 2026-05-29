@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>PMP 50 Mindset Principles</title>
+<style>
+  :root {
+    --bg:#0f172a; --card:#1e293b; --card2:#273449; --text:#e2e8f0; --muted:#94a3b8;
+    --accent:#a78bfa; --accent2:#38bdf8; --ink:#1e1b4b; --good:#22c55e; --bad:#ef4444;
+    --border:#334155; --good-bg:#14321f; --bad-bg:#3a1a1a; --sel-bg:#2a3b54;
+  }
+  body.light {
+    --bg:#eef2f7; --card:#ffffff; --card2:#f1f5f9; --text:#0f172a; --muted:#64748b;
+    --accent:#7c3aed; --accent2:#0284c7; --ink:#ffffff; --good:#16a34a; --bad:#dc2626;
+    --border:#cbd5e1; --good-bg:#dcfce7; --bad-bg:#fee2e2; --sel-bg:#ede9fe;
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; background:var(--bg); color:var(--text); line-height:1.5; transition:background .2s,color .2s; }
+  header { background:var(--card); border-bottom:1px solid var(--border); position:sticky; top:0; z-index:10; padding:12px 20px; }
+  .topbar { display:flex; flex-wrap:wrap; gap:12px; align-items:center; justify-content:space-between; }
+  h1 { font-size:18px; margin:0; color:var(--accent); }
+  .tabs { display:flex; gap:6px; flex-wrap:wrap; }
+  .tab { background:var(--card2); border:1px solid var(--border); color:var(--text); padding:8px 14px; border-radius:8px; cursor:pointer; font-size:14px; }
+  .tab.active { background:var(--accent); color:var(--ink); border-color:var(--accent); font-weight:700; }
+  button { background:var(--card2); color:var(--text); border:1px solid var(--border); padding:8px 14px; border-radius:8px; cursor:pointer; font-size:14px; }
+  button:hover { border-color:var(--accent); }
+  button:disabled { opacity:.4; cursor:not-allowed; }
+  button.primary { background:var(--accent); color:var(--ink); border-color:var(--accent); font-weight:700; }
+  button.small { padding:6px 10px; font-size:13px; }
+  button.toggle-on { background:var(--good-bg); border-color:var(--good); color:var(--good); }
+  .small-muted { font-size:12px; color:var(--muted); }
+  main { max-width:920px; margin:22px auto; padding:0 16px; }
+  .loader { text-align:center; padding:60px; color:var(--muted); }
+  input[type=text],input[type=search]{ background:var(--card2); border:1px solid var(--border); color:var(--text); border-radius:8px; padding:9px 12px; width:100%; }
+  .row { display:flex; gap:10px; flex-wrap:wrap; align-items:center; }
+  .spacer { flex:1; }
+  .badge { font-size:11px; padding:2px 8px; border-radius:999px; background:var(--card2); border:1px solid var(--border); color:var(--muted); }
+
+  /* Learn */
+  .section-title { margin:22px 0 10px; font-size:14px; letter-spacing:.04em; text-transform:uppercase; color:var(--accent2); border-bottom:1px solid var(--border); padding-bottom:6px; }
+  .pcard { background:var(--card); border:1px solid var(--border); border-left:4px solid var(--accent); border-radius:10px; padding:14px 16px; margin-bottom:10px; }
+  .pcard h3 { margin:0 0 4px; font-size:16px; }
+  .pcard .num { color:var(--accent); font-weight:800; margin-right:6px; }
+  .pcard .key { color:var(--accent2); font-weight:600; margin:4px 0; }
+  .pcard .know { color:var(--text); font-size:14px; }
+
+  /* Flashcards */
+  .fc-wrap { display:flex; flex-direction:column; align-items:center; gap:14px; }
+  .flashcard { width:100%; max-width:680px; min-height:300px; perspective:1200px; }
+  .fc-inner { position:relative; width:100%; min-height:300px; transition:transform .5s; transform-style:preserve-3d; }
+  .fc-inner.flipped { transform:rotateY(180deg); }
+  .fc-face { position:absolute; inset:0; backface-visibility:hidden; background:var(--card); border:1px solid var(--border); border-radius:14px; padding:26px; display:flex; flex-direction:column; }
+  .fc-back { transform:rotateY(180deg); }
+  .fc-tag { font-size:12px; color:var(--muted); margin-bottom:10px; }
+  .fc-front-text { font-size:20px; font-weight:600; margin:auto 0; }
+  .fc-back .lbl { font-size:12px; text-transform:uppercase; letter-spacing:.04em; color:var(--accent2); margin-top:8px; }
+  .fc-hint { color:var(--muted); font-size:13px; text-align:center; }
+  .fc-status { font-size:12px; }
+  .ca { color:var(--good); font-weight:700; }
+
+  /* Quiz */
+  .qcard { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:20px; }
+  .qmeta { display:flex; justify-content:space-between; gap:8px; font-size:13px; color:var(--muted); margin-bottom:10px; }
+  .opts { display:flex; flex-direction:column; gap:9px; }
+  .opt { display:flex; gap:10px; padding:11px 13px; border:1px solid var(--border); border-radius:8px; background:var(--card2); cursor:pointer; }
+  .opt:hover { border-color:var(--accent); }
+  .opt .l { font-weight:700; color:var(--accent); min-width:16px; }
+  .opt.selected { border-color:var(--accent); background:var(--sel-bg); }
+  .opt.correct { border-color:var(--good); background:var(--good-bg); }
+  .opt.incorrect { border-color:var(--bad); background:var(--bad-bg); }
+  .ansbox { margin-top:14px; padding:12px 14px; border-radius:8px; background:var(--card2); border-left:4px solid var(--accent2); display:none; }
+  .ansbox.show { display:block; }
+  .verdict { font-weight:700; margin-bottom:4px; }
+  .verdict.good{color:var(--good);} .verdict.bad{color:var(--bad);}
+
+  /* Mind map */
+  .mm-root { text-align:center; margin:8px auto 4px; }
+  .mm-root .node { display:inline-block; background:var(--accent); color:var(--ink); font-weight:800; padding:12px 22px; border-radius:12px; font-size:16px; }
+  .mm-stem { width:2px; height:18px; background:var(--border); margin:0 auto; }
+  .mm-branches { display:grid; grid-template-columns:repeat(auto-fill,minmax(260px,1fr)); gap:14px; }
+  .mm-branch { background:var(--card); border:1px solid var(--border); border-top:4px solid var(--accent2); border-radius:12px; padding:12px 14px; }
+  .mm-branch h4 { margin:0 0 8px; font-size:14px; color:var(--accent2); display:flex; justify-content:space-between; align-items:center; cursor:pointer; }
+  .mm-branch h4 .cnt { font-size:11px; color:var(--muted); }
+  .mm-leaves { display:flex; flex-direction:column; gap:6px; }
+  .leaf { display:flex; gap:8px; align-items:flex-start; padding:7px 9px; border:1px solid var(--border); border-radius:7px; background:var(--card2); cursor:pointer; font-size:13px; }
+  .leaf:hover { border-color:var(--accent); }
+  .leaf .ln { font-weight:700; color:var(--accent); min-width:20px; }
+
+  /* Modal */
+  .overlay { position:fixed; inset:0; background:rgba(0,0,0,.6); display:none; align-items:center; justify-content:center; z-index:100; padding:16px; }
+  .overlay.show { display:flex; }
+  .modal { background:var(--card); border:1px solid var(--border); border-radius:12px; max-width:620px; width:100%; padding:22px; max-height:88vh; overflow:auto; }
+  .modal h2 { margin:0 0 8px; font-size:17px; color:var(--accent); }
+  .close-row { display:flex; justify-content:flex-end; margin-top:14px; }
+  .hide { display:none; }
+</style>
+</head>
+<body>
+<header>
+  <div class="topbar">
+    <h1>🧠 PMP 50 Mindset Principles</h1>
+    <div class="row">
+      <div class="tabs">
+        <button class="tab active" data-view="learn">📖 Learn</button>
+        <button class="tab" data-view="cards">🃏 Flashcards</button>
+        <button class="tab" data-view="quiz">❓ Quiz</button>
+        <button class="tab" data-view="map">🗺️ Mind Map</button>
+      </div>
+      <a href="index.html" class="small" style="text-decoration:none; color:var(--text); background:var(--card2); border:1px solid var(--border); padding:7px 12px; border-radius:8px;">🏠 Home</a>
+      <button id="themeBtn" class="small">🌙 Dark</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div id="loader" class="loader">Loading principles…</div>
+
+  <!-- LEARN -->
+  <section id="view-learn" class="hide">
+    <div class="row" style="margin-bottom:8px">
+      <input type="search" id="learnSearch" placeholder="Search principles by title, idea, or category…" />
+    </div>
+    <div id="learnList"></div>
+  </section>
+
+  <!-- FLASHCARDS -->
+  <section id="view-cards" class="hide">
+    <div class="row" style="margin-bottom:14px">
+      <span class="small-muted">Mode:</span>
+      <button id="modePrinciple" class="small toggle-on">Principle → meaning</button>
+      <button id="modeScenario" class="small">Scenario → apply</button>
+      <span class="spacer"></span>
+      <label class="small-muted"><input type="checkbox" id="reviewOnly" /> Review only</label>
+      <button id="fcShuffle" class="small">🔀 Shuffle</button>
+    </div>
+    <div class="fc-wrap">
+      <div class="flashcard" id="flashcard">
+        <div class="fc-inner" id="fcInner">
+          <div class="fc-face fc-front">
+            <div class="fc-tag" id="fcFrontTag"></div>
+            <div class="fc-front-text" id="fcFrontText"></div>
+            <div class="fc-hint">Click card / press Space to flip</div>
+          </div>
+          <div class="fc-face fc-back" id="fcBack"></div>
+        </div>
+      </div>
+      <div class="row" style="justify-content:center; width:100%">
+        <button id="fcPrev">◀ Prev</button>
+        <button id="fcFlip" class="primary">Flip</button>
+        <button id="fcNext">Next ▶</button>
+      </div>
+      <div class="row" style="justify-content:center; width:100%">
+        <button id="fcReview" class="small">🔁 Mark "Need review"</button>
+        <button id="fcKnown" class="small">✅ Mark "Known"</button>
+      </div>
+      <div class="small-muted" id="fcProgress"></div>
+    </div>
+  </section>
+
+  <!-- QUIZ -->
+  <section id="view-quiz" class="hide">
+    <div class="row" style="margin-bottom:10px">
+      <span class="small-muted">Score: <b id="qScore">0</b> correct / <b id="qAnswered">0</b> answered</span>
+      <span class="spacer"></span>
+      <button id="quizShuffle" class="small">🔀 Shuffle</button>
+      <button id="quizReset" class="small">🗑 Reset</button>
+    </div>
+    <div class="qcard">
+      <div class="qmeta">
+        <span><b id="qPos"></b></span>
+        <span class="badge" id="qCat"></span>
+      </div>
+      <div style="font-weight:600; margin-bottom:6px" id="qPrinciple"></div>
+      <div id="qText" style="margin-bottom:14px"></div>
+      <div class="opts" id="qOpts"></div>
+      <div class="ansbox" id="qAns">
+        <div class="verdict" id="qVerdict"></div>
+        <div>Correct: <span class="ca" id="qCorrect"></span></div>
+        <div id="qExpl" style="margin-top:6px"></div>
+      </div>
+      <div class="row" style="margin-top:16px">
+        <button id="qPrev">◀ Prev</button>
+        <button id="qNext">Next ▶</button>
+        <button id="qClear">Clear</button>
+        <button id="qShow" class="primary">Show Answer</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- MIND MAP -->
+  <section id="view-map" class="hide">
+    <div class="mm-root"><span class="node">PMP Mindset · 50 Principles</span></div>
+    <div class="mm-stem"></div>
+    <div class="mm-branches" id="mmBranches"></div>
+    <p class="small-muted" style="margin-top:14px">Click a category to collapse/expand · click a principle to see its key idea.</p>
+  </section>
+</main>
+
+<!-- detail modal (mind map / leaf) -->
+<div class="overlay" id="detailOverlay">
+  <div class="modal">
+    <h2 id="dTitle"></h2>
+    <div class="badge" id="dCat" style="margin-bottom:8px"></div>
+    <div style="color:var(--accent2); font-weight:600; margin-bottom:8px" id="dKey"></div>
+    <div id="dKnow"></div>
+    <div class="close-row">
+      <button id="dLearn" class="small">Open in Learn</button>
+      <button id="dClose" class="small primary">Close</button>
+    </div>
+  </div>
+</div>
+
+<!-- file picker fallback -->
+<div class="overlay" id="fileOverlay">
+  <div class="modal">
+    <h2>Load principles data</h2>
+    <p>Could not auto-load <code>principles_dataset.json</code> (browsers block local file reads when opened directly).</p>
+    <input type="file" id="filePicker" accept=".json" />
+    <p class="small-muted">Or run <code>python -m http.server</code> in this folder and open via http://localhost:8000/principles.html</p>
+  </div>
+</div>
+
+<script>
+(function () {
+  "use strict";
+  const LS = "pmp_principles_v1";
+  let DATA = [];
+  let state = { theme:"dark", fc:{ status:{} }, quiz:{ answers:{} } };
+
+  // ---- persistence ----
+  function load(){ try{ const r=localStorage.getItem(LS); if(r) state=JSON.parse(r);}catch(e){}
+    state.theme=state.theme||"dark"; state.fc=state.fc||{status:{}}; state.fc.status=state.fc.status||{};
+    state.quiz=state.quiz||{answers:{}}; state.quiz.answers=state.quiz.answers||{}; }
+  function save(){ try{ localStorage.setItem(LS, JSON.stringify(state)); }catch(e){} }
+  function esc(s){ return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
+  function byNum(n){ return DATA.find(p=>p.number===n); }
+
+  // ---- theme ----
+  function applyTheme(){ const l=state.theme==="light"; document.body.classList.toggle("light",l);
+    document.getElementById("themeBtn").textContent=l?"☀️ Light":"🌙 Dark"; }
+
+  // ---- tabs ----
+  function show(view){
+    ["learn","cards","quiz","map"].forEach(v=>{
+      document.getElementById("view-"+v).classList.toggle("hide", v!==view);
+    });
+    document.querySelectorAll(".tab").forEach(t=>t.classList.toggle("active", t.dataset.view===view));
+    if(view==="cards") renderCard();
+    if(view==="quiz") renderQuiz();
+    if(view==="map") renderMap();
+  }
+
+  // ================= LEARN =================
+  function renderLearn(){
+    const q=(document.getElementById("learnSearch").value||"").toLowerCase();
+    const wrap=document.getElementById("learnList"); wrap.innerHTML="";
+    const cats=[]; DATA.forEach(p=>{ if(!cats.includes(p.category)) cats.push(p.category); });
+    cats.forEach(cat=>{
+      const items=DATA.filter(p=>p.category===cat).filter(p=>{
+        if(!q) return true;
+        return (p.title+" "+p.knowledge+" "+p.key_point+" "+p.category).toLowerCase().includes(q);
+      });
+      if(!items.length) return;
+      const h=document.createElement("div"); h.className="section-title"; h.textContent=cat; wrap.appendChild(h);
+      items.forEach(p=>{
+        const c=document.createElement("div"); c.className="pcard"; c.id="learn-"+p.number;
+        c.innerHTML='<h3><span class="num">'+p.number+'.</span>'+esc(p.title)+'</h3>'+
+          '<div class="key">💡 '+esc(p.key_point)+'</div>'+
+          '<div class="know">'+esc(p.knowledge)+'</div>';
+        wrap.appendChild(c);
+      });
+    });
+    if(!wrap.children.length) wrap.innerHTML='<p class="small-muted">No principles match your search.</p>';
+  }
+
+  // ================= FLASHCARDS =================
+  let fcMode="principle", fcOrder=[], fcPos=0, fcFlipped=false;
+  function buildFcOrder(){
+    let list=DATA.map(p=>p.number);
+    if(document.getElementById("reviewOnly").checked) list=list.filter(n=>state.fc.status[n]==="review");
+    if(!list.length) list=DATA.map(p=>p.number); // avoid empty
+    fcOrder=list; if(fcPos>=fcOrder.length) fcPos=0;
+  }
+  function renderCard(){
+    buildFcOrder();
+    const p=byNum(fcOrder[fcPos]); if(!p) return;
+    fcFlipped=false; document.getElementById("fcInner").classList.remove("flipped");
+    const st=state.fc.status[p.number];
+    const stTxt = st==="known"?"✅ Known":(st==="review"?"🔁 Need review":"— not marked");
+    if(fcMode==="principle"){
+      document.getElementById("fcFrontTag").textContent="Principle "+p.number+" · "+p.category+"  ·  "+stTxt;
+      document.getElementById("fcFrontText").textContent=p.title;
+      document.getElementById("fcBack").innerHTML=
+        '<div class="fc-tag">Principle '+p.number+' — meaning</div>'+
+        '<div class="lbl">Key idea</div><div style="font-weight:600">'+esc(p.key_point)+'</div>'+
+        '<div class="lbl">Explanation</div><div style="font-size:14px">'+esc(p.knowledge)+'</div>';
+    } else {
+      document.getElementById("fcFrontTag").textContent="Apply the mindset · "+p.category+"  ·  "+stTxt;
+      document.getElementById("fcFrontText").textContent=p.question;
+      document.getElementById("fcBack").innerHTML=
+        '<div class="fc-tag">Principle '+p.number+': '+esc(p.title)+'</div>'+
+        '<div class="lbl">Best action</div><div style="font-weight:600">'+p.correct_answer+') '+esc(p.options[p.correct_answer])+'</div>'+
+        '<div class="lbl">Why</div><div style="font-size:14px">'+esc(p.explanation)+'</div>';
+    }
+    document.getElementById("fcProgress").textContent="Card "+(fcPos+1)+" of "+fcOrder.length;
+  }
+  function flip(){ fcFlipped=!fcFlipped; document.getElementById("fcInner").classList.toggle("flipped",fcFlipped); }
+  function fcGo(d){ fcPos=(fcPos+d+fcOrder.length)%fcOrder.length; renderCard(); }
+  function mark(s){ const p=byNum(fcOrder[fcPos]); state.fc.status[p.number]=s; save(); renderCard(); }
+
+  // ================= QUIZ =================
+  let qOrder=[], qPos=0;
+  function setQOrder(shuf){ qOrder=DATA.map(p=>p.number); if(shuf){ for(let i=qOrder.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [qOrder[i],qOrder[j]]=[qOrder[j],qOrder[i]]; } } if(qPos>=qOrder.length) qPos=0; }
+  function qSel(n){ return state.quiz.answers[n]||null; }
+  function renderQuiz(){
+    if(!qOrder.length) setQOrder(false);
+    const p=byNum(qOrder[qPos]); if(!p) return;
+    document.getElementById("qPos").textContent="Question "+(qPos+1)+" of "+qOrder.length+" (Principle "+p.number+")";
+    document.getElementById("qCat").textContent=p.category;
+    document.getElementById("qPrinciple").textContent="";
+    document.getElementById("qText").textContent=p.question;
+    const sel=qSel(p.number);
+    const wrap=document.getElementById("qOpts"); wrap.innerHTML="";
+    Object.keys(p.options).forEach(L=>{
+      const d=document.createElement("div"); d.className="opt"+(sel===L?" selected":"");
+      d.innerHTML='<span class="l">'+L+'</span><span>'+esc(p.options[L])+'</span>';
+      d.onclick=()=>{ state.quiz.answers[p.number]=L; save(); renderQuiz(); };
+      wrap.appendChild(d);
+    });
+    document.getElementById("qAns").classList.remove("show");
+    document.getElementById("qPrev").disabled=qPos===0;
+    document.getElementById("qNext").disabled=qPos===qOrder.length-1;
+    updateQuizScore();
+  }
+  function revealQuiz(){
+    const p=byNum(qOrder[qPos]); const sel=qSel(p.number);
+    Array.from(document.getElementById("qOpts").children).forEach(el=>{
+      const L=el.querySelector(".l").textContent; el.classList.remove("selected","correct","incorrect");
+      if(L===p.correct_answer) el.classList.add("correct");
+      else if(L===sel) el.classList.add("incorrect");
+    });
+    const v=document.getElementById("qVerdict");
+    if(!sel){ v.textContent="Not answered"; v.className="verdict"; }
+    else if(sel===p.correct_answer){ v.textContent="✔ Correct"; v.className="verdict good"; }
+    else { v.textContent="✘ Incorrect"; v.className="verdict bad"; }
+    document.getElementById("qCorrect").textContent=p.correct_answer+") "+p.options[p.correct_answer];
+    document.getElementById("qExpl").textContent=p.explanation;
+    document.getElementById("qAns").classList.add("show");
+  }
+  function updateQuizScore(){
+    let ans=0,sc=0; DATA.forEach(p=>{ const s=qSel(p.number); if(s){ans++; if(s===p.correct_answer)sc++;} });
+    document.getElementById("qScore").textContent=sc; document.getElementById("qAnswered").textContent=ans;
+  }
+
+  // ================= MIND MAP =================
+  function renderMap(){
+    const wrap=document.getElementById("mmBranches"); wrap.innerHTML="";
+    const cats=[]; DATA.forEach(p=>{ if(!cats.includes(p.category)) cats.push(p.category); });
+    cats.forEach(cat=>{
+      const items=DATA.filter(p=>p.category===cat);
+      const b=document.createElement("div"); b.className="mm-branch";
+      const leaves='<div class="mm-leaves">'+items.map(p=>
+        '<div class="leaf" data-n="'+p.number+'"><span class="ln">'+p.number+'</span><span>'+esc(p.title)+'</span></div>').join("")+'</div>';
+      b.innerHTML='<h4>'+esc(cat)+' <span class="cnt">'+items.length+'</span></h4>'+leaves;
+      b.querySelector("h4").onclick=()=>{ const lv=b.querySelector(".mm-leaves"); lv.style.display=lv.style.display==="none"?"flex":"none"; };
+      b.querySelectorAll(".leaf").forEach(l=>l.onclick=()=>openDetail(parseInt(l.dataset.n,10)));
+      wrap.appendChild(b);
+    });
+  }
+  function openDetail(n){
+    const p=byNum(n); if(!p) return;
+    document.getElementById("dTitle").textContent=p.number+". "+p.title;
+    document.getElementById("dCat").textContent=p.category;
+    document.getElementById("dKey").textContent="💡 "+p.key_point;
+    document.getElementById("dKnow").textContent=p.knowledge;
+    document.getElementById("dLearn").onclick=()=>{ document.getElementById("detailOverlay").classList.remove("show");
+      show("learn"); const el=document.getElementById("learn-"+n); if(el){ el.scrollIntoView({behavior:"smooth"}); el.style.outline="2px solid var(--accent)"; setTimeout(()=>el.style.outline="",1500);} };
+    document.getElementById("detailOverlay").classList.add("show");
+  }
+
+  // ================= INIT =================
+  function init(data){
+    DATA=data.slice().sort((a,b)=>a.number-b.number);
+    load(); applyTheme();
+    document.getElementById("loader").style.display="none";
+    show("learn"); renderLearn();
+
+    document.querySelectorAll(".tab").forEach(t=>t.onclick=()=>show(t.dataset.view));
+    document.getElementById("themeBtn").onclick=()=>{ state.theme=state.theme==="light"?"dark":"light"; save(); applyTheme(); };
+    document.getElementById("learnSearch").addEventListener("input", renderLearn);
+
+    // flashcards
+    document.getElementById("fcFlip").onclick=flip;
+    document.getElementById("fcInner").onclick=flip;
+    document.getElementById("fcPrev").onclick=()=>fcGo(-1);
+    document.getElementById("fcNext").onclick=()=>fcGo(1);
+    document.getElementById("fcShuffle").onclick=()=>{ for(let i=fcOrder.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[fcOrder[i],fcOrder[j]]=[fcOrder[j],fcOrder[i]];} fcPos=0; renderCard(); };
+    document.getElementById("fcKnown").onclick=()=>mark("known");
+    document.getElementById("fcReview").onclick=()=>mark("review");
+    document.getElementById("reviewOnly").onchange=()=>{ fcPos=0; renderCard(); };
+    document.getElementById("modePrinciple").onclick=()=>{ fcMode="principle"; document.getElementById("modePrinciple").classList.add("toggle-on"); document.getElementById("modeScenario").classList.remove("toggle-on"); fcPos=0; renderCard(); };
+    document.getElementById("modeScenario").onclick=()=>{ fcMode="scenario"; document.getElementById("modeScenario").classList.add("toggle-on"); document.getElementById("modePrinciple").classList.remove("toggle-on"); fcPos=0; renderCard(); };
+
+    // quiz
+    document.getElementById("qPrev").onclick=()=>{ if(qPos>0){qPos--;renderQuiz();} };
+    document.getElementById("qNext").onclick=()=>{ if(qPos<qOrder.length-1){qPos++;renderQuiz();} };
+    document.getElementById("qShow").onclick=revealQuiz;
+    document.getElementById("qClear").onclick=()=>{ const p=byNum(qOrder[qPos]); delete state.quiz.answers[p.number]; save(); renderQuiz(); };
+    document.getElementById("quizShuffle").onclick=()=>{ setQOrder(true); qPos=0; renderQuiz(); };
+    document.getElementById("quizReset").onclick=()=>{ if(confirm("Clear all quiz answers?")){ state.quiz.answers={}; save(); renderQuiz(); } };
+
+    // modal
+    document.getElementById("dClose").onclick=()=>document.getElementById("detailOverlay").classList.remove("show");
+    document.getElementById("detailOverlay").addEventListener("click",e=>{ if(e.target.id==="detailOverlay") e.currentTarget.classList.remove("show"); });
+
+    // keyboard
+    document.addEventListener("keydown",e=>{
+      if(document.activeElement.tagName==="INPUT") return;
+      const cardsVisible=!document.getElementById("view-cards").classList.contains("hide");
+      const quizVisible=!document.getElementById("view-quiz").classList.contains("hide");
+      if(e.key==="Escape"){ document.querySelectorAll(".overlay.show").forEach(o=>o.classList.remove("show")); }
+      if(cardsVisible){ if(e.key===" "){e.preventDefault();flip();} else if(e.key==="ArrowLeft")fcGo(-1); else if(e.key==="ArrowRight")fcGo(1); }
+      if(quizVisible){ if(e.key==="ArrowLeft"&&qPos>0){qPos--;renderQuiz();} else if(e.key==="ArrowRight"&&qPos<qOrder.length-1){qPos++;renderQuiz();} else if(e.key.toLowerCase()==="s")revealQuiz(); }
+    });
+  }
+  function picker(){
+    document.getElementById("loader").textContent="Waiting for file…";
+    document.getElementById("fileOverlay").classList.add("show");
+    document.getElementById("filePicker").addEventListener("change",e=>{
+      const f=e.target.files[0]; if(!f) return; const r=new FileReader();
+      r.onload=()=>{ try{ const d=JSON.parse(r.result); document.getElementById("fileOverlay").classList.remove("show"); init(d);}catch(err){alert("Invalid JSON");} };
+      r.readAsText(f);
+    });
+  }
+  fetch("principles_dataset.json").then(r=>{ if(!r.ok) throw 0; return r.json(); }).then(init).catch(picker);
+})();
+</script>
+</body>
+</html>

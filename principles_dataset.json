@@ -1,0 +1,802 @@
+[
+  {
+    "number": 1,
+    "title": "Continuously identify and analyze stakeholders",
+    "category": "Stakeholders & Communication",
+    "key_point": "Identify and analyze stakeholders throughout the whole project, not just at the start.",
+    "knowledge": "Stakeholders come and go during the project life cycle, so identifying and analyzing them is continuous, not a one-time initiating activity. When a new stakeholder appears (e.g., a new CMO or regulator), meet with them to understand their concerns and impact, then update the stakeholder register.",
+    "question": "You're managing a software project that is 60% complete. During a Sprint review, the marketing team mentions that the new CMO, who started last month, has concerns about the UI design and wants to be involved in upcoming decisions. What should you do first?",
+    "options": {
+      "A": "Inform the marketing team that the design was approved during initiation and cannot change without a formal change request.",
+      "B": "Schedule a meeting with the new CMO to understand their concerns and update the stakeholder register.",
+      "C": "Ask the marketing team to have the new CMO submit feedback through an existing communication channel.",
+      "D": "Continue with the current Sprint and address the CMO's concerns during the next project phase."
+    },
+    "correct_answer": "B",
+    "explanation": "A new stakeholder must be assessed by meeting with them (ideally face-to-face) to understand their concerns and impact, then updating the stakeholder register, which is maintained throughout the project. The other options ignore or defer the new stakeholder."
+  },
+  {
+    "number": 2,
+    "title": "Engage stakeholders regularly via various channels",
+    "category": "Stakeholders & Communication",
+    "key_point": "Keep stakeholders engaged using multiple channels tailored to each one; a disengaged stakeholder is dangerous.",
+    "knowledge": "The worst thing on a project is a stakeholder who loses interest. Engage each stakeholder on a regular basis using the channel that fits them (meetings, demos, dashboards, calls). Different stakeholders need different frequency and types of engagement.",
+    "question": "You've been sending weekly status emails to all stakeholders (city council, residents, environmental groups, contractors, sponsor) for 3 months, but response rates have dropped and decisions are being delayed. What is the best approach to improve engagement?",
+    "options": {
+      "A": "Increase the frequency of emails to twice a week and request read receipts.",
+      "B": "Implement a multi-channel approach (face-to-face meetings, site visits, online dashboards, phone calls) based on stakeholder preference.",
+      "C": "Schedule a mandatory monthly in-person meeting for all stakeholders.",
+      "D": "Create a more detailed email template with charts and graphics."
+    },
+    "correct_answer": "B",
+    "explanation": "Different stakeholders need different, tailored communication channels, which improves engagement. A and D just intensify one channel, and C forces a single method that not everyone can attend."
+  },
+  {
+    "number": 3,
+    "title": "Use emotional intelligence; address one person's issue privately",
+    "category": "Stakeholders & Communication",
+    "key_point": "Read emotions (EI) and, when one person has an issue, address it with that person one-on-one.",
+    "knowledge": "Emotional intelligence is understanding your own emotions, how they affect others, and reading others' emotions. When one person is upset or causing a problem, detect it and address it privately to find the root cause, rather than confronting them in front of the group.",
+    "question": "During a status meeting, the usually engaged marketing director is quiet and appears frustrated, responding only 'Fine, whatever works.' What should you do next?",
+    "options": {
+      "A": "Continue with your plan since the timeline was accepted and you have urgent deliverables.",
+      "B": "Send a follow-up email to all attendees asking about any concerns with the timeline.",
+      "C": "Reach out privately to the marketing director to check if everything is okay and understand any underlying concerns.",
+      "D": "Schedule another meeting with all stakeholders to revisit the timeline."
+    },
+    "correct_answer": "C",
+    "explanation": "Your EI detects the director is upset; address it privately with that one person. A does nothing, and B and D involve everyone when only one person is affected."
+  },
+  {
+    "number": 4,
+    "title": "Document all impacted individuals as stakeholders",
+    "category": "Stakeholders & Communication",
+    "key_point": "Anyone impacted positively or negatively, directly or indirectly, is a stakeholder.",
+    "knowledge": "Stakeholders are anyone (or any group) positively or negatively, directly or indirectly impacted. People who lose their job to your new system, or neighbors affected by your highway, are stakeholders too. Document them in the stakeholder register and tailor communication to them.",
+    "question": "Implementing a new CRM for sales, you learn it will auto-generate reports the finance team uses for commissions and integrate with the customer service warranty system. What should you do regarding the finance and customer service teams?",
+    "options": {
+      "A": "Keep them off the stakeholder register since they won't directly use the CRM, but document the integration requirements.",
+      "B": "Add both teams to the stakeholder register and include them in project communications even though their involvement is indirect.",
+      "C": "Contact them only if integration issues arise, to avoid unnecessary complexity.",
+      "D": "Ask the sales director to coordinate with them on your behalf."
+    },
+    "correct_answer": "B",
+    "explanation": "Indirectly impacted parties are still stakeholders, so add them to the register and communicate with them. A and C exclude impacted stakeholders, and D gives away your work."
+  },
+  {
+    "number": 5,
+    "title": "Don't dismiss customer requests prematurely",
+    "category": "Stakeholders & Communication",
+    "key_point": "Never ignore or dismiss a request; evaluate it and give feedback. Never do nothing.",
+    "knowledge": "We do projects for customers, not ourselves. When a customer requests something, at least assess it and respond; never dismiss them or push them off. If a choice says to ignore or defer indefinitely, it is not the answer.",
+    "question": "Your website redesign is 75% complete, on time and budget. The client requests a new chatbot feature seen on a competitor's site that would delay the project 3-4 weeks. What should you do first?",
+    "options": {
+      "A": "Meet with the client to understand the business value and urgency, then analyze the impact across scope, schedule, and quality before deciding.",
+      "B": "Inform the client that adding a feature now would cause delays and suggest a future phase.",
+      "C": "Ask the development team to provide a detailed estimate so you can present cost and schedule impacts.",
+      "D": "Explain that the scope is approved and any change requires a formal change control procedure."
+    },
+    "correct_answer": "A",
+    "explanation": "Since it asks what to do first, meet with the client to understand the business value before estimating (C) or routing them to change control (D). B dismisses the client outright."
+  },
+  {
+    "number": 6,
+    "title": "Change management — follow the plan / use the backlog",
+    "category": "Change Management",
+    "key_point": "Traditional: no change without an approved change request. Agile: changes go through the product owner and product backlog.",
+    "knowledge": "On a traditional project, follow the plan; if it isn't in the plan, it requires a change request and assessment before approval, and you never implement a change without assessing it. On an agile project, change is welcomed through backlog prioritization, and only the product owner can add to or prioritize the product backlog.",
+    "question": "On an agile project, the product owner requests a new security feature not in the original requirements that needs significant effort, while the team is mid-Sprint with committed deliverables. What should the project manager do?",
+    "options": {
+      "A": "Submit the new feature through a formal change control process for approval.",
+      "B": "Work with the product owner to add the security feature to the product backlog for prioritization.",
+      "C": "Immediately incorporate the feature into the current Sprint.",
+      "D": "Reject the request since it wasn't part of the original scope."
+    },
+    "correct_answer": "B",
+    "explanation": "Agile changes go to the product backlog via the product owner; there's no formal change control board (A), you don't add to the current Sprint (C), and the PM never rejects changes (D)."
+  },
+  {
+    "number": 7,
+    "title": "Changes to the PM plan require a change request",
+    "category": "Change Management",
+    "key_point": "Traditional: any change to the PM plan must be submitted as a change request. Agile: handled via the product owner.",
+    "knowledge": "On a traditional project, anyone wanting to change the plan must submit a formal change request so it can be assessed. Agile handles change through direct collaboration with the product owner rather than formal change requests.",
+    "question": "During a weekly status meeting, the sponsor says new regulatory requirements mean the timeline must be accelerated by one month, stating it's critical and needs to happen. What should you do next?",
+    "options": {
+      "A": "Begin working with the team immediately to develop a compressed schedule.",
+      "B": "Ask the sponsor to submit a formal change request detailing the regulatory requirements and timeline changes before proceeding.",
+      "C": "Analyze the current schedule to identify compression opportunities and present options.",
+      "D": "Schedule a follow-up meeting to discuss the impact of the accelerated timeline."
+    },
+    "correct_answer": "B",
+    "explanation": "This is a traditional project (project sponsor), so the change must be submitted as a change request and assessed before proceeding. A implements the change immediately, and C acts without the formal change request."
+  },
+  {
+    "number": 8,
+    "title": "All changes must be reviewed and assessed",
+    "category": "Change Management",
+    "key_point": "Assess every change across all knowledge areas (scope, schedule, cost, quality, risk, resources) before approving.",
+    "knowledge": "A change (usually a scope change) must be assessed for its impact across all knowledge areas before any decision. A scope change typically affects time, cost, quality, resources, communications, risk, and procurement.",
+    "question": "The marketing team requests adding a social media integration feature to your mobile app; your lead developer says it's easy, about two days of work. What should you do?",
+    "options": {
+      "A": "Approve the change immediately since it's low risk and similar work has been done.",
+      "B": "Ask the marketing team to wait until the next change control board meeting.",
+      "C": "Conduct a thorough assessment of the change request on scope, schedule, cost, quality, and risk before making any decisions.",
+      "D": "Since it's simple, implement the feature now and document the change."
+    },
+    "correct_answer": "C",
+    "explanation": "Always assess a change's impact across the project before deciding. The PM can't approve changes (A), shouldn't tell people to wait (B), and shouldn't implement without assessment (D)."
+  },
+  {
+    "number": 9,
+    "title": "Never act without a plan",
+    "category": "Decision-Making & Problem-Solving",
+    "key_point": "When an issue arises, check your management plans first; they exist to tell you how to respond.",
+    "knowledge": "On a traditional project, the project management plan exists so that when problems arise you consult the relevant management plan for how to handle them. Don't take random actions; review the plan first. (Traditional plans once; agile plans iteratively per Sprint.)",
+    "question": "Your data migration is set for this weekend when you discover Friday that backup verification failed and the backup files are corrupted. Downtime is announced, vendors scheduled, and the team is standing by. What should you do?",
+    "options": {
+      "A": "Immediately start working on alternative backup solutions while the IT director develops a strategy.",
+      "B": "Postpone the migration until a complete backup recovery plan can be developed and tested.",
+      "C": "Call an emergency planning session to develop a comprehensive approach before taking any corrective actions.",
+      "D": "Begin the migration on schedule but implement additional monitoring."
+    },
+    "correct_answer": "C",
+    "explanation": "Never act without a plan; create a plan for this major issue first. A acts without a plan, B jumps to postponing, and D proceeds despite a serious data-loss risk."
+  },
+  {
+    "number": 10,
+    "title": "Consult the team before making decisions",
+    "category": "Decision-Making & Problem-Solving",
+    "key_point": "Don't act alone; the team are the experts who give the best estimates and solutions.",
+    "knowledge": "The best people to make decisions, give estimates, and solve problems are the experts on the team. The PM facilitates so decisions get made; the PM does not make all decisions alone.",
+    "question": "You must choose between two technical architecture approaches and, after thorough research, have a clear preference based on cost, timeline, and business alignment. What should you do?",
+    "options": {
+      "A": "Make the decision based on your research, present it to the sponsor, then inform the team afterward.",
+      "B": "Present both options to the sponsor with your recommendation and let them decide.",
+      "C": "Delay the decision until the team finishes the current Sprint and can focus on it.",
+      "D": "Consult with the development team about both architecture options before making your final recommendation."
+    },
+    "correct_answer": "D",
+    "explanation": "Even after researching, involve the team (the experts) before finalizing. A decides alone, B pushes it onto the sponsor without team input, and C unnecessarily delays."
+  },
+  {
+    "number": 11,
+    "title": "Serve project objectives and highest stakeholder value",
+    "category": "Decision-Making & Problem-Solving",
+    "key_point": "Choose what best serves the overall project objectives, not just one person or group.",
+    "knowledge": "Projects are done for the stakeholders/customers, so decisions should serve the overall project objectives and deliver the highest value. When a choice satisfies a single team member versus the project objectives, favor the project objectives.",
+    "question": "Your e-commerce platform has three critical issues but resources for only one this week: a security vulnerability that could expose customer data, a performance issue slowing checkout (reducing sales), and a cosmetic bug the CEO wants fixed. What do you prioritize?",
+    "options": {
+      "A": "Fix the security vulnerability to prevent potential data breaches and protect customer information.",
+      "B": "Resolve the performance issue since it's impacting customer experience and revenue right now.",
+      "C": "Address the cosmetic bug first since the CEO requested it.",
+      "D": "Split the team's time across all three issues."
+    },
+    "correct_answer": "A",
+    "explanation": "Serve the overall project: a major security flaw could devastate the project and business, outweighing the shorter-term revenue issue (B) and the cosmetic bug (C). D contradicts the constraint of one issue this week."
+  },
+  {
+    "number": 12,
+    "title": "Understand the root of a conflict before resolving it",
+    "category": "Decision-Making & Problem-Solving",
+    "key_point": "Never resolve a conflict or problem until you understand its root cause.",
+    "knowledge": "The PMBOK conflict process starts with understanding the conflict. You can't truly solve a problem until you know its underlying cause, so when asked what to do next about a conflict, first understand the cause before attempting resolution.",
+    "question": "In a team meeting, a heated argument breaks out between the lead developer and QA manager about testing timelines (the developer says QA demands too much time; QA says the developer rushes code and causes quality problems). What should you do first?",
+    "options": {
+      "A": "Stop the argument immediately and remind both about professional behavior.",
+      "B": "Schedule separate one-on-one meetings with each to understand their underlying concerns before attempting resolution.",
+      "C": "Implement a new process allocating specific time for development and testing.",
+      "D": "Facilitate a discussion between them to find a compromise on the testing timeline."
+    },
+    "correct_answer": "B",
+    "explanation": "Understand the root cause first via one-on-ones, then facilitate (D). A is harsh/tyrannical, and C fixes before understanding."
+  },
+  {
+    "number": 13,
+    "title": "Log issues; check the risk register for responses",
+    "category": "Decision-Making & Problem-Solving",
+    "key_point": "When an issue occurs, record it in the issue log; the response was pre-planned in the risk register.",
+    "knowledge": "A risk is uncertain and hasn't happened; an issue has happened and is generally negative. When an issue occurs, put it in the issue log first. The response should already exist in the risk register because you anticipated it as a risk.",
+    "question": "A team member's newly written code is crashing modules written weeks ago, which will cause a major delay if not fixed, and the team member is unsure how to fix it. What should the PM do first?",
+    "options": {
+      "A": "Add this to the issue log and assign an owner.",
+      "B": "Add this risk to the risk register and work with the team to fix it.",
+      "C": "Assign a senior coder to fix it.",
+      "D": "Facilitate a discussion between team members to fix the code error."
+    },
+    "correct_answer": "A",
+    "explanation": "It is happening now, so it's an issue (not a risk, ruling out B) and goes in the issue log first. C jumps to a resolution, and D would be the next step after logging it."
+  },
+  {
+    "number": 14,
+    "title": "When confused, consult SMEs, lessons learned, and OPAs",
+    "category": "Decision-Making & Problem-Solving",
+    "key_point": "The PM is not the subject matter expert; consult SMEs, the lessons learned register, and organizational process assets.",
+    "knowledge": "Project managers are facilitators with strong people skills, not technical SMEs. When facing complex technical/compliance issues, consult the right subject matter expert, review lessons learned from past projects, and check organizational process assets.",
+    "question": "On your first healthcare IT project involving HIPAA, a complex data-encryption issue emerges, your online research is conflicting, and a decision is needed by tomorrow. What should you do?",
+    "options": {
+      "A": "Make the best decision you can based on your research and adjust later to show decisive leadership.",
+      "B": "Escalate the decision to your sponsor since complex compliance issues are above your authority.",
+      "C": "Call a team brainstorm to collectively research encryption and reach consensus.",
+      "D": "Consult the company's HIPAA compliance officer, review lessons learned from previous healthcare projects, and check organizational compliance procedures."
+    },
+    "correct_answer": "D",
+    "explanation": "Seek the subject matter expert (HIPAA compliance officer), lessons learned, and OPAs. You shouldn't decide alone on unfamiliar compliance (A), the sponsor isn't an SME (B), and the team may not be experts either (C)."
+  },
+  {
+    "number": 15,
+    "title": "Investigate and consult before acting",
+    "category": "Decision-Making & Problem-Solving",
+    "key_point": "When asked what to do first/next, review/analyze and consult before fixing anything.",
+    "knowledge": "Never fix or act first; review plans, analyze the issue, and talk to people before taking action. Manage your own project-management problems (e.g., stakeholders) rather than asking for help on them.",
+    "question": "You arrive to an urgent voicemail from a key client saying they're extremely disappointed with the latest deliverable and considering terminating the contract; they demand an immediate response and the team is asking what's happening. What should you do first?",
+    "options": {
+      "A": "Call the client immediately to apologize and assure them you'll personally resolve their issues.",
+      "B": "Review the deliverable, check the acceptance criteria, and gather information about what specifically disappointed the client before responding.",
+      "C": "Schedule an emergency meeting with your sponsor on how to respond to the client.",
+      "D": "Contact your sponsor to inform them of the threat and get guidance on how to proceed."
+    },
+    "correct_answer": "B",
+    "explanation": "Investigate first: review the deliverable and acceptance criteria before responding. A acts without analysis, and C/D give away a problem that's within your jurisdiction to handle."
+  },
+  {
+    "number": 16,
+    "title": "Show progress through tangible outputs (MVPs/prototypes)",
+    "category": "Decision-Making & Problem-Solving",
+    "key_point": "Demonstrate working products (MVPs/prototypes) so stakeholders can experience progress and give real feedback.",
+    "knowledge": "Customers often can't fully articulate what they want; the best way to confirm you're building the right thing is to give them something usable or testable. MVPs deliver real value in production; prototypes are touch-and-feel demos. Both put hands-on outputs in front of customers.",
+    "question": "Your mobile app project is 50% complete per schedule, but stakeholders are worried about progress because the agile team hasn't delivered any functionality they can see or test. What should you do to address their concerns?",
+    "options": {
+      "A": "Create a detailed status report showing percentage completion for each feature.",
+      "B": "Organize a demonstration session where the team shows stakeholders the working components and core functionality.",
+      "C": "Schedule weekly meetings to provide verbal updates on progress.",
+      "D": "Reassure stakeholders the project is on track per schedule and ask them to trust it."
+    },
+    "correct_answer": "B",
+    "explanation": "Demonstrating working software lets stakeholders see and test progress. Reports (A) and verbal updates (C) only tell rather than show, and D simply asks for trust."
+  },
+  {
+    "number": 17,
+    "title": "Resolve issues at your level",
+    "category": "Decision-Making & Problem-Solving",
+    "key_point": "Don't ask the sponsor/senior stakeholders to solve your project problems; escalate only for approvals or authority limits.",
+    "knowledge": "Managing the project (teams, stakeholders, most problems) is your job; you were hired for it. Escalate to sponsors/senior managers only when you need an approval or have hit an authority limit, not to solve problems.",
+    "question": "Your team has low morale from unclear roles and miscommunication between dev and testing; members complain about each other, productivity has declined, and your sponsor mentions hearing concerns about team dynamics. What should you do?",
+    "options": {
+      "A": "Ask your sponsor to step in and clarify roles and expectations since they have more authority.",
+      "B": "Facilitate team meetings to clarify roles, establish communication protocols, and address interpersonal issues yourself.",
+      "C": "Recruit your sponsor to bring in HR to mediate.",
+      "D": "Escalate to senior leadership."
+    },
+    "correct_answer": "B",
+    "explanation": "Managing the team is within your authority, so resolve it yourself by facilitating. A, C, and D all give away a problem you should handle."
+  },
+  {
+    "number": 18,
+    "title": "Be a servant leader",
+    "category": "Team Leadership & Collaboration",
+    "key_point": "Support and empower the team (fetch food and water); don't dictate or solve everything for them.",
+    "knowledge": "Servant leadership means giving the team what they need to succeed, removing impediments, coaching, listening, and shielding them from interruptions, rather than dictating. Let the team resolve problems; don't just pick solutions for them.",
+    "question": "Your dev team has struggled with a complex technical challenge for a week and morale is low; junior developers hesitate to speak up and one feels out of their league. What should you do?",
+    "options": {
+      "A": "Take charge yourself, research solutions, and direct each member on how to implement your findings.",
+      "B": "Bring in a senior consultant to solve the problems quickly and show the team the correct approach.",
+      "C": "Organize peer programming between senior and junior developers, schedule individual coaching, and celebrate small technical wins.",
+      "D": "Reassign complex tasks to seniors and give juniors simpler tasks."
+    },
+    "correct_answer": "C",
+    "explanation": "Empower and coach the team (servant leadership). A dictates, B empowers an outsider instead of the team, and D removes growth opportunities from the team."
+  },
+  {
+    "number": 19,
+    "title": "Act as an integrator, not just a functional lead",
+    "category": "Team Leadership & Collaboration",
+    "key_point": "Look across all project components and dependencies, not just one area.",
+    "knowledge": "A project is not only scope, or only budget, or only schedule. As an integrator you balance all components, since optimizing one (e.g., finishing fast or cheap) can harm others (quality, scope, cost). Bring work streams together to align dependencies and timelines.",
+    "question": "Your enterprise software project has multiple work streams (data migration, process redesign, training, configuration) progressing well individually, but you notice potential integration issues, timeline conflicts, scope misalignments, and missing dependencies. What should you do first?",
+    "options": {
+      "A": "Focus on the area farthest behind schedule and help it catch up first.",
+      "B": "Convene an integration planning session with all work-stream leads to identify dependencies, resolve conflicts, and align timelines.",
+      "C": "Delegate the integration issues to each functional team to coordinate directly with each other.",
+      "D": "Escalate to the sponsor."
+    },
+    "correct_answer": "B",
+    "explanation": "Integrate by bringing all work streams together to align dependencies and timelines. A focuses on only one area, C pushes coordination off without your involvement, and D gives the work away."
+  },
+  {
+    "number": 20,
+    "title": "The team is best suited to break down work",
+    "category": "Team Leadership & Collaboration",
+    "key_point": "Let the team (the experts) create the WBS / break down the work.",
+    "knowledge": "The team knows the work best, so they are best positioned to decompose it into a WBS. Don't build the WBS alone from your own experience or hand it to a single lead.",
+    "question": "Your project is approved to proceed with a new inventory module; you have high-level requirements and need a detailed WBS, but the dev team won't be available for detailed planning for another week. What should you do?",
+    "options": {
+      "A": "Wait for the development team to become available and create the WBS together, even though it delays planning by a week.",
+      "B": "Create a detailed WBS based on your previous experience to keep moving, then review with the team later.",
+      "C": "Assign WBS creation to the technical lead since they have the expertise.",
+      "D": "Create a high-level WBS based on your experience, then have the team add detail."
+    },
+    "correct_answer": "A",
+    "explanation": "The team are the experts who should break down the work, so wait and do it together. B and D have you decompose it yourself, and C gives it to one person instead of the team."
+  },
+  {
+    "number": 21,
+    "title": "The team should determine activity timing",
+    "category": "Team Leadership & Collaboration",
+    "key_point": "Ask the team for duration estimates and sequencing; they know best how long work takes.",
+    "knowledge": "Just as the team breaks down work, the team should determine how long activities take and how to sequence them. The people doing the work give the most accurate duration estimates.",
+    "question": "You're building a website schedule and, based on experience and client discussions, believe the sequence should be design mockups, then content, then development, then testing. What should you do regarding activity sequencing?",
+    "options": {
+      "A": "Identify which activities are on the critical path and prioritize those.",
+      "B": "Present your proposed sequence to the team and ask them to provide time estimates based on your approach.",
+      "C": "Share the project requirements with the team and ask them to determine the sequence and time estimates.",
+      "D": "Create the schedule based on your experience but remain flexible to modify if the team finds constraints."
+    },
+    "correct_answer": "C",
+    "explanation": "Let the team determine both sequence and durations using their expertise. A, B, and D have you do most of the work rather than the team."
+  },
+  {
+    "number": 22,
+    "title": "Understand team motivations to inspire performance",
+    "category": "Team Leadership & Collaboration",
+    "key_point": "Keep the team motivated; a demotivated team can tank the project.",
+    "knowledge": "Motivation must be sustained continuously. When an individual's performance drops, talk with them privately to understand what's affecting their motivation before taking performance actions or reassigning them.",
+    "question": "Performance is declining; Sarah, usually your most productive developer, seems disengaged, produces lower-quality work, and is quiet and distracted in meetings. What should you do first before implementing performance measures?",
+    "options": {
+      "A": "Implement performance improvement measures immediately since the decline affects the whole project.",
+      "B": "Schedule a private conversation with Sarah to discuss what's affecting her motivation and engagement.",
+      "C": "Assign Sarah to less critical tasks until her performance improves.",
+      "D": "Discuss Sarah's performance decline with the team."
+    },
+    "correct_answer": "B",
+    "explanation": "Meet privately with Sarah to understand the cause. A forces measures, C reassigns prematurely, and D discusses one person's issue with the group."
+  },
+  {
+    "number": 23,
+    "title": "Be ethical at all times",
+    "category": "Team Leadership & Collaboration",
+    "key_point": "Don't lie, cheat, steal, or break the law; ethics stands above everything, even your job or the project.",
+    "knowledge": "Ethics is on the exam objectives and the test will tempt you to abandon it 'to save the project.' Always stay ethical and truthful even if it means being fired or the project suffering. (Also: never stop a project unless it's breaking the law.)",
+    "question": "You discover a team member has been inflating their time reports (claiming 8 hours when working 4-5) for about three weeks, which is stealing company time; your manager hints timesheet issues are common. What should you do?",
+    "options": {
+      "A": "Address the timesheet issue directly with the team member, establish clear expectations going forward, and document the issue and corrective actions.",
+      "B": "Overlook the discrepancies since the member is technically competent and the project can't afford to lose them.",
+      "C": "Quietly discuss the situation with other members to verify before acting.",
+      "D": "Focus on the team member's deliverable quality rather than time tracking since results matter more."
+    },
+    "correct_answer": "A",
+    "explanation": "Stay ethical and address the violation directly with documentation. B and D let the ethical problem continue, and C drags others into a single person's issue."
+  },
+  {
+    "number": 24,
+    "title": "Create a safe environment for disagreements",
+    "category": "Team Leadership & Collaboration",
+    "key_point": "Conflict can be constructive; keep it managed (low level) and make it safe to disagree.",
+    "knowledge": "Disagreement shows people care and often produces the best solutions. Create a safe environment that welcomes managed conflict; never punish people for disagreeing or they'll disengage. Keep conflict at a manageable level, never escalating to hostility.",
+    "question": "In design reviews, whenever the senior architect presents ideas the junior members stay silent and nod, even when they look puzzled, and two later privately express concerns about the architecture. What should you do to improve team dynamics?",
+    "options": {
+      "A": "Meet juniors individually to gather input privately, then present their concerns anonymously in future meetings.",
+      "B": "Establish ground rules that encourage questions and alternative viewpoints, and model constructive disagreement by respectfully questioning ideas yourself.",
+      "C": "Ask the senior architect to be more open to questions from junior members.",
+      "D": "Rotate meeting leadership so juniors take turns presenting and leading discussions."
+    },
+    "correct_answer": "B",
+    "explanation": "Create a safe environment that encourages open disagreement and model it yourself. A keeps concerns private/anonymous (not open), and C/D don't open the environment for everyone to contribute."
+  },
+  {
+    "number": 25,
+    "title": "Protect the team's focus; avoid task overload",
+    "category": "Team Leadership & Collaboration",
+    "key_point": "Don't overload the team or push overtime; it's unsustainable and hurts quality.",
+    "knowledge": "Task overload and overtime are unsustainable and lead to poor quality and performance. Never choose options that overwork the team; involve them and let them decline work that compromises their primary focus.",
+    "question": "Your web project is going well when the marketing director urgently asks your fully-loaded lead developer (the only one with the needed skills) to quickly build a promotional landing page for a trade show. What should you do?",
+    "options": {
+      "A": "Ask the lead developer to take it on since it's only a few hours and benefits the company.",
+      "B": "Negotiate with marketing to delay the promotional page until after the current Sprint.",
+      "C": "Have the lead developer train another member to handle the promotional work.",
+      "D": "Discuss the request with the lead to understand their capacity and decline if it would compromise their focus on primary responsibilities."
+    },
+    "correct_answer": "D",
+    "explanation": "Work with the team member and protect their focus, declining if needed. A overworks them, and C adds training work on top of their full load."
+  },
+  {
+    "number": 26,
+    "title": "Use peer learning for skill development",
+    "category": "Team Leadership & Collaboration",
+    "key_point": "You can't train the team technically; have team members teach and learn from each other.",
+    "knowledge": "The PM isn't the technical trainer. When the team lacks skills but some members have expertise, use peer learning (seniors teaching juniors) so the team develops skills internally rather than outsourcing or hiring.",
+    "question": "Your data analytics implementation needs skills quickly; three members have basic knowledge, two intermediate, and one advanced expertise. What should the PM do?",
+    "options": {
+      "A": "Enroll the entire team in a formal training course for consistent skill levels.",
+      "B": "Organize peer learning sessions where team members teach and learn from each other.",
+      "C": "Hire additional members with the required expertise.",
+      "D": "Outsource the analytics components to an external vendor."
+    },
+    "correct_answer": "B",
+    "explanation": "Since the team already includes expertise, use peer learning so they teach each other. A trains everyone unnecessarily, and C/D bring in outsiders when the team can develop the skills."
+  },
+  {
+    "number": 27,
+    "title": "The 'be nice' principle",
+    "category": "Team Leadership & Collaboration",
+    "key_point": "Don't fire, overwork, or call people out publicly; address one person's issue privately first.",
+    "knowledge": "This elimination principle removes bad choices: don't fire/remove people, don't make them work overtime, don't put them down in front of others, and don't give away your work. When one person causes an issue, meet with them privately to understand the cause before acting.",
+    "question": "One team member consistently arrives late, interrupts others, and misses deadlines, hurting morale; other members are commenting and asking you to act. What should you do first?",
+    "options": {
+      "A": "Address the performance issues with the individual in a private one-on-one conversation.",
+      "B": "Discuss the team member's behavior during the next team meeting.",
+      "C": "Document the issues and escalate to HR for disciplinary action.",
+      "D": "Reassign the problematic team member."
+    },
+    "correct_answer": "A",
+    "explanation": "Meet privately with the individual to understand the cause. B calls them out in front of everyone, C gives the issue away to HR, and D effectively removes them."
+  },
+  {
+    "number": 28,
+    "title": "Only the product owner prioritizes the backlog",
+    "category": "Agile Practices",
+    "key_point": "Only the product owner documents/prioritizes the product backlog; train them if needed, never do it yourself.",
+    "knowledge": "On agile projects, only the product owner adds, removes, or prioritizes product backlog items, and user stories come from users. The PM (and team) never own the backlog; if the product owner needs help, work with them rather than doing their job. (Keywords like backlog, product owner, Sprint, Scrum signal agile.)",
+    "question": "Sprint planning is starting but the traveling product owner hasn't documented user stories; the eager team has identified several features they believe are high priority. What should you do?",
+    "options": {
+      "A": "Let the team start working on the features they identified while the product owner documents in parallel.",
+      "B": "Have the development team create the initial user story documentation.",
+      "C": "Postpone Sprint planning until the product owner can document and prioritize, even if it creates a delay.",
+      "D": "Work with the product owner to quickly prioritize the most critical features and document just those stories needed to start the Sprint."
+    },
+    "correct_answer": "D",
+    "explanation": "Work with the product owner (who owns the backlog) to prioritize and document enough to start, avoiding delay. A and B have the team do the product owner's job, and C delays unnecessarily."
+  },
+  {
+    "number": 29,
+    "title": "How agile teams like to work",
+    "category": "Agile Practices",
+    "key_point": "Agile favors collocation, face-to-face, low-tech/high-touch tools, information radiators, and visual workflows.",
+    "knowledge": "Agile prefers teams working together (collocation, including virtual collocation with cameras/mics on), face-to-face communication, low-tech high-touch tools (sticky notes, whiteboards), information radiators (burn-up/burndown, Kanban boards), and visual workflows with frequent customer input.",
+    "question": "Your agile team is split across three locations in New York City; remote video/collaboration tools are causing communication delays and coordination problems affecting Sprint velocity. What should you do?",
+    "options": {
+      "A": "Invest in better video conferencing and collaboration tools.",
+      "B": "Arrange for team members from different locations to travel and work together in the same location for the most critical aspects.",
+      "C": "Establish more frequent check-in meetings and structured communication.",
+      "D": "Reorganize the work to minimize dependencies and let each site work independently."
+    },
+    "correct_answer": "B",
+    "explanation": "Because they're in the same city, collocation (face-to-face) is feasible and best. C likely adds overhead, and D splits the team apart instead of bringing them together. (If they were spread worldwide, A would be more appropriate.)"
+  },
+  {
+    "number": 30,
+    "title": "Roll out methodology changes gradually",
+    "category": "Agile Practices",
+    "key_point": "Introduce big methodology changes via pilots/phased rollout, not a big-bang all-at-once approach.",
+    "knowledge": "When an organization changes methodology (e.g., waterfall to agile), don't push it on everyone at once. Pilot with one or two teams, gather lessons learned, refine, then roll out, since agile varies by organization.",
+    "question": "The CTO wants to implement agile across all development teams immediately after next month's training to realize benefits quickly. What should you recommend?",
+    "options": {
+      "A": "Support implementing agile across all teams simultaneously after the training.",
+      "B": "Select one or two teams for an initial agile pilot, gather lessons learned, refine the approach, then roll out.",
+      "C": "Implement agile only for new projects and transition all teams once current work is complete.",
+      "D": "Divide teams into groups and implement agile in phases on a fixed schedule."
+    },
+    "correct_answer": "B",
+    "explanation": "Pilot, learn, refine, then roll out gradually. A is a chaotic big-bang, and C/D don't emphasize gathering lessons learned and refining."
+  },
+  {
+    "number": 31,
+    "title": "Agile requires ongoing customer feedback",
+    "category": "Agile Practices",
+    "key_point": "Agile depends on continuous customer feedback/validation; don't pause—adjust to keep getting it.",
+    "knowledge": "Agile welcomes change and relies on customer feedback at least each Sprint (e.g., Sprint reviews, MVPs). Keep customers engaged; adjust the schedule if needed to get their feedback rather than pausing or proceeding without it.",
+    "question": "After three Sprints, your once-engaged customer has become hard to reach, missed the last two Sprint reviews, and says they're too busy for regular meetings. What should you do?",
+    "options": {
+      "A": "Insist on regular customer feedback sessions and adjust the Sprint schedule if necessary to accommodate their availability.",
+      "B": "Continue development based on the original requirements since the customer trusts the team.",
+      "C": "Have the product owner make customer validation decisions to maintain momentum.",
+      "D": "Pause development until the customer becomes available for regular feedback."
+    },
+    "correct_answer": "A",
+    "explanation": "Keep getting customer feedback, adjusting the schedule if needed, rather than pausing the whole project (D). B and C proceed without the essential customer input."
+  },
+  {
+    "number": 32,
+    "title": "Define quality requirements early and check often",
+    "category": "Quality & Delivery",
+    "key_point": "Define quality requirements with stakeholders up front (definition of done in agile) and verify them often.",
+    "knowledge": "Quality requirements (what causes dissatisfaction if missed, like performance or finish) differ from scope requirements (what they want). Quality is subjective and user-specific, so define it with stakeholders early (requirements documentation / quality management plan in traditional; definition of done in agile) before building.",
+    "question": "Starting a new e-commerce platform, stakeholders focus heavily on functional requirements but give minimal quality guidance, saying 'we'll figure that out as we go.' What should you do before development begins?",
+    "options": {
+      "A": "Proceed with development using industry-standard quality practices since the team is experienced.",
+      "B": "Begin development of core features and schedule quality requirement discussions for later Sprints.",
+      "C": "Research similar platforms and use typical quality standards as defaults until stakeholders provide guidance.",
+      "D": "Facilitate sessions with stakeholders to define quality requirements (performance, stability, usability, reliability) before development begins."
+    },
+    "correct_answer": "D",
+    "explanation": "Quality is subjective, so define it with stakeholders before building. A and B start before quality is known, and C assumes defaults instead of asking the stakeholders."
+  },
+  {
+    "number": 33,
+    "title": "Customers validate deliverables for scope and quality",
+    "category": "Quality & Delivery",
+    "key_point": "Get customer validation of scope/quality (Validate Scope; agile Sprint reviews/MVPs) before moving on.",
+    "knowledge": "In traditional projects, Control Quality produces verified deliverables and Validate Scope (with customer/sponsor) produces accepted deliverables. In agile, customers check scope and quality during Sprint reviews, and MVPs let customers gain value and give feedback. Get validation before proceeding.",
+    "question": "Your team completed a fully functional authentication system that passes all technical specs and automated tests, but the customer is traveling and can't validate until the end of the next phase. What should you do?",
+    "options": {
+      "A": "Deploy to production since it meets technical requirements and passed internal checks, then get customer validation afterward.",
+      "B": "Continue with the next development phase while waiting for customer validation.",
+      "C": "Wait for the customer to return and validate before proceeding or deploying.",
+      "D": "Present the system to a customer representative or proxy who can preliminarily validate until the customer is ready."
+    },
+    "correct_answer": "D",
+    "explanation": "Get validation from a customer or proxy rather than deploying without it (A), proceeding without it (B), or waiting until the next phase and causing a long delay (C)."
+  },
+  {
+    "number": 34,
+    "title": "Use inclusive low-tech tools; never break the team apart",
+    "category": "Quality & Delivery",
+    "key_point": "Prefer inclusive low-tech/high-touch tools (whiteboards); avoid silos that separate the team.",
+    "knowledge": "For collaboration across mixed backgrounds, use inclusive low-tech high-touch tools like whiteboards rather than complex/technical software, and never choose options that split the team into silos.",
+    "question": "A cross-functional team (developers, business analysts, SMEs, stakeholders) with varying technical backgrounds needs to brainstorm solutions for a complex integration challenge. What should you do to facilitate effective collaboration?",
+    "options": {
+      "A": "Schedule technical meetings where experts present comprehensive solutions using advanced modeling software.",
+      "B": "Use a digital collaboration platform where members contribute asynchronously via structured templates and voting.",
+      "C": "Create a shared online workspace with real-time editing for all stakeholders.",
+      "D": "Organize a workshop where everyone can sketch ideas on a whiteboard."
+    },
+    "correct_answer": "D",
+    "explanation": "A whiteboard workshop is inclusive low-tech/high-touch for mixed backgrounds. A, B, and C are all more technical/digital and less inclusive."
+  },
+  {
+    "number": 35,
+    "title": "Use bottom-up estimating for accuracy",
+    "category": "Quality & Delivery",
+    "key_point": "Bottom-up estimates from the people doing the work are most accurate (agile uses relative estimation/story points).",
+    "knowledge": "Bottom-up estimating decomposes work to detail and aggregates up, giving the most accurate (if time-consuming) estimates. Top-down/analogous from historical data is fast but less accurate. Agile uses relative estimation like story points and planning poker (Fibonacci), with the team's velocity.",
+    "question": "Your sponsor needs accurate time estimates for a new customer portal with several modules to support budget and resource decisions. What estimation approach should you use?",
+    "options": {
+      "A": "Use your experience from a similar portal and apply scaling factors since historical data is reliable and faster.",
+      "B": "Have technical leads provide high-level estimates for each module.",
+      "C": "Get detailed task-level estimates from the developers who will do the work, then aggregate them.",
+      "D": "Use historical data for initial estimates, then have technical leads validate."
+    },
+    "correct_answer": "C",
+    "explanation": "Bottom-up estimates from the people doing the work are most accurate. A and D rely on historical/top-down data, and B is only high-level."
+  },
+  {
+    "number": 36,
+    "title": "Document risk early and continuously",
+    "category": "Risk & Procurement",
+    "key_point": "Identify and document risks early and continuously throughout the project; don't start work without knowing the risks.",
+    "knowledge": "Everything has risk (positive opportunities and negative threats). Identify risks early and continuously, since risk evolves throughout the project. Don't begin the work until you understand the risks that could derail it.",
+    "question": "Starting a cloud migration of legacy systems, the sponsor is eager to begin migration immediately and worries that too much planning will delay benefits. What should you do first?",
+    "options": {
+      "A": "Conduct a comprehensive risk identification session before beginning any migration work, documenting technical and organizational risks.",
+      "B": "Begin migrating less critical systems first to gain experience and identify risks.",
+      "C": "Start the technical migration and address risks as they arise.",
+      "D": "Focus only on technical risks since those impact the cloud the most."
+    },
+    "correct_answer": "A",
+    "explanation": "Identify and document risks before starting the work. B and C begin work without knowing the risks, and D narrows risk identification to only technical risks."
+  },
+  {
+    "number": 37,
+    "title": "Document responses for threats and opportunities",
+    "category": "Risk & Procurement",
+    "key_point": "The risk register holds both threats and opportunities (and responses); the risk management plan holds no risks.",
+    "knowledge": "Opportunities are positive risks; threats are negative risks. The risk register stores the list of risks and their responses; the risk management plan only describes how to manage risk and contains no actual risks. Risk identification is continuous.",
+    "question": "Your software project is going well when a major competitor announces they're discontinuing a similar product (a market opportunity) and a tech vendor offers early API access that could enhance your product beyond scope. What should you do first?",
+    "options": {
+      "A": "Quickly modify the scope to incorporate the enhanced API and accelerate market positioning.",
+      "B": "Schedule an emergency meeting to discuss how to pivot the project strategy.",
+      "C": "Document these opportunities in your risk register and develop specific responses.",
+      "D": "Begin implementing the changes right away."
+    },
+    "correct_answer": "C",
+    "explanation": "These are positive risks (opportunities) to document in the risk register with responses, rather than acting/changing scope without assessment (A, D) or jumping to a strategy meeting (B)."
+  },
+  {
+    "number": 38,
+    "title": "Use mutually beneficial contracts",
+    "category": "Risk & Procurement",
+    "key_point": "Negotiate fair, balanced contracts that benefit both you and the vendor; avoid lopsided terms.",
+    "knowledge": "Choose the contract type by scenario (time & materials when scope is unknown, cost-reimbursable to share risk, fixed-price when scope is well known), but always negotiate fair, balanced terms with reasonable risk-sharing rather than one-sided, punitive contracts.",
+    "question": "Your procurement team drafted a vendor contract with steep delay penalties, unlimited vendor liability, and limited payment milestones. What should you recommend?",
+    "options": {
+      "A": "Proceed with the contract as drafted since it maximizes protection for your organization.",
+      "B": "Modify the contract to create more balanced risk-sharing, reasonable terms, and incentives that benefit both parties.",
+      "C": "Add additional penalty clauses while keeping the current favorable terms.",
+      "D": "Accept the terms but add a bonus."
+    },
+    "correct_answer": "B",
+    "explanation": "Contracts should be fair and mutually beneficial. A and C keep one-sided terms, and D just adds icing to a lopsided contract."
+  },
+  {
+    "number": 39,
+    "title": "Update the lessons learned register throughout",
+    "category": "Lifecycle & Closure",
+    "key_point": "Record lessons learned immediately and throughout the project (Manage Project Knowledge; agile retrospectives), not only at the end.",
+    "knowledge": "Lessons learned are captured continuously in the lessons learned register (from Manage Project Knowledge), benefiting current and future projects. Document them immediately when discovered rather than waiting for the end, the retrospective, or after release.",
+    "question": "Halfway through an agile project, a failed API approach forced a two-week pivot to a better solution, and you also learned that user training every three Sprints (instead of every Sprint) gives better feedback. What should you do to record these discoveries?",
+    "options": {
+      "A": "Wait until the project retrospective at the end to document all lessons comprehensively.",
+      "B": "Document these lessons in the lessons learned register immediately so they benefit current and future projects.",
+      "C": "Share the insights informally through casual conversation and team meetings.",
+      "D": "Focus on completing the current deliverable first, then schedule time after release."
+    },
+    "correct_answer": "B",
+    "explanation": "Capture lessons learned immediately in the register. A and D wait too long, and C keeps them informal/undocumented."
+  },
+  {
+    "number": 40,
+    "title": "Formally close every project",
+    "category": "Lifecycle & Closure",
+    "key_point": "Every project must be formally closed—even if terminated early—paying bills, releasing resources, and documenting.",
+    "knowledge": "All projects must be formally closed whether successful or terminated early: pay outstanding bills/contracts, formally release resources, and document what was/wasn't done in the final project report. Don't just abandon a cancelled project.",
+    "question": "Your mobile app project is cancelled due to strategy changes; the executive team wants all resources reassigned to a new initiative next week and tells you to wrap up quickly since there are no deliverables. What should you do?",
+    "options": {
+      "A": "Immediately transition the team to the new initiative and handle administrative cleanup yourself over the next few weeks.",
+      "B": "Request additional time to properly close out contracts and equipment and conduct the final financial reconciliation.",
+      "C": "Assign one member to handle the closure while moving the rest of the team.",
+      "D": "Document the project status and outstanding items, then hand over closure to operations."
+    },
+    "correct_answer": "B",
+    "explanation": "Even cancelled projects must be formally closed (contracts, equipment, financial reconciliation). A, C, and D skip or hand off proper formal closure."
+  },
+  {
+    "number": 41,
+    "title": "Repeat and reinforce the vision to the team",
+    "category": "Continuous Improvement",
+    "key_point": "Keep reminding the team of the project vision; heads-down work makes people lose the big picture.",
+    "knowledge": "When team members are deep in technical detail, they lose sight of the bigger picture. Consistently reinforce the project vision and connect their work to it so they remember what the project is meant to achieve.",
+    "question": "Three months into your e-commerce project, the team is highly focused on technical detail and Sprint deliverables but has lost sight of the bigger picture (a seamless customer experience). What should you do?",
+    "options": {
+      "A": "Let the team keep focusing on technical excellence since the vision will become clear once they see the finished product.",
+      "B": "Bring in the product owner to realign the team with business requirements.",
+      "C": "Create detailed user stories connecting each technical task to specific customer value.",
+      "D": "Schedule regular sessions to discuss and reinforce how the technical work connects to the overall vision."
+    },
+    "correct_answer": "D",
+    "explanation": "Reinforce the vision with the team yourself. A does nothing, B brings in someone else to do your job, and writing user stories (C) isn't the PM's role."
+  },
+  {
+    "number": 42,
+    "title": "Clarify what success and failure look like",
+    "category": "Continuous Improvement",
+    "key_point": "Define measurable success and failure criteria with stakeholders (e.g., 'remember the future').",
+    "knowledge": "Make sure everyone understands what success and failure look like, using measurable criteria. Agile uses 'remember the future' to have customers describe a successful (and failed) outcome, aligning everyone on goals.",
+    "question": "On a customer-service automation project, you realize stakeholders interpret success differently: the VP expects a 20% reduction in support tickets, while the IT director thinks success is on-time/on-budget deployment. What should you do?",
+    "options": {
+      "A": "Work with all stakeholders to define specific, measurable criteria for success and failure so everyone shares the same understanding.",
+      "B": "Continue with high-level goals since broad agreement matters more.",
+      "C": "Focus on delivering the technical solution as specified, since deliverable satisfaction will indicate success.",
+      "D": "Document the different expectations and plan to address them through multiple success criteria."
+    },
+    "correct_answer": "A",
+    "explanation": "Align everyone on measurable success and failure criteria. B does nothing, C focuses on one dimension, and D documents differences without creating a shared definition."
+  },
+  {
+    "number": 43,
+    "title": "Use retrospectives to improve future Sprints",
+    "category": "Continuous Improvement",
+    "key_point": "Never skip the retrospective; you can always improve, even after a successful Sprint.",
+    "knowledge": "Retrospectives at the end of each Sprint capture what went well, what didn't, and what to do more/less of, driving continuous improvement. Even after a successful Sprint, hold the full retrospective—there's always room to improve.",
+    "question": "After a successful third Sprint (consistent velocity, happy stakeholders, no blockers), some team members suggest skipping the retrospective to use the time for Sprint planning. What should you do?",
+    "options": {
+      "A": "Skip the retrospective since the Sprint was successful and use the time for planning.",
+      "B": "Conduct a brief 15-minute retrospective just to check for issues, then move on.",
+      "C": "Hold the full retrospective as planned, focusing on what was successful and identifying opportunities for even better performance.",
+      "D": "Replace the retrospective with a celebration of the successful Sprint."
+    },
+    "correct_answer": "C",
+    "explanation": "Always hold the full retrospective; continuous improvement is possible even after success. A and D skip it, and B shortchanges it."
+  },
+  {
+    "number": 44,
+    "title": "Implement feedback loops; apply lessons immediately",
+    "category": "Continuous Improvement",
+    "key_point": "Apply what you learn from one task to the next right away—don't wait.",
+    "knowledge": "Feedback loops mean applying feedback/lessons from one task immediately to the next, repeatedly. When you discover what works or doesn't, fix it now rather than deferring to a future phase, deliverable, or review.",
+    "question": "After the first module of a multi-module system, you found the initial technical approach caused integration problems, the testing strategy missed edge cases, and stakeholder reviews would have helped earlier. What should you do before starting the second module?",
+    "options": {
+      "A": "Analyze the lessons from the first module and adjust the technical approach, testing strategy, and review process for the second module before development begins.",
+      "B": "Begin the second module as planned while documenting lessons for future reference.",
+      "C": "Continue with the current approach since the team gained valuable experience.",
+      "D": "Schedule a detailed post-mortem of the first module to conduct after the second."
+    },
+    "correct_answer": "A",
+    "explanation": "Apply the lessons immediately to the next module. B and D defer applying them, and C ignores the improvements entirely."
+  },
+  {
+    "number": 45,
+    "title": "If you must choose, fix budget before schedule",
+    "category": "Cost & Schedule",
+    "key_point": "On a traditional project, when forced to choose, address budget overruns before schedule (agile timeboxes and adjusts scope).",
+    "knowledge": "Avoid cost and time overruns, but on a traditional project, if forced to choose, fix the budget first. Agile uses timeboxing—fixed budget and schedule per Sprint—and adjusts scope within iterations to keep cost and time stable.",
+    "question": "Due to unexpected technical complexity you're projecting a 15% budget overrun and a three-week schedule delay. What approach should you prioritize?",
+    "options": {
+      "A": "Reduce scope/features to meet the original timeline, accepting the budget overrun.",
+      "B": "Negotiate additional funding to cover the overrun while accepting the 3-week delay.",
+      "C": "Implement cost-reduction measures first to address the budget overrun, then work on schedule compression.",
+      "D": "Seek a balanced approach that partially addresses both, accepting smaller overruns in each."
+    },
+    "correct_answer": "C",
+    "explanation": "On a traditional project, address the budget first with cost-reduction measures, then the schedule. A accepts the overrun, B just adds funding, and D leaves both partially unresolved."
+  },
+  {
+    "number": 46,
+    "title": "Manage the schedule via the critical path",
+    "category": "Cost & Schedule",
+    "key_point": "Focus schedule fixes on the critical path (traditional); agile manages schedule via Sprint commitments and velocity.",
+    "knowledge": "The critical path is the longest path through the schedule and determines project length with the highest-risk, zero-float activities. Compress critical-path activities to shrink the schedule; delays on it push the whole project out. Agile manages schedule via velocity and Sprint commitments, working highest-priority first.",
+    "question": "Several activities are behind: UI design (2 weeks), database optimization (1 week), security review (3 weeks), integration testing (4 days). What should you focus on first when assessing the schedule impact?",
+    "options": {
+      "A": "Identify which delayed activities are on the critical path and will actually affect the project end date, then prioritize those.",
+      "B": "Address the UI design since it affects user experience and stakeholder satisfaction.",
+      "C": "Focus on the security review since it has the longest delay.",
+      "D": "Work on all delays simultaneously."
+    },
+    "correct_answer": "A",
+    "explanation": "Only critical-path delays move the end date, so prioritize those. B and C react to importance/longest delay rather than the critical path, and D spreads resources too thin."
+  },
+  {
+    "number": 47,
+    "title": "Absolute answers (always/all/never) are usually wrong",
+    "category": "Exam Strategy",
+    "key_point": "Treat options with absolutes (always, all, never) as usually incorrect; project management is situational.",
+    "knowledge": "Project management is rarely absolute—the right action depends on the scenario. Choices worded with always, all, or never are usually not the answer. Communication, for example, should be tailored to each stakeholder rather than applied uniformly.",
+    "question": "Your team debates the best approach for stakeholder communication during an implementation. Which statement presents the best approach?",
+    "options": {
+      "A": "Always communicate status regularly to all stakeholders to maintain transparency.",
+      "B": "All project decisions should be made collaboratively with stakeholder input.",
+      "C": "Tailor communication frequency based on each stakeholder's specific needs.",
+      "D": "Never make significant changes without first conducting thorough analysis."
+    },
+    "correct_answer": "C",
+    "explanation": "C avoids absolutes and correctly tailors communication to each stakeholder. A and B use absolutes (always/all), and D, while sound, uses 'never' and is about changes rather than the communication the question asks about."
+  },
+  {
+    "number": 48,
+    "title": "Never do nothing; be proactive",
+    "category": "Exam Strategy",
+    "key_point": "Don't pick options that take no action ('continue as-is'); be proactive.",
+    "knowledge": "Never choose an option that takes no action or just continues the current course. A good PM is proactive, not reactive—address potential problems before they escalate rather than waiting.",
+    "question": "Your team reports that a third-party API has had intermittent slowdowns over the past week; the vendor hasn't acknowledged issues and it hasn't caused complete failure yet, just longer response times users might notice. What should you do?",
+    "options": {
+      "A": "Continue with current development and focus on completing all features.",
+      "B": "Focus on completing all features and revisit if it becomes a real issue.",
+      "C": "Wait to address the API issue until Sprint planning.",
+      "D": "Contact the vendor to understand the issue."
+    },
+    "correct_answer": "D",
+    "explanation": "Be proactive and contact the vendor. A, B, and C all do nothing and let the problem keep progressing."
+  },
+  {
+    "number": 49,
+    "title": "The perfect answer isn't always listed",
+    "category": "Exam Strategy",
+    "key_point": "Choose the closest/best of the four options, even when none is perfect.",
+    "knowledge": "Sometimes all options are imperfect; pick the closest to right rather than waiting for an ideal answer. For example, you should never deploy with a known security vulnerability even if delaying is undesirable.",
+    "question": "Two days before a scheduled production deployment you discover a significant security vulnerability affecting user data encryption that could expose sensitive data. What should you do?",
+    "options": {
+      "A": "Deploy as scheduled and plan to fix it in the next release cycle.",
+      "B": "Delay the deployment by one week to implement a security fix that eliminates the vulnerability.",
+      "C": "Launch with the vulnerability but add measures to detect breaches quickly.",
+      "D": "Deploy to a limited user group first to test the security risk in a controlled way."
+    },
+    "correct_answer": "B",
+    "explanation": "Never release a known security vulnerability; delaying to fix it is the best of imperfect options. A, C, and D all push the vulnerability to users."
+  },
+  {
+    "number": 50,
+    "title": "Principles aren't set in stone; pick the best of four",
+    "category": "Exam Strategy",
+    "key_point": "Even a mindset principle can be broken when it's the least-bad of the four options; choose the best available.",
+    "knowledge": "The mindset principles are guidance, not absolute rules. When every option is poor (or even when the best choice goes against a principle), select the least-bad, best-of-four answer. The objective is to pass by choosing the most-correct option.",
+    "question": "Your team debates implementing a stakeholder-requested feature that would improve UX but needs extra development time; the sponsor supports it but the timeline is already tight and the team is split on its value. What should you do?",
+    "options": {
+      "A": "Implement the feature since it improves UX and has sponsor support, accepting the timeline impact.",
+      "B": "Decline the feature to protect the timeline and original scope, explaining the trade-off.",
+      "C": "Negotiate a compromise by implementing a simplified version that requires less development.",
+      "D": "Add the feature to the backlog for the next phase, acknowledging its value while maintaining current commitments."
+    },
+    "correct_answer": "C",
+    "explanation": "When no option is clearly perfect, negotiating a compromise (a simplified version) is the best of the four. A just implements despite the tight timeline, B declines outright, and D defers it entirely."
+  }
+]
