@@ -11,6 +11,8 @@ question dataset it runs on.
 | `qa_dataset.json` | 200 PMP practice questions: `number`, `question`, `options` (A–E), `correct_answer`, `explanation`. |
 | `principles.html` | The 50 Mindset Principles study app — Learn, Flashcards, Quiz, and Mind Map modes. |
 | `principles_dataset.json` | 50 PMP mindset principles: `number`, `title`, `category`, `key_point`, `knowledge`, plus a practice `question`/`options`/`correct_answer`/`explanation`. |
+| `dnd.html` | The Drag-and-Drop practice app — match items to categories by dragging (or clicking). |
+| `dnd_dataset.json` | PMP drag-and-drop questions: `number`, `prompt`, `left_label`, `right_label`, `items` (text→answer), `options`, `explanation`, `video_time`. |
 | `200 untra hard transcript.md` | Source transcript for the question dataset. |
 | `50 Principles.md` | Source transcript for the principles dataset. |
 | `progress.md` | Extraction progress log. |

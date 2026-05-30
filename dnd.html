@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>PMP Drag & Drop Questions</title>
+<style>
+  :root {
+    --bg:#0f172a; --card:#1e293b; --card2:#273449; --text:#e2e8f0; --muted:#94a3b8;
+    --accent:#2dd4bf; --ink:#06302b; --good:#22c55e; --bad:#ef4444; --border:#334155;
+    --good-bg:#14321f; --bad-bg:#3a1a1a; --sel-bg:#134e4a;
+  }
+  body.light {
+    --bg:#eef2f7; --card:#ffffff; --card2:#f1f5f9; --text:#0f172a; --muted:#64748b;
+    --accent:#0d9488; --ink:#ffffff; --good:#16a34a; --bad:#dc2626; --border:#cbd5e1;
+    --good-bg:#dcfce7; --bad-bg:#fee2e2; --sel-bg:#ccfbf1;
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; background:var(--bg); color:var(--text); line-height:1.5; transition:background .2s,color .2s; }
+  header { background:var(--card); border-bottom:1px solid var(--border); position:sticky; top:0; z-index:10; padding:12px 20px; }
+  .topbar { display:flex; flex-wrap:wrap; gap:12px; align-items:center; justify-content:space-between; }
+  h1 { font-size:18px; margin:0; color:var(--accent); }
+  .stats { display:flex; gap:16px; flex-wrap:wrap; font-size:13px; color:var(--muted); align-items:center; }
+  .stats b { color:var(--text); }
+  button { background:var(--card2); color:var(--text); border:1px solid var(--border); padding:8px 14px; border-radius:8px; cursor:pointer; font-size:14px; }
+  button:hover { border-color:var(--accent); }
+  button:disabled { opacity:.4; cursor:not-allowed; }
+  button.primary { background:var(--accent); color:var(--ink); border-color:var(--accent); font-weight:700; }
+  button.small { padding:6px 10px; font-size:13px; }
+  a.linkbtn { text-decoration:none; color:var(--text); background:var(--card2); border:1px solid var(--border); padding:6px 12px; border-radius:8px; font-size:13px; }
+  main { max-width:900px; margin:22px auto; padding:0 16px; }
+  .loader { text-align:center; padding:60px; color:var(--muted); }
+  .card { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:20px; }
+  .qmeta { display:flex; justify-content:space-between; gap:8px; align-items:center; font-size:13px; color:var(--muted); margin-bottom:8px; }
+  .badge { font-size:12px; padding:2px 8px; border-radius:999px; background:var(--card2); border:1px solid var(--border); }
+  .prompt { font-weight:600; margin-bottom:14px; }
+  .colhead { font-size:12px; text-transform:uppercase; letter-spacing:.04em; color:var(--accent); margin:6px 0; }
+
+  .rows { display:flex; flex-direction:column; gap:10px; }
+  .row { display:flex; gap:12px; align-items:stretch; }
+  .desc { flex:1; background:var(--card2); border:1px solid var(--border); border-radius:8px; padding:10px 12px; font-size:14px; }
+  .slot { width:220px; min-height:46px; border:2px dashed var(--border); border-radius:8px; display:flex; align-items:center; justify-content:center; text-align:center; padding:6px 8px; font-size:13px; color:var(--muted); cursor:pointer; }
+  .slot.filled { border-style:solid; color:var(--text); background:var(--sel-bg); border-color:var(--accent); }
+  .slot.correct { border-color:var(--good); background:var(--good-bg); color:var(--text); }
+  .slot.incorrect { border-color:var(--bad); background:var(--bad-bg); color:var(--text); }
+  .slot.dragover { border-color:var(--accent); }
+
+  .pool { display:flex; flex-wrap:wrap; gap:8px; margin-top:16px; padding-top:14px; border-top:1px dashed var(--border); }
+  .chip { background:var(--card2); border:1px solid var(--border); border-radius:8px; padding:8px 12px; font-size:13px; cursor:grab; user-select:none; }
+  .chip:hover { border-color:var(--accent); }
+  .chip.selected { border-color:var(--accent); background:var(--sel-bg); outline:2px solid var(--accent); }
+
+  .ansbox { margin-top:14px; padding:12px 14px; border-radius:8px; background:var(--card2); border-left:4px solid var(--accent); display:none; }
+  .ansbox.show { display:block; }
+  .verdict { font-weight:700; margin-bottom:4px; }
+  .verdict.good{color:var(--good);} .verdict.bad{color:var(--bad);}
+  .controls { display:flex; flex-wrap:wrap; gap:10px; margin-top:18px; align-items:center; }
+  .spacer { flex:1; }
+  .jump input { width:60px; background:var(--card2); border:1px solid var(--border); color:var(--text); border-radius:6px; padding:6px 8px; }
+  .hint { font-size:12px; color:var(--muted); }
+  .overlay { position:fixed; inset:0; background:rgba(0,0,0,.6); display:none; align-items:center; justify-content:center; z-index:100; padding:16px; }
+  .overlay.show { display:flex; }
+  .modal { background:var(--card); border:1px solid var(--border); border-radius:12px; max-width:560px; width:100%; padding:22px; }
+  @media(max-width:620px){ .slot{width:130px;} .row{flex-direction:column;} .slot{width:100%;} }
+</style>
+</head>
+<body>
+<header>
+  <div class="topbar">
+    <h1>🧩 PMP Drag &amp; Drop</h1>
+    <div class="stats">
+      <span>Solved: <b id="stSolved">0</b>/<b id="stTotal">0</b></span>
+      <a id="watchLink" target="_blank" rel="noopener" class="badge" style="text-decoration:none;color:var(--accent);border-color:var(--accent);display:none">▶ Watch</a>
+      <a href="index.html" class="linkbtn">🏠 Home</a>
+      <button id="themeBtn" class="small">🌙 Dark</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div id="loader" class="loader">Loading questions…</div>
+  <div id="app" style="display:none">
+    <div class="card">
+      <div class="qmeta">
+        <span><b id="qPos"></b></span>
+        <span class="badge" id="qType">Match</span>
+      </div>
+      <div class="prompt" id="prompt"></div>
+      <div class="colhead" id="colhead"></div>
+      <div class="rows" id="rows"></div>
+      <div class="pool" id="pool"></div>
+
+      <div class="ansbox" id="ansbox">
+        <div class="verdict" id="verdict"></div>
+        <div id="explanation"></div>
+      </div>
+
+      <div class="controls">
+        <button id="checkBtn" class="primary">Check</button>
+        <button id="showBtn">Show Answer</button>
+        <button id="clearBtn">Clear</button>
+        <div class="spacer"></div>
+        <button id="prevBtn">◀ Prev</button>
+        <button id="nextBtn">Next ▶</button>
+      </div>
+    </div>
+
+    <div class="controls">
+      <button id="listBtn" class="small">☰ Question list</button>
+      <button id="shuffleBtn" class="small">🔀 Shuffle</button>
+      <div class="jump hint">Go to # <input type="number" id="jumpInput" min="1" /> <button id="jumpBtn" class="small">Go</button></div>
+      <div class="spacer"></div>
+      <span class="hint">Drag a chip onto a slot, or click a chip then click a slot. Chips can be reused.</span>
+    </div>
+  </div>
+</main>
+
+<div class="overlay" id="listOverlay"><div class="modal">
+  <h3 style="margin-top:0;color:var(--accent)">Question list</h3>
+  <div id="listGrid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(44px,1fr));gap:8px"></div>
+  <div style="display:flex;justify-content:flex-end;margin-top:14px"><button id="listClose" class="small primary">Close</button></div>
+</div></div>
+
+<div class="overlay" id="fileOverlay"><div class="modal">
+  <h3 style="margin-top:0">Load data</h3>
+  <p>Could not auto-load <code>dnd_dataset.json</code>. Pick the file, or run a local server.</p>
+  <input type="file" id="filePicker" accept=".json" />
+</div></div>
+
+<script>
+(function(){
+  "use strict";
+  const LS="pmp_dnd_v1", VID="K7J4WGbR9Ig";
+  let DATA=[], order=[], pos=0, theme="dark";
+  let placed={};          // per-question: {itemIndex: label}
+  let solved={};          // qnum -> true
+  let selectedChip=null;
+
+  function save(){ try{ localStorage.setItem(LS, JSON.stringify({theme,solved})); }catch(e){} }
+  function load(){ try{ const r=JSON.parse(localStorage.getItem(LS)||"{}"); theme=r.theme||"dark"; solved=r.solved||{}; }catch(e){} }
+  function esc(s){ return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
+  function fmtClock(s){ s=Math.max(0,Math.round(s||0)); var m=Math.floor(s/60),x=s%60; return m+":"+(x<10?"0":"")+x; }
+  function curQ(){ return DATA[order[pos]]; }
+  function applyTheme(){ document.body.classList.toggle("light",theme==="light"); document.getElementById("themeBtn").textContent=theme==="light"?"☀️ Light":"🌙 Dark"; }
+
+  function render(){
+    const q=curQ(); if(!q) return;
+    placed={};
+    document.getElementById("qPos").textContent="Question "+q.number+" of "+DATA.length;
+    document.getElementById("qType").textContent=(q.right_label||"Match");
+    document.getElementById("prompt").textContent=q.prompt;
+    document.getElementById("colhead").textContent=(q.left_label||"Item")+"  →  "+(q.right_label||"Category");
+    // watch link
+    const wl=document.getElementById("watchLink");
+    if(q.video_time!=null){ wl.style.display=""; wl.href="https://www.youtube.com/watch?v="+VID+"&t="+q.video_time+"s"; wl.textContent="▶ Watch "+fmtClock(q.video_time); }
+    else wl.style.display="none";
+    // rows
+    const rows=document.getElementById("rows"); rows.innerHTML="";
+    q.items.forEach(function(it,idx){
+      const row=document.createElement("div"); row.className="row";
+      const d=document.createElement("div"); d.className="desc"; d.textContent=it.text;
+      const slot=document.createElement("div"); slot.className="slot"; slot.dataset.i=idx; slot.textContent="Drop here";
+      slot.addEventListener("dragover",e=>{e.preventDefault();slot.classList.add("dragover");});
+      slot.addEventListener("dragleave",()=>slot.classList.remove("dragover"));
+      slot.addEventListener("drop",e=>{e.preventDefault();slot.classList.remove("dragover"); const lbl=e.dataTransfer.getData("text"); if(lbl) setSlot(idx,lbl);});
+      slot.addEventListener("click",()=>{ if(selectedChip){ setSlot(idx,selectedChip); } else if(placed[idx]){ delete placed[idx]; paintSlots(); } });
+      row.appendChild(d); row.appendChild(slot); rows.appendChild(row);
+    });
+    // pool
+    const pool=document.getElementById("pool"); pool.innerHTML=""; selectedChip=null;
+    q.options.forEach(function(opt){
+      const c=document.createElement("div"); c.className="chip"; c.textContent=opt; c.draggable=true;
+      c.addEventListener("dragstart",e=>e.dataTransfer.setData("text",opt));
+      c.addEventListener("click",()=>{ if(selectedChip===opt){selectedChip=null;} else {selectedChip=opt;} paintChips(); });
+      pool.appendChild(c);
+    });
+    document.getElementById("ansbox").classList.remove("show");
+    document.getElementById("prevBtn").disabled=pos===0;
+    document.getElementById("nextBtn").disabled=pos===DATA.length-1;
+    document.getElementById("jumpInput").value=q.number;
+    paintSlots(); paintChips(); updateStats();
+  }
+  function setSlot(i,lbl){ placed[i]=lbl; selectedChip=null; paintSlots(); paintChips(); }
+  function paintSlots(){
+    const q=curQ();
+    Array.from(document.getElementById("rows").children).forEach(function(row){
+      const slot=row.querySelector(".slot"); const i=+slot.dataset.i;
+      slot.classList.remove("filled","correct","incorrect");
+      if(placed[i]!=null){ slot.textContent=placed[i]; slot.classList.add("filled"); }
+      else slot.textContent="Drop here";
+    });
+  }
+  function paintChips(){ Array.from(document.getElementById("pool").children).forEach(c=>c.classList.toggle("selected", c.textContent===selectedChip)); }
+
+  function check(){
+    const q=curQ(); let allRight=true;
+    Array.from(document.getElementById("rows").children).forEach(function(row){
+      const slot=row.querySelector(".slot"); const i=+slot.dataset.i;
+      slot.classList.remove("correct","incorrect","filled");
+      if(placed[i]===q.items[i].answer) slot.classList.add("correct");
+      else { slot.classList.add("incorrect"); allRight=false; }
+    });
+    const box=document.getElementById("ansbox"); box.classList.add("show");
+    const v=document.getElementById("verdict");
+    const filledAll=q.items.every((_,i)=>placed[i]!=null);
+    if(allRight && filledAll){ v.textContent="✔ All correct!"; v.className="verdict good"; solved[q.number]=true; save(); }
+    else { v.textContent="✘ Not all correct — keep trying or Show Answer."; v.className="verdict bad"; }
+    document.getElementById("explanation").textContent=q.explanation;
+    updateStats();
+  }
+  function showAns(){
+    const q=curQ();
+    q.items.forEach((it,i)=>placed[i]=it.answer);
+    Array.from(document.getElementById("rows").children).forEach(function(row){
+      const slot=row.querySelector(".slot"); const i=+slot.dataset.i;
+      slot.classList.remove("incorrect"); slot.classList.add("correct"); slot.textContent=q.items[i].answer;
+    });
+    const box=document.getElementById("ansbox"); box.classList.add("show");
+    document.getElementById("verdict").textContent="Answer key"; document.getElementById("verdict").className="verdict";
+    document.getElementById("explanation").textContent=q.explanation;
+  }
+  function updateStats(){
+    document.getElementById("stTotal").textContent=DATA.length;
+    document.getElementById("stSolved").textContent=Object.keys(solved).length;
+  }
+  function go(p){ if(p<0||p>=DATA.length) return; pos=p; render(); }
+  function gotoNum(n){ const i=order.indexOf(DATA.findIndex(q=>q.number===n)); if(i>=0) go(i); }
+
+  function openList(){
+    const g=document.getElementById("listGrid"); g.innerHTML="";
+    DATA.forEach(function(q){
+      const t=document.createElement("div");
+      t.textContent=q.number;
+      t.style.cssText="text-align:center;padding:8px 0;border-radius:6px;border:1px solid var(--border);cursor:pointer;font-weight:600;"+(solved[q.number]?"background:var(--good-bg);border-color:var(--good);":"background:var(--card2);");
+      if(q.number===curQ().number) t.style.outline="2px solid var(--accent)";
+      t.onclick=()=>{ gotoNum(q.number); document.getElementById("listOverlay").classList.remove("show"); };
+      g.appendChild(t);
+    });
+    document.getElementById("listOverlay").classList.add("show");
+  }
+
+  function init(data){
+    DATA=data.slice().sort((a,b)=>a.number-b.number);
+    order=DATA.map((_,i)=>i);
+    load(); applyTheme();
+    document.getElementById("loader").style.display="none";
+    document.getElementById("app").style.display="block";
+    document.getElementById("jumpInput").max=DATA.length;
+    go(0);
+    document.getElementById("checkBtn").onclick=check;
+    document.getElementById("showBtn").onclick=showAns;
+    document.getElementById("clearBtn").onclick=()=>{ placed={}; paintSlots(); document.getElementById("ansbox").classList.remove("show"); };
+    document.getElementById("prevBtn").onclick=()=>go(pos-1);
+    document.getElementById("nextBtn").onclick=()=>go(pos+1);
+    document.getElementById("themeBtn").onclick=()=>{ theme=theme==="light"?"dark":"light"; save(); applyTheme(); };
+    document.getElementById("shuffleBtn").onclick=()=>{ for(let i=order.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[order[i],order[j]]=[order[j],order[i]];} pos=0; render(); };
+    document.getElementById("listBtn").onclick=openList;
+    document.getElementById("listClose").onclick=()=>document.getElementById("listOverlay").classList.remove("show");
+    document.getElementById("listOverlay").addEventListener("click",e=>{ if(e.target.id==="listOverlay") e.currentTarget.classList.remove("show"); });
+    document.getElementById("jumpBtn").onclick=()=>gotoNum(parseInt(document.getElementById("jumpInput").value,10));
+    document.getElementById("jumpInput").addEventListener("keydown",e=>{ if(e.key==="Enter") gotoNum(parseInt(e.target.value,10)); });
+    document.addEventListener("keydown",e=>{
+      if(document.activeElement.tagName==="INPUT") return;
+      if(e.key==="ArrowLeft") go(pos-1); else if(e.key==="ArrowRight") go(pos+1);
+      else if(e.key==="Escape") document.querySelectorAll(".overlay.show").forEach(o=>o.classList.remove("show"));
+    });
+  }
+  function picker(){
+    document.getElementById("loader").textContent="Waiting for file…";
+    document.getElementById("fileOverlay").classList.add("show");
+    document.getElementById("filePicker").addEventListener("change",e=>{
+      const f=e.target.files[0]; if(!f) return; const r=new FileReader();
+      r.onload=()=>{ try{ const d=JSON.parse(r.result); document.getElementById("fileOverlay").classList.remove("show"); init(d);}catch(err){alert("Invalid JSON");} };
+      r.readAsText(f);
+    });
+  }
+  fetch("dnd_dataset.json").then(r=>{ if(!r.ok) throw 0; return r.json(); }).then(init).catch(picker);
+})();
+</script>
+</body>
+</html>

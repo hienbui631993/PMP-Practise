@@ -17,6 +17,9 @@ cp "$SRC/index.html" \
    "$SRC/qa_dataset.json" \
    "$SRC/principles.html" \
    "$SRC/principles_dataset.json" \
+   "$SRC/dnd.html" \
+   "$SRC/dnd_dataset.json" \
+   "$SRC/100 pmp dnd.md" \
    "$SRC/README.md" \
    "$SRC/progress.md" \
    "$SRC/PROMTP.md" \

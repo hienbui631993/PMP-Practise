@@ -1,0 +1,1307 @@
+[
+  {
+    "number": 1,
+    "prompt": "Match each role to its responsibility (drag the role onto the responsibility).",
+    "left_label": "Responsibility",
+    "right_label": "Role",
+    "items": [
+      {
+        "text": "Defines user stories and acceptance criteria.",
+        "answer": "Product Owner"
+      },
+      {
+        "text": "Collaborates to deliver potentially shippable increments.",
+        "answer": "Development Team"
+      },
+      {
+        "text": "Protects the team from outside interruptions.",
+        "answer": "Scrum Master"
+      }
+    ],
+    "options": [
+      "Product Owner",
+      "Scrum Master",
+      "Development Team"
+    ],
+    "explanation": "The product owner defines the scope/value (user stories & acceptance criteria); the development team builds the increments; the scrum master is a servant leader who removes impediments and protects the team.",
+    "video_time": 6
+  },
+  {
+    "number": 2,
+    "prompt": "Match each item to the methodology that uses it.",
+    "left_label": "Item",
+    "right_label": "Methodology",
+    "items": [
+      {
+        "text": "User Stories",
+        "answer": "Agile"
+      },
+      {
+        "text": "Blended Reporting",
+        "answer": "Hybrid"
+      },
+      {
+        "text": "EVM (Earned Value Management)",
+        "answer": "Traditional"
+      },
+      {
+        "text": "Lessons Learned Register",
+        "answer": "All"
+      }
+    ],
+    "options": [
+      "Agile",
+      "Traditional",
+      "Hybrid",
+      "All"
+    ],
+    "explanation": "User stories are agile; 'blended' reporting mixes approaches (hybrid); EVM is mostly used on traditional projects; every project keeps a lessons learned register (all).",
+    "video_time": 247
+  },
+  {
+    "number": 3,
+    "prompt": "Match each item to the methodology that uses it.",
+    "left_label": "Item",
+    "right_label": "Methodology",
+    "items": [
+      {
+        "text": "Daily Standups",
+        "answer": "Agile"
+      },
+      {
+        "text": "Rolling Wave Planning",
+        "answer": "Hybrid"
+      },
+      {
+        "text": "WBS (Work Breakdown Structure)",
+        "answer": "Traditional"
+      },
+      {
+        "text": "Risk Planning and Identification",
+        "answer": "All"
+      }
+    ],
+    "options": [
+      "Agile",
+      "Traditional",
+      "Hybrid",
+      "All"
+    ],
+    "explanation": "Daily standups are agile; rolling wave planning (plan as you learn) fits hybrid; the WBS is traditional; risk planning/identification happens on all projects.",
+    "video_time": 297
+  },
+  {
+    "number": 4,
+    "prompt": "Match each action to the methodology it describes.",
+    "left_label": "Action",
+    "right_label": "Methodology",
+    "items": [
+      {
+        "text": "Follows a sequential phase approach from initiation to closure.",
+        "answer": "Traditional"
+      },
+      {
+        "text": "Delivers work in iterative cycles.",
+        "answer": "Agile"
+      },
+      {
+        "text": "Uses a project management plan and a backlog.",
+        "answer": "Hybrid"
+      }
+    ],
+    "options": [
+      "Agile",
+      "Traditional",
+      "Hybrid"
+    ],
+    "explanation": "Sequential phases = traditional; iterative delivery = agile; using both a PM plan (traditional) and a backlog (agile) = hybrid.",
+    "video_time": 356
+  },
+  {
+    "number": 5,
+    "prompt": "Match each impediment to the action that addresses it.",
+    "left_label": "Impediment",
+    "right_label": "Action",
+    "items": [
+      {
+        "text": "Communication Breakdown",
+        "answer": "Establish a communication management plan."
+      },
+      {
+        "text": "Scope Creep",
+        "answer": "Implement a change control process to formally review and approve changes."
+      },
+      {
+        "text": "Resource Shortage",
+        "answer": "Adjust allocations or seek additional support."
+      },
+      {
+        "text": "Risk Realization",
+        "answer": "Execute the risk response plan."
+      },
+      {
+        "text": "Lack of Clear Requirements",
+        "answer": "Conduct a meeting to gather and record precise needs."
+      }
+    ],
+    "options": [
+      "Establish a communication management plan.",
+      "Implement a change control process to formally review and approve changes.",
+      "Adjust allocations or seek additional support.",
+      "Execute the risk response plan.",
+      "Conduct a meeting to gather and record precise needs."
+    ],
+    "explanation": "A communication management plan fixes communication breakdowns; a change control process stops scope creep; reallocating/adding support handles resource shortages; when a risk materializes you execute its response plan; unclear requirements are resolved by meeting to gather precise needs.",
+    "video_time": 400
+  },
+  {
+    "number": 6,
+    "prompt": "Match each person's description to the MBTI personality indicator (drag the indicator onto the description).",
+    "left_label": "Description",
+    "right_label": "Type",
+    "items": [
+      {
+        "text": "Sarah thrives in team meetings, actively participates, and gains energy from interacting with colleagues.",
+        "answer": "Extraversion (E)"
+      },
+      {
+        "text": "David approaches decisions logically and objectively, analyzing data and valuing fairness and consistency.",
+        "answer": "Thinking (T)"
+      },
+      {
+        "text": "Rachel is organized, likes a clear plan, structure, established procedures, and deadlines.",
+        "answer": "Judging (J)"
+      },
+      {
+        "text": "Lisa is detail-oriented and focuses on concrete facts and practical, present-situation information.",
+        "answer": "Sensing (S)"
+      }
+    ],
+    "options": [
+      "Extraversion (E)",
+      "Thinking (T)",
+      "Judging (J)",
+      "Sensing (S)"
+    ],
+    "explanation": "Energy from interacting = Extraversion; logical/fairness decisions = Thinking; structure/plans/deadlines = Judging; concrete facts/details = Sensing.",
+    "video_time": 516
+  },
+  {
+    "number": 7,
+    "prompt": "Match each problem to the tool that helps solve it.",
+    "left_label": "Problem",
+    "right_label": "Tool",
+    "items": [
+      {
+        "text": "Missed Deadlines",
+        "answer": "Gantt Chart"
+      },
+      {
+        "text": "Team members are assigned more work than they can handle.",
+        "answer": "Resource Leveling"
+      },
+      {
+        "text": "Unclear Task Dependencies",
+        "answer": "Network Diagram"
+      },
+      {
+        "text": "Frequent Scope Adjustments",
+        "answer": "Change Control Process"
+      },
+      {
+        "text": "Inaccurate Time Estimates",
+        "answer": "PERT Analysis"
+      }
+    ],
+    "options": [
+      "Gantt Chart",
+      "Change Control Process",
+      "Network Diagram",
+      "Resource Leveling",
+      "PERT Analysis"
+    ],
+    "explanation": "A Gantt chart shows start/end dates to avoid missed deadlines; resource leveling prevents overloading people; a network diagram clarifies task dependencies; a change control process curbs frequent scope changes; PERT improves time estimates.",
+    "video_time": 763
+  },
+  {
+    "number": 8,
+    "prompt": "Match each risk attribute to the action that describes it.",
+    "left_label": "Action",
+    "right_label": "Risk Attribute",
+    "items": [
+      {
+        "text": "Measures the time until the risk impacts the project.",
+        "answer": "Dormancy"
+      },
+      {
+        "text": "Assesses the speed at which a risk requires a response.",
+        "answer": "Urgency"
+      },
+      {
+        "text": "Identifies how risks are interconnected with other project risks.",
+        "answer": "Connectivity"
+      },
+      {
+        "text": "Evaluates the closeness of the risk event to the present time.",
+        "answer": "Proximity"
+      }
+    ],
+    "options": [
+      "Dormancy",
+      "Urgency",
+      "Connectivity",
+      "Proximity"
+    ],
+    "explanation": "Dormancy = time before a risk that has occurred starts to impact; Urgency = how fast a response is needed; Connectivity = how risks are interconnected; Proximity = how close the risk is to occurring.",
+    "video_time": 884
+  },
+  {
+    "number": 9,
+    "prompt": "Match each item to the methodology that uses it.",
+    "left_label": "Item",
+    "right_label": "Methodology",
+    "items": [
+      {
+        "text": "Gantt Chart",
+        "answer": "Traditional"
+      },
+      {
+        "text": "Phase Gate Reviews",
+        "answer": "Hybrid"
+      },
+      {
+        "text": "Sprint Planning",
+        "answer": "Agile"
+      },
+      {
+        "text": "Stakeholder Analysis",
+        "answer": "All"
+      }
+    ],
+    "options": [
+      "Traditional",
+      "Hybrid",
+      "Agile",
+      "All"
+    ],
+    "explanation": "Gantt charts are traditional; phase gate reviews fit hybrid; sprint planning is agile; stakeholder analysis is done on all projects.",
+    "video_time": 1034
+  },
+  {
+    "number": 10,
+    "prompt": "Match each item to the methodology that uses it.",
+    "left_label": "Item",
+    "right_label": "Methodology",
+    "items": [
+      {
+        "text": "Mixed Deliverables",
+        "answer": "Hybrid"
+      },
+      {
+        "text": "Resource Management Plan",
+        "answer": "Traditional"
+      },
+      {
+        "text": "Incremental Delivery",
+        "answer": "Agile"
+      },
+      {
+        "text": "Resource Management",
+        "answer": "All"
+      }
+    ],
+    "options": [
+      "Hybrid",
+      "Traditional",
+      "Agile",
+      "All"
+    ],
+    "explanation": "Mixed deliverables = hybrid; a formal management plan = traditional; incremental delivery = agile; managing resources happens on all projects.",
+    "video_time": 1090
+  },
+  {
+    "number": 11,
+    "prompt": "Match each problem to the tool/technique that helps solve it.",
+    "left_label": "Problem",
+    "right_label": "Tool",
+    "items": [
+      {
+        "text": "Uncoordinated Task Handovers",
+        "answer": "Kanban Board"
+      },
+      {
+        "text": "Meeting Going Off Topic",
+        "answer": "Time-Boxing"
+      },
+      {
+        "text": "Activities Dependency Issues",
+        "answer": "PDM (Precedence Diagramming Method)"
+      },
+      {
+        "text": "Unplanned Work",
+        "answer": "Rolling Wave Planning"
+      },
+      {
+        "text": "Unclear Task Prioritization",
+        "answer": "MoSCoW Method"
+      }
+    ],
+    "options": [
+      "Kanban Board",
+      "Rolling Wave Planning",
+      "PDM (Precedence Diagramming Method)",
+      "Time-Boxing",
+      "MoSCoW Method"
+    ],
+    "explanation": "A Kanban board makes handovers/work-in-progress visible; time-boxing keeps meetings on topic; PDM shows activity dependencies; rolling wave planning handles unplanned/emerging work; MoSCoW prioritizes work (must/should/could/won't).",
+    "video_time": 1147
+  },
+  {
+    "number": 12,
+    "prompt": "Match each task to the collaboration tool that best supports it.",
+    "left_label": "Task",
+    "right_label": "Tool",
+    "items": [
+      {
+        "text": "Coordinate collaborative editing of deliverables to ensure version consistency.",
+        "answer": "Version Control System"
+      },
+      {
+        "text": "Display project milestones and timelines for team members to track progress.",
+        "answer": "Online Bulletin Boards"
+      },
+      {
+        "text": "Organize a project status update meeting with remote team members and stakeholders.",
+        "answer": "Video Conferencing"
+      },
+      {
+        "text": "Facilitate real-time discussion for quick decision-making during a critical phase.",
+        "answer": "Chat Rooms"
+      },
+      {
+        "text": "Monitor team members' work hours and project time allocation to manage resources.",
+        "answer": "Time Tracking Software"
+      }
+    ],
+    "options": [
+      "Video Conferencing",
+      "Chat Rooms",
+      "Version Control System",
+      "Online Bulletin Boards",
+      "Time Tracking Software"
+    ],
+    "explanation": "Version control keeps deliverable versions consistent; bulletin boards display milestones; video conferencing runs status meetings; chat rooms enable real-time discussion; time tracking software manages work hours.",
+    "video_time": 1272
+  },
+  {
+    "number": 13,
+    "prompt": "Match each description to the role (note: more roles than descriptions — some are distractors).",
+    "left_label": "Description",
+    "right_label": "Role",
+    "items": [
+      {
+        "text": "Defines acceptance criteria for project deliverables in the product backlog.",
+        "answer": "Product Owner"
+      },
+      {
+        "text": "Develops detailed project plans, including schedules, budgets, and resource allocation.",
+        "answer": "Project Manager"
+      },
+      {
+        "text": "Maps out existing business processes to identify areas for improvement.",
+        "answer": "Business Analyst"
+      }
+    ],
+    "options": [
+      "Product Owner",
+      "Business Analyst",
+      "Project Manager",
+      "Project Sponsor",
+      "Functional Manager"
+    ],
+    "explanation": "'Acceptance criteria in the product backlog' signals agile = product owner; detailed plans/schedules/budgets is the (traditional) project manager; mapping business processes for improvement is the business analyst. Project Sponsor and Functional Manager are distractors.",
+    "video_time": 1411
+  },
+  {
+    "number": 14,
+    "prompt": "Match each risk attribute to the action that describes it.",
+    "left_label": "Action",
+    "right_label": "Risk Attribute",
+    "items": [
+      {
+        "text": "Determines the potential delay before the risk materializes.",
+        "answer": "Dormancy"
+      },
+      {
+        "text": "Prioritizes risks that need immediate action.",
+        "answer": "Urgency"
+      },
+      {
+        "text": "Maps the risk dependencies to understand the potential ripple effects.",
+        "answer": "Connectivity"
+      },
+      {
+        "text": "Gauges how imminent the risk event is to project execution.",
+        "answer": "Proximity"
+      }
+    ],
+    "options": [
+      "Dormancy",
+      "Urgency",
+      "Connectivity",
+      "Proximity"
+    ],
+    "explanation": "Delay before it materializes = Dormancy; immediate-action priority = Urgency; ripple effects/dependencies = Connectivity; how imminent/close = Proximity.",
+    "video_time": 1520
+  },
+  {
+    "number": 15,
+    "prompt": "Match each risk attribute to the action that describes it.",
+    "left_label": "Action",
+    "right_label": "Risk Attribute",
+    "items": [
+      {
+        "text": "Identifies the latency period of the risk.",
+        "answer": "Dormancy"
+      },
+      {
+        "text": "Evaluates the required response time for the risk.",
+        "answer": "Urgency"
+      },
+      {
+        "text": "Analyzes the links between this risk and others within the project.",
+        "answer": "Connectivity"
+      },
+      {
+        "text": "Assesses how soon the risk is expected to affect the project.",
+        "answer": "Proximity"
+      }
+    ],
+    "options": [
+      "Dormancy",
+      "Urgency",
+      "Connectivity",
+      "Proximity"
+    ],
+    "explanation": "Latency period = Dormancy; required response time = Urgency; links between risks = Connectivity; how soon it will affect the project = Proximity.",
+    "video_time": 1600
+  },
+  {
+    "number": 16,
+    "prompt": "Match each responsibility to the role.",
+    "left_label": "Responsibility",
+    "right_label": "Role",
+    "items": [
+      {
+        "text": "Removes external forces to keep the team productive.",
+        "answer": "Scrum Master"
+      },
+      {
+        "text": "Determines the order of the work.",
+        "answer": "Product Owner"
+      },
+      {
+        "text": "Determines how to do the actual work needed to build the product.",
+        "answer": "Development Team"
+      }
+    ],
+    "options": [
+      "Development Team",
+      "Product Owner",
+      "Scrum Master"
+    ],
+    "explanation": "The scrum master removes impediments; the product owner prioritizes/orders the work (backlog); the development team decides how to do the work.",
+    "video_time": 1662
+  },
+  {
+    "number": 17,
+    "prompt": "Match each situation to the interpersonal skill it demonstrates.",
+    "left_label": "Description",
+    "right_label": "Interpersonal Skill",
+    "items": [
+      {
+        "text": "Convincing stakeholders to adopt a proposed project plan.",
+        "answer": "Influencing"
+      },
+      {
+        "text": "Reaching a compromise with a vendor on contract terms.",
+        "answer": "Negotiation"
+      },
+      {
+        "text": "A team member fully understands another's concerns in a meeting.",
+        "answer": "Active Listening"
+      },
+      {
+        "text": "Mediating a disagreement between two team members to find a solution.",
+        "answer": "Conflict Resolution"
+      },
+      {
+        "text": "A leader empathizes with a stressed team member to provide support.",
+        "answer": "Emotional Intelligence"
+      }
+    ],
+    "options": [
+      "Influencing",
+      "Emotional Intelligence",
+      "Conflict Resolution",
+      "Active Listening",
+      "Negotiation"
+    ],
+    "explanation": "Convincing = influencing; compromising on terms = negotiation; fully understanding someone = active listening; mediating a disagreement = conflict resolution; empathizing = emotional intelligence.",
+    "video_time": 1707
+  },
+  {
+    "number": 18,
+    "prompt": "Match each action to the methodology it describes.",
+    "left_label": "Action",
+    "right_label": "Methodology",
+    "items": [
+      {
+        "text": "Team does daily stand-ups together with a WBS.",
+        "answer": "Hybrid"
+      },
+      {
+        "text": "Adapts to changing requirements even late in development.",
+        "answer": "Agile"
+      },
+      {
+        "text": "Conducts detailed WBS and Gantt chart planning.",
+        "answer": "Traditional"
+      }
+    ],
+    "options": [
+      "Agile",
+      "Traditional",
+      "Hybrid"
+    ],
+    "explanation": "Standups (agile) + WBS (traditional) = hybrid; embracing late changes = agile; detailed WBS/Gantt planning = traditional.",
+    "video_time": 1816
+  },
+  {
+    "number": 19,
+    "prompt": "Sort each attribute statement into Predictive or Agile.",
+    "left_label": "Attribute",
+    "right_label": "Approach",
+    "items": [
+      {
+        "text": "Requirements are fixed and defined at the beginning of the project.",
+        "answer": "Predictive"
+      },
+      {
+        "text": "Requirements are evolving and refined throughout the project.",
+        "answer": "Agile"
+      },
+      {
+        "text": "Changes are managed through formal change control processes.",
+        "answer": "Predictive"
+      },
+      {
+        "text": "Changes are embraced and incorporated continuously.",
+        "answer": "Agile"
+      },
+      {
+        "text": "Risk and cost are assessed and planned for upfront.",
+        "answer": "Predictive"
+      },
+      {
+        "text": "Risk and cost are managed iteratively.",
+        "answer": "Agile"
+      },
+      {
+        "text": "Key stakeholders have limited involvement after initial planning.",
+        "answer": "Predictive"
+      },
+      {
+        "text": "Key stakeholders are actively involved throughout the project.",
+        "answer": "Agile"
+      },
+      {
+        "text": "Project scope is clearly defined and controlled.",
+        "answer": "Predictive"
+      },
+      {
+        "text": "Project scope is flexible and adaptive.",
+        "answer": "Agile"
+      }
+    ],
+    "options": [
+      "Predictive",
+      "Agile"
+    ],
+    "explanation": "Predictive fixes requirements/scope upfront, manages changes via formal change control, plans risk/cost upfront, and engages stakeholders mainly early. Agile keeps requirements/scope evolving, welcomes continuous change, manages risk/cost iteratively, and involves stakeholders throughout.",
+    "video_time": 1895
+  },
+  {
+    "number": 20,
+    "prompt": "Match each task to the collaboration tool that best supports it.",
+    "left_label": "Task",
+    "right_label": "Tool",
+    "items": [
+      {
+        "text": "Track and merge code changes from multiple developers working on the same project.",
+        "answer": "Version Control System"
+      },
+      {
+        "text": "Edit project documents in real-time with team members.",
+        "answer": "Project Collaboration Tools"
+      },
+      {
+        "text": "Collect and display team feedback and suggestions on project processes.",
+        "answer": "Online Bulletin Boards"
+      },
+      {
+        "text": "Resolve immediate project issues or roadblocks through instant messaging.",
+        "answer": "Chat Rooms"
+      },
+      {
+        "text": "Conduct project kickoff meetings with geographically dispersed team members and stakeholders.",
+        "answer": "Video Conferencing"
+      }
+    ],
+    "options": [
+      "Video Conferencing",
+      "Chat Rooms",
+      "Version Control System",
+      "Online Bulletin Boards",
+      "Project Collaboration Tools"
+    ],
+    "explanation": "Version control merges multiple developers' code; collaboration tools enable real-time co-editing; bulletin boards collect/display feedback; chat rooms handle instant messaging; video conferencing runs dispersed kickoff meetings.",
+    "video_time": 1975
+  },
+  {
+    "number": 21,
+    "prompt": "Match each schedule problem to the tool that helps with it.",
+    "left_label": "Problem",
+    "right_label": "Tool",
+    "items": [
+      {
+        "text": "Overlapping Activities",
+        "answer": "CPM (Critical Path Method)"
+      },
+      {
+        "text": "How Far Off Schedule",
+        "answer": "EVM (Earned Value Management)"
+      },
+      {
+        "text": "Fragmented Work",
+        "answer": "WBS (Work Breakdown Structure)"
+      },
+      {
+        "text": "Unrealistic Deadlines",
+        "answer": "Schedule Baseline"
+      },
+      {
+        "text": "Inconsistent Reporting",
+        "answer": "Status Meetings"
+      }
+    ],
+    "options": [
+      "CPM (Critical Path Method)",
+      "Schedule Baseline",
+      "WBS (Work Breakdown Structure)",
+      "EVM (Earned Value Management)",
+      "Status Meetings"
+    ],
+    "explanation": "CPM shows overlapping activities/sequence; EVM (SPI/SV) shows how far off schedule you are; the WBS breaks down fragmented work; the schedule baseline sets realistic start/finish dates; status meetings fix inconsistent reporting.",
+    "video_time": 2060
+  },
+  {
+    "number": 22,
+    "prompt": "Match each Tuckman team-development stage to its description.",
+    "left_label": "Description",
+    "right_label": "Stage",
+    "items": [
+      {
+        "text": "Initial stage where team members are polite and oriented towards the task.",
+        "answer": "Forming"
+      },
+      {
+        "text": "Characterized by power struggles and competition among team members.",
+        "answer": "Storming"
+      },
+      {
+        "text": "Team members develop stronger relationships and a sense of cohesion.",
+        "answer": "Norming"
+      },
+      {
+        "text": "Team members work collaboratively and effectively towards common goals.",
+        "answer": "Performing"
+      },
+      {
+        "text": "Final stage where team members reflect on achievements and transition out.",
+        "answer": "Adjourning"
+      }
+    ],
+    "options": [
+      "Forming",
+      "Storming",
+      "Norming",
+      "Performing",
+      "Adjourning"
+    ],
+    "explanation": "Tuckman's ladder: Forming (polite/orienting) → Storming (power struggles) → Norming (cohesion) → Performing (effective collaboration) → Adjourning (wrap up and disband).",
+    "video_time": 2153
+  },
+  {
+    "number": 23,
+    "prompt": "Match each item to the methodology it describes.",
+    "left_label": "Item",
+    "right_label": "Methodology",
+    "items": [
+      {
+        "text": "The PM uses a plan for the near term while keeping future tasks high-level in a product backlog.",
+        "answer": "Hybrid"
+      },
+      {
+        "text": "When a significant change request is submitted, the PM convenes a meeting to evaluate and approve/reject it.",
+        "answer": "Traditional"
+      },
+      {
+        "text": "At the end of each sprint, the team delivers a potentially shippable increment for review and feedback.",
+        "answer": "Agile"
+      }
+    ],
+    "options": [
+      "Hybrid",
+      "Traditional",
+      "Agile"
+    ],
+    "explanation": "Using a PM plan plus a product backlog = hybrid; approving/rejecting changes via formal change control = traditional; shippable increment each sprint = agile.",
+    "video_time": 2247
+  },
+  {
+    "number": 24,
+    "prompt": "Match each item to the methodology it describes.",
+    "left_label": "Item",
+    "right_label": "Methodology",
+    "items": [
+      {
+        "text": "Each morning the team gathers for a brief meeting to share what they did yesterday.",
+        "answer": "Agile"
+      },
+      {
+        "text": "The PM gathers all stakeholders to outline project objectives, deliverables, schedule, and roles.",
+        "answer": "Traditional"
+      },
+      {
+        "text": "The PM involves stakeholders continuously using Agile practices while maintaining a structured scope.",
+        "answer": "Hybrid"
+      }
+    ],
+    "options": [
+      "Agile",
+      "Traditional",
+      "Hybrid"
+    ],
+    "explanation": "A daily standup = agile; a big upfront plan outlining everything = traditional; agile feedback practices with a structured/fixed scope = hybrid.",
+    "video_time": 2310
+  },
+  {
+    "number": 25,
+    "prompt": "Match each Tuckman team-development stage to its description.",
+    "left_label": "Description",
+    "right_label": "Stage",
+    "items": [
+      {
+        "text": "Team members are learning about the project and their roles.",
+        "answer": "Forming"
+      },
+      {
+        "text": "Frustrations and disagreements are common as the team navigates challenges.",
+        "answer": "Storming"
+      },
+      {
+        "text": "The team builds trust and establishes working agreements.",
+        "answer": "Norming"
+      },
+      {
+        "text": "High productivity and synergy characterize this stage.",
+        "answer": "Performing"
+      },
+      {
+        "text": "Team members celebrate accomplishments and prepare for future endeavors.",
+        "answer": "Adjourning"
+      }
+    ],
+    "options": [
+      "Forming",
+      "Storming",
+      "Norming",
+      "Performing",
+      "Adjourning"
+    ],
+    "explanation": "Learning roles = Forming; frustrations/disagreements = Storming; trust/working agreements = Norming; high productivity/synergy = Performing; celebrating and wrapping up = Adjourning.",
+    "video_time": 2374
+  },
+  {
+    "number": 26,
+    "prompt": "Match each description to the role (more roles than descriptions — some are distractors).",
+    "left_label": "Description",
+    "right_label": "Role",
+    "items": [
+      {
+        "text": "Assists the team in identifying and resolving risks.",
+        "answer": "Scrum Master"
+      },
+      {
+        "text": "Proactively identifies, assesses, and mitigates risks throughout the project lifecycle.",
+        "answer": "Project Manager"
+      },
+      {
+        "text": "Makes high-level decisions and approves major project changes.",
+        "answer": "Project Sponsor"
+      },
+      {
+        "text": "Approves resources to a project manager.",
+        "answer": "Functional Manager"
+      }
+    ],
+    "options": [
+      "Business Analyst",
+      "Scrum Master",
+      "Project Manager",
+      "Project Sponsor",
+      "Functional Manager"
+    ],
+    "explanation": "Assisting the team = scrum master; proactively managing risk throughout = project manager; high-level decisions/approving major changes = sponsor; approving/controlling resources = functional manager. Business Analyst is a distractor.",
+    "video_time": 2438
+  },
+  {
+    "number": 27,
+    "prompt": "Match each action to the methodology it describes.",
+    "left_label": "Action",
+    "right_label": "Methodology",
+    "items": [
+      {
+        "text": "Adapts and customizes practices based on project needs.",
+        "answer": "Hybrid"
+      },
+      {
+        "text": "Uses a detailed project plan and timeline.",
+        "answer": "Traditional"
+      },
+      {
+        "text": "Uses sprints to manage work.",
+        "answer": "Agile"
+      }
+    ],
+    "options": [
+      "Agile",
+      "Traditional",
+      "Hybrid"
+    ],
+    "explanation": "Adapting/customizing a blend of practices = hybrid; a detailed plan/timeline = traditional; sprints = agile.",
+    "video_time": 2506
+  },
+  {
+    "number": 28,
+    "prompt": "Match each description to the tool/technique.",
+    "left_label": "Description",
+    "right_label": "Tool",
+    "items": [
+      {
+        "text": "Monitoring progress and predicting completion.",
+        "answer": "Burn Down Chart"
+      },
+      {
+        "text": "Adjusting activities within resource constraints.",
+        "answer": "Smoothing Techniques"
+      },
+      {
+        "text": "Identifying and managing task relationships.",
+        "answer": "Dependency Mapping"
+      }
+    ],
+    "options": [
+      "Burn Down Chart",
+      "Smoothing Techniques",
+      "Dependency Mapping"
+    ],
+    "explanation": "A burn down chart tracks progress and predicts completion; smoothing adjusts activities within resource limits (without extending the critical path); dependency mapping manages task relationships.",
+    "video_time": 2572
+  },
+  {
+    "number": 29,
+    "prompt": "Match each agile document/artifact to its description.",
+    "left_label": "Description",
+    "right_label": "Document",
+    "items": [
+      {
+        "text": "Captures target audience demographics.",
+        "answer": "User Personas"
+      },
+      {
+        "text": "Understanding customer perception of value.",
+        "answer": "User Stories"
+      },
+      {
+        "text": "User feedback reports reviewed to improve the process.",
+        "answer": "Sprint Retrospective"
+      }
+    ],
+    "options": [
+      "Sprint Retrospective",
+      "User Personas",
+      "User Stories"
+    ],
+    "explanation": "User personas capture the target audience/demographics; user stories express customer value; the sprint retrospective reviews feedback to improve.",
+    "video_time": 2638
+  },
+  {
+    "number": 30,
+    "prompt": "Match each Tuckman team-development stage to its description.",
+    "left_label": "Description",
+    "right_label": "Stage",
+    "items": [
+      {
+        "text": "Focus is on orientation and setting initial expectations.",
+        "answer": "Forming"
+      },
+      {
+        "text": "Conflicts and confrontations arise as team dynamics are tested.",
+        "answer": "Storming"
+      },
+      {
+        "text": "The team finds consensus and begins to function more smoothly.",
+        "answer": "Norming"
+      },
+      {
+        "text": "The team reaches peak performance with effective collaboration.",
+        "answer": "Performing"
+      },
+      {
+        "text": "The team completes the project and disbands, reflecting on their work.",
+        "answer": "Adjourning"
+      }
+    ],
+    "options": [
+      "Forming",
+      "Storming",
+      "Norming",
+      "Performing",
+      "Adjourning"
+    ],
+    "explanation": "Orientation/expectations = Forming; conflicts = Storming; consensus/smoother function = Norming; peak performance = Performing; completion/disbanding = Adjourning.",
+    "video_time": 2693
+  },
+  {
+    "number": 31,
+    "prompt": "Match each risk response to the action that describes it.",
+    "left_label": "Action",
+    "right_label": "Risk Response",
+    "items": [
+      {
+        "text": "Adjust plans to remove the risk or its effects.",
+        "answer": "Avoid"
+      },
+      {
+        "text": "Assign the risk to another party, like through insurance.",
+        "answer": "Transfer"
+      },
+      {
+        "text": "Acknowledge the risk and choose to deal with it if it happens.",
+        "answer": "Accept"
+      },
+      {
+        "text": "Take steps to lessen the risk's likelihood or impact.",
+        "answer": "Mitigate"
+      },
+      {
+        "text": "Hand the risk over to someone with more authority.",
+        "answer": "Escalate"
+      }
+    ],
+    "options": [
+      "Accept",
+      "Mitigate",
+      "Avoid",
+      "Escalate",
+      "Transfer"
+    ],
+    "explanation": "Removing the risk entirely = Avoid; assigning to a third party (insurance) = Transfer; acknowledging but not acting unless it happens = Accept; reducing probability/impact = Mitigate; pushing to higher authority = Escalate. (Avoid removes the risk; Mitigate only reduces it.)",
+    "video_time": 2753
+  },
+  {
+    "number": 32,
+    "prompt": "Match each technique to its description.",
+    "left_label": "Description",
+    "right_label": "Technique",
+    "items": [
+      {
+        "text": "Detailed near-term planning while keeping long-term planning flexible.",
+        "answer": "Rolling Wave Planning"
+      },
+      {
+        "text": "Prioritizing tasks based on must-have, should-have, could-have, and won't-have criteria.",
+        "answer": "MoSCoW Method"
+      },
+      {
+        "text": "Analyzing resource allocation over time.",
+        "answer": "Histogram Analysis"
+      }
+    ],
+    "options": [
+      "Rolling Wave Planning",
+      "MoSCoW Method",
+      "Histogram Analysis"
+    ],
+    "explanation": "Detail now, defer long-term detail = rolling wave planning; must/should/could/won't = MoSCoW; a histogram (bar chart) shows resource allocation over time.",
+    "video_time": 2813
+  },
+  {
+    "number": 33,
+    "prompt": "Match each item to the methodology it describes.",
+    "left_label": "Item",
+    "right_label": "Methodology",
+    "items": [
+      {
+        "text": "At the start of a new sprint, the team meets to discuss tasks for the upcoming iteration.",
+        "answer": "Agile"
+      },
+      {
+        "text": "The PM finalizes the project scope and obtains formal approval from stakeholders.",
+        "answer": "Traditional"
+      },
+      {
+        "text": "The team delivers work in short iterations while planning subsequent phases in detail.",
+        "answer": "Hybrid"
+      }
+    ],
+    "options": [
+      "Agile",
+      "Traditional",
+      "Hybrid"
+    ],
+    "explanation": "Sprint planning = agile; finalizing/approving scope upfront = traditional; short iterations plus detailed phase planning = hybrid.",
+    "video_time": 2873
+  },
+  {
+    "number": 34,
+    "prompt": "Match each Tuckman team-development stage to its description.",
+    "left_label": "Description",
+    "right_label": "Stage",
+    "items": [
+      {
+        "text": "The team meets and starts to understand the project and each other.",
+        "answer": "Forming"
+      },
+      {
+        "text": "Internal conflicts occur as team members push boundaries.",
+        "answer": "Storming"
+      },
+      {
+        "text": "Norms are established, and the team begins to work more harmoniously.",
+        "answer": "Norming"
+      },
+      {
+        "text": "The team works efficiently towards achieving project objectives.",
+        "answer": "Performing"
+      },
+      {
+        "text": "The project ends, and the team parts ways or transitions to new tasks.",
+        "answer": "Adjourning"
+      }
+    ],
+    "options": [
+      "Forming",
+      "Storming",
+      "Norming",
+      "Performing",
+      "Adjourning"
+    ],
+    "explanation": "Meeting/understanding = Forming; internal conflicts = Storming; norms/harmony = Norming; efficient work = Performing; ending/parting = Adjourning.",
+    "video_time": 2933
+  },
+  {
+    "number": 35,
+    "prompt": "Match each impediment to its description.",
+    "left_label": "Description",
+    "right_label": "Impediment",
+    "items": [
+      {
+        "text": "Team members feel disengaged or unmotivated.",
+        "answer": "Low Engagement"
+      },
+      {
+        "text": "Tasks are not completed on time.",
+        "answer": "Missed Deadlines"
+      },
+      {
+        "text": "Team lacks necessary skills for certain tasks.",
+        "answer": "Insufficient Expertise"
+      },
+      {
+        "text": "Overlapping roles leading to confusion.",
+        "answer": "Unclear Responsibilities"
+      },
+      {
+        "text": "Team members have unresolved disagreements.",
+        "answer": "Ongoing Disputes"
+      }
+    ],
+    "options": [
+      "Ongoing Disputes",
+      "Unclear Responsibilities",
+      "Insufficient Expertise",
+      "Low Engagement",
+      "Missed Deadlines"
+    ],
+    "explanation": "Disengaged = low engagement; late tasks = missed deadlines; lacking skills = insufficient expertise; overlapping/confused roles = unclear responsibilities; unresolved disagreements = ongoing disputes.",
+    "video_time": 2993
+  },
+  {
+    "number": 36,
+    "prompt": "Match each item to the methodology that uses it.",
+    "left_label": "Item",
+    "right_label": "Methodology",
+    "items": [
+      {
+        "text": "Milestone Chart",
+        "answer": "Traditional"
+      },
+      {
+        "text": "Continuous Integration",
+        "answer": "Agile"
+      },
+      {
+        "text": "Flexible and Fixed Scope Management",
+        "answer": "Hybrid"
+      }
+    ],
+    "options": [
+      "Traditional",
+      "Agile",
+      "Hybrid"
+    ],
+    "explanation": "Milestone charts (planned milestones upfront) = traditional; continuous integration = agile; managing both flexible and fixed scope = hybrid.",
+    "video_time": 3053
+  },
+  {
+    "number": 37,
+    "prompt": "Match each risk category to its description.",
+    "left_label": "Description",
+    "right_label": "Risk Category",
+    "items": [
+      {
+        "text": "Pertains to system integration, testing, and validation processes.",
+        "answer": "Technical"
+      },
+      {
+        "text": "Focuses on cost-benefit analysis, ROI, and market entry strategies.",
+        "answer": "Commercial"
+      },
+      {
+        "text": "Involves project timelines, deliverable tracking, and resource management.",
+        "answer": "Management"
+      },
+      {
+        "text": "Considers partnerships, stakeholder expectations, and market regulations.",
+        "answer": "External"
+      }
+    ],
+    "options": [
+      "Technical",
+      "Commercial",
+      "Management",
+      "External"
+    ],
+    "explanation": "Integration/testing/validation = Technical; cost/ROI/market = Commercial; timelines/tracking/resources = Management; partnerships/regulations/outside factors = External.",
+    "video_time": 3113
+  },
+  {
+    "number": 38,
+    "prompt": "Match each action to the methodology it describes.",
+    "left_label": "Action",
+    "right_label": "Methodology",
+    "items": [
+      {
+        "text": "Implements regular retrospectives for process improvement.",
+        "answer": "Agile"
+      },
+      {
+        "text": "Integrates Agile's iterative development with traditional risk management.",
+        "answer": "Hybrid"
+      },
+      {
+        "text": "Uses the critical path method (CPM) for schedule management.",
+        "answer": "Traditional"
+      }
+    ],
+    "options": [
+      "Agile",
+      "Traditional",
+      "Hybrid"
+    ],
+    "explanation": "Retrospectives = agile; combining agile iteration with traditional practices = hybrid; CPM = traditional.",
+    "video_time": 3173
+  },
+  {
+    "number": 39,
+    "prompt": "Match each term to its description.",
+    "left_label": "Description",
+    "right_label": "Term",
+    "items": [
+      {
+        "text": "Captures and distributes project knowledge and best practices.",
+        "answer": "Knowledge Management"
+      },
+      {
+        "text": "Standardizes project management across the organization.",
+        "answer": "PMO"
+      },
+      {
+        "text": "Defines roles, responsibilities, and processes for project oversight.",
+        "answer": "Governance Framework"
+      },
+      {
+        "text": "Shared values, norms, and beliefs influencing project execution.",
+        "answer": "Organizational Culture"
+      },
+      {
+        "text": "Efficient and effective deployment and allocation of resources.",
+        "answer": "Resource Management"
+      }
+    ],
+    "options": [
+      "Knowledge Management",
+      "Organizational Culture",
+      "PMO",
+      "Governance Framework",
+      "Resource Management"
+    ],
+    "explanation": "Capturing/sharing knowledge = knowledge management; standardizing PM = PMO; oversight roles/processes = governance framework; shared values/norms = organizational culture; deploying resources = resource management.",
+    "video_time": 3233
+  },
+  {
+    "number": 40,
+    "prompt": "Match each person's description to the MBTI indicator.",
+    "left_label": "Description",
+    "right_label": "Type",
+    "items": [
+      {
+        "text": "John insists on following a detailed plan and strict deadlines, emphasizing efficiency and order.",
+        "answer": "Judging (J)"
+      },
+      {
+        "text": "Maria is known for her ability to connect with others.",
+        "answer": "Feeling (F)"
+      },
+      {
+        "text": "Alex enjoys debating different approaches and thrives in brainstorming sessions.",
+        "answer": "Extroversion (E)"
+      },
+      {
+        "text": "David is methodical, relies on data and logical analysis, and prefers to work independently.",
+        "answer": "Introversion (I)"
+      }
+    ],
+    "options": [
+      "Judging (J)",
+      "Feeling (F)",
+      "Extroversion (E)",
+      "Introversion (I)"
+    ],
+    "explanation": "Detailed plans/deadlines/order = Judging; connecting with others = Feeling; debating/brainstorming with others = Extroversion; methodical, data-driven, prefers working alone = Introversion.",
+    "video_time": 3293
+  }
+]
