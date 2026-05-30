@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Question Banks · PMP Study Hub</title>
+<style>
+  :root {
+    --bg:#0f172a; --card:#1e293b; --card2:#273449; --text:#e2e8f0; --muted:#94a3b8;
+    --accent:#38bdf8; --accent2:#34d399; --ink:#06283d; --border:#334155;
+  }
+  body.light {
+    --bg:#eef2f7; --card:#ffffff; --card2:#f1f5f9; --text:#0f172a; --muted:#64748b;
+    --accent:#0284c7; --accent2:#059669; --ink:#ffffff; --border:#cbd5e1;
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; min-height:100vh; font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+    background:var(--bg); color:var(--text); display:flex; flex-direction:column; transition:background .2s,color .2s; }
+  header { display:flex; justify-content:space-between; align-items:center; padding:14px 22px; border-bottom:1px solid var(--border); background:var(--card); }
+  header .brand { font-weight:800; color:var(--accent); font-size:18px; }
+  .topright { display:flex; gap:10px; align-items:center; }
+  a.navlink, button { background:var(--card2); color:var(--text); border:1px solid var(--border); padding:8px 14px; border-radius:8px; cursor:pointer; font-size:14px; text-decoration:none; }
+  a.navlink:hover, button:hover { border-color:var(--accent); }
+  main { flex:1; max-width:980px; width:100%; margin:0 auto; padding:40px 20px; }
+  .hero { text-align:center; margin-bottom:36px; }
+  .hero h1 { font-size:32px; margin:0 0 10px; }
+  .hero h1 .a { color:var(--accent); }
+  .hero p { color:var(--muted); font-size:16px; margin:0; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:22px; }
+  .card { display:flex; flex-direction:column; background:var(--card); border:1px solid var(--border); border-radius:16px; padding:26px; text-decoration:none; color:inherit; transition:transform .15s, border-color .15s, box-shadow .15s; }
+  .card:hover { transform:translateY(-4px); border-color:var(--accent); box-shadow:0 10px 30px rgba(0,0,0,.25); }
+  .card.q { border-top:5px solid var(--accent); }
+  .card.m { border-top:5px solid var(--accent2); }
+  .card .icon { font-size:40px; }
+  .card .count { font-size:13px; color:var(--muted); font-weight:700; letter-spacing:.04em; text-transform:uppercase; margin-top:12px; }
+  .card h2 { margin:4px 0 6px; font-size:22px; }
+  .card .desc { color:var(--muted); font-size:14px; flex:1; }
+  .card ul { margin:14px 0 0; padding-left:18px; color:var(--muted); font-size:13px; }
+  .card .go { margin-top:18px; align-self:flex-start; font-weight:700; padding:9px 18px; border-radius:9px; }
+  .card.q .go { background:var(--accent); color:var(--ink); }
+  .card.m .go { background:var(--accent2); color:#052e22; }
+  footer { text-align:center; color:var(--muted); font-size:12px; padding:18px; }
+</style>
+</head>
+<body>
+<header>
+  <span class="brand">📚 Question Banks</span>
+  <div class="topright">
+    <a href="index.html" class="navlink">🏠 Home</a>
+    <button id="themeBtn">🌙 Dark</button>
+  </div>
+</header>
+
+<main>
+  <div class="hero">
+    <h1>Pick a <span class="a">question bank</span></h1>
+    <p>Two full scenario-based banks — 350 questions in total — each with its own study UI and progress tracking.</p>
+  </div>
+
+  <div class="grid">
+    <a class="card q" href="quiz.html">
+      <div class="icon">📘</div>
+      <div class="count">200 questions</div>
+      <h2>200 Ultra-Hard Questions</h2>
+      <div class="desc">Work through 200 tough scenario-based practice questions with explanations.</div>
+      <ul>
+        <li>Per-question answer &amp; time tracking</li>
+        <li>Question list, results summary, shuffle</li>
+        <li>Random 15 / 50 / 180 sets (timed or untimed)</li>
+        <li>Instant-feedback toggle &amp; 30-min reminders</li>
+      </ul>
+      <span class="go">Start 200 Ultra-Hard →</span>
+    </a>
+
+    <a class="card m" href="pmbok7.html">
+      <div class="icon">📗</div>
+      <div class="count">150 questions</div>
+      <h2>150 PMBOK 7 Questions</h2>
+      <div class="desc">Scenario-based Q&amp;A drawn from David McLachlan's PMBOK 7 video set.</div>
+      <ul>
+        <li>150 PMBOK&nbsp;7 scenario questions with explanations</li>
+        <li>Per-question answer &amp; time tracking</li>
+        <li>Random 15 / 50 / 150 sets (timed or untimed)</li>
+        <li>Watch links jump to the exact spot in the video</li>
+      </ul>
+      <span class="go">Start 150 PMBOK 7 →</span>
+    </a>
+  </div>
+</main>
+
+<footer>Single-file study apps · runs in your browser · progress stored locally.</footer>
+
+<script>
+(function(){
+  var KEY="pmp_hub_theme";
+  function apply(){ var l=localStorage.getItem(KEY)==="light"; document.body.classList.toggle("light",l);
+    document.getElementById("themeBtn").textContent=l?"☀️ Light":"🌙 Dark"; }
+  document.getElementById("themeBtn").onclick=function(){
+    localStorage.setItem(KEY, localStorage.getItem(KEY)==="light"?"dark":"light"); apply(); };
+  try{ apply(); }catch(e){}
+})();
+</script>
+</body>
+</html>

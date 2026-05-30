@@ -1,15 +1,28 @@
-# PMP Study Apps — Progress
+# PMP Q&A Extraction Progress
 
-## Done
-- 200 Ultra-Hard Q&A → qa_dataset.json + quiz.html (+ video links)
-- 50 Mindset Principles → principles_dataset.json + principles.html (+ video links)
-- Study hub index.html, publish.sh → claude-vibe/pmp prep, GitHub Pages
+## Status: COMPLETE
+- 200 Ultra-Hard questions: 200 / 200 → qa_dataset.json
+- 50 Mindset Principles: 50 / 50 → principles_dataset.json
+- 100 Drag-and-Drop: 100 / 100 → dnd_dataset.json
+- 150 PMBOK 7 (David McLachlan): 150 / 150 → pmbok7_dataset.json
 
-## In progress: 100 Drag-and-Drop
-- Source questions: TIA PMP 100 Drag and Drop Questions.pdf (100 Q, parseable via coords)
-- Source answers: 100 pmp dnd.md (transcript), video K7J4WGbR9Ig
-- [ ] Parse PDF content (headers, descriptions, option labels)
-- [ ] Read transcript for correct mappings (have through ~Q56)
-- [ ] Build dnd_dataset.json (match-type: items[desc→answer], options[], explanation, video_time)
-- [ ] Build dnd.html (drag-and-drop UI: Learn/Quiz, check, show answer, shuffle, theme, watch links)
-- [ ] Add to index hub, publish.sh, README; publish
+## Notes
+- Sources:
+  - "200 untra hard transcript.md" (video 1sWpc6765AI)
+  - "50 Principles.md" (video -u0rO-YQr9c)
+  - "100 pmp dnd.md" + TIA PDF (video K7J4WGbR9Ig)
+  - "150 PMBOK 7 by David McLachlan.md" (video Zht0-j03NfQ)
+- Each Q&A entry: number, question, options (A-D, sometimes E), correct_answer, explanation, video_time
+- Questions grounded strictly in transcript content
+- Multi-select questions stored with comma-separated answers (e.g., "B, E")
+- Distractors generated only when instructor gave just the correct answer
+- video_time = seconds from the transcript's M:SS markers (PMBOK 7 set parsed directly from per-line timestamps)
+
+## Apps built
+- index.html — study hub linking all apps
+- quiz.html — 200-question study UI
+- pmbok7.html — 150 PMBOK 7 scenario questions (David McLachlan)
+- principles.html — 50 mindset principles
+- dnd.html — 100 drag-and-drop questions
+- eco.html — Examination Content Outline
+- exam.html — Pearson VUE-style simulator

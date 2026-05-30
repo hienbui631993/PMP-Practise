@@ -46,6 +46,20 @@ Last updated: 2026-05-30.
   click-to-place fallback is the reliable path. Not yet tested on mobile.
 - Q19 (predictive vs agile) is a 10-item, 2-option sort — verify it reads clearly in the UI.
 
+## 4) 150 PMBOK 7 — David McLachlan (`pmbok7_dataset.json` / `pmbok7.html`)
+- Extracted from the spoken transcript ("150 PMBOK 7 by David McLachlan.md", video `Zht0-j03NfQ`).
+  Questions, options, answers and explanations are paraphrased from the narration and grounded only
+  in the transcript — **not** copied from the PMBOK 7 guide itself. PMBOK page citations that appear
+  in explanations are the ones the instructor read aloud.
+- **Video timestamps are accurate.** `video_time` is read directly from the per-line `M:SS` (and
+  `H:MM:SS`) markers at the point each scenario begins, so links should land within a few seconds.
+  Note: this is a long (~7-hour) video, so later questions have large timestamps.
+- The transcript's chapter heading for the eleventh block is mislabeled "110-120"; those ten are
+  numbered **111–120** consistently in the dataset (1–150 with no gaps/dups, verified).
+- Extraction was fanned out across 15 parallel passes (10 questions each), then re-assembled and
+  validated (every `correct_answer` maps to an existing option; all 150 present). A few answers where
+  the instructor was ambiguous reflect the option he leaned toward.
+
 ## Tooling / process notes
 - During the DnD build, the sandbox intermittently ate/garbled tool stdout, which caused a failed
   silent append and a mis-extraction before they were caught and fixed. If we do another large

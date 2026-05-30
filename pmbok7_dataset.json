@@ -1,0 +1,1953 @@
+[
+  {
+    "number": 1,
+    "question": "You have been assigned to a new project where the work is behind schedule and the team are not working together well. The team is relatively new and conflicts are arising. Team members are blaming each other for the work not done and some people are not showing up to work on the project at all. What will you do next?",
+    "options": {
+      "A": "Meet with the functional manager of that area to agree on team members' time requirements.",
+      "B": "Meet with your team to set a team charter and define roles and responsibilities.",
+      "C": "Meet with the project sponsor to gain additional funding for resources who can work together.",
+      "D": "Escalate the issue to the steering committee as soon as possible as a project risk."
+    },
+    "correct_answer": "B",
+    "explanation": "The Standard for Project Management asks that we create a collaborative team environment including team agreements, definitions of roles and responsibilities, formal committees tasked with specific objectives, and standing meetings that regularly review a given topic. PMBOK 7, p.28-29, Creating a Collaborative Team Environment.",
+    "video_time": 50
+  },
+  {
+    "number": 2,
+    "question": "You have recently completed a project for a new product and have been asked to manage it after its release to keep it relevant in today's marketplace. Half of your existing team are rolling off to other projects and the project budget is nearly depleted. What will you do next?",
+    "options": {
+      "A": "Create a business case and a project charter for your project sponsor to approve.",
+      "B": "Retain as many of your current project staff to continue work on the product.",
+      "C": "Raise a change request for your current project and add scope to continue making changes.",
+      "D": "Secure funding for a stable team, then use current research to form a suite of projects to improve the product."
+    },
+    "correct_answer": "D",
+    "explanation": "This question refers to product management. Product management involves the integration of people, data, processes, and business systems to develop or maintain a product or service throughout its life cycle. PMBOK 7, p.17-19, Product Management Considerations.",
+    "video_time": 210
+  },
+  {
+    "number": 3,
+    "question": "You are delivering a critical change and several key stakeholders in your organization have added seemingly unnecessary steps for you to take with extra approvals, reports, and meetings. They are also restricting the people you need from working on your project in a larger capacity. What will you do next?",
+    "options": {
+      "A": "Go directly to the people you need to avoid extra back and forth with the stakeholders.",
+      "B": "Raise a risk in the risk register on the lack of access to sufficient resources.",
+      "C": "Communicate more often with the stakeholders and gain a deeper awareness of their ideas and situation.",
+      "D": "Show your stakeholders the resource assignment matrix and project roles and responsibilities."
+    },
+    "correct_answer": "C",
+    "explanation": "This question refers to the principle of effectively engaging with stakeholders. Stakeholders may add steps or requirements or restrict team members if they are not engaged appropriately. Communication and awareness of their ideas through knowledge sharing and regular meetings, ideally face to face, may help. PMBOK 7, p.32-33, Effectively Engaging with Stakeholders.",
+    "video_time": 377
+  },
+  {
+    "number": 4,
+    "question": "You are managing a project team made up mostly of men. Recently Jane was hired for her high expertise in the brands that make up your industry. You notice she has been left out of some key meetings and others are overlooking her opinions. You also notice she is paid significantly less than her male colleagues. What will you do next?",
+    "options": {
+      "A": "Make steps to update her pay to the same range as the others on your project and ask her opinion and advice specifically during each meeting along with others in your team.",
+      "B": "Take the lower pay as a win for your project as it will help keep costs low, and her colleagues don't need to know.",
+      "C": "Ask Jane to write down her knowledge of the industry just in case she leaves.",
+      "D": "No need to rock the boat — this is just how people work in this industry."
+    },
+    "correct_answer": "A",
+    "explanation": "This question is on integrity and stewardship. We should have respectful engagement of project team members including their compensation, access to opportunity, and fair treatment. PMBOK 7, p.25, Be a Diligent, Respectful, and Caring Steward.",
+    "video_time": 573
+  },
+  {
+    "number": 5,
+    "question": "During one of your working group meetings a stakeholder raises the concern that the product you are working on will be discontinued in the next 5 months. You are not aware of this and your project budget has already been approved until the scheduled delivery, which is also in 5 months. What will you do next?",
+    "options": {
+      "A": "Keep the project going as it is — the discontinued product isn't your responsibility.",
+      "B": "Set a meeting with your project sponsor to share the information and a recommendation to terminate the project.",
+      "C": "Change the scope of the project to meet a different product so your project can remain relevant.",
+      "D": "Ask for additional funding to see if you can improve the product instead of discontinuing it."
+    },
+    "correct_answer": "B",
+    "explanation": "This question is about delivering value, which is the primary motivator for a project. If the project is no longer aligned with the business need or it seems unlikely to provide value, the organization may choose to terminate the effort. PMBOK 7, p.35, Focus on Value.",
+    "video_time": 781
+  },
+  {
+    "number": 6,
+    "question": "You have collected the requirements for your project and are creating the scope statement and the work breakdown structure. During this process you notice some functionality in your database system that will help a different project that you are aware of in your project management office. What will you do next?",
+    "options": {
+      "A": "Place the feature in the other project's backlog and ask them to prioritize it as soon as possible.",
+      "B": "Raise the functionality in your risk register as a threat with the response to mitigate.",
+      "C": "Add the scope to your project and complete it as soon as possible.",
+      "D": "Raise the functionality in your risk register as an opportunity with the response to exploit, and meet with the other project team and sponsor to discuss."
+    },
+    "correct_answer": "D",
+    "explanation": "This question involves systems thinking, which involves taking a holistic view of how project parts interact with each other and external systems. Finding a previously unknown opportunity, the next best step is to make it known and to exploit that opportunity. PMBOK 7, p.39, Respond to System Interactions (Systems Thinking); p.129, Opportunities.",
+    "video_time": 929
+  },
+  {
+    "number": 7,
+    "question": "You are working on a high-profile project. Several high-ranking senior executives want to take the credit for this initiative while limiting the impact to their own resources. This has led to several conflicts and a scope statement that is unclear, leading to a risk of project failure. What will you do next?",
+    "options": {
+      "A": "Create a scope statement yourself to avoid further conflict.",
+      "B": "Facilitate a discussion with the executives as a neutral third party, focusing on agreed project goals.",
+      "C": "Limit your project resources to the executives until they can agree on a way forward.",
+      "D": "Escalate the issue to the project steering committee and ask them to resolve the problem."
+    },
+    "correct_answer": "B",
+    "explanation": "Leadership is not the same as authority. When senior managers suffer conflict over priorities, neutral facilitation helps more than detailed recommendations. Leadership acumen involves focusing a team around agreed goals, generating consensus on the way forward, negotiating, and resolving conflict. PMBOK 7, p.42, Demonstrate Leadership Behaviors.",
+    "video_time": 1124
+  },
+  {
+    "number": 8,
+    "question": "You are managing a project where the majority of the product has been planned up front, but an external system is needed from a vendor in partial pieces where the requirements are unclear. Half of your stakeholders want to use a waterfall approach and the other half are advocating for an agile approach. What will you do next?",
+    "options": {
+      "A": "Use an agile methodology — the fixed scope is low risk and you can capture the changes using agile.",
+      "B": "Use a waterfall methodology and ask the team to plan the uncertain scope better.",
+      "C": "Proceed with a hybrid method to start with pre-planned scope but agile ceremonies that promote feedback.",
+      "D": "Use a combination of waterfall and agile to capture all the requirements and keep stakeholders happy."
+    },
+    "correct_answer": "C",
+    "explanation": "Each project is unique and success is based on adapting to the unique context of the project to determine the most appropriate methods. The tailoring approach is iterative in nature, and this project requires a hybrid of waterfall and agile with the option to improve it over time. PMBOK 7, p.44-46, Tailoring.",
+    "video_time": 1295
+  },
+  {
+    "number": 9,
+    "question": "You are working on a project where senior users have been testing the product as parts are released. They have found some missing requirements and defects. Their manager is worried that the project won't deliver a product that is fit for purpose without defects and within the time frame needed. What will you do next?",
+    "options": {
+      "A": "Perform some of the testing yourself to ensure a quality product.",
+      "B": "Help every team member focus on quality from correct acceptance criteria to a developed and tested product.",
+      "C": "Limit testing until the very end of the project so you can do it all in one go when the product is completely ready.",
+      "D": "Increase the testing on your project and add more testing resources so no defect goes unnoticed."
+    },
+    "correct_answer": "B",
+    "explanation": "Quality focuses on meeting acceptance criteria for deliverables and satisfying stakeholders' expectations on product requirements. Quality is everyone's responsibility in an adaptive or agile project. PMBOK 7, p.47-49, Build Quality into Processes and Deliverables.",
+    "video_time": 1476
+  },
+  {
+    "number": 10,
+    "question": "You are working through the risk assessment with your team who are having trouble coming up with ideas for risks. You decide to give them some guidance on types of complexity that might affect your new product. What will you do next?",
+    "options": {
+      "A": "Ask them to brainstorm qualitative and quantitative risks.",
+      "B": "Ask them to perform the five whys and Ishikawa analysis to find the root cause of a problem.",
+      "C": "Ask them to brainstorm around possible unwanted human behavior, system behavior, ambiguity, and technical innovation impacts.",
+      "D": "Ask them to perform a retrospective to discover what isn't working well and what still puzzles us."
+    },
+    "correct_answer": "C",
+    "explanation": "Complexity is often the result of human behavior, system interactions, technical innovation, uncertainty, and ambiguity. Complexity can be introduced by events or conditions that affect value, scope, stakeholders, risk, and more. PMBOK 7, p.50-51, Navigate Complexity.",
+    "video_time": 1638
+  },
+  {
+    "number": 11,
+    "question": "You are working on a project where you discover a negative risk with a potential impact of $2 million. You meet with your project stakeholders who determine that this is within their risk appetite, provided that you meet a risk threshold of 10%. What will you do next?",
+    "options": {
+      "A": "Note the acceptable risk level as a threat of $200,000 which is 10%",
+      "B": "Note the acceptable risk level as a threat of $1.8 million to $2.2 million which is a 10% variance",
+      "C": "Note the impact as outside the acceptable risk level of $2 million",
+      "D": "Note the impact as an opportunity of $200,000 which is 10%"
+    },
+    "correct_answer": "B",
+    "explanation": "Risk appetite describes the level of uncertainty or risk stakeholders are willing to accept. Risk threshold is the measure of acceptable variation around an objective that reflects the risk appetite. In this scenario, a 10% variation around $2 million means an acceptable range of $1.8 million to $2.2 million. (PMBOK 7th Edition, page 54, under Risk.)",
+    "video_time": 1806
+  },
+  {
+    "number": 12,
+    "question": "A risk has been raised in your project around insufficient building materials. One risk owner assigned to the functional manager suggests using a brand new material which has not been fully tested before in a building project. Half of your stakeholder group are happy with this risk response but the other half are not and refuse to sign off on it. What will you do next?",
+    "options": {
+      "A": "Suggest a quantitative risk approach to give a more accurate financial impact",
+      "B": "Suggest they proceed with the proposed risk response and ensure it is followed through",
+      "C": "Suggest a different risk owner as an executive may have more power to respond to the risk",
+      "D": "Suggest a different risk response as they should be timely, cost effective, realistic, and agreed to by relevant stakeholders"
+    },
+    "correct_answer": "D",
+    "explanation": "Risk responses should be appropriate and timely to the significance of the risk, cost-effective, realistic within the project context, agreed to by relevant stakeholders, and owned by a responsible person. Since 50% of stakeholders are not agreeing, the current response does not meet these criteria. (PMBOK 7th Edition, page 54, under Risk.)",
+    "video_time": 1955
+  },
+  {
+    "number": 13,
+    "question": "Your project is starting to go off track due to a large amount of uncertainty in the requirements and resources. At a significant cost, you managed to reign in these issues. However, your project management office would like you to brainstorm ways to improve with your team so that it does not happen again. What will you do next?",
+    "options": {
+      "A": "Ask your team to increase the project contingency reserve to allow for these impacts",
+      "B": "Ask your team to change the project methodology from waterfall to Agile",
+      "C": "Ask your team to use short feedback loops, continuous improvement, and transparent planning",
+      "D": "Ask your team to check their work twice before sending it to the next part of the process"
+    },
+    "correct_answer": "C",
+    "explanation": "A project team needs to embrace adaptability and resiliency with methods such as using short feedback loops, continuous learning and improvement, regular inspection and adaptation of project work, diverse project teams, transparent planning, and using prototypes. (PMBOK 7th Edition, page 56, under Embrace Adaptability and Resiliency.)",
+    "video_time": 2229
+  },
+  {
+    "number": 14,
+    "question": "As your project progresses, many of the business stakeholders are starting to voice their concerns, question some of the changes, and even miss key meetings while trying to sabotage your efforts. What will you do next?",
+    "options": {
+      "A": "Communicate the vision and benefits for the change clearly, along with the impact to their work",
+      "B": "Create an impact over influence chart to determine who should be engaged appropriately",
+      "C": "Escalate the matter to your project sponsor and arrange for different stakeholders",
+      "D": "Map the current state and the proposed future state of the change for the stakeholders"
+    },
+    "correct_answer": "A",
+    "explanation": "This question is on change management, which is a structured approach to transitioning groups to a future state. Too much change or a lack of understanding can lead to resistance and change fatigue. Methods include communicating the vision, goals, and benefits of the change early, along with the impact to work processes. (PMBOK 7th Edition, page 59, under Enable Change to Achieve the Envisioned Future State.)",
+    "video_time": 2385
+  },
+  {
+    "number": 15,
+    "question": "You are analyzing your stakeholders through an impact over influence chart and have found more than 100 different groups of people and over 3,000 impacted stakeholders. Other parts of your project are starting to fall behind as you try to keep up with the large amount of people. What will you do next?",
+    "options": {
+      "A": "Ask your project team to engage different groups of stakeholders so everyone is covered",
+      "B": "Clearly prioritize the stakeholders, then engage and communicate with the highly impacted and influential groups early and often",
+      "C": "Monitor the stakeholders for signs of stress and respond to the groups most stressed about the project",
+      "D": "Create a SharePoint page for the changes that any stakeholder can gather information from anytime"
+    },
+    "correct_answer": "B",
+    "explanation": "The stakeholder engagement process includes: identify, understand and analyze, prioritize, engage, and monitor stakeholders. Where you have too many to engage effectively, prioritization is the key. Impact and influence are two ways to prioritize, as well as power, beliefs, expectations, and proximity to the project. (PMBOK 7th Edition, pages 11-12, under Stakeholder Engagement — Prioritize and Engage.)",
+    "video_time": 2480
+  },
+  {
+    "number": 16,
+    "question": "You are managing a project which communicates to the customer using mostly pull communication. When monitoring the engagement of your stakeholders, you notice a trend that they are not clear on the impacts or benefits of the project. You decide to add push communication to your communication plan. What will you do next?",
+    "options": {
+      "A": "Create a web page using SharePoint with all the project information that your stakeholders can see",
+      "B": "Push more funding for your project and communicate this to the project sponsor",
+      "C": "Push your stakeholders to engage in more two-way communication",
+      "D": "Send a weekly email to stakeholders with a project update including the impacts and benefits"
+    },
+    "correct_answer": "D",
+    "explanation": "Push communication is sent to stakeholders using memos, emails, status reports, voicemail, and more. Pull communication is something a customer can pull at any time from a bulletin, web page, whiteboard, or anything visual. Sending a weekly email is an example of pushing information out to stakeholders. (PMBOK 7th Edition, page 13, under Types of Communication.)",
+    "video_time": 2636
+  },
+  {
+    "number": 17,
+    "question": "You have taken over on a project with a vendor where scope and requirements have been missed. You notice that miscommunication and mixed messages are common. You set a meeting with your team and the vendor team. The meeting is extremely important to get right. What will you do next?",
+    "options": {
+      "A": "Speak slowly and clearly with the vendor team at a louder volume if necessary",
+      "B": "Confirm they hear your message, determine if they agree, and identify nuanced or unintended messages that they may have received",
+      "C": "Only communicate with the vendor in writing so you have a trail of proof if anything goes wrong in the future",
+      "D": "Prepare a claim for the mishandled scope of your project through the procurement team"
+    },
+    "correct_answer": "B",
+    "explanation": "With all forms of communication, quick feedback loops provide the information you need by confirming they heard the message, determining if they agree, and identifying any nuances or additions to the message that they may have added or heard themselves. (PMBOK 7th Edition, page 13, under Stakeholder Engagement — Engage in the PMBOK Guide 7th Edition.)",
+    "video_time": 2976
+  },
+  {
+    "number": 18,
+    "question": "Your stakeholders seem to be engaged; however, there are frequent changes to scope and requirements causing delays. Issues are often raised and result in multiple rounds of feedback. You are not sure who or what could be the cause. What will you do next?",
+    "options": {
+      "A": "Perform root cause analysis with your project team on the problem to brainstorm ideas",
+      "B": "Raise a risk in the risk register for the project delay and review responses with your team",
+      "C": "Review the issue log, the risk register, and the change log for the most frequent requesters, then update your stakeholder engagement approach for those people",
+      "D": "Ensure your project budget has enough contingency reserves to meet the multiple reviews and delays"
+    },
+    "correct_answer": "C",
+    "explanation": "A significant number of changes or modifications to project requirements or scope may indicate stakeholders are not engaged or aligned with the project objectives. A review of the project issue register or risk register can identify challenges associated with individual stakeholders, enabling you to update the stakeholder engagement approach for those people. (PMBOK 7th Edition, page 15, under Checking Outcomes — Stakeholder Performance.)",
+    "video_time": 2973
+  },
+  {
+    "number": 19,
+    "question": "You have been working on a project where the manager leads in a dictatorship style. Over time the team has stopped making suggestions, sick days and mental health days have become more frequent, and the pace of work has slowed. The manager comes to you for help. You suggest a servant leadership style instead. What will they do next?",
+    "options": {
+      "A": "Serve the team as much as they can ensuring their every need is met",
+      "B": "Focus on obstacle removal, encouragement, and development opportunities",
+      "C": "Ensure the team are serving other team members and helping each other succeed",
+      "D": "Serve the team new ways to do the work and engage them through additional variety"
+    },
+    "correct_answer": "B",
+    "explanation": "Servant leaders allow project teams to self-organize when possible and increase levels of autonomy by passing appropriate decision-making opportunities to project team members. Servant leadership behaviors include obstacle removal, being a diversion shield, and development opportunities to help team members grow and make progress in their careers. (PMBOK 7th Edition, page 18, under Distributed Management and Leadership.)",
+    "video_time": 3208
+  },
+  {
+    "number": 20,
+    "question": "You have been allocated to a new project team with members from different parts of the functional business area. It soon becomes clear that very few of them have worked on a project before. There is a lot of miscommunication and rework occurring amongst the team, which is starting to cause delays. What will you do next?",
+    "options": {
+      "A": "Set a daily standup with your team to ensure they update what they completed",
+      "B": "Review the resource assignment matrix with your team to ensure they are doing their job",
+      "C": "Help the team set their vision and objectives, roles and responsibilities, and team operations usually done through a team charter",
+      "D": "Send your team members on training in their roles to increase their capability"
+    },
+    "correct_answer": "C",
+    "explanation": "When project teams form across different organizations, more work may be required up front to establish a one-team mindset, ensuring everyone understands how they contribute. Team development such as establishing a vision, clear roles and responsibilities, and a way of working are key. (PMBOK 7th Edition, page 18, under Common Aspects of Team Development.)",
+    "video_time": 3335
+  },
+  {
+    "number": 21,
+    "question": "You have collected the requirements for your project, matched them to project scope, and broken them down into smaller parts and the activities required. In doing this, you notice that the manager of the marketing department has added extra scope that is unrelated to your current project. What will you do next?",
+    "options": {
+      "A": "Start an open dialogue with the functional manager, raise the incorrect scope items and their impact",
+      "B": "Override the marketing manager's decision on scope as you are the senior project manager",
+      "C": "Raise a change request for the additional scope and let the Change Control Board decide",
+      "D": "Place the additional scope into the product backlog for the product owner to prioritize"
+    },
+    "correct_answer": "A",
+    "explanation": "Without an open dialogue you may not know if the scope was a mistake or previously approved. Positive discourse and courage are key aspects of a winning project team culture, along with support, respect, celebrating success, and transparency. Page 21, project team culture in the PMBOK Guide 7th edition.",
+    "video_time": 3474
+  },
+  {
+    "number": 22,
+    "question": "Your project team are protected by a union agreement. You notice that they don't know how to use the product you're improving, they're slow to respond, and regularly complain about the work. Your project sponsor has had enough and threatens to shut down the project if improvements can't be made. What will you do next?",
+    "options": {
+      "A": "Set up a new project with different team members and transfer the project work to that team",
+      "B": "Set a clear project purpose and a vision and pair your team with a customer",
+      "C": "Tell your project team that they will lose their jobs",
+      "D": "Create a project Gantt chart schedule and burndown chart so the work is transparent to all"
+    },
+    "correct_answer": "B",
+    "explanation": "This question calls for leadership skills where setting a vision and purpose and showing your team how they're making a difference can increase their intrinsic motivation. Transferring to another team may risk the same result, and threatening your team may embed their behavior further. Page 24-25, leadership skills — establishing a vision and motivation in the PMBOK Guide 7th edition.",
+    "video_time": 3668
+  },
+  {
+    "number": 23,
+    "question": "During a key scope meeting, an argument arises. The business manager accuses the technology manager of not delivering to their needs on past projects, and the technology manager accuses the business manager of changing requirements that impact the delivery schedule. The meeting is at risk with the stakeholders being closed off to any further discussion. What will you do next?",
+    "options": {
+      "A": "Take the side of the technology manager as the scope that impacts delivery should be controlled",
+      "B": "Take the side of the business manager as we should always deliver to the customer specification",
+      "C": "Facilitate to keep the communication respectful, focus on the issue in the present, and search for alternatives together",
+      "D": "Ensure they both agree to the Change Control process to avoid disagreements in the future"
+    },
+    "correct_answer": "C",
+    "explanation": "Not all conflict is negative — how conflict is handled can either lead to more conflict or better decision-making and stronger solutions. The PMBOK Guide notes open and respectful communication, focusing on the issue not the person and the present not the past, and searching for alternatives together. Page 29, conflict management in the PMBOK Guide 7th edition.",
+    "video_time": 3906
+  },
+  {
+    "number": 24,
+    "question": "You are working on a project where the project team is completely distributed around the country in multiple sites including working from home. Some of the project team members have not been able to contribute to the project and there are concerns from the program that the project will fall behind. What will you do next?",
+    "options": {
+      "A": "Raise a request to the program to collocate all your project team members as soon as possible",
+      "B": "Proceed with daily stand-ups and working group meetings with any team members in your area",
+      "C": "Set team leaders for each area around the country to report back to you as the centralized project leader",
+      "D": "Use technology to maintain ongoing contact with audio and video for meetings and a team website to keep all project information available"
+    },
+    "correct_answer": "D",
+    "explanation": "For distributed project teams, you can use audio and video capabilities for meetings, use technology including messaging for ongoing contact, build in time to get to know remote team members, and have an open project site for open information and transparency. Page 30, distributed project teams in the PMBOK Guide 7th edition.",
+    "video_time": 4060
+  },
+  {
+    "number": 25,
+    "question": "You are initiating a project to a sales team where the process will change significantly even though the outcome of a completed sale will remain the same. The functional manager is concerned about the change and any disruption that it might bring. What will you do next?",
+    "options": {
+      "A": "Kick off the project with multiple deliveries to deliver small parts and reduce the change impact",
+      "B": "Kick off the project with a single delivery at the end of the project when the process change is complete",
+      "C": "Kick off the project with continuous delivery in mind to ensure fast delivery to the business",
+      "D": "Kick off the project using periodic deliveries, delivering value as it's ready"
+    },
+    "correct_answer": "B",
+    "explanation": "This question covers delivery cadence and their various benefits. A process re-engineering project may not have any deliveries until near the end of the project when the new process is rolled out and ready. Page 34, delivery cadence in the PMBOK Guide 7th edition.",
+    "video_time": 4213
+  },
+  {
+    "number": 26,
+    "question": "You're working on a project where the requirements are clear but the solution ideas are uncertain. The product owner and the technical experts can't be sure which ideas will work in practice and which ones won't. The organization can't afford to get this project wrong as they have previously made mistakes and customers are starting to leave. What will you do next?",
+    "options": {
+      "A": "Use an incremental development approach",
+      "B": "Use an iterative development approach",
+      "C": "Use a predictive development approach",
+      "D": "Use a hybrid development approach"
+    },
+    "correct_answer": "B",
+    "explanation": "An iterative approach is used when you need to capture ideas that might change while still delivering in one release. Incremental progressively delivers features or increments, predictive plans everything up front, and hybrid is a combination of predictive and adaptive. Page 37, development approaches in the PMBOK Guide 7th edition and page 18 of the Agile Practice Guide under characteristics of project life cycles.",
+    "video_time": 4355
+  },
+  {
+    "number": 27,
+    "question": "You're working on a new product for your organization where the requirements are complex and are likely to change a few times as the project progresses. The organization also needs usable parts of the product to be released as fast as possible to capture some of the market away from their competitors. What will you do next?",
+    "options": {
+      "A": "Use an iterative development approach",
+      "B": "Use a predictive development approach",
+      "C": "Use an adaptive development approach",
+      "D": "Use a hybrid development approach"
+    },
+    "correct_answer": "C",
+    "explanation": "Adaptive approaches are useful when requirements are subject to uncertainty and change, a clear vision is established at the start, and initial known requirements are refined or replaced in accordance with user feedback or unexpected events. Page 35, adaptive approach in the PMBOK Guide 7th edition.",
+    "video_time": 4476
+  },
+  {
+    "number": 28,
+    "question": "A new project has been kicked off in your organization due to a recent government inquiry into your industry, which found multiple processes with significant regulatory oversight that need to change. The inquiry ordering these changes has given you a due date of 10 months time before you start incurring penalties. What will you do next?",
+    "options": {
+      "A": "Proceed with an agile development approach to deliver change as quickly as possible",
+      "B": "Proceed with a hybrid development approach to respond to changes while planning up front",
+      "C": "Proceed with a predictive development approach",
+      "D": "Proceed with an iterative methodology to improve using feedback"
+    },
+    "correct_answer": "C",
+    "explanation": "Environments that have significant regulatory oversight may need to use a predictive approach due to the required process documentation and demonstration needs. Page 40, considerations for selecting a development approach in the PMBOK Guide 7th edition.",
+    "video_time": 4609
+  },
+  {
+    "number": 29,
+    "question": "Your organization is moving to an agile way of work. Your project team are strongly opposed to using agile as they've been burned using iterations when executives used the team velocity to try and force the team to work faster instead of keeping a sustainable pace. What will you do next?",
+    "options": {
+      "A": "Add extra resources to your team to deliver faster and avoid executives getting involved",
+      "B": "Proceed with a predictive development approach and deal with the consequences later",
+      "C": "Ask your team to work with agile velocity and iterations despite their hesitations",
+      "D": "Suggest the team uses flow-based scheduling with a Kanban board for visual work"
+    },
+    "correct_answer": "D",
+    "explanation": "Kanban is one of the largest parts of agile approaches alongside lean, extreme programming, and Scrum. A flow-based scheduling approach does not use sprints, velocity, or life cycles but optimizes deliveries based on resource capacity and minimizes waste such as context switching and handoffs between different people. Page 45, flow-based scheduling in the PMBOK Guide 7th edition.",
+    "video_time": 4746
+  },
+  {
+    "number": 30,
+    "question": "Your team have not worked on projects before and don't know about waterfall, agile, or any of the different models. Your project may also have requirements that are certain or uncertain with varying levels of risk, so you're not sure which approach to use as you begin this new project. What will you do next?",
+    "options": {
+      "A": "Use waterfall and plan everything up front so the team have more stability",
+      "B": "Use general phase definitions such as feasibility, design, build, test, deploy, and close",
+      "C": "Use agile to ensure you can respond to change while your team's capability increases",
+      "D": "Don't use any project approach — it doesn't matter as long as the work is getting done"
+    },
+    "correct_answer": "B",
+    "explanation": "All projects will go through the general phases of feasibility, design, build, test, deploy, and close. Waterfall projects will do these in sequence once while agile projects will do it multiple times for each feature or increment — the underlying principle remains the same. Page 42, life cycle and phase definitions in the PMBOK Guide 7th edition.",
+    "video_time": 5011
+  },
+  {
+    "number": 31,
+    "question": "You are a project manager in an organization with a directive project management office and are currently in between projects. The PMO asks you to prepare for an upcoming project in the accounting area by meeting with the functional manager there. You have no team, no scope, no requirements, and no timeline as yet. What will you do next?",
+    "options": {
+      "A": "Ask the functional manager for their wish list of improvements so you can take these to your PMO",
+      "B": "Create a project management plan so the project scope, budget, and schedule are more clear",
+      "C": "Create a small backlog of work and start your first Sprint, then progressively update the backlog as the project progresses",
+      "D": "Progressively elaborate the vision statement and project Charter to kick off your project and define a coordinated approach"
+    },
+    "correct_answer": "D",
+    "explanation": "Before initiating a project of any sort, we start with a vision statement, project Charter, or business case in order to identify a coordinated path to achieve the desired outcomes. Page 52 under planning overview in the PMBOK Guide 7th edition.",
+    "video_time": 5207
+  },
+  {
+    "number": 32,
+    "question": "You are working on a project where part of the project delivers a high value, high-risk component and another part of the project delivers a routine change to the system. Your project sponsor wants to gain the business value quickly, but your project team want to start with the work that they are familiar with first. What will you do next?",
+    "options": {
+      "A": "Prioritize the higher risk items at the end of the project",
+      "B": "Prioritize the high-risk items at the start of the project",
+      "C": "Use an incremental approach and deliver part of the routine and high-risk work in each Sprint",
+      "D": "Plan out the work in detail and secure a scope baseline with formal change controls to reduce the uncertainty"
+    },
+    "correct_answer": "B",
+    "explanation": "This question refers to the concept of last responsible moment. Work that is novel or risky can be prioritized at the start of the project to reduce uncertainty with the project scope before a large investment has been made. Routine work can be delayed until the further cost of further delay would exceed the benefit. Page 54 in the PMBOK Guide under delivery, paragraph three, 7th edition.",
+    "video_time": 5350
+  },
+  {
+    "number": 33,
+    "question": "You are working on an agile project where the functional manager you are delivering to only has a high level idea of the system requirements that they will need. The functional manager suggests a work breakdown structure, however your team feel that that is more for a predictive or waterfall delivery approach. What will you do next?",
+    "options": {
+      "A": "Use and create a work breakdown structure anyway as it is just a tool",
+      "B": "Use rolling wave planning and keep the work at a high level until you are ready to work on it, and then plan in detail",
+      "C": "Note the high level themes or epics, decompose them into features, and again into user stories",
+      "D": "Ask the functional area for more detailed requirements before the project begins"
+    },
+    "correct_answer": "C",
+    "explanation": "This question refers to decomposition, or breaking down the work. We could use a work breakdown structure or rolling wave planning, but for an incremental approach, breaking down the work from epics into features to user stories is a form of decomposition that fits the delivery approach we are using. Page 54 under delivery, paragraph 3, in the PMBOK Guide 7th edition.",
+    "video_time": 5534
+  },
+  {
+    "number": 34,
+    "question": "You are at the beginning of planning a new project and have researched and gathered the requirements from the area, broken them down into deliverables and activities, which you believe could take 26 weeks to deliver. The project sponsor is asking you for an estimate on how long the project will take. What will you do next?",
+    "options": {
+      "A": "Tell the project sponsor 26 weeks",
+      "B": "Tell the project sponsor that you will use an iterative approach where value is delivered until the project stops",
+      "C": "Tell the project sponsor approximately 24 to 28 weeks",
+      "D": "Tell the project sponsor approximately 20 to 45 weeks"
+    },
+    "correct_answer": "D",
+    "explanation": "This question is related to estimation and range estimates should have a broad range at the start of the project when there is not much information, starting at approximately minus 25 to plus 75 percent. Once the project team has a smooth delivery cadence and experience in the product, a smaller range such as minus 5 to plus 10 percent can be used. Page 55 under estimating and range in the PMBOK Guide 7th edition.",
+    "video_time": 5698
+  },
+  {
+    "number": 35,
+    "question": "After gathering your project requirements, project scope, and breaking it down into activities, you need to estimate the project schedule with your team. After some analysis and discussion your team come up with a range of 53 to 75 days assigned across all tasks. What will you do next?",
+    "options": {
+      "A": "Low accuracy and low precision; ensure estimates become more accurate as the project unfolds",
+      "B": "Low accuracy and high precision; ensure the estimates become more accurate as the project unfolds",
+      "C": "High confidence and high precision; ensure the estimates become more accurate as the project unfolds",
+      "D": "High confidence and low precision; ensure the estimates become more accurate as the project unfolds"
+    },
+    "correct_answer": "B",
+    "explanation": "This question is on estimates and their accuracy. The lower the accuracy, the larger the potential range in values, which is what we see with the wide 53 to 75 day range. Precision is different from accuracy as it refers to the exactness of the estimate; for example, 2 days is more precise than sometime this week. Page 54 in the PMBOK Guide 7th edition under estimating, accuracy, precision, and confidence.",
+    "video_time": 5941
+  },
+  {
+    "number": 36,
+    "question": "You are working on a business case where you know that the industry is undergoing a significant change at the moment and there could be many different impacts to your project benefits before it is delivered completely. Your project sponsor asks you for the best estimate of benefits that you can give under the circumstances. What will you do next?",
+    "options": {
+      "A": "Ask your team for a probabilistic estimate",
+      "B": "Ask your team for a deterministic estimate",
+      "C": "Ask your team for an absolute estimate",
+      "D": "Ask your team for a relative estimate"
+    },
+    "correct_answer": "A",
+    "explanation": "Probabilistic estimates include a range of estimates along with the associated probabilities within the range, such as a confidence level or a probability distribution. When the number is uncertain, this is the best approach. Deterministic is a specific number, absolute is also a specific number, and relative estimates are shown in comparison to other estimates. Page 57 under presenting estimates in the PMBOK Guide 7th edition.",
+    "video_time": 6098
+  },
+  {
+    "number": 37,
+    "question": "You have noted nine epics for delivery as part of your most recent project. Your team have broken down these epics into user stories and would like to see the effort involved for these deliverables. You ask your team to find the smallest user story, size it with a one, and then determine the size of the other cards based on how they compare to the original card. What approach are you taking?",
+    "options": {
+      "A": "Relative estimating with your team",
+      "B": "Deterministic estimating to determine the effort",
+      "C": "Absolute estimating",
+      "D": "Probabilistic estimating"
+    },
+    "correct_answer": "A",
+    "explanation": "This question is about estimating and making an estimate in comparison to other estimates, which is relative estimating. Page 57 under relative estimating in the PMBOK Guide 7th edition.",
+    "video_time": 6280
+  },
+  {
+    "number": 38,
+    "question": "You are working on a project where a competitor is also working on a similar feature and being first to the market will have a significant impact on this year's profit. Your product owner would like to measure how quickly story cards are being completed once they start being developed. What will you do next?",
+    "options": {
+      "A": "Check the lead time",
+      "B": "Check the Gantt chart",
+      "C": "Check the cycle time",
+      "D": "Check the schedule network and precedence diagram"
+    },
+    "correct_answer": "C",
+    "explanation": "Cycle time is the total elapsed time it takes one unit to get through a process, meaning from when a developer starts working on a card to when they complete it. Lead time is the time from when the customer makes the order or the requirement is noted to the time that the item is delivered or released. Page 58 under flow-based estimating in the PMBOK Guide 7th edition.",
+    "video_time": 6391
+  },
+  {
+    "number": 39,
+    "question": "You are working on a project that has recently moved to a more agile way of work. The team have not completely taken on the Scrum approach however and are comfortable working with a more flow-based approach, moving user stories across a Kanban board. You are wanting to get an estimate on how much work can be completed in the next 3 months based on the team's existing process progress. What will you do next?",
+    "options": {
+      "A": "Multiply the velocity by the number of remaining user stories",
+      "B": "Multiply the cycle time by the throughput",
+      "C": "Multiply the lead time by the schedule performance index",
+      "D": "Multiply the planned value by the actual value"
+    },
+    "correct_answer": "B",
+    "explanation": "Scrum uses velocity; Kanban or flow-based estimates are developed by determining the cycle time and throughput. Cycle time is the total elapsed time it takes one unit to get through a process, and throughput is the number of items that can complete a process in a given amount of time. Page 58 under flow-based estimating in the PMBOK Guide 7th edition.",
+    "video_time": 6530
+  },
+  {
+    "number": 40,
+    "question": "Your product owner wants to bring the next feature forward so that it is done in parallel to the current feature, but it is still released in the existing feature order. You make the necessary adjustments to the product backlog and decide to adjust the product roadmap which you have visualized as a Gantt chart. What will you do next?",
+    "options": {
+      "A": "Use a schedule lead and change the feature relationship to finish to start",
+      "B": "Use a schedule lag and change the feature relationship to finish to start",
+      "C": "Use a schedule lead and change the feature relationship to finish to finish",
+      "D": "Use a schedule lag and change the feature relationship to finish to finish"
+    },
+    "correct_answer": "C",
+    "explanation": "Schedule lag is moving an item back; schedule lead is bringing an item forward. The precedence diagramming method states that for finish to finish items, the next item cannot finish until the previous item has finished, which allows items to be worked on in parallel while still keeping the same delivery order. Page 59 schedules lead and lag in the PMBOK Guide 7th edition and page 180 precedence diagramming method in the 6th edition.",
+    "video_time": 6696
+  },
+  {
+    "number": 41,
+    "question": "You're working on a project where you have been completing the deliverables in sequence and the project work is starting to fall behind. The project sponsor asks you to speed up the work and reduce the time for the project to be delivered, but also makes it very clear that there is no more money to use when speeding up the work. What will you do next?",
+    "options": {
+      "A": "Apply leads and lags to adjust the schedule",
+      "B": "Fast track the schedule by performing activities in parallel",
+      "C": "Use resource leveling to optimize the schedule",
+      "D": "Crash the schedule by adding extra resources"
+    },
+    "correct_answer": "B",
+    "explanation": "Fast tracking is a schedule compression method in which activities or tasks that are normally done in sequence are performed in parallel at the same time. Schedule crashing includes adding people to activities, working overtime, or paying to expedite deliveries, so it cannot be used when there is no extra money. See page 59 under schedules fast tracking and crashing in the PMBOK Guide 7th Edition.",
+    "video_time": 6945
+  },
+  {
+    "number": 42,
+    "question": "After reviewing your project schedule you notice you are behind by 3 weeks and the schedule needs to be compressed. Your project does not have enough budget to crash the schedule. You check with the lead for each area and review the schedule as to whether they can fast track their deliverables. What will you do next?",
+    "options": {
+      "A": "Fast track activities with discretionary dependencies",
+      "B": "Fast track activities with industry-regulated dependencies",
+      "C": "Fast track activities with external dependencies",
+      "D": "Fast track activities with mandatory dependencies"
+    },
+    "correct_answer": "A",
+    "explanation": "When compressing the schedule, some activities cannot be fast-tracked because of the nature of the work while others can. A discretionary dependency is based on project preferences and might be modifiable. External and mandatory dependencies usually cannot be modified, and industry-regulated dependencies have significant oversight making them difficult to move.",
+    "video_time": 7083
+  },
+  {
+    "number": 43,
+    "question": "Your team are new to Agile and have previously been working with waterfall. Your key customer asks you for a project schedule. The project team believes using a project schedule is from the old waterfall way of working and they should not have to create one. What will you do next?",
+    "options": {
+      "A": "Create a project Gantt chart to visualize the activities within the project",
+      "B": "Determine the project's planned versus actual value instead of working with a schedule directly",
+      "C": "Advise the customer that you don't need to plan ahead in an adaptive way of working",
+      "D": "Ask your team to develop a high-level release plan like a product road map showing the features to be included in each release"
+    },
+    "correct_answer": "D",
+    "explanation": "Adaptive schedule planning uses incremental planning. A high-level release plan is developed that indicates the basic features and functionality to be included in each release. This satisfies the customer need for visibility while aligning with agile ways of working. See page 61 under adaptive schedule planning in the PMBOK Guide 7th Edition.",
+    "video_time": 7238
+  },
+  {
+    "number": 44,
+    "question": "You're working in a project team that has recently moved to an agile way of work. Your business analysts want to gather the requirements, match solutions to the scope, and do a work breakdown structure for the whole deliverable. Your product owner says this will take too long and is not agile enough for their needs. What will you do next?",
+    "options": {
+      "A": "Ask your team to review the scope management plan for the proper process",
+      "B": "Break the deliverable down into smaller pieces so you can deliver those faster",
+      "C": "Ask your team to time box work on the highest priority items in the backlog, update the estimates, and then reprioritize them as necessary",
+      "D": "Review the project charter for the high-level scope and then use this to begin delivery quickly"
+    },
+    "correct_answer": "C",
+    "explanation": "Adaptive approaches often use time boxes where the work is based on a prioritized backlog. The project team determines the amount of work they can do in each time box, estimates the work, and self-manages to accomplish that work. At this point the backlog may be reprioritized for the next time box. See page 62 under time boxes in the PMBOK Guide 7th Edition.",
+    "video_time": 7395
+  },
+  {
+    "number": 45,
+    "question": "When reviewing the current progress of your project with your project sponsor, they notice that the system solution is missing a critical piece that will impact the benefit of the project. The project sponsor approves the scope. Your project has a planned value of $520,000 and an actual cost of $535,000. What will you do next?",
+    "options": {
+      "A": "Work with the PMO to unlock the project management reserves for the extra work",
+      "B": "Ask the product owner to reprioritize the backlog and see if the new work will fit",
+      "C": "Perform the work within your normal budget as your project is on track",
+      "D": "Raise a change request for the changes and gain approval from the Change Control Board"
+    },
+    "correct_answer": "A",
+    "explanation": "Management reserves are set aside for unexpected activities related to in-scope work. Depending on the organization policies, management reserves may be managed by the PMO at the program or portfolio level. The project is over budget (AC $535K vs PV $520K) and the scope has already been approved by the sponsor, so unlocking management reserves is the correct action. See page 62 under budget in the PMBOK Guide 7th Edition.",
+    "video_time": 7588
+  },
+  {
+    "number": 46,
+    "question": "You're in the planning stages of an agile project where the functional manager and senior users have provided the high-level requirements and scope. You have been asked to put together a project team that will be able to deliver quickly. What will you do next?",
+    "options": {
+      "A": "Select project team members from each city to ensure diversity of knowledge within the team",
+      "B": "Put together a resource management plan outlining the resources required",
+      "C": "Ask your PMO for current available resources and assign them to the work",
+      "D": "Select a small team that can work in the same area so they can solve problems as they arise"
+    },
+    "correct_answer": "D",
+    "explanation": "When planning for the team, the project sponsor considers the ability and necessity for them to work in the same location. Small project teams that can work in the same room are able to take advantage of osmotic communication, overhearing conversations and solving problems together quickly. See page 64 under project team composition and structure in the PMBOK Guide 7th Edition.",
+    "video_time": 7789
+  },
+  {
+    "number": 47,
+    "question": "You're putting together a project team to deliver an accounting system to offices around the country. The accounting system you're moving to has not been used by anyone in your organization before. The project is quite high risk and the delivery needs to be right the first time. What will you do next?",
+    "options": {
+      "A": "Select a small team that can work in the same area so they can solve problems as they arise",
+      "B": "Use a predictive project approach and source part of your team externally",
+      "C": "Train existing internal staff in the new system and then have them work on the project",
+      "D": "Perform a make or buy analysis on the different software options"
+    },
+    "correct_answer": "B",
+    "explanation": "The benefit that outside skills bring to the project are weighed against the costs that will be incurred. With higher risk and a single delivery, a waterfall or predictive project delivery approach is best, and sourcing external team members who have expertise in the new system addresses the gap in organizational knowledge. See page 63 under project team composition and structure in the PMBOK Guide 7th Edition.",
+    "video_time": 7951
+  },
+  {
+    "number": 48,
+    "question": "You're putting together a project plan for a change that affects nearly 10,000 stakeholders in your organization. You have identified the affected stakeholders, analyzed and prioritized them, and are putting together a communication plan to ensure that the right engagement is made. What will you NOT include in your plan?",
+    "options": {
+      "A": "Why should information be shared with stakeholders",
+      "B": "What is the best way to provide them the information",
+      "C": "How can they make changes to the communication plan",
+      "D": "When and how often is information needed"
+    },
+    "correct_answer": "C",
+    "explanation": "Planning communication for the project entails considering: who needs the information, why should information be shared with stakeholders, when and how often is the information needed, what is the best way to provide the information, and what information does each stakeholder need. How stakeholders can make changes to the communication plan is not a standard element included. See page 64 in the PMBOK Guide 7th Edition.",
+    "video_time": 8109
+  },
+  {
+    "number": 49,
+    "question": "You put together a resource plan for a large amount of physical inventory to be purchased from overseas. You ordered the inventory during project execution; however, global supply chains were impacted and the shipment was delayed by 3 months, significantly impacting your project. What should you have done differently?",
+    "options": {
+      "A": "Hired a resource manager to take care of the resource tasks on your project",
+      "B": "Planned strategically about the timing from order to delivery to usage, managing resource risks and their responses",
+      "C": "Understood what it means to track the inventory from arrival on site to the delivery of an integrated product",
+      "D": "Sourced the inventory locally to reduce the impact of supply chains"
+    },
+    "correct_answer": "B",
+    "explanation": "Project teams whose projects require significant physical materials should think and plan strategically about the timing from order to delivery to usage. This can include evaluation of bulk ordering versus the cost of storage, global logistics, and more. The supply chain delay was a risk that should have been identified and managed with appropriate responses. See page 65 under physical resources in the PMBOK Guide 7th Edition.",
+    "video_time": 8245
+  },
+  {
+    "number": 50,
+    "question": "You are halfway through your agile project when there is a significant change to the project scope after it was found that the project would not be able to deliver the benefits that it had promised. You check your project budget and there are contingency and management reserves available. What will you do next?",
+    "options": {
+      "A": "Take the project scope change to the Change Control Board for approval",
+      "B": "Use the available contingency reserves to make the appropriate change to the project scope",
+      "C": "Review the change management plan for the Change Control process",
+      "D": "Reprioritize the backlog including the new scope and begin work on the highest priority item"
+    },
+    "correct_answer": "D",
+    "explanation": "Changes may occur as a result of a risk event, environment change, a deeper understanding of requirements, customer requests, and more. In an agile team, this may take the form of reprioritizing the backlog instead of a formal Change Control process with project baselines. Contingency reserves are for project risks, not scope changes, making backlog reprioritization the correct agile approach. See page 66 under changes in the PMBOK Guide 7th Edition.",
+    "video_time": 8404
+  },
+  {
+    "number": 51,
+    "question": "You have recently taken over on a project that is behind schedule and slightly over budget. You raise an issue at the steering committee meeting where they advise that there is no additional funding available for the project and the project must finish on time. You believe that you can optimize the project process to bring it back on track. What will you do next?",
+    "options": {
+      "A": "Add additional people and resources to the project to speed it up",
+      "B": "Utilize the project's contingency reserve to source the resources you need",
+      "C": "Perform project activities in parallel, completing multiple items at once instead of one at a time",
+      "D": "Use lean production methods to reduce non-value-added activities and retrospectives for the team to suggest improvements"
+    },
+    "correct_answer": "D",
+    "explanation": "Ways of optimizing project processes for the environment include lean production methods, retrospectives or Lessons Learned, and finding where the next best funding is spent. Adding people and resources may not always improve things; it can also increase the complexity and the communication channels on your project. This is from page 71 under project processes in the PMBOK Guide Seventh Edition.",
+    "video_time": 8580
+  },
+  {
+    "number": 52,
+    "question": "Your project management office is optimizing all the projects within their portfolio. They ask for your advice in tracking the type of work each team member is doing and how long it takes, suggesting that they categorize and record their work in addition to the work itself. What will you do next?",
+    "options": {
+      "A": "Ask your team to record and categorize their work as it is important",
+      "B": "Recommend an automated reporting tool where possible as categorizing their work is non-value-added",
+      "C": "Recommend an automated reporting tool because recording their work is value-added",
+      "D": "Ask your team to ignore the request and focus on delivering customer value only"
+    },
+    "correct_answer": "B",
+    "explanation": "The time taken to track or record time can be viewed as non-value-added work that does not directly benefit the output or the receiving customer. We should respect the PMO request but in addition to being efficient, processes should also be effective. This is from page 72 under project processes in the PMBOK Guide Seventh Edition.",
+    "video_time": 8728
+  },
+  {
+    "number": 53,
+    "question": "You are working on an agile project as a Scrum Master where the functional manager has worked with some people in your development team before. She approaches them directly to see if they can add a feature to the product in their current Sprint. What will you do next?",
+    "options": {
+      "A": "Adjust the Sprint backlog to allow for the additional feature",
+      "B": "Adjust the product backlog to add the customer requirement",
+      "C": "Ask the manager to speak with the product owner for the product priorities, then protect the team from direct requests in the future",
+      "D": "Ask the manager to create a change request so it can go through the proper process"
+    },
+    "correct_answer": "C",
+    "explanation": "Project managers have a responsibility for assessing and balancing project team focus and attention. This may involve protecting the team's production capability, their team health and satisfaction, and protecting them from outside influences. In agile, this also means being a diversion shield. This is from page 73 under maintaining project team focus in the PMBOK Guide Seventh Edition.",
+    "video_time": 8877
+  },
+  {
+    "number": 54,
+    "question": "Part of the project management plan is a detailed communications plan which has the stakeholders on the project, their communication needs, and how information will be communicated. While this is being signed off by the project sponsor, you receive many ad hoc requests for information from new stakeholders. What will you do next?",
+    "options": {
+      "A": "Review the communications management plan to include the stakeholders with the information that they need and their communication preferences",
+      "B": "Create an information radiator and ask the stakeholders to pull the information they need",
+      "C": "Ignore the new requests as you have captured all the stakeholders you need in your plan",
+      "D": "Ask the new stakeholders to review your communications management plan to see how you are distributing information"
+    },
+    "correct_answer": "A",
+    "explanation": "Once collected, information is distributed as indicated in the project management communications plan. An abundance of ad hoc communication requests may indicate that the communications planning was not sufficient to meet stakeholder needs and it is a good idea to review it. This is from page 72 under project communication and engagement in the PMBOK Guide Seventh Edition.",
+    "video_time": 9085
+  },
+  {
+    "number": 55,
+    "question": "You are working on a high-value construction project to include smart home components within multi-million dollar buildings. After completing a make or buy analysis, you find that it will cost $700,000 to make a new system or $500,000 to buy it from a vendor. You prepare a procurement management plan to purchase it. What will you do before conducting a procurement?",
+    "options": {
+      "A": "Work with your project team to complete as much as possible in-house",
+      "B": "Work with contracting professionals in your organization to develop an RFP, statement of work, and terms and conditions",
+      "C": "Adjust your stakeholder register to include the new vendor and add the scope to your work breakdown structure dictionary",
+      "D": "Work with your project team to develop an RMP, SMP, and list of resources"
+    },
+    "correct_answer": "B",
+    "explanation": "Prior to conducting a procurement, the project manager and technically qualified project team members work with contracting professionals to develop the request for proposal, statement of work, terms and conditions, and other necessary documents to go out to bid. This is from page 74 under working with procurements in the PMBOK Guide Seventh Edition.",
+    "video_time": 9215
+  },
+  {
+    "number": 56,
+    "question": "A missing item has been uncovered in the project scope that your project team cannot deliver. The item is not complex and seems to be fairly readily available from various sources. You are ready to move to source selection and choose a vendor that will meet the needs. What will you do before sending out those bid documents to vendors?",
+    "options": {
+      "A": "Prepare a request for proposal for vendors to provide a solution to your needs",
+      "B": "Prepare a request for quote to determine the best price from the vendors",
+      "C": "Prepare a request for information to gather more information and viable sources from the market",
+      "D": "Review the procurement management plan for your project's procurement process"
+    },
+    "correct_answer": "C",
+    "explanation": "The request for information is used to gather more information from the market prior to sending out bid documents to a set of selected vendors. A request for proposal is used where scope is complex or the buyer is looking for the vendor to provide a solution. A request for quote is when price is the deciding factor. This is from page 75 in the PMBOK Guide Seventh Edition.",
+    "video_time": 9403
+  },
+  {
+    "number": 57,
+    "question": "You are working on a project where part of the work is planned carefully up front and another part is subject to change. You negotiate terms and conditions including cost, delivery, and payment dates. The vendor is concerned about confusion that might occur between pre-planned and changeable work. What will you do next?",
+    "options": {
+      "A": "Use a firm fixed price contract to ensure the cost is fixed but the scope can remain flexible",
+      "B": "Use a time and materials contract to ensure only the time and the materials used are paid for",
+      "C": "Adjust your project plan to suit either a predictive or adaptive approach to reduce the confusion",
+      "D": "Use a master agreement for the overall contract with the adaptive work placed in an appendix"
+    },
+    "correct_answer": "D",
+    "explanation": "For projects that use an adaptive approach for some deliverables and a predictive approach for others, a master agreement is used and the adaptive work may be placed in an appendix or a supplement. This allows the changes to occur on the adaptive scope without impacting the overall contract. This is from page 76 under the bid process contracting in the PMBOK Guide Seventh Edition.",
+    "video_time": 9576
+  },
+  {
+    "number": 58,
+    "question": "You are working in an agile project where there are vastly differing levels of product knowledge within your team. The Scrum Master suggests that you try to gain knowledge by osmosis because the project information may be lost when only communicating by email. What will you do next?",
+    "options": {
+      "A": "Collocate the team to capture the benefit of each person's tacit knowledge",
+      "B": "Refer to the organizational process assets to capture the team's explicit knowledge",
+      "C": "Refer to the project's knowledge management system and capture the project's explicit knowledge",
+      "D": "Create a process to capture the team's tacit knowledge"
+    },
+    "correct_answer": "A",
+    "explanation": "Learning by osmosis is capturing information from immediate surroundings such as collocating the team. Tacit knowledge is information that is not straightforward, such as experience, insights, and practical knowledge or skill. Explicit knowledge can be readily codified using words, a process, or pictures. This is from page 77 under explicit and tacit knowledge in the PMBOK Guide Seventh Edition.",
+    "video_time": 9752
+  },
+  {
+    "number": 59,
+    "question": "You are working as a product owner and have placed high-level information about the product in the product backlog with the highest priority feature at the top. Senior users informing the project are unable to clearly articulate their requirements and are concerned that the product will not truly meet their needs. What will you do next?",
+    "options": {
+      "A": "Proceed with the highest priority item during the first Sprint",
+      "B": "Work with the customer to create mockups and prototypes to discover what works for them",
+      "C": "Ask your stakeholders to submit a change request and update the project scope accordingly",
+      "D": "Begin breaking down the work into user stories to place into the Sprint"
+    },
+    "correct_answer": "B",
+    "explanation": "On projects that do not have clearly defined requirements, prototypes, demonstrations, storyboards, and mockups can be used to evolve those requirements. In these situations, stakeholders are more likely to take an 'I'll know it when I see it' approach. This is from page 83 under evolving and discovering requirements in the PMBOK Guide Seventh Edition.",
+    "video_time": 9889
+  },
+  {
+    "number": 60,
+    "question": "You are gathering requirements for a new feature in a customer management system. The product owner has given a user interface feature as the next highest priority and you are collocated with the team receiving the benefits. What will you do next?",
+    "options": {
+      "A": "Show the customer team how the new user interface will look as they will be using it",
+      "B": "Communicate the requirements to developers with a coherent logical flow of ideas",
+      "C": "Elicit requirements into user stories using acceptance criteria that are clear, verifiable, and traceable",
+      "D": "Show the mockup or prototype to the developers and ask them to develop based on that"
+    },
+    "correct_answer": "C",
+    "explanation": "Elicitation means to draw out. Well-documented requirements are clear, concise, verifiable, consistent, complete, and traceable. A prototype is useful but may need more information for developers to turn into a product. This is from page 83 under requirements elicitation in the PMBOK Guide Seventh Edition.",
+    "video_time": 10028
+  },
+  {
+    "number": 61,
+    "question": "You are working in an agile team who are trying to break down the project requirements and the scope. They have created a scope statement and a work breakdown structure, but you are not sure how it will work now that they are using Sprints and user stories. What will you do next?",
+    "options": {
+      "A": "Assign activities to each of the scope items in the work breakdown structure and place them on a Gantt chart as a project schedule.",
+      "B": "Create a product road map with the team using the lowest most detailed part of the work breakdown structure.",
+      "C": "Group the work by large themes of customer value shown as epics, then break them down into smaller user stories to complete in each Sprint.",
+      "D": "Ask the team to trace the requirements properly using a requirements traceability matrix."
+    },
+    "correct_answer": "C",
+    "explanation": "One way to identify scope is by identifying themes of customer value grouped by a common factor such as functionality, data source, or security level. These are shown as epics, which are too big to complete in one Sprint, and broken down into smaller user stories that can be completed in one Sprint. This is covered on page 84 under scope decomposition in the PMBOK Guide 7th edition.",
+    "video_time": 10206
+  },
+  {
+    "number": 62,
+    "question": "Your project team are trialing an agile way of working. The product owner has a clear vision for the product. There is confusion in the team as to how much work should be done on a user story before it is taken to the Sprint review and how they will know that a story is complete. What will you do next?",
+    "options": {
+      "A": "Refer to the user story acceptance criteria and your team's definition of done.",
+      "B": "Review the user story with multiple users to ensure it is correct.",
+      "C": "Ask the product owner to sign off on the completed user story.",
+      "D": "Ensure quality testing on the user story is completed and passed."
+    },
+    "correct_answer": "A",
+    "explanation": "Different ways to describe component completion include acceptance or completion criteria, technical performance measures, and the definition of done. Quality testing and product owner sign-off all feed into the acceptance criteria and definition of done. This is covered on page 85 under completion of deliverables in the PMBOK Guide 7th edition.",
+    "video_time": 10369
+  },
+  {
+    "number": 63,
+    "question": "You have been working closely with the quality manager of your project planning the budget for the project phase that is due to begin in the next two months. They mention the need to budget for appraisal costs to avoid quality issues in the future. What will you do next?",
+    "options": {
+      "A": "Ensure there is enough for training.",
+      "B": "Ensure there is enough for a quality tester to verify the deliverables against the agreed specifications.",
+      "C": "Ensure there is enough to create a quality assurance plan.",
+      "D": "Ensure there is enough to allow for rework or rectification when defects are found."
+    },
+    "correct_answer": "B",
+    "explanation": "The cost of quality includes prevention costs (training, quality planning), appraisal costs (verification, audits, testing), internal failure costs (waste, defects, rework), and external failure costs (customer complaints, repairs, warranty claims). Appraisal costs relate to verifying deliverables against agreed specifications. This is covered on page 89 under cost of quality in the PMBOK Guide 7th edition.",
+    "video_time": 10513
+  },
+  {
+    "number": 64,
+    "question": "Your agile project has recently had multiple quality issues. Project features have been prioritized by the product owner and broken down into user stories. What will you do to help reduce the cost of quality issues the most?",
+    "options": {
+      "A": "Quality test each user story according to its acceptance criteria before release.",
+      "B": "Advise the team that any quality defects will come out of their bonus.",
+      "C": "Perform testing all in one go at the end to reduce the cost of testing resources.",
+      "D": "Ensure a triad of developer, tester, and customer is involved during the requirements and design."
+    },
+    "correct_answer": "D",
+    "explanation": "The cost of change is least during requirements and design, 20 times greater during the build, 50 times during test, and 150 times if a defect must be rectified in production. Involving a triad of developer, tester, and customer from the requirements and design phase ensures things are correct from the very beginning, which is the most cost-effective approach. If requirements and acceptance criteria are incorrect, extra quality testing alone will not help. This is covered on page 90 under the cost of change in the PMBOK Guide 7th edition.",
+    "video_time": 10671
+  },
+  {
+    "number": 65,
+    "question": "You are working in an agile team where executives in the organisation you are delivering to are asking for a large display of reports to be created every two weeks showing how the project is tracking and updating them on the cost and benefits. What will you do next?",
+    "options": {
+      "A": "Collect the planned value versus earned value to show the executives any variance in the plan.",
+      "B": "Collocate the team with the executives so they can answer any questions as they arise.",
+      "C": "Suggest a demonstration of the features developed during each Sprint instead, and a burndown chart of future product releases.",
+      "D": "Create the desired reports for the executives to keep them happy."
+    },
+    "correct_answer": "C",
+    "explanation": "The value of measurements is not in the collection and dissemination of data but in how that data is used to take appropriate action. Agile projects demonstrate value and features delivered, and use live information radiators instead of large reports to stakeholders. This is covered on page 94 under the measurement performance domain in the PMBOK Guide 7th edition.",
+    "video_time": 10932
+  },
+  {
+    "number": 66,
+    "question": "Multiple features have been released but they are not having the effect that the product owner believes they should. Your team are using some key performance indicators (KPIs) to track performance and you agree to move to more leading indicators. What could you use as examples of leading indicators on your project?",
+    "options": {
+      "A": "An increase in customer usage once the feature is released, such as sales and repeat purchasing.",
+      "B": "Stakeholders who are not engaged and a lack of a risk management process.",
+      "C": "Velocity of the work completed in each Sprint and cycle time of the user stories.",
+      "D": "Variance in the schedule between planned and actual time taken."
+    },
+    "correct_answer": "B",
+    "explanation": "There are two types of KPIs: leading indicators predict changes or trends in the project and include lack of a risk management process, stakeholders who are not engaged, and poorly defined project success criteria. Lagging indicators reflect what has already happened and include work completed, schedule variance, customer usage, and cycle time. This is covered on page 96 under leading indicators in the PMBOK Guide 7th edition.",
+    "video_time": 11107
+  },
+  {
+    "number": 67,
+    "question": "You are working in an agile project team that has increased in size and complexity since the project began. In reviewing the throughput of work with your team you notice fewer and fewer user stories being completed, and the road map of features scheduled to go live is being pushed out. What will you do next?",
+    "options": {
+      "A": "Place a limit on the work in progress and work with the team to reduce the cycle time.",
+      "B": "Increase meetings with the team.",
+      "C": "Ask the team to work overtime until the number of backlogs reduces.",
+      "D": "Put a pull system in place where the team can pull work only when they are ready."
+    },
+    "correct_answer": "A",
+    "explanation": "With more work, different tasks, and increased complexity, the team are likely context switching between too many different things. Kanban aims to limit the work in progress to avoid context switching and multitasking. Other approaches include reducing queue size and batch sizes and reviewing process efficiency. This is covered on page 99 under what to measure under delivery in the PMBOK Guide 7th edition.",
+    "video_time": 11273
+  },
+  {
+    "number": 68,
+    "question": "You are working on an agile project where the project customer wants a reliable way to measure the project performance and you first need a baseline. What measures will you show to your customer as part of your agile project?",
+    "options": {
+      "A": "Team velocity.",
+      "B": "Start and finish dates.",
+      "C": "The rate of features completed.",
+      "D": "Schedule and cost variance."
+    },
+    "correct_answer": "C",
+    "explanation": "An agile project tracks and demonstrates the actual features delivered. With a stable team, cost is most often fixed and the schedule is also fixed, while scope is variable depending on what the customer wants to prioritize. Team velocity and schedule or cost variance are internal team measures rather than customer-facing measures. This is covered on page 100 under baseline performance in the PMBOK Guide 7th edition.",
+    "video_time": 11488
+  },
+  {
+    "number": 69,
+    "question": "The product owner has worked with a team of senior users to gather feature ideas. They now have a list of more than 50 ideas for your team to develop, which is far too many to complete in the time frame that you have. What will you do next?",
+    "options": {
+      "A": "Start work on the smallest features first.",
+      "B": "Ask the product owner to return and ask for a shortened list.",
+      "C": "Workshop the features with a wider audience to get a diverse view on their priority.",
+      "D": "Ask the product owner to prioritize the features using cost to benefit and then deliver in their priority order until the time or money runs out."
+    },
+    "correct_answer": "D",
+    "explanation": "Product owners prioritize features based on business value. Metrics that measure business value include cost to benefit ratio, planned to actual benefits delivery, return on investment, and net present value. The product owner is the single decision-maker for prioritization so the team can move much faster without needing a large group consensus. This is covered on page 102 under business value in the PMBOK Guide 7th edition.",
+    "video_time": 11597
+  },
+  {
+    "number": 70,
+    "question": "Your agile project team has only recently formed. The product is still unclear and there have been disagreements and minor conflicts over the past two weeks as the team find their rhythm. You would like things to improve but you cannot quite pinpoint or address the problem. What will you do next?",
+    "options": {
+      "A": "Hold a workshop with your team and ask them why they are unhappy.",
+      "B": "Have the team complete a net promoter score with comments and ask for improvement ideas at the next retrospective.",
+      "C": "Raise the issue with their line managers and ensure that everyone is working on the issue.",
+      "D": "Have the team pair up together so they can learn from each other."
+    },
+    "correct_answer": "B",
+    "explanation": "Measuring stakeholders can be done with a net promoter score or a satisfaction score, especially with a comment or a mood chart. Improvement ideas are captured during retrospectives for most agile teams. Pairing is another agile practice but is not as relevant at this initial stage. This is covered on page 103 under measuring stakeholders in the PMBOK Guide 7th edition.",
+    "video_time": 11734
+  },
+  {
+    "number": 71,
+    "question": "The project has faced serious impacts in getting materials with supply chains being disrupted and a global pandemic, and is currently 3 weeks behind schedule. You take this information to the next project steering committee meeting where they advise they need more information on how much the project will end up costing. What will you do next?",
+    "options": {
+      "A": "Use the current budget with no deviations until it runs out.",
+      "B": "Use the project burndown chart to see the burn rate of accounting funds.",
+      "C": "Use regression analysis to see the current rate of spending and forecast where the final cost will end up.",
+      "D": "Use the project's estimate at completion (EAC) to show the steering committee the most likely final cost."
+    },
+    "correct_answer": "D",
+    "explanation": "This question is about budget forecasts. Regression analysis may work but the best answer is estimate at completion (EAC), which is the budget at completion divided by CPI (cost performance index — earned value divided by actual cost). EAC shows the steering committee the most likely final cost. Page 104 under Forecasts in the PMBOK Guide.",
+    "video_time": 11915
+  },
+  {
+    "number": 72,
+    "question": "You're working on an agile project where the project sponsor and executive managers require lengthy reports about the project work each week. This takes you and the project team a considerable amount of time to do and reduces time spent on creating the actual product. What will you do next?",
+    "options": {
+      "A": "Reuse most of the information each week so your time spent on reports is reduced.",
+      "B": "Suggest the leaders come to the Sprint review and gather any information they need from the information radiator.",
+      "C": "Ask your project sponsor to wait until a steering committee meeting for the information.",
+      "D": "Share your working project schedule and budget with the executives instead of creating the reports."
+    },
+    "correct_answer": "B",
+    "explanation": "Agile teams showcase actual work completed at the Sprint review. Information radiators, also known as big visible charts, are visible displays that allow anyone to pull information from them at any time — they are often low-tech and high-touch and contain information on work completed, remaining tasks, risks, kanban boards, and burndown charts. Page 108 under Information Radiators in the PMBOK Guide 7th edition.",
+    "video_time": 12068
+  },
+  {
+    "number": 73,
+    "question": "You're working on a project that has planned as much as they can up front and you would like them to move to a more agile way of working. Currently the work is hidden, the team catches up only once a week in a working group, and it's hard to see what each person is working on and to keep track of it. What will you do next?",
+    "options": {
+      "A": "Ask your team to report on their work in a written status update each day so you can keep track.",
+      "B": "Have more working group meetings so you're always up to date on what the team is working on.",
+      "C": "Ask the team to move their work to a central visible task board like a kanban board and then have a short meeting each day to discuss progress on their cards like a standup meeting.",
+      "D": "Remove team meetings altogether and trust your team to get the work done."
+    },
+    "correct_answer": "C",
+    "explanation": "This question is about standups and a kanban board. Task boards are part of the visual controls used where an increment of work moves from to-do to in-progress to done. The team meets for 15 minutes each day to discuss progress and raise any impediments (blockers) to their work. Page 109 Visual Controls / Task Boards in the PMBOK Guide.",
+    "video_time": 12248
+  },
+  {
+    "number": 74,
+    "question": "You're working on a hybrid project where the majority of the work has been planned up front. The team manages their work via a kanban board and reports on progress and blockers each day. As the project evolves, stakeholders have added more and more scope to the product, with one executive raising an urgent feature that needs to be added. What will you do next?",
+    "options": {
+      "A": "Limit the number of cards in ready or to-do and ask the product owner to work with stakeholder requests, noting the need to swap the new item for an existing item.",
+      "B": "Match the number of user stories to the team's velocity to ensure a sustainable pace.",
+      "C": "Work with the stakeholder to raise a change request and note the outcome in a change log.",
+      "D": "Review the impact of the scope change with the stakeholder using the work breakdown structure dictionary."
+    },
+    "correct_answer": "A",
+    "explanation": "As a hybrid project using kanban and some agile ceremonies, the most appropriate way to manage the work and scope is by using a work-in-progress (WIP) limit on the board. The product owner has the final say on prioritizing features and scope, and works with stakeholders to ensure they understand that something might be deprioritized when adding a new feature. Page 110 under Kanban Board in the PMBOK Guide 7th edition.",
+    "video_time": 12378
+  },
+  {
+    "number": 75,
+    "question": "You're working as a product owner in an agile team where the main measure of project success is the number of features delivered into production. Over the past 6 months, the team has delivered the highest number of features your organization has ever seen. However, customers are starting to complain about issues and bugs in the product. What will you do next?",
+    "options": {
+      "A": "Ask the team to work harder.",
+      "B": "Adjust the product metrics to include customer satisfaction and quality measures.",
+      "C": "Add a slack card of five points in the Sprint backlog to deal with the technical debt.",
+      "D": "Remove customer comments and feedback completely until you've finished delivering all the features."
+    },
+    "correct_answer": "B",
+    "explanation": "This is the Hawthorne Effect: what we measure influences the behavior of our team. In this case, measuring only the number of features caused the team to deliver features at the cost of quality and customer satisfaction. By adding measures for customer satisfaction and quality, that will balance out the team's behavior. Page 112 Measurement Pitfalls / Hawthorne Effect in the PMBOK Guide.",
+    "video_time": 12548
+  },
+  {
+    "number": 76,
+    "question": "You've been working on a project for the past 8 months. Your project team has been approached by multiple stakeholders for reporting on various performance measures about the project and the product area. A large amount of their time is now spent creating these reports for others, and they've escalated this issue to you. What will you do next?",
+    "options": {
+      "A": "Ask the project stakeholders to stop interacting with your team.",
+      "B": "Spend a portion of your project budget to automate the reports for your stakeholders.",
+      "C": "Work with the team including the stakeholders to only measure things that will facilitate a decision, help avoid an issue, or increase project performance.",
+      "D": "Invite your stakeholders to your Sprint reviews so they can see a working feature in practice."
+    },
+    "correct_answer": "C",
+    "explanation": "The intent in measuring and displaying data is to learn and improve and to optimize project performance and efficiency. Only measure and report information that will allow the project team to learn, facilitate a decision, improve some aspect of performance, help avoid an issue, or help prevent performance deterioration in the future. Page 114 under Growing and Improving in the PMBOK Guide.",
+    "video_time": 12773
+  },
+  {
+    "number": 77,
+    "question": "You're working on a project where there is a significant amount of uncertainty about the requirements. There is also a legislative change coming and no one knows what it will mean for your industry. As a project manager, how do you deal with this uncertainty?",
+    "options": {
+      "A": "Perform additional planning for your project to improve your view on scope management.",
+      "B": "Hold additional retrospectives to capture challenges and improvements from your team.",
+      "C": "Create a risk assessment of all possible project risks with their risk ratings and owners.",
+      "D": "Gather information and prepare for multiple outcomes, and build team resilience through processes and training."
+    },
+    "correct_answer": "D",
+    "explanation": "This question is about general uncertainty and risk. Uncertainty cannot be predicted precisely, and methods for responding to uncertainty include gathering information, preparing for multiple outcomes, using set-based design (e.g., prototypes), and building in resilience for the team. Page 118 under General Uncertainty in the PMBOK Guide 7th edition.",
+    "video_time": 12939
+  },
+  {
+    "number": 78,
+    "question": "You're working on a project with a vendor where there is significant ambiguity involved and multiple options that the team could go with. Many outcomes are possible that have varying degrees of impact. To improve the situation, what will you do next?",
+    "options": {
+      "A": "Use experiments and prototypes and progressive elaboration to work your way through it.",
+      "B": "Ask your team for additional reporting around different options so you can make an informed decision.",
+      "C": "Add all the different options into your project scope so all your bases are covered.",
+      "D": "Work more closely with your senior users so they can inform you of the product requirements."
+    },
+    "correct_answer": "A",
+    "explanation": "This question is on ambiguity. There are two types of ambiguity: conceptual (something is hard to understand) and situational (there are multiple options and outcomes). Use progressive elaboration, experiments, and prototypes to work through the ambiguity — deliver a prototype, get feedback, adjust, and iterate. Page 120 under Ambiguity in the PMBOK Guide.",
+    "video_time": 13111
+  },
+  {
+    "number": 79,
+    "question": "You're working on a project to improve some software that has been in production for over 17 years and has been modified extensively over that time. It also integrates with many other systems within your organization. You cannot decide which features to deliver first. How will you deal with the complexity?",
+    "options": {
+      "A": "List out the possible features you can deliver and prioritize them by cost over benefit.",
+      "B": "Simulate decoupling connecting parts to simplify the number of variables.",
+      "C": "Reframe your view by brainstorming with a diverse set of stakeholders.",
+      "D": "Provide an incentive for your project team for whoever can solve this complex problem.",
+      "E": "Form a business case for a third-party system to replace the existing complex system to transfer risk of delivery."
+    },
+    "correct_answer": "B",
+    "explanation": "This question is on complexity. Methods for dealing with complexity include systems-based decoupling and simulation, reframing by getting diversity and balanced views, process-based approaches (iterating forward, engaging stakeholders), and using error-proofing or fail-safe measures. Page 121 under Complexity in the PMBOK Guide.",
+    "video_time": 13288
+  },
+  {
+    "number": 80,
+    "question": "You're working on a project that requires a very particular programming skill set that is not very common. It's also the hottest job market the industry has seen in two decades, so people are hard to come by and they leave often. The programming language is also evolving at a quick pace. What will you do next?",
+    "options": {
+      "A": "Develop the product from scratch in a more common programming language.",
+      "B": "Ask your whole team to learn the programming skill set to cover the risk.",
+      "C": "Use alternatives analysis to gather different options and ensure a sufficient cost reserve to help complete your project.",
+      "D": "Raise a risk to your project completion with the threat of project team member skill sets."
+    },
+    "correct_answer": "C",
+    "explanation": "This question is referring to volatility — an environment subject to rapid and unpredictable change, including ongoing fluctuations in available skill sets or materials. Alternatives analysis and cost reserves are ways to deal with volatility. Page 122 under Volatility in the PMBOK Guide 7th edition.",
+    "video_time": 13469
+  },
+  {
+    "number": 81,
+    "question": "Your project team have found a significant data vulnerability in one of the features planned in your product backlog where customer data is exposed without password access. This feature is partially made by a third party vendor and the relationship is owned by a functional manager in your organization. What will you do next?",
+    "options": {
+      "A": "Avoid the risk and wait for the third party vendor to fix the vulnerability.",
+      "B": "Transfer the risk by asking a different vendor to create a feature with no vulnerability in their design.",
+      "C": "Escalate the risk to the manager with the appropriate authority to act on the response.",
+      "D": "Accept the risk and move on to other features so the work continues to get done."
+    },
+    "correct_answer": "C",
+    "explanation": "With project risks and responses to threats there are five main types: avoiding, escalating, transferring, mitigating, and accepting. Escalation is appropriate when the project team agrees that the threat is outside the scope of the project or exceeds the project manager's authority. This is page 123 in the PMBOK Guide 7th edition under overall project risks and threats.",
+    "video_time": 13646
+  },
+  {
+    "number": 82,
+    "question": "You brainstorm risk responses with your project team and project sponsor and decide you cannot transfer a certain high impact risk. You also can't avoid the risk and there is no one in the organization to escalate it to. Your project sponsor agrees that you should actively accept the risk. What will you do next?",
+    "options": {
+      "A": "Develop a contingency plan that would be triggered if the event occurred.",
+      "B": "Shift the ownership to a third party to manage the risk and bear the impact if it does occur.",
+      "C": "Act to eliminate the threat or protect the project from its impact only.",
+      "D": "Take action to reduce the probability of its occurrence and the impact of the threat."
+    },
+    "correct_answer": "A",
+    "explanation": "This question describes the various risk responses to threats. Actively accepting a risk can include developing a contingency plan which would be triggered if the event occurred. Passive acceptance means just accepting it and doing nothing. Acting to eliminate the threat is avoiding it, and taking action to reduce the probability of occurrence or impact is mitigating. This is page 123 under risk threats in the PMBOK Guide 7th edition.",
+    "video_time": 13800
+  },
+  {
+    "number": 83,
+    "question": "You're working on a project to build a new customer database system for an engineering team. In working with the requirements you realize that this system can also work with other teams in your organization and the effort to add those teams is actually quite small. What will you do next?",
+    "options": {
+      "A": "Escalate the opportunity to work with the other teams and their managers.",
+      "B": "Exploit the opportunity to actively make sure that it happens.",
+      "C": "Enhance the opportunity by increasing the probability of its occurrence.",
+      "D": "Accept the opportunity and merely acknowledge that it exists."
+    },
+    "correct_answer": "B",
+    "explanation": "When dealing with opportunities in your project there are five main responses: exploit is acting to ensure an opportunity occurs; escalating is when it's outside the authority of the project manager; sharing allocates ownership to a third party best able to capture its benefit; enhancing is increasing the probability of its occurrence; and accepting merely acknowledges that it is existing without doing anything extra. This is page 125 under risks and opportunities in the PMBOK Guide 7th edition.",
+    "video_time": 13968
+  },
+  {
+    "number": 84,
+    "question": "You're working as a product owner in an agile team and during a recent risk review the team have uncovered various risks that will impact your project. You brainstorm risk responses with your team. The project customer would like them to be mitigated as soon as possible. What will you do next?",
+    "options": {
+      "A": "Ask your team to work on the risk responses and get them done as soon as possible.",
+      "B": "Ignore the risks initially as some might dissipate over time and only the important ones will be left.",
+      "C": "Assign the risk responses to all stakeholders around your project team to share the load.",
+      "D": "Prioritize the risks by comparing the expected monetary value of the risk to the anticipated return on investment."
+    },
+    "correct_answer": "D",
+    "explanation": "Prioritizing risk responses in a risk-adjusted backlog is just as important as prioritizing features to avoid negative risk impacts and technical damage. Comparing the expected monetary value of a risk to the anticipated return on investment of a deliverable allows product owners to incorporate risk responses into the planned work in a normal way. This information is from the PMBOK Guide 7th edition.",
+    "video_time": 14142
+  },
+  {
+    "number": 85,
+    "question": "You're planning a project where supply chains have been impacted and the requirements are complex and intertwined with other areas of the business. Your project sponsor asks you to manage these risks before the project moves to execution. What will you do next?",
+    "options": {
+      "A": "Move to project execution so you can work through risks as they happen.",
+      "B": "Move to an agile way of work so you can deliver faster and also deal with the complexity.",
+      "C": "Note the risks with appropriate controls and add a contingency reserve in the project budget.",
+      "D": "Assign a management reserve to deal with the risks before moving to project execution."
+    },
+    "correct_answer": "C",
+    "explanation": "Reserves are an amount of time or budget set aside to account for handling risks. Contingency reserve is for identified risks should they occur. Management reserve is for unknown events such as unplanned in-scope work. This is page 127 management and contingency reserve in the PMBOK Guide 7th edition.",
+    "video_time": 14323
+  },
+  {
+    "number": 86,
+    "question": "You're working on an agile project and delivering a usable feature every few weeks. The project sponsor is from a waterfall background and is concerned that there is not enough focus on risk. They would like to hold a regular risk review with a wide group of stakeholders. What will you suggest instead?",
+    "options": {
+      "A": "There is no need for a separate meeting as risk is everyone's responsibility in an agile team.",
+      "B": "Use daily standups to report blockers early and fortnightly demonstrations of the product to catch any stakeholder dissatisfaction.",
+      "C": "Use the kanban board to see the work and how it flows.",
+      "D": "Hold the risk meeting but only with the immediate project team to avoid unnecessary participants."
+    },
+    "correct_answer": "B",
+    "explanation": "In agile teams the risk review can take the form of the daily standup reporting blockers that could become threats if they continue to delay progress. Frequent demonstrations of the product can also surface threats and opportunities as can retrospectives. While quality is everyone's responsibility and the kanban board does visualize the work, B is the best answer. This is page 127 under risk review in the PMBOK Guide 7th edition.",
+    "video_time": 14458
+  },
+  {
+    "number": 87,
+    "question": "Your project management office has no prescribed way of work so they're working with a vendor who supplies an extreme programming framework at a significant cost. Projects are still running behind schedule, over budget, and with low customer satisfaction. What will you do next?",
+    "options": {
+      "A": "Tailor the approach to suit the organization operating environment and project needs.",
+      "B": "Use a waterfall approach instead to ensure the proper planning.",
+      "C": "Switch to Scrum instead as it's a more popular framework.",
+      "D": "Tighten the controls around the project environment with a more directive PMO approach."
+    },
+    "correct_answer": "A",
+    "explanation": "Projects operate in complex environments that need to balance competing demands. Tailoring is performed to better suit the organization operating environment and project needs. This is page 132 under tailoring overview in the PMBOK Guide 7th edition.",
+    "video_time": 14592
+  },
+  {
+    "number": 88,
+    "question": "Your project management office is in the middle of a company-wide ways of working transformation. They have taken a popular project framework and are tailoring it to the organization with branded templates and processes that meet their existing governance requirements. You've been asked to help finalize the process. What will you do next?",
+    "options": {
+      "A": "Gather feedback from the functional business areas to ensure the process meets their needs.",
+      "B": "Roll out the new way of working to the PMO as a pilot then to the rest of the organization.",
+      "C": "Enable a process for tailoring based on size and complexity and implement ongoing improvement.",
+      "D": "Form a working group comprised of executives and project professionals."
+    },
+    "correct_answer": "C",
+    "explanation": "This question is referring to the tailoring process which is: select the initial development approach, tailor for the organization, tailor for the project, and implement ongoing improvement. This is page 137 the tailoring process in the PMBOK Guide 7th edition.",
+    "video_time": 14727
+  },
+  {
+    "number": 89,
+    "question": "You're a manager of a PMO in a large organization which has recently undertaken a company-wide way of working transformation. You need to select an initial development approach for your project which you will then tailor further to suit them. What will you do next?",
+    "options": {
+      "A": "Use a framework that best engages your executive team through easy to use graphics and presentations.",
+      "B": "Select the most popular current framework to keep up with what other organizations are doing.",
+      "C": "Select multiple development approaches as a baseline for your organization.",
+      "D": "Use a suitability filter to assess the most appropriate development approach."
+    },
+    "correct_answer": "D",
+    "explanation": "A suitability filter helps project teams consider whether a project has characteristics that lend themselves towards a predictive, hybrid, or adaptive approach, then select one of them as a base and enable the ability to tailor to your project or organization's circumstances. This is page 138 select initial development approach in the PMBOK Guide 7th edition.",
+    "video_time": 14847
+  },
+  {
+    "number": 90,
+    "question": "Your organization is starting to move to an agile way of work and they're setting up a value delivery office (VDO) to complement the existing PMO. The executives in the area have begun working through what the function looks like and the roles and responsibilities that might exist. They approach you for help. What will you tell them?",
+    "options": {
+      "A": "A VDO is responsible for the value delivered and owns the programs within the organization.",
+      "B": "The VDO focuses on coaching project teams, building adaptive skills, growing capabilities, and mentoring sponsors and product owners to be more effective.",
+      "C": "The VDO is responsible for agile resources such as Scrum Masters and product owners to be allocated effectively to project teams.",
+      "D": "The VDO creates the organizational framework to be used on each project throughout the company."
+    },
+    "correct_answer": "B",
+    "explanation": "A VDO serves an enabling role rather than a management or oversight function. It focuses on coaching project teams, building adaptive skills and capabilities throughout the organization, and mentoring sponsors and product owners. This is page 141 tailor for the organization the value delivery office in the PMBOK Guide 7th edition.",
+    "video_time": 15023
+  },
+  {
+    "number": 91,
+    "question": "You've been planning a project for the last 2 months, gathering requirements in scope and assigning tasks to a schedule. As you get closer to the execution phase of your project, you decide what delivery approach you will use. The requirements are likely to change, require a medium amount of compliance, but can be released in one go. What will you do next?",
+    "options": {
+      "A": "Use a predictive delivery approach, planning everything up front and delivering in one go",
+      "B": "Use an incremental delivery approach, releasing increments of value over time",
+      "C": "Use an agile or adaptive delivery approach, gathering feedback and releasing incrementally",
+      "D": "Use an iterative delivery approach, gathering feedback and improving over time while delivering in one release"
+    },
+    "correct_answer": "D",
+    "explanation": "Gathering feedback and improving over time while delivering in one release is an iterative delivery approach. Incremental releases increments of value like features, predictive plans everything up front and delivers in one go, and agile gathers feedback and releases incrementally. Page 141 under tailor for your project product and deliverable in the PMBOK Guide 7th edition.",
+    "video_time": 15169
+  },
+  {
+    "number": 92,
+    "question": "You have been asked to make a process improvement in the accounting area for your organization. You have been assigned a small team of nine people, each with all the skills you need to complete the project. The team is collocated and has unlimited access to the project customer. How will you tailor your delivery approach?",
+    "options": {
+      "A": "Use a predictive delivery approach as lots of planning will be needed",
+      "B": "Use an agile or adaptive delivery approach as the team is small, collocated, cross-functional and has close access to the customer",
+      "C": "Use an incremental delivery approach to deliver features over time",
+      "D": "Use a hybrid delivery approach combining waterfall and agile"
+    },
+    "correct_answer": "B",
+    "explanation": "An agile or adaptive delivery approach works best when the team is small (fewer than 9 to 12 people), has close access to the customer, is cross-functional so everyone has the skills required, and is collocated in the same space. Predictive is best when lots of planning is needed, hybrid is best when two different approaches are needed, and incremental delivers features over time. Page 141 under tailor for the project team in the PMBOK Guide 7th edition.",
+    "video_time": 15300
+  },
+  {
+    "number": 93,
+    "question": "You have been working as a project manager in an organization for some time where an agile-centric delivery approach and way of work has been selected and tailored for the organization. Over the past few months you notice several things are not working and could be improved. As you begin new projects, what will you do next?",
+    "options": {
+      "A": "Review the product backlog to see the flow of features going through the teams",
+      "B": "Look into issues, threats and quality assurance statistics such as defects",
+      "C": "Suggest a retrospective with your PMO leaders to determine ongoing improvement opportunities, discussing what worked well and what did not",
+      "D": "Review a control chart and value stream map to see non-value-added activities and remove waste in the process"
+    },
+    "correct_answer": "C",
+    "explanation": "In an agile environment, holding a retrospective to identify what is working well and what is challenging or could be improved is the best way to find ongoing improvements, going directly to the source and asking for feedback and improving as a team. Page 151 tailoring diagnostics for agile teams in the PMBOK Guide 7th edition.",
+    "video_time": 15380
+  },
+  {
+    "number": 94,
+    "question": "You have been working on a project to deliver a new customer data system and have noticed that the work is starting to slow down — fewer user stories are appearing in your Sprint backlog as they are not ready. You hold a retrospective with your team and discover there are long delays waiting for requirements and acceptance criteria approvals. What will you do next?",
+    "options": {
+      "A": "Streamline approval decisions through fewer people such as a product owner authorized to make decisions up to certain value thresholds",
+      "B": "Ask your team to place the user stories in the Sprint backlog, reducing the need for customer approval",
+      "C": "Note the long delays as a risk to your project with a high likelihood as it is already happening",
+      "D": "Escalate the issue to the functional manager to ensure approvals are happening quickly"
+    },
+    "correct_answer": "A",
+    "explanation": "Where there are long delays or waiting for approvals, the tailoring suggestion is to streamline decisions through fewer people authorized to make decisions up to certain value thresholds. Page 151 common situations and tailoring suggestions in the PMBOK Guide 7th edition.",
+    "video_time": 15518
+  },
+  {
+    "number": 95,
+    "question": "You have been assigned to take over an existing project as the previous project manager leaves for another opportunity. In working with your team you notice there is a large amount of work currently in progress all at once, with team members working on multiple items at a time and constantly context switching between tasks. What will you do next?",
+    "options": {
+      "A": "Add more people to the project",
+      "B": "Use value stream mapping and Kanban boards to visualize the work and brainstorm solutions with your team",
+      "C": "Ask your team to work overtime to cover the extra work and bring it all back in line",
+      "D": "Review the scope of the project and reduce items with low impact to customer satisfaction"
+    },
+    "correct_answer": "B",
+    "explanation": "Where there is too much work in progress or high rates of scrap, it is recommended to use techniques like value stream mapping and Kanban boards to visualize the work, identify the issues, and propose solutions. Adding more people can also complicate communication and processes. Page 151 in the PMBOK Guide 7th edition under common situations and tailoring suggestions.",
+    "video_time": 15673
+  },
+  {
+    "number": 96,
+    "question": "The product owner has prioritized the product backlog of features and the team creates user stories with estimates and places enough of them to fill a 2-week Sprint. You notice that the pieces being completed are being rejected by the customer for defects and missed requirements. What will you do next?",
+    "options": {
+      "A": "Create the project scope from scratch with the project team and customers",
+      "B": "Have an iteration zero planning Sprint with your project team to set it up for success",
+      "C": "Add more feedback loops such as shoulder checks, peer review, unit testing and system testing",
+      "D": "Have less frequent customer demonstrations so they only see the product when it is correct"
+    },
+    "correct_answer": "C",
+    "explanation": "When a product is facing poor quality deliverables, the tailoring suggestion is to add more feedback loops or feedback verification loops and quality assurance steps, including demonstrations and reviews, peer review, shoulder checks, pair programming, quality audits, unit testing, system testing, user acceptance testing, regression testing and automated testing. Page 151 under common situations and tailoring suggestions in the PMBOK Guide 7th edition.",
+    "video_time": 15873
+  },
+  {
+    "number": 97,
+    "question": "Your project team has started to find their rhythm, yet you notice that they seem disengaged in their work and are dragging their feet on normal tasks. You check your project budget and note that the team are all paid fairly for the market and within the same range for the role. What will you do next?",
+    "options": {
+      "A": "Look for ways to reward the team members with bonuses above their normal pay rate",
+      "B": "Move team members around to different roles frequently so they experience job variety",
+      "C": "Give the team a paid day off",
+      "D": "Establish ways for the team to grow and advance"
+    },
+    "correct_answer": "D",
+    "explanation": "Frederick Herzberg's study of motivational factors found there are hygiene factors (company policies, salary, physical environment) and motivational factors. Once hygiene factors are sufficient, motivational factors such as achievement, growth and advancement provide satisfaction. Paying bonuses or a paid day off might seem like a good idea but will fade and not address the root cause of the engagement. Page 158 in the PMBOK Guide 7th edition, hygiene and motivational factors.",
+    "video_time": 16108
+  },
+  {
+    "number": 98,
+    "question": "You are working as a project manager on a regulatory change for your organization. You notice that the team are not communicating as well as they could be, and you put together a plan to improve team communication by increasing its effectiveness and richness. What will you do?",
+    "options": {
+      "A": "Include methods that will handle multiple information cues such as body language, voice, and words, facilitate rapid feedback, and utilize natural language",
+      "B": "Include methods to escalate issues quickly with executives being open for anything the team needs",
+      "C": "Include ways to get sign-off in writing so it can be recorded and reviewed later when needed",
+      "D": "Include communication that ensures everyone gets a voice and input into decisions"
+    },
+    "correct_answer": "A",
+    "explanation": "Alistair Cockburn developed a model that describes communication channels along the axes of effectiveness and richness. Media richness includes the ability to handle multiple information cues, rapid feedback, establish a personal focus, and utilize natural language — for example face-to-face communication with collocated teams. Page 157 under effectiveness of communication channels in the PMBOK Guide 7th edition.",
+    "video_time": 16361
+  },
+  {
+    "number": 99,
+    "question": "Your deliverables have been signed off by the product owner and they are ready to be released to the customer, which is the financial analytics team of your organization. The new system will be quite a change from their normal day-to-day work. The team already have the desire to use the new system. What will you do next?",
+    "options": {
+      "A": "Create a vision and explain the why so the team understands and agrees with the change",
+      "B": "Use training and education to show them the new processes and systems",
+      "C": "Give them unlimited hands-on practice so they can get used to the new system",
+      "D": "Include rewards, recognition, feedback and measurement once you have released it to them"
+    },
+    "correct_answer": "B",
+    "explanation": "The ADKAR model for change management covers Awareness, Desire, Knowledge, Ability and Reinforcement. Once people have the desire for change, the next step is knowledge, which includes training and education for the new processes and systems. Page 161 under the ADKAR model in the PMBOK Guide 7th edition.",
+    "video_time": 16520
+  },
+  {
+    "number": 100,
+    "question": "You are leading a large organizational change that affects more than a thousand people across multiple teams. You have engaged with the senior managers of that area, created a brief vision statement that summarizes the change, created a strategy to realize the vision, and communicated the vision throughout the change process. What will you do next?",
+    "options": {
+      "A": "Release multiple usable features to the affected teams so they can get used to it gradually",
+      "B": "Anchor the changes into corporate culture by telling success stories and recognizing people",
+      "C": "Address any obstacles to the change including outdated processes and people resistance",
+      "D": "Set goals for continued improvement on the change throughout the organization"
+    },
+    "correct_answer": "C",
+    "explanation": "John Kotter's eight-step process for leading change is: create urgency, form a powerful coalition, create a vision, communicate the vision, remove obstacles, create short-term wins, build on the change, and anchor the changes in corporate culture. After communicating the vision, the next step is removing obstacles. Page 162 under the eight-step process for leading change in the PMBOK Guide 7th edition.",
+    "video_time": 16630
+  },
+  {
+    "number": 101,
+    "question": "You are assessing the risk of future releases with your team. You have a clear set of requirements from your customer, however there are a range of possible correct solutions. There are a range of known unknowns. How are you going to approach this situation?",
+    "options": {
+      "A": "Use current best practices to make a decision.",
+      "B": "Assess the facts, analyze the situation, and apply known good practices.",
+      "C": "Use emergent practices that will allow you to probe the environment, sense the situation, and respond with action.",
+      "D": "Sense where there is some stability and take steps to try and stabilize the situation."
+    },
+    "correct_answer": "B",
+    "explanation": "The Cynefin framework describes complicated relationships when there is a set of known unknowns or a range of correct answers. In complicated situations it is best to assess the facts, analyze the situation, and apply good practices. Complex situations (unknown unknowns) call for probing the environment, and chaotic situations require stabilization first.",
+    "video_time": 16792
+  },
+  {
+    "number": 102,
+    "question": "You've been asked to initiate a project to deliver a new system. The requirements are not clear and it will take some time to uncover them. The system has been used by some team members but not all, and it has a medium level of uncertainty around it. How are you going to approach this project?",
+    "options": {
+      "A": "Release small usable features and improve your approach based on feedback.",
+      "B": "Do additional planning up front to ensure every component is thought of.",
+      "C": "Split the team into two and work on different parts of the system to simplify it.",
+      "D": "Form a business case for starting from scratch with new easier-to-use technology."
+    },
+    "correct_answer": "A",
+    "explanation": "The Stacey Matrix looks at two dimensions to determine complexity: uncertainty in the requirements and uncertainty in the technology. Agile methodologies work best in complicated and complex environments. Releasing small usable features allows the team to work through uncertainty iteratively. Page 165 under Stacey Matrix in the PMBOK Guide 7th Edition.",
+    "video_time": 16968
+  },
+  {
+    "number": 103,
+    "question": "Your project team came together from different parts of the organization and were introduced formally to each other. You notice that there is some conflict in the team — some people don't respect others' decisions and are not working together well, and there are some personality clashes within the team. What are you going to do next?",
+    "options": {
+      "A": "Help team members get to know each other and learn their names.",
+      "B": "Help the team understand their roles and responsibilities and form a regular rhythm of meetings, collaboration, and work.",
+      "C": "Help the team jockey for position within the team and foster healthy conflict.",
+      "D": "Help the team complete project work and disperse onto other things."
+    },
+    "correct_answer": "B",
+    "explanation": "This scenario describes the five stages of team development from the Tuckman Ladder. When there is conflict and difficulty working together the team is in the storming stage. We should help them understand their roles and responsibilities and find a regular rhythm so they can move to the norming stage. Page 166 under Tuckman Ladder in the PMBOK Guide 7th Edition.",
+    "video_time": 17104
+  },
+  {
+    "number": 104,
+    "question": "You have formed a new project team and have worked through the purpose and mission of the project with them. You expanded on who is on the project team and the skills and abilities each person brings. You would like to foster a high-performing culture and ensure the team is able to deliver as soon as possible. What are you going to do next?",
+    "options": {
+      "A": "Work through changes on the project team and the project such as deliverables and stakeholders.",
+      "B": "Decompose the high-level plan into greater detail including a detailed schedule or backlog.",
+      "C": "Define a plan to achieve the project goals including milestone schedules, release plans, and high-level budgets.",
+      "D": "Clarify the goals of the team and what you are here to deliver."
+    },
+    "correct_answer": "D",
+    "explanation": "This question refers to the Drexler-Sibbet Team Performance Model. The steps include orientation, trust building, goal clarification, commitment, implementation, high performance, and renewal. After trust building comes goal clarification, so clarifying the goals and what the team is here to deliver is the next step. Page 167 under Drexler-Sibbet Team Performance Model in the PMBOK Guide 7th Edition.",
+    "video_time": 17227
+  },
+  {
+    "number": 105,
+    "question": "Your team members have raised an issue as they believe the current project scope will not reach the intended project goal of increasing customer retention. You take their concerns to the project sponsor who controls the funding and resources. The sponsor dismisses them and directs you to proceed with the scope currently set. What will you do next?",
+    "options": {
+      "A": "Problem solve with the sponsor and find a resolution.",
+      "B": "Compromise with the sponsor so each party gets a little bit of what they want.",
+      "C": "Accommodate the sponsor to maintain harmony and goodwill.",
+      "D": "Force the issue so that the sponsor accepts the change."
+    },
+    "correct_answer": "C",
+    "explanation": "Ken Thomas and Ralph Kilmann describe six ways to address conflict depending on the relative power between individuals: confronting/problem solving, collaborating, compromising, accommodating, forcing, and withdrawing. Since the sponsor has significant power and there is a desire to maintain a good relationship, adopting an accommodating posture is appropriate in this scenario. Page 168-169 under the conflict model in the PMBOK Guide 7th Edition.",
+    "video_time": 17370
+  },
+  {
+    "number": 106,
+    "question": "The functional manager raises a concern that they have not been engaged correctly and the program is missing some key requirements as a result. You believe you've captured all the items required. Your program manager asks you to handle the situation and approach it from a win-win perspective. What will you do next?",
+    "options": {
+      "A": "Escalate the decision to the steering committee to ensure your point of view is heard.",
+      "B": "Demonstrate integrity, find mutual trust, and look at the situation from their point of view.",
+      "C": "Choose to give some leeway in your approach so the functional manager can add their requirements.",
+      "D": "Get your requirements baselined first and then compete with the manager to ensure a win."
+    },
+    "correct_answer": "B",
+    "explanation": "Steven Covey's approach from The Seven Habits of Highly Effective People describes the win-win outcome. A win-win approach is found when there is mature character, trust, and the ability to approach it from the other's point of view. Page 169 under negotiation in the PMBOK Guide 7th Edition.",
+    "video_time": 17589
+  },
+  {
+    "number": 107,
+    "question": "You have been planning a project to deliver a process change for the past four weeks. The requirements and scope have been signed off by the business owner and the team are moving into delivery and execution. The work begins in line with the project plan and scope. What will you do next?",
+    "options": {
+      "A": "Monitor and control the project work.",
+      "B": "Execute the project work.",
+      "C": "Plan the work.",
+      "D": "Formally sign off the project."
+    },
+    "correct_answer": "A",
+    "explanation": "The project management process groups are initiating, planning, executing, monitoring and controlling, and closing. As project work is executed it then needs to be monitored and controlled to ensure it stays on track and meets its goals. Page 170 under process groups in the PMBOK Guide 7th Edition.",
+    "video_time": 17745
+  },
+  {
+    "number": 108,
+    "question": "You are working as a product owner. While your sales and revenue have been increasing over the past eight months, the overall profit has decreased by 17%. Your executive manager asks you to address the situation. What are you going to do next?",
+    "options": {
+      "A": "Stop the current work and set a planning session with your team to address the situation.",
+      "B": "Ask your team to work overtime on the current features in your backlog to get the work done.",
+      "C": "Perform benchmarking with a similar yet non-competitive company and add any process improvements to your product backlog.",
+      "D": "Look for opportunities to partner with other products in your organization and increase your sales further."
+    },
+    "correct_answer": "C",
+    "explanation": "As a product owner your responsibility is to increase users, sales, revenue, and profit for your product. If profit is decreasing while sales revenue is increasing, the product is costing more to produce or sell. Performing benchmarking to find gaps in your process and then executing improvements will help address the root cause. Page 175 under data gathering and analysis: benchmarking in the PMBOK Guide 7th Edition.",
+    "video_time": 17861
+  },
+  {
+    "number": 109,
+    "question": "You have been given authority to manage the upcoming features your team will release. You do not have a high enough level of expertise in the product, so you gather senior users from the product's area to create a features list. Each stakeholder wants their feature to be delivered first. How will you prioritize them and move forward?",
+    "options": {
+      "A": "Go with the features wanted by the top-level executives first to avoid issues later on.",
+      "B": "Perform MoSCoW analysis with the stakeholders.",
+      "C": "Perform a root cause analysis and go with the features that address the root cause.",
+      "D": "Use a cost-benefit analysis and compare the time needed to recover the project cost."
+    },
+    "correct_answer": "D",
+    "explanation": "Cost-to-benefit and payback period (time to recover an investment) are the best accepted ways to prioritize business value. Root cause analysis is better for specific problems, and performing MoSCoW with stakeholders may result in each of them wanting their feature to be 'must have'. Page 175 under business justification analysis methods in the PMBOK Guide 7th Edition.",
+    "video_time": 18062
+  },
+  {
+    "number": 110,
+    "question": "You're creating a business case and a project charter with a small initial project team. You have a high-level feature decomposed into smaller release milestones and you'd like to note a high-level schedule using wideband Delphi or a high-level version of planning poker. What are you going to do next?",
+    "options": {
+      "A": "Hold a round of cards with points on them where each team member places their cards in the center for the total estimate.",
+      "B": "Ask subject matter experts to complete multiple rounds of estimates individually, compare and explain the highest and lowest estimates for each round.",
+      "C": "Show the wideband high-level range from the lowest to highest for each feature.",
+      "D": "Find the business functionality for each feature and estimate the effort based on that."
+    },
+    "correct_answer": "B",
+    "explanation": "The wideband Delphi technique asks subject matter experts to complete multiple rounds of estimates individually, then compare and explain the highest and lowest estimates for each round until estimates converge. Planning poker is a variation of wideband Delphi. Page 178 under estimating: wideband Delphi in the PMBOK Guide 7th Edition.",
+    "video_time": 18284
+  },
+  {
+    "number": 111,
+    "question": "You have been asked to help facilitate a senior planning meeting in your organization. High-level executives have made a presentation on the strengths and opportunities of the organization, painting a rosy picture. Revenue has fallen recently and the chief executive asks you to level out their analysis with a more complete view. What will you do next?",
+    "options": {
+      "A": "Add your organization's competitors and compare their products",
+      "B": "Showcase the pipeline of upcoming work to be delivered in the next quarter",
+      "C": "Add the background and abilities of the executive team that will allow the organization to deliver",
+      "D": "Brainstorm and capture the weaknesses of the organization and threats to the organization"
+    },
+    "correct_answer": "D",
+    "explanation": "This question refers to SWOT analysis — strengths, weaknesses, opportunities, and threats. Once strengths and opportunities have been captured, a complete picture also involves the weaknesses and threats. Page 175 under SWOT analysis in the PMBOK Guide 7th edition.",
+    "video_time": 18439
+  },
+  {
+    "number": 112,
+    "question": "You are adding an essential feature to your product road map. Your team believes they can complete the feature in 6 weeks. However, the feature is quite large and a bit more complicated than normal. One of your lead developers says they worked on a similar feature in another company and it took around 4 months to complete. What will you do next?",
+    "options": {
+      "A": "Use relative estimating",
+      "B": "Use analogous estimating",
+      "C": "Use parametric estimating",
+      "D": "Use function point estimating to show the amount of business functionality in the feature"
+    },
+    "correct_answer": "B",
+    "explanation": "When the effort on a feature or deliverable needs to be estimated and there are people who have experience delivering a similar item, you can use analogous estimating — it is an analogy to something similar — to estimate the effort quickly and with a medium level of accuracy. Page 178 under analogous estimating in the PMBOK Guide 7th edition.",
+    "video_time": 18558
+  },
+  {
+    "number": 113,
+    "question": "You have a prioritized backlog of features. You have decomposed the next feature to be delivered into user stories to complete a Sprint of two weeks. The team would like to estimate the effort involved on those user stories but are unsure on how to proceed. What will you do next?",
+    "options": {
+      "A": "Ask each team member to add their own estimates as they complete the acceptance criteria",
+      "B": "Estimate the effort for the overall feature and reduce the need for individual story estimates",
+      "C": "Help the team perform relative estimating",
+      "D": "Base the estimates on cost per hour and add them after the work is done to ensure accuracy"
+    },
+    "correct_answer": "C",
+    "explanation": "Relative estimating is the most common method for user stories, where they are sized in comparison to the smallest piece, often in story points and often on a Fibonacci scale. Page 178 under relative estimating in the PMBOK Guide 7th edition.",
+    "video_time": 18717
+  },
+  {
+    "number": 114,
+    "question": "You are halfway through your current Sprint of 2 weeks. The work is progressing well, however you notice that there is not enough work ready and elaborated for when the next Sprint begins. What will you do next?",
+    "options": {
+      "A": "Hold a backlog refinement meeting and work with the team to identify the work that could be accomplished",
+      "B": "Raise the issue as a blocker in the daily standup and ask your team to swarm around the problem",
+      "C": "Raise the issue in the next retrospective and take an action for the team",
+      "D": "Place the cards on the Kanban board so the team can see the work and get started"
+    },
+    "correct_answer": "A",
+    "explanation": "At a backlog refinement meeting, the backlog is progressively elaborated and reprioritized to identify the work that can be accomplished in an upcoming iteration. Page 179, meetings and events, backlog refinement in the PMBOK Guide 7th edition.",
+    "video_time": 18895
+  },
+  {
+    "number": 115,
+    "question": "You have completed a make or buy analysis in your project and found that part of your deliverable is best created by an external vendor. You work with your project team to create the procurement strategy, source selection criteria, and statement of work. What will you do next?",
+    "options": {
+      "A": "Gather the seller proposals including technical details and price",
+      "B": "Meet with prospective sellers to ensure all vendors have a common understanding of the procurement",
+      "C": "Perform source selection analysis on what you want from prospective vendors",
+      "D": "Create the procurement agreement for the third party vendor to provide their specified services"
+    },
+    "correct_answer": "B",
+    "explanation": "A bidder conference is a meeting with prospective sellers prior to the preparation of a bid or proposal to ensure all prospective bidders have a clear and common understanding of the procurement. This meeting may also be known as contractor conferences, vendor conferences, or pre-bid conferences. Page 179 under bidder conference in the PMBOK Guide 7th edition.",
+    "video_time": 19031
+  },
+  {
+    "number": 116,
+    "question": "One of the stakeholders in your project has raised a change request after some of the deliverables contained defects and a missed requirement. Your project has a formal change control process as opposed to a more agile prioritized product backlog. What will you do next?",
+    "options": {
+      "A": "Gather feedback from other stakeholders to see if they also need the change",
+      "B": "Note the change in the change log and place the requested item in the next Sprint",
+      "C": "Take it to the Change Control Board, then communicate the decision to approve or reject the change",
+      "D": "Raise the request as an issue that will affect your project schedule and budget"
+    },
+    "correct_answer": "C",
+    "explanation": "Where formal change control processes are in place, a Change Control Board includes the people who are accountable for reviewing, approving, or rejecting changes to the project. The decisions made at this meeting are recorded and communicated to the appropriate stakeholders. Page 179 under Change Control Board in the PMBOK Guide 7th edition.",
+    "video_time": 19180
+  },
+  {
+    "number": 117,
+    "question": "Your agile project has recently gained some new stakeholders after a department restructure. They complain to you that they are not seeing enough traction of work delivered through the project and they are worried that it will not meet their requirements. What will you do next?",
+    "options": {
+      "A": "Invite them to the daily standup so they can see the work that happens on a daily basis",
+      "B": "Invite them to iteration planning so they can choose what the team works on",
+      "C": "Invite them to the retrospective so they can raise their issue there and come up with a solution",
+      "D": "Invite them to the iteration review so they can see the usable increment that the team delivers"
+    },
+    "correct_answer": "D",
+    "explanation": "The iteration or Sprint review is held at the end of an iteration, usually of 2 weeks, to demonstrate the work that was accomplished during the iteration to the project customers and stakeholders. Page 179 under iteration review in the PMBOK Guide 7th edition.",
+    "video_time": 19298
+  },
+  {
+    "number": 118,
+    "question": "You have recently taken over a project. Your project team approached you to say that there is a regulatory approval that has not been granted yet and it might block development of your project in the next 5 months. You check your project documentation but cannot see any mention of this. What will you do next?",
+    "options": {
+      "A": "Hold a risk review meeting, capture it as a risk, and ensure an adequate risk response",
+      "B": "Hold a retrospective with your team to capture what challenges the team are facing",
+      "C": "Adjust your product road map to reflect the changes to the time frame of that deliverable",
+      "D": "Escalate the regulatory approval to the project steering committee"
+    },
+    "correct_answer": "A",
+    "explanation": "A risk review is a meeting to analyze the status of existing risks and to identify new risks, including changes to probability, impact, or urgency, and determining if responses are adequate. Page 180 under risk review in the PMBOK Guide 7th edition.",
+    "video_time": 19454
+  },
+  {
+    "number": 119,
+    "question": "You are an agile project manager holding daily standups with your team. You notice people accusing other team members of not doing their job and there are some tasks that are not mentioned anywhere and no one is responsible for. The team velocity has slowed in the last three Sprints. What will you do next?",
+    "options": {
+      "A": "Refer to the team charter and the team roles and agreed ways of managing conflict",
+      "B": "Raise it as an issue in the next retrospective and come to a solution with the team",
+      "C": "Assign team roles to those you think are best suited",
+      "D": "Work with your team to size user stories correctly so velocity improves"
+    },
+    "correct_answer": "B",
+    "explanation": "A retrospective is a regularly occurring workshop similar to a lessons learned meeting where the team explore their work in order to improve their process and the product. If information is not captured anywhere, the agile approach is to problem solve with the team in a retrospective. Page 180 under retrospective in the PMBOK Guide 7th edition.",
+    "video_time": 19601
+  },
+  {
+    "number": 120,
+    "question": "You are managing a large construction project. Due to some delays, the project schedule has been pushed back by one week. As a result, one of the project risks has increased slightly but is still within the acceptable limits. What will you do next?",
+    "options": {
+      "A": "Hold a risk review and update the risk response and owners",
+      "B": "Raise a change request for the change to the project schedule",
+      "C": "Capture the change in your project reporting and take it to the next status meeting",
+      "D": "Update the Sprint backlog to reflect the delayed work"
+    },
+    "correct_answer": "C",
+    "explanation": "A status meeting is a regularly scheduled event to exchange and analyze information about the current progress of the project and its performance. Since the risk is still within acceptable limits, communicating the schedule change to stakeholders via the status meeting is the appropriate step. Page 180 under status meeting in the PMBOK Guide 7th edition.",
+    "video_time": 19758
+  },
+  {
+    "number": 121,
+    "question": "You are an agile project manager and your team have delivered three features to improve a customer app over the last 3 months. Your product owner needs to know if the features are having the desired effect. It is a large organization and there are multiple measures available. What will you do next?",
+    "options": {
+      "A": "Ask them to gather the team velocity and throughput over the past 3 months.",
+      "B": "Ask them to gather the cost benefit ratio over the past 6 months.",
+      "C": "Ask them to gather the NPS (net promoter score) over the past 6 months.",
+      "D": "Ask them to gather the average app availability and uptime."
+    },
+    "correct_answer": "C",
+    "explanation": "A product owner prioritizes features to improve usability and profitability of a product. The net promoter score measures the willingness of customers to recommend a product or service to others and is used to gauge overall customer satisfaction and loyalty to the brand or product. Page 181, net promoter score, in the PMBOK Guide 7th edition.",
+    "video_time": 19907
+  },
+  {
+    "number": 122,
+    "question": "You are a project manager in an agile team developing new features for an app. An executive stakeholder with high influence in the organization approaches you and asks you to add a feature that they like. They asked their friends and their friends think it is a good idea as well. What will you do next?",
+    "options": {
+      "A": "Place the feature in the product backlog and prioritize it using cost versus benefit.",
+      "B": "Raise a change request to add the new feature into the scope baseline.",
+      "C": "Gather the requirements for the new feature and ask your team to elaborate on it.",
+      "D": "Analyze the impact to your project schedule and cost and add the feature to your project scope."
+    },
+    "correct_answer": "A",
+    "explanation": "In agile we have a product backlog that we prioritize. Prioritization schemas are methods used to prioritize portfolio, program, or project components such as features, requirements, or even risks. Examples include multicriteria decision matrices, MoSCoW (must have, should have, could have, won't have), cost to benefit, and more. Page 181, prioritization schema, in the PMBOK Guide 7th edition.",
+    "video_time": 20070
+  },
+  {
+    "number": 123,
+    "question": "Your project team are gathering solution ideas for a particular customer requirement which is prioritized to be worked on next. The item is complicated and they have been trying to find a way forward for the past 3 weeks. There is not enough work for the upcoming Sprint. What will you do next?",
+    "options": {
+      "A": "Start work on the item in the next Sprint anyway and elaborate as the Sprint begins.",
+      "B": "Arrange the right people to elaborate the issue with a spike, close in person, place and time, and time-box it to two days.",
+      "C": "Deprioritize the item until the team can figure out the issue.",
+      "D": "Adjust the project schedule to reflect the extra time taken on elaboration."
+    },
+    "correct_answer": "B",
+    "explanation": "A spike is a short dedicated user story to research or analyze something. A time box is a short fixed period of time in which work is to be completed, often a few days to a few weeks. Page 181, time box, in the PMBOK Guide 7th edition.",
+    "video_time": 20247
+  },
+  {
+    "number": 124,
+    "question": "Your project team have planned the requirements, scope, schedule, and cost for constructing a new building in your organization. An executive from another area approaches you as your project is funded and about to begin execution, and asks if you can help them deliver a website as part of your work. What will you do next?",
+    "options": {
+      "A": "Raise the request as an issue in your project's issue log.",
+      "B": "Add the website to your project scope and adjust your project schedule and cost.",
+      "C": "Raise a change request for the added scope and review the impact to your project schedule and cost.",
+      "D": "Offer to help them create a business case for the new idea and get funding for a new project."
+    },
+    "correct_answer": "D",
+    "explanation": "The scope and team required to build a website is very different from a physical building; a new project with its own funding is the best option. A business case is a value proposition for a proposed project that might include financial and non-financial benefits; it typically precedes a project charter and a formal project approval and kickoff. Page 184, business case, in the PMBOK Guide 7th edition.",
+    "video_time": 20423
+  },
+  {
+    "number": 125,
+    "question": "You are working on an agile project and you are planning your product backlog for the next 3 to 6 months. You have some high-level features or feature ideas from various parts of your organization, from frontline staff to executives to direct customer research as well. What will you do next?",
+    "options": {
+      "A": "Break down each feature into epics and use the stories, then size the work with your team.",
+      "B": "Add all of the items into your product backlog and work on the ones from the managers first.",
+      "C": "Work with the requesters and your technical experts to create a business model canvas for each feature.",
+      "D": "Perform precedence diagramming on each feature to determine their dependencies."
+    },
+    "correct_answer": "C",
+    "explanation": "The business model canvas is a one-page visual summary that describes the value proposition, the infrastructure, customers, and finances. They are often used in lean startup situations and can feed into prioritization of the product backlog. Page 184, business model canvas, in the PMBOK Guide 7th edition.",
+    "video_time": 20566
+  },
+  {
+    "number": 126,
+    "question": "You are working in a new agile team where the work has started to slow and there is uncertainty and low team engagement. You set time to create a team charter with your team, agree on roles and responsibilities, and team cadence. What will you do next?",
+    "options": {
+      "A": "Set a team goal for them to be more engaged in the work over the next 3 months.",
+      "B": "Create a product vision statement showing the value you are bringing and the why behind the work.",
+      "C": "Ask the team to contribute more to all pieces of work during each team meeting.",
+      "D": "Raise it as a people issue for your project and manage it with the project steering committee."
+    },
+    "correct_answer": "B",
+    "explanation": "The project vision statement is a concise high-level description of the project that states the purpose and inspires the team to contribute to the project. Page 184, project vision statement, in the PMBOK Guide 7th edition.",
+    "video_time": 20760
+  },
+  {
+    "number": 127,
+    "question": "You are integrating a third-party system as part of your project. The developers in your project team have not worked on this system before but they believe the language and layout is the same and they should be able to implement it. Adding a bit of time for the uncertainty, they give a high-level estimate of 5 weeks. What will you do next?",
+    "options": {
+      "A": "Note the estimate of 5 weeks and update the assumption log with the technical assumption that the languages and layout is the same.",
+      "B": "Don't add the estimate; break down the integration into user stories and use a bottom-up approach.",
+      "C": "Check the estimate using parametric estimating to increase its accuracy.",
+      "D": "Gather your whole team and customers together and estimate using wideband Delphi or planning poker."
+    },
+    "correct_answer": "A",
+    "explanation": "An assumption is a factor that is considered to be true, real, or certain without proof or demonstration. A constraint is a factor that limits the options for managing a project. An assumption log records all assumptions and constraints throughout the project. Page 185, assumption log, in the PMBOK Guide 7th edition.",
+    "video_time": 20881
+  },
+  {
+    "number": 128,
+    "question": "Your agile project has delivered three features so far and is halfway through delivering the latest improvement. During a brainstorming session, one of your customers comes up with a new feature idea. You check and the benefit is high and the complexity is also low. What will you do next?",
+    "options": {
+      "A": "Add money to your budget to accommodate the additional feature as soon as possible.",
+      "B": "Elaborate on the feature, break it down into user stories, and estimate them.",
+      "C": "Place the item in the backlog and reprioritize it to be next.",
+      "D": "Create a business case for the new feature outlining the benefit and costs involved."
+    },
+    "correct_answer": "C",
+    "explanation": "A backlog is an ordered list of work to be done. Projects may have a product backlog, a requirement backlog, an impediment backlog, and many other things. Items in a backlog are prioritized and prioritized work is scheduled for upcoming iterations or sprints. Page 185, logs and registers — backlog, in the PMBOK Guide 7th edition.",
+    "video_time": 21060
+  },
+  {
+    "number": 129,
+    "question": "One of the senior users testing your product has found that it was missing a key requirement that he had assumed would be there. It was not noted in the project scope, which has been baselined already. You check the impact to cost and schedule, raise a change request on his behalf, and take it to the Change Control Board where it is approved. What will you do next?",
+    "options": {
+      "A": "Ask your team to elaborate and turn the requirement into user stories.",
+      "B": "Place the new requirement into the Sprint backlog for the next Sprint.",
+      "C": "Add the missed requirement to the issue log and problem-solve with your team to ensure it does not happen again in the future.",
+      "D": "Note the outcome in the change log and communicate it to your stakeholders."
+    },
+    "correct_answer": "D",
+    "explanation": "A change log is a comprehensive list of changes submitted during the project and their current status. A change can be a modification to any formally controlled deliverable, baseline document, project management plan, or project document. Once approved by the Change Control Board, the first best next step is to note the outcome in the change log and communicate it to affected stakeholders. Page 185, logs and registers — change log, in the PMBOK Guide 7th edition.",
+    "video_time": 21211
+  },
+  {
+    "number": 130,
+    "question": "You are working on a hybrid project to replace an aging customer system that has just had a feature upgrade release. The senior developer raises a concern during the daily standup that the system doesn't seem to be able to connect to some parts of the organization after the upgrade. What will you do next?",
+    "options": {
+      "A": "Replan the project to ensure the correct scope is worked on that will connect to the organization.",
+      "B": "Raise it in the issue log, assign it to a responsible party, and work with them to find a resolution.",
+      "C": "Raise the concern as a risk and brainstorm risk responses.",
+      "D": "Escalate the issue to the technical managers so they can resolve it."
+    },
+    "correct_answer": "B",
+    "explanation": "An issue is a current condition or situation that may have an impact on the project objectives. An issue log is used to record and monitor information on active issues; issues are assigned to a responsible party for follow-up and resolution. Since this has already happened it is an issue, not a risk. Page 185, logs and registers — issue log, in the PMBOK Guide 7th edition.",
+    "video_time": 21367
+  },
+  {
+    "number": 131,
+    "question": "You are working on an agile project where your project team have raised multiple risks to project delivery. Some of these risks may impact your cost and schedule significantly. Your program manager asks you to manage them using a risk adjusted backlog. What will you do next?",
+    "options": {
+      "A": "Adjust your risk register to include the work not completed if the risks are triggered.",
+      "B": "Adjust your backlog velocity so that your end date is not impacted by the raised risks.",
+      "C": "Gather risk mitigation responses from your retrospectives and assign them to an owner.",
+      "D": "Place at least one risk response in each Sprint in an agile project to manage and close."
+    },
+    "correct_answer": "D",
+    "explanation": "A risk adjusted backlog is a backlog that includes work and actions to address threats and opportunities. Risk responses are placed into the backlog, prioritized alongside other work, and assigned to Sprints to be worked on and closed. Page 185, risk adjusted backlog, PMBOK Guide 7th Edition.",
+    "video_time": 21519
+  },
+  {
+    "number": 132,
+    "question": "You are delivering a project to a functional area in your organization. The project is highly complex and there are many risks to project delivery. The functional manager would like to see the biggest risks that are assigned to her. What will you do next?",
+    "options": {
+      "A": "Show the risk adjusted backlog.",
+      "B": "Show the risk register.",
+      "C": "Show the risk management plan.",
+      "D": "Show her the qualitative risk assessment."
+    },
+    "correct_answer": "B",
+    "explanation": "A risk register is a repository in which outputs of risk management processes are recorded, including the person responsible for managing each risk, the probability and impact, planned risk responses, and more. Page 185, risk register, PMBOK Guide 7th Edition.",
+    "video_time": 21648
+  },
+  {
+    "number": 133,
+    "question": "Your project has been in progress for the past 6 months. Someone you have not met before approaches you and says they have not been engaged sufficiently, even though he believes his team is highly impacted by the change. He advises he may block the project as a result. What are you going to do next?",
+    "options": {
+      "A": "Perform a stakeholder engagement assessment with your stakeholder.",
+      "B": "Add him to the stakeholder register including his salary and interest information.",
+      "C": "Add him to the stakeholder register including his impact and influence information.",
+      "D": "Raise a risk to the project delivery due to the nature of his actions."
+    },
+    "correct_answer": "C",
+    "explanation": "A stakeholder register records information about project stakeholders, including an assessment and classification of stakeholders. Ensuring his details and position are recorded before taking further action is the most appropriate step. Page 185, stakeholder register, PMBOK Guide 7th Edition.",
+    "video_time": 21782
+  },
+  {
+    "number": 134,
+    "question": "You are a product owner on an agile project and you have created a product backlog of features in a prioritized order for delivery. You ask the team to break down the first feature into user stories and estimate their effort. What will you do next?",
+    "options": {
+      "A": "Create an iteration plan with your team.",
+      "B": "Create the product road map with your team.",
+      "C": "Perform a Sprint review.",
+      "D": "Begin daily stand-ups with your team."
+    },
+    "correct_answer": "A",
+    "explanation": "An iteration plan is a detailed plan for the current iteration that usually matches the estimated work for the Sprint to the average Sprint velocity. Items from the product backlog are broken down into user stories and placed into upcoming Sprints. Page 186, iteration plan, PMBOK Guide 7th Edition.",
+    "video_time": 21929
+  },
+  {
+    "number": 135,
+    "question": "You have worked with your project customer to create a list of features that will bring the most value to them. They would like to see when some of this value will be delivered and the expected outcomes of each. What will you do next?",
+    "options": {
+      "A": "Show the features at the next Sprint review so the customer can see what they look like.",
+      "B": "Place the features on a release plan and show this to the customer.",
+      "C": "Check the features against the velocity chart to see when they might be delivered.",
+      "D": "Place the features into the next Sprint plan and show this to your customer."
+    },
+    "correct_answer": "B",
+    "explanation": "A release plan sets expectations for the dates, features, and outcomes expected to be delivered over the course of multiple iterations, providing the forward view the customer needs. Page 186, release plan, PMBOK Guide 7th Edition.",
+    "video_time": 22075
+  },
+  {
+    "number": 136,
+    "question": "You are in the planning stages of your project where you need to find out exactly what the project customer needs so you can find a solution and make it happen. Your business analysts are new to their roles and they are not sure what their process will be. What will you do next?",
+    "options": {
+      "A": "Ask the business analysts to begin writing user stories.",
+      "B": "Create the project management plan to outline how the project will be delivered.",
+      "C": "Work with the business analyst to create a requirements management plan.",
+      "D": "Create a work breakdown structure on the project scope."
+    },
+    "correct_answer": "C",
+    "explanation": "The requirements management plan is a component of the project management plan that describes how requirements will be analyzed, documented, and managed. Page 186, requirements management plan, PMBOK Guide 7th Edition.",
+    "video_time": 22209
+  },
+  {
+    "number": 137,
+    "question": "You are working on a new software application with a lot of complex interdependencies. The senior user providing and testing most of the requirements is concerned that some of those dependencies will cause errors upon release if they are not checked thoroughly. What will you do next?",
+    "options": {
+      "A": "Ask the senior user for a written list of all his requirements then check if they're included in the project scope.",
+      "B": "Raise a risk on the software complexity with the project team.",
+      "C": "Create an affinity diagram with the senior user.",
+      "D": "Review the test plan with the senior user."
+    },
+    "correct_answer": "D",
+    "explanation": "A test plan is a document that describes the deliverables that will be tested, the tests that will be conducted, and the processes that will be used in testing. It forms the basis for formally testing components and deliverables, including complex interdependencies. Page 186, test plan, PMBOK Guide 7th Edition.",
+    "video_time": 22341
+  },
+  {
+    "number": 138,
+    "question": "You are planning your project and have captured the requirements from the project customer. You ask your team to plan the project scope but they need to see exactly what needs to be delivered and how each part relates to each other. What will you do next?",
+    "options": {
+      "A": "Create a product breakdown structure with your team.",
+      "B": "Create the requirements traceability matrix with your project team.",
+      "C": "Create the risk breakdown structure with your project team.",
+      "D": "Create the scope management plan with your project team."
+    },
+    "correct_answer": "A",
+    "explanation": "A product breakdown structure is a hierarchical structure reflecting a product's components and deliverables, providing an exhaustive hierarchical tree structure of deliverables arranged in a whole-to-parts relationship. Page 187, product breakdown structure, PMBOK Guide 7th Edition.",
+    "video_time": 22492
+  },
+  {
+    "number": 139,
+    "question": "You have just finished breaking down the scope with your project team that will meet your customer's requirements. Your program manager wishes to control the project scope so any changes go through the proper process. What will you do next?",
+    "options": {
+      "A": "Create the change management plan to see how changes will be managed.",
+      "B": "Baseline the project scope and note it in the configuration management plan so that it is a baselined item.",
+      "C": "Create the scope management plan with a rule minimizing changes.",
+      "D": "Create a resource assignment matrix limiting the roles who can approve project scope changes."
+    },
+    "correct_answer": "B",
+    "explanation": "A baseline is the approved version of a work product or plan where actual performance is compared to the baseline to identify variances. Baselined items are noted in the configuration management plan. Page 188, baselines, PMBOK Guide 7th Edition.",
+    "video_time": 22611
+  },
+  {
+    "number": 140,
+    "question": "You have planned and begun the current Sprint where the project team have committed to delivering and releasing a particular feature. You need to see how the team are tracking towards their Sprint goal. What will you do next?",
+    "options": {
+      "A": "Review the kanban board.",
+      "B": "Review the team velocity chart.",
+      "C": "Review the Sprint burndown chart.",
+      "D": "Perform a Sprint review with the team."
+    },
+    "correct_answer": "C",
+    "explanation": "A burndown chart is a graphical representation of the work remaining in a time box such as a Sprint, comparing the ideal trend with the items actually completed. A Sprint review, by contrast, demonstrates what was created during the Sprint once the Sprint is complete. Page 188, burndown chart, PMBOK Guide 7th Edition.",
+    "video_time": 22738
+  },
+  {
+    "number": 141,
+    "question": "Your agile project has recently been merged into a larger program and the program manager is reviewing how the project is tracking. She asks you how much has been completed in design, but also how much has been completed in development, testing, and sign off. What will you do next?",
+    "options": {
+      "A": "Show her the Sprint Kanban board",
+      "B": "Take her through the team product backlog",
+      "C": "Show her the team cumulative flow diagram",
+      "D": "Show her the team velocity chart"
+    },
+    "correct_answer": "C",
+    "explanation": "A cumulative flow diagram indicates features completed over time, separated at each stage such as features in the backlog, then design, development, testing, and more. It covers the whole project, not just a single Sprint. Page 188 under cumulative flow diagram in the PMBOK Guide 7th edition.",
+    "video_time": 22895
+  },
+  {
+    "number": 142,
+    "question": "The features developed by your agile team have added some complexity to your website, delivered quickly with no time to refactor the code. You believe the user stories are moving slower now as a result, but you can't be sure. What will you do next?",
+    "options": {
+      "A": "Check the cycle time chart of the team",
+      "B": "Shadow the developers to overview the work that they are doing",
+      "C": "View the product road map for proposed release dates",
+      "D": "Review the points in the Sprint backlog versus the last three Sprints velocity"
+    },
+    "correct_answer": "A",
+    "explanation": "A cycle time chart shows the average cycle time of work items completed over time; it can be a scatter diagram or a bar chart and tracks how long individual user stories take to complete. This directly reveals whether stories are slowing down. The cycle time measures from when work starts to when it finishes for each card.",
+    "video_time": 22841
+  },
+  {
+    "number": 143,
+    "question": "You are working on an agile project with a full product road map for the next 6 months. Your project team are not sure what the next feature does or how they should turn it into user stories. What will you do next?",
+    "options": {
+      "A": "Review the scope baseline",
+      "B": "Story mapping with your team",
+      "C": "Sprint planning with your team",
+      "D": "Perform a retrospective with your team"
+    },
+    "correct_answer": "B",
+    "explanation": "A story map is a visual model of all the features and functionality desired for a given product, created to give the project team a holistic view of what they are building and why. It can also break the feature down into user stories based on functionality. Page 190 under story map in the PMBOK Guide 7th edition.",
+    "video_time": 23194
+  },
+  {
+    "number": 144,
+    "question": "You are a program manager on a large-scale agile program where each project team has its own scrum master. You need to know the rate at which work is flowing through each team so you can see if there are any blockers or issues and whether they will remain on track. What will you do next?",
+    "options": {
+      "A": "Raise your query at scrum of scrums",
+      "B": "Attend the Sprint review of each team at the end of each Sprint",
+      "C": "Review the schedule management plan for managing the schedule",
+      "D": "Review the team velocity charts"
+    },
+    "correct_answer": "D",
+    "explanation": "The velocity chart tracks the rate at which deliverables are produced, validated, and accepted within a predefined interval like a Sprint. It shows what was committed versus what was completed for each Sprint, indicating the rate of work across teams. Page 190 under velocity chart in the PMBOK Guide.",
+    "video_time": 23368
+  },
+  {
+    "number": 145,
+    "question": "Your project has been executing for the past 5 months and due to an organizational change a new project sponsor has come on board. He asks where the project is up to and whether it is on track. You tell him but he wants more information. What will you do next?",
+    "options": {
+      "A": "Show him the signed project charter",
+      "B": "Show him the project management plan including the schedule management plan",
+      "C": "Review the status report and previous status reports with the sponsor",
+      "D": "Invite him to the next Sprint review so he can see the progress made"
+    },
+    "correct_answer": "C",
+    "explanation": "The status report provides a report on the current status of the project; it may include information on progress since the last report and forecasts for cost and schedule performance in the future. Reviewing current and previous status reports shows the sponsor whether the project is on track. Page 190 under reports, status report in the PMBOK Guide 7th edition.",
+    "video_time": 23445
+  },
+  {
+    "number": 146,
+    "question": "Your agile project needs a third-party vendor to help complete the work. The product owner has multiple features on their road map which may change over time, making the scope of your project uncertain. What will you do next?",
+    "options": {
+      "A": "Ask your product owner to fix the features in scope so the project is more certain",
+      "B": "Create a Cost Plus incentive fee contract with your procurement team",
+      "C": "Create a firm fixed price contract with your procurement team",
+      "D": "Use the external vendor funding to create a project team in-house and complete the project"
+    },
+    "correct_answer": "B",
+    "explanation": "Cost-reimbursable contracts involve payments to the seller for actual costs incurred plus a fee representing seller profit. They are used when the scope is not well defined or is subject to frequent change, which matches this agile scenario with uncertain scope. Includes Cost Plus Award Fee, Fixed Fee, or Incentive Fee. Page 191 under cost reimbursable contracts in the PMBOK Guide.",
+    "video_time": 23788
+  },
+  {
+    "number": 147,
+    "question": "Your project is releasing a number of upgrades to a commercial building over the next 12 months. Material costs have changed a lot recently. You need to budget for the materials required; however, the volume of materials may change significantly as the project evolves. What will you do next?",
+    "options": {
+      "A": "Create an indefinite delivery indefinite quantity (IDIQ) contract for the materials",
+      "B": "Create a firm fixed price contract for the materials",
+      "C": "Ensure a sole supplier for your materials",
+      "D": "Ensure multiple suppliers for your materials"
+    },
+    "correct_answer": "A",
+    "explanation": "Indefinite delivery indefinite quantity (IDIQ) provides for an indefinite quantity of goods or services with a stated lower and upper limit within a fixed time period. This suits scenarios where the quantity can change significantly. Fixed price works better if quantities are known. Page 191 under agreements and contracts in the PMBOK Guide 7th edition.",
+    "video_time": 24189
+  },
+  {
+    "number": 148,
+    "question": "You have completed a make-or-buy analysis and agreed to hire a third-party vendor to complete part of your product. You create the statement of work and have a list of acceptable sellers that will meet the source selection criteria. The work is not complex and they understand the scope. What will you do next?",
+    "options": {
+      "A": "Send a request for proposal",
+      "B": "Send a request for information from the sellers",
+      "C": "Send a request for quotation",
+      "D": "Hold a bidder's conference to ensure all sellers are on the same page"
+    },
+    "correct_answer": "C",
+    "explanation": "Bid documents are used to request proposals from prospective sellers. Request for quotation is best when the work is straightforward and you simply need a price. Request for proposal is used when the item is complex; request for information is used when more information is needed; a bidder's conference ensures all sellers have enough information. Page 192 under bid documents in the PMBOK Guide.",
+    "video_time": 24626
+  },
+  {
+    "number": 149,
+    "question": "Your project is new and the team have just come on board. There have been multiple disagreements and the work is slow as they try to understand where they fit in the project and the team. What will you do next?",
+    "options": {
+      "A": "Review the project charter",
+      "B": "Review the definition of ready",
+      "C": "Review the project management plan",
+      "D": "Review the team charter"
+    },
+    "correct_answer": "D",
+    "explanation": "The project team charter records the team values, agreements, and operating guidelines. It establishes clear expectations regarding acceptable behavior by project team members, helping them understand where they fit in the project and the team. Page 192 under project team charter in the PMBOK Guide.",
+    "video_time": 24849
+  },
+  {
+    "number": 150,
+    "question": "You have created a high-level view of the features your project will deliver and prioritized them in a prioritized product backlog. The development team is ready to start work but they don't know where to start as the information is too high level. What will you do next?",
+    "options": {
+      "A": "Ask the team to begin with the highest priority item first",
+      "B": "Help the team break the features down into user stories to place in a Sprint",
+      "C": "Hold a retrospective with the team to understand what is blocking them",
+      "D": "Reprioritize the features into an order that makes sense for the developers"
+    },
+    "correct_answer": "B",
+    "explanation": "A user story is a brief description of an outcome for a specific user; it has enough information at a level which team members can work on that item. Breaking high-level features down into user stories gives the team actionable items they can place into a Sprint. Page 192 under other artifacts, user story in the PMBOK Guide.",
+    "video_time": 25128
+  }
+]

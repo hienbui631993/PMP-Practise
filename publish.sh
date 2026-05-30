@@ -13,6 +13,7 @@ mkdir -p "$DST/.claude"
 
 # Copy the files we publish (edit this list if you add/remove files)
 cp "$SRC/index.html" \
+   "$SRC/banks.html" \
    "$SRC/quiz.html" \
    "$SRC/qa_dataset.json" \
    "$SRC/principles.html" \
@@ -22,9 +23,13 @@ cp "$SRC/index.html" \
    "$SRC/100 pmp dnd.md" \
    "$SRC/eco.html" \
    "$SRC/exam.html" \
+   "$SRC/pmbok7.html" \
+   "$SRC/pmbok7_dataset.json" \
+   "$SRC/150 PMBOK 7 by David McLachlan.md" \
    "$SRC/pmp-examination-content-outline.pdf" \
    "$SRC/README.md" \
    "$SRC/progress.md" \
+   "$SRC/LIMITATIONS.md" \
    "$SRC/PROMTP.md" \
    "$SRC/200 untra hard transcript.md" \
    "$SRC/50 Principles.md" \
