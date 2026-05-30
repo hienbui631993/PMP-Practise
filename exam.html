@@ -16,7 +16,7 @@
   *{ box-sizing:border-box; }
   html,body{ margin:0; height:100%; }
   body{ font-family:Arial,Helvetica,system-ui,sans-serif; background:var(--bg); color:var(--text); display:flex; flex-direction:column; min-height:100vh; }
-  .hdr{ background:linear-gradient(var(--bar),var(--bar2)); color:var(--barText); display:flex; align-items:center; justify-content:space-between; padding:9px 16px; }
+  .hdr{ background:var(--bar); color:var(--barText); display:flex; align-items:center; justify-content:space-between; padding:9px 16px; }
   .hdr .title{ font-size:17px; font-weight:600; }
   .hdr .count{ font-size:14px; }
   /* tool toolbar */
@@ -28,11 +28,11 @@
   .toolbar .spacer{ flex:1; }
   .toolbar select{ font-size:13px; padding:4px 6px; border:1px solid var(--line); border-radius:2px; background:var(--bg); color:var(--text); }
   .toolbar .flag.on{ color:#f59e0b; font-weight:700; }
-  .substrip{ display:flex; justify-content:flex-end; padding:4px 16px 0; font-size:12px; color:var(--muted); }
-  .substrip.warn{ color:var(--bad); font-weight:700; }
+  .ttime{ font-size:13px; color:var(--muted); margin:0 10px 0 14px; white-space:nowrap; }
+  .ttime.warn{ color:var(--bad); font-weight:700; }
   /* stage */
-  .stage{ flex:1; overflow:auto; padding:18px 18px 86px; }
-  .wrap{ max-width:900px; margin:0 auto; }
+  .stage{ flex:1; overflow:auto; padding:20px 28px 86px; }
+  .wrap{ max-width:100%; margin:0; }
   h2.qtitle{ text-align:center; font-size:18px; margin:0 0 18px; }
   .qtext{ font-size:16px; line-height:1.55; margin-bottom:16px; white-space:pre-wrap; }
   .instr{ font-style:italic; color:var(--muted); margin-bottom:10px; font-size:14px; }
@@ -49,7 +49,7 @@
   .explain.show{ display:block; }
   .explain .v{ font-weight:700; margin-bottom:4px; } .v.good{color:var(--good);} .v.bad{color:var(--bad);}
   /* footer */
-  .ftr{ position:fixed; left:0; right:0; bottom:0; background:linear-gradient(var(--bar2),var(--bar)); color:var(--barText); display:flex; align-items:center; gap:10px; padding:9px 16px; }
+  .ftr{ position:fixed; left:0; right:0; bottom:0; background:var(--bar); color:var(--barText); display:flex; align-items:center; gap:10px; padding:9px 16px; }
   .ftr .spacer{ flex:1; }
   .btn{ background:rgba(255,255,255,.12); color:var(--barText); border:1px solid rgba(255,255,255,.5); padding:8px 16px; border-radius:3px; cursor:pointer; font-size:14px; }
   .btn:hover{ background:rgba(255,255,255,.25); } .btn:disabled{ opacity:.4; cursor:not-allowed; }
@@ -102,7 +102,7 @@
   .modal{ background:var(--bg); color:var(--text); border-radius:8px; padding:22px; max-width:480px; width:100%; border:1px solid var(--line); }
   .modal .actions{ display:flex; justify-content:flex-end; gap:10px; margin-top:16px; }
   /* navigator */
-  .navmodal{ background:var(--bar); color:#fff; border-radius:6px; width:min(900px,96vw); max-height:84vh; display:flex; flex-direction:column; box-shadow:0 10px 40px rgba(0,0,0,.4); }
+  .navmodal{ background:var(--bar); color:#fff; border-radius:4px; width:min(900px,96vw); max-height:84vh; display:flex; flex-direction:column; }
   .navmodal .nhead{ padding:10px 14px; font-size:15px; }
   .navtablewrap{ background:var(--bg); color:var(--text); margin:0 10px; overflow:auto; flex:1; }
   table.nav{ width:100%; border-collapse:collapse; font-size:14px; }
@@ -135,13 +135,13 @@
   <button class="tool" id="tCalc">🖩 Calculator</button>
   <span class="spacer"></span>
   <button class="tool flag" id="tFlag">⚑ Flag for Review</button>
-  <span style="margin-left:8px;font-size:12px">Color Scheme</span>
+  <span id="timer" class="ttime"></span>
+  <span style="font-size:12px">Color Scheme</span>
   <select id="schemeSel">
     <option value="default">Default</option><option value="soft">Soft Blue</option>
     <option value="dark">Dark</option><option value="contrast">High Contrast</option>
   </select>
 </div>
-<div class="substrip" id="substrip" style="display:none"></div>
 
 <div class="stage"><div class="wrap" id="stage"></div></div>
 
@@ -208,12 +208,12 @@
     if(S.screen==="break"){ S.breakLeft--; if(S.breakLeft<=0) continueFromBreak(); else updateTimer(); }
     else if(S.screen==="exam"||S.screen==="review"){ if(S.examLeft!=null){ S.examLeft--; if(S.examLeft<=0) finish(true); else updateTimer(); } }
   },1000); }
+  function fmtMin(sec){ return Math.ceil(Math.max(0,sec)/60)+" min"; }
   function updateTimer(){
-    const t=$("substrip");
-    if(S.screen==="break"){ t.textContent="Break remaining: "+fmt(S.breakLeft); t.className="substrip"; return; }
-    if(S.examLeft==null){ t.textContent="No time limit"; t.className="substrip"; return; }
-    t.textContent="Time remaining: "+fmt(S.examLeft); t.className="substrip"+(S.examLeft<=300?" warn":"");
-    if(S.screen==="break"){ const c=$("breakClock"); if(c) c.textContent=fmt(S.breakLeft); }
+    const t=$("timer");
+    if(S.screen==="break"){ t.textContent="On break"; t.className="ttime"; const c=$("breakClock"); if(c) c.textContent=fmt(S.breakLeft); return; }
+    if(S.examLeft==null){ t.textContent="No time limit"; t.className="ttime"; return; }
+    t.textContent="Time remaining: "+fmtMin(S.examLeft); t.className="ttime"+(S.examLeft<=300?" warn":"");
   }
 
   // sessions
@@ -229,7 +229,7 @@
         examLeft:(mins>0?mins*60:null), startLimit:(mins>0?mins*60:null), breakLeft:600, secLen:n, nSec:1, sec:0, pos:0, screen:"exam", showA:!!showA, total:n };
     enterExam();
   }
-  function enterExam(){ $("toolbar").style.display="flex"; $("substrip").style.display="block"; $("footer").style.display="flex"; startTick(); render(); }
+  function enterExam(){ $("toolbar").style.display="flex"; $("footer").style.display="flex"; startTick(); render(); }
 
   function gidx(){ return S.sec*S.secLen + S.pos; }
   function curQ(){ return BANK[S.order[gidx()]]; }
@@ -387,7 +387,7 @@
   }
   function continueFromBreak(){ S.sec++; S.pos=0; S.screen="exam"; render(); }
 
-  function finish(timedOut){ S.screen="results"; if(tick){clearInterval(tick);tick=null;} $("toolbar").style.display="none"; $("substrip").style.display="none"; $("footer").style.display="none"; $("counter").textContent=""; renderResults(timedOut); }
+  function finish(timedOut){ S.screen="results"; if(tick){clearInterval(tick);tick=null;} $("toolbar").style.display="none"; $("footer").style.display="none"; $("counter").textContent=""; renderResults(timedOut); }
   function renderResults(timedOut){
     let correct=0,answered=0; const perSec=[]; for(let s=0;s<S.nSec;s++)perSec.push({c:0,n:0});
     S.order.forEach(function(bi,gi){ const q=BANK[bi],cs=correctSet(q),sel=S.answers[gi]||[],sec=Math.floor(gi/S.secLen);
@@ -409,7 +409,7 @@
   // config
   function renderConfig(){
     if(tick){clearInterval(tick);tick=null;} S=null;
-    $("toolbar").style.display="none"; $("substrip").style.display="none"; $("footer").style.display="none"; $("counter").textContent="";
+    $("toolbar").style.display="none"; $("footer").style.display="none"; $("counter").textContent="";
     $("stage").innerHTML='<h2 class="qtitle">Choose your test mode</h2><div class="modegrid">'+
       '<div class="mode"><h3>📝 Full Exam</h3><div>230 minutes · 180 questions · answers hidden until the end.</div><ul><li>3 sections of 60 questions</li><li>10-minute break between sections (clock paused)</li><li>End-of-section review; no return after ending</li><li>Up to 250 min total with both breaks</li></ul><div style="margin-top:14px"><button class="primary" id="startFull">Start full exam →</button></div></div>'+
       '<div class="mode"><h3>🎲 Random Q&amp;A</h3><div>Set questions, time, and whether to show answers.</div><label class="f">Number of questions</label><input type="number" id="rNum" value="30" min="1" max="200" /><label class="f">Time limit (minutes, 0 = no limit)</label><input type="number" id="rMin" value="40" min="0" max="400" /><label class="f"><input type="checkbox" id="rShow" /> Show answer &amp; explanation after each question</label><div style="margin-top:14px"><button class="primary" id="startRandom">Start random test →</button></div></div>'+
