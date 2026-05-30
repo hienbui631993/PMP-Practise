@@ -36,16 +36,18 @@
   .prompt { font-weight:600; margin-bottom:14px; }
   .colhead { font-size:12px; text-transform:uppercase; letter-spacing:.04em; color:var(--accent); margin:6px 0; }
 
-  .rows { display:flex; flex-direction:column; gap:10px; }
-  .row { display:flex; gap:12px; align-items:stretch; }
-  .desc { flex:1; background:var(--card2); border:1px solid var(--border); border-radius:8px; padding:10px 12px; font-size:14px; }
-  .slot { width:220px; min-height:46px; border:2px dashed var(--border); border-radius:8px; display:flex; align-items:center; justify-content:center; text-align:center; padding:6px 8px; font-size:13px; color:var(--muted); cursor:pointer; }
+  .board { display:flex; gap:18px; align-items:flex-start; }
+  .rows { flex:1; display:flex; flex-direction:column; gap:14px; }
+  .row { display:flex; flex-direction:column; gap:6px; }
+  .desc { background:var(--card2); border:1px solid var(--border); border-radius:8px; padding:10px 12px; font-size:14px; }
+  .slot { width:100%; min-height:44px; border:2px dashed var(--border); border-radius:8px; display:flex; align-items:center; justify-content:center; text-align:center; padding:6px 8px; font-size:13px; color:var(--muted); cursor:pointer; }
   .slot.filled { border-style:solid; color:var(--text); background:var(--sel-bg); border-color:var(--accent); }
   .slot.correct { border-color:var(--good); background:var(--good-bg); color:var(--text); }
   .slot.incorrect { border-color:var(--bad); background:var(--bad-bg); color:var(--text); }
   .slot.dragover { border-color:var(--accent); }
 
-  .pool { display:flex; flex-wrap:wrap; gap:8px; margin-top:16px; padding-top:14px; border-top:1px dashed var(--border); }
+  .pool { flex:0 0 230px; display:flex; flex-direction:column; gap:8px; position:sticky; top:74px; }
+  .pool .pool-title { font-size:11px; text-transform:uppercase; letter-spacing:.04em; color:var(--muted); }
   .chip { background:var(--card2); border:1px solid var(--border); border-radius:8px; padding:8px 12px; font-size:13px; cursor:grab; user-select:none; }
   .chip:hover { border-color:var(--accent); }
   .chip.selected { border-color:var(--accent); background:var(--sel-bg); outline:2px solid var(--accent); }
@@ -61,7 +63,7 @@
   .overlay { position:fixed; inset:0; background:rgba(0,0,0,.6); display:none; align-items:center; justify-content:center; z-index:100; padding:16px; }
   .overlay.show { display:flex; }
   .modal { background:var(--card); border:1px solid var(--border); border-radius:12px; max-width:560px; width:100%; padding:22px; }
-  @media(max-width:620px){ .slot{width:130px;} .row{flex-direction:column;} .slot{width:100%;} }
+  @media(max-width:620px){ .board{flex-direction:column;} .pool{flex:1 1 auto; position:static;} }
 </style>
 </head>
 <body>
@@ -87,8 +89,10 @@
       </div>
       <div class="prompt" id="prompt"></div>
       <div class="colhead" id="colhead"></div>
-      <div class="rows" id="rows"></div>
-      <div class="pool" id="pool"></div>
+      <div class="board">
+        <div class="pool" id="pool"></div>
+        <div class="rows" id="rows"></div>
+      </div>
 
       <div class="ansbox" id="ansbox">
         <div class="verdict" id="verdict"></div>
@@ -168,6 +172,7 @@
     });
     // pool
     const pool=document.getElementById("pool"); pool.innerHTML=""; selectedChip=null;
+    const ptitle=document.createElement("div"); ptitle.className="pool-title"; ptitle.textContent="Drag "+(q.right_label||"option")+":"; pool.appendChild(ptitle);
     q.options.forEach(function(opt){
       const c=document.createElement("div"); c.className="chip"; c.textContent=opt; c.draggable=true;
       c.addEventListener("dragstart",e=>e.dataTransfer.setData("text",opt));
