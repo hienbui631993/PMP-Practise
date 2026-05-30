@@ -143,6 +143,7 @@
   let placed={};          // per-question: {itemIndex: label}
   let solved={};          // qnum -> true
   let selectedChip=null;
+  let consume=false;      // true when each option is used once (remove from pool when placed)
 
   function save(){ try{ localStorage.setItem(LS, JSON.stringify({theme,solved})); }catch(e){} }
   function load(){ try{ const r=JSON.parse(localStorage.getItem(LS)||"{}"); theme=r.theme||"dark"; solved=r.solved||{}; }catch(e){} }
@@ -171,26 +172,37 @@
       slot.addEventListener("dragover",e=>{e.preventDefault();slot.classList.add("dragover");});
       slot.addEventListener("dragleave",()=>slot.classList.remove("dragover"));
       slot.addEventListener("drop",e=>{e.preventDefault();slot.classList.remove("dragover"); const lbl=e.dataTransfer.getData("text"); if(lbl) setSlot(idx,lbl);});
-      slot.addEventListener("click",()=>{ if(selectedChip){ setSlot(idx,selectedChip); } else if(placed[idx]){ delete placed[idx]; paintSlots(); } });
+      slot.addEventListener("click",()=>{ if(selectedChip){ setSlot(idx,selectedChip); } else if(placed[idx]!=null){ clearSlot(idx); } });
       const key=document.createElement("div"); key.className="answerkey"; key.dataset.i=idx;
       row.appendChild(d); row.appendChild(slot); row.appendChild(key); rows.appendChild(row);
     });
-    // pool
-    const pool=document.getElementById("pool"); pool.innerHTML=""; selectedChip=null;
-    const ptitle=document.createElement("div"); ptitle.className="pool-title"; ptitle.textContent="Drag "+(q.right_label||"option")+":"; pool.appendChild(ptitle);
-    q.options.forEach(function(opt){
-      const c=document.createElement("div"); c.className="chip"; c.textContent=opt; c.draggable=true;
-      c.addEventListener("dragstart",e=>e.dataTransfer.setData("text",opt));
-      c.addEventListener("click",()=>{ if(selectedChip===opt){selectedChip=null;} else {selectedChip=opt;} paintChips(); });
-      pool.appendChild(c);
-    });
+    // pool — single-use ("consume") when every item gets its own option; reusable when options are shared
+    selectedChip=null;
+    consume = q.options.length >= q.items.length;
+    renderPool();
     document.getElementById("ansbox").classList.remove("show");
     document.getElementById("prevBtn").disabled=pos===0;
     document.getElementById("nextBtn").disabled=pos===DATA.length-1;
     document.getElementById("jumpInput").value=q.number;
     paintSlots(); paintChips(); updateStats();
   }
-  function setSlot(i,lbl){ placed[i]=lbl; selectedChip=null; paintSlots(); paintChips(); }
+  function renderPool(){
+    const q=curQ(); const pool=document.getElementById("pool"); pool.innerHTML="";
+    const ptitle=document.createElement("div"); ptitle.className="pool-title"; ptitle.textContent="Drag "+(q.right_label||"option")+":"; pool.appendChild(ptitle);
+    const used = consume ? Object.values(placed) : [];
+    let shown=0;
+    q.options.forEach(function(opt){
+      if(consume && used.indexOf(opt)>=0) return;   // already placed -> hide from pool
+      shown++;
+      const c=document.createElement("div"); c.className="chip"+(selectedChip===opt?" selected":""); c.textContent=opt; c.draggable=true;
+      c.addEventListener("dragstart",e=>e.dataTransfer.setData("text",opt));
+      c.addEventListener("click",()=>{ selectedChip = (selectedChip===opt)?null:opt; paintChips(); });
+      pool.appendChild(c);
+    });
+    if(consume && shown===0){ const d=document.createElement("div"); d.className="pool-title"; d.textContent="(all placed)"; pool.appendChild(d); }
+  }
+  function setSlot(i,lbl){ placed[i]=lbl; selectedChip=null; paintSlots(); renderPool(); }
+  function clearSlot(i){ delete placed[i]; paintSlots(); renderPool(); }
   function paintSlots(){
     const q=curQ();
     Array.from(document.getElementById("rows").children).forEach(function(row){
@@ -266,7 +278,7 @@
     go(0);
     document.getElementById("checkBtn").onclick=check;
     document.getElementById("showBtn").onclick=showAns;
-    document.getElementById("clearBtn").onclick=()=>{ placed={}; paintSlots(); document.getElementById("ansbox").classList.remove("show"); };
+    document.getElementById("clearBtn").onclick=()=>{ placed={}; paintSlots(); renderPool(); document.getElementById("ansbox").classList.remove("show"); };
     document.getElementById("prevBtn").onclick=()=>go(pos-1);
     document.getElementById("nextBtn").onclick=()=>go(pos+1);
     document.getElementById("themeBtn").onclick=()=>{ theme=theme==="light"?"dark":"light"; save(); applyTheme(); };
