@@ -21,6 +21,7 @@ cp "$SRC/index.html" \
    "$SRC/dnd_dataset.json" \
    "$SRC/100 pmp dnd.md" \
    "$SRC/eco.html" \
+   "$SRC/exam.html" \
    "$SRC/pmp-examination-content-outline.pdf" \
    "$SRC/README.md" \
    "$SRC/progress.md" \

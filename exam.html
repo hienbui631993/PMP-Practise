@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>PMI PMP Sample Test</title>
+<style>
+  :root{ --bg:#ffffff; --text:#1a1a1a; --muted:#666; --bar:#3b6cb7; --bar2:#2f5aa0; --barText:#fff;
+         --line:#cfd6e0; --hover:#eef4fb; --sel:#dbe8fb; --accent:#1f6feb; --good:#15803d; --bad:#b91c1c;
+         --goodbg:#e7f6ec; --badbg:#fde8e8; --sub:#eef1f5; }
+  body.dark{ --bg:#1b1b1b; --text:#e8e8e8; --muted:#9aa4b2; --bar:#16233b; --bar2:#101a2e; --line:#3a3a3a;
+         --hover:#262b33; --sel:#243a5e; --accent:#5aa2ff; --good:#34d399; --bad:#f87171; --goodbg:#13301f; --badbg:#3a1a1a; --sub:#242424; }
+  body.contrast{ --bg:#000; --text:#ffff00; --muted:#cccc66; --bar:#000; --bar2:#000; --barText:#ffff00; --line:#ffff00;
+         --hover:#222200; --sel:#333300; --accent:#ffff00; --good:#33ff33; --bad:#ff5555; --goodbg:#0a0a00; --badbg:#1a0000; --sub:#111100; }
+  body.soft{ --bg:#f3f6fb; --text:#102a43; --muted:#5b7088; --bar:#34699a; --bar2:#2a557e; --line:#c4d3e6; --hover:#e3edf9; --sel:#d2e4f7; --sub:#e7eef7; }
+  *{ box-sizing:border-box; }
+  html,body{ margin:0; height:100%; }
+  body{ font-family:Arial,Helvetica,system-ui,sans-serif; background:var(--bg); color:var(--text); display:flex; flex-direction:column; min-height:100vh; }
+  /* header */
+  .hdr{ background:linear-gradient(var(--bar),var(--bar2)); color:var(--barText); display:flex; align-items:center; justify-content:space-between; padding:10px 18px; }
+  .hdr .title{ font-size:18px; font-weight:600; }
+  .hdr .scheme{ display:flex; align-items:center; gap:6px; }
+  .hdr select{ font-size:13px; padding:4px 6px; border:1px solid #9bb4d6; border-radius:2px; }
+  .sub{ display:flex; justify-content:space-between; align-items:center; background:var(--sub); border-bottom:1px solid var(--line); padding:6px 18px; font-size:13px; }
+  .sub .time b{ font-variant-numeric:tabular-nums; }
+  .sub .time.warn b{ color:var(--bad); }
+  /* stage */
+  .stage{ flex:1; overflow:auto; padding:22px 18px 90px; }
+  .wrap{ max-width:900px; margin:0 auto; }
+  h2.qtitle{ text-align:center; font-size:18px; margin:0 0 18px; }
+  .qtext{ font-size:16px; line-height:1.55; margin-bottom:18px; white-space:pre-wrap; }
+  .instr{ font-style:italic; color:var(--muted); margin-bottom:10px; font-size:14px; }
+  .opt{ display:flex; gap:12px; align-items:flex-start; padding:9px 10px; border-radius:4px; cursor:pointer; }
+  .opt:hover{ background:var(--hover); }
+  .opt.sel{ background:var(--sel); }
+  .opt.correct{ background:var(--goodbg); } .opt.incorrect{ background:var(--badbg); }
+  .opt input{ margin-top:3px; width:16px; height:16px; }
+  .opt .ltr{ font-weight:700; min-width:18px; }
+  .explain{ margin-top:16px; padding:12px 14px; border-left:4px solid var(--accent); background:var(--sub); border-radius:4px; display:none; font-size:14px; }
+  .explain.show{ display:block; }
+  .explain .v{ font-weight:700; margin-bottom:4px; } .v.good{color:var(--good);} .v.bad{color:var(--bad);}
+  /* footer */
+  .ftr{ position:fixed; left:0; right:0; bottom:0; background:linear-gradient(var(--bar2),var(--bar)); color:var(--barText); display:flex; align-items:center; gap:10px; padding:10px 18px; }
+  .ftr .spacer{ flex:1; }
+  .btn{ background:rgba(255,255,255,.12); color:var(--barText); border:1px solid rgba(255,255,255,.5); padding:8px 16px; border-radius:3px; cursor:pointer; font-size:14px; }
+  .btn:hover{ background:rgba(255,255,255,.25); }
+  .btn:disabled{ opacity:.4; cursor:not-allowed; }
+  .btn.flagged{ background:#f59e0b; color:#3b2400; border-color:#f59e0b; }
+  /* config / generic */
+  .card{ background:var(--bg); border:1px solid var(--line); border-radius:8px; padding:22px; margin-bottom:16px; }
+  .modegrid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:16px; }
+  .mode{ border:2px solid var(--line); border-radius:10px; padding:20px; cursor:pointer; }
+  .mode:hover{ border-color:var(--accent); }
+  .mode h3{ margin:0 0 8px; color:var(--accent); }
+  .mode ul{ margin:8px 0 0; padding-left:18px; color:var(--muted); font-size:13px; }
+  label.f{ display:block; margin:12px 0 4px; font-size:14px; }
+  input[type=number]{ width:120px; padding:7px 9px; border:1px solid var(--line); border-radius:6px; background:var(--bg); color:var(--text); }
+  .row{ display:flex; gap:18px; flex-wrap:wrap; align-items:center; }
+  .primary{ background:var(--accent); color:#fff; border:none; padding:11px 22px; border-radius:6px; font-size:15px; cursor:pointer; font-weight:600; }
+  .link{ color:var(--accent); text-decoration:none; }
+  /* review grid */
+  .rgrid{ display:grid; grid-template-columns:repeat(auto-fill,minmax(54px,1fr)); gap:8px; margin-top:14px; }
+  .rtile{ text-align:center; padding:9px 0; border:1px solid var(--line); border-radius:5px; cursor:pointer; font-size:13px; position:relative; }
+  .rtile.answered{ background:var(--sel); border-color:var(--accent); }
+  .rtile.flag::after{ content:"⚑"; position:absolute; top:-6px; right:-4px; color:#f59e0b; font-size:12px; }
+  .legend{ display:flex; gap:16px; flex-wrap:wrap; font-size:12px; color:var(--muted); margin-top:10px; }
+  /* break */
+  .breakbox{ text-align:center; padding:60px 20px; }
+  .breakbox .clock{ font-size:54px; font-weight:800; font-variant-numeric:tabular-nums; margin:14px 0; }
+  /* results */
+  .score{ font-size:40px; font-weight:800; }
+  .statline{ display:flex; gap:20px; flex-wrap:wrap; margin:10px 0 0; font-size:14px; color:var(--muted); }
+  .rev-q{ border:1px solid var(--line); border-radius:8px; padding:14px; margin-bottom:10px; }
+  .rev-q .qn{ font-weight:700; }
+  .tag{ font-size:12px; padding:2px 8px; border-radius:999px; }
+  .tag.ok{ background:var(--goodbg); color:var(--good);} .tag.no{ background:var(--badbg); color:var(--bad);} .tag.skip{ background:var(--sub); color:var(--muted);}
+  .hide{ display:none; }
+  .overlay{ position:fixed; inset:0; background:rgba(0,0,0,.5); display:none; align-items:center; justify-content:center; z-index:50; padding:16px; }
+  .overlay.show{ display:flex; }
+  .modal{ background:var(--bg); color:var(--text); border-radius:8px; padding:22px; max-width:480px; width:100%; border:1px solid var(--line); }
+  .modal .actions{ display:flex; justify-content:flex-end; gap:10px; margin-top:16px; }
+</style>
+</head>
+<body>
+<div class="hdr">
+  <div class="title" id="hdrTitle">PMI PMP Sample Test</div>
+  <div class="scheme">
+    <span style="font-size:13px">Color Scheme</span>
+    <select id="schemeSel">
+      <option value="default">Default</option>
+      <option value="soft">Soft Blue</option>
+      <option value="dark">Dark</option>
+      <option value="contrast">High Contrast</option>
+    </select>
+  </div>
+</div>
+<div class="sub" id="subbar" style="display:none">
+  <span id="counter"></span>
+  <span class="time" id="timer"></span>
+</div>
+
+<div class="stage"><div class="wrap" id="stage"></div></div>
+
+<div class="ftr" id="footer" style="display:none"></div>
+
+<div class="overlay" id="confirm"><div class="modal">
+  <div id="confirmMsg"></div>
+  <div class="actions"><button class="btn" id="confirmNo" style="background:#888">Cancel</button><button class="primary" id="confirmYes">Continue</button></div>
+</div></div>
+
+<script>
+(function(){
+  "use strict";
+  const SCHEME_KEY="pmp_exam_scheme";
+  let BANK=[], S=null, tick=null;
+
+  function esc(s){ return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
+  function correctSet(q){ return q.correct_answer.split(",").map(x=>x.trim().toUpperCase()).filter(Boolean); }
+  function shuffle(a){ for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];} return a; }
+  function fmt(sec){ sec=Math.max(0,Math.round(sec)); const h=Math.floor(sec/3600),m=Math.floor((sec%3600)/60),s=sec%60;
+    return (h>0?h+":":"")+(h>0?String(m).padStart(2,"0"):m)+":"+String(s).padStart(2,"0"); }
+
+  // ---------- color scheme ----------
+  function applyScheme(v){ document.body.className=(v==="default"?"":v); }
+  (function(){ const v=localStorage.getItem(SCHEME_KEY)||"default"; document.getElementById("schemeSel").value=v; applyScheme(v); })();
+  document.getElementById("schemeSel").onchange=function(){ localStorage.setItem(SCHEME_KEY,this.value); applyScheme(this.value); };
+
+  // ---------- confirm modal ----------
+  let confirmCb=null;
+  function ask(msg,cb,yes){ document.getElementById("confirmMsg").innerHTML=msg; document.getElementById("confirmYes").textContent=yes||"Continue"; confirmCb=cb; document.getElementById("confirm").classList.add("show"); }
+  document.getElementById("confirmYes").onclick=()=>{ document.getElementById("confirm").classList.remove("show"); if(confirmCb) confirmCb(); };
+  document.getElementById("confirmNo").onclick=()=>document.getElementById("confirm").classList.remove("show");
+
+  // ---------- timer ----------
+  function startTick(){ if(tick) return; tick=setInterval(function(){
+    if(!S) return;
+    if(S.screen==="break"){ S.breakLeft--; if(S.breakLeft<=0){ continueFromBreak(); } else updateTimer(); }
+    else if(S.screen==="exam"||S.screen==="review"){ if(S.examLeft!=null){ S.examLeft--; if(S.examLeft<=0){ finish(true); } else updateTimer(); } }
+  },1000); }
+  function updateTimer(){
+    const t=document.getElementById("timer");
+    if(S.screen==="break"){ t.innerHTML="Break remaining: <b>"+fmt(S.breakLeft)+"</b>"; t.className="time"; return; }
+    if(S.examLeft==null){ t.innerHTML="No time limit"; t.className="time"; return; }
+    t.innerHTML="Time remaining: <b>"+fmt(S.examLeft)+"</b>";
+    t.className="time"+(S.examLeft<=300?" warn":"");
+  }
+
+  // ---------- session setup ----------
+  function startFull(){
+    const n=Math.min(180,BANK.length);
+    const order=shuffle(BANK.map((_,i)=>i)).slice(0,n);
+    const secLen=Math.floor(n/3);
+    S={ mode:"full", order, answers:{}, flags:new Set(), examLeft:230*60, breakLeft:600,
+        secLen, nSec:3, sec:0, pos:0, screen:"exam", showA:false, total:n };
+    document.getElementById("subbar").style.display="flex";
+    document.getElementById("footer").style.display="flex";
+    startTick(); render();
+  }
+  function startRandom(num,mins,showA){
+    const n=Math.min(num,BANK.length);
+    const order=shuffle(BANK.map((_,i)=>i)).slice(0,n);
+    S={ mode:"random", order, answers:{}, flags:new Set(), examLeft:(mins>0?mins*60:null),
+        secLen:n, nSec:1, sec:0, pos:0, screen:"exam", showA:!!showA, total:n };
+    document.getElementById("subbar").style.display="flex";
+    document.getElementById("footer").style.display="flex";
+    startTick(); render();
+  }
+
+  function gidx(){ return S.sec*S.secLen + S.pos; }      // index into S.order
+  function curQ(){ return BANK[S.order[gidx()]]; }
+  function secRange(sec){ return {a:sec*S.secLen, n:S.secLen}; }
+
+  // ---------- render dispatch ----------
+  function render(){
+    if(S.screen==="exam") return renderExam();
+    if(S.screen==="review") return renderReview();
+    if(S.screen==="break") return renderBreak();
+    if(S.screen==="results") return renderResults();
+  }
+
+  function renderExam(){
+    const q=curQ(); const gi=gidx(); const cs=correctSet(q); const multi=cs.length>1;
+    document.getElementById("counter").textContent="Question "+(gi+1)+" of "+S.total+(S.mode==="full"?"   ·   Section "+(S.sec+1)+" of 3":"");
+    updateTimer();
+    const sel=S.answers[gi]||[];
+    let html='<div class="qtext">'+esc(q.question)+'</div>';
+    if(multi) html+='<div class="instr">Choose '+cs.length+'.</div>';
+    Object.keys(q.options).forEach(function(L){
+      html+='<div class="opt" data-l="'+L+'"><input type="'+(multi?"checkbox":"radio")+'" name="opt" '+(sel.includes(L)?"checked":"")+' /><span class="ltr">'+L+'.</span><span>'+esc(q.options[L])+'</span></div>';
+    });
+    // instant feedback (random + showA)
+    html+='<div class="explain" id="explain"></div>';
+    document.getElementById("stage").innerHTML=html;
+    Array.from(document.querySelectorAll(".opt")).forEach(function(el){
+      el.onclick=function(){ choose(el.dataset.l, multi, cs.length); };
+    });
+    if(S.showA && sel.length) revealInline();
+    renderFooter();
+  }
+  function choose(L,multi,need){
+    const gi=gidx(); let sel=S.answers[gi]?S.answers[gi].slice():[];
+    if(multi){ if(sel.includes(L)) sel=sel.filter(x=>x!==L); else { if(sel.length>=need) sel.shift(); sel.push(L); } }
+    else sel=[L];
+    if(sel.length) S.answers[gi]=sel; else delete S.answers[gi];
+    // repaint selection
+    Array.from(document.querySelectorAll(".opt")).forEach(el=>el.classList.toggle("sel",(S.answers[gi]||[]).includes(el.dataset.l)));
+    Array.from(document.querySelectorAll(".opt input")).forEach(el=>{ const p=el.closest(".opt"); el.checked=(S.answers[gi]||[]).includes(p.dataset.l); });
+    if(S.showA) revealInline();
+  }
+  function revealInline(){
+    const q=curQ(); const gi=gidx(); const cs=correctSet(q); const sel=S.answers[gi]||[];
+    Array.from(document.querySelectorAll(".opt")).forEach(function(el){
+      el.classList.remove("correct","incorrect");
+      if(cs.includes(el.dataset.l)) el.classList.add("correct");
+      else if(sel.includes(el.dataset.l)) el.classList.add("incorrect");
+    });
+    const ok=sel.length && sel.slice().sort().join(",")===cs.slice().sort().join(",");
+    const ex=document.getElementById("explain"); ex.classList.add("show");
+    ex.innerHTML='<div class="v '+(ok?"good":"bad")+'">'+(ok?"✔ Correct":"✘ Incorrect")+'</div><div>Correct answer: <b>'+q.correct_answer+'</b></div><div style="margin-top:6px">'+esc(q.explanation)+'</div>';
+  }
+
+  function renderFooter(){
+    const last=S.pos===secRange(S.sec).n-1;
+    const gi=gidx(); const flagged=S.flags.has(gi);
+    const f=document.getElementById("footer");
+    f.innerHTML=
+      '<button class="btn" id="prevBtn" '+(S.pos===0?"disabled":"")+'>◀ Previous</button>'+
+      '<button class="btn '+(flagged?"flagged":"")+'" id="flagBtn">⚑ '+(flagged?"Flagged":"Flag for Review")+'</button>'+
+      '<div class="spacer"></div>'+
+      '<button class="btn" id="reviewBtn">Review Section</button>'+
+      '<button class="btn" id="nextBtn">'+(last?"End of Section ▶":"Next ▶")+'</button>';
+    document.getElementById("prevBtn").onclick=()=>{ if(S.pos>0){S.pos--;render();} };
+    document.getElementById("nextBtn").onclick=()=>{ if(last){ S.screen="review"; render(); } else { S.pos++; render(); } };
+    document.getElementById("flagBtn").onclick=()=>{ if(flagged)S.flags.delete(gi); else S.flags.add(gi); renderFooter(); };
+    document.getElementById("reviewBtn").onclick=()=>{ S.screen="review"; render(); };
+  }
+
+  function renderReview(){
+    updateTimer();
+    document.getElementById("counter").textContent=(S.mode==="full"?"Section "+(S.sec+1)+" of 3 — ":"")+"Review";
+    const r=secRange(S.sec); let answered=0,flagged=0;
+    let grid="";
+    for(let p=0;p<r.n;p++){ const gi=r.a+p; const a=!!S.answers[gi]; const fl=S.flags.has(gi); if(a)answered++; if(fl)flagged++;
+      grid+='<div class="rtile '+(a?"answered":"")+(fl?" flag":"")+'" data-p="'+p+'">'+(gi+1)+'</div>'; }
+    const lastSec=S.sec===S.nSec-1;
+    document.getElementById("stage").innerHTML=
+      '<h2 class="qtitle">Review '+(S.mode==="full"?"Section "+(S.sec+1):"Your Answers")+'</h2>'+
+      '<p>You have answered <b>'+answered+'</b> of <b>'+r.n+'</b> questions'+(flagged?(' · <b>'+flagged+'</b> flagged'):'')+'. Click a number to return to a question.</p>'+
+      '<div class="legend"><span>⬜ Unanswered</span><span>🟦 Answered</span><span>⚑ Flagged for review</span></div>'+
+      '<div class="rgrid">'+grid+'</div>'+
+      (S.mode==="full" && !lastSec ? '<p style="margin-top:18px;color:var(--muted)">After you end this section you <b>cannot return</b> to it. A 10-minute break (exam clock paused) follows.</p>' : '')+
+      (S.mode==="full" && lastSec ? '<p style="margin-top:18px;color:var(--muted)">This is the final section. Ending it will submit your exam.</p>' : '');
+    Array.from(document.querySelectorAll(".rtile")).forEach(el=>el.onclick=()=>{ S.pos=+el.dataset.p; S.screen="exam"; render(); });
+    const f=document.getElementById("footer");
+    f.innerHTML='<button class="btn" id="backBtn">◀ Return to questions</button><div class="spacer"></div><button class="btn" id="endBtn">'+(lastSec?"Submit Exam":"End Section")+'</button>';
+    document.getElementById("backBtn").onclick=()=>{ S.screen="exam"; render(); };
+    document.getElementById("endBtn").onclick=function(){
+      const msg=lastSec? "Submit your exam? You cannot make further changes." :
+        "End Section "+(S.sec+1)+"? You will not be able to return to these questions. A 10-minute break follows (your exam time is paused).";
+      ask(msg, function(){ endSection(); }, lastSec?"Submit":"End Section");
+    };
+  }
+  function endSection(){
+    if(S.sec===S.nSec-1){ finish(false); return; }
+    if(S.mode==="full"){ S.screen="break"; S.breakLeft=600; updateTimer(); render(); }
+    else { finish(false); }
+  }
+
+  function renderBreak(){
+    updateTimer();
+    document.getElementById("counter").textContent="Break";
+    document.getElementById("stage").innerHTML=
+      '<div class="breakbox"><h2 class="qtitle">Scheduled Break</h2>'+
+      '<p>Your exam time is <b>paused</b>. The break is up to 10 minutes.</p>'+
+      '<div class="clock" id="breakClock">'+fmt(S.breakLeft)+'</div>'+
+      '<p style="color:var(--muted)">Section '+(S.sec+2)+' of 3 will begin when you continue or the break ends.</p></div>';
+    const f=document.getElementById("footer");
+    f.innerHTML='<div class="spacer"></div><button class="btn" id="resumeBtn">I am ready — continue ▶</button>';
+    document.getElementById("resumeBtn").onclick=()=>continueFromBreak();
+  }
+  function continueFromBreak(){ S.sec++; S.pos=0; S.screen="exam"; render(); }
+  // keep break clock display fresh
+  const _ut=updateTimer;
+  updateTimer=function(){ _ut(); if(S&&S.screen==="break"){ const c=document.getElementById("breakClock"); if(c) c.textContent=fmt(S.breakLeft); } };
+
+  function finish(timedOut){
+    S.screen="results";
+    if(tick){ clearInterval(tick); tick=null; }
+    document.getElementById("subbar").style.display="none";
+    document.getElementById("footer").style.display="none";
+    renderResults(timedOut);
+  }
+
+  function renderResults(timedOut){
+    let correct=0, answered=0;
+    const perSec=[]; for(let s=0;s<S.nSec;s++) perSec.push({c:0,n:0});
+    S.order.forEach(function(bi,gi){
+      const q=BANK[bi]; const cs=correctSet(q); const sel=S.answers[gi]||[];
+      const sec=Math.floor(gi/S.secLen);
+      if(perSec[sec]) perSec[sec].n++;
+      if(sel.length) answered++;
+      const ok=sel.length && sel.slice().sort().join(",")===cs.slice().sort().join(",");
+      if(ok){ correct++; if(perSec[sec]) perSec[sec].c++; }
+    });
+    const pct=Math.round(correct/S.total*100);
+    let html='<h2 class="qtitle">Exam Results</h2>';
+    if(timedOut) html+='<p style="text-align:center;color:var(--bad)">⏰ Time expired — your exam was submitted automatically.</p>';
+    html+='<div class="card" style="text-align:center"><div class="score">'+pct+'%</div>'+
+      '<div class="statline" style="justify-content:center"><span><b>'+correct+'</b>/'+S.total+' correct</span><span>'+answered+' answered</span><span>'+(S.total-answered)+' skipped</span>'+
+      (S.examLeft!=null?'<span>Time used: '+fmt((S.mode==="full"?230*60:(S.startLimit||0))- (S.examLeft||0))+'</span>':'')+'</div>';
+    if(S.mode==="full"){ html+='<div class="statline" style="justify-content:center;margin-top:8px">'+perSec.map((p,i)=>'<span>Section '+(i+1)+': '+p.c+'/'+p.n+'</span>').join("")+'</div>'; }
+    html+='</div>';
+    html+='<div class="row" style="margin:8px 0 14px"><button class="btn" id="toggleRev" style="background:var(--accent);color:#fff;border:none">Show question review</button><button class="primary" id="again">New test</button> <a class="link" href="index.html" style="align-self:center">🏠 Home</a></div>';
+    html+='<div id="reviewList" class="hide"></div>';
+    document.getElementById("stage").innerHTML=html;
+    document.getElementById("again").onclick=()=>renderConfig();
+    document.getElementById("toggleRev").onclick=function(){
+      const box=document.getElementById("reviewList");
+      if(!box.dataset.built){ box.innerHTML=buildReviewList(); box.dataset.built="1"; }
+      box.classList.toggle("hide"); this.textContent=box.classList.contains("hide")?"Show question review":"Hide question review";
+    };
+  }
+  function buildReviewList(){
+    let out="";
+    S.order.forEach(function(bi,gi){
+      const q=BANK[bi]; const cs=correctSet(q); const sel=S.answers[gi]||[];
+      const ok=sel.length && sel.slice().sort().join(",")===cs.slice().sort().join(",");
+      const tag= !sel.length?'<span class="tag skip">Skipped</span>':(ok?'<span class="tag ok">Correct</span>':'<span class="tag no">Incorrect</span>');
+      out+='<div class="rev-q"><div style="display:flex;justify-content:space-between;gap:8px"><span class="qn">Q'+(gi+1)+'</span>'+tag+'</div>'+
+        '<div style="margin:6px 0">'+esc(q.question)+'</div>'+
+        '<div>Your answer: <b>'+(sel.join(", ")||"—")+'</b> · Correct: <b style="color:var(--good)">'+esc(q.correct_answer)+'</b></div>'+
+        '<div style="margin-top:6px;color:var(--muted);font-size:13px">'+esc(q.explanation)+'</div></div>';
+    });
+    return out;
+  }
+
+  // ---------- config screen ----------
+  function renderConfig(){
+    if(tick){ clearInterval(tick); tick=null; } S=null;
+    document.getElementById("subbar").style.display="none";
+    document.getElementById("footer").style.display="none";
+    document.getElementById("counter").textContent="";
+    document.getElementById("stage").innerHTML=
+      '<h2 class="qtitle">Choose your test mode</h2>'+
+      '<div class="modegrid">'+
+        '<div class="mode" id="mFull"><h3>📝 Full Exam</h3>'+
+          '<div>230 minutes · 180 questions · answers hidden until the end.</div>'+
+          '<ul><li>3 sections of 60 questions</li><li>10-minute break between sections (clock paused)</li><li>End-of-section review; no return after ending a section</li><li>Up to 250 min total if both breaks are taken</li></ul>'+
+          '<div style="margin-top:14px"><button class="primary" id="startFull">Start full exam →</button></div></div>'+
+        '<div class="mode" id="mRandom"><h3>🎲 Random Q&amp;A</h3>'+
+          '<div>Pick how many questions, a time limit, and whether to show answers.</div>'+
+          '<label class="f">Number of questions</label><input type="number" id="rNum" value="30" min="1" max="200" />'+
+          '<label class="f">Time limit (minutes, 0 = no limit)</label><input type="number" id="rMin" value="40" min="0" max="400" />'+
+          '<label class="f"><input type="checkbox" id="rShow" /> Show answer &amp; explanation after each question</label>'+
+          '<div style="margin-top:14px"><button class="primary" id="startRandom">Start random test →</button></div></div>'+
+      '</div>'+
+      '<p style="color:var(--muted);font-size:13px;margin-top:18px">Question bank: <b>'+BANK.length+'</b> questions (from the 200 practice set). Use the Color Scheme menu (top-right) to change appearance.</p>';
+    document.getElementById("startFull").onclick=()=>ask("Start the full 230-minute, 180-question exam?",startFull,"Start");
+    document.getElementById("startRandom").onclick=function(){
+      const num=Math.max(1,Math.min(BANK.length,parseInt(document.getElementById("rNum").value,10)||30));
+      const mins=Math.max(0,parseInt(document.getElementById("rMin").value,10)||0);
+      const showA=document.getElementById("rShow").checked;
+      startRandom(num,mins,showA);
+    };
+  }
+
+  // ---------- load ----------
+  function init(data){ BANK=data.slice(); renderConfig(); }
+  fetch("qa_dataset.json").then(r=>{ if(!r.ok) throw 0; return r.json(); }).then(init).catch(function(){
+    document.getElementById("stage").innerHTML='<div class="card"><h3>Load question bank</h3><p>Could not auto-load <code>qa_dataset.json</code>. Pick the file:</p><input type="file" id="fp" accept=".json" /></div>';
+    document.getElementById("fp").addEventListener("change",function(e){ const f=e.target.files[0]; if(!f)return; const rd=new FileReader(); rd.onload=()=>{ try{ init(JSON.parse(rd.result)); }catch(err){ alert("Invalid JSON"); } }; rd.readAsText(f); });
+  });
+
+  // track time-used baseline for random
+  const _sr=startRandom;
+  startRandom=function(n,m,s){ _sr(n,m,s); if(S) S.startLimit=(m>0?m*60:null); };
+})();
+</script>
+</body>
+</html>
