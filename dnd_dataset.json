@@ -1019,7 +1019,7 @@
       "Transfer"
     ],
     "explanation": "Removing the risk entirely = Avoid; assigning to a third party (insurance) = Transfer; acknowledging but not acting unless it happens = Accept; reducing probability/impact = Mitigate; pushing to higher authority = Escalate. (Avoid removes the risk; Mitigate only reduces it.)",
-    "video_time": 2753
+    "video_time": 2772
   },
   {
     "number": 32,
@@ -1046,7 +1046,7 @@
       "Histogram Analysis"
     ],
     "explanation": "Detail now, defer long-term detail = rolling wave planning; must/should/could/won't = MoSCoW; a histogram (bar chart) shows resource allocation over time.",
-    "video_time": 2813
+    "video_time": 2851
   },
   {
     "number": 33,
@@ -1073,7 +1073,7 @@
       "Hybrid"
     ],
     "explanation": "Sprint planning = agile; finalizing/approving scope upfront = traditional; short iterations plus detailed phase planning = hybrid.",
-    "video_time": 2873
+    "video_time": 2931
   },
   {
     "number": 34,
@@ -1110,7 +1110,7 @@
       "Adjourning"
     ],
     "explanation": "Meeting/understanding = Forming; internal conflicts = Storming; norms/harmony = Norming; efficient work = Performing; ending/parting = Adjourning.",
-    "video_time": 2933
+    "video_time": 3010
   },
   {
     "number": 35,
@@ -1147,7 +1147,7 @@
       "Missed Deadlines"
     ],
     "explanation": "Disengaged = low engagement; late tasks = missed deadlines; lacking skills = insufficient expertise; overlapping/confused roles = unclear responsibilities; unresolved disagreements = ongoing disputes.",
-    "video_time": 2993
+    "video_time": 3089
   },
   {
     "number": 36,
@@ -1174,7 +1174,7 @@
       "Hybrid"
     ],
     "explanation": "Milestone charts (planned milestones upfront) = traditional; continuous integration = agile; managing both flexible and fixed scope = hybrid.",
-    "video_time": 3053
+    "video_time": 3169
   },
   {
     "number": 37,
@@ -1206,7 +1206,7 @@
       "External"
     ],
     "explanation": "Integration/testing/validation = Technical; cost/ROI/market = Commercial; timelines/tracking/resources = Management; partnerships/regulations/outside factors = External.",
-    "video_time": 3113
+    "video_time": 3248
   },
   {
     "number": 38,
@@ -1233,7 +1233,7 @@
       "Hybrid"
     ],
     "explanation": "Retrospectives = agile; combining agile iteration with traditional practices = hybrid; CPM = traditional.",
-    "video_time": 3173
+    "video_time": 3327
   },
   {
     "number": 39,
@@ -1270,7 +1270,7 @@
       "Resource Management"
     ],
     "explanation": "Capturing/sharing knowledge = knowledge management; standardizing PM = PMO; oversight roles/processes = governance framework; shared values/norms = organizational culture; deploying resources = resource management.",
-    "video_time": 3233
+    "video_time": 3407
   },
   {
     "number": 40,
@@ -1302,6 +1302,1909 @@
       "Introversion (I)"
     ],
     "explanation": "Detailed plans/deadlines/order = Judging; connecting with others = Feeling; debating/brainstorming with others = Extroversion; methodical, data-driven, prefers working alone = Introversion.",
-    "video_time": 3293
+    "video_time": 3486
+  },
+  {
+    "number": 41,
+    "prompt": "Match each item to the methodology that uses it.",
+    "left_label": "Item",
+    "right_label": "Methodology",
+    "items": [
+      {
+        "text": "Sprint Retrospective",
+        "answer": "Agile"
+      },
+      {
+        "text": "PERT Analysis",
+        "answer": "Traditional"
+      },
+      {
+        "text": "Product Backlog / Scope Statement",
+        "answer": "Hybrid"
+      }
+    ],
+    "options": [
+      "Agile",
+      "Traditional",
+      "Hybrid"
+    ],
+    "explanation": "Retrospectives = agile; PERT = traditional; a product backlog paired with a scope statement = hybrid.",
+    "video_time": 3565
+  },
+  {
+    "number": 42,
+    "prompt": "Match each description to the MBTI indicator.",
+    "left_label": "Description",
+    "right_label": "Type",
+    "items": [
+      {
+        "text": "John enjoys thinking about the big picture and future possibilities; innovative and abstract.",
+        "answer": "Intuition (N)"
+      },
+      {
+        "text": "Emily is empathetic, values team harmony, and creates a supportive environment.",
+        "answer": "Feeling (F)"
+      },
+      {
+        "text": "Alex is adaptable, keeps options open, and is comfortable with last-minute changes.",
+        "answer": "Perceiving (P)"
+      },
+      {
+        "text": "Michael works independently, needs quiet reflection, and prefers one-on-one communication.",
+        "answer": "Introversion (I)"
+      }
+    ],
+    "options": [
+      "Intuition (N)",
+      "Feeling (F)",
+      "Perceiving (P)",
+      "Introversion (I)"
+    ],
+    "explanation": "Big-picture/abstract = Intuition; empathy/harmony = Feeling; flexible/options-open = Perceiving; independent/quiet = Introversion.",
+    "video_time": 3645
+  },
+  {
+    "number": 43,
+    "prompt": "Match each description to the MBTI indicator.",
+    "left_label": "Description",
+    "right_label": "Type",
+    "items": [
+      {
+        "text": "Makes decisions based on logical analysis and objective criteria.",
+        "answer": "Thinking (T)"
+      },
+      {
+        "text": "Prefers brainstorming sessions and group discussions.",
+        "answer": "Extraversion (E)"
+      },
+      {
+        "text": "Focuses on abstract ideas and future possibilities.",
+        "answer": "Intuition (N)"
+      },
+      {
+        "text": "Enjoys detailed project plans and sticking to schedules.",
+        "answer": "Judging (J)"
+      },
+      {
+        "text": "Enjoys working alone and thinking through problems internally.",
+        "answer": "Introversion (I)"
+      },
+      {
+        "text": "Focuses on concrete information and practical solutions.",
+        "answer": "Sensing (S)"
+      },
+      {
+        "text": "Likes to keep options open and adapt as the project progresses.",
+        "answer": "Perceiving (P)"
+      },
+      {
+        "text": "Makes decisions based on values and impact on people.",
+        "answer": "Feeling (F)"
+      }
+    ],
+    "options": [
+      "Extraversion (E)",
+      "Introversion (I)",
+      "Sensing (S)",
+      "Intuition (N)",
+      "Thinking (T)",
+      "Feeling (F)",
+      "Judging (J)",
+      "Perceiving (P)"
+    ],
+    "explanation": "The four MBTI dichotomies: E/I energy, S/N information, T/F decisions, J/P lifestyle.",
+    "video_time": 3724
+  },
+  {
+    "number": 44,
+    "prompt": "Match each risk category to its description.",
+    "left_label": "Description",
+    "right_label": "Risk Category",
+    "items": [
+      {
+        "text": "Deals with the development and implementation of technology solutions.",
+        "answer": "Technical"
+      },
+      {
+        "text": "Addresses the buying, selling, and economic aspects of the project.",
+        "answer": "Commercial"
+      },
+      {
+        "text": "Involves leadership and direction to meet project objectives.",
+        "answer": "Management"
+      },
+      {
+        "text": "Includes regulatory, environmental, and socio-political factors.",
+        "answer": "External"
+      }
+    ],
+    "options": [
+      "Technical",
+      "Commercial",
+      "Management",
+      "External"
+    ],
+    "explanation": "Technology = Technical; money/economics = Commercial; leadership/direction = Management; outside factors = External.",
+    "video_time": 3803
+  },
+  {
+    "number": 45,
+    "prompt": "Match each agile term to its description.",
+    "left_label": "Description",
+    "right_label": "Term",
+    "items": [
+      {
+        "text": "List of criteria that a product should meet.",
+        "answer": "DoD (Definition of Done)"
+      },
+      {
+        "text": "Capturing user requirements in non-technical language.",
+        "answer": "User Stories"
+      },
+      {
+        "text": "High-level description of the long-term goals and purpose of the product.",
+        "answer": "Product Vision"
+      }
+    ],
+    "options": [
+      "Product Vision",
+      "DoD (Definition of Done)",
+      "User Stories"
+    ],
+    "explanation": "Completion criteria = Definition of Done; plain-language requirements = User Stories; long-term goals = Product Vision.",
+    "video_time": 3883
+  },
+  {
+    "number": 46,
+    "prompt": "Match each task to the collaboration tool that best supports it.",
+    "left_label": "Task",
+    "right_label": "Tool",
+    "items": [
+      {
+        "text": "Conduct virtual meetings and presentations with stakeholders in different locations.",
+        "answer": "Video Conferencing"
+      },
+      {
+        "text": "Facilitate quick, real-time communication and brainstorming among team members.",
+        "answer": "Chat Rooms"
+      },
+      {
+        "text": "Manage changes to documents and code, ensuring everyone uses the latest versions.",
+        "answer": "Version Control System"
+      },
+      {
+        "text": "Post project updates and announcements for the team to access asynchronously.",
+        "answer": "Online Bulletin Boards"
+      },
+      {
+        "text": "Track project progress, assign tasks, and manage deadlines.",
+        "answer": "Project Management Software"
+      }
+    ],
+    "options": [
+      "Video Conferencing",
+      "Chat Rooms",
+      "Version Control System",
+      "Online Bulletin Boards",
+      "Project Management Software"
+    ],
+    "explanation": "Virtual meetings = video conferencing; real-time chat = chat rooms; version consistency = version control; async announcements = bulletin boards; tasks/deadlines = PM software.",
+    "video_time": 3962
+  },
+  {
+    "number": 47,
+    "prompt": "Match each agile meeting to its description.",
+    "left_label": "Description",
+    "right_label": "Meeting",
+    "items": [
+      {
+        "text": "The team demonstrates the work completed during the sprint to stakeholders.",
+        "answer": "Sprint Review"
+      },
+      {
+        "text": "Team members discuss progress, impediments, and plans.",
+        "answer": "Daily Standup"
+      },
+      {
+        "text": "The team defines the work to be accomplished in the upcoming sprint.",
+        "answer": "Sprint Planning"
+      },
+      {
+        "text": "The team reflects on the past sprint to identify improvements.",
+        "answer": "Sprint Retrospective"
+      }
+    ],
+    "options": [
+      "Daily Standup",
+      "Sprint Retrospective",
+      "Sprint Review",
+      "Sprint Planning"
+    ],
+    "explanation": "Demo = Sprint Review; daily progress = Daily Standup; plan upcoming work = Sprint Planning; reflect = Retrospective.",
+    "video_time": 4042
+  },
+  {
+    "number": 48,
+    "prompt": "Match each scenario to the technical practice/tool.",
+    "left_label": "Scenario",
+    "right_label": "Practice",
+    "items": [
+      {
+        "text": "Visualizing the project schedule, showing task durations and dependencies.",
+        "answer": "Gantt Chart"
+      },
+      {
+        "text": "Reviewing and approving changes to the project scope, schedule, or budget.",
+        "answer": "CCB (Change Control Board)"
+      },
+      {
+        "text": "Defining roles and responsibilities for project tasks and deliverables.",
+        "answer": "RACI Chart"
+      },
+      {
+        "text": "Documenting what went well and what didn't at the end of a project phase.",
+        "answer": "Lessons Learned"
+      }
+    ],
+    "options": [
+      "RACI Chart",
+      "Gantt Chart",
+      "CCB (Change Control Board)",
+      "Lessons Learned"
+    ],
+    "explanation": "Schedule = Gantt; approving changes = CCB; roles = RACI; what went well/wrong = Lessons Learned.",
+    "video_time": 4103
+  },
+  {
+    "number": 49,
+    "prompt": "Match each description to the interpersonal skill.",
+    "left_label": "Description",
+    "right_label": "Interpersonal Skill",
+    "items": [
+      {
+        "text": "Paying full attention and understanding the speaker's message.",
+        "answer": "Active Listening"
+      },
+      {
+        "text": "Addressing and managing disagreements effectively.",
+        "answer": "Conflict Resolution"
+      },
+      {
+        "text": "Reaching mutually acceptable agreements among parties.",
+        "answer": "Negotiation"
+      },
+      {
+        "text": "Persuading others to support a course of action.",
+        "answer": "Influencing"
+      },
+      {
+        "text": "Recognizing and managing one's own emotions and the emotions of others.",
+        "answer": "Emotional Intelligence"
+      }
+    ],
+    "options": [
+      "Influencing",
+      "Emotional Intelligence",
+      "Conflict Resolution",
+      "Active Listening",
+      "Negotiation"
+    ],
+    "explanation": "Full attention = active listening; managing disagreements = conflict resolution; mutual agreement = negotiation; persuading = influencing; managing emotions = emotional intelligence.",
+    "video_time": 4164
+  },
+  {
+    "number": 50,
+    "prompt": "Match each responsibility to the Scrum role.",
+    "left_label": "Responsibility",
+    "right_label": "Role",
+    "items": [
+      {
+        "text": "Removes impediments that hinder the team's progress.",
+        "answer": "Scrum Master"
+      },
+      {
+        "text": "Self-organizes to complete the sprint goal.",
+        "answer": "Development Team"
+      },
+      {
+        "text": "Prioritizes the backlog items.",
+        "answer": "Product Owner"
+      }
+    ],
+    "options": [
+      "Development Team",
+      "Product Owner",
+      "Scrum Master"
+    ],
+    "explanation": "Removing impediments = scrum master; self-organizing = development team; prioritizing backlog = product owner.",
+    "video_time": 4226
+  },
+  {
+    "number": 51,
+    "prompt": "Match each item to the methodology it describes.",
+    "left_label": "Item",
+    "right_label": "Methodology",
+    "items": [
+      {
+        "text": "Early on, the PM and team identify risks, document them in the risk register, and develop mitigation strategies.",
+        "answer": "Traditional"
+      },
+      {
+        "text": "The PM uses integrated change control for the installation and a product backlog for development.",
+        "answer": "Hybrid"
+      },
+      {
+        "text": "Midway through the sprint, the product owner and team review the upcoming user stories.",
+        "answer": "Agile"
+      }
+    ],
+    "options": [
+      "Agile",
+      "Traditional",
+      "Hybrid"
+    ],
+    "explanation": "Upfront risk planning = traditional; change control + backlog = hybrid; sprint/user stories = agile.",
+    "video_time": 4287
+  },
+  {
+    "number": 52,
+    "prompt": "Match each scenario to the agile meeting.",
+    "left_label": "Scenario",
+    "right_label": "Meeting",
+    "items": [
+      {
+        "text": "At the start of a new iteration, the team decides on tasks, reviews priorities, and assigns responsibilities.",
+        "answer": "Sprint Planning"
+      },
+      {
+        "text": "During the iteration, the product owner and team refine the upcoming work and clarify user stories.",
+        "answer": "Backlog Refinement"
+      },
+      {
+        "text": "The team reflects on the past cycle to discuss successes, challenges, and improvements.",
+        "answer": "Retrospective"
+      }
+    ],
+    "options": [
+      "Retrospective",
+      "Sprint Planning",
+      "Backlog Refinement"
+    ],
+    "explanation": "Deciding next iteration's work = sprint planning; refining upcoming backlog = backlog refinement; reflecting = retrospective.",
+    "video_time": 4349
+  },
+  {
+    "number": 53,
+    "prompt": "Match each term to its description.",
+    "left_label": "Description",
+    "right_label": "Term",
+    "items": [
+      {
+        "text": "People start to fully apply themselves to a task just before the deadline.",
+        "answer": "Student Syndrome"
+      },
+      {
+        "text": "Work expands to fill the time available for its completion.",
+        "answer": "Parkinson's Law"
+      },
+      {
+        "text": "Team members pad their estimates to protect themselves from potential delays.",
+        "answer": "Self-Protection"
+      },
+      {
+        "text": "A delay or failure occurs when responsibility is transferred between team members.",
+        "answer": "Dropped Baton"
+      }
+    ],
+    "options": [
+      "Student Syndrome",
+      "Dropped Baton",
+      "Parkinson's Law",
+      "Self-Protection"
+    ],
+    "explanation": "Last-minute effort = Student Syndrome; work fills time = Parkinson's Law; padding estimates = Self-Protection; handover failure = Dropped Baton.",
+    "video_time": 4404
+  },
+  {
+    "number": 54,
+    "prompt": "Match each tool to its description.",
+    "left_label": "Description",
+    "right_label": "Tool",
+    "items": [
+      {
+        "text": "Measuring project performance and progress against the plan.",
+        "answer": "EVM (Earned Value Management)"
+      },
+      {
+        "text": "Breaking down project deliverables into manageable tasks.",
+        "answer": "WBS (Work Breakdown Structure)"
+      },
+      {
+        "text": "Adjusting task assignments so no one is overloaded.",
+        "answer": "Resource Leveling"
+      }
+    ],
+    "options": [
+      "EVM (Earned Value Management)",
+      "WBS (Work Breakdown Structure)",
+      "Resource Leveling"
+    ],
+    "explanation": "Performance vs plan = EVM; decomposing deliverables = WBS; balancing assignments = resource leveling.",
+    "video_time": 4460
+  },
+  {
+    "number": 55,
+    "prompt": "Match each term to its description.",
+    "left_label": "Description",
+    "right_label": "Term",
+    "items": [
+      {
+        "text": "Team members inflate time estimates to safeguard against unforeseen delays.",
+        "answer": "Self-Protection"
+      },
+      {
+        "text": "Delays or issues arising from inadequate handover of responsibilities between members.",
+        "answer": "Dropped Baton"
+      },
+      {
+        "text": "Starting a task late due to waiting until the last minute, resulting in a rush.",
+        "answer": "Student Syndrome"
+      },
+      {
+        "text": "The duration of work expands to match the time allotted for its completion.",
+        "answer": "Parkinson's Law"
+      }
+    ],
+    "options": [
+      "Student Syndrome",
+      "Dropped Baton",
+      "Parkinson's Law",
+      "Self-Protection"
+    ],
+    "explanation": "Inflating estimates = Self-Protection; handover delays = Dropped Baton; last-minute start = Student Syndrome; work fills the time = Parkinson's Law.",
+    "video_time": 4516
+  },
+  {
+    "number": 56,
+    "prompt": "Match each agile meeting to its description.",
+    "left_label": "Description",
+    "right_label": "Meeting",
+    "items": [
+      {
+        "text": "Showcases the work done during the sprint and gathers feedback.",
+        "answer": "Sprint Review"
+      },
+      {
+        "text": "Held after a sprint to discuss what went well, what didn't, and how to improve.",
+        "answer": "Sprint Retrospective"
+      },
+      {
+        "text": "The team plans and commits to the work for the upcoming sprint.",
+        "answer": "Sprint Planning"
+      },
+      {
+        "text": "Meeting for the team to update on progress and discuss any blockers.",
+        "answer": "Daily Standup"
+      }
+    ],
+    "options": [
+      "Daily Standup",
+      "Sprint Retrospective",
+      "Sprint Review",
+      "Sprint Planning"
+    ],
+    "explanation": "Showcase/feedback = Sprint Review; improve process = Retrospective; commit to next sprint = Sprint Planning; daily progress = Daily Standup.",
+    "video_time": 4572
+  },
+  {
+    "number": 57,
+    "prompt": "Match each description to the organizational structure.",
+    "left_label": "Description",
+    "right_label": "Structure",
+    "items": [
+      {
+        "text": "Project managers have a little more power than the functional manager.",
+        "answer": "Strong Matrix"
+      },
+      {
+        "text": "Team members have dual reporting lines.",
+        "answer": "Matrix Structure"
+      },
+      {
+        "text": "Departments operate independently.",
+        "answer": "Functional Structure"
+      },
+      {
+        "text": "Project managers coordinate but functional managers retain control.",
+        "answer": "Weak Matrix"
+      },
+      {
+        "text": "Employees are dedicated to projects and report to project managers.",
+        "answer": "Projectized Structure"
+      }
+    ],
+    "options": [
+      "Projectized Structure",
+      "Weak Matrix",
+      "Functional Structure",
+      "Matrix Structure",
+      "Strong Matrix"
+    ],
+    "explanation": "PM > functional power = Strong Matrix; dual reporting = Matrix; independent departments = Functional; PM coordinates only = Weak Matrix; dedicated to PM = Projectized.",
+    "video_time": 4628
+  },
+  {
+    "number": 58,
+    "prompt": "Match each document/tool to its description.",
+    "left_label": "Description",
+    "right_label": "Document",
+    "items": [
+      {
+        "text": "Defining and controlling project parameters.",
+        "answer": "Scope Baseline"
+      },
+      {
+        "text": "Documenting insights for future reference.",
+        "answer": "Lessons Learned Register"
+      },
+      {
+        "text": "Identifying and understanding stakeholders' interests and impacts.",
+        "answer": "Stakeholder Analysis"
+      }
+    ],
+    "options": [
+      "Scope Baseline",
+      "Lessons Learned Register",
+      "Stakeholder Analysis"
+    ],
+    "explanation": "Defining/controlling scope = scope baseline; capturing insights = lessons learned register; understanding stakeholders = stakeholder analysis.",
+    "video_time": 4683
+  },
+  {
+    "number": 59,
+    "prompt": "Match each agile artifact to its description.",
+    "left_label": "Description",
+    "right_label": "Document",
+    "items": [
+      {
+        "text": "Understand the value.",
+        "answer": "User Stories"
+      },
+      {
+        "text": "What completed work means.",
+        "answer": "DoD (Definition of Done)"
+      },
+      {
+        "text": "Long-term objectives.",
+        "answer": "Product Vision"
+      }
+    ],
+    "options": [
+      "Product Vision",
+      "User Stories",
+      "DoD (Definition of Done)"
+    ],
+    "explanation": "Value = user stories; what done means = Definition of Done; long-term objectives = product vision.",
+    "video_time": 4739
+  },
+  {
+    "number": 60,
+    "prompt": "Match each agile meeting to its action.",
+    "left_label": "Action",
+    "right_label": "Meeting",
+    "items": [
+      {
+        "text": "Present completed work to stakeholders for feedback.",
+        "answer": "Sprint Review"
+      },
+      {
+        "text": "Outline and agree on the tasks for the next sprint.",
+        "answer": "Sprint Planning"
+      },
+      {
+        "text": "Share updates and identify any obstacles.",
+        "answer": "Daily Standup"
+      },
+      {
+        "text": "Reflect on the team's processes and outcomes.",
+        "answer": "Sprint Retrospective"
+      }
+    ],
+    "options": [
+      "Daily Standup",
+      "Sprint Retrospective",
+      "Sprint Review",
+      "Sprint Planning"
+    ],
+    "explanation": "Present work = Sprint Review; agree next tasks = Sprint Planning; updates/obstacles = Daily Standup; reflect = Retrospective.",
+    "video_time": 4795
+  },
+  {
+    "number": 61,
+    "prompt": "Match each risk response to the action that describes it.",
+    "left_label": "Action",
+    "right_label": "Risk Response",
+    "items": [
+      {
+        "text": "Take steps to reduce the likelihood or impact of the risk.",
+        "answer": "Mitigate"
+      },
+      {
+        "text": "Acknowledge the risk without taking action, allowing the project to continue.",
+        "answer": "Accept"
+      },
+      {
+        "text": "Shift the impact of the risk to a third party, typically through insurance or outsourcing.",
+        "answer": "Transfer"
+      },
+      {
+        "text": "Alter the project plan to eliminate the risk entirely.",
+        "answer": "Avoid"
+      },
+      {
+        "text": "Raise the risk to a higher authority when it exceeds the PM's control.",
+        "answer": "Escalate"
+      }
+    ],
+    "options": [
+      "Accept",
+      "Mitigate",
+      "Avoid",
+      "Escalate",
+      "Transfer"
+    ],
+    "explanation": "Reduce probability/impact = Mitigate; acknowledge, no action = Accept; shift to third party = Transfer; eliminate = Avoid; push to higher authority = Escalate.",
+    "video_time": 4851
+  },
+  {
+    "number": 62,
+    "prompt": "Match each term to its description.",
+    "left_label": "Description",
+    "right_label": "Term",
+    "items": [
+      {
+        "text": "Regular updates and involvement for key stakeholders.",
+        "answer": "Stakeholder Engagement"
+      },
+      {
+        "text": "Formal process for submitting and approving change requests.",
+        "answer": "Change Control System"
+      },
+      {
+        "text": "Hierarchy and reporting relationships outlined.",
+        "answer": "Organizational Structure"
+      },
+      {
+        "text": "Regular risk assessments and mitigation plans in place.",
+        "answer": "Risk Management Framework"
+      },
+      {
+        "text": "Formal approvals required before starting tasks.",
+        "answer": "Work Authorization System"
+      }
+    ],
+    "options": [
+      "Stakeholder Engagement",
+      "Organizational Structure",
+      "Work Authorization System",
+      "Change Control System",
+      "Risk Management Framework"
+    ],
+    "explanation": "Engaging stakeholders = stakeholder engagement; approving changes = change control system; hierarchy/reporting = organizational structure; risk processes = risk management framework; authorizing work = work authorization system.",
+    "video_time": 4907
+  },
+  {
+    "number": 63,
+    "prompt": "Match each item to the methodology that uses it.",
+    "left_label": "Item",
+    "right_label": "Methodology",
+    "items": [
+      {
+        "text": "Iterative / Incremental Development",
+        "answer": "Hybrid"
+      },
+      {
+        "text": "Burn Down Chart",
+        "answer": "Agile"
+      },
+      {
+        "text": "Scope Baseline",
+        "answer": "Traditional"
+      }
+    ],
+    "options": [
+      "Agile",
+      "Traditional",
+      "Hybrid"
+    ],
+    "explanation": "A burn down chart is agile and a scope baseline is traditional; the remaining item is sorted into hybrid.",
+    "video_time": 4945
+  },
+  {
+    "number": 64,
+    "prompt": "Match each item to the methodology that uses it.",
+    "left_label": "Item",
+    "right_label": "Methodology",
+    "items": [
+      {
+        "text": "Risk Register",
+        "answer": "Traditional"
+      },
+      {
+        "text": "Adaptive Planning",
+        "answer": "Agile"
+      },
+      {
+        "text": "Balanced Team Structure",
+        "answer": "Hybrid"
+      }
+    ],
+    "options": [
+      "Agile",
+      "Traditional",
+      "Hybrid"
+    ],
+    "explanation": "Risk register = traditional; adaptive planning = agile; balanced team structure = hybrid.",
+    "video_time": 4983
+  },
+  {
+    "number": 65,
+    "prompt": "Match each item to the methodology that uses it.",
+    "left_label": "Item",
+    "right_label": "Methodology",
+    "items": [
+      {
+        "text": "Tailored Approaches",
+        "answer": "Hybrid"
+      },
+      {
+        "text": "CPM (Critical Path Method)",
+        "answer": "Traditional"
+      },
+      {
+        "text": "Product Backlog",
+        "answer": "Agile"
+      }
+    ],
+    "options": [
+      "Agile",
+      "Traditional",
+      "Hybrid"
+    ],
+    "explanation": "Tailoring/blending = hybrid; CPM = traditional; product backlog = agile.",
+    "video_time": 5021
+  },
+  {
+    "number": 66,
+    "prompt": "Match each risk example to its category.",
+    "left_label": "Example",
+    "right_label": "Risk Category",
+    "items": [
+      {
+        "text": "Issues with software or hardware integration.",
+        "answer": "Technical"
+      },
+      {
+        "text": "Currency exchange rate volatility.",
+        "answer": "Commercial"
+      },
+      {
+        "text": "Inadequate resource allocation.",
+        "answer": "Management"
+      },
+      {
+        "text": "Natural disasters or extreme weather events.",
+        "answer": "External"
+      }
+    ],
+    "options": [
+      "Technical",
+      "Commercial",
+      "Management",
+      "External"
+    ],
+    "explanation": "Integration = Technical; currency = Commercial; resourcing = Management; weather = External.",
+    "video_time": 5059
+  },
+  {
+    "number": 67,
+    "prompt": "Match each responsibility to the Scrum role.",
+    "left_label": "Responsibility",
+    "right_label": "Role",
+    "items": [
+      {
+        "text": "Designs and develops features according to the backlog.",
+        "answer": "Development Team"
+      },
+      {
+        "text": "Ensures that the team adheres to Scrum practices.",
+        "answer": "Scrum Master"
+      },
+      {
+        "text": "Creates and maintains the product backlog.",
+        "answer": "Product Owner"
+      }
+    ],
+    "options": [
+      "Development Team",
+      "Product Owner",
+      "Scrum Master"
+    ],
+    "explanation": "Building features = development team; enforcing Scrum = scrum master; owning backlog = product owner.",
+    "video_time": 5097
+  },
+  {
+    "number": 68,
+    "prompt": "Match each term to its description.",
+    "left_label": "Description",
+    "right_label": "Term",
+    "items": [
+      {
+        "text": "Adding extra time to estimates to avoid potential overruns.",
+        "answer": "Self-Protection"
+      },
+      {
+        "text": "Issues arise due to poor handoff or transition of tasks between individuals.",
+        "answer": "Dropped Baton"
+      },
+      {
+        "text": "The time required for a task will expand to the amount of time available.",
+        "answer": "Parkinson's Law"
+      },
+      {
+        "text": "Procrastinating until the deadline is near before beginning a task.",
+        "answer": "Student Syndrome"
+      }
+    ],
+    "options": [
+      "Student Syndrome",
+      "Dropped Baton",
+      "Parkinson's Law",
+      "Self-Protection"
+    ],
+    "explanation": "Buffering = Self-Protection; handoff problems = Dropped Baton; work fills time = Parkinson's Law; procrastination = Student Syndrome.",
+    "video_time": 5135
+  },
+  {
+    "number": 69,
+    "prompt": "Match each risk category to its description.",
+    "left_label": "Description",
+    "right_label": "Risk Category",
+    "items": [
+      {
+        "text": "Involves the application of specialized knowledge and skills to achieve project goals.",
+        "answer": "Technical"
+      },
+      {
+        "text": "Focuses on market conditions, customer needs, and financial viability.",
+        "answer": "Commercial"
+      },
+      {
+        "text": "Encompasses the planning, organizing, and controlling of project resources.",
+        "answer": "Management"
+      },
+      {
+        "text": "Concerns factors outside the project that can influence its success.",
+        "answer": "External"
+      }
+    ],
+    "options": [
+      "Technical",
+      "Commercial",
+      "Management",
+      "External"
+    ],
+    "explanation": "Specialized knowledge = Technical; market/financial = Commercial; planning/organizing = Management; outside factors = External.",
+    "video_time": 5173
+  },
+  {
+    "number": 70,
+    "prompt": "Match each impediment to its description.",
+    "left_label": "Description",
+    "right_label": "Impediment",
+    "items": [
+      {
+        "text": "Team members are unsure of project expectations.",
+        "answer": "Lack of Clear Requirements"
+      },
+      {
+        "text": "Insufficient resources to complete tasks.",
+        "answer": "Resource Shortage"
+      },
+      {
+        "text": "Uncontrolled changes or continuous growth in project scope.",
+        "answer": "Scope Creep"
+      },
+      {
+        "text": "Team members are not effectively sharing information.",
+        "answer": "Communication Breakdown"
+      },
+      {
+        "text": "An identified risk has materialized and is impacting the project.",
+        "answer": "Risk Realization"
+      }
+    ],
+    "options": [
+      "Risk Realization",
+      "Scope Creep",
+      "Resource Shortage",
+      "Lack of Clear Requirements",
+      "Communication Breakdown"
+    ],
+    "explanation": "Unclear expectations = lack of clear requirements; not enough resources = resource shortage; uncontrolled growth = scope creep; poor info flow = communication breakdown; materialized risk = risk realization.",
+    "video_time": 5211
+  },
+  {
+    "number": 71,
+    "prompt": "Match each impediment to its description.",
+    "left_label": "Description",
+    "right_label": "Impediment",
+    "items": [
+      {
+        "text": "Team members are unsure of project expectations.",
+        "answer": "Lack of Clear Requirements"
+      },
+      {
+        "text": "Insufficient resources to complete tasks.",
+        "answer": "Resource Shortage"
+      },
+      {
+        "text": "Uncontrolled changes or continuous growth in project scope.",
+        "answer": "Scope Creep"
+      },
+      {
+        "text": "Team members are not effectively sharing information.",
+        "answer": "Communication Breakdown"
+      },
+      {
+        "text": "An identified risk has materialized and is impacting the project.",
+        "answer": "Risk Realization"
+      }
+    ],
+    "options": [
+      "Risk Realization",
+      "Scope Creep",
+      "Resource Shortage",
+      "Lack of Clear Requirements",
+      "Communication Breakdown"
+    ],
+    "explanation": "Unclear expectations = lack of clear requirements; not enough resources = resource shortage; uncontrolled growth = scope creep; poor info flow = communication breakdown; materialized risk = risk realization.",
+    "video_time": 5263
+  },
+  {
+    "number": 72,
+    "prompt": "Match each risk response to the action that describes it.",
+    "left_label": "Action",
+    "right_label": "Risk Response",
+    "items": [
+      {
+        "text": "Change the project plan to eliminate the risk.",
+        "answer": "Avoid"
+      },
+      {
+        "text": "Transfer the responsibility of the risk to a higher authority.",
+        "answer": "Escalate"
+      },
+      {
+        "text": "Acknowledge the risk but take no immediate action unless it occurs.",
+        "answer": "Accept"
+      },
+      {
+        "text": "Shift the impact of the risk to a third party.",
+        "answer": "Transfer"
+      },
+      {
+        "text": "Take actions to reduce the likelihood or impact of the risk.",
+        "answer": "Mitigate"
+      }
+    ],
+    "options": [
+      "Accept",
+      "Avoid",
+      "Escalate",
+      "Transfer",
+      "Mitigate"
+    ],
+    "explanation": "Eliminate = Avoid; push to higher authority = Escalate; acknowledge only = Accept; shift to third party = Transfer; reduce = Mitigate.",
+    "video_time": 5316
+  },
+  {
+    "number": 73,
+    "prompt": "Match each description to the role (one option is a distractor).",
+    "left_label": "Description",
+    "right_label": "Role",
+    "items": [
+      {
+        "text": "Assigns team members and resources from their department to the project.",
+        "answer": "Functional Manager"
+      },
+      {
+        "text": "Oversees scope, schedule, cost, quality, and stakeholder management.",
+        "answer": "Project Manager"
+      },
+      {
+        "text": "Represents the interests of the customer and end-users.",
+        "answer": "Product Owner"
+      },
+      {
+        "text": "Gathers detailed requirements from stakeholders through interviews and workshops.",
+        "answer": "Business Analyst"
+      },
+      {
+        "text": "Ensures the team adheres to Agile principles and practices.",
+        "answer": "Scrum Master"
+      }
+    ],
+    "options": [
+      "Product Owner",
+      "Business Analyst",
+      "Scrum Master",
+      "Project Manager",
+      "Project Sponsor",
+      "Functional Manager"
+    ],
+    "explanation": "Departmental resources = functional manager; all constraints = project manager; customer voice = product owner; requirements = business analyst; Agile adherence = scrum master. (Project Sponsor is a distractor.)",
+    "video_time": 5369
+  },
+  {
+    "number": 74,
+    "prompt": "Match each item to the methodology it describes.",
+    "left_label": "Item",
+    "right_label": "Methodology",
+    "items": [
+      {
+        "text": "Throughout the day, team members update the current status of their tasks for visibility.",
+        "answer": "Agile"
+      },
+      {
+        "text": "At the end of each phase, the PM holds a review meeting and chooses a new methodology.",
+        "answer": "Hybrid"
+      },
+      {
+        "text": "The PM uses the critical path method to identify the longest sequence of tasks.",
+        "answer": "Traditional"
+      }
+    ],
+    "options": [
+      "Agile",
+      "Traditional",
+      "Hybrid"
+    ],
+    "explanation": "Continuous status updates = agile; choosing approach per phase = hybrid; CPM = traditional.",
+    "video_time": 5421
+  },
+  {
+    "number": 75,
+    "prompt": "Match each item to the methodology it describes.",
+    "left_label": "Item",
+    "right_label": "Methodology",
+    "items": [
+      {
+        "text": "The PM reviews the project schedule, tracks task dependencies, and ensures timely progress.",
+        "answer": "Traditional"
+      },
+      {
+        "text": "The PM uses blended reporting to report project progress.",
+        "answer": "Hybrid"
+      },
+      {
+        "text": "After the sprint ends, the team holds a retrospective meeting to reflect on the past sprint.",
+        "answer": "Agile"
+      }
+    ],
+    "options": [
+      "Agile",
+      "Traditional",
+      "Hybrid"
+    ],
+    "explanation": "Schedule/dependency tracking = traditional; blended reporting = hybrid; retrospective = agile.",
+    "video_time": 5474
+  },
+  {
+    "number": 76,
+    "prompt": "Match each problem to the tool that helps with it.",
+    "left_label": "Problem",
+    "right_label": "Tool",
+    "items": [
+      {
+        "text": "No effective method for monitoring major task completion.",
+        "answer": "Milestone Chart"
+      },
+      {
+        "text": "Unexpected events impact the project timeline.",
+        "answer": "Risk Register"
+      },
+      {
+        "text": "Lack of timely information sharing leads to delays.",
+        "answer": "Communication Plan"
+      },
+      {
+        "text": "Essential team members are not available when needed.",
+        "answer": "Histogram Analysis"
+      },
+      {
+        "text": "Work creep (uncontrolled scope growth).",
+        "answer": "Scope Baseline"
+      }
+    ],
+    "options": [
+      "Milestone Chart",
+      "Histogram Analysis",
+      "Communication Plan",
+      "Risk Register",
+      "Scope Baseline"
+    ],
+    "explanation": "Major completions = milestone chart; unexpected events = risk register; info sharing = communication plan; resource availability = resource histogram; controlling scope = scope baseline.",
+    "video_time": 5527
+  },
+  {
+    "number": 77,
+    "prompt": "Match each responsibility to the role.",
+    "left_label": "Responsibility",
+    "right_label": "Role",
+    "items": [
+      {
+        "text": "Creates the project vision and goals for the team.",
+        "answer": "Product Owner"
+      },
+      {
+        "text": "Plans and executes the tasks to meet the sprint goal.",
+        "answer": "Development Team"
+      },
+      {
+        "text": "Coaches the team in agile practices.",
+        "answer": "Scrum Master"
+      }
+    ],
+    "options": [
+      "Development Team",
+      "Product Owner",
+      "Scrum Master"
+    ],
+    "explanation": "Vision/goals = product owner; sprint work = development team; coaching = scrum master.",
+    "video_time": 5585
+  },
+  {
+    "number": 78,
+    "prompt": "Match each item to the methodology that uses it.",
+    "left_label": "Item",
+    "right_label": "Methodology",
+    "items": [
+      {
+        "text": "Kanban Board",
+        "answer": "Agile"
+      },
+      {
+        "text": "CCB (Change Control Board)",
+        "answer": "Traditional"
+      },
+      {
+        "text": "Sprint Backlog / Scope Statement",
+        "answer": "Hybrid"
+      }
+    ],
+    "options": [
+      "Agile",
+      "Traditional",
+      "Hybrid"
+    ],
+    "explanation": "Kanban = agile; CCB = traditional; sprint backlog + scope statement = hybrid.",
+    "video_time": 5643
+  },
+  {
+    "number": 79,
+    "prompt": "Match each document to its description.",
+    "left_label": "Description",
+    "right_label": "Document",
+    "items": [
+      {
+        "text": "Documenting threats and planning mitigation strategies.",
+        "answer": "Risk Register"
+      },
+      {
+        "text": "Managing modifications to scope, schedule, or budget.",
+        "answer": "Change Control Process"
+      },
+      {
+        "text": "Establishing protocols for information sharing.",
+        "answer": "Communication Plan"
+      }
+    ],
+    "options": [
+      "Risk Register",
+      "Change Control Process",
+      "Communication Plan"
+    ],
+    "explanation": "Threats/mitigation = risk register; managing modifications = change control process; info-sharing = communication plan.",
+    "video_time": 5701
+  },
+  {
+    "number": 80,
+    "prompt": "Match each action to the impediment it resolves.",
+    "left_label": "Action",
+    "right_label": "Impediment",
+    "items": [
+      {
+        "text": "Facilitate mediation to resolve issues and restore harmony.",
+        "answer": "Ongoing Disputes"
+      },
+      {
+        "text": "Organize activities to boost team spirit and motivation.",
+        "answer": "Low Engagement"
+      },
+      {
+        "text": "Arrange training sessions or bring in specialists to address deficiencies.",
+        "answer": "Insufficient Expertise"
+      },
+      {
+        "text": "Clearly define and communicate specific duties and roles.",
+        "answer": "Unclear Responsibilities"
+      },
+      {
+        "text": "Implement stricter timeline tracking and follow-up procedures.",
+        "answer": "Missed Deadlines"
+      }
+    ],
+    "options": [
+      "Ongoing Disputes",
+      "Unclear Responsibilities",
+      "Insufficient Expertise",
+      "Low Engagement",
+      "Missed Deadlines"
+    ],
+    "explanation": "Mediation = ongoing disputes; morale activities = low engagement; training = insufficient expertise; defining roles = unclear responsibilities; timeline tracking = missed deadlines.",
+    "video_time": 5760
+  },
+  {
+    "number": 81,
+    "prompt": "Match each Tuckman stage to its description.",
+    "left_label": "Description",
+    "right_label": "Stage",
+    "items": [
+      {
+        "text": "Team members are getting to know each other and understanding the project's goals.",
+        "answer": "Forming"
+      },
+      {
+        "text": "Conflicts arise as team members express differing opinions and work styles.",
+        "answer": "Storming"
+      },
+      {
+        "text": "The team starts to resolve conflicts and establish routines and norms.",
+        "answer": "Norming"
+      },
+      {
+        "text": "The team operates efficiently towards goals with minimal supervision.",
+        "answer": "Performing"
+      },
+      {
+        "text": "The project is completed and the team disbands, reflecting on the experience.",
+        "answer": "Adjourning"
+      }
+    ],
+    "options": [
+      "Forming",
+      "Storming",
+      "Norming",
+      "Performing",
+      "Adjourning"
+    ],
+    "explanation": "Getting acquainted = Forming; conflict = Storming; routines/norms = Norming; efficient = Performing; disbanding = Adjourning.",
+    "video_time": 5818
+  },
+  {
+    "number": 82,
+    "prompt": "Match each EVM metric to its description.",
+    "left_label": "Description",
+    "right_label": "Metric",
+    "items": [
+      {
+        "text": "Difference between planned and actual schedule.",
+        "answer": "SV (Schedule Variance)"
+      },
+      {
+        "text": "Efficiency of budgeted cost expenditure.",
+        "answer": "CPI (Cost Performance Index)"
+      },
+      {
+        "text": "Difference between budgeted and actual cost.",
+        "answer": "CV (Cost Variance)"
+      },
+      {
+        "text": "Efficiency of project schedule performance.",
+        "answer": "SPI (Schedule Performance Index)"
+      }
+    ],
+    "options": [
+      "SPI (Schedule Performance Index)",
+      "SV (Schedule Variance)",
+      "CV (Cost Variance)",
+      "CPI (Cost Performance Index)"
+    ],
+    "explanation": "Variances are differences (SV schedule, CV cost); indices are efficiency ratios (SPI schedule, CPI cost).",
+    "video_time": 5876
+  },
+  {
+    "number": 83,
+    "prompt": "Match each description to the role (some options are distractors).",
+    "left_label": "Description",
+    "right_label": "Role",
+    "items": [
+      {
+        "text": "Evaluates the performance of team members within their department.",
+        "answer": "Functional Manager"
+      },
+      {
+        "text": "Provides the necessary funding and resources for the project.",
+        "answer": "Project Sponsor"
+      },
+      {
+        "text": "Empowers the team to self-organize and make decisions.",
+        "answer": "Scrum Master"
+      }
+    ],
+    "options": [
+      "Product Owner",
+      "Business Analyst",
+      "Scrum Master",
+      "Project Sponsor",
+      "Functional Manager"
+    ],
+    "explanation": "Departmental performance = functional manager; funding/resources = project sponsor; empowering self-organization = scrum master. (Product Owner and Business Analyst are distractors.)",
+    "video_time": 5934
+  },
+  {
+    "number": 84,
+    "prompt": "Match each term to its description.",
+    "left_label": "Description",
+    "right_label": "Term",
+    "items": [
+      {
+        "text": "Processes for identifying, analyzing, and responding to project risks.",
+        "answer": "Risk Management Framework"
+      },
+      {
+        "text": "Actively managing stakeholder expectations and relationships.",
+        "answer": "Stakeholder Engagement"
+      },
+      {
+        "text": "Defines how activities are directed to achieve goals.",
+        "answer": "Organizational Structure"
+      },
+      {
+        "text": "Defines how project work is assigned and authorized.",
+        "answer": "Work Authorization System"
+      }
+    ],
+    "options": [
+      "Stakeholder Engagement",
+      "Organizational Structure",
+      "Work Authorization System",
+      "Risk Management Framework"
+    ],
+    "explanation": "Risk processes = risk management framework; managing stakeholders = stakeholder engagement; directing activities = organizational structure; authorizing work = work authorization system.",
+    "video_time": 5993
+  },
+  {
+    "number": 85,
+    "prompt": "Match each risk response to the action that describes it.",
+    "left_label": "Action",
+    "right_label": "Risk Response",
+    "items": [
+      {
+        "text": "Implement actions to reduce the probability or impact of the risk.",
+        "answer": "Mitigate"
+      },
+      {
+        "text": "Change the project plan to eliminate the risk or its impact.",
+        "answer": "Avoid"
+      },
+      {
+        "text": "Shift the risk to an insurance company.",
+        "answer": "Transfer"
+      },
+      {
+        "text": "Pass the risk to a higher authority.",
+        "answer": "Escalate"
+      },
+      {
+        "text": "Recognize the risk and decide to take no action unless it occurs.",
+        "answer": "Accept"
+      }
+    ],
+    "options": [
+      "Accept",
+      "Mitigate",
+      "Avoid",
+      "Escalate",
+      "Transfer"
+    ],
+    "explanation": "Reduce = Mitigate; eliminate = Avoid; insurance = Transfer; higher authority = Escalate; no action unless it occurs = Accept.",
+    "video_time": 6051
+  },
+  {
+    "number": 86,
+    "prompt": "Match each term to its description.",
+    "left_label": "Description",
+    "right_label": "Term",
+    "items": [
+      {
+        "text": "Estimating more time than necessary to create a buffer against delays.",
+        "answer": "Self-Protection"
+      },
+      {
+        "text": "Work duration increases to fill the available time.",
+        "answer": "Parkinson's Law"
+      },
+      {
+        "text": "Delaying the start of a task until the deadline is near, leading to rushed efforts.",
+        "answer": "Student Syndrome"
+      },
+      {
+        "text": "Delays occur when tasks are not smoothly transitioned between team members.",
+        "answer": "Dropped Baton"
+      }
+    ],
+    "options": [
+      "Student Syndrome",
+      "Dropped Baton",
+      "Parkinson's Law",
+      "Self-Protection"
+    ],
+    "explanation": "Buffering = Self-Protection; work fills time = Parkinson's Law; last-minute start = Student Syndrome; handover delay = Dropped Baton.",
+    "video_time": 6109
+  },
+  {
+    "number": 87,
+    "prompt": "Match each situation to the interpersonal skill it calls for.",
+    "left_label": "Situation",
+    "right_label": "Interpersonal Skill",
+    "items": [
+      {
+        "text": "Facilitate effective communication in a diverse, global project team.",
+        "answer": "Cultural Awareness"
+      },
+      {
+        "text": "Secure a better rate or terms with a key supplier for project materials.",
+        "answer": "Negotiation"
+      },
+      {
+        "text": "Mediate a dispute between two team members over a project task approach.",
+        "answer": "Conflict Resolution"
+      },
+      {
+        "text": "Resolve a budget overrun using a management strategy.",
+        "answer": "Decision Making"
+      },
+      {
+        "text": "Gain support for your project from influential internal stakeholders.",
+        "answer": "Political Awareness"
+      }
+    ],
+    "options": [
+      "Decision Making",
+      "Negotiation",
+      "Cultural Awareness",
+      "Conflict Resolution",
+      "Political Awareness"
+    ],
+    "explanation": "Global team = cultural awareness; supplier terms = negotiation; team dispute = conflict resolution; choosing a strategy = decision making; internal influence = political awareness.",
+    "video_time": 6167
+  },
+  {
+    "number": 88,
+    "prompt": "Match each EVM metric to its description.",
+    "left_label": "Description",
+    "right_label": "Metric",
+    "items": [
+      {
+        "text": "Ratio of earned value to actual cost, indicating cost efficiency.",
+        "answer": "CPI (Cost Performance Index)"
+      },
+      {
+        "text": "Forecasted total project cost based on current performance trends.",
+        "answer": "EAC (Estimate at Completion)"
+      },
+      {
+        "text": "Difference between the original budget and the estimated cost at completion.",
+        "answer": "VAC (Variance at Completion)"
+      },
+      {
+        "text": "Ratio of earned value to planned value, reflecting schedule efficiency.",
+        "answer": "SPI (Schedule Performance Index)"
+      }
+    ],
+    "options": [
+      "SPI (Schedule Performance Index)",
+      "VAC (Variance at Completion)",
+      "CPI (Cost Performance Index)",
+      "EAC (Estimate at Completion)"
+    ],
+    "explanation": "EV/AC = CPI; forecast total cost = EAC; BAC minus EAC = VAC; EV/PV = SPI.",
+    "video_time": 6226
+  },
+  {
+    "number": 89,
+    "prompt": "Match each situation to the interpersonal skill it calls for.",
+    "left_label": "Situation",
+    "right_label": "Interpersonal Skill",
+    "items": [
+      {
+        "text": "Reach an agreement with a client on project scope changes without impacting the budget.",
+        "answer": "Negotiation"
+      },
+      {
+        "text": "Resolve a scheduling conflict between two departments competing for the same resource.",
+        "answer": "Conflict Resolution"
+      },
+      {
+        "text": "Select the best vendor from three proposals within a tight deadline.",
+        "answer": "Decision Making"
+      },
+      {
+        "text": "Navigate office chatter to secure additional resources from a department head.",
+        "answer": "Political Awareness"
+      },
+      {
+        "text": "Adapt project communication styles to accommodate a team member's social preferences.",
+        "answer": "Cultural Awareness"
+      }
+    ],
+    "options": [
+      "Decision Making",
+      "Negotiation",
+      "Political Awareness",
+      "Conflict Resolution",
+      "Cultural Awareness"
+    ],
+    "explanation": "Agreeing terms = negotiation; competing departments = conflict resolution; choosing a vendor = decision making; office politics = political awareness; adapting style = cultural awareness.",
+    "video_time": 6284
+  },
+  {
+    "number": 90,
+    "prompt": "Match each item to the tool it describes.",
+    "left_label": "Description",
+    "right_label": "Tool",
+    "items": [
+      {
+        "text": "Visualizing work in progress.",
+        "answer": "Kanban Board"
+      },
+      {
+        "text": "Allocating fixed periods for activities.",
+        "answer": "Time-Boxing"
+      },
+      {
+        "text": "Visual representation of task relationships.",
+        "answer": "PDM (Precedence Diagramming Method)"
+      }
+    ],
+    "options": [
+      "Kanban Board",
+      "Time-Boxing",
+      "PDM (Precedence Diagramming Method)"
+    ],
+    "explanation": "Work-in-progress visualization = Kanban board; fixed time periods = time-boxing; task relationships/dependencies = PDM.",
+    "video_time": 6342
+  },
+  {
+    "number": 91,
+    "prompt": "Match each situation to the formula/term.",
+    "left_label": "Situation",
+    "right_label": "Term",
+    "items": [
+      {
+        "text": "Used to estimate task durations using optimistic, pessimistic, and most likely scenarios.",
+        "answer": "PERT"
+      },
+      {
+        "text": "The value of work actually performed, expressed in terms of the budget.",
+        "answer": "EV (Earned Value)"
+      },
+      {
+        "text": "The approved budget assigned to the work scheduled to be completed by a specific time.",
+        "answer": "PV (Planned Value)"
+      },
+      {
+        "text": "A measure of cost efficiency, calculated as the ratio of earned value to actual cost.",
+        "answer": "CPI (Cost Performance Index)"
+      }
+    ],
+    "options": [
+      "EV (Earned Value)",
+      "CPI (Cost Performance Index)",
+      "PERT",
+      "PV (Planned Value)"
+    ],
+    "explanation": "Three-point estimate = PERT; work performed = EV; budget for scheduled work = PV; EV/AC = CPI.",
+    "video_time": 6400
+  },
+  {
+    "number": 92,
+    "prompt": "Match each term to its description.",
+    "left_label": "Description",
+    "right_label": "Term",
+    "items": [
+      {
+        "text": "Team norms and behaviors guide project work.",
+        "answer": "Organizational Culture"
+      },
+      {
+        "text": "Central oversight of all project practices.",
+        "answer": "PMO"
+      },
+      {
+        "text": "Systems in place for sharing lessons learned.",
+        "answer": "Knowledge Management"
+      },
+      {
+        "text": "Clearly defined decision-making processes.",
+        "answer": "Governance Framework"
+      }
+    ],
+    "options": [
+      "Knowledge Management",
+      "Organizational Culture",
+      "PMO",
+      "Governance Framework"
+    ],
+    "explanation": "Norms = organizational culture; central oversight = PMO; sharing lessons = knowledge management; decision processes = governance framework.",
+    "video_time": 6459
+  },
+  {
+    "number": 93,
+    "prompt": "Match each EVM rule of thumb to the metric it describes.",
+    "left_label": "Rule",
+    "right_label": "Metric",
+    "items": [
+      {
+        "text": "A negative value is bad (behind schedule).",
+        "answer": "SV (Schedule Variance)"
+      },
+      {
+        "text": "A positive value is good (under budget).",
+        "answer": "CV (Cost Variance)"
+      },
+      {
+        "text": "1 or greater is ahead of schedule.",
+        "answer": "SPI (Schedule Performance Index)"
+      },
+      {
+        "text": "Under 1 is over budget.",
+        "answer": "CPI (Cost Performance Index)"
+      }
+    ],
+    "options": [
+      "SPI (Schedule Performance Index)",
+      "SV (Schedule Variance)",
+      "CV (Cost Variance)",
+      "CPI (Cost Performance Index)"
+    ],
+    "explanation": "Negative SV = behind schedule; positive CV = under budget; SPI >= 1 = ahead of schedule; CPI < 1 = over budget.",
+    "video_time": 6517
+  },
+  {
+    "number": 94,
+    "prompt": "Interpret each EVM value.",
+    "left_label": "Value",
+    "right_label": "Interpretation",
+    "items": [
+      {
+        "text": "SV is -200",
+        "answer": "Over Schedule"
+      },
+      {
+        "text": "SPI is 1.4",
+        "answer": "Ahead Schedule"
+      },
+      {
+        "text": "CPI is 1.5",
+        "answer": "Under Budget"
+      },
+      {
+        "text": "CV is -70",
+        "answer": "Over Budget"
+      }
+    ],
+    "options": [
+      "Over Budget",
+      "Under Budget",
+      "Over Schedule",
+      "Ahead Schedule"
+    ],
+    "explanation": "Negative SV = behind/over schedule; SPI>1 = ahead of schedule; CPI>1 = under budget; negative CV = over budget.",
+    "video_time": 6575
+  },
+  {
+    "number": 95,
+    "prompt": "Match each description to the organizational structure.",
+    "left_label": "Description",
+    "right_label": "Structure",
+    "items": [
+      {
+        "text": "The project manager has full authority over the project and resources.",
+        "answer": "Projectized Structure"
+      },
+      {
+        "text": "Employees are grouped by specialization and report to a functional manager.",
+        "answer": "Functional Structure"
+      },
+      {
+        "text": "Project managers have limited authority.",
+        "answer": "Weak Matrix"
+      },
+      {
+        "text": "Project managers have considerable authority.",
+        "answer": "Strong Matrix"
+      }
+    ],
+    "options": [
+      "Projectized Structure",
+      "Weak Matrix",
+      "Functional Structure",
+      "Strong Matrix"
+    ],
+    "explanation": "Full authority = projectized; grouped under functional managers = functional; limited authority = weak matrix; considerable authority = strong matrix.",
+    "video_time": 6633
+  },
+  {
+    "number": 96,
+    "prompt": "Match each task to the collaboration tool that best supports it.",
+    "left_label": "Task",
+    "right_label": "Tool",
+    "items": [
+      {
+        "text": "Share and archive project documentation and reference materials.",
+        "answer": "Online Bulletin Boards"
+      },
+      {
+        "text": "Plan and allocate resources, monitor task dependencies, and track project milestones.",
+        "answer": "Project Management Software"
+      },
+      {
+        "text": "Host remote training sessions or workshops for team members and stakeholders.",
+        "answer": "Video Conferencing"
+      }
+    ],
+    "options": [
+      "Video Conferencing",
+      "Online Bulletin Boards",
+      "Project Management Software"
+    ],
+    "explanation": "Archiving docs = bulletin boards; resources/dependencies/milestones = PM software; remote training = video conferencing.",
+    "video_time": 6692
+  },
+  {
+    "number": 97,
+    "prompt": "Match each term to its description.",
+    "left_label": "Description",
+    "right_label": "Term",
+    "items": [
+      {
+        "text": "A disruption or delay caused by poor handoff or transition of tasks between team members.",
+        "answer": "Dropped Baton"
+      },
+      {
+        "text": "Individuals add extra time to their task estimates to avoid the risk of missing deadlines.",
+        "answer": "Self-Protection"
+      },
+      {
+        "text": "Procrastination where work is delayed until the last possible moment before the deadline.",
+        "answer": "Student Syndrome"
+      },
+      {
+        "text": "Tasks take longer to complete if more time is allocated to them.",
+        "answer": "Parkinson's Law"
+      }
+    ],
+    "options": [
+      "Student Syndrome",
+      "Dropped Baton",
+      "Parkinson's Law",
+      "Self-Protection"
+    ],
+    "explanation": "Handover delay = Dropped Baton; padding = Self-Protection; last-minute = Student Syndrome; work fills time = Parkinson's Law.",
+    "video_time": 6750
+  },
+  {
+    "number": 98,
+    "prompt": "Match each description to the schedule tool.",
+    "left_label": "Description",
+    "right_label": "Tool",
+    "items": [
+      {
+        "text": "Visualizing the project schedule and tracking task dependencies.",
+        "answer": "Gantt Chart"
+      },
+      {
+        "text": "Identifying the longest sequence of dependent tasks and optimizing the schedule.",
+        "answer": "CPM (Critical Path Method)"
+      },
+      {
+        "text": "Estimating the amount of time to complete an activity.",
+        "answer": "PERT"
+      }
+    ],
+    "options": [
+      "Gantt Chart",
+      "CPM (Critical Path Method)",
+      "PERT"
+    ],
+    "explanation": "Schedule/dependencies = Gantt; longest dependent sequence = CPM; activity duration = PERT.",
+    "video_time": 6808
+  },
+  {
+    "number": 99,
+    "prompt": "Match each description to the schedule tool/technique.",
+    "left_label": "Description",
+    "right_label": "Tool",
+    "items": [
+      {
+        "text": "Tracking key events and progress.",
+        "answer": "Milestone Chart"
+      },
+      {
+        "text": "Finding the longest amount of time to complete a project.",
+        "answer": "CPM (Critical Path Method)"
+      },
+      {
+        "text": "Overlapping activities to shorten duration.",
+        "answer": "Fast Tracking"
+      }
+    ],
+    "options": [
+      "Milestone Chart",
+      "CPM (Critical Path Method)",
+      "Fast Tracking"
+    ],
+    "explanation": "Key events = milestone chart; longest path = CPM; overlapping to compress = fast tracking.",
+    "video_time": 6867
+  },
+  {
+    "number": 100,
+    "prompt": "Match each description to the agile/XP technical practice.",
+    "left_label": "Description",
+    "right_label": "Practice",
+    "items": [
+      {
+        "text": "Writing assessments (tests) before developing code to ensure functionality.",
+        "answer": "TDD (Test-Driven Development)"
+      },
+      {
+        "text": "A time-boxed research task to explore or investigate solutions.",
+        "answer": "Spike"
+      },
+      {
+        "text": "Ongoing integration, testing, and delivery of software during development.",
+        "answer": "Continuous Delivery"
+      }
+    ],
+    "options": [
+      "Spike",
+      "TDD (Test-Driven Development)",
+      "Continuous Delivery"
+    ],
+    "explanation": "Tests before code = TDD; time-boxed investigation = Spike; ongoing integrate/test/deliver = Continuous Delivery.",
+    "video_time": 6897
   }
 ]
