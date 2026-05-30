@@ -45,6 +45,10 @@
   .slot.correct { border-color:var(--good); background:var(--good-bg); color:var(--text); }
   .slot.incorrect { border-color:var(--bad); background:var(--bad-bg); color:var(--text); }
   .slot.dragover { border-color:var(--accent); }
+  .answerkey { font-size:12px; min-height:14px; }
+  .answerkey .ck { color:var(--good); font-weight:600; }
+  .answerkey .ci { color:var(--bad); }
+  .answerkey .ci b { color:var(--good); }
 
   .pool { flex:0 0 230px; display:flex; flex-direction:column; gap:8px; position:sticky; top:74px; }
   .pool .pool-title { font-size:11px; text-transform:uppercase; letter-spacing:.04em; color:var(--muted); }
@@ -168,7 +172,8 @@
       slot.addEventListener("dragleave",()=>slot.classList.remove("dragover"));
       slot.addEventListener("drop",e=>{e.preventDefault();slot.classList.remove("dragover"); const lbl=e.dataTransfer.getData("text"); if(lbl) setSlot(idx,lbl);});
       slot.addEventListener("click",()=>{ if(selectedChip){ setSlot(idx,selectedChip); } else if(placed[idx]){ delete placed[idx]; paintSlots(); } });
-      row.appendChild(d); row.appendChild(slot); rows.appendChild(row);
+      const key=document.createElement("div"); key.className="answerkey"; key.dataset.i=idx;
+      row.appendChild(d); row.appendChild(slot); row.appendChild(key); rows.appendChild(row);
     });
     // pool
     const pool=document.getElementById("pool"); pool.innerHTML=""; selectedChip=null;
@@ -191,6 +196,7 @@
     Array.from(document.getElementById("rows").children).forEach(function(row){
       const slot=row.querySelector(".slot"); const i=+slot.dataset.i;
       slot.classList.remove("filled","correct","incorrect");
+      const key=row.querySelector(".answerkey"); if(key) key.innerHTML="";
       if(placed[i]!=null){ slot.textContent=placed[i]; slot.classList.add("filled"); }
       else slot.textContent="Drop here";
     });
@@ -214,14 +220,20 @@
     updateStats();
   }
   function showAns(){
-    const q=curQ();
-    q.items.forEach((it,i)=>placed[i]=it.answer);
+    const q=curQ(); let right=0;
     Array.from(document.getElementById("rows").children).forEach(function(row){
       const slot=row.querySelector(".slot"); const i=+slot.dataset.i;
-      slot.classList.remove("incorrect"); slot.classList.add("correct"); slot.textContent=q.items[i].answer;
+      const key=row.querySelector(".answerkey"); const ans=q.items[i].answer;
+      slot.classList.remove("filled","correct","incorrect");
+      // keep the user's own pick visible in the slot
+      slot.textContent = placed[i]!=null ? placed[i] : "(not answered)";
+      if(placed[i]===ans){ slot.classList.add("correct"); key.innerHTML='<span class="ck">✔ Correct</span>'; right++; }
+      else { slot.classList.add("incorrect"); key.innerHTML='<span class="ci">✘ Correct answer: <b>'+esc(ans)+'</b></span>'; }
     });
     const box=document.getElementById("ansbox"); box.classList.add("show");
-    document.getElementById("verdict").textContent="Answer key"; document.getElementById("verdict").className="verdict";
+    const v=document.getElementById("verdict");
+    v.textContent="Answer key shown — your picks kept ("+right+"/"+q.items.length+" correct)";
+    v.className="verdict"+(right===q.items.length?" good":"");
     document.getElementById("explanation").textContent=q.explanation;
   }
   function updateStats(){
