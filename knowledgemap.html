@@ -107,21 +107,14 @@
     'classDef ka fill:#f1f5f9,stroke:#64748b,color:#111;\n'+
     'classDef tool fill:#dcfce7,stroke:#16a34a,color:#111;';
 
-  // ---- ECO domains diagram ----
+  // ---- ECO domains diagram (compact, horizontal) ----
   const ECODIAG=
     'graph LR\n'+
-    'P(("People<br/>42%")):::people\n'+
-    'R(("Process<br/>50%")):::process\n'+
-    'B(("Business<br/>Env 8%")):::biz\n'+
-    'P --> P1["Build/lead the team"]:::people\n'+
-    'P --> P2["Manage conflict"]:::people\n'+
-    'P --> P3["Engage stakeholders"]:::people\n'+
-    'R --> R1["Scope / schedule / cost"]:::process\n'+
-    'R --> R2["Quality / risk / procurement"]:::process\n'+
-    'R --> R3["Integration & change"]:::process\n'+
-    'B --> B1["Compliance"]:::biz\n'+
-    'B --> B2["Benefits & value"]:::biz\n'+
-    'B --> B3["Org change"]:::biz\n'+
+    'ECO(("PMI ECO")):::root\n'+
+    'ECO --> P["People · 42%<br/>build and lead the team · manage conflict · engage stakeholders"]:::people\n'+
+    'ECO --> R["Process · 50%<br/>scope / schedule / cost · quality / risk / procurement · integration and change"]:::process\n'+
+    'ECO --> B["Business Env · 8%<br/>compliance · benefits and value · org change"]:::biz\n'+
+    'classDef root fill:#f3e8ff,stroke:#7c3aed,color:#111,font-weight:bold;\n'+
     'classDef people fill:#d1fae5,stroke:#059669,color:#111;\n'+
     'classDef process fill:#dbeafe,stroke:#2563eb,color:#111;\n'+
     'classDef biz fill:#fef3c7,stroke:#d97706,color:#111;';
@@ -190,13 +183,14 @@
       links:[["pmbok7guide.html#stakeholder-performance-domain","PMBOK7: Stakeholder","p7"],["pmbok8guide.html#identify-stakeholders","Process: Identify Stakeholders","proc"],["tools.html#stakeholder-tools","Tools: Stakeholder","tool"]] }
   ];
 
+  function lbl(title,arr){ return title+"<br/>"+arr.map(san).join(" · "); }
   function areaDiagram(a){
+    // one wide node per category so the graph stays compact and horizontal
     let g='graph LR\n'+'KA(("'+san(a.name)+'")):::ka\n';
-    let i=0;
-    a.p7.forEach(x=>{ const id="p7"+(i++); g+='KA --> '+id+'["'+san(x)+'"]:::p7\n'; });
-    a.eco.forEach(x=>{ const id="ec"+(i++); g+='KA --> '+id+'["'+san(x)+'"]:::eco\n'; });
-    a.proc.forEach(x=>{ const id="pr"+(i++); g+='KA --> '+id+'["'+san(x)+'"]:::proc\n'; });
-    a.tools.forEach(x=>{ const id="tl"+(i++); g+='KA --> '+id+'["'+san(x)+'"]:::tool\n'; });
+    g+='KA --> P7["'+lbl("PMBOK 7 domains",a.p7)+'"]:::p7\n';
+    g+='KA --> EC["'+lbl("ECO tasks",a.eco)+'"]:::eco\n';
+    g+='KA --> PR["'+lbl("Processes",a.proc)+'"]:::proc\n';
+    g+='KA --> TL["'+lbl("Tools",a.tools)+'"]:::tool\n';
     g+='classDef ka fill:#f3e8ff,stroke:#7c3aed,color:#111,font-weight:bold;\n'+
        'classDef p7 fill:#ede9fe,stroke:#7c3aed,color:#111;\n'+
        'classDef eco fill:#fef3c7,stroke:#d97706,color:#111;\n'+
