@@ -10,7 +10,8 @@
     },
     "correct_answer": "B",
     "explanation": "The work breakdown structure dictionary contains detailed descriptions of scope and work broken down to the work package level, including acceptance criteria, assignee, cost, schedule, and resource information. PMBOK Guide 6th edition, page 162.",
-    "video_time": 45
+    "video_time": 45,
+    "eco_domain": "Process"
   },
   {
     "number": 2,
@@ -23,7 +24,8 @@
     },
     "correct_answer": "A",
     "explanation": "The project is behind schedule (SPI < 1) but under budget (CPI > 1), meaning there is money available to spend. Schedule crashing throws money and resources at the project to get it done faster, making it the best option. PMBOK Guide 6th edition, page 215 (schedule compression).",
-    "video_time": 187
+    "video_time": 187,
+    "eco_domain": "Process"
   },
   {
     "number": 3,
@@ -36,7 +38,8 @@
     },
     "correct_answer": "D",
     "explanation": "Using an impact over influence grid, front-line workers have a low influence but receive a high impact from the project, so the correct engagement strategy is to keep them informed. PMBOK Guide 6th edition, page 512 (impact over influence grid).",
-    "video_time": 399
+    "video_time": 399,
+    "eco_domain": "People"
   },
   {
     "number": 4,
@@ -49,7 +52,8 @@
     },
     "correct_answer": "C",
     "explanation": "The project charter is the document that formally authorizes the project. The business case, cost-benefit analysis, and feasibility studies are inputs into this document, and it links the project to the strategic objectives of the organization. PMBOK Guide 6th edition, page 75 (develop project charter).",
-    "video_time": 594
+    "video_time": 594,
+    "eco_domain": "Process"
   },
   {
     "number": 5,
@@ -62,7 +66,8 @@
     },
     "correct_answer": "D",
     "explanation": "Management reserves are withheld for management control purposes and reserved for unforeseen work that is within the scope of the project. This situation involves in-scope work that was not previously thought of, making management reserves the appropriate resource. PMBOK Guide 6th edition, page 202 (reserve analysis).",
-    "video_time": 701
+    "video_time": 701,
+    "eco_domain": "Process"
   },
   {
     "number": 6,
@@ -75,7 +80,8 @@
     },
     "correct_answer": "B",
     "explanation": "Archiving all project information for future use by the organization is part of the project closure activities, preserving captured knowledge for future reference after the time-boxed project ends. PMBOK Guide 6th edition, page 123 (close project or phase).",
-    "video_time": 851
+    "video_time": 851,
+    "eco_domain": "Process"
   },
   {
     "number": 7,
@@ -88,7 +94,8 @@
     },
     "correct_answer": "A",
     "explanation": "It is best to solve problems with real data and confirm there is a real problem before acting. The iteration burn down chart tracks work remaining versus work committed in the iteration backlog, showing variance against what was planned. PMBOK Guide 6th edition, page 226 (iteration burn down chart).",
-    "video_time": 1027
+    "video_time": 1027,
+    "eco_domain": "Process"
   },
   {
     "number": 8,
@@ -101,7 +108,8 @@
     },
     "correct_answer": "C",
     "explanation": "When something is genuinely dangerous or highly risky, transferring it to a third party (such as hiring a specialist external company) is the best approach. Mitigating through proper controls would also be valid but was not presented as an option. PMBOK Guide 6th edition, page 443 (strategies for threats).",
-    "video_time": 1159
+    "video_time": 1159,
+    "eco_domain": "Process"
   },
   {
     "number": 9,
@@ -114,7 +122,8 @@
     },
     "correct_answer": "A",
     "explanation": "The change management plan provides the process for managing change control, including the Change Control Board membership and process. While the scope management plan is also relevant, the change management plan specifically addresses the change control process and approvers needed here. PMBOK Guide 6th edition, pages 88, 129, and 286.",
-    "video_time": 1303
+    "video_time": 1303,
+    "eco_domain": "Process"
   },
   {
     "number": 10,
@@ -127,7 +136,8 @@
     },
     "correct_answer": "D",
     "explanation": "The scope baseline consists of the project scope statement, the work breakdown structure, and the WBS dictionary (work packages and planning packages are also included). These three components together form the scope baseline to review with the executive. PMBOK Guide 6th edition, page 161 (scope baseline).",
-    "video_time": 1460
+    "video_time": 1460,
+    "eco_domain": "Process"
   },
   {
     "number": 11,
@@ -140,7 +150,8 @@
     },
     "correct_answer": "B",
     "explanation": "Risk appetite describes the level of uncertainty or risk stakeholders are willing to accept, and the risk threshold is the measure of acceptable variation around an objective that reflects the risk appetite. A 10% variation around 2 million is 1.8 to 2.2 million. (PMBOK 7th edition, page 54, under Risk)",
-    "video_time": 1575
+    "video_time": 1575,
+    "eco_domain": "Process"
   },
   {
     "number": 12,
@@ -153,7 +164,8 @@
     },
     "correct_answer": "D",
     "explanation": "Risk responses should be appropriate and timely to the significance of the risk, cost-effective, realistic within the project context, agreed to by relevant stakeholders, and owned by a responsible person. (PMBOK 7th edition, page 54, under Risk)",
-    "video_time": 1711
+    "video_time": 1711,
+    "eco_domain": "Process"
   },
   {
     "number": 13,
@@ -166,7 +178,8 @@
     },
     "correct_answer": "C",
     "explanation": "A project team needs to embrace adaptability and resiliency with methods such as using short feedback loops, continuous learning and improvement, regular inspection and adaptation of project work, diverse project teams, transparent planning, using prototypes, and more. (PMBOK 7th edition, page 56, under Embrace Adaptability and Resiliency)",
-    "video_time": 1881
+    "video_time": 1881,
+    "eco_domain": "Process"
   },
   {
     "number": 14,
@@ -179,7 +192,8 @@
     },
     "correct_answer": "A",
     "explanation": "Change management is a structured approach to transitioning groups to a future state; too much change or a lack of understanding can lead to resistance and change fatigue. Methods include communicating the vision, goals, and benefits of the change early, along with the impact to work processes. (PMBOK 7th edition, page 59, Enable Change to Achieve the Envisioned Future State)",
-    "video_time": 2055
+    "video_time": 2055,
+    "eco_domain": "Business Environment"
   },
   {
     "number": 15,
@@ -192,7 +206,8 @@
     },
     "correct_answer": "B",
     "explanation": "The stakeholder engagement process includes: identify, understand and analyze, prioritize, engage, and monitor stakeholders. Where you have too many to engage effectively, prioritization is key, using impact, influence, power, beliefs, expectations, and proximity to the project. (PMBOK 7th edition, pages 11-12, under Stakeholder Engagement, Prioritize and Engage)",
-    "video_time": 2208
+    "video_time": 2208,
+    "eco_domain": "People"
   },
   {
     "number": 16,
@@ -205,7 +220,8 @@
     },
     "correct_answer": "D",
     "explanation": "Push communication is sent to stakeholders using memos, emails, status reports, voicemail, and more. Pull communication is something a customer can pull at any time from a bulletin, a web page, a whiteboard, or anything visual. (PMBOK 7th edition, page 13, Types of Communication)",
-    "video_time": 2388
+    "video_time": 2388,
+    "eco_domain": "People"
   },
   {
     "number": 17,
@@ -218,7 +234,8 @@
     },
     "correct_answer": "B",
     "explanation": "With all forms of communication, quick feedback loops provide the information you need by confirming they heard the message, determining if they agree, and identifying any nuances or additions to the message they may have added or heard themselves. (PMBOK 7th edition, page 13, Stakeholder Engagement, Engage)",
-    "video_time": 2548
+    "video_time": 2548,
+    "eco_domain": "People"
   },
   {
     "number": 18,
@@ -231,7 +248,8 @@
     },
     "correct_answer": "C",
     "explanation": "A significant number of changes or modifications to project requirements or scope may indicate stakeholders are not engaged or aligned with the project objectives. A review of the project issue register or risk register can identify challenges associated with individual stakeholders, so you can update your engagement approach accordingly. (PMBOK 7th edition, page 15, Checking Outcomes, Stakeholder Performance)",
-    "video_time": 2968
+    "video_time": 2968,
+    "eco_domain": "People"
   },
   {
     "number": 19,
@@ -244,7 +262,8 @@
     },
     "correct_answer": "B",
     "explanation": "Servant leaders allow project teams to self-organize when possible and increase levels of autonomy by passing appropriate decision-making opportunities to project team members. Servant leadership behaviors also include obstacle removal, being a diversion shield, and providing development opportunities to help the team grow. (PMBOK 7th edition, page 18, Distributed Management and Leadership)",
-    "video_time": 2964
+    "video_time": 2964,
+    "eco_domain": "People"
   },
   {
     "number": 20,
@@ -257,7 +276,8 @@
     },
     "correct_answer": "C",
     "explanation": "When project teams form across different organizations, more work may be required up front to establish a one-team mindset. Team development such as establishing a vision, clear roles and responsibilities, and a way of working are key. (PMBOK 7th edition, page 18, Common Aspects of Team Development)",
-    "video_time": 3099
+    "video_time": 3099,
+    "eco_domain": "People"
   },
   {
     "number": 21,
@@ -270,7 +290,8 @@
     },
     "correct_answer": "B",
     "explanation": "When closing a project involving a vendor, the procurement agreements and accepted deliverables are inputs to the Close Project or Phase process. Once deliverables have been verified and accepted by the project sponsor, you can formally close the project or phase. (PMBOK 6 p.124, Close Project or Phase)",
-    "video_time": 3246
+    "video_time": 3246,
+    "eco_domain": "Process"
   },
   {
     "number": 22,
@@ -283,7 +304,8 @@
     },
     "correct_answer": "B",
     "explanation": "Developing the team in Resource Management includes tools and techniques such as co-location, interpersonal skills, communication technology, training, team assessments, and recognition and rewards, which directly address capability and performance gaps. (PMBOK 6 p.340-342, Develop Team Tools and Techniques)",
-    "video_time": 3351
+    "video_time": 3351,
+    "eco_domain": "People"
   },
   {
     "number": 23,
@@ -296,7 +318,8 @@
     },
     "correct_answer": "B",
     "explanation": "This scenario describes performing qualitative risk analysis. Once done, risks are placed in the risk register with their responses and an appropriate contingency reserve is added to the work package for these known-unknown risks. The contingency reserve covers identified risks, not unforeseen scope. (PMBOK 6 p.440, Risk Register)",
-    "video_time": 3520
+    "video_time": 3520,
+    "eco_domain": "Process"
   },
   {
     "number": 24,
@@ -309,7 +332,8 @@
     },
     "correct_answer": "D",
     "explanation": "The change management plan provides direction for managing the Change Control process and documents the roles and responsibilities of the Change Control Board (CCB). Before raising a change request you need to know the process and who to submit it to. (PMBOK 6 p.116, Change Management Plan)",
-    "video_time": 3701
+    "video_time": 3701,
+    "eco_domain": "Process"
   },
   {
     "number": 25,
@@ -322,7 +346,8 @@
     },
     "correct_answer": "A",
     "explanation": "The outcomes of all change requests are recorded in the change log, and deferred or rejected change requests must be communicated back to the person or group requesting the change. This ensures all stakeholders are informed of CCB decisions. (PMBOK 6 p.120)",
-    "video_time": 3891
+    "video_time": 3891,
+    "eco_domain": "Process"
   },
   {
     "number": 26,
@@ -335,7 +360,8 @@
     },
     "correct_answer": "C",
     "explanation": "Decomposition is breaking things down into smaller and more manageable parts. It is a tool and technique used in both the Create Work Breakdown Structure and the Define Activities processes, making option C the correct answer. (PMBOK 6 p.156 and p.185)",
-    "video_time": 4025
+    "video_time": 4025,
+    "eco_domain": "Process"
   },
   {
     "number": 27,
@@ -348,7 +374,8 @@
     },
     "correct_answer": "C",
     "explanation": "The development approach, including any modifications, is included in the project management plan. This defines whether a predictive, iterative, agile, or hybrid approach will be used on the project. (PMBOK 6 p.88, Project Management Plan)",
-    "video_time": 4150
+    "video_time": 4150,
+    "eco_domain": "Process"
   },
   {
     "number": 28,
@@ -361,7 +388,8 @@
     },
     "correct_answer": "A",
     "explanation": "The Plan Risk Responses process updates the risk register with agreed-upon response strategies, triggers or warning signs of risk occurrence, and residual risks that are expected to remain after responses are implemented. (PMBOK 6 p.448, Plan Risk Responses)",
-    "video_time": 4279
+    "video_time": 4279,
+    "eco_domain": "Process"
   },
   {
     "number": 29,
@@ -374,7 +402,8 @@
     },
     "correct_answer": "B",
     "explanation": "The benefits management plan is a business document that describes how and when the benefits will be delivered and the process to measure those benefits. During closing it is reviewed to measure whether the benefits of the project were achieved as planned. (PMBOK 6 p.125, Benefits Management Plan)",
-    "video_time": 4432
+    "video_time": 4432,
+    "eco_domain": "Business Environment"
   },
   {
     "number": 30,
@@ -387,7 +416,8 @@
     },
     "correct_answer": "C",
     "explanation": "In the beginning stages of procuring a vendor, the correct process is Plan Procurement Management, whose outputs include the procurement statement of work and source selection criteria used to find suitable vendors. The time for make-or-buy analysis has passed with the third-party approach already approved. (PMBOK 6 p.460, 477-478)",
-    "video_time": 4561
+    "video_time": 4561,
+    "eco_domain": "Process"
   },
   {
     "number": 31,
@@ -400,7 +430,8 @@
     },
     "correct_answer": "D",
     "explanation": "The five C's of communication are: correct grammar and spelling, concise expression, elimination of excess words, clear purpose and expression directed to the needs of the reader, and coherent logical flow of ideas. See PMBOK 6 page 363 under key concepts for project Communications.",
-    "video_time": 4766
+    "video_time": 4766,
+    "eco_domain": "People"
   },
   {
     "number": 32,
@@ -413,7 +444,8 @@
     },
     "correct_answer": "D",
     "explanation": "The four things that support the five C's in stakeholder engagement are: listening actively, awareness of cultural and personal differences, identifying and managing stakeholder expectations, and enhancement of skills in negotiation, coaching, and conflict resolution. Escalating to a functional manager is a last resort, not a first step. See PMBOK 6 page 363.",
-    "video_time": 4871
+    "video_time": 4871,
+    "eco_domain": "People"
   },
   {
     "number": 33,
@@ -426,7 +458,8 @@
     },
     "correct_answer": "B",
     "explanation": "Qualitative risk analysis is the process of prioritizing individual project risks by assessing their probability of occurrence and their impact, and sometimes other characteristics. See PMBOK 6 page 419 under Perform Qualitative Risk Analysis.",
-    "video_time": 5033
+    "video_time": 5033,
+    "eco_domain": "Process"
   },
   {
     "number": 34,
@@ -439,7 +472,8 @@
     },
     "correct_answer": "B",
     "explanation": "Quantitative risk analysis consumes additional time and cost and is more likely appropriate for large, complex, or strategically important projects. A small project with limited resources can skip it. See PMBOK 6 page 429.",
-    "video_time": 5176
+    "video_time": 5176,
+    "eco_domain": "Process"
   },
   {
     "number": 35,
@@ -452,7 +486,8 @@
     },
     "correct_answer": "B",
     "explanation": "Cost estimates include contingency and management reserves for risks and scope, and indirect costs if included in the project estimate. Managing project change is part of normal day-to-day project management and is not a component of cost estimates. See PMBOK 6 page 246 under Cost Estimates.",
-    "video_time": 5297
+    "video_time": 5297,
+    "eco_domain": "Process"
   },
   {
     "number": 36,
@@ -465,7 +500,8 @@
     },
     "correct_answer": "C",
     "explanation": "The configuration management plan shows which items in your project are baselined and need to go through the change management process. The change management plan explains the change process itself but does not identify which items are baselined. See PMBOK 6 page 169 under Configuration Management Plan.",
-    "video_time": 5462
+    "video_time": 5462,
+    "eco_domain": "Process"
   },
   {
     "number": 37,
@@ -478,7 +514,8 @@
     },
     "correct_answer": "C",
     "explanation": "The project Charter holds the high-level information needed including project purpose, high-level requirements and deliverables, summary milestone schedule, project risks, stakeholders, and more. See PMBOK 6 page 155 under Project Charter.",
-    "video_time": 5711
+    "video_time": 5711,
+    "eco_domain": "Process"
   },
   {
     "number": 38,
@@ -491,7 +528,8 @@
     },
     "correct_answer": "A",
     "explanation": "The communications management plan describes how the project communications will be planned, structured, implemented, and monitored for effectiveness, containing stakeholder communication requirements, information to be communicated, reason for distribution, and more. See PMBOK 6 page 377 under Communications Management Plan.",
-    "video_time": 5831
+    "video_time": 5831,
+    "eco_domain": "Process"
   },
   {
     "number": 39,
@@ -504,7 +542,8 @@
     },
     "correct_answer": "B",
     "explanation": "When a new stakeholder joins the project, the very next step is to update the stakeholder register with their identification information, assessment information, and classification. The change control process can come next after analyzing the stakeholder's impact on the project. See PMBOK 6 page 514 under Stakeholder Register.",
-    "video_time": 5830
+    "video_time": 5830,
+    "eco_domain": "People"
   },
   {
     "number": 40,
@@ -517,7 +556,8 @@
     },
     "correct_answer": "B",
     "explanation": "Root cause analysis is an analytical technique used for identifying root causes and problem solving. A responsible project manager should try to solve the problem first before accessing contingency reserves, and risks must go through the proper process of analysis, assignment, and mitigation before deciding to escalate. See PMBOK 6 page 292 under Root Cause Analysis.",
-    "video_time": 6003
+    "video_time": 6003,
+    "eco_domain": "Process"
   },
   {
     "number": 41,
@@ -530,7 +570,8 @@
     },
     "correct_answer": "A",
     "explanation": "The discontinued system is a future risk, not a current issue, so it should be recorded in the risk register. One of the outputs of the Identify Risks process is the updated risk register (PMBOK 6, page 409).",
-    "video_time": 6224
+    "video_time": 6224,
+    "eco_domain": "Process"
   },
   {
     "number": 42,
@@ -543,7 +584,8 @@
     },
     "correct_answer": "C",
     "explanation": "Developing the project charter is the first step in the initiating stage; it formally authorizes the project and captures high-level scope, milestones, risks, and deliverables. This is covered on pages 25 and 81 of PMBOK 6.",
-    "video_time": 6424
+    "video_time": 6424,
+    "eco_domain": "Process"
   },
   {
     "number": 43,
@@ -556,7 +598,8 @@
     },
     "correct_answer": "D",
     "explanation": "After defining scope, the next step is to create the work breakdown structure; the scope management plan outlines the process for creating the WBS and scope baseline. This is covered on pages 130–137 of PMBOK 6.",
-    "video_time": 6593
+    "video_time": 6593,
+    "eco_domain": "Process"
   },
   {
     "number": 44,
@@ -569,7 +612,8 @@
     },
     "correct_answer": "D",
     "explanation": "Because the team is unsure whether changes should be made at all, the scope management plan is checked first since it documents how project scope will be defined, validated, monitored, and controlled. Page 169 of PMBOK 6 covers the scope management plan.",
-    "video_time": 6933
+    "video_time": 6933,
+    "eco_domain": "Process"
   },
   {
     "number": 45,
@@ -582,7 +626,8 @@
     },
     "correct_answer": "A",
     "explanation": "A flowchart shows the process from start to finish including decision points and people, departments, or systems involved, making it ideal for helping the developer understand the process and derive acceptance criteria. This is a quality planning tool on page 282 of PMBOK 6.",
-    "video_time": 7055
+    "video_time": 7055,
+    "eco_domain": "Process"
   },
   {
     "number": 46,
@@ -595,7 +640,8 @@
     },
     "correct_answer": "D",
     "explanation": "A hybrid lifecycle combines a predictive cycle for well-known fixed requirements and an adaptive cycle for evolving elements, which fits this project perfectly. Page 19 of PMBOK 6 covers hybrid project and development lifecycles.",
-    "video_time": 7173
+    "video_time": 7173,
+    "eco_domain": "Process"
   },
   {
     "number": 47,
@@ -608,7 +654,8 @@
     },
     "correct_answer": "B",
     "explanation": "You cannot create the budget without first knowing the activities, their durations, and the resources required; the schedule must be developed before cost can be estimated. Page 174 under Plan Schedule Management in PMBOK 6 covers this sequence.",
-    "video_time": 7334
+    "video_time": 7334,
+    "eco_domain": "Process"
   },
   {
     "number": 48,
@@ -621,7 +668,8 @@
     },
     "correct_answer": "B",
     "explanation": "A make-or-buy analysis, which may include payback period, net present value, and cost-benefit analysis, is used to decide between internal and external delivery options. Page 473 under Data Analysis in PMBOK 6 covers make-or-buy analysis.",
-    "video_time": 7501
+    "video_time": 7501,
+    "eco_domain": "Process"
   },
   {
     "number": 49,
@@ -634,7 +682,8 @@
     },
     "correct_answer": "B",
     "explanation": "Only collaborating and problem solving results in a win-win outcome; smoothing/accommodating is lose-win, compromising is lose-lose, and forcing is win-lose. Page 348 under Conflict Management in PMBOK 6 covers this.",
-    "video_time": 7682
+    "video_time": 7682,
+    "eco_domain": "People"
   },
   {
     "number": 50,
@@ -647,7 +696,8 @@
     },
     "correct_answer": "D",
     "explanation": "Rolling wave planning means planning near-term work in detail while keeping future work at a high level and progressively elaborating as the project advances. Page 185 on rolling wave planning in PMBOK 6 covers this technique.",
-    "video_time": 7818
+    "video_time": 7818,
+    "eco_domain": "Process"
   },
   {
     "number": 51,
@@ -660,7 +710,8 @@
     },
     "correct_answer": "B",
     "explanation": "Benchmarking involves comparing actual or planned products, processes and practices to those of comparable organizations to identify best practices, generate ideas for improvement, and provide a basis for measuring performance. PMBOK 6 page 143.",
-    "video_time": 8013
+    "video_time": 8013,
+    "eco_domain": "Business Environment"
   },
   {
     "number": 52,
@@ -673,7 +724,8 @@
     },
     "correct_answer": "C",
     "explanation": "Tasks on the critical path should be addressed first as they are critical to the project schedule. After that, items that are delayed by the most should be addressed as soon as possible. PMBOK 6 page 210 (critical path method).",
-    "video_time": 8106
+    "video_time": 8106,
+    "eco_domain": "Process"
   },
   {
     "number": 53,
@@ -686,7 +738,8 @@
     },
     "correct_answer": "B",
     "explanation": "Preventative cost is the best answer here, as through training we are preventing future quality issues. Appraisal cost is the cost of auditing or checking work, internal failure costs are caught before release, and sunk cost is money already spent. PMBOK 6 page 282 (cost of quality).",
-    "video_time": 8323
+    "video_time": 8323,
+    "eco_domain": "Process"
   },
   {
     "number": 54,
@@ -699,7 +752,8 @@
     },
     "correct_answer": "C",
     "explanation": "After planning and estimating resources comes acquiring those resources during project execution. Acquiring resources is described as obtaining team members, facilities, equipment, materials, supplies and other resources necessary to complete the project work. PMBOK 6 page 328 (acquiring resources); page 25 for process mapping groups.",
-    "video_time": 8520
+    "video_time": 8520,
+    "eco_domain": "Process"
   },
   {
     "number": 55,
@@ -712,7 +766,8 @@
     },
     "correct_answer": "C",
     "explanation": "The Project Manager Talent Triangle includes technical project management skills, leadership, and strategic and business management. All three areas are needed to be a well-rounded project manager. PMBOK 6 page 56 (project manager competencies).",
-    "video_time": 8704
+    "video_time": 8704,
+    "eco_domain": "People"
   },
   {
     "number": 56,
@@ -725,7 +780,8 @@
     },
     "correct_answer": "A",
     "explanation": "Being proactive with other project managers for resources and funding is influencing within the organization sphere. Communicating within your project is the project sphere, understanding of market niches is the industry sphere, and educating other professionals is across disciplines. PMBOK 6 page 52 (project manager's sphere of influence).",
-    "video_time": 8908
+    "video_time": 8908,
+    "eco_domain": "People"
   },
   {
     "number": 57,
@@ -738,7 +794,8 @@
     },
     "correct_answer": "C",
     "explanation": "Being new to the organization and new to the project, the best thing to do is to understand the internal Enterprise Environmental Factors (EEFs) — the environment you are delivering in. Stakeholders are not your first concern; you need to know how to get things done. PMBOK 6 page 62 (politics, power and getting things done).",
-    "video_time": 9130
+    "video_time": 9130,
+    "eco_domain": "Business Environment"
   },
   {
     "number": 58,
@@ -751,7 +808,8 @@
     },
     "correct_answer": "D",
     "explanation": "The qualities and skills of a leader include integrity, being a visionary, being collaborative and using influence appropriately. They do not include dictating or doing things their own way without taking feedback from the team. PMBOK 6 page 61 (qualities and skills of a leader).",
-    "video_time": 9308
+    "video_time": 9308,
+    "eco_domain": "People"
   },
   {
     "number": 59,
@@ -764,7 +822,8 @@
     },
     "correct_answer": "D",
     "explanation": "As a junior project manager you have limited ability to discipline others or provide rewards. The change is in your existing team, so the best action is to use informational power as you will have existing expert judgment from within your own team. PMBOK 6 page 63 (politics, power and getting things done).",
-    "video_time": 9431
+    "video_time": 9431,
+    "eco_domain": "People"
   },
   {
     "number": 60,
@@ -777,7 +836,8 @@
     },
     "correct_answer": "A",
     "explanation": "Resource smoothing is when we use available float to adjust tasks without affecting the overall schedule. Leveling moves tasks further out in sequence, fast tracking does tasks in parallel instead of in sequence, and crashing adds costs and resources to reduce schedule time. PMBOK 6 page 211 (resource optimization).",
-    "video_time": 9305
+    "video_time": 9305,
+    "eco_domain": "Process"
   },
   {
     "number": 61,
@@ -790,7 +850,8 @@
     },
     "correct_answer": "D",
     "explanation": "Analogous estimating uses information regarding resources from a previous similar project as the basis for estimating a future project. It is a quick estimating method used when the project manager can only identify a few top levels of the work breakdown structure. PMBOK Guide 6th Edition, page 324 under Analogous Estimating.",
-    "video_time": 9503
+    "video_time": 9503,
+    "eco_domain": "Process"
   },
   {
     "number": 62,
@@ -803,7 +864,8 @@
     },
     "correct_answer": "A",
     "explanation": "The rules for control charts indicate a process is out of control if seven or more consecutive points are above the center line, five or more points are trending in one direction, or any point falls outside the control limits. With only four trending points and six above the average line, the process remains within control. Reference: Green Belt Handbook, page 404, Statistical Quality Control.",
-    "video_time": 9691
+    "video_time": 9691,
+    "eco_domain": "Process"
   },
   {
     "number": 63,
@@ -816,7 +878,8 @@
     },
     "correct_answer": "D",
     "explanation": "The specific output of planning resource management is roles and responsibilities, including role details, authority, and competence. The stakeholder register captures people involved with the project but not necessarily project team members and their roles. PMBOK Guide 6th Edition, page 318 under Resource Management Plan Outputs.",
-    "video_time": 9855
+    "video_time": 9855,
+    "eco_domain": "Process"
   },
   {
     "number": 64,
@@ -829,7 +892,8 @@
     },
     "correct_answer": "D",
     "explanation": "A histogram is a bar chart that counts the number of occurrences of each item, making it the best tool for identifying the most common defect types and where the biggest concentrations of defects exist. PMBOK Guide 6th Edition, page 293 under Histograms.",
-    "video_time": 9969
+    "video_time": 9969,
+    "eco_domain": "Process"
   },
   {
     "number": 65,
@@ -842,7 +906,8 @@
     },
     "correct_answer": "B",
     "explanation": "Using positional power is forcing your viewpoint at the expense of others, mostly offering win-lose solutions. This approach works best to resolve conflicts in a quick timeframe when the project manager has the authority to approve changes. PMBOK Guide 6th Edition, page 349, Conflict Management.",
-    "video_time": 10092
+    "video_time": 10092,
+    "eco_domain": "People"
   },
   {
     "number": 66,
@@ -855,7 +920,8 @@
     },
     "correct_answer": "C",
     "explanation": "Inputs into the Close Project or Phase process include accepted deliverables, agreements, and procurement documentation if there are any vendors or third parties. PMBOK Guide 6th Edition, page 126.",
-    "video_time": 10264
+    "video_time": 10264,
+    "eco_domain": "Process"
   },
   {
     "number": 67,
@@ -868,7 +934,8 @@
     },
     "correct_answer": "C",
     "explanation": "Earned value reports on cost or schedule variances are an input to the Change Control process. Since the project manager has the authority to approve change requests on this project, the steps are to decide, approve, and track those changes once the impact has been determined. PMBOK Guide 6th Edition, page 119 under Change Control Tools.",
-    "video_time": 10407
+    "video_time": 10407,
+    "eco_domain": "Process"
   },
   {
     "number": 68,
@@ -881,7 +948,8 @@
     },
     "correct_answer": "B",
     "explanation": "Low accuracy means a large range of outputs; high precision means results are very clearly defined. When results show low accuracy but high precision, the deliverable process should be improved to narrow the range of outcomes. PMBOK Guide 7th Edition, page 54, section 2.4 under Estimating.",
-    "video_time": 10578
+    "video_time": 10578,
+    "eco_domain": "Process"
   },
   {
     "number": 69,
@@ -894,7 +962,8 @@
     },
     "correct_answer": "C",
     "explanation": "These are the Tuckman stages of team development. A team that has moved through conflict (storming) and is starting to work together is in the norming stage. The leader should help them use this momentum and move into performing so they can truly deliver great outcomes. PMBOK Guide 6th Edition, page 338, Tuckman Ladder.",
-    "video_time": 10752
+    "video_time": 10752,
+    "eco_domain": "People"
   },
   {
     "number": 70,
@@ -907,7 +976,8 @@
     },
     "correct_answer": "D",
     "explanation": "A collaborative and direct approach, combined with the proper outputs of defining scope such as the scope statement including description, deliverables, and acceptance criteria, is the best path forward to align customer expectations. PMBOK Guide 6th Edition, page 154 under Project Scope Statement.",
-    "video_time": 10857
+    "video_time": 10857,
+    "eco_domain": "Process"
   },
   {
     "number": 71,
@@ -920,7 +990,8 @@
     },
     "correct_answer": "C",
     "explanation": "The claims handling process is outlined in the procurement contract, and the preferred way to handle claims is to settle them through negotiation. PMBOK Guide 6th edition, page 498, under Claims Administration.",
-    "video_time": 10436
+    "video_time": 10436,
+    "eco_domain": "Process"
   },
   {
     "number": 72,
@@ -933,7 +1004,8 @@
     },
     "correct_answer": "A",
     "explanation": "The project charter should ideally include the project benefits management plan, including the target benefits, strategic alignment, and time frame for realizing them, and may include success measures such as return on investment (ROI) or the payback period. PMBOK Guide 6th edition, pages 343–344, under Project Success Measures.",
-    "video_time": 10593
+    "video_time": 10593,
+    "eco_domain": "Business Environment"
   },
   {
     "number": 73,
@@ -946,7 +1018,8 @@
     },
     "correct_answer": "D",
     "explanation": "Final approval of complex, high-value, high-risk procurements will generally require organizational senior management approval prior to award; only then can the contract be drafted and signed. PMBOK Guide 6th edition, page 488, under Conduct Procurements outputs and Selected Sellers.",
-    "video_time": 10779
+    "video_time": 10779,
+    "eco_domain": "Process"
   },
   {
     "number": 74,
@@ -959,7 +1032,8 @@
     },
     "correct_answer": "B",
     "explanation": "Alternatives analysis assists in providing the best solution to perform project activities within defined constraints; you need to understand the options and their impacts before discussing with the sponsor or updating plans. PMBOK Guide 6th edition, page 325, under Estimate Resources – Data Analysis.",
-    "video_time": 10993
+    "video_time": 10993,
+    "eco_domain": "Process"
   },
   {
     "number": 75,
@@ -972,7 +1046,8 @@
     },
     "correct_answer": "B",
     "explanation": "This refers to the tools and techniques used when monitoring and controlling resources; these techniques include problem solving and negotiation. A change request is for impacted baselined items affecting schedule or cost, not the immediate next step here. PMBOK Guide 6th edition, pages 356–357, under Problem Solving and Interpersonal and Team Skills.",
-    "video_time": 11168
+    "video_time": 11168,
+    "eco_domain": "People"
   },
   {
     "number": 76,
@@ -985,7 +1060,8 @@
     },
     "correct_answer": "C",
     "explanation": "Various problem-solving methods generally include defining the problem with data, finding the root cause, and generating solutions to choose from and test; going outside the experienced team may complicate things further. PMBOK Guide 6th edition, pages 295 and 356, under Problem Solving.",
-    "video_time": 11335
+    "video_time": 11335,
+    "eco_domain": "Process"
   },
   {
     "number": 77,
@@ -998,7 +1074,8 @@
     },
     "correct_answer": "A",
     "explanation": "The next step after creating the project charter is to identify stakeholders; an organizational breakdown chart is one tool to do this, and there is no point updating resource calendars or creating a RACI when you do not yet know who is involved. PMBOK Guide 6th edition, page 316 under Data Representation and page 25 under Process Group and Knowledge Area Mapping.",
-    "video_time": 11502
+    "video_time": 11502,
+    "eco_domain": "Process"
   },
   {
     "number": 78,
@@ -1011,7 +1088,8 @@
     },
     "correct_answer": "D",
     "explanation": "Before a project charter can be created, it needs a business case to determine how the project will address the business goals, including a strategy and analysis of the situation and various options to address them; benchmarking is a good input but is not as complete as the business case. PMBOK Guide 6th edition, pages 30–31, under Project Business Case.",
-    "video_time": 11640
+    "video_time": 11640,
+    "eco_domain": "Business Environment"
   },
   {
     "number": 79,
@@ -1024,7 +1102,8 @@
     },
     "correct_answer": "C",
     "explanation": "Each organization can be different with different politics, ways of working, governance, and approvals; the best immediate course of action is to adhere to the enterprise environmental factors (EEFs) and familiarize yourself with organizational best practice. PMBOK Guide 6th edition, page 20, under Project Phase.",
-    "video_time": 11781
+    "video_time": 11781,
+    "eco_domain": "Business Environment"
   },
   {
     "number": 80,
@@ -1037,7 +1116,8 @@
     },
     "correct_answer": "D",
     "explanation": "Part of the skills of a qualified project manager are technical project management skills (such as focus on schedule, financial reports, and the issue log), business management skills, and leadership skills; a dictatorship can get fast results but at the expense of team psychological safety and long-term performance. PMBOK Guide 6th edition, page 58, under Technical Project Management Skills.",
-    "video_time": 11945
+    "video_time": 11945,
+    "eco_domain": "People"
   },
   {
     "number": 81,
@@ -1050,7 +1130,8 @@
     },
     "correct_answer": "B",
     "explanation": "Given the customer has had difficulties in the past, the best option is direct collaboration through focus groups and brainstorming, going to the source to ask what they actually want. Page 138 under collect requirements tools and techniques in the PMBOK Guide Sixth Edition.",
-    "video_time": 11925
+    "video_time": 11925,
+    "eco_domain": "Process"
   },
   {
     "number": 82,
@@ -1063,7 +1144,8 @@
     },
     "correct_answer": "C",
     "explanation": "For completed deliverables that have not been formally accepted, change requests are raised along with the reasons for non-acceptance of those deliverables. Page 166 under validate scope outputs — change requests in the PMBOK Guide.",
-    "video_time": 12117
+    "video_time": 12117,
+    "eco_domain": "Process"
   },
   {
     "number": 83,
@@ -1076,7 +1158,8 @@
     },
     "correct_answer": "D",
     "explanation": "The scope baseline includes the scope statement, work breakdown structure, work breakdown structure dictionary, and work packages; as the scope statement is already created, the next best step is to create the WBS and WBS dictionary. Page 161 and 162 under scope baseline in the PMBOK Guide.",
-    "video_time": 12213
+    "video_time": 12213,
+    "eco_domain": "Process"
   },
   {
     "number": 84,
@@ -1089,7 +1172,8 @@
     },
     "correct_answer": "A",
     "explanation": "The project scope statement includes the scope description, deliverables, acceptance criteria, and any exclusions; do not confuse this with the scope baseline which includes the scope description, WBS, WBS dictionary, and work packages. Page 154 under the project scope statement in the PMBOK Guide Sixth Edition.",
-    "video_time": 12378
+    "video_time": 12378,
+    "eco_domain": "Process"
   },
   {
     "number": 85,
@@ -1102,7 +1186,8 @@
     },
     "correct_answer": "B",
     "explanation": "A resource assignment Matrix is the best approach, showing the project resources assigned to each work package and illustrating the connections between work packages and project team members, which answers what the team should be working on. Page 317 for the resource assignment Matrix in the PMBOK Guide.",
-    "video_time": 12511
+    "video_time": 12511,
+    "eco_domain": "Process"
   },
   {
     "number": 86,
@@ -1115,7 +1200,8 @@
     },
     "correct_answer": "A",
     "explanation": "Assessing stakeholder engagement and gathering their feedback is the best answer; this question involves determining which stakeholders are at risk and then using communication, interpersonal, and team skills to engage them. Page 521 and 527 under manage stakeholder engagement communication skills in the PMBOK Guide.",
-    "video_time": 12712
+    "video_time": 12712,
+    "eco_domain": "People"
   },
   {
     "number": 87,
@@ -1128,7 +1214,8 @@
     },
     "correct_answer": "B",
     "explanation": "The communications management plan contains stakeholder communication requirements and is the current plan for collecting, creating, and distributing information in a timely manner; it identifies team members, stakeholders, and the work involved in the communications process. Page 377 communications management plan in the PMBOK Guide.",
-    "video_time": 12938
+    "video_time": 12938,
+    "eco_domain": "People"
   },
   {
     "number": 88,
@@ -1141,7 +1228,8 @@
     },
     "correct_answer": "D",
     "explanation": "As part of qualitative risk analysis, other risk parameters you might measure include urgency, proximity, dormancy, manageability, controllability, detectability, strategic impact, and propinquity. Page 423-424 under qualitative risk analysis assessment of other parameters in the PMBOK Guide.",
-    "video_time": 13085
+    "video_time": 13085,
+    "eco_domain": "Process"
   },
   {
     "number": 89,
@@ -1154,7 +1242,8 @@
     },
     "correct_answer": "C",
     "explanation": "A decision tree shows various options with their benefit or cost and various often controllable outcomes with their probability of occurrence, allowing you to choose the path with the least cost and the least probability of impact. Page 435 under decision tree analysis in the PMBOK Guide.",
-    "video_time": 13378
+    "video_time": 13378,
+    "eco_domain": "Process"
   },
   {
     "number": 90,
@@ -1167,7 +1256,8 @@
     },
     "correct_answer": "C",
     "explanation": "There are three types of PMOs: supportive (templates and guidelines), controlling (adherence to frameworks and templates), and directive (high degree of control where they directly manage the projects and assign project managers). Page 48 under project management office in the PMBOK Guide Sixth Edition.",
-    "video_time": 13685
+    "video_time": 13685,
+    "eco_domain": "Business Environment"
   },
   {
     "number": 91,
@@ -1180,7 +1270,8 @@
     },
     "correct_answer": "C",
     "explanation": "The schedule variance (EV - PV = 601k - 629k = -28k) shows the project is behind schedule, and the cost variance (EV - AC = 601k - 648k = -47k) shows it is over budget. See PMBOK 6th Edition page 261 under Earned Value Analysis.",
-    "video_time": 14349
+    "video_time": 14349,
+    "eco_domain": "Process"
   },
   {
     "number": 92,
@@ -1193,7 +1284,8 @@
     },
     "correct_answer": "D",
     "explanation": "The project is behind schedule (EV - PV = 795k - 840k = -45k) but under budget (EV - AC = 795k - 755k = +40k), so adding more resources with the available budget will bring the schedule back on track. See PMBOK 6th Edition page 262 under Variance Analysis.",
-    "video_time": 14493
+    "video_time": 14493,
+    "eco_domain": "Process"
   },
   {
     "number": 93,
@@ -1206,7 +1298,8 @@
     },
     "correct_answer": "B",
     "explanation": "The best approach is to directly and collaboratively negotiate with the functional managers, establishing clear written assignments and reliable scheduling priorities before escalating. See PMBOK 6th Edition pages 332-333 under Interpersonal and Team Skills: Negotiation.",
-    "video_time": 14855
+    "video_time": 14855,
+    "eco_domain": "People"
   },
   {
     "number": 94,
@@ -1219,7 +1312,8 @@
     },
     "correct_answer": "A",
     "explanation": "The project business case includes analysis of the situation with decision criteria where courses of action may be assessed as required, desired, or optional, helping to prioritize by impact and cost. See PMBOK 6th Edition page 31 under Project Business Case.",
-    "video_time": 15222
+    "video_time": 15222,
+    "eco_domain": "Business Environment"
   },
   {
     "number": 95,
@@ -1232,7 +1326,8 @@
     },
     "correct_answer": "B",
     "explanation": "Developing the project management plan and reviewing it regularly with stakeholders assists with their engagement; this step logically follows the approved project Charter and stakeholder identification. See PMBOK 6th Edition page 82 under Develop Project Management Plan.",
-    "video_time": 15601
+    "video_time": 15601,
+    "eco_domain": "People"
   },
   {
     "number": 96,
@@ -1245,7 +1340,8 @@
     },
     "correct_answer": "D",
     "explanation": "The configuration management plan defines what needs to be baselined, the change management plan describes how to process changes, and the performance measurement baseline is the integrated scope-schedule-cost plan used to measure project performance. See PMBOK 6th Edition page 88 under Project Management Plan Additional Components.",
-    "video_time": 15996
+    "video_time": 15996,
+    "eco_domain": "Process"
   },
   {
     "number": 97,
@@ -1258,7 +1354,8 @@
     },
     "correct_answer": "B",
     "explanation": "A fixed price incentive fee contract includes financial incentives tied to agreed-upon metrics and sets a price ceiling above which all costs are the seller's responsibility, matching the requirement for a cost ceiling plus a performance bonus. See PMBOK 6th Edition page 471 under Contract Types.",
-    "video_time": 16442
+    "video_time": 16442,
+    "eco_domain": "Process"
   },
   {
     "number": 98,
@@ -1271,7 +1368,8 @@
     },
     "correct_answer": "C",
     "explanation": "The quality report includes corrective action recommendations, defect and rework summaries, and findings from the control quality process, making it the ideal document to show the sponsor the state of the deliverables before acceptance. See PMBOK 6th Edition page 296 under Quality Reports.",
-    "video_time": 16719
+    "video_time": 16719,
+    "eco_domain": "Process"
   },
   {
     "number": 99,
@@ -1284,7 +1382,8 @@
     },
     "correct_answer": "B",
     "explanation": "As the project progresses the team develops a forecast for the estimate at completion (EAC), which may differ from the original budget at completion (BAC) based on project performance, providing the sponsor a revised total cost figure. See PMBOK 6th Edition pages 264 and 269 under Forecasting and Control Costs: Cost Forecasts.",
-    "video_time": 16980
+    "video_time": 16980,
+    "eco_domain": "Process"
   },
   {
     "number": 100,
@@ -1297,6 +1396,7 @@
     },
     "correct_answer": "C",
     "explanation": "The basis of estimates provides a clear and complete understanding of how estimates are derived, including assumptions, constraints, and ranges, helping the sponsor understand the reasoning and agree on the best way forward together. See PMBOK 6th Edition page 204 under Basis of Estimates.",
-    "video_time": 17200
+    "video_time": 17200,
+    "eco_domain": "Process"
   }
 ]

@@ -191,6 +191,32 @@
   function fmt(sec){ sec=Math.max(0,Math.round(sec)); const h=Math.floor(sec/3600),m=Math.floor((sec%3600)/60),s=sec%60;
     return (h>0?h+":":"")+(h>0?String(m).padStart(2,"0"):m)+":"+String(s).padStart(2,"0"); }
 
+  // ----- ECO domains -----
+  const ECO_DOMS=["People","Process","Business Environment"];
+  const ECO_WEIGHT={People:0.42,Process:0.50,"Business Environment":0.08};
+  const ECO_PCT={People:42,Process:50,"Business Environment":8};
+  function domOf(q){ const d=q&&q.eco_domain; return ECO_WEIGHT[d]!=null?d:"Process"; }
+  // pick n question indices from BANK weighted to the ECO domain ratio
+  function ecoPick(n){
+    n=Math.min(n,BANK.length);
+    const pools={People:[],Process:[],"Business Environment":[]};
+    BANK.forEach((q,i)=>pools[domOf(q)].push(i));
+    ECO_DOMS.forEach(d=>shuffle(pools[d]));
+    let targets=ECO_DOMS.map(d=>[d,Math.round(ECO_WEIGHT[d]*n)]);
+    let sum=targets.reduce((a,t)=>a+t[1],0), gi=0;
+    while(sum<n){ targets[gi%3][1]++; sum++; gi++; }
+    while(sum>n){ if(targets[gi%3][1]>0){ targets[gi%3][1]--; sum--; } gi++; }
+    const chosen=[], used=new Set();
+    targets.forEach(([d,cnt])=>{ const p=pools[d]; for(let k=0;k<cnt&&k<p.length;k++){ chosen.push(p[k]); used.add(p[k]); } });
+    if(chosen.length<n){ const rest=shuffle(BANK.map((_,i)=>i).filter(i=>!used.has(i))); for(let k=0;chosen.length<n&&k<rest.length;k++) chosen.push(rest[k]); }
+    return shuffle(chosen);
+  }
+
+  // ----- results history -----
+  const HIST_KEY="pmp_exam_history";
+  function getHistory(){ try{ return JSON.parse(localStorage.getItem(HIST_KEY))||[]; }catch(e){ return []; } }
+  function saveResult(r){ const h=getHistory(); r.ts=Date.now(); h.unshift(r); while(h.length>20) h.pop(); try{ localStorage.setItem(HIST_KEY,JSON.stringify(h)); }catch(e){} }
+
   // scheme
   function applyScheme(v){ document.body.className=(v==="default"?"":v); }
   (function(){ const v=localStorage.getItem(SCHEME_KEY)||"default"; $("schemeSel").value=v; applyScheme(v); })();
@@ -218,13 +244,13 @@
 
   // sessions
   function startFull(){
-    const n=Math.min(180,BANK.length), order=shuffle(BANK.map((_,i)=>i)).slice(0,n), secLen=Math.floor(n/3);
+    const n=Math.min(180,BANK.length), order=ecoPick(n), secLen=Math.floor(n/3);
     S={ mode:"full", order, answers:{}, flags:new Set(), comments:{}, seen:new Set(),
         examLeft:230*60, startLimit:230*60, breakLeft:600, secLen, nSec:3, sec:0, pos:0, screen:"exam", showA:false, total:n };
     enterExam();
   }
   function startRandom(num,mins,showA){
-    const n=Math.min(num,BANK.length), order=shuffle(BANK.map((_,i)=>i)).slice(0,n);
+    const n=Math.min(num,BANK.length), order=ecoPick(n);
     S={ mode:"random", order, answers:{}, flags:new Set(), comments:{}, seen:new Set(),
         examLeft:(mins>0?mins*60:null), startLimit:(mins>0?mins*60:null), breakLeft:600, secLen:n, nSec:1, sec:0, pos:0, screen:"exam", showA:!!showA, total:n };
     enterExam();
@@ -393,36 +419,71 @@
     S.order.forEach(function(bi,gi){ const q=BANK[bi],cs=correctSet(q),sel=S.answers[gi]||[],sec=Math.floor(gi/S.secLen);
       if(perSec[sec])perSec[sec].n++; if(sel.length)answered++;
       const ok=sel.length&&sel.slice().sort().join(",")===cs.slice().sort().join(","); if(ok){correct++; if(perSec[sec])perSec[sec].c++;} });
+    // per ECO domain
+    const perDom={People:{c:0,n:0},Process:{c:0,n:0},"Business Environment":{c:0,n:0}};
+    S.order.forEach(function(bi,gi){ const q=BANK[bi],d=domOf(q),cs=correctSet(q),sel=S.answers[gi]||[];
+      perDom[d].n++; const ok=sel.length&&sel.slice().sort().join(",")===cs.slice().sort().join(","); if(ok)perDom[d].c++; });
     const pct=Math.round(correct/S.total*100), used=(S.startLimit!=null?S.startLimit-(S.examLeft||0):null);
+    if(!S._saved){ saveResult({mode:S.mode,total:S.total,correct:correct,pct:pct,perDom:perDom}); S._saved=true; }
     let html='<h2 class="qtitle">Exam Results</h2>';
     if(timedOut) html+='<p style="text-align:center;color:var(--bad)">⏰ Time expired — submitted automatically.</p>';
     html+='<div class="card" style="text-align:center"><div class="score">'+pct+'%</div><div class="statline" style="justify-content:center"><span><b>'+correct+'</b>/'+S.total+' correct</span><span>'+answered+' answered</span><span>'+(S.total-answered)+' skipped</span>'+(used!=null?'<span>Time used: '+fmt(used)+'</span>':'')+'</div>';
     if(S.mode==="full") html+='<div class="statline" style="justify-content:center;margin-top:8px">'+perSec.map((p,i)=>'<span>Section '+(i+1)+': '+p.c+'/'+p.n+'</span>').join("")+'</div>';
-    html+='</div><div class="row" style="margin:8px 0 14px"><button class="primary" id="toggleRev" style="background:var(--accent)">Show question review</button><button class="primary" id="again">New test</button> <a class="link" href="index.html" style="align-self:center">🏠 Home</a></div><div id="reviewList" class="hide"></div>';
+    html+='</div>';
+    // ECO match card
+    html+='<div class="card"><h3 style="margin-top:0">Match against the PMI ECO domains</h3>'+
+      '<p style="color:var(--muted);font-size:13px;margin:0 0 10px">This test was mixed from all question banks and weighted to the ECO domain ratio (People 42% · Process 50% · Business Environment 8%).</p>'+
+      '<table class="review" style="width:100%"><thead><tr><th>DOMAIN</th><th>ECO WEIGHT</th><th>QUESTIONS</th><th>CORRECT</th><th>ACCURACY</th></tr></thead><tbody>'+
+      ECO_DOMS.map(function(d){ const o=perDom[d]; const acc=o.n?Math.round(100*o.c/o.n):0; const share=Math.round(100*o.n/S.total);
+        return '<tr><td>'+d+'</td><td>'+ECO_PCT[d]+'% <span style="color:var(--muted)">(this test '+share+'%)</span></td><td>'+o.n+'</td><td>'+o.c+'</td><td><span class="pill '+(acc>=70?"c":"i")+'">'+acc+'%</span></td></tr>'; }).join("")+
+      '</tbody></table><p style="color:var(--muted);font-size:12px;margin:10px 0 0">PMI considers ~70%+ a passing benchmark. Focus study on your weakest domain.</p></div>';
+    html+='<div class="row" style="margin:8px 0 14px"><button class="primary" id="toggleRev" style="background:var(--accent)">Show question review</button><button class="primary" id="again">New test</button> <a class="link" href="index.html" style="align-self:center">🏠 Home</a></div><div id="reviewList" class="hide"></div>';
     $("stage").innerHTML=html;
     $("again").onclick=renderConfig;
     $("toggleRev").onclick=function(){ const b=$("reviewList"); if(!b.dataset.built){ b.innerHTML=buildReviewList(); b.dataset.built="1"; } b.classList.toggle("hide"); this.textContent=b.classList.contains("hide")?"Show question review":"Hide question review"; };
   }
   function buildReviewList(){ let out=""; S.order.forEach(function(bi,gi){ const q=BANK[bi],cs=correctSet(q),sel=S.answers[gi]||[]; const ok=sel.length&&sel.slice().sort().join(",")===cs.slice().sort().join(","); const tag=!sel.length?'<span class="tag skip">Skipped</span>':(ok?'<span class="tag ok">Correct</span>':'<span class="tag no">Incorrect</span>');
-    out+='<div class="rev-q"><div style="display:flex;justify-content:space-between;gap:8px"><b>Q'+(gi+1)+'</b>'+tag+'</div><div style="margin:6px 0">'+esc(q.question)+'</div><div>Your answer: <b>'+(sel.join(", ")||"—")+'</b> · Correct: <b style="color:var(--good)">'+esc(q.correct_answer)+'</b></div><div style="margin-top:6px;color:var(--muted);font-size:13px">'+esc(q.explanation)+'</div></div>'; }); return out; }
+    const src='<span class="tag skip">'+esc(domOf(q))+(BANK_LABEL[q._bank]?' · '+BANK_LABEL[q._bank]:'')+'</span>';
+    out+='<div class="rev-q"><div style="display:flex;justify-content:space-between;gap:8px;align-items:center"><b>Q'+(gi+1)+'</b><span style="display:flex;gap:6px">'+src+tag+'</span></div><div style="margin:6px 0">'+esc(q.question)+'</div><div>Your answer: <b>'+(sel.join(", ")||"—")+'</b> · Correct: <b style="color:var(--good)">'+esc(q.correct_answer)+'</b></div><div style="margin-top:6px;color:var(--muted);font-size:13px">'+esc(q.explanation)+'</div></div>'; }); return out; }
 
   // config
   function renderConfig(){
     if(tick){clearInterval(tick);tick=null;} S=null;
     $("toolbar").style.display="none"; $("footer").style.display="none"; $("counter").textContent="";
-    $("stage").innerHTML='<h2 class="qtitle">Choose your test mode</h2><div class="modegrid">'+
-      '<div class="mode"><h3>📝 Full Exam</h3><div>230 minutes · 180 questions · answers hidden until the end.</div><ul><li>3 sections of 60 questions</li><li>10-minute break between sections (clock paused)</li><li>End-of-section review; no return after ending</li><li>Up to 250 min total with both breaks</li></ul><div style="margin-top:14px"><button class="primary" id="startFull">Start full exam →</button></div></div>'+
-      '<div class="mode"><h3>🎲 Random Q&amp;A</h3><div>Set questions, time, and whether to show answers.</div><label class="f">Number of questions</label><input type="number" id="rNum" value="30" min="1" max="200" /><label class="f">Time limit (minutes, 0 = no limit)</label><input type="number" id="rMin" value="40" min="0" max="400" /><label class="f"><input type="checkbox" id="rShow" /> Show answer &amp; explanation after each question</label><div style="margin-top:14px"><button class="primary" id="startRandom">Start random test →</button></div></div>'+
-      '</div><p style="color:var(--muted);font-size:13px;margin-top:18px">Bank: <b>'+BANK.length+'</b> questions. Toolbar: Comment, Highlight (J), Strikethrough (W), Calculator, Flag, Navigator.</p>';
+    const dc={People:0,Process:0,"Business Environment":0}; BANK.forEach(q=>dc[domOf(q)]++);
+    const maxN=Math.min(200,BANK.length);
+    let html='<h2 class="qtitle">Choose your test mode</h2>'+
+      '<p style="text-align:center;color:var(--muted);font-size:13px;margin:-8px 0 18px">Questions are mixed from all banks and weighted to the PMI ECO domain ratio — People 42% · Process 50% · Business Environment 8%.</p>'+
+      '<div class="modegrid">'+
+      '<div class="mode"><h3>📝 Full Exam</h3><div>230 minutes · 180 questions · answers hidden until the end.</div><ul><li>Mixed from every bank, ECO-weighted (≈76 People · 90 Process · 14 Bus. Env)</li><li>3 sections of 60 questions</li><li>10-minute break between sections (clock paused)</li><li>End-of-section review; no return after ending</li><li>Domain breakdown vs ECO shown at the end</li></ul><div style="margin-top:14px"><button class="primary" id="startFull">Start full exam →</button></div></div>'+
+      '<div class="mode"><h3>🎲 Random Q&amp;A</h3><div>Set questions, time, and whether to show answers. The set is ECO-weighted and mixed across banks.</div><label class="f">Number of questions</label><input type="number" id="rNum" value="30" min="1" max="'+maxN+'" /><label class="f">Time limit (minutes, 0 = no limit)</label><input type="number" id="rMin" value="40" min="0" max="400" /><label class="f"><input type="checkbox" id="rShow" /> Show answer &amp; explanation after each question</label><div style="margin-top:14px"><button class="primary" id="startRandom">Start random test →</button></div></div>'+
+      '</div>';
+    // history
+    const h=getHistory();
+    if(h.length){
+      const cell=x=>(x&&x.n)?Math.round(100*x.c/x.n)+'%':'—';
+      html+='<div class="card"><h3 style="margin-top:0">Your recent results</h3><table class="review" style="width:100%"><thead><tr><th>WHEN</th><th>MODE</th><th>SCORE</th><th>PEOPLE</th><th>PROCESS</th><th>BUS. ENV</th></tr></thead><tbody>'+
+        h.slice(0,8).map(r=>{ const d=new Date(r.ts); const w=d.toLocaleDateString()+' '+d.toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'});
+          return '<tr><td>'+w+'</td><td>'+(r.mode==="full"?"Full":"Random")+'</td><td><b>'+r.pct+'%</b> ('+r.correct+'/'+r.total+')</td><td>'+cell(r.perDom&&r.perDom.People)+'</td><td>'+cell(r.perDom&&r.perDom.Process)+'</td><td>'+cell(r.perDom&&r.perDom["Business Environment"])+'</td></tr>'; }).join("")+
+        '</tbody></table><div class="row" style="margin-top:10px"><button class="btn" id="clearHist" style="background:#888">Clear history</button></div></div>';
+    }
+    html+='<p style="color:var(--muted);font-size:13px;margin-top:18px">Bank: <b>'+BANK.length+'</b> questions across 4 banks — People '+dc.People+' · Process '+dc.Process+' · Business Environment '+dc["Business Environment"]+'. Toolbar: Comment, Highlight (J), Strikethrough (W), Calculator, Flag, Navigator.</p>';
+    $("stage").innerHTML=html;
     $("startFull").onclick=()=>ask("Start the full 230-minute, 180-question exam?",startFull,"Start");
     $("startRandom").onclick=function(){ const num=Math.max(1,Math.min(BANK.length,parseInt($("rNum").value,10)||30)); const mins=Math.max(0,parseInt($("rMin").value,10)||0); startRandom(num,mins,$("rShow").checked); };
+    if($("clearHist")) $("clearHist").onclick=function(){ ask("Clear all saved test results?",function(){ try{localStorage.removeItem(HIST_KEY);}catch(e){} renderConfig(); },"Clear"); };
   }
 
-  function init(data){ BANK=data.slice(); renderConfig(); }
-  fetch("qa_dataset.json").then(r=>{ if(!r.ok) throw 0; return r.json(); }).then(init).catch(function(){
-    $("stage").innerHTML='<div class="card"><h3>Load question bank</h3><p>Could not auto-load <code>qa_dataset.json</code>. Pick the file:</p><input type="file" id="fp" accept=".json" /></div>';
-    $("fp").addEventListener("change",function(e){ const f=e.target.files[0]; if(!f)return; const rd=new FileReader(); rd.onload=()=>{ try{init(JSON.parse(rd.result));}catch(err){alert("Invalid JSON");} }; rd.readAsText(f); });
-  });
+  const BANK_FILES=[["qa","qa_dataset.json"],["pmbok7","pmbok7_dataset.json"],["agile","agile_dataset.json"],["waterfall","waterfall_dataset.json"]];
+  const BANK_LABEL={qa:"200 Ultra-Hard",pmbok7:"150 PMBOK 7",agile:"200 Agile",waterfall:"100 Waterfall"};
+  function init(arr){ BANK=arr; renderConfig(); }
+  Promise.all(BANK_FILES.map(([tag,f])=>fetch(f).then(r=>{ if(!r.ok) throw 0; return r.json(); }).then(d=>d.map(q=>Object.assign({},q,{_bank:tag}))).catch(()=>[])))
+    .then(parts=>{ const all=[].concat.apply([],parts); if(!all.length) throw 0; init(all); })
+    .catch(function(){
+      $("stage").innerHTML='<div class="card"><h3>Load question banks</h3><p>Could not auto-load the dataset files (browsers block local file reads when opened directly). Pick one or more dataset JSON files (e.g. qa_dataset.json, pmbok7_dataset.json, agile_dataset.json, waterfall_dataset.json):</p><input type="file" id="fp" accept=".json" multiple /></div>';
+      $("fp").addEventListener("change",function(e){ const fs=Array.from(e.target.files); if(!fs.length)return; let acc=[],left=fs.length;
+        fs.forEach(f=>{ const rd=new FileReader(); rd.onload=()=>{ try{ const d=JSON.parse(rd.result); acc=acc.concat(d.map(q=>Object.assign({},q,{_bank:q._bank||"file"}))); }catch(err){} if(--left===0){ if(acc.length) init(acc); else alert("Invalid JSON"); } }; rd.readAsText(f); }); });
+    });
 })();
 </script>
 </body>

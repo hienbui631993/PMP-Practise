@@ -140,6 +140,17 @@ Last updated: 2026-05-30.
   jump to that tool). Tool timeline verified monotonic; extracted via 11 parallel phase passes, validated
   (0 issues). Bullets are faithful paraphrases, not verbatim PMI text.
 
+## 12) Exam simulator — ECO-weighted, multi-bank (`exam.html`)
+- The simulator now mixes questions from all four multiple-choice banks (qa_dataset, pmbok7_dataset,
+  agile_dataset, waterfall_dataset) and samples them weighted to the PMI ECO domain ratio
+  (People 42% / Process 50% / Business Environment 8%). After a test it stores the result in
+  localStorage (`pmp_exam_history`, last 20) and shows a per-domain accuracy breakdown vs the ECO target.
+- Each question carries an `eco_domain` field added to the four datasets. **These domain tags are
+  heuristic** — assigned by an LLM pass over the question + correct answer, not by PMI. Overall pool
+  skews Process-heavy (People 187 / Process 420 / Business Environment 38 of 645), so the Business
+  Environment pool (38) caps very large Business-Environment-heavy selections; the sampler fills any
+  shortfall from other domains. Treat the domain match as study guidance, not an official score.
+
 ## Tooling / process notes
 - During the DnD build, the sandbox intermittently ate/garbled tool stdout, which caused a failed
   silent append and a mis-extraction before they were caught and fixed. If we do another large
