@@ -35,6 +35,7 @@ cp "$SRC/index.html" \
    "$SRC/tools.html" \
    "$SRC/tools_dataset.json" \
    "$SRC/63 Project Management Tools Explained.md" \
+   "$SRC/knowledgemap.html" \
    "$SRC/pmbok7.html" \
    "$SRC/pmbok7_dataset.json" \
    "$SRC/150 PMBOK 7 by David McLachlan.md" \

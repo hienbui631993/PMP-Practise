@@ -81,6 +81,7 @@
       <a class="btn" id="watchTop" target="_blank" rel="noopener">▶ Watch full video</a>
       <button class="btn" id="expandBtn">⊕ Expand all</button>
       <button class="btn" id="collapseBtn">⊖ Collapse all</button>
+      <a class="btn" href="knowledgemap.html">🧭 Knowledge Map</a>
       <a class="btn" href="index.html">🏠 Home</a>
       <button class="btn" id="themeBtn">🌙 Dark</button>
     </div>
@@ -125,6 +126,26 @@
   function ytUrl(t){ return "https://www.youtube.com/watch?v="+VIDEO_ID+(t!=null?"&t="+t+"s":""); }
   function watchLink(t){ return '<a class="watch" target="_blank" rel="noopener" href="'+ytUrl(t)+'">▶ '+fmt(t)+'</a>'; }
   function slug(s){ return s.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/(^-|-$)/g,""); }
+  // ---- related knowledge + page mind map (Mermaid) ----
+  function sanMM(s){ return String(s).replace(/["\[\]{}<>|]/g," ").replace(/&/g,"and").replace(/\s+/g," ").trim(); }
+  function relatedBlock(){ return '<div class="part-title">Related knowledge</div>'+
+    '<div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px">'+
+    '<a class="btn" href="knowledgemap.html">🧭 Knowledge Map</a>'+
+    '<a class="btn" href="processgroups.html">Process Groups (PMBOK 6)</a>'+
+    '<a class="btn" href="pmbok7guide.html">PMBOK 7</a>'+
+    '<a class="btn" href="pmbok8guide.html">PMBOK 8 · 40 processes</a>'+
+    '<a class="btn" href="tools.html">63 Tools</a>'+
+    '<a class="btn" href="eco.html">ECO</a>'+
+    '<a class="btn" href="banks.html">Question Banks</a></div>'; }
+  function mmRoot(){ return sanMM((document.title||"Guide").split("—")[0].split("(")[0]); }
+  function mmSrc(){ if(!DATA||!DATA.parts) return "graph LR\nROOT((Guide))"; var one=DATA.parts.length===1; var g="graph LR\nROOT((\""+mmRoot()+"\"))\n";
+    DATA.parts.forEach(function(p,pi){ var pid; if(one){ pid="ROOT"; } else { pid="P"+pi; g+='ROOT --> '+pid+'["'+sanMM(p.title)+'"]\n'; }
+      p.sections.forEach(function(s,si){ var sid="N"+pi+"_"+si; g+=pid+' --> '+sid+'["'+sanMM(s.title)+'"]\n'; }); });
+    return g; }
+  function mindmapCard(){ return '<section class="sec" id="guide-mind-map"><div class="sechead"><span class="caret">▾</span><div class="st"><h2>🗺️ Mind map of this guide</h2><div class="intro">Visual overview of every section. Use the contents list or the sections below to dive in.</div></div></div><div class="body"><div id="mmguide" class="mermaid" style="text-align:center;overflow:auto">'+mmSrc()+'</div></div></section>'; }
+  var MM_CACHE=null;
+  function loadMermaid(cb){ if(window.mermaid){ cb(); return; } var s=document.createElement("script"); s.src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"; s.onload=cb; s.onerror=function(){ var e=document.getElementById("mmguide"); if(e) e.innerHTML='<span style="color:var(--muted)">(Connect to the internet to view the mind-map diagram.)</span>'; }; document.head.appendChild(s); }
+  function drawMM(){ try{ var el=document.getElementById("mmguide"); if(!el||!window.mermaid) return; if(MM_CACHE==null) MM_CACHE=el.textContent; window.mermaid.initialize({startOnLoad:false,securityLevel:"loose",theme:document.body.classList.contains("light")?"default":"dark",flowchart:{htmlLabels:true,curve:"basis"}}); el.removeAttribute("data-processed"); el.innerHTML=MM_CACHE; window.mermaid.run({nodes:[el]}); }catch(e){} }
 
   function render(){
     document.getElementById("watchTop").href=ytUrl(0);
@@ -152,7 +173,7 @@
       });
     });
     toc.innerHTML=tocHtml;
-    content.innerHTML=html;
+    content.innerHTML=relatedBlock()+mindmapCard()+html;
 
     content.querySelectorAll(".sec .sechead").forEach(function(h){
       h.addEventListener("click",function(e){
@@ -162,6 +183,7 @@
     });
     document.getElementById("loader").style.display="none";
     document.getElementById("layout").style.display="grid";
+    loadMermaid(drawMM);
   }
 
   function setAll(collapsed){

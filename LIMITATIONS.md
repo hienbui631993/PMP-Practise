@@ -153,6 +153,18 @@ Last updated: 2026-05-30.
   Business Environment pool (38) caps very large Business-Environment-heavy selections; the sampler fills
   any shortfall from other domains. Treat the domain/task match as study guidance, not an official score.
 
+## 13) Knowledge Map + per-page mind maps (`knowledgemap.html` + guide pages)
+- `knowledgemap.html` is a cross-walk hub: a master diagram plus one diagram per knowledge area linking
+  it to PMBOK 7 domains, ECO tasks, PMBOK 6/8 processes and tools, each with a short explanation and
+  deep links. Each guide page (processgroups, pmbok7guide, pmbok8guide, tools) now also shows a
+  "Related knowledge" link bar and an auto-generated "Mind map of this guide", and eco.html links to the map.
+- **Diagrams render with Mermaid loaded from a CDN** (jsdelivr). They need an internet connection; offline,
+  the page still works and shows a "connect to the internet" note in place of each diagram.
+- The cross-walk (which knowledge area maps to which domain/task/process/tool) is a **curated study aid,
+  not an official PMI mapping** — many items legitimately span more than one domain.
+- Deep links use slugged section anchors on the sibling pages; if a page's section titles change, update
+  the corresponding links in `knowledgemap.html`.
+
 ## Tooling / process notes
 - During the DnD build, the sandbox intermittently ate/garbled tool stdout, which caused a failed
   silent append and a mis-extraction before they were caught and fixed. If we do another large
