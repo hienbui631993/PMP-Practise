@@ -11,7 +11,8 @@
     "correct_answer": "B",
     "explanation": "The Standard for Project Management asks that we create a collaborative team environment including team agreements, definitions of roles and responsibilities, formal committees tasked with specific objectives, and standing meetings that regularly review a given topic. PMBOK 7, p.28-29, Creating a Collaborative Team Environment.",
     "video_time": 50,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.12"
   },
   {
     "number": 2,
@@ -25,7 +26,8 @@
     "correct_answer": "D",
     "explanation": "This question refers to product management. Product management involves the integration of people, data, processes, and business systems to develop or maintain a product or service throughout its life cycle. PMBOK 7, p.17-19, Product Management Considerations.",
     "video_time": 210,
-    "eco_domain": "Business Environment"
+    "eco_domain": "Business Environment",
+    "eco_task": "3.2"
   },
   {
     "number": 3,
@@ -39,7 +41,8 @@
     "correct_answer": "C",
     "explanation": "This question refers to the principle of effectively engaging with stakeholders. Stakeholders may add steps or requirements or restrict team members if they are not engaged appropriately. Communication and awareness of their ideas through knowledge sharing and regular meetings, ideally face to face, may help. PMBOK 7, p.32-33, Effectively Engaging with Stakeholders.",
     "video_time": 377,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.9"
   },
   {
     "number": 4,
@@ -53,7 +56,8 @@
     "correct_answer": "A",
     "explanation": "This question is on integrity and stewardship. We should have respectful engagement of project team members including their compensation, access to opportunity, and fair treatment. PMBOK 7, p.25, Be a Diligent, Respectful, and Caring Steward.",
     "video_time": 573,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.3"
   },
   {
     "number": 5,
@@ -67,7 +71,8 @@
     "correct_answer": "B",
     "explanation": "This question is about delivering value, which is the primary motivator for a project. If the project is no longer aligned with the business need or it seems unlikely to provide value, the organization may choose to terminate the effort. PMBOK 7, p.35, Focus on Value.",
     "video_time": 781,
-    "eco_domain": "Business Environment"
+    "eco_domain": "Business Environment",
+    "eco_task": "3.2"
   },
   {
     "number": 6,
@@ -81,7 +86,8 @@
     "correct_answer": "D",
     "explanation": "This question involves systems thinking, which involves taking a holistic view of how project parts interact with each other and external systems. Finding a previously unknown opportunity, the next best step is to make it known and to exploit that opportunity. PMBOK 7, p.39, Respond to System Interactions (Systems Thinking); p.129, Opportunities.",
     "video_time": 929,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.3"
   },
   {
     "number": 7,
@@ -95,7 +101,8 @@
     "correct_answer": "B",
     "explanation": "Leadership is not the same as authority. When senior managers suffer conflict over priorities, neutral facilitation helps more than detailed recommendations. Leadership acumen involves focusing a team around agreed goals, generating consensus on the way forward, negotiating, and resolving conflict. PMBOK 7, p.42, Demonstrate Leadership Behaviors.",
     "video_time": 1124,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.1"
   },
   {
     "number": 8,
@@ -109,7 +116,8 @@
     "correct_answer": "C",
     "explanation": "Each project is unique and success is based on adapting to the unique context of the project to determine the most appropriate methods. The tailoring approach is iterative in nature, and this project requires a hybrid of waterfall and agile with the option to improve it over time. PMBOK 7, p.44-46, Tailoring.",
     "video_time": 1295,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 9,
@@ -123,7 +131,8 @@
     "correct_answer": "B",
     "explanation": "Quality focuses on meeting acceptance criteria for deliverables and satisfying stakeholders' expectations on product requirements. Quality is everyone's responsibility in an adaptive or agile project. PMBOK 7, p.47-49, Build Quality into Processes and Deliverables.",
     "video_time": 1476,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.7"
   },
   {
     "number": 10,
@@ -137,7 +146,8 @@
     "correct_answer": "C",
     "explanation": "Complexity is often the result of human behavior, system interactions, technical innovation, uncertainty, and ambiguity. Complexity can be introduced by events or conditions that affect value, scope, stakeholders, risk, and more. PMBOK 7, p.50-51, Navigate Complexity.",
     "video_time": 1638,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.3"
   },
   {
     "number": 11,
@@ -151,7 +161,8 @@
     "correct_answer": "B",
     "explanation": "Risk appetite describes the level of uncertainty or risk stakeholders are willing to accept. Risk threshold is the measure of acceptable variation around an objective that reflects the risk appetite. In this scenario, a 10% variation around $2 million means an acceptable range of $1.8 million to $2.2 million. (PMBOK 7th Edition, page 54, under Risk.)",
     "video_time": 1806,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.3"
   },
   {
     "number": 12,
@@ -165,7 +176,8 @@
     "correct_answer": "D",
     "explanation": "Risk responses should be appropriate and timely to the significance of the risk, cost-effective, realistic within the project context, agreed to by relevant stakeholders, and owned by a responsible person. Since 50% of stakeholders are not agreeing, the current response does not meet these criteria. (PMBOK 7th Edition, page 54, under Risk.)",
     "video_time": 1955,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.3"
   },
   {
     "number": 13,
@@ -179,7 +191,8 @@
     "correct_answer": "C",
     "explanation": "A project team needs to embrace adaptability and resiliency with methods such as using short feedback loops, continuous learning and improvement, regular inspection and adaptation of project work, diverse project teams, transparent planning, and using prototypes. (PMBOK 7th Edition, page 56, under Embrace Adaptability and Resiliency.)",
     "video_time": 2229,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 14,
@@ -193,7 +206,8 @@
     "correct_answer": "A",
     "explanation": "This question is on change management, which is a structured approach to transitioning groups to a future state. Too much change or a lack of understanding can lead to resistance and change fatigue. Methods include communicating the vision, goals, and benefits of the change early, along with the impact to work processes. (PMBOK 7th Edition, page 59, under Enable Change to Achieve the Envisioned Future State.)",
     "video_time": 2385,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.10"
   },
   {
     "number": 15,
@@ -207,7 +221,8 @@
     "correct_answer": "B",
     "explanation": "The stakeholder engagement process includes: identify, understand and analyze, prioritize, engage, and monitor stakeholders. Where you have too many to engage effectively, prioritization is the key. Impact and influence are two ways to prioritize, as well as power, beliefs, expectations, and proximity to the project. (PMBOK 7th Edition, pages 11-12, under Stakeholder Engagement — Prioritize and Engage.)",
     "video_time": 2480,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.9"
   },
   {
     "number": 16,
@@ -221,7 +236,8 @@
     "correct_answer": "D",
     "explanation": "Push communication is sent to stakeholders using memos, emails, status reports, voicemail, and more. Pull communication is something a customer can pull at any time from a bulletin, web page, whiteboard, or anything visual. Sending a weekly email is an example of pushing information out to stakeholders. (PMBOK 7th Edition, page 13, under Types of Communication.)",
     "video_time": 2636,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.9"
   },
   {
     "number": 17,
@@ -235,7 +251,8 @@
     "correct_answer": "B",
     "explanation": "With all forms of communication, quick feedback loops provide the information you need by confirming they heard the message, determining if they agree, and identifying any nuances or additions to the message that they may have added or heard themselves. (PMBOK 7th Edition, page 13, under Stakeholder Engagement — Engage in the PMBOK Guide 7th Edition.)",
     "video_time": 2976,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.10"
   },
   {
     "number": 18,
@@ -249,7 +266,8 @@
     "correct_answer": "C",
     "explanation": "A significant number of changes or modifications to project requirements or scope may indicate stakeholders are not engaged or aligned with the project objectives. A review of the project issue register or risk register can identify challenges associated with individual stakeholders, enabling you to update the stakeholder engagement approach for those people. (PMBOK 7th Edition, page 15, under Checking Outcomes — Stakeholder Performance.)",
     "video_time": 2973,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.9"
   },
   {
     "number": 19,
@@ -263,7 +281,8 @@
     "correct_answer": "B",
     "explanation": "Servant leaders allow project teams to self-organize when possible and increase levels of autonomy by passing appropriate decision-making opportunities to project team members. Servant leadership behaviors include obstacle removal, being a diversion shield, and development opportunities to help team members grow and make progress in their careers. (PMBOK 7th Edition, page 18, under Distributed Management and Leadership.)",
     "video_time": 3208,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.2"
   },
   {
     "number": 20,
@@ -277,7 +296,8 @@
     "correct_answer": "C",
     "explanation": "When project teams form across different organizations, more work may be required up front to establish a one-team mindset, ensuring everyone understands how they contribute. Team development such as establishing a vision, clear roles and responsibilities, and a way of working are key. (PMBOK 7th Edition, page 18, under Common Aspects of Team Development.)",
     "video_time": 3335,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.6"
   },
   {
     "number": 21,
@@ -291,7 +311,8 @@
     "correct_answer": "A",
     "explanation": "Without an open dialogue you may not know if the scope was a mistake or previously approved. Positive discourse and courage are key aspects of a winning project team culture, along with support, respect, celebrating success, and transparency. Page 21, project team culture in the PMBOK Guide 7th edition.",
     "video_time": 3474,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.8"
   },
   {
     "number": 22,
@@ -305,7 +326,8 @@
     "correct_answer": "B",
     "explanation": "This question calls for leadership skills where setting a vision and purpose and showing your team how they're making a difference can increase their intrinsic motivation. Transferring to another team may risk the same result, and threatening your team may embed their behavior further. Page 24-25, leadership skills — establishing a vision and motivation in the PMBOK Guide 7th edition.",
     "video_time": 3668,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.10"
   },
   {
     "number": 23,
@@ -319,7 +341,8 @@
     "correct_answer": "C",
     "explanation": "Not all conflict is negative — how conflict is handled can either lead to more conflict or better decision-making and stronger solutions. The PMBOK Guide notes open and respectful communication, focusing on the issue not the person and the present not the past, and searching for alternatives together. Page 29, conflict management in the PMBOK Guide 7th edition.",
     "video_time": 3906,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.1"
   },
   {
     "number": 24,
@@ -333,7 +356,8 @@
     "correct_answer": "D",
     "explanation": "For distributed project teams, you can use audio and video capabilities for meetings, use technology including messaging for ongoing contact, build in time to get to know remote team members, and have an open project site for open information and transparency. Page 30, distributed project teams in the PMBOK Guide 7th edition.",
     "video_time": 4060,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.11"
   },
   {
     "number": 25,
@@ -347,7 +371,8 @@
     "correct_answer": "B",
     "explanation": "This question covers delivery cadence and their various benefits. A process re-engineering project may not have any deliveries until near the end of the project when the new process is rolled out and ready. Page 34, delivery cadence in the PMBOK Guide 7th edition.",
     "video_time": 4213,
-    "eco_domain": "Business Environment"
+    "eco_domain": "Business Environment",
+    "eco_task": "3.4"
   },
   {
     "number": 26,
@@ -361,7 +386,8 @@
     "correct_answer": "B",
     "explanation": "An iterative approach is used when you need to capture ideas that might change while still delivering in one release. Incremental progressively delivers features or increments, predictive plans everything up front, and hybrid is a combination of predictive and adaptive. Page 37, development approaches in the PMBOK Guide 7th edition and page 18 of the Agile Practice Guide under characteristics of project life cycles.",
     "video_time": 4355,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 27,
@@ -375,7 +401,8 @@
     "correct_answer": "C",
     "explanation": "Adaptive approaches are useful when requirements are subject to uncertainty and change, a clear vision is established at the start, and initial known requirements are refined or replaced in accordance with user feedback or unexpected events. Page 35, adaptive approach in the PMBOK Guide 7th edition.",
     "video_time": 4476,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 28,
@@ -389,7 +416,8 @@
     "correct_answer": "C",
     "explanation": "Environments that have significant regulatory oversight may need to use a predictive approach due to the required process documentation and demonstration needs. Page 40, considerations for selecting a development approach in the PMBOK Guide 7th edition.",
     "video_time": 4609,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 29,
@@ -403,7 +431,8 @@
     "correct_answer": "D",
     "explanation": "Kanban is one of the largest parts of agile approaches alongside lean, extreme programming, and Scrum. A flow-based scheduling approach does not use sprints, velocity, or life cycles but optimizes deliveries based on resource capacity and minimizes waste such as context switching and handoffs between different people. Page 45, flow-based scheduling in the PMBOK Guide 7th edition.",
     "video_time": 4746,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 30,
@@ -417,7 +446,8 @@
     "correct_answer": "B",
     "explanation": "All projects will go through the general phases of feasibility, design, build, test, deploy, and close. Waterfall projects will do these in sequence once while agile projects will do it multiple times for each feature or increment — the underlying principle remains the same. Page 42, life cycle and phase definitions in the PMBOK Guide 7th edition.",
     "video_time": 5011,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 31,
@@ -431,7 +461,8 @@
     "correct_answer": "D",
     "explanation": "Before initiating a project of any sort, we start with a vision statement, project Charter, or business case in order to identify a coordinated path to achieve the desired outcomes. Page 52 under planning overview in the PMBOK Guide 7th edition.",
     "video_time": 5207,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.9"
   },
   {
     "number": 32,
@@ -445,7 +476,8 @@
     "correct_answer": "B",
     "explanation": "This question refers to the concept of last responsible moment. Work that is novel or risky can be prioritized at the start of the project to reduce uncertainty with the project scope before a large investment has been made. Routine work can be delayed until the further cost of further delay would exceed the benefit. Page 54 in the PMBOK Guide under delivery, paragraph three, 7th edition.",
     "video_time": 5350,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.1"
   },
   {
     "number": 33,
@@ -459,7 +491,8 @@
     "correct_answer": "C",
     "explanation": "This question refers to decomposition, or breaking down the work. We could use a work breakdown structure or rolling wave planning, but for an incremental approach, breaking down the work from epics into features to user stories is a form of decomposition that fits the delivery approach we are using. Page 54 under delivery, paragraph 3, in the PMBOK Guide 7th edition.",
     "video_time": 5534,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.8"
   },
   {
     "number": 34,
@@ -473,7 +506,8 @@
     "correct_answer": "D",
     "explanation": "This question is related to estimation and range estimates should have a broad range at the start of the project when there is not much information, starting at approximately minus 25 to plus 75 percent. Once the project team has a smooth delivery cadence and experience in the product, a smaller range such as minus 5 to plus 10 percent can be used. Page 55 under estimating and range in the PMBOK Guide 7th edition.",
     "video_time": 5698,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 35,
@@ -487,7 +521,8 @@
     "correct_answer": "B",
     "explanation": "This question is on estimates and their accuracy. The lower the accuracy, the larger the potential range in values, which is what we see with the wide 53 to 75 day range. Precision is different from accuracy as it refers to the exactness of the estimate; for example, 2 days is more precise than sometime this week. Page 54 in the PMBOK Guide 7th edition under estimating, accuracy, precision, and confidence.",
     "video_time": 5941,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 36,
@@ -501,7 +536,8 @@
     "correct_answer": "A",
     "explanation": "Probabilistic estimates include a range of estimates along with the associated probabilities within the range, such as a confidence level or a probability distribution. When the number is uncertain, this is the best approach. Deterministic is a specific number, absolute is also a specific number, and relative estimates are shown in comparison to other estimates. Page 57 under presenting estimates in the PMBOK Guide 7th edition.",
     "video_time": 6098,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 37,
@@ -515,7 +551,8 @@
     "correct_answer": "A",
     "explanation": "This question is about estimating and making an estimate in comparison to other estimates, which is relative estimating. Page 57 under relative estimating in the PMBOK Guide 7th edition.",
     "video_time": 6280,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 38,
@@ -529,7 +566,8 @@
     "correct_answer": "C",
     "explanation": "Cycle time is the total elapsed time it takes one unit to get through a process, meaning from when a developer starts working on a card to when they complete it. Lead time is the time from when the customer makes the order or the requirement is noted to the time that the item is delivered or released. Page 58 under flow-based estimating in the PMBOK Guide 7th edition.",
     "video_time": 6391,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 39,
@@ -543,7 +581,8 @@
     "correct_answer": "B",
     "explanation": "Scrum uses velocity; Kanban or flow-based estimates are developed by determining the cycle time and throughput. Cycle time is the total elapsed time it takes one unit to get through a process, and throughput is the number of items that can complete a process in a given amount of time. Page 58 under flow-based estimating in the PMBOK Guide 7th edition.",
     "video_time": 6530,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 40,
@@ -557,7 +596,8 @@
     "correct_answer": "C",
     "explanation": "Schedule lag is moving an item back; schedule lead is bringing an item forward. The precedence diagramming method states that for finish to finish items, the next item cannot finish until the previous item has finished, which allows items to be worked on in parallel while still keeping the same delivery order. Page 59 schedules lead and lag in the PMBOK Guide 7th edition and page 180 precedence diagramming method in the 6th edition.",
     "video_time": 6696,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 41,
@@ -571,7 +611,8 @@
     "correct_answer": "B",
     "explanation": "Fast tracking is a schedule compression method in which activities or tasks that are normally done in sequence are performed in parallel at the same time. Schedule crashing includes adding people to activities, working overtime, or paying to expedite deliveries, so it cannot be used when there is no extra money. See page 59 under schedules fast tracking and crashing in the PMBOK Guide 7th Edition.",
     "video_time": 6945,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 42,
@@ -585,7 +626,8 @@
     "correct_answer": "A",
     "explanation": "When compressing the schedule, some activities cannot be fast-tracked because of the nature of the work while others can. A discretionary dependency is based on project preferences and might be modifiable. External and mandatory dependencies usually cannot be modified, and industry-regulated dependencies have significant oversight making them difficult to move.",
     "video_time": 7083,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 43,
@@ -599,7 +641,8 @@
     "correct_answer": "D",
     "explanation": "Adaptive schedule planning uses incremental planning. A high-level release plan is developed that indicates the basic features and functionality to be included in each release. This satisfies the customer need for visibility while aligning with agile ways of working. See page 61 under adaptive schedule planning in the PMBOK Guide 7th Edition.",
     "video_time": 7238,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 44,
@@ -613,7 +656,8 @@
     "correct_answer": "C",
     "explanation": "Adaptive approaches often use time boxes where the work is based on a prioritized backlog. The project team determines the amount of work they can do in each time box, estimates the work, and self-manages to accomplish that work. At this point the backlog may be reprioritized for the next time box. See page 62 under time boxes in the PMBOK Guide 7th Edition.",
     "video_time": 7395,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.8"
   },
   {
     "number": 45,
@@ -627,7 +671,8 @@
     "correct_answer": "A",
     "explanation": "Management reserves are set aside for unexpected activities related to in-scope work. Depending on the organization policies, management reserves may be managed by the PMO at the program or portfolio level. The project is over budget (AC $535K vs PV $520K) and the scope has already been approved by the sponsor, so unlocking management reserves is the correct action. See page 62 under budget in the PMBOK Guide 7th Edition.",
     "video_time": 7588,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.5"
   },
   {
     "number": 46,
@@ -641,7 +686,8 @@
     "correct_answer": "D",
     "explanation": "When planning for the team, the project sponsor considers the ability and necessity for them to work in the same location. Small project teams that can work in the same room are able to take advantage of osmotic communication, overhearing conversations and solving problems together quickly. See page 64 under project team composition and structure in the PMBOK Guide 7th Edition.",
     "video_time": 7789,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.6"
   },
   {
     "number": 47,
@@ -655,7 +701,8 @@
     "correct_answer": "B",
     "explanation": "The benefit that outside skills bring to the project are weighed against the costs that will be incurred. With higher risk and a single delivery, a waterfall or predictive project delivery approach is best, and sourcing external team members who have expertise in the new system addresses the gap in organizational knowledge. See page 63 under project team composition and structure in the PMBOK Guide 7th Edition.",
     "video_time": 7951,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.11"
   },
   {
     "number": 48,
@@ -669,7 +716,8 @@
     "correct_answer": "C",
     "explanation": "Planning communication for the project entails considering: who needs the information, why should information be shared with stakeholders, when and how often is the information needed, what is the best way to provide the information, and what information does each stakeholder need. How stakeholders can make changes to the communication plan is not a standard element included. See page 64 in the PMBOK Guide 7th Edition.",
     "video_time": 8109,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.9"
   },
   {
     "number": 49,
@@ -683,7 +731,8 @@
     "correct_answer": "B",
     "explanation": "Project teams whose projects require significant physical materials should think and plan strategically about the timing from order to delivery to usage. This can include evaluation of bulk ordering versus the cost of storage, global logistics, and more. The supply chain delay was a risk that should have been identified and managed with appropriate responses. See page 65 under physical resources in the PMBOK Guide 7th Edition.",
     "video_time": 8245,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.5"
   },
   {
     "number": 50,
@@ -697,7 +746,8 @@
     "correct_answer": "D",
     "explanation": "Changes may occur as a result of a risk event, environment change, a deeper understanding of requirements, customer requests, and more. In an agile team, this may take the form of reprioritizing the backlog instead of a formal Change Control process with project baselines. Contingency reserves are for project risks, not scope changes, making backlog reprioritization the correct agile approach. See page 66 under changes in the PMBOK Guide 7th Edition.",
     "video_time": 8404,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.8"
   },
   {
     "number": 51,
@@ -711,7 +761,8 @@
     "correct_answer": "D",
     "explanation": "Ways of optimizing project processes for the environment include lean production methods, retrospectives or Lessons Learned, and finding where the next best funding is spent. Adding people and resources may not always improve things; it can also increase the complexity and the communication channels on your project. This is from page 71 under project processes in the PMBOK Guide Seventh Edition.",
     "video_time": 8580,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.1"
   },
   {
     "number": 52,
@@ -725,7 +776,8 @@
     "correct_answer": "B",
     "explanation": "The time taken to track or record time can be viewed as non-value-added work that does not directly benefit the output or the receiving customer. We should respect the PMO request but in addition to being efficient, processes should also be effective. This is from page 72 under project processes in the PMBOK Guide Seventh Edition.",
     "video_time": 8728,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.1"
   },
   {
     "number": 53,
@@ -739,7 +791,8 @@
     "correct_answer": "C",
     "explanation": "Project managers have a responsibility for assessing and balancing project team focus and attention. This may involve protecting the team's production capability, their team health and satisfaction, and protecting them from outside influences. In agile, this also means being a diversion shield. This is from page 73 under maintaining project team focus in the PMBOK Guide Seventh Edition.",
     "video_time": 8877,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.4"
   },
   {
     "number": 54,
@@ -753,7 +806,8 @@
     "correct_answer": "A",
     "explanation": "Once collected, information is distributed as indicated in the project management communications plan. An abundance of ad hoc communication requests may indicate that the communications planning was not sufficient to meet stakeholder needs and it is a good idea to review it. This is from page 72 under project communication and engagement in the PMBOK Guide Seventh Edition.",
     "video_time": 9085,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.9"
   },
   {
     "number": 55,
@@ -767,7 +821,8 @@
     "correct_answer": "B",
     "explanation": "Prior to conducting a procurement, the project manager and technically qualified project team members work with contracting professionals to develop the request for proposal, statement of work, terms and conditions, and other necessary documents to go out to bid. This is from page 74 under working with procurements in the PMBOK Guide Seventh Edition.",
     "video_time": 9215,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.11"
   },
   {
     "number": 56,
@@ -781,7 +836,8 @@
     "correct_answer": "C",
     "explanation": "The request for information is used to gather more information from the market prior to sending out bid documents to a set of selected vendors. A request for proposal is used where scope is complex or the buyer is looking for the vendor to provide a solution. A request for quote is when price is the deciding factor. This is from page 75 in the PMBOK Guide Seventh Edition.",
     "video_time": 9403,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.11"
   },
   {
     "number": 57,
@@ -795,7 +851,8 @@
     "correct_answer": "D",
     "explanation": "For projects that use an adaptive approach for some deliverables and a predictive approach for others, a master agreement is used and the adaptive work may be placed in an appendix or a supplement. This allows the changes to occur on the adaptive scope without impacting the overall contract. This is from page 76 under the bid process contracting in the PMBOK Guide Seventh Edition.",
     "video_time": 9576,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.11"
   },
   {
     "number": 58,
@@ -809,7 +866,8 @@
     "correct_answer": "A",
     "explanation": "Learning by osmosis is capturing information from immediate surroundings such as collocating the team. Tacit knowledge is information that is not straightforward, such as experience, insights, and practical knowledge or skill. Explicit knowledge can be readily codified using words, a process, or pictures. This is from page 77 under explicit and tacit knowledge in the PMBOK Guide Seventh Edition.",
     "video_time": 9752,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.11"
   },
   {
     "number": 59,
@@ -823,7 +881,8 @@
     "correct_answer": "B",
     "explanation": "On projects that do not have clearly defined requirements, prototypes, demonstrations, storyboards, and mockups can be used to evolve those requirements. In these situations, stakeholders are more likely to take an 'I'll know it when I see it' approach. This is from page 83 under evolving and discovering requirements in the PMBOK Guide Seventh Edition.",
     "video_time": 9889,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.8"
   },
   {
     "number": 60,
@@ -837,7 +896,8 @@
     "correct_answer": "C",
     "explanation": "Elicitation means to draw out. Well-documented requirements are clear, concise, verifiable, consistent, complete, and traceable. A prototype is useful but may need more information for developers to turn into a product. This is from page 83 under requirements elicitation in the PMBOK Guide Seventh Edition.",
     "video_time": 10028,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.8"
   },
   {
     "number": 61,
@@ -851,7 +911,8 @@
     "correct_answer": "C",
     "explanation": "One way to identify scope is by identifying themes of customer value grouped by a common factor such as functionality, data source, or security level. These are shown as epics, which are too big to complete in one Sprint, and broken down into smaller user stories that can be completed in one Sprint. This is covered on page 84 under scope decomposition in the PMBOK Guide 7th edition.",
     "video_time": 10206,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.8"
   },
   {
     "number": 62,
@@ -865,7 +926,8 @@
     "correct_answer": "A",
     "explanation": "Different ways to describe component completion include acceptance or completion criteria, technical performance measures, and the definition of done. Quality testing and product owner sign-off all feed into the acceptance criteria and definition of done. This is covered on page 85 under completion of deliverables in the PMBOK Guide 7th edition.",
     "video_time": 10369,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.7"
   },
   {
     "number": 63,
@@ -879,7 +941,8 @@
     "correct_answer": "B",
     "explanation": "The cost of quality includes prevention costs (training, quality planning), appraisal costs (verification, audits, testing), internal failure costs (waste, defects, rework), and external failure costs (customer complaints, repairs, warranty claims). Appraisal costs relate to verifying deliverables against agreed specifications. This is covered on page 89 under cost of quality in the PMBOK Guide 7th edition.",
     "video_time": 10513,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.7"
   },
   {
     "number": 64,
@@ -893,7 +956,8 @@
     "correct_answer": "D",
     "explanation": "The cost of change is least during requirements and design, 20 times greater during the build, 50 times during test, and 150 times if a defect must be rectified in production. Involving a triad of developer, tester, and customer from the requirements and design phase ensures things are correct from the very beginning, which is the most cost-effective approach. If requirements and acceptance criteria are incorrect, extra quality testing alone will not help. This is covered on page 90 under the cost of change in the PMBOK Guide 7th edition.",
     "video_time": 10671,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.7"
   },
   {
     "number": 65,
@@ -907,7 +971,8 @@
     "correct_answer": "C",
     "explanation": "The value of measurements is not in the collection and dissemination of data but in how that data is used to take appropriate action. Agile projects demonstrate value and features delivered, and use live information radiators instead of large reports to stakeholders. This is covered on page 94 under the measurement performance domain in the PMBOK Guide 7th edition.",
     "video_time": 10932,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.2"
   },
   {
     "number": 66,
@@ -921,7 +986,8 @@
     "correct_answer": "B",
     "explanation": "There are two types of KPIs: leading indicators predict changes or trends in the project and include lack of a risk management process, stakeholders who are not engaged, and poorly defined project success criteria. Lagging indicators reflect what has already happened and include work completed, schedule variance, customer usage, and cycle time. This is covered on page 96 under leading indicators in the PMBOK Guide 7th edition.",
     "video_time": 11107,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.3"
   },
   {
     "number": 67,
@@ -935,7 +1001,8 @@
     "correct_answer": "A",
     "explanation": "With more work, different tasks, and increased complexity, the team are likely context switching between too many different things. Kanban aims to limit the work in progress to avoid context switching and multitasking. Other approaches include reducing queue size and batch sizes and reviewing process efficiency. This is covered on page 99 under what to measure under delivery in the PMBOK Guide 7th edition.",
     "video_time": 11273,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 68,
@@ -949,7 +1016,8 @@
     "correct_answer": "C",
     "explanation": "An agile project tracks and demonstrates the actual features delivered. With a stable team, cost is most often fixed and the schedule is also fixed, while scope is variable depending on what the customer wants to prioritize. Team velocity and schedule or cost variance are internal team measures rather than customer-facing measures. This is covered on page 100 under baseline performance in the PMBOK Guide 7th edition.",
     "video_time": 11488,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.1"
   },
   {
     "number": 69,
@@ -963,7 +1031,8 @@
     "correct_answer": "D",
     "explanation": "Product owners prioritize features based on business value. Metrics that measure business value include cost to benefit ratio, planned to actual benefits delivery, return on investment, and net present value. The product owner is the single decision-maker for prioritization so the team can move much faster without needing a large group consensus. This is covered on page 102 under business value in the PMBOK Guide 7th edition.",
     "video_time": 11597,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.8"
   },
   {
     "number": 70,
@@ -977,7 +1046,8 @@
     "correct_answer": "B",
     "explanation": "Measuring stakeholders can be done with a net promoter score or a satisfaction score, especially with a comment or a mood chart. Improvement ideas are captured during retrospectives for most agile teams. Pairing is another agile practice but is not as relevant at this initial stage. This is covered on page 103 under measuring stakeholders in the PMBOK Guide 7th edition.",
     "video_time": 11734,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.14"
   },
   {
     "number": 71,
@@ -991,7 +1061,8 @@
     "correct_answer": "D",
     "explanation": "This question is about budget forecasts. Regression analysis may work but the best answer is estimate at completion (EAC), which is the budget at completion divided by CPI (cost performance index — earned value divided by actual cost). EAC shows the steering committee the most likely final cost. Page 104 under Forecasts in the PMBOK Guide.",
     "video_time": 11915,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.5"
   },
   {
     "number": 72,
@@ -1005,7 +1076,8 @@
     "correct_answer": "B",
     "explanation": "Agile teams showcase actual work completed at the Sprint review. Information radiators, also known as big visible charts, are visible displays that allow anyone to pull information from them at any time — they are often low-tech and high-touch and contain information on work completed, remaining tasks, risks, kanban boards, and burndown charts. Page 108 under Information Radiators in the PMBOK Guide 7th edition.",
     "video_time": 12068,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.9"
   },
   {
     "number": 73,
@@ -1019,7 +1091,8 @@
     "correct_answer": "C",
     "explanation": "This question is about standups and a kanban board. Task boards are part of the visual controls used where an increment of work moves from to-do to in-progress to done. The team meets for 15 minutes each day to discuss progress and raise any impediments (blockers) to their work. Page 109 Visual Controls / Task Boards in the PMBOK Guide.",
     "video_time": 12248,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 74,
@@ -1033,7 +1106,8 @@
     "correct_answer": "A",
     "explanation": "As a hybrid project using kanban and some agile ceremonies, the most appropriate way to manage the work and scope is by using a work-in-progress (WIP) limit on the board. The product owner has the final say on prioritizing features and scope, and works with stakeholders to ensure they understand that something might be deprioritized when adding a new feature. Page 110 under Kanban Board in the PMBOK Guide 7th edition.",
     "video_time": 12378,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.10"
   },
   {
     "number": 75,
@@ -1047,7 +1121,8 @@
     "correct_answer": "B",
     "explanation": "This is the Hawthorne Effect: what we measure influences the behavior of our team. In this case, measuring only the number of features caused the team to deliver features at the cost of quality and customer satisfaction. By adding measures for customer satisfaction and quality, that will balance out the team's behavior. Page 112 Measurement Pitfalls / Hawthorne Effect in the PMBOK Guide.",
     "video_time": 12548,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.7"
   },
   {
     "number": 76,
@@ -1061,7 +1136,8 @@
     "correct_answer": "C",
     "explanation": "The intent in measuring and displaying data is to learn and improve and to optimize project performance and efficiency. Only measure and report information that will allow the project team to learn, facilitate a decision, improve some aspect of performance, help avoid an issue, or help prevent performance deterioration in the future. Page 114 under Growing and Improving in the PMBOK Guide.",
     "video_time": 12773,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.2"
   },
   {
     "number": 77,
@@ -1075,7 +1151,8 @@
     "correct_answer": "D",
     "explanation": "This question is about general uncertainty and risk. Uncertainty cannot be predicted precisely, and methods for responding to uncertainty include gathering information, preparing for multiple outcomes, using set-based design (e.g., prototypes), and building in resilience for the team. Page 118 under General Uncertainty in the PMBOK Guide 7th edition.",
     "video_time": 12939,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.3"
   },
   {
     "number": 78,
@@ -1089,7 +1166,8 @@
     "correct_answer": "A",
     "explanation": "This question is on ambiguity. There are two types of ambiguity: conceptual (something is hard to understand) and situational (there are multiple options and outcomes). Use progressive elaboration, experiments, and prototypes to work through the ambiguity — deliver a prototype, get feedback, adjust, and iterate. Page 120 under Ambiguity in the PMBOK Guide.",
     "video_time": 13111,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.3"
   },
   {
     "number": 79,
@@ -1104,7 +1182,8 @@
     "correct_answer": "B",
     "explanation": "This question is on complexity. Methods for dealing with complexity include systems-based decoupling and simulation, reframing by getting diversity and balanced views, process-based approaches (iterating forward, engaging stakeholders), and using error-proofing or fail-safe measures. Page 121 under Complexity in the PMBOK Guide.",
     "video_time": 13288,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.3"
   },
   {
     "number": 80,
@@ -1118,7 +1197,8 @@
     "correct_answer": "C",
     "explanation": "This question is referring to volatility — an environment subject to rapid and unpredictable change, including ongoing fluctuations in available skill sets or materials. Alternatives analysis and cost reserves are ways to deal with volatility. Page 122 under Volatility in the PMBOK Guide 7th edition.",
     "video_time": 13469,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.5"
   },
   {
     "number": 81,
@@ -1132,7 +1212,8 @@
     "correct_answer": "C",
     "explanation": "With project risks and responses to threats there are five main types: avoiding, escalating, transferring, mitigating, and accepting. Escalation is appropriate when the project team agrees that the threat is outside the scope of the project or exceeds the project manager's authority. This is page 123 in the PMBOK Guide 7th edition under overall project risks and threats.",
     "video_time": 13646,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.3"
   },
   {
     "number": 82,
@@ -1146,7 +1227,8 @@
     "correct_answer": "A",
     "explanation": "This question describes the various risk responses to threats. Actively accepting a risk can include developing a contingency plan which would be triggered if the event occurred. Passive acceptance means just accepting it and doing nothing. Acting to eliminate the threat is avoiding it, and taking action to reduce the probability of occurrence or impact is mitigating. This is page 123 under risk threats in the PMBOK Guide 7th edition.",
     "video_time": 13800,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.3"
   },
   {
     "number": 83,
@@ -1160,7 +1242,8 @@
     "correct_answer": "B",
     "explanation": "When dealing with opportunities in your project there are five main responses: exploit is acting to ensure an opportunity occurs; escalating is when it's outside the authority of the project manager; sharing allocates ownership to a third party best able to capture its benefit; enhancing is increasing the probability of its occurrence; and accepting merely acknowledges that it is existing without doing anything extra. This is page 125 under risks and opportunities in the PMBOK Guide 7th edition.",
     "video_time": 13968,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.3"
   },
   {
     "number": 84,
@@ -1174,7 +1257,8 @@
     "correct_answer": "D",
     "explanation": "Prioritizing risk responses in a risk-adjusted backlog is just as important as prioritizing features to avoid negative risk impacts and technical damage. Comparing the expected monetary value of a risk to the anticipated return on investment of a deliverable allows product owners to incorporate risk responses into the planned work in a normal way. This information is from the PMBOK Guide 7th edition.",
     "video_time": 14142,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.3"
   },
   {
     "number": 85,
@@ -1188,7 +1272,8 @@
     "correct_answer": "C",
     "explanation": "Reserves are an amount of time or budget set aside to account for handling risks. Contingency reserve is for identified risks should they occur. Management reserve is for unknown events such as unplanned in-scope work. This is page 127 management and contingency reserve in the PMBOK Guide 7th edition.",
     "video_time": 14323,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.3"
   },
   {
     "number": 86,
@@ -1202,7 +1287,8 @@
     "correct_answer": "B",
     "explanation": "In agile teams the risk review can take the form of the daily standup reporting blockers that could become threats if they continue to delay progress. Frequent demonstrations of the product can also surface threats and opportunities as can retrospectives. While quality is everyone's responsibility and the kanban board does visualize the work, B is the best answer. This is page 127 under risk review in the PMBOK Guide 7th edition.",
     "video_time": 14458,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.3"
   },
   {
     "number": 87,
@@ -1216,7 +1302,8 @@
     "correct_answer": "A",
     "explanation": "Projects operate in complex environments that need to balance competing demands. Tailoring is performed to better suit the organization operating environment and project needs. This is page 132 under tailoring overview in the PMBOK Guide 7th edition.",
     "video_time": 14592,
-    "eco_domain": "Business Environment"
+    "eco_domain": "Business Environment",
+    "eco_task": "3.4"
   },
   {
     "number": 88,
@@ -1230,7 +1317,8 @@
     "correct_answer": "C",
     "explanation": "This question is referring to the tailoring process which is: select the initial development approach, tailor for the organization, tailor for the project, and implement ongoing improvement. This is page 137 the tailoring process in the PMBOK Guide 7th edition.",
     "video_time": 14727,
-    "eco_domain": "Business Environment"
+    "eco_domain": "Business Environment",
+    "eco_task": "3.4"
   },
   {
     "number": 89,
@@ -1244,7 +1332,8 @@
     "correct_answer": "D",
     "explanation": "A suitability filter helps project teams consider whether a project has characteristics that lend themselves towards a predictive, hybrid, or adaptive approach, then select one of them as a base and enable the ability to tailor to your project or organization's circumstances. This is page 138 select initial development approach in the PMBOK Guide 7th edition.",
     "video_time": 14847,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 90,
@@ -1258,7 +1347,8 @@
     "correct_answer": "B",
     "explanation": "A VDO serves an enabling role rather than a management or oversight function. It focuses on coaching project teams, building adaptive skills and capabilities throughout the organization, and mentoring sponsors and product owners. This is page 141 tailor for the organization the value delivery office in the PMBOK Guide 7th edition.",
     "video_time": 15023,
-    "eco_domain": "Business Environment"
+    "eco_domain": "Business Environment",
+    "eco_task": "3.4"
   },
   {
     "number": 91,
@@ -1272,7 +1362,8 @@
     "correct_answer": "D",
     "explanation": "Gathering feedback and improving over time while delivering in one release is an iterative delivery approach. Incremental releases increments of value like features, predictive plans everything up front and delivers in one go, and agile gathers feedback and releases incrementally. Page 141 under tailor for your project product and deliverable in the PMBOK Guide 7th edition.",
     "video_time": 15169,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 92,
@@ -1286,7 +1377,8 @@
     "correct_answer": "B",
     "explanation": "An agile or adaptive delivery approach works best when the team is small (fewer than 9 to 12 people), has close access to the customer, is cross-functional so everyone has the skills required, and is collocated in the same space. Predictive is best when lots of planning is needed, hybrid is best when two different approaches are needed, and incremental delivers features over time. Page 141 under tailor for the project team in the PMBOK Guide 7th edition.",
     "video_time": 15300,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 93,
@@ -1300,7 +1392,8 @@
     "correct_answer": "C",
     "explanation": "In an agile environment, holding a retrospective to identify what is working well and what is challenging or could be improved is the best way to find ongoing improvements, going directly to the source and asking for feedback and improving as a team. Page 151 tailoring diagnostics for agile teams in the PMBOK Guide 7th edition.",
     "video_time": 15380,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 94,
@@ -1314,7 +1407,8 @@
     "correct_answer": "A",
     "explanation": "Where there are long delays or waiting for approvals, the tailoring suggestion is to streamline decisions through fewer people authorized to make decisions up to certain value thresholds. Page 151 common situations and tailoring suggestions in the PMBOK Guide 7th edition.",
     "video_time": 15518,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.14"
   },
   {
     "number": 95,
@@ -1328,7 +1422,8 @@
     "correct_answer": "B",
     "explanation": "Where there is too much work in progress or high rates of scrap, it is recommended to use techniques like value stream mapping and Kanban boards to visualize the work, identify the issues, and propose solutions. Adding more people can also complicate communication and processes. Page 151 in the PMBOK Guide 7th edition under common situations and tailoring suggestions.",
     "video_time": 15673,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.1"
   },
   {
     "number": 96,
@@ -1342,7 +1437,8 @@
     "correct_answer": "C",
     "explanation": "When a product is facing poor quality deliverables, the tailoring suggestion is to add more feedback loops or feedback verification loops and quality assurance steps, including demonstrations and reviews, peer review, shoulder checks, pair programming, quality audits, unit testing, system testing, user acceptance testing, regression testing and automated testing. Page 151 under common situations and tailoring suggestions in the PMBOK Guide 7th edition.",
     "video_time": 15873,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.7"
   },
   {
     "number": 97,
@@ -1356,7 +1452,8 @@
     "correct_answer": "D",
     "explanation": "Frederick Herzberg's study of motivational factors found there are hygiene factors (company policies, salary, physical environment) and motivational factors. Once hygiene factors are sufficient, motivational factors such as achievement, growth and advancement provide satisfaction. Paying bonuses or a paid day off might seem like a good idea but will fade and not address the root cause of the engagement. Page 158 in the PMBOK Guide 7th edition, hygiene and motivational factors.",
     "video_time": 16108,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.3"
   },
   {
     "number": 98,
@@ -1370,7 +1467,8 @@
     "correct_answer": "A",
     "explanation": "Alistair Cockburn developed a model that describes communication channels along the axes of effectiveness and richness. Media richness includes the ability to handle multiple information cues, rapid feedback, establish a personal focus, and utilize natural language — for example face-to-face communication with collocated teams. Page 157 under effectiveness of communication channels in the PMBOK Guide 7th edition.",
     "video_time": 16361,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.14"
   },
   {
     "number": 99,
@@ -1384,7 +1482,8 @@
     "correct_answer": "B",
     "explanation": "The ADKAR model for change management covers Awareness, Desire, Knowledge, Ability and Reinforcement. Once people have the desire for change, the next step is knowledge, which includes training and education for the new processes and systems. Page 161 under the ADKAR model in the PMBOK Guide 7th edition.",
     "video_time": 16520,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.5"
   },
   {
     "number": 100,
@@ -1398,7 +1497,8 @@
     "correct_answer": "C",
     "explanation": "John Kotter's eight-step process for leading change is: create urgency, form a powerful coalition, create a vision, communicate the vision, remove obstacles, create short-term wins, build on the change, and anchor the changes in corporate culture. After communicating the vision, the next step is removing obstacles. Page 162 under the eight-step process for leading change in the PMBOK Guide 7th edition.",
     "video_time": 16630,
-    "eco_domain": "Business Environment"
+    "eco_domain": "Business Environment",
+    "eco_task": "3.4"
   },
   {
     "number": 101,
@@ -1412,7 +1512,8 @@
     "correct_answer": "B",
     "explanation": "The Cynefin framework describes complicated relationships when there is a set of known unknowns or a range of correct answers. In complicated situations it is best to assess the facts, analyze the situation, and apply good practices. Complex situations (unknown unknowns) call for probing the environment, and chaotic situations require stabilization first.",
     "video_time": 16792,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.3"
   },
   {
     "number": 102,
@@ -1426,7 +1527,8 @@
     "correct_answer": "A",
     "explanation": "The Stacey Matrix looks at two dimensions to determine complexity: uncertainty in the requirements and uncertainty in the technology. Agile methodologies work best in complicated and complex environments. Releasing small usable features allows the team to work through uncertainty iteratively. Page 165 under Stacey Matrix in the PMBOK Guide 7th Edition.",
     "video_time": 16968,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 103,
@@ -1440,7 +1542,8 @@
     "correct_answer": "B",
     "explanation": "This scenario describes the five stages of team development from the Tuckman Ladder. When there is conflict and difficulty working together the team is in the storming stage. We should help them understand their roles and responsibilities and find a regular rhythm so they can move to the norming stage. Page 166 under Tuckman Ladder in the PMBOK Guide 7th Edition.",
     "video_time": 17104,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.6"
   },
   {
     "number": 104,
@@ -1454,7 +1557,8 @@
     "correct_answer": "D",
     "explanation": "This question refers to the Drexler-Sibbet Team Performance Model. The steps include orientation, trust building, goal clarification, commitment, implementation, high performance, and renewal. After trust building comes goal clarification, so clarifying the goals and what the team is here to deliver is the next step. Page 167 under Drexler-Sibbet Team Performance Model in the PMBOK Guide 7th Edition.",
     "video_time": 17227,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.6"
   },
   {
     "number": 105,
@@ -1468,7 +1572,8 @@
     "correct_answer": "C",
     "explanation": "Ken Thomas and Ralph Kilmann describe six ways to address conflict depending on the relative power between individuals: confronting/problem solving, collaborating, compromising, accommodating, forcing, and withdrawing. Since the sponsor has significant power and there is a desire to maintain a good relationship, adopting an accommodating posture is appropriate in this scenario. Page 168-169 under the conflict model in the PMBOK Guide 7th Edition.",
     "video_time": 17370,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.8"
   },
   {
     "number": 106,
@@ -1482,7 +1587,8 @@
     "correct_answer": "B",
     "explanation": "Steven Covey's approach from The Seven Habits of Highly Effective People describes the win-win outcome. A win-win approach is found when there is mature character, trust, and the ability to approach it from the other's point of view. Page 169 under negotiation in the PMBOK Guide 7th Edition.",
     "video_time": 17589,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.8"
   },
   {
     "number": 107,
@@ -1496,7 +1602,8 @@
     "correct_answer": "A",
     "explanation": "The project management process groups are initiating, planning, executing, monitoring and controlling, and closing. As project work is executed it then needs to be monitored and controlled to ensure it stays on track and meets its goals. Page 170 under process groups in the PMBOK Guide 7th Edition.",
     "video_time": 17745,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.1"
   },
   {
     "number": 108,
@@ -1510,7 +1617,8 @@
     "correct_answer": "C",
     "explanation": "As a product owner your responsibility is to increase users, sales, revenue, and profit for your product. If profit is decreasing while sales revenue is increasing, the product is costing more to produce or sell. Performing benchmarking to find gaps in your process and then executing improvements will help address the root cause. Page 175 under data gathering and analysis: benchmarking in the PMBOK Guide 7th Edition.",
     "video_time": 17861,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.7"
   },
   {
     "number": 109,
@@ -1524,7 +1632,8 @@
     "correct_answer": "D",
     "explanation": "Cost-to-benefit and payback period (time to recover an investment) are the best accepted ways to prioritize business value. Root cause analysis is better for specific problems, and performing MoSCoW with stakeholders may result in each of them wanting their feature to be 'must have'. Page 175 under business justification analysis methods in the PMBOK Guide 7th Edition.",
     "video_time": 18062,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.8"
   },
   {
     "number": 110,
@@ -1538,7 +1647,8 @@
     "correct_answer": "B",
     "explanation": "The wideband Delphi technique asks subject matter experts to complete multiple rounds of estimates individually, then compare and explain the highest and lowest estimates for each round until estimates converge. Planning poker is a variation of wideband Delphi. Page 178 under estimating: wideband Delphi in the PMBOK Guide 7th Edition.",
     "video_time": 18284,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 111,
@@ -1552,7 +1662,8 @@
     "correct_answer": "D",
     "explanation": "This question refers to SWOT analysis — strengths, weaknesses, opportunities, and threats. Once strengths and opportunities have been captured, a complete picture also involves the weaknesses and threats. Page 175 under SWOT analysis in the PMBOK Guide 7th edition.",
     "video_time": 18439,
-    "eco_domain": "Business Environment"
+    "eco_domain": "Business Environment",
+    "eco_task": "3.3"
   },
   {
     "number": 112,
@@ -1566,7 +1677,8 @@
     "correct_answer": "B",
     "explanation": "When the effort on a feature or deliverable needs to be estimated and there are people who have experience delivering a similar item, you can use analogous estimating — it is an analogy to something similar — to estimate the effort quickly and with a medium level of accuracy. Page 178 under analogous estimating in the PMBOK Guide 7th edition.",
     "video_time": 18558,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 113,
@@ -1580,7 +1692,8 @@
     "correct_answer": "C",
     "explanation": "Relative estimating is the most common method for user stories, where they are sized in comparison to the smallest piece, often in story points and often on a Fibonacci scale. Page 178 under relative estimating in the PMBOK Guide 7th edition.",
     "video_time": 18717,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 114,
@@ -1594,7 +1707,8 @@
     "correct_answer": "A",
     "explanation": "At a backlog refinement meeting, the backlog is progressively elaborated and reprioritized to identify the work that can be accomplished in an upcoming iteration. Page 179, meetings and events, backlog refinement in the PMBOK Guide 7th edition.",
     "video_time": 18895,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 115,
@@ -1608,7 +1722,8 @@
     "correct_answer": "B",
     "explanation": "A bidder conference is a meeting with prospective sellers prior to the preparation of a bid or proposal to ensure all prospective bidders have a clear and common understanding of the procurement. This meeting may also be known as contractor conferences, vendor conferences, or pre-bid conferences. Page 179 under bidder conference in the PMBOK Guide 7th edition.",
     "video_time": 19031,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.11"
   },
   {
     "number": 116,
@@ -1622,7 +1737,8 @@
     "correct_answer": "C",
     "explanation": "Where formal change control processes are in place, a Change Control Board includes the people who are accountable for reviewing, approving, or rejecting changes to the project. The decisions made at this meeting are recorded and communicated to the appropriate stakeholders. Page 179 under Change Control Board in the PMBOK Guide 7th edition.",
     "video_time": 19180,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.10"
   },
   {
     "number": 117,
@@ -1636,7 +1752,8 @@
     "correct_answer": "D",
     "explanation": "The iteration or Sprint review is held at the end of an iteration, usually of 2 weeks, to demonstrate the work that was accomplished during the iteration to the project customers and stakeholders. Page 179 under iteration review in the PMBOK Guide 7th edition.",
     "video_time": 19298,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.9"
   },
   {
     "number": 118,
@@ -1650,7 +1767,8 @@
     "correct_answer": "A",
     "explanation": "A risk review is a meeting to analyze the status of existing risks and to identify new risks, including changes to probability, impact, or urgency, and determining if responses are adequate. Page 180 under risk review in the PMBOK Guide 7th edition.",
     "video_time": 19454,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.3"
   },
   {
     "number": 119,
@@ -1664,7 +1782,8 @@
     "correct_answer": "B",
     "explanation": "A retrospective is a regularly occurring workshop similar to a lessons learned meeting where the team explore their work in order to improve their process and the product. If information is not captured anywhere, the agile approach is to problem solve with the team in a retrospective. Page 180 under retrospective in the PMBOK Guide 7th edition.",
     "video_time": 19601,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.1"
   },
   {
     "number": 120,
@@ -1678,7 +1797,8 @@
     "correct_answer": "C",
     "explanation": "A status meeting is a regularly scheduled event to exchange and analyze information about the current progress of the project and its performance. Since the risk is still within acceptable limits, communicating the schedule change to stakeholders via the status meeting is the appropriate step. Page 180 under status meeting in the PMBOK Guide 7th edition.",
     "video_time": 19758,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.3"
   },
   {
     "number": 121,
@@ -1692,7 +1812,8 @@
     "correct_answer": "C",
     "explanation": "A product owner prioritizes features to improve usability and profitability of a product. The net promoter score measures the willingness of customers to recommend a product or service to others and is used to gauge overall customer satisfaction and loyalty to the brand or product. Page 181, net promoter score, in the PMBOK Guide 7th edition.",
     "video_time": 19907,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.4"
   },
   {
     "number": 122,
@@ -1706,7 +1827,8 @@
     "correct_answer": "A",
     "explanation": "In agile we have a product backlog that we prioritize. Prioritization schemas are methods used to prioritize portfolio, program, or project components such as features, requirements, or even risks. Examples include multicriteria decision matrices, MoSCoW (must have, should have, could have, won't have), cost to benefit, and more. Page 181, prioritization schema, in the PMBOK Guide 7th edition.",
     "video_time": 20070,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.8"
   },
   {
     "number": 123,
@@ -1720,7 +1842,8 @@
     "correct_answer": "B",
     "explanation": "A spike is a short dedicated user story to research or analyze something. A time box is a short fixed period of time in which work is to be completed, often a few days to a few weeks. Page 181, time box, in the PMBOK Guide 7th edition.",
     "video_time": 20247,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.15"
   },
   {
     "number": 124,
@@ -1734,7 +1857,8 @@
     "correct_answer": "D",
     "explanation": "The scope and team required to build a website is very different from a physical building; a new project with its own funding is the best option. A business case is a value proposition for a proposed project that might include financial and non-financial benefits; it typically precedes a project charter and a formal project approval and kickoff. Page 184, business case, in the PMBOK Guide 7th edition.",
     "video_time": 20423,
-    "eco_domain": "Business Environment"
+    "eco_domain": "Business Environment",
+    "eco_task": "3.2"
   },
   {
     "number": 125,
@@ -1748,7 +1872,8 @@
     "correct_answer": "C",
     "explanation": "The business model canvas is a one-page visual summary that describes the value proposition, the infrastructure, customers, and finances. They are often used in lean startup situations and can feed into prioritization of the product backlog. Page 184, business model canvas, in the PMBOK Guide 7th edition.",
     "video_time": 20566,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.9"
   },
   {
     "number": 126,
@@ -1762,7 +1887,8 @@
     "correct_answer": "B",
     "explanation": "The project vision statement is a concise high-level description of the project that states the purpose and inspires the team to contribute to the project. Page 184, project vision statement, in the PMBOK Guide 7th edition.",
     "video_time": 20760,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.10"
   },
   {
     "number": 127,
@@ -1776,7 +1902,8 @@
     "correct_answer": "A",
     "explanation": "An assumption is a factor that is considered to be true, real, or certain without proof or demonstration. A constraint is a factor that limits the options for managing a project. An assumption log records all assumptions and constraints throughout the project. Page 185, assumption log, in the PMBOK Guide 7th edition.",
     "video_time": 20881,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.9"
   },
   {
     "number": 128,
@@ -1790,7 +1917,8 @@
     "correct_answer": "C",
     "explanation": "A backlog is an ordered list of work to be done. Projects may have a product backlog, a requirement backlog, an impediment backlog, and many other things. Items in a backlog are prioritized and prioritized work is scheduled for upcoming iterations or sprints. Page 185, logs and registers — backlog, in the PMBOK Guide 7th edition.",
     "video_time": 21060,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.8"
   },
   {
     "number": 129,
@@ -1804,7 +1932,8 @@
     "correct_answer": "D",
     "explanation": "A change log is a comprehensive list of changes submitted during the project and their current status. A change can be a modification to any formally controlled deliverable, baseline document, project management plan, or project document. Once approved by the Change Control Board, the first best next step is to note the outcome in the change log and communicate it to affected stakeholders. Page 185, logs and registers — change log, in the PMBOK Guide 7th edition.",
     "video_time": 21211,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.10"
   },
   {
     "number": 130,
@@ -1818,7 +1947,8 @@
     "correct_answer": "B",
     "explanation": "An issue is a current condition or situation that may have an impact on the project objectives. An issue log is used to record and monitor information on active issues; issues are assigned to a responsible party for follow-up and resolution. Since this has already happened it is an issue, not a risk. Page 185, logs and registers — issue log, in the PMBOK Guide 7th edition.",
     "video_time": 21367,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.15"
   },
   {
     "number": 131,
@@ -1832,7 +1962,8 @@
     "correct_answer": "D",
     "explanation": "A risk adjusted backlog is a backlog that includes work and actions to address threats and opportunities. Risk responses are placed into the backlog, prioritized alongside other work, and assigned to Sprints to be worked on and closed. Page 185, risk adjusted backlog, PMBOK Guide 7th Edition.",
     "video_time": 21519,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.3"
   },
   {
     "number": 132,
@@ -1846,7 +1977,8 @@
     "correct_answer": "B",
     "explanation": "A risk register is a repository in which outputs of risk management processes are recorded, including the person responsible for managing each risk, the probability and impact, planned risk responses, and more. Page 185, risk register, PMBOK Guide 7th Edition.",
     "video_time": 21648,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.3"
   },
   {
     "number": 133,
@@ -1860,7 +1992,8 @@
     "correct_answer": "C",
     "explanation": "A stakeholder register records information about project stakeholders, including an assessment and classification of stakeholders. Ensuring his details and position are recorded before taking further action is the most appropriate step. Page 185, stakeholder register, PMBOK Guide 7th Edition.",
     "video_time": 21782,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.9"
   },
   {
     "number": 134,
@@ -1874,7 +2007,8 @@
     "correct_answer": "A",
     "explanation": "An iteration plan is a detailed plan for the current iteration that usually matches the estimated work for the Sprint to the average Sprint velocity. Items from the product backlog are broken down into user stories and placed into upcoming Sprints. Page 186, iteration plan, PMBOK Guide 7th Edition.",
     "video_time": 21929,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 135,
@@ -1888,7 +2022,8 @@
     "correct_answer": "B",
     "explanation": "A release plan sets expectations for the dates, features, and outcomes expected to be delivered over the course of multiple iterations, providing the forward view the customer needs. Page 186, release plan, PMBOK Guide 7th Edition.",
     "video_time": 22075,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 136,
@@ -1902,7 +2037,8 @@
     "correct_answer": "C",
     "explanation": "The requirements management plan is a component of the project management plan that describes how requirements will be analyzed, documented, and managed. Page 186, requirements management plan, PMBOK Guide 7th Edition.",
     "video_time": 22209,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.8"
   },
   {
     "number": 137,
@@ -1916,7 +2052,8 @@
     "correct_answer": "D",
     "explanation": "A test plan is a document that describes the deliverables that will be tested, the tests that will be conducted, and the processes that will be used in testing. It forms the basis for formally testing components and deliverables, including complex interdependencies. Page 186, test plan, PMBOK Guide 7th Edition.",
     "video_time": 22341,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.7"
   },
   {
     "number": 138,
@@ -1930,7 +2067,8 @@
     "correct_answer": "A",
     "explanation": "A product breakdown structure is a hierarchical structure reflecting a product's components and deliverables, providing an exhaustive hierarchical tree structure of deliverables arranged in a whole-to-parts relationship. Page 187, product breakdown structure, PMBOK Guide 7th Edition.",
     "video_time": 22492,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.8"
   },
   {
     "number": 139,
@@ -1944,7 +2082,8 @@
     "correct_answer": "B",
     "explanation": "A baseline is the approved version of a work product or plan where actual performance is compared to the baseline to identify variances. Baselined items are noted in the configuration management plan. Page 188, baselines, PMBOK Guide 7th Edition.",
     "video_time": 22611,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.8"
   },
   {
     "number": 140,
@@ -1958,7 +2097,8 @@
     "correct_answer": "C",
     "explanation": "A burndown chart is a graphical representation of the work remaining in a time box such as a Sprint, comparing the ideal trend with the items actually completed. A Sprint review, by contrast, demonstrates what was created during the Sprint once the Sprint is complete. Page 188, burndown chart, PMBOK Guide 7th Edition.",
     "video_time": 22738,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 141,
@@ -1972,7 +2112,8 @@
     "correct_answer": "C",
     "explanation": "A cumulative flow diagram indicates features completed over time, separated at each stage such as features in the backlog, then design, development, testing, and more. It covers the whole project, not just a single Sprint. Page 188 under cumulative flow diagram in the PMBOK Guide 7th edition.",
     "video_time": 22895,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 142,
@@ -1986,7 +2127,8 @@
     "correct_answer": "A",
     "explanation": "A cycle time chart shows the average cycle time of work items completed over time; it can be a scatter diagram or a bar chart and tracks how long individual user stories take to complete. This directly reveals whether stories are slowing down. The cycle time measures from when work starts to when it finishes for each card.",
     "video_time": 22841,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 143,
@@ -2000,7 +2142,8 @@
     "correct_answer": "B",
     "explanation": "A story map is a visual model of all the features and functionality desired for a given product, created to give the project team a holistic view of what they are building and why. It can also break the feature down into user stories based on functionality. Page 190 under story map in the PMBOK Guide 7th edition.",
     "video_time": 23194,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.8"
   },
   {
     "number": 144,
@@ -2014,7 +2157,8 @@
     "correct_answer": "D",
     "explanation": "The velocity chart tracks the rate at which deliverables are produced, validated, and accepted within a predefined interval like a Sprint. It shows what was committed versus what was completed for each Sprint, indicating the rate of work across teams. Page 190 under velocity chart in the PMBOK Guide.",
     "video_time": 23368,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 145,
@@ -2028,7 +2172,8 @@
     "correct_answer": "C",
     "explanation": "The status report provides a report on the current status of the project; it may include information on progress since the last report and forecasts for cost and schedule performance in the future. Reviewing current and previous status reports shows the sponsor whether the project is on track. Page 190 under reports, status report in the PMBOK Guide 7th edition.",
     "video_time": 23445,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.2"
   },
   {
     "number": 146,
@@ -2042,7 +2187,8 @@
     "correct_answer": "B",
     "explanation": "Cost-reimbursable contracts involve payments to the seller for actual costs incurred plus a fee representing seller profit. They are used when the scope is not well defined or is subject to frequent change, which matches this agile scenario with uncertain scope. Includes Cost Plus Award Fee, Fixed Fee, or Incentive Fee. Page 191 under cost reimbursable contracts in the PMBOK Guide.",
     "video_time": 23788,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.11"
   },
   {
     "number": 147,
@@ -2056,7 +2202,8 @@
     "correct_answer": "A",
     "explanation": "Indefinite delivery indefinite quantity (IDIQ) provides for an indefinite quantity of goods or services with a stated lower and upper limit within a fixed time period. This suits scenarios where the quantity can change significantly. Fixed price works better if quantities are known. Page 191 under agreements and contracts in the PMBOK Guide 7th edition.",
     "video_time": 24189,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.11"
   },
   {
     "number": 148,
@@ -2070,7 +2217,8 @@
     "correct_answer": "C",
     "explanation": "Bid documents are used to request proposals from prospective sellers. Request for quotation is best when the work is straightforward and you simply need a price. Request for proposal is used when the item is complex; request for information is used when more information is needed; a bidder's conference ensures all sellers have enough information. Page 192 under bid documents in the PMBOK Guide.",
     "video_time": 24626,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.11"
   },
   {
     "number": 149,
@@ -2084,7 +2232,8 @@
     "correct_answer": "D",
     "explanation": "The project team charter records the team values, agreements, and operating guidelines. It establishes clear expectations regarding acceptable behavior by project team members, helping them understand where they fit in the project and the team. Page 192 under project team charter in the PMBOK Guide.",
     "video_time": 24849,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.12"
   },
   {
     "number": 150,
@@ -2098,6 +2247,7 @@
     "correct_answer": "B",
     "explanation": "A user story is a brief description of an outcome for a specific user; it has enough information at a level which team members can work on that item. Breaking high-level features down into user stories gives the team actionable items they can place into a Sprint. Page 192 under other artifacts, user story in the PMBOK Guide.",
     "video_time": 25128,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.8"
   }
 ]

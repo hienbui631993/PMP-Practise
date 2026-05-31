@@ -195,6 +195,23 @@
   const ECO_DOMS=["People","Process","Business Environment"];
   const ECO_WEIGHT={People:0.42,Process:0.50,"Business Environment":0.08};
   const ECO_PCT={People:42,Process:50,"Business Environment":8};
+  const ECO_PREFIX={People:"1.",Process:"2.","Business Environment":"3."};
+  const ECO_TASKS={
+    "1.1":"Manage conflict","1.2":"Lead a team","1.3":"Support team performance","1.4":"Empower team members and stakeholders",
+    "1.5":"Ensure team/stakeholders are adequately trained","1.6":"Build a team","1.7":"Address and remove impediments/obstacles/blockers",
+    "1.8":"Negotiate project agreements","1.9":"Collaborate with stakeholders","1.10":"Build shared understanding",
+    "1.11":"Engage and support virtual teams","1.12":"Define team ground rules","1.13":"Mentor relevant stakeholders",
+    "1.14":"Promote team performance through emotional intelligence",
+    "2.1":"Execute project with urgency to deliver business value","2.2":"Manage communications","2.3":"Assess and manage risks",
+    "2.4":"Engage stakeholders","2.5":"Plan and manage budget and resources","2.6":"Plan and manage schedule",
+    "2.7":"Plan and manage quality of products/deliverables","2.8":"Plan and manage scope","2.9":"Integrate project planning activities",
+    "2.10":"Manage project changes","2.11":"Plan and manage procurement","2.12":"Manage project artifacts",
+    "2.13":"Determine appropriate methodology/methods and practices","2.14":"Establish project governance structure",
+    "2.15":"Manage project issues","2.16":"Ensure knowledge transfer for project continuity",
+    "2.17":"Plan and manage project/phase closure or transitions",
+    "3.1":"Plan and manage project compliance","3.2":"Evaluate and deliver project benefits and value",
+    "3.3":"Evaluate and address external business environment changes","3.4":"Support organizational change"};
+  function taskNum(t){ const p=String(t).split("."); return (parseInt(p[0],10)||0)*100+(parseInt(p[1],10)||0); }
   function domOf(q){ const d=q&&q.eco_domain; return ECO_WEIGHT[d]!=null?d:"Process"; }
   // pick n question indices from BANK weighted to the ECO domain ratio
   function ecoPick(n){
@@ -420,9 +437,11 @@
       if(perSec[sec])perSec[sec].n++; if(sel.length)answered++;
       const ok=sel.length&&sel.slice().sort().join(",")===cs.slice().sort().join(","); if(ok){correct++; if(perSec[sec])perSec[sec].c++;} });
     // per ECO domain
-    const perDom={People:{c:0,n:0},Process:{c:0,n:0},"Business Environment":{c:0,n:0}};
+    const perDom={People:{c:0,n:0},Process:{c:0,n:0},"Business Environment":{c:0,n:0}}, perTask={};
     S.order.forEach(function(bi,gi){ const q=BANK[bi],d=domOf(q),cs=correctSet(q),sel=S.answers[gi]||[];
-      perDom[d].n++; const ok=sel.length&&sel.slice().sort().join(",")===cs.slice().sort().join(","); if(ok)perDom[d].c++; });
+      const ok=sel.length&&sel.slice().sort().join(",")===cs.slice().sort().join(",");
+      perDom[d].n++; if(ok)perDom[d].c++;
+      const t=q.eco_task; if(t){ if(!perTask[t])perTask[t]={c:0,n:0}; perTask[t].n++; if(ok)perTask[t].c++; } });
     const pct=Math.round(correct/S.total*100), used=(S.startLimit!=null?S.startLimit-(S.examLeft||0):null);
     if(!S._saved){ saveResult({mode:S.mode,total:S.total,correct:correct,pct:pct,perDom:perDom}); S._saved=true; }
     let html='<h2 class="qtitle">Exam Results</h2>';
@@ -430,13 +449,16 @@
     html+='<div class="card" style="text-align:center"><div class="score">'+pct+'%</div><div class="statline" style="justify-content:center"><span><b>'+correct+'</b>/'+S.total+' correct</span><span>'+answered+' answered</span><span>'+(S.total-answered)+' skipped</span>'+(used!=null?'<span>Time used: '+fmt(used)+'</span>':'')+'</div>';
     if(S.mode==="full") html+='<div class="statline" style="justify-content:center;margin-top:8px">'+perSec.map((p,i)=>'<span>Section '+(i+1)+': '+p.c+'/'+p.n+'</span>').join("")+'</div>';
     html+='</div>';
-    // ECO match card
-    html+='<div class="card"><h3 style="margin-top:0">Match against the PMI ECO domains</h3>'+
-      '<p style="color:var(--muted);font-size:13px;margin:0 0 10px">This test was mixed from all question banks and weighted to the ECO domain ratio (People 42% · Process 50% · Business Environment 8%).</p>'+
-      '<table class="review" style="width:100%"><thead><tr><th>DOMAIN</th><th>ECO WEIGHT</th><th>QUESTIONS</th><th>CORRECT</th><th>ACCURACY</th></tr></thead><tbody>'+
-      ECO_DOMS.map(function(d){ const o=perDom[d]; const acc=o.n?Math.round(100*o.c/o.n):0; const share=Math.round(100*o.n/S.total);
-        return '<tr><td>'+d+'</td><td>'+ECO_PCT[d]+'% <span style="color:var(--muted)">(this test '+share+'%)</span></td><td>'+o.n+'</td><td>'+o.c+'</td><td><span class="pill '+(acc>=70?"c":"i")+'">'+acc+'%</span></td></tr>'; }).join("")+
-      '</tbody></table><p style="color:var(--muted);font-size:12px;margin:10px 0 0">PMI considers ~70%+ a passing benchmark. Focus study on your weakest domain.</p></div>';
+    // ECO match card (domains broken down into tasks)
+    let ecoRows="";
+    ECO_DOMS.forEach(function(d){ const o=perDom[d]; const acc=o.n?Math.round(100*o.c/o.n):0; const share=Math.round(100*o.n/S.total);
+      ecoRows+='<tr style="background:var(--sub)"><td><b>'+d+'</b></td><td><b>'+ECO_PCT[d]+'%</b> <span style="color:var(--muted)">(this test '+share+'%)</span></td><td><b>'+o.n+'</b></td><td><b>'+o.c+'</b></td><td>'+(o.n?'<span class="pill '+(acc>=70?"c":"i")+'">'+acc+'%</span>':'—')+'</td></tr>';
+      Object.keys(perTask).filter(function(t){ return t.indexOf(ECO_PREFIX[d])===0; }).sort(function(a,b){ return taskNum(a)-taskNum(b); }).forEach(function(t){ const o2=perTask[t]; const a2=o2.n?Math.round(100*o2.c/o2.n):0;
+        ecoRows+='<tr><td style="padding-left:28px"><span style="color:var(--muted)">'+t+'</span> '+esc(ECO_TASKS[t]||"")+'</td><td></td><td>'+o2.n+'</td><td>'+o2.c+'</td><td><span class="pill '+(a2>=70?"c":"i")+'">'+a2+'%</span></td></tr>'; }); });
+    html+='<div class="card"><h3 style="margin-top:0">Match against the PMI ECO — domains &amp; tasks</h3>'+
+      '<p style="color:var(--muted);font-size:13px;margin:0 0 10px">Mixed from all question banks and weighted to the ECO domain ratio (People 42% · Process 50% · Business Environment 8%). Each domain is broken down into the ECO tasks that appeared in this test.</p>'+
+      '<table class="review" style="width:100%"><thead><tr><th>DOMAIN / TASK</th><th>ECO WEIGHT</th><th>QUESTIONS</th><th>CORRECT</th><th>ACCURACY</th></tr></thead><tbody>'+ecoRows+
+      '</tbody></table><p style="color:var(--muted);font-size:12px;margin:10px 0 0">PMI considers ~70%+ a passing benchmark. Focus study on your weakest tasks.</p></div>';
     html+='<div class="row" style="margin:8px 0 14px"><button class="primary" id="toggleRev" style="background:var(--accent)">Show question review</button><button class="primary" id="again">New test</button> <a class="link" href="index.html" style="align-self:center">🏠 Home</a></div><div id="reviewList" class="hide"></div>';
     $("stage").innerHTML=html;
     $("again").onclick=renderConfig;

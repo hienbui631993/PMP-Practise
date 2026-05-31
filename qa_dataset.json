@@ -11,7 +11,8 @@
     "correct_answer": "D",
     "explanation": "When there is a problem on a project, you must first understand it and identify its root cause before taking any action. D looks for the root cause of the disagreement. A, B, and C are all actions taken before understanding the problem; you should never take action until you understand the problem, and choosing essential/non-essential features is the role of the product owner/sponsor/customer, not the PM.",
     "video_time": 223,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.10"
   },
   {
     "number": 2,
@@ -25,7 +26,8 @@
     "correct_answer": "A",
     "explanation": "The presence of a product owner signals an agile project where the team is self-leading and self-directing. When someone suggests work, you let the team decide whether to do it. A has the team collaborate and decide. B gives away the work, C brings in more people and assumes implementation, and D moves to solutions without letting the team decide.",
     "video_time": 344,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.2"
   },
   {
     "number": 3,
@@ -39,7 +41,8 @@
     "correct_answer": "D",
     "explanation": "Before taking any action you must understand the concern. D meets with the finance team to understand the problem. A amends a plan before understanding the issue, B documents a risk before understanding it, and C maintains the status quo, which is never the answer.",
     "video_time": 926,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.9"
   },
   {
     "number": 4,
@@ -53,7 +56,8 @@
     "correct_answer": "A",
     "explanation": "This is the role of Sprint review/demonstration meetings, which show progress to stakeholders each Sprint. Customers/stakeholders care about functionality, not technical detail, so they don't need detailed documentation (D), detailed technical explanations (B), or technical training (C).",
     "video_time": 1068,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.4"
   },
   {
     "number": 5,
@@ -67,7 +71,8 @@
     "correct_answer": "A",
     "explanation": "In Sprint planning the team decides how much and what work to do; the output is the Sprint backlog. To do this they need a detailed product backlog (with user stories) and their team performance metrics/velocity to know how much they can complete. Risk assessments, marketplace goals, phase timelines, and charters are not the essential inputs for Sprint planning.",
     "video_time": 1237,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 6,
@@ -81,7 +86,8 @@
     "correct_answer": "C",
     "explanation": "The ultimate test of quality is a satisfied customer. Pair programming catches defects as code is written, and customer feedback involves the customer in development, which is the best way to ensure quality. The other options either rely on infrequent quarterly/milestone reviews or omit the customer entirely.",
     "video_time": 1407,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.7"
   },
   {
     "number": 7,
@@ -95,7 +101,8 @@
     "correct_answer": "B",
     "explanation": "Once a Sprint starts, you do not change the work or the team. The best action is to keep the team on track to finish the Sprint goal and, if the optimization is valuable, add it to the product backlog for a future Sprint. A, C, and D all divert time away from completing the committed Sprint goal.",
     "video_time": 1576,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.8"
   },
   {
     "number": 8,
@@ -109,7 +116,8 @@
     "correct_answer": "A",
     "explanation": "If someone does not know how to do their role, you teach them rather than doing it for them or making others do it. Prioritizing and organizing work happens in the product backlog, so teaching the product owner to develop and optimize the backlog directly addresses their need. B gives away the PM's job, C lets the team prioritize (which is the product owner's job), and D does not address prioritization.",
     "video_time": 1698,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.8"
   },
   {
     "number": 9,
@@ -123,7 +131,8 @@
     "correct_answer": "C",
     "explanation": "Award systems must be fair and public; working the longest hours doesn't mean doing the most work (eliminates A), and informal feedback (D) is not a fair, transparent system. Between B and C, professional development benefits the team more in future projects, making C the best answer.",
     "video_time": 1820,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.3"
   },
   {
     "number": 10,
@@ -137,7 +146,8 @@
     "correct_answer": "B",
     "explanation": "Stakeholder engagement and involvement are the key to project success. A milestone-based plan keeps the project on schedule with regular stakeholder communication. A acts without consulting the team, D is unnecessary since they want to finish quickly, and C (daily monitoring) is time-consuming and less effective than milestone-based stakeholder engagement.",
     "video_time": 1942,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.2"
   },
   {
     "number": 11,
@@ -151,7 +161,8 @@
     "correct_answer": "B",
     "explanation": "In initiating, everything is high-level (high-level scope, schedule, budget, risk) and lives in the charter. Concrete dates come only at the end of planning, after detailed estimation, expert judgment, and the WBS. Initial risk assessment (A) doesn't give concrete dates, you shouldn't wait until execution (C), and a signed charter (D) only authorizes the project before the real planning is done.",
     "video_time": 2092,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 12,
@@ -165,7 +176,8 @@
     "correct_answer": "B",
     "explanation": "When something affects the team, confront the problem and be collaborative. Holding a meeting to explain and work together is best. A assigns tasks unilaterally, C gives away the work to a senior member, and while D is similar to B, working collaboratively in a meeting is better than just sending an email.",
     "video_time": 2242,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.2"
   },
   {
     "number": 13,
@@ -179,7 +191,8 @@
     "correct_answer": "B",
     "explanation": "Confront problems by meeting and talking with people. Meeting with the officials to review the communication plan and clarify deliverables is best. C seems malicious (checking attendance to blame them), A checks the scope before understanding their concern, and D reviews documentation before meeting with them; meet with them first.",
     "video_time": 2391,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.9"
   },
   {
     "number": 14,
@@ -193,7 +206,8 @@
     "correct_answer": "C",
     "explanation": "The complaint is that the stakeholder never received the report. The stakeholder register lists stakeholders and their communication requirements (who they are and what communication they need). The communication management plan covers when/how communication happens, the communication log records what happened (it can't prevent), the traceability matrix tracks requirements, and the quality plan addresses quality requirements, not a missed report.",
     "video_time": 2541,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.9"
   },
   {
     "number": 15,
@@ -207,7 +221,8 @@
     "correct_answer": "C",
     "explanation": "Be collaborative and include the team. Having the SME train the team gives them a better understanding of the scope. A and B involve only the PM and SME without the team, and D has the SME review documents alone instead of helping the team directly.",
     "video_time": 2691,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.5"
   },
   {
     "number": 16,
@@ -222,7 +237,8 @@
     "correct_answer": "B, E",
     "explanation": "Before taking action, assess the situation: first learn about the law (B), then understand how it impacts the project (E). Prioritizing work (A) and planning integration (D) come after understanding, and C cannot proceed without first understanding the impact.",
     "video_time": 2840,
-    "eco_domain": "Business Environment"
+    "eco_domain": "Business Environment",
+    "eco_task": "3.1"
   },
   {
     "number": 17,
@@ -236,7 +252,8 @@
     "correct_answer": "B",
     "explanation": "The best way to beat vague requirements is a minimum viable product: giving the client something usable to react to elicits far better feedback than communication alone. D should be eliminated because forcing people is never the answer, A relies on potentially long milestones, and while C (better communication) is good, giving the client a product to use (B) is even more effective.",
     "video_time": 2990,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.8"
   },
   {
     "number": 18,
@@ -250,7 +267,8 @@
     "correct_answer": "B",
     "explanation": "Never go to senior management/sponsor for guidance on running your project (eliminates A and D). Maintaining the status quo (C) does nothing. Supporting the team's initiative while retaining final approval is best, because in a predictive project the PM keeps the final critical decision-making authority.",
     "video_time": 3140,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.4"
   },
   {
     "number": 19,
@@ -264,7 +282,8 @@
     "correct_answer": "A",
     "explanation": "Always collaborate with people. Working with the team and stakeholders to adjust future timelines is best. D gives away the work to the sponsor, C 'takes control' which contradicts servant leadership on this agile project, and B sets up the process alone without involving the team and stakeholders.",
     "video_time": 3195,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.9"
   },
   {
     "number": 20,
@@ -278,7 +297,8 @@
     "correct_answer": "C",
     "explanation": "Having the team test the tool on a small part of the project lets them decide whether to implement it. D does nothing meaningful and decides alone, A evaluates alone without involving anyone, and B just implements the tool and bypasses the team.",
     "video_time": 3249,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.2"
   },
   {
     "number": 21,
@@ -292,7 +312,8 @@
     "correct_answer": "A",
     "explanation": "The product owner is responsible for prioritizing the product backlog. The PM should recommend they re-prioritize based on the impact on valuable features. Don't just remove high-value items (D), don't ask the product owner to conduct a risk assessment (B, that's for the PM and team), and there is little in the scenario about the current Sprint (C).",
     "video_time": 3304,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.8"
   },
   {
     "number": 22,
@@ -306,7 +327,8 @@
     "correct_answer": "D",
     "explanation": "On an agile project you don't use a rigorous change control process (eliminates B). The definition of done addresses scope clarity by defining when work is complete. C is about schedule, not scope, and A is a timeline, not a tool for scope clarity. The definition of done is the best answer for clarity and preventing scope creep.",
     "video_time": 3358,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.8"
   },
   {
     "number": 23,
@@ -320,7 +342,8 @@
     "correct_answer": "A",
     "explanation": "Bring people together to solve problems; never run from a problem or push it off. Facilitating a session to clarify goals with the whole team is best. The issue is among team members, so the sponsor (B) and the charter/scope alignment (C) don't address it, and D pushes the problem to department heads who aren't the people involved.",
     "video_time": 3413,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.10"
   },
   {
     "number": 24,
@@ -334,7 +357,8 @@
     "correct_answer": "D",
     "explanation": "The word 'may' indicates a risk (not an issue). The correct response is to identify and document the risk in the risk register and create mitigation strategies. On this traditional project you don't take action like adjusting forecasts (A), postponing (B), or redirecting resources/shutting it down (C) without assessment and a change request.",
     "video_time": 3467,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.3"
   },
   {
     "number": 25,
@@ -348,7 +372,8 @@
     "correct_answer": "B",
     "explanation": "The project is still initiating; assess and review rather than take action. Reviewing the charter to confirm the high-level scope while waiting for the assessment is best. A shuts down the team member (do nothing), and C and D plan the full project before the assessment determines whether the project will even proceed.",
     "video_time": 3522,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.8"
   },
   {
     "number": 26,
@@ -362,7 +387,8 @@
     "correct_answer": "B",
     "explanation": "With the charter approved and templates available, the next step is planning, done collaboratively with the team. You don't develop detailed plans with senior management (A) or build detailed budgets with the finance/operations departments (C, D). Collaborating with the team via a communication management plan is the best of the four.",
     "video_time": 3576,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.2"
   },
   {
     "number": 27,
@@ -376,7 +402,8 @@
     "correct_answer": "B",
     "explanation": "Before closing, you perform Validate/Verify Scope, which uses inspection (with customer/sponsor) to produce verified deliverables. C (documentation/archiving) and D (performance review) are part of closing itself, and while A is also part of closing, you must first verify the work through inspection in Verify Scope.",
     "video_time": 3631,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.17"
   },
   {
     "number": 28,
@@ -390,7 +417,8 @@
     "correct_answer": "A",
     "explanation": "Agile is heavily people-driven, so the cost comes down to how much you pay your team and how long they are on the project. Estimating based on the team's tasks and workload reflects this. D gives away the PM's work, C is predictive/historical, and B relies on sponsor/coach rather than the team's labor cost.",
     "video_time": 4011,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.5"
   },
   {
     "number": 29,
@@ -404,7 +432,8 @@
     "correct_answer": "D",
     "explanation": "If the team is unsure of what the work should be, the vision and objectives should have been clearly communicated from the start. A kickoff workshop (A) is done once at the beginning, the issue already happened so it's not a risk (B), and the integration plan (C) concerns marketing/sales, not the product owner's expectations.",
     "video_time": 4041,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.10"
   },
   {
     "number": 30,
@@ -418,7 +447,8 @@
     "correct_answer": "D",
     "explanation": "Acceptance criteria come from the product owner, who defines the work. When the team is unsure what the work should look like, the product owner helps define it. The steering committee (A), the team alone (B), and the technical architect (C) don't own acceptance criteria.",
     "video_time": 4086,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.7"
   },
   {
     "number": 31,
@@ -432,7 +462,8 @@
     "correct_answer": "C",
     "explanation": "This is an issue (it has happened), so it must be recorded in the issue log. The PM generally lacks the technical skill to train a technical team (B), 'all stakeholders' is too broad for this problem (A), and there is no indication of morale problems requiring a team-building event (D).",
     "video_time": 4131,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.15"
   },
   {
     "number": 32,
@@ -446,7 +477,8 @@
     "correct_answer": "A",
     "explanation": "When there is a conflict, bring people together and understand the root cause before acting. A directly addresses and understands the cause. B is somewhat negative in tone, C treats a current issue as a risk (it already happened), and D plans for delays that aren't confirmed yet.",
     "video_time": 4371,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.9"
   },
   {
     "number": 33,
@@ -460,7 +492,8 @@
     "correct_answer": "D",
     "explanation": "Be proactive and work with the team to plan the transition and mitigate disruption. A gives away the work to a senior member, B only addresses the timeline (a departure can also affect scope) and shouldn't be done alone, and C assumes a delay that hasn't been confirmed by working with the team first.",
     "video_time": 4611,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.6"
   },
   {
     "number": 34,
@@ -474,7 +507,8 @@
     "correct_answer": "A",
     "explanation": "Recommend (don't dictate) that the team decompose work into smaller chunks, which improves estimation accuracy. A recommends subdividing the work. D and (effectively) C tell the team what to do, and a fixed point system for all tasks doesn't make sense for tasks ranging from 5 to 200 points.",
     "video_time": 4871,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 35,
@@ -488,7 +522,8 @@
     "correct_answer": "C",
     "explanation": "An MVP is the best way to address uncertainty: customers use it and tell you what to change. Uncertainty should be resolved by customers, not consultants (A); the framework in B only addresses delays (the issue is scope, not schedule); and D has the development team work alone rather than with customers.",
     "video_time": 4934,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.1"
   },
   {
     "number": 36,
@@ -502,7 +537,8 @@
     "correct_answer": "C",
     "explanation": "These unresolved challenges represent risks, and risks should be prioritized by impact. A adds planning sessions when the issue isn't planning, B gives away the work to a dedicated team, and D (more meetings) won't resolve the challenges.",
     "video_time": 4998,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.15"
   },
   {
     "number": 37,
@@ -516,7 +552,8 @@
     "correct_answer": "C",
     "explanation": "First understand and evaluate the stakeholders' needs, then tailor communication to each. One-on-one briefings (A) would take too long for an urban project with many stakeholders, a workshop (B) may not suit everyone, and a blog (D) might be a later step; evaluate their needs first.",
     "video_time": 5061,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.9"
   },
   {
     "number": 38,
@@ -530,7 +567,8 @@
     "correct_answer": "D",
     "explanation": "When there is a problem, work with the team to solve it. You wouldn't just increase status meetings (A), reallocate resources without the team (B), or adjust the timeline (C), which on a traditional project requires a change request.",
     "video_time": 5181,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 39,
@@ -544,7 +582,8 @@
     "correct_answer": "B",
     "explanation": "Overlapping activities to run them in parallel is fast tracking, which reduces time and increases risk but generally doesn't increase cost or require a change request (you can re-sequence activities as long as the schedule doesn't extend). C increases the budget and would need a change request, A (postponing scope) needs a change request, and D goes beyond the scope of the question.",
     "video_time": 5391,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 40,
@@ -558,7 +597,8 @@
     "correct_answer": "B",
     "explanation": "Assessment must be fair and transparent: come up with clear, quantifiable criteria and communicate them so everyone knows what is being measured. One-on-one meetings (A) come after defining criteria, lines of code (C) is a poor measure of productivity, and anonymous surveys (D) make team members evaluate each other; define the criteria first.",
     "video_time": 5404,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.3"
   },
   {
     "number": 41,
@@ -572,7 +612,8 @@
     "correct_answer": "A",
     "explanation": "When a stakeholder has a concern and the question asks what to do first, meet with them to understand the concern before taking action. B launches a pilot without understanding the concern, C assumes a communication problem (the concern is about the approach), and D addresses objectives when the concern is about the approach.",
     "video_time": 5418,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.9"
   },
   {
     "number": 42,
@@ -586,7 +627,8 @@
     "correct_answer": "B",
     "explanation": "Before negotiating for resources, implementing rewards, or consulting, you must assess how the delay actually affects the project (time, budget, etc.). Assessment comes before action.",
     "video_time": 5431,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 43,
@@ -600,7 +642,8 @@
     "correct_answer": "B",
     "explanation": "When there is a conflict between people, bring them together to resolve it rather than choosing a side (which would be forcing). A picks a side, and C and D make decisions/actions without involving the two parties. Work with the teams to find a solution together.",
     "video_time": 5588,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.1"
   },
   {
     "number": 44,
@@ -614,7 +657,8 @@
     "correct_answer": "D",
     "explanation": "On this traditional project, an add-on is a scope change that must go through the change control process. The PM cannot add scope without formal approval (A), and it isn't the PM's job to approve changes. B and C just file the suggestion without actually handling the add-on.",
     "video_time": 5744,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.10"
   },
   {
     "number": 45,
@@ -628,7 +672,8 @@
     "correct_answer": "C",
     "explanation": "The initial action should be the easiest, lowest-effort solution: emphasize the objectives and agenda at the start of each meeting. Cutting meetings (A), getting new software (D), or designating a time keeper (B) are more drastic steps to try only if the simple approach fails.",
     "video_time": 5901,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.12"
   },
   {
     "number": 46,
@@ -642,7 +687,8 @@
     "correct_answer": "B",
     "explanation": "The goal is for the analyst to contribute in group discussions. Actively soliciting their input in meetings engages them directly. D does nothing (waiting), C isn't truly anonymous if it's one person, and A removes them from the group interaction rather than integrating them.",
     "video_time": 6111,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.14"
   },
   {
     "number": 47,
@@ -656,7 +702,8 @@
     "correct_answer": "D",
     "explanation": "Meet with the team to find a faster way and reduce the delay before going to the client. The PM can't prioritize work like A (the team/sponsor does), shouldn't deliver non-compliant features (B) without sponsor/customer approval, and has no authority to reduce scope (C).",
     "video_time": 6121,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.7"
   },
   {
     "number": 48,
@@ -670,7 +717,8 @@
     "correct_answer": "A",
     "explanation": "Agile favors a cross-functional team of generalizing specialists so everyone can help each other, reducing bottlenecks. Building a specialist-only team violated agile. C couldn't be predicted, B helps but is less directly the agile mitigation, and D singles out one person's tasks after the fact rather than being a proactive design choice.",
     "video_time": 6234,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.6"
   },
   {
     "number": 49,
@@ -684,7 +732,8 @@
     "correct_answer": "D",
     "explanation": "A Monte Carlo simulation runs many scenarios/perspectives to assess likelihood of completion and which variables most affect outcomes. A cause-and-effect (fishbone) diagram (C) shows causes of failure, sensitivity analysis (B) ranks particular impacts, and a risk breakdown structure (A) only categorizes risks.",
     "video_time": 6348,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.3"
   },
   {
     "number": 50,
@@ -698,7 +747,8 @@
     "correct_answer": "A",
     "explanation": "Because the change WILL happen (not 'might'), it is not a risk and shouldn't go in the risk register (B). Since you'll be pushing the product out just before the regulation takes effect, you must start incorporating the regulation into the current work now, not wait for the next system (C) or the next meeting (D).",
     "video_time": 6461,
-    "eco_domain": "Business Environment"
+    "eco_domain": "Business Environment",
+    "eco_task": "3.1"
   },
   {
     "number": 51,
@@ -712,7 +762,8 @@
     "correct_answer": "B",
     "explanation": "An MVP lets users use core features and give feedback, which is the only way to learn the effectiveness of features and gain certainty. Finishing then correcting (A) kicks the can down the road, pausing (C) is not done unless there's a safety/legal issue, and popular features (D) may not be effective for this product.",
     "video_time": 6851,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.1"
   },
   {
     "number": 52,
@@ -726,7 +777,8 @@
     "correct_answer": "A",
     "explanation": "Bring people together and facilitate collaboration. A collaborative workshop with both teams is best. Separate workshops (B) and individual sessions (C) keep teams apart, and D removes the teams who must implement the changes.",
     "video_time": 6926,
-    "eco_domain": "Business Environment"
+    "eco_domain": "Business Environment",
+    "eco_task": "3.1"
   },
   {
     "number": 53,
@@ -740,7 +792,8 @@
     "correct_answer": "D",
     "explanation": "A servant leader supports the team, not directs it. D establishes goals and nurtures a supportive environment. A creates competition (not supportive), B directs the team, and C sets goals for the team, which is the team's role on an agile project.",
     "video_time": 7001,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.2"
   },
   {
     "number": 54,
@@ -754,7 +807,8 @@
     "correct_answer": "D",
     "explanation": "The answer brings the team together so the new person isn't learning alone. A is like giving away the work (follow that person), B has them study alone, and C is a webinar that may delay time and lacks participation. D drives servant leadership by integrating the new member with the whole team.",
     "video_time": 7185,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.6"
   },
   {
     "number": 55,
@@ -768,7 +822,8 @@
     "correct_answer": "D",
     "explanation": "Don't stop a self-organized practice that may be effective. Evaluate it with the team first. A, B, and C all put the PM in charge by dictating how work is assigned, which shuts the team off. Let the team evaluate whether the approach is effective.",
     "video_time": 7368,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.3"
   },
   {
     "number": 56,
@@ -782,7 +837,8 @@
     "correct_answer": "D",
     "explanation": "Never reject a request outright (eliminates C). The best action is to analyze the change with the team and present feasible solutions to stakeholders. A incorporates the change without revisiting the project, and B (analyzing cost) is good but should be done with the team rather than alone.",
     "video_time": 7552,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.4"
   },
   {
     "number": 57,
@@ -796,7 +852,8 @@
     "correct_answer": "C",
     "explanation": "The skepticism stems from limited visibility, so ask the partners how they would like updates done rather than deciding for them. A, B, and D all determine what's best for the stakeholders instead of collaborating with them to learn their preferences.",
     "video_time": 7602,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.9"
   },
   {
     "number": 58,
@@ -810,7 +867,8 @@
     "correct_answer": "B",
     "explanation": "On an agile project, work must be in the product backlog to get done; there is no Change Control Board (eliminates A). You don't introduce new scope in the daily scrum (C). The compliance officer isn't a PM and shouldn't assess the plan (D). Detailing the changes for inclusion in the product backlog is best.",
     "video_time": 7652,
-    "eco_domain": "Business Environment"
+    "eco_domain": "Business Environment",
+    "eco_task": "3.1"
   },
   {
     "number": 59,
@@ -824,7 +882,8 @@
     "correct_answer": "D",
     "explanation": "Don't overwork people (eliminates B). Bring people together first: discuss with IT leadership and the team to understand the protocol. You shouldn't work around the protocol (C) until you understand it. D comes first, then possibly C or A.",
     "video_time": 8162,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.15"
   },
   {
     "number": 60,
@@ -838,7 +897,8 @@
     "correct_answer": "C",
     "explanation": "Estimation uses the team's velocity and similar past work. Reviewing user stories and velocity from previous similar features is the best of the four. A and D take too long, and the product owner doesn't help with estimation (B); that's the team's role.",
     "video_time": 8182,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 61,
@@ -852,7 +912,8 @@
     "correct_answer": "B",
     "explanation": "When there is a problem, assess and analyze first rather than acting. Conduct a detailed analysis of the actual data to identify root causes. Don't adjust the schedule (A) or hire resources (C) before understanding the problem, and the situation is already happening (not just a risk management strategy issue, D).",
     "video_time": 8282,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 62,
@@ -866,7 +927,8 @@
     "correct_answer": "C",
     "explanation": "The changes 'could potentially' impact the project, so analyze/review how they affect scope, budget, and schedule first. Don't update plans without a preliminary assessment (A), don't meet with stakeholders before analyzing the regulation yourself (B), and never just implement (D).",
     "video_time": 8382,
-    "eco_domain": "Business Environment"
+    "eco_domain": "Business Environment",
+    "eco_task": "3.3"
   },
   {
     "number": 63,
@@ -880,7 +942,8 @@
     "correct_answer": "A",
     "explanation": "Value engineering is about delivering what the customer wants in the most cost-effective way, which matches the scenario. The critical path method (B) builds the schedule, earned value (C) tracks budget/schedule performance with formulas, and Monte Carlo (D) runs simulations.",
     "video_time": 8712,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.5"
   },
   {
     "number": 64,
@@ -894,7 +957,8 @@
     "correct_answer": "B",
     "explanation": "Take a direct, confronting approach to conflict. Facilitating the meeting actively with conflict resolution strategies addresses it head-on. Conflict is normal and, when managed, is good; A, C, and D all delay or hand off the resolution rather than confronting it now.",
     "video_time": 8712,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.1"
   },
   {
     "number": 65,
@@ -908,7 +972,8 @@
     "correct_answer": "D",
     "explanation": "The more people (key stakeholders) involved in developing the RBS, the more comprehensive and manageable it will be. An RBS categorizes risks (it doesn't only hold high-priority risks, eliminating A), every project is unique so templates aren't ideal (B), and a highly detailed RBS (C) can become unmanageable.",
     "video_time": 8712,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.3"
   },
   {
     "number": 66,
@@ -922,7 +987,8 @@
     "correct_answer": "C",
     "explanation": "Value engineering keeps functions the same while reducing cost, so first understand the critical functions by engaging stakeholders. Removing functions (A) and compromising functionality (B) violate value engineering, and implementing all changes immediately (D) isn't appropriate.",
     "video_time": 8747,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.7"
   },
   {
     "number": 67,
@@ -936,7 +1002,8 @@
     "correct_answer": "C",
     "explanation": "Always evaluate a proposed change before acting. Here you must evaluate whether the reduced performance affects functionality (value engineering preserves functionality). Never approve, reject, or implement (A, B, D) without evaluating the change first.",
     "video_time": 8782,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.7"
   },
   {
     "number": 68,
@@ -950,7 +1017,8 @@
     "correct_answer": "A",
     "explanation": "With EVM, you can use the schedule performance index (SPI) together with the estimate at completion (EAC) to forecast the schedule. Monte Carlo (B) and CPM (C) help build the schedule rather than forecast it, and rolling wave planning (D) is planning, not EVM forecasting.",
     "video_time": 8847,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 69,
@@ -964,7 +1032,8 @@
     "correct_answer": "B",
     "explanation": "EVM, particularly the EAC, can predict the completion date based on current performance. Trend analysis (A) relies only on historical data and is less accurate, three-point estimation (C) gives duration not prediction, and resource leveling (D) doesn't predict completion.",
     "video_time": 8912,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 70,
@@ -978,7 +1047,8 @@
     "correct_answer": "B",
     "explanation": "'Many unforeseen conditions' implies many simulations/scenarios, which is the definition of a Monte Carlo simulation. A Gantt chart (A) and CPM (C) build the schedule rather than predict probabilities of multiple scenarios, and a cost-benefit analysis (D) is premature.",
     "video_time": 8977,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 71,
@@ -992,7 +1062,8 @@
     "correct_answer": "C",
     "explanation": "After the audit, collaborate with the team to understand the findings and develop corrective actions. Providing documents (A) and preparing the team to answer questions (B) are done during/before the audit, and presenting success (D) is done after project completion, not as the post-audit action.",
     "video_time": 9042,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.7"
   },
   {
     "number": 72,
@@ -1006,7 +1077,8 @@
     "correct_answer": "B",
     "explanation": "The question asks how to fix the problem: develop and implement corrective actions. Don't halt the project (A) except for safety/legal issues, never dismiss/ignore (C), and don't rely on the sponsor to solve your project problems (D).",
     "video_time": 9342,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.7"
   },
   {
     "number": 73,
@@ -1020,7 +1092,8 @@
     "correct_answer": "D",
     "explanation": "Integrating the recommended corrective actions into the plan is the best of the four. A does nothing, B goes to the sponsor (who is only for approval, not guidance), and C adjusts the scope, which requires a change request (or product owner on agile).",
     "video_time": 9482,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.7"
   },
   {
     "number": 74,
@@ -1034,7 +1107,8 @@
     "correct_answer": "B",
     "explanation": "Analyze whether the project is actually aligned with the strategic goals before taking action. A just asserts alignment (doing nothing), C may come later, and D reviews team performance when the project has barely started.",
     "video_time": 9582,
-    "eco_domain": "Business Environment"
+    "eco_domain": "Business Environment",
+    "eco_task": "3.2"
   },
   {
     "number": 75,
@@ -1048,7 +1122,8 @@
     "correct_answer": "D",
     "explanation": "The activities only 'may' not meet standards, so analyze (root cause analysis) before acting. Don't halt the project (A) unless you're breaking the law, don't update the plan (B) before understanding, and don't notify regulators of merely potential non-compliance (C) before confirming.",
     "video_time": 9682,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.7"
   },
   {
     "number": 76,
@@ -1062,7 +1137,8 @@
     "correct_answer": "D",
     "explanation": "Analyze the situation and consider all possible options before acting. Adjusting the timeline (A) likely requires a change request, phased construction (C) doesn't clearly save money, and while consulting a technician (B) is reasonable, D is the more comprehensive answer that encompasses considering all options.",
     "video_time": 10032,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.5"
   },
   {
     "number": 77,
@@ -1076,7 +1152,8 @@
     "correct_answer": "B",
     "explanation": "Work with the team first, since they are the best people to assess deliverables and find solutions. Reviewing scope (A) can't be done alone, engaging the sponsor for extended timelines (C) may not be acceptable to them, and working only with finance (D) ignores the customers and team.",
     "video_time": 10047,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.5"
   },
   {
     "number": 78,
@@ -1090,7 +1167,8 @@
     "correct_answer": "B",
     "explanation": "EVM measures project performance; schedule variance (SV) and cost variance (CV) show how time and cost (what you measure on a project) are tracking. Productivity/individual contributions (A), a new tool (C), and risks (D) don't directly show how progress is being measured and tracked.",
     "video_time": 10062,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 79,
@@ -1104,7 +1182,8 @@
     "correct_answer": "D",
     "explanation": "The keyword is agile, where you are a servant leader and sometimes step back to let the self-directing team figure out solutions. Encouraging open communication and showing confidence in the team lets them work it out. Monthly retreats (C) aren't feasible globally, B is just a tool, and A gives them the solution rather than letting the team find it.",
     "video_time": 10232,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.11"
   },
   {
     "number": 80,
@@ -1118,7 +1197,8 @@
     "correct_answer": "A",
     "explanation": "This software project is ideal for agile (especially Scrum), which delivers the most important features first in the shortest time frame. Waterfall (B) takes the longest, only the customer/product owner can identify what's critical (eliminating C), and prioritization (D) is done by the product owner.",
     "video_time": 10402,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.1"
   },
   {
     "number": 81,
@@ -1132,7 +1212,8 @@
     "correct_answer": "C",
     "explanation": "Never overwork the team (eliminates A). Outsourcing (B) can't be done immediately (it requires procurement), and an extension (D) requires a change request. Involve the team and work with them to recruit new members.",
     "video_time": 10562,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.7"
   },
   {
     "number": 82,
@@ -1146,7 +1227,8 @@
     "correct_answer": "A",
     "explanation": "Meet with the stakeholders to understand exactly what they don't like and then explain the benefits to them. Never do nothing (eliminates C), a reward system (B) doesn't address their concerns, and a seminar on history/principles (D) doesn't address the specific concerns either.",
     "video_time": 10722,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.9"
   },
   {
     "number": 83,
@@ -1160,7 +1242,8 @@
     "correct_answer": "A",
     "explanation": "When a key stakeholder leaves and a new one arrives, first meet with them to understand what they want and explain what the project is about. The report (B), audit (C), and contingency plan (D) may all come later, but you meet with the new CTO first.",
     "video_time": 10722,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.9"
   },
   {
     "number": 84,
@@ -1174,7 +1257,8 @@
     "correct_answer": "C",
     "explanation": "Bring the team together: have each member detail their estimation process and foster group consensus so they understand each other's reasoning. A prototype (A) goes too far for now, B has them work independently (not together), and D gives the work to one person and sidelines the rest of the team.",
     "video_time": 10722,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 85,
@@ -1188,7 +1272,8 @@
     "correct_answer": "A",
     "explanation": "On an agile project, when you see something to add, work with the product owner; only the product owner can add to the product backlog. Never pause a project (C) without a safety/legal reason, never just add scope (D), and refining features (B) is also the product owner's call.",
     "video_time": 10722,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.4"
   },
   {
     "number": 86,
@@ -1202,7 +1287,8 @@
     "correct_answer": "B",
     "explanation": "In initiating, you emphasize collecting requirements and ensuring the project meets its objectives (the business case). Precise needs analysis ensures the platform meets the sector's objectives and effectively encompasses A, C, and D. When answers are very specific and you can't tie them to the platform, choose the broader answer.",
     "video_time": 11122,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.8"
   },
   {
     "number": 87,
@@ -1216,7 +1302,8 @@
     "correct_answer": "D",
     "explanation": "An individual problem is best handled by dealing with that individual privately, because the person may not realize the impact of their behavior. Don't remove them (B), you can already see the issue so feedback (A) won't help, and shifting to written updates (C) goes around the issue instead of addressing it.",
     "video_time": 11312,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.1"
   },
   {
     "number": 88,
@@ -1230,7 +1317,8 @@
     "correct_answer": "B",
     "explanation": "Before re-evaluating the timeline, ensure all scope changes were logged (in the change log/issue log) and their impacts assessed; otherwise you might miss a change. You can't just extend the schedule (C) without a change request, and the stakeholders don't want to renegotiate deliverables (D). B must come before A.",
     "video_time": 11503,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.10"
   },
   {
     "number": 89,
@@ -1244,7 +1332,8 @@
     "correct_answer": "D",
     "explanation": "The main time a client gives feedback on the product is during Sprint reviews. Organizing a Sprint review to demonstrate the prototype and gather input is best. An email (A) doesn't get input, deploying and waiting (B) may yield no feedback, and refining with only the technical lead (C) keeps the prototype away from the customer.",
     "video_time": 11723,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.9"
   },
   {
     "number": 90,
@@ -1258,7 +1347,8 @@
     "correct_answer": "C",
     "explanation": "There's a disconnect in communication (feedback consistently omitted), so review the communication management plan to understand why. You can't change scope like that (A), a reactive plan (D) acts before understanding, and B reviews policies when the real problem is the communication breakdown.",
     "video_time": 11788,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.2"
   },
   {
     "number": 91,
@@ -1273,7 +1363,8 @@
     "correct_answer": "A, D",
     "explanation": "First assess the specific knowledge gaps (A), then establish mentorship pairings for on-the-job training (D). E is negative (at their own cost), B overworks experienced members, and C pauses the project unnecessarily.",
     "video_time": 11853,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.5"
   },
   {
     "number": 92,
@@ -1287,7 +1378,8 @@
     "correct_answer": "D",
     "explanation": "Only the product owner can add functions to an agile project, so have the stakeholder engage with the product owner. The PM can't add functions (C), the team doesn't determine functionalities (B), and A defers without routing it to the product owner.",
     "video_time": 11858,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.10"
   },
   {
     "number": 93,
@@ -1301,7 +1393,8 @@
     "correct_answer": "B",
     "explanation": "Never be negative/punitive (eliminates D). As PM you should keep your team motivated and confront the problem directly. A gives away motivation to HR and C has them motivate each other; conducting a motivational workshop and meeting with the team to understand the issue is best.",
     "video_time": 11863,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.14"
   },
   {
     "number": 94,
@@ -1315,7 +1408,8 @@
     "correct_answer": "C",
     "explanation": "The product backlog stores and prioritizes all features for an agile project (signaled by the product owner). The scope statement and WBS (A, D) are traditional, and the Sprint backlog (B) holds only the next Sprint's work and is owned by the team, not the product owner.",
     "video_time": 12073,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.8"
   },
   {
     "number": 95,
@@ -1329,7 +1423,8 @@
     "correct_answer": "D",
     "explanation": "An information system that consistently shares information would prevent loss when anyone leaves at any point. Monthly sessions (B) could lose up to a month of knowledge, external consultants (C) add pressure, and cross-training (A) is good but may not work for licensed engineering roles. The shared information system is more robust.",
     "video_time": 12263,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.16"
   },
   {
     "number": 96,
@@ -1343,7 +1438,8 @@
     "correct_answer": "B",
     "explanation": "A vague/open-ended question should get a generic answer. A structured online platform for frequent interactions is generic and fits, whereas the specific cadences in A (monthly), C (daily), and D (bi-weekly) over-specify when the question gives no such detail.",
     "video_time": 12353,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.11"
   },
   {
     "number": 97,
@@ -1357,7 +1453,8 @@
     "correct_answer": "D",
     "explanation": "Risk is something you assess continuously, not weekly (A) or monthly (B). Continuous assessment lets each project assess risk at the right cadence. A zero-tolerance policy (C) is unrealistic. Risk changes all the time, so continuous assessment is best.",
     "video_time": 12443,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.3"
   },
   {
     "number": 98,
@@ -1371,7 +1468,8 @@
     "correct_answer": "D",
     "explanation": "Confront and solve the problem rather than dismissing it. Analyzing the value trend with the team to find underlying issues and relaying plans transparently addresses the concern. A and B essentially tell stakeholders to accept it, and although C is factually true about agile, it doesn't address the core concern or identify underlying issues.",
     "video_time": 12626,
-    "eco_domain": "Business Environment"
+    "eco_domain": "Business Environment",
+    "eco_task": "3.2"
   },
   {
     "number": 99,
@@ -1385,7 +1483,8 @@
     "correct_answer": "C",
     "explanation": "Benchmarking establishes industry standards and how to meet them, generally producing good quality. A reputable firm (A) doesn't guarantee quality, hiring a quality officer (B) is the PM's job, and prioritizing refinement (D) is the product owner's/sponsor's call. Establishing and enhancing benchmarks is best.",
     "video_time": 12810,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.7"
   },
   {
     "number": 100,
@@ -1399,7 +1498,8 @@
     "correct_answer": "A",
     "explanation": "When a stakeholder proposes a change, assess it first; don't implement it (C) or go to a steering committee without understanding it. Before evaluating team capabilities (D), analyze whether the change is strategically aligned and its impact on outcomes. A comes before D.",
     "video_time": 12993,
-    "eco_domain": "Business Environment"
+    "eco_domain": "Business Environment",
+    "eco_task": "3.2"
   },
   {
     "number": 101,
@@ -1413,7 +1513,8 @@
     "correct_answer": "B",
     "explanation": "What to do next means assess/review to ensure your next action is correct. Consulting the organization's guidelines tells you what the company actually wants before committing. Never shut down the team member (A), and don't draft a full plan (C) or do detailed planning (D) before confirming the right approach.",
     "video_time": 13163,
-    "eco_domain": "Business Environment"
+    "eco_domain": "Business Environment",
+    "eco_task": "3.1"
   },
   {
     "number": 102,
@@ -1427,7 +1528,8 @@
     "correct_answer": "C",
     "explanation": "When facing a problem, work with the team to solve it; they are the experts. Meet with the team first to understand the bottleneck. Training (A), an external consultant (B), and allocating more time (D) all come after meeting with the team to see if they can solve it.",
     "video_time": 13280,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.7"
   },
   {
     "number": 103,
@@ -1441,7 +1543,8 @@
     "correct_answer": "C",
     "explanation": "On a traditional project, follow the change management process: requests come to the PM for evaluation. Instructing the team member to route the stakeholder to the PM is best. A waits too long (next status meeting), never report people to senior management (B), and the request is a scope change, not a schedule matter (D).",
     "video_time": 13396,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.4"
   },
   {
     "number": 104,
@@ -1455,7 +1558,8 @@
     "correct_answer": "B, C",
     "explanation": "With limited data, you can't build a comprehensive WBS (eliminating D) or a detailed timeline (A). Progressive elaboration (B) refines plans as time progresses, and iterative planning (C) is planning to replan. Both fit complex projects with limited early data.",
     "video_time": 13513,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 105,
@@ -1469,7 +1573,8 @@
     "correct_answer": "A",
     "explanation": "When stakeholders have a problem with the project, meet with them to understand and directly address their concern. You don't know the specific concern yet, so adjusting documents (B), building a risk strategy (C), or realigning objectives (D) are premature.",
     "video_time": 13623,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.9"
   },
   {
     "number": 106,
@@ -1483,7 +1588,8 @@
     "correct_answer": "A",
     "explanation": "With a geographically dispersed team, intermittent gatherings for collaborative problem solving and integration is the best of the four. Meeting in one time zone (B) excludes those in other zones, a buddy system (C) only pairs two people, and flexible self-chosen hours (D) may keep people more apart.",
     "video_time": 13653,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.11"
   },
   {
     "number": 107,
@@ -1497,7 +1603,8 @@
     "correct_answer": "D",
     "explanation": "When all options sound good, choose the one that encompasses the others. Fostering open communication and shared norms forms the collaborative effort and includes the benefits of B and C. One-on-ones with everyone (A) are difficult on a hybrid project where communication styles differ widely.",
     "video_time": 14013,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.12"
   },
   {
     "number": 108,
@@ -1511,7 +1618,8 @@
     "correct_answer": "C",
     "explanation": "The key concern is maintaining productivity and communication, not ergonomics (A), IT issues (B), or timeline (D). Comprehensive training on remote communications directly addresses how the team will communicate and stay productive. Read carefully; one word can change the question.",
     "video_time": 14083,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.11"
   },
   {
     "number": 109,
@@ -1525,7 +1633,8 @@
     "correct_answer": "C",
     "explanation": "An MVP lets you release the most-used/most-valuable features very quickly, fitting the need to be operational in a third of the timeline. You can't accelerate all phases (A) (e.g., you can't test what isn't coded), streamlining communication (B) helps but isn't enough, and you should never overwork people (D).",
     "video_time": 14153,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.1"
   },
   {
     "number": 110,
@@ -1539,7 +1648,8 @@
     "correct_answer": "B",
     "explanation": "Assess the impact, but don't do it alone; consult with the team. B analyzes the impact and consults the team. A just sticks to a plan without addressing the problem, C votes before assessing, and D implements directly without assessment.",
     "video_time": 14163,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.10"
   },
   {
     "number": 111,
@@ -1553,7 +1663,8 @@
     "correct_answer": "B",
     "explanation": "You know it must be added, so the next step is an impact analysis to see how it affects budget and schedule. The PM can't add/prioritize the product backlog (C), you already know the consequences of omission so A is unnecessary, and you should assess (B) before seeking resources (D).",
     "video_time": 14413,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.10"
   },
   {
     "number": 112,
@@ -1567,7 +1678,8 @@
     "correct_answer": "A",
     "explanation": "Verify whether the features are actually in the plan before responding. Review the plan and update the stakeholders. You can't confirm integration (B) without checking the plan, a presentation (C) is premature, and the team can't add scope (D) without a formal change process.",
     "video_time": 14473,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.9"
   },
   {
     "number": 113,
@@ -1581,7 +1693,8 @@
     "correct_answer": "A",
     "explanation": "The team is working in silos, so bring them together in workshops to start working collaboratively. A flexible policy (B) separates them further, one-on-ones (C) don't address them working together, and a competitive program (D) makes them more competitive, not collaborative.",
     "video_time": 14823,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.6"
   },
   {
     "number": 114,
@@ -1595,7 +1708,8 @@
     "correct_answer": "A",
     "explanation": "The goal is effective communication and especially collaboration, which requires interactive, synchronous communication. Real-time video conferencing (A) enables this. An annual meetup (C) is too infrequent, and email (D) and asynchronous tools (B) are one-way/offline rather than interactive.",
     "video_time": 14898,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.11"
   },
   {
     "number": 115,
@@ -1609,7 +1723,8 @@
     "correct_answer": "A",
     "explanation": "The failure was due to outdated (incorrect) specifications, so a comprehensive review of requirements/processes with stakeholders to align specifications would have prevented it. B, C, and D all fix the current problem rather than prevent it, which the keyword 'prevent' rules out.",
     "video_time": 14974,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.7"
   },
   {
     "number": 116,
@@ -1623,7 +1738,8 @@
     "correct_answer": "D",
     "explanation": "On an agile project, Sprint reviews are when the product owner/customer sees progress and gives feedback to keep the project aligned. Nothing indicates a technical understanding gap (C) or a methodology problem (B), and you can't always hear all voices (A). Regular Sprint reviews close the feedback loop.",
     "video_time": 15044,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.9"
   },
   {
     "number": 117,
@@ -1637,7 +1753,8 @@
     "correct_answer": "D",
     "explanation": "It's one team member, so personalize the feedback. Let people know their individual metrics and provide regular personalized feedback. Discussing individual contributions openly (A) can be unfair, an online forum (B) doesn't address it directly, and quarterly reviews (C) may be poorly timed for this project.",
     "video_time": 15114,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.3"
   },
   {
     "number": 118,
@@ -1651,7 +1768,8 @@
     "correct_answer": "B",
     "explanation": "A critical, in-scope feature was missed, so meet with the team to understand why and develop a way to solve it. Brainstorming alternatives (A) comes after meeting the team, an external audit (C) is unnecessary, and you never suspend the project (D) without a safety/legal reason.",
     "video_time": 15184,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.8"
   },
   {
     "number": 119,
@@ -1665,7 +1783,8 @@
     "correct_answer": "C",
     "explanation": "Before something becomes an issue it should have been identified as a risk, with mitigation actions stored in the risk register. The initial action is to consult the risk register for the predetermined mitigation. D is negative (demanding), and A and B are good actions but come after checking the risk register first.",
     "video_time": 15204,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.11"
   },
   {
     "number": 120,
@@ -1679,7 +1798,8 @@
     "correct_answer": "D",
     "explanation": "On a traditional project, communications should be formal, documented, and follow the communication management plan. Requiring formal channels solves the recurring problem. Be wary of 'all' in A (everything through the PM), a workshop (B) underscores but doesn't fix the process, and meeting the client (C) only addresses this one instance.",
     "video_time": 15224,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.2"
   },
   {
     "number": 121,
@@ -1693,7 +1813,8 @@
     "correct_answer": "D",
     "explanation": "When team members can't resolve a major conflict despite efforts, sometimes the PM must step in and make the decision that best serves the project objectives. C does nothing (let them figure it out), A separates the tasks (smoothing, not resolving), and although B is reasonable, problems should be solved to benefit the project objectives, making D the best answer.",
     "video_time": 15394,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.1"
   },
   {
     "number": 122,
@@ -1707,7 +1828,8 @@
     "correct_answer": "C",
     "explanation": "A problem with one team member is best handled individually, not with the whole team (eliminating A and B). Schedule a one-on-one to identify obstacles. Before asking for detailed reports (D), meet with the person to understand what's going on. C comes first.",
     "video_time": 15564,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.7"
   },
   {
     "number": 123,
@@ -1721,7 +1843,8 @@
     "correct_answer": "A",
     "explanation": "Work collaboratively with the vendor first to understand why they're late and how to reduce delays. Don't just penalize (C) without first trying other options, don't develop parallel work (B) before working with the vendor, and an incentive payment (D) should come after collaborating with the vendor.",
     "video_time": 15604,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.11"
   },
   {
     "number": 124,
@@ -1735,7 +1858,8 @@
     "correct_answer": "C",
     "explanation": "Something uncertain is a risk; assess it before acting. Initiate a thorough risk evaluation of the flaw's potential impacts. Don't recommend an overhaul (A) or update QA (B) before understanding what's happening, and don't propose extra phases (D) before evaluating the impact. Identify, assess, then respond to risk.",
     "video_time": 15644,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.3"
   },
   {
     "number": 125,
@@ -1750,7 +1874,8 @@
     "correct_answer": "A, C",
     "explanation": "Bring the members together to resolve the conflict (A) and reinforce a respectful, inclusive workplace (C). Don't restructure right away (B), don't escalate to the PMO (D) for a conflict within the PM's control, and don't reassign people (E) over a conflict that should be managed.",
     "video_time": 15794,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.1"
   },
   {
     "number": 126,
@@ -1764,7 +1889,8 @@
     "correct_answer": "B",
     "explanation": "This is a proactive measure (prevent the problem), and training team/stakeholders is part of the PMP exam content. Ensuring everyone is trained on using the system and locating documents prevents the challenge. A only covers navigation (not locating documents), and C and D are reactive ('figure it out, then call for help').",
     "video_time": 15974,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.12"
   },
   {
     "number": 127,
@@ -1778,7 +1904,8 @@
     "correct_answer": "B",
     "explanation": "The numbers show you're behind schedule and over budget, but the root cause is misalignment with client requirements. Solve the alignment by enhancing communication with stakeholders to refine requirements. A and C address schedule/budget symptoms, and D adjusts scope/schedule, which can't be done unilaterally; have the client help align the scope.",
     "video_time": 16354,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.4"
   },
   {
     "number": 128,
@@ -1792,7 +1919,8 @@
     "correct_answer": "A",
     "explanation": "When two parties conflict, bring them together to work out the best option for the project. A trial (C) and external research (D) make a decision without their involvement, and the problem isn't with the community (B); it's between the two team members, so have them work it out.",
     "video_time": 16464,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.1"
   },
   {
     "number": 129,
@@ -1806,7 +1934,8 @@
     "correct_answer": "A",
     "explanation": "Communication should be tailored to the stakeholder's needs (from the stakeholder register and engagement/communication plans). Tailoring updates to include the specific metrics the sales head needs is best. B, C, and D each choose a single format for them rather than tailoring to their stated needs.",
     "video_time": 16494,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.9"
   },
   {
     "number": 130,
@@ -1820,7 +1949,8 @@
     "correct_answer": "A",
     "explanation": "When stakeholders have concerns, get more detail about them so you can address them. Meet with the community leaders to detail their concerns first. A brochure (B) and an expert presentation (C) tell them more without understanding the concern, and a feedback initiative (D) comes after getting to the core of the problem.",
     "video_time": 16524,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.9"
   },
   {
     "number": 131,
@@ -1834,7 +1964,8 @@
     "correct_answer": "C",
     "explanation": "The nominal group technique ensures everyone gets their viewpoint across and prevents one or two people from dominating. It's not strictly about equal contributions (B) (some may contribute more), nor just sequential voting (A) or creative synergy (D); preventing domination is the key benefit here.",
     "video_time": 16554,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.10"
   },
   {
     "number": 132,
@@ -1848,7 +1979,8 @@
     "correct_answer": "A",
     "explanation": "Before creating a new plan or stopping the project over a 'potential' impact, meet with the right specialist to assess it and get good information. Don't pause the project over something merely potential (D), don't create a whole new plan yet (B), and never do nothing/wait for regulatory feedback (C). Assess first.",
     "video_time": 16584,
-    "eco_domain": "Business Environment"
+    "eco_domain": "Business Environment",
+    "eco_task": "3.1"
   },
   {
     "number": 133,
@@ -1862,7 +1994,8 @@
     "correct_answer": "D",
     "explanation": "A status meeting requires something to report on, so hold it once the team starts demonstrating progress. Waiting for two Sprints (B) or a first version (C) takes too long, and the kickoff (A) is about objective alignment; you can't report status before any work has been done.",
     "video_time": 16614,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.2"
   },
   {
     "number": 134,
@@ -1876,7 +2009,8 @@
     "correct_answer": "C",
     "explanation": "Encourage the team to share and contribute rather than dictating or redesigning the process. A and B tell the team what to do or design the whole thing, and D imposes a new platform. Encouraging participation is good servant leadership, not dictatorship.",
     "video_time": 16754,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.4"
   },
   {
     "number": 135,
@@ -1890,7 +2024,8 @@
     "correct_answer": "C",
     "explanation": "Never execute a project without understanding the scope. Reach out to the client for clarification and confirmation. Initiating development on ambiguous specs (A) guarantees failure, informing stakeholders of delays (B) comes after trying to clarify, and you can't just adjust the timeline (D) without approval.",
     "video_time": 16854,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.9"
   },
   {
     "number": 136,
@@ -1904,7 +2039,8 @@
     "correct_answer": "C",
     "explanation": "This risk was previously noted, so its mitigation strategy is in the risk register; consult it with the team. Don't negotiate with vendors immediately (A), don't take project problems to the steering committee (B), and you don't need a new strategy session (D) because you already planned for this risk.",
     "video_time": 16954,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.3"
   },
   {
     "number": 137,
@@ -1918,7 +2054,8 @@
     "correct_answer": "C",
     "explanation": "The real goal is to uplift the team. Highlighting collective achievements and that success belongs to the whole team addresses the member feeling undervalued relative to others. A is feedback for one person rather than the whole team, B assumes everyone contributes equally, and D leaves the PM out by having members recognize each other.",
     "video_time": 17114,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.14"
   },
   {
     "number": 138,
@@ -1932,7 +2069,8 @@
     "correct_answer": "D",
     "explanation": "Engage the team to explore options; they are the best people to help. Proposing a phased approach (A) is done alone without the team, the potential impacts aren't known yet for B, and you should work with the team before going to the PMO (C). D can lead to the other options.",
     "video_time": 17274,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.5"
   },
   {
     "number": 139,
@@ -1946,7 +2084,8 @@
     "correct_answer": "C",
     "explanation": "Assess the impact thoroughly before acting. C draws a detailed analysis of long-term savings, environmental benefits, and cost/time increases for stakeholder review, which is more comprehensive than just assessing budget and timeline (A). Don't push it out (D) before knowing the impact, and B doesn't address the new system.",
     "video_time": 17374,
-    "eco_domain": "Business Environment"
+    "eco_domain": "Business Environment",
+    "eco_task": "3.2"
   },
   {
     "number": 140,
@@ -1961,7 +2100,8 @@
     "correct_answer": "A, B",
     "explanation": "The keywords are cohesion and flexibility. Fostering continuous dialogue/collaboration (A) builds cohesion, and embracing a flexibility mindset (B) addresses adapting to shifts. Retrospectives (C) improve the next Sprint, training (D) may not build cohesion, and daily check-ins (E) surface issues rather than build flexibility.",
     "video_time": 17474,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.6"
   },
   {
     "number": 141,
@@ -1975,7 +2115,8 @@
     "correct_answer": "C",
     "explanation": "Have the team work with and discover the technology themselves so they understand it better. A reward system (A) doesn't remove the hesitancy, telling them how it aligns (B) is less effective than letting them discover it, and D goes outside instead of working with the team first.",
     "video_time": 17584,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.5"
   },
   {
     "number": 142,
@@ -1989,7 +2130,8 @@
     "correct_answer": "A",
     "explanation": "You can't redesign scope unilaterally (eliminating D), and you don't go outside (C) until there's no other option. Before a risk assessment (B), conduct an in-depth analysis of the regulation and outline a compliance plan; doing A effectively includes the risk assessment, making it the better answer.",
     "video_time": 17874,
-    "eco_domain": "Business Environment"
+    "eco_domain": "Business Environment",
+    "eco_task": "3.1"
   },
   {
     "number": 143,
@@ -2003,7 +2145,8 @@
     "correct_answer": "D",
     "explanation": "The supplier feels the project doesn't align with their business model, so prove the value to them. A detailed presentation on the environmental impact and mutual benefits does this. A trial (A) doesn't prove alignment, referring to the architect (B) gives away the work, and a campaign (C) highlights achievements rather than engaging the vendor.",
     "video_time": 17954,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.8"
   },
   {
     "number": 144,
@@ -2017,7 +2160,8 @@
     "correct_answer": "D",
     "explanation": "A burn-up chart represents work completed versus work remaining and is used in agile, matching the request to show progress and remaining tasks. Time tracking (A), resource allocation (B), and milestone reviews (C) are more aligned with traditional projects.",
     "video_time": 17964,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 145,
@@ -2031,7 +2175,8 @@
     "correct_answer": "D",
     "explanation": "The question asks for a strategy to advance the project (fix the problem), not what to do first. Directly negotiating and reconciling the conflicting requirements moves the project forward. A only seeks to understand (you can't fix by examining), B gives away the work, and C requires a change request. Had it asked what to do first, A would fit.",
     "video_time": 17974,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.8"
   },
   {
     "number": 146,
@@ -2045,7 +2190,8 @@
     "correct_answer": "B",
     "explanation": "Facilitate a workshop so both teams can share cultural norms and communication preferences and work together. People won't learn a whole language quickly (A), written-only communication (D) is hard for frequent communication, and a liaison (C) becomes a bottleneck. Bring them together to solve the problem.",
     "video_time": 18119,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.10"
   },
   {
     "number": 147,
@@ -2059,7 +2205,8 @@
     "correct_answer": "C",
     "explanation": "Engage stakeholders early and often. On a company-wide project everyone is a stakeholder, so encourage the interested department to join. Limiting attendance (A), telling them to wait (B), and restricting recordings (D) all discourage early engagement.",
     "video_time": 18264,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.5"
   },
   {
     "number": 148,
@@ -2073,7 +2220,8 @@
     "correct_answer": "A",
     "explanation": "When the team lacks specific knowledge, the best action is to get them the right training. Don't give away the work yet (B), automated tools (D) add complexity for a team that doesn't understand the technology, and problem-solving workshops (C) won't help if they lack the underlying expertise.",
     "video_time": 18410,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.5"
   },
   {
     "number": 149,
@@ -2087,7 +2235,8 @@
     "correct_answer": "A",
     "explanation": "When face-to-face is impossible due to continental spread, get the right technology (e.g., Zoom) for seamless, consistent synchronous communication. Occasional meetings (B) aren't seamless, a cultural exchange program (C) takes time, and email (D) is asynchronous and weaker than synchronous communication.",
     "video_time": 18555,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.11"
   },
   {
     "number": 150,
@@ -2101,7 +2250,8 @@
     "correct_answer": "A",
     "explanation": "What to do next means analyze before fixing. Conduct an impact analysis on the timeline and budget. Don't reject/defer the request to the customer (B), never overwork the team (C), and negotiate for resources (D) only after assessing the situation.",
     "video_time": 18585,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.10"
   },
   {
     "number": 151,
@@ -2115,7 +2265,8 @@
     "correct_answer": "B",
     "explanation": "Engage stakeholders rather than modifying scope without their input. Bring stakeholders together to find a solution. A redesigns without input, D moves the fair without consulting organizers, and C takes no real action (just plans for backlash).",
     "video_time": 18675,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.9"
   },
   {
     "number": 152,
@@ -2129,7 +2280,8 @@
     "correct_answer": "B",
     "explanation": "First assess the situation by facilitating a discussion to understand what the reassignments mean and how they affect the project and company objectives. B, C, and D take action; revising the schedule (A) requires a change request, and the mentorship (C) and cross-training (D) programs come later, after the discussion.",
     "video_time": 18810,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.2"
   },
   {
     "number": 153,
@@ -2143,7 +2295,8 @@
     "correct_answer": "C",
     "explanation": "Before giving them anything, clarify exactly what they want (format, timing, content), essentially building the communication needs. A, B, and D all provide data before pinpointing what the council member actually needs.",
     "video_time": 18945,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.9"
   },
   {
     "number": 154,
@@ -2157,7 +2310,8 @@
     "correct_answer": "B",
     "explanation": "An individual performance issue is best handled privately in a one-on-one meeting, not in front of others. A group email (A), a formal HR PIP (C), and a team-wide meeting (D) all handle a single-person issue in a group/formal setting rather than directly with the individual.",
     "video_time": 19135,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.3"
   },
   {
     "number": 155,
@@ -2171,7 +2325,8 @@
     "correct_answer": "A",
     "explanation": "On an agile project you should already be doing daily virtual stand-ups, which clarify goals, synchronize efforts, and address issues. Weekly templates (C) and quarterly meetups (D) are too far apart, and while time-management training (B) is reasonable, the daily stand-up directly fixes the problem.",
     "video_time": 19215,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.11"
   },
   {
     "number": 156,
@@ -2185,7 +2340,8 @@
     "correct_answer": "B",
     "explanation": "What to do next means assess: document the potential compliance risks related to health and safety so you understand how they affect schedule, budget, scope, and public safety. Training (A) and consulting legal experts (D) come after, and a quality control system (C) is implemented later.",
     "video_time": 19295,
-    "eco_domain": "Business Environment"
+    "eco_domain": "Business Environment",
+    "eco_task": "3.1"
   },
   {
     "number": 157,
@@ -2199,7 +2355,8 @@
     "correct_answer": "B",
     "explanation": "Don't take action right away; do a detailed session with the team to pinpoint the cause first. Never escalate project problems to senior management (A), don't seek funding (C) before understanding the impact, and never implement overtime (D), which overworks the team and reduces quality.",
     "video_time": 19375,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 158,
@@ -2214,7 +2371,8 @@
     "correct_answer": "B, E",
     "explanation": "First meet individually with each group to understand their concerns (B), then conduct targeted discussions with representatives from both sides to find a middle ground (E). Don't escalate to the city council (D), don't vote before finding common ground (C), and never delay/kick the can down the road (A).",
     "video_time": 19455,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.1"
   },
   {
     "number": 159,
@@ -2228,7 +2386,8 @@
     "correct_answer": "A",
     "explanation": "The constraint is not raising the budget, which eliminates external training (C) and hiring a consultant (D); B gives away the work. A collaborative problem-solving session to identify alternative integration strategies is the best option that doesn't raise the budget.",
     "video_time": 19645,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.7"
   },
   {
     "number": 160,
@@ -2242,7 +2401,8 @@
     "correct_answer": "B",
     "explanation": "The project is still in planning, where you can update the scope without a change request, and a law must be complied with. Update the documentation to reflect the impact. A delays needlessly, you don't need exceptions (C), and you already know the height impact, so you can reassess the plan rather than just consult legal counsel (D).",
     "video_time": 19935,
-    "eco_domain": "Business Environment"
+    "eco_domain": "Business Environment",
+    "eco_task": "3.3"
   },
   {
     "number": 161,
@@ -2256,7 +2416,8 @@
     "correct_answer": "A",
     "explanation": "When one person is causing the issue, meet with them privately to find out the problem and how to fix it. Senior management (D) isn't there to solve your project problems. Before brainstorming with the whole team (C) or reassigning the task (B), have a confidential discussion with the team member.",
     "video_time": 19935,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.3"
   },
   {
     "number": 162,
@@ -2270,7 +2431,8 @@
     "correct_answer": "B",
     "explanation": "It's a suggestion that may be good or bad, so have the team (the experts) tell you how it affects the project. You can't send it to the CCB (A) without knowing the impact, you go outside to industry experts (C) only later, and the team should help with the risk analysis (D) first. All changes must be assessed before CCB approval.",
     "video_time": 19980,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.10"
   },
   {
     "number": 163,
@@ -2284,7 +2446,8 @@
     "correct_answer": "A",
     "explanation": "The risk register contains risks and their predefined response strategies. This is a risk, not an issue (eliminating the issue log B). There is no standalone 'risk response strategy' document (C), and the risk management plan (D) describes how to manage risk but doesn't contain the risks or responses.",
     "video_time": 20025,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.3"
   },
   {
     "number": 164,
@@ -2298,7 +2461,8 @@
     "correct_answer": "A",
     "explanation": "Face-to-face communication is the richest form of communication and best for validating understanding. Face-to-face sessions where both teams talk and validate understanding trump a formal assessment (B), an online module (C), or even a roundtable (D).",
     "video_time": 20265,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.16"
   },
   {
     "number": 165,
@@ -2312,7 +2476,8 @@
     "correct_answer": "B",
     "explanation": "The problem is different priorities and methodologies, so a workshop to align teams and establish a shared methodology directly addresses it and creates consistency. A, C, and D all impose choices on the teams (a tool, a liaison structure, resource reallocation) rather than bringing them together to establish a shared methodology.",
     "video_time": 20335,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 166,
@@ -2326,7 +2491,8 @@
     "correct_answer": "B",
     "explanation": "On an agile project, only the product owner can add features to the product backlog and prioritize them. The department heads should work with the product owner. You don't freeze changes on agile (C), don't defer to after go-live (A), and the detailed business case (D) is between the product owner and requesters.",
     "video_time": 20415,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.8"
   },
   {
     "number": 167,
@@ -2340,7 +2506,8 @@
     "correct_answer": "A",
     "explanation": "Meet with the team and see if responsibilities can be spread among them to keep the project on schedule. If they say they need help, you can then get a consultant (C); don't pause the project (B) or request an extension (D) without first checking whether the team can handle it. The team are the experts.",
     "video_time": 20495,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.7"
   },
   {
     "number": 168,
@@ -2354,7 +2521,8 @@
     "correct_answer": "D",
     "explanation": "The best way to reward someone is to work with them and ask what form of recognition they value most. A, B, and C all choose the method of acknowledgment for the developer, whereas D lets the team member choose.",
     "video_time": 20645,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.3"
   },
   {
     "number": 169,
@@ -2368,7 +2536,8 @@
     "correct_answer": "A",
     "explanation": "With diverse views, use conflict resolution techniques to bring the differing viewpoints into a unified strategy so the project can progress. A poll (B) is risky since some features may be legally required, never tell the team to figure it out alone (D), and C focuses on design principles/innovation rather than the needed unified strategy.",
     "video_time": 20795,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.1"
   },
   {
     "number": 170,
@@ -2382,7 +2551,8 @@
     "correct_answer": "A",
     "explanation": "Risk management should be continuous throughout the project, identifying and monitoring challenges. Risk isn't a mid-Sprint (B) or one-on-one (C) activity, nor handled by a tool alone (D); risk identification and assessment should be done continuously and as a team.",
     "video_time": 20895,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.3"
   },
   {
     "number": 171,
@@ -2396,7 +2566,8 @@
     "correct_answer": "D",
     "explanation": "With many diverse stakeholders/customers, give as many options as possible to satisfy as many as you can. D offers tutorial videos, a searchable knowledge base, and live support. A (extended hours), B (a hotline), and C (self-paced webinars) each provide only a single option.",
     "video_time": 20995,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.16"
   },
   {
     "number": 172,
@@ -2410,7 +2581,8 @@
     "correct_answer": "A",
     "explanation": "The expert's input was never obtained, meaning they likely weren't even identified. The stakeholder register lists all stakeholders and how they impact/are impacted by the project, and you need it before getting input. The engagement plan (B) and communication plan (D) come after the register, and the schedule (C) is unrelated to identifying stakeholders.",
     "video_time": 21095,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.4"
   },
   {
     "number": 173,
@@ -2424,7 +2596,8 @@
     "correct_answer": "D",
     "explanation": "To set up for success you need all the documents, developed collaboratively with the team. Engaging the entire team to develop the critical documents is best. You can't proceed on high-level tasks alone (A), instructing department heads (B) gives away the PM's role, and templates (C) are helpful but you still need the team to build the actual plan.",
     "video_time": 21170,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.9"
   },
   {
     "number": 174,
@@ -2438,7 +2611,8 @@
     "correct_answer": "B",
     "explanation": "At the beginning of every meeting, cover the agenda: what's being discussed, how long, and the topics. Schedule status (A), scope reevaluation (C), and feedback (D) are covered later in the meeting, but the agenda comes first so the meeting doesn't waste time.",
     "video_time": 21245,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.2"
   },
   {
     "number": 175,
@@ -2452,7 +2626,8 @@
     "correct_answer": "A",
     "explanation": "The problems include both technical bugs and miscommunication, so focus on collaboration and open communication, which can reduce miscommunication and help resolve technical issues too. A professional mediator (D) isn't needed (that's the PM's role), more meetings (C) may worsen tension, and B only addresses the technical issues, not the miscommunication.",
     "video_time": 21355,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.6"
   },
   {
     "number": 176,
@@ -2466,7 +2641,8 @@
     "correct_answer": "C",
     "explanation": "The slowdown is from numerous minor approvals, so delegate decision-making for smaller areas to trusted project leads. D does nothing different (the PM keeps doing it all), weekly roundups (A) make teams wait for decisions, and critical path analysis (B) just identifies the delay you already know about.",
     "video_time": 21825,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.4"
   },
   {
     "number": 177,
@@ -2480,7 +2656,8 @@
     "correct_answer": "C",
     "explanation": "Meet with the sponsor to learn what they want, when, how, and in what format; tailor communication to their preference. A, B, and D all choose a format for the sponsor instead of asking them. When two choices do nearly the same thing, neither is the answer.",
     "video_time": 22005,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.9"
   },
   {
     "number": 178,
@@ -2494,7 +2671,8 @@
     "correct_answer": "C",
     "explanation": "Don't shut the person down. Facilitate a discussion where the developer presents the method's advantages and implementation so the team can evaluate it. A tells them no, B effectively removes them from the task (don't fire/sideline anyone), and D defers it to the project's end when no one can use it.",
     "video_time": 22106,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.10"
   },
   {
     "number": 179,
@@ -2509,7 +2687,8 @@
     "correct_answer": "B, E",
     "explanation": "The word 'potential' means this is a risk. First perform a detailed assessment of the impact (B) and record it in the risk register (E). Liaising with the contractor (A) comes after assessing, delaying until stakeholders notice (C) is passive, and comparing with past incidents (D) is less important than assessing this project's impact.",
     "video_time": 22206,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.3"
   },
   {
     "number": 180,
@@ -2523,7 +2702,8 @@
     "correct_answer": "A",
     "explanation": "Assess the feasibility and impact, but don't formalize the change, since formalizing a scope change requires change control (or the product owner on agile). B looks only at budget, C looks at added value rather than the whole picture, and D drafts a charter when the project already started.",
     "video_time": 22276,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.10"
   },
   {
     "number": 181,
@@ -2537,7 +2717,8 @@
     "correct_answer": "C",
     "explanation": "The best people to tell you how something affects the project are the experts on the team, so consult the team and consider the overall project. A focuses only on technical/financial aspects and B only on budget/time, while C considers the overall project (quality, risk, procurement, etc.) and involves the team.",
     "video_time": 22396,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.10"
   },
   {
     "number": 182,
@@ -2551,7 +2732,8 @@
     "correct_answer": "D",
     "explanation": "No project should be progressing if it's breaking the law; compliance falls under the business environment domain and takes priority. A project out of compliance must be addressed first. The cybersecurity expert (A), new product owner (B), and IT contractor (C) are all secondary to ensuring legal compliance.",
     "video_time": 22476,
-    "eco_domain": "Business Environment"
+    "eco_domain": "Business Environment",
+    "eco_task": "3.1"
   },
   {
     "number": 183,
@@ -2565,7 +2747,8 @@
     "correct_answer": "D",
     "explanation": "The best tool depends on the people, so work with the entire team to assess needs, evaluate alternatives, and decide. Trialing tools yourself (A) is doing it alone, delegating to an advisory board (B) gives away the decision, and maximizing current tools (C) ignores looking at what's available with the team.",
     "video_time": 22506,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.2"
   },
   {
     "number": 184,
@@ -2579,7 +2762,8 @@
     "correct_answer": "A",
     "explanation": "Convene a comprehensive briefing with key stakeholders to consolidate standards and set unified expectations. A contingency plan (B) is premature since the gaps aren't known, collaboration with only IT (C) leaves out the broader stakeholders/sponsors, and a survey (D) is weaker than a comprehensive briefing with stakeholders.",
     "video_time": 22536,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.4"
   },
   {
     "number": 185,
@@ -2593,7 +2777,8 @@
     "correct_answer": "C",
     "explanation": "The value of agile is developing the most valuable features first, aligned with customer demand. Agile doesn't have a massive structured risk approach (B) and may or may not reduce costs (D). While agile can reduce time to market (A), prioritizing the most valuable features first (C) is its principal advantage.",
     "video_time": 22601,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.1"
   },
   {
     "number": 186,
@@ -2607,7 +2792,8 @@
     "correct_answer": "D",
     "explanation": "First meet with and review the timeline with the entire team to assess the situation before acting. Informing senior management (A) and briefing the board (B) come after assessing, and you can't just revise the timeline (C), which requires a change request. Always meet with the team and assess before taking action.",
     "video_time": 22666,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 187,
@@ -2621,7 +2807,8 @@
     "correct_answer": "B",
     "explanation": "The business case stores the project's strategic benefits and objectives, so the new PM should review it first. The (program) road map (A) shows projects in a program, there is no standalone 'strategic alignment documents' (C), and technical design documents (D) describe how it's built, not the benefits.",
     "video_time": 22706,
-    "eco_domain": "Business Environment"
+    "eco_domain": "Business Environment",
+    "eco_task": "3.2"
   },
   {
     "number": 188,
@@ -2635,7 +2822,8 @@
     "correct_answer": "D",
     "explanation": "The PM and team should work together to select the best methodology and tools, since only the team understands the work and every project is unique. It shouldn't be key stakeholders from departments (A), industry standards alone (B), or the CTO (C).",
     "video_time": 22746,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 189,
@@ -2649,7 +2837,8 @@
     "correct_answer": "A",
     "explanation": "Communication should be tailored to the stakeholders, so develop communication management plans catered to each discipline's needs. A centralized dashboard (B) is one method, workshops (C) are about understanding, and a liaison (D) doesn't ensure each person gets the right form of communication; a tailored, customized plan is best.",
     "video_time": 22966,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.11"
   },
   {
     "number": 190,
@@ -2663,7 +2852,8 @@
     "correct_answer": "C",
     "explanation": "Decomposing the scope into smaller components creates the work packages of the WBS. A RACI chart (A) assigns people to work, a network diagram (B) and scheduling (D) build the schedule; you must finish the WBS before building the schedule.",
     "video_time": 23416,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.8"
   },
   {
     "number": 191,
@@ -2677,7 +2867,8 @@
     "correct_answer": "A",
     "explanation": "Work with the team to create a protocol they're willing to follow for the daily scrum. You can't set a time for the team unilaterally (B), asynchronous communication (C) doesn't work for a daily stand-up where everyone should participate, and you should get input from the team specifically (A), not just stakeholders (D).",
     "video_time": 23416,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.12"
   },
   {
     "number": 192,
@@ -2691,7 +2882,8 @@
     "correct_answer": "C",
     "explanation": "When something needs the project to increase its budget, it must be approved via a formal change request to revise the cost baseline. You can't just adjust the financial strategy/add money (D), the sponsor isn't there to do assessments (B), and reallocating resources (A) also requires a change request.",
     "video_time": 23441,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.10"
   },
   {
     "number": 193,
@@ -2705,7 +2897,8 @@
     "correct_answer": "A",
     "explanation": "On an agile project, scope additions go to the product owner, who agrees, adds them, and re-prioritizes the product backlog. You can't update the timeline (B) without product owner approval, it's a needed requirement (not just a risk to escalate, C), and you never just delegate/give away your work (D).",
     "video_time": 23466,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.5"
   },
   {
     "number": 194,
@@ -2719,7 +2912,8 @@
     "correct_answer": "B",
     "explanation": "The question asks what keeps the team motivated. Regularly recognizing efforts and celebrating milestones maintains morale. Mandatory activities (D) tend to demoralize, reducing workload (C) may not be feasible, and a monetary incentive (A) won't work if the whole team is affected, not just a few people.",
     "video_time": 23528,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.14"
   },
   {
     "number": 195,
@@ -2733,7 +2927,8 @@
     "correct_answer": "D",
     "explanation": "The keyword is 'initially' (prevent the problem). A comprehensive training session that demonstrates the benefits helps everyone see the value, which is likely why they're resistant. Team leaders setting an example (A) doesn't ensure others see the benefit, and a reward (B) makes people use it without seeing its value. C addresses individuals rather than the whole team's understanding.",
     "video_time": 23591,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.5"
   },
   {
     "number": 196,
@@ -2747,7 +2942,8 @@
     "correct_answer": "A",
     "explanation": "When review times are unpredictable, you can't plan everything right away, so use rolling wave planning (plan to replan as things become clearer). Backward pass (B) calculates the critical path, dependency structuring (C) shows task relationships, and lead/lag (D) shows overlaps/delays; none address planning under uncertainty.",
     "video_time": 23654,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 197,
@@ -2761,7 +2957,8 @@
     "correct_answer": "A",
     "explanation": "Emphasize the agenda at the start (and throughout) and remind participants to stay on topic; this directly solves the problem. You should be the facilitator rather than introducing a co-facilitator (C), a suggestion box (D) is indirect, and allocating extra time (B) can make meetings run even longer.",
     "video_time": 23716,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.10"
   },
   {
     "number": 198,
@@ -2775,7 +2972,8 @@
     "correct_answer": "C",
     "explanation": "When someone raises that risk isn't being managed well, bring it to the entire team to reevaluate the risk management plan and risk register and incorporate the feedback. Do this before establishing a contingency fund (A), consulting an external expert (B), or adjusting the timeline (D), which would require a change request.",
     "video_time": 23891,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.3"
   },
   {
     "number": 199,
@@ -2789,7 +2987,8 @@
     "correct_answer": "D",
     "explanation": "Part of being a servant leader is removing obstacles for the team. This is an IT/computer issue, so the PM should coordinate with IT to promptly renew the license. Manually sketching (A) doesn't give the team the right tools, having the team fix it (B) doesn't remove the obstacle, and prioritizing other work (C) doesn't address the problem.",
     "video_time": 24066,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.15"
   },
   {
     "number": 200,
@@ -2803,6 +3002,7 @@
     "correct_answer": "C",
     "explanation": "If someone must take emergency leave, you can't make them work remotely (A). Don't escalate and demand from senior management (B) or cancel the Sprint review (D). Work with the team to reevaluate the Sprint goals (the team can adjust the Sprint goal), consult about adjustments, and communicate the revised plan to stakeholders.",
     "video_time": 24366,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   }
 ]

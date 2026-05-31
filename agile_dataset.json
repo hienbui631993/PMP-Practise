@@ -11,7 +11,8 @@
     "correct_answer": "B",
     "explanation": "The Agile Manifesto recommends focusing on individuals and interactions over processes and tools. Projects are run by people, products are developed by people for people to use, and interactions either make or break a project.",
     "video_time": 35,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.2"
   },
   {
     "number": 2,
@@ -25,7 +26,8 @@
     "correct_answer": "C",
     "explanation": "Agile encourages self-organizing teams composed of the people who created the requirements and had the desired outcome in the first place. This gives a higher level of ownership and product expertise that cannot be bought.",
     "video_time": 132,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.4"
   },
   {
     "number": 3,
@@ -39,7 +41,8 @@
     "correct_answer": "D",
     "explanation": "The product owner should share the updated backlog items in prioritized order and the entire team discusses them to ensure a shared understanding of what will be developed during the next sprint.",
     "video_time": 266,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 4,
@@ -53,7 +56,8 @@
     "correct_answer": "B",
     "explanation": "Value can be maximized by eliminating unnecessary features, partially done work, delays, extra processes, task switching, waiting, defects, rework, and handoffs — all of which are considered waste in agile.",
     "video_time": 402,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.1"
   },
   {
     "number": 5,
@@ -67,7 +71,8 @@
     "correct_answer": "A",
     "explanation": "A sprint retrospective is held with the whole team after the sprint review but before the next sprint planning meeting. It is used to gather lessons learned and look for opportunities for improvement so the team continuously gets better.",
     "video_time": 522,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 6,
@@ -81,7 +86,8 @@
     "correct_answer": "B",
     "explanation": "According to the Agile Practice Guide, the agile team charter typically covers why we are doing the project, who benefits, what does done look like, and how are we going to work together.",
     "video_time": 626,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.12"
   },
   {
     "number": 7,
@@ -95,7 +101,8 @@
     "correct_answer": "C",
     "explanation": "Agile works with value delivered as its primary measurement. All other options are predictive measurements from traditional project management methodologies.",
     "video_time": 733,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 8,
@@ -109,7 +116,8 @@
     "correct_answer": "B",
     "explanation": "Agile focuses on transparency to ensure customer needs are met, not specifically on managing customer expectations. According to the Agile Practice Guide, managing stakeholders' expectations is not one of the seven key disciplines of Agile Unified Process.",
     "video_time": 828,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 9,
@@ -123,7 +131,8 @@
     "correct_answer": "B",
     "explanation": "Agile and lean frameworks include the Scaled Agile Framework (SAFe), Large-Scale Scrum (LeSS), Scrum of Scrums (SoS), Dynamic Systems Development Method (DSDM), Kanban, Extreme Programming (XP), and Scrum, as noted in the Agile Practice Guide.",
     "video_time": 950,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 10,
@@ -137,7 +146,8 @@
     "correct_answer": "B",
     "explanation": "Crystal Clear describes the three core beliefs as technologies changing techniques, cultures changing norms, and distances changing communication. These are reasons behind core agile practices such as stand-ups, collaborative user story creation, retrospectives, and the whole team approach.",
     "video_time": 1049,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.6"
   },
   {
     "number": 11,
@@ -151,7 +161,8 @@
     "correct_answer": "A",
     "explanation": "The product owner adjusts the priority of the product backlog items before the meeting; the team is responsible for estimating and refining those work items. The team needs to estimate as a team and figure out how much can be completed during a sprint, refining estimates with higher levels of detail each time.",
     "video_time": 1208,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.8"
   },
   {
     "number": 12,
@@ -165,7 +176,8 @@
     "correct_answer": "D",
     "explanation": "The main difference between Scrum and Kanban is that Kanban teams employ a pull system — when an item of work is completed it triggers someone to pull the next item into the queue onto the board. Kanban teams work off a Kanban board that displays each task and limits how much work in progress can be in place.",
     "video_time": 1281,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 13,
@@ -179,7 +191,8 @@
     "correct_answer": "C",
     "explanation": "Jeremy shows the traits of servant leadership by engaging the team in team decisions, starting with the team charter and ground rules so everyone knows where they stand. By communicating the reasons for his decisions he is a suitable Scrum Master — less focused on command and control, increasing engagement and team output.",
     "video_time": 1362,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.2"
   },
   {
     "number": 14,
@@ -193,7 +206,8 @@
     "correct_answer": "C",
     "explanation": "A core component of agile is visual management and transparency through the information radiator, which is in a common co-located place that anyone can see at any time. It includes team velocity, the Kanban board, product backlog, burn-down chart, latest test results, issues, and retrospective results.",
     "video_time": 1451,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.12"
   },
   {
     "number": 15,
@@ -207,7 +221,8 @@
     "correct_answer": "A",
     "explanation": "Working with business partners or a customer representative almost daily is a key part of agile — the team hears what the business would like the results to be. Meeting face to face is better than reading requirements like emails or documents, providing much more information and enabling constant reprioritization of delivered value.",
     "video_time": 1572,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 16,
@@ -221,7 +236,8 @@
     "correct_answer": "B",
     "explanation": "Answers A, C, and D are correct descriptions of backlog preparation for iteration planning according to the Agile Practice Guide from the Agile Alliance and PMI. Option B is incorrect because agile emphasizes continuous collaboration as a team, not working alone in isolation.",
     "video_time": 1670,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 17,
@@ -235,7 +251,8 @@
     "correct_answer": "D",
     "explanation": "Given, when, then is how Behaviour Driven Development is used — particularly when outlining user story cards for iteration. It highlights: given a certain situation, when something happens, then we want this to happen.",
     "video_time": 1787,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.7"
   },
   {
     "number": 18,
@@ -249,7 +266,8 @@
     "correct_answer": "A",
     "explanation": "A predictive or waterfall project management life cycle focuses on fixed requirements performed once for the project in a single delivery. Agile, by contrast, continually releases features and delivers value in smaller, more frequent increments.",
     "video_time": 1862,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 19,
@@ -263,7 +281,8 @@
     "correct_answer": "B",
     "explanation": "Iterative methods have dynamic requirements that are ever-changing and ever-improving — repeated with feedback until correct — but they are delivered only once (a single delivery). This contrasts with incremental approaches which have multiple smaller deliveries.",
     "video_time": 1958,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 20,
@@ -277,7 +296,8 @@
     "correct_answer": "D",
     "explanation": "The agile team charter focuses on the vision, the why, and the team's way of work. The SPI and CPI (cost performance index) are earned value management metrics from a predictive/waterfall project methodology and are not part of a traditional agile team charter.",
     "video_time": 2062,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.12"
   },
   {
     "number": 21,
@@ -291,7 +311,8 @@
     "correct_answer": "D",
     "explanation": "The agile team charter focuses on the vision, the 'why', and the team's way of work. SPI and CPI are earned value management metrics from a predictive (waterfall) project methodology and are not part of a traditional agile team charter.",
     "video_time": 2062,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.12"
   },
   {
     "number": 22,
@@ -305,7 +326,8 @@
     "correct_answer": "D",
     "explanation": "Sprint reviews are for product demonstrations to the business or customer, while sprint retrospectives are for lessons learned (what went well, what didn't, what did I learn), ideally performed at the end of each iteration to continuously improve the team's process.",
     "video_time": 2134,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 23,
@@ -319,7 +341,8 @@
     "correct_answer": "A",
     "explanation": "Agile is a combination of incremental delivery and iterative development, so business value is continuously and iteratively improved and prioritized. Features should be complete, tested, and quality is everyone's responsibility — not just delivered fast but delivered with quality built in.",
     "video_time": 2305,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.8"
   },
   {
     "number": 24,
@@ -333,7 +356,8 @@
     "correct_answer": "C",
     "explanation": "The product owner represents the customer and continuously prioritizes the backlog of features. The team works through the list of items that have identifiable value and have been prioritized by the customer, ensuring business value is always being maximized.",
     "video_time": 2405,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.8"
   },
   {
     "number": 25,
@@ -347,7 +371,8 @@
     "correct_answer": "C",
     "explanation": "An agile project can accept changes even late in development. While cost, quality, and schedule are often fixed in agile, scope can vary over time — some lower priority features may drop off while others become prioritized above them. A maintainable pace is also required so project managers must not overwork the team.",
     "video_time": 2501,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.9"
   },
   {
     "number": 26,
@@ -361,7 +386,8 @@
     "correct_answer": "C",
     "explanation": "An incremental project management approach includes dynamic requirements performed once for each increment, with those increments delivered in frequent smaller deliveries. When combined with iterative improvement this forms the foundation of an agile approach.",
     "video_time": 2664,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 27,
@@ -375,7 +401,8 @@
     "correct_answer": "D",
     "explanation": "The preferred style of leadership in an agile team is servant leadership, not autocratic leadership. Autocratic leadership is a one-person top-down affair, while servant leadership builds psychological safety by serving and growing the team so everyone can engage and contribute. All other items listed are core agile practices.",
     "video_time": 2767,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.2"
   },
   {
     "number": 28,
@@ -389,7 +416,8 @@
     "correct_answer": "B",
     "explanation": "While it is common for developers, testers, and business representatives to agree on the story card criteria, it is not signed off by the project sponsor directly. The product owner, representing the business or customer, grooms the feature backlog to ensure the highest value items are always being delivered.",
     "video_time": 2870,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 29,
@@ -403,7 +431,8 @@
     "correct_answer": "B",
     "explanation": "Continuous integration merges code to a test environment using an automated process including automated regression tests to ensure nothing is broken, which allows the team to find and fix defects more quickly. Test-driven development (writing a test first that fails, then writing code to make it pass) is a separate but related practice.",
     "video_time": 2969,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.7"
   },
   {
     "number": 30,
@@ -417,7 +446,8 @@
     "correct_answer": "D",
     "explanation": "Reporting to executives is not a direct agile core practice. In agile, information is made visible and accessible to anyone who needs it — through burn-down charts, product backlogs, and demonstrations or reviews — rather than through formal executive reporting. All other items listed are agile core practices.",
     "video_time": 3114,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 31,
@@ -431,7 +461,8 @@
     "correct_answer": "D",
     "explanation": "Minimum viable products are usable features in their own right and they are delivered incrementally, allowing business value to be gained more quickly. This also enables gathering feedback on whether the features are having the desired results.",
     "video_time": 3225,
-    "eco_domain": "Business Environment"
+    "eco_domain": "Business Environment",
+    "eco_task": "3.2"
   },
   {
     "number": 32,
@@ -445,7 +476,8 @@
     "correct_answer": "C",
     "explanation": "Visual management is a lean principle borrowed into agile where key pieces of information are made as accessible as possible, often found in the team area. It means anyone can walk through that area and see what they need at a glance, and a kanban board is an example of a low-tech high-touch tool.",
     "video_time": 3321,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.12"
   },
   {
     "number": 33,
@@ -459,7 +491,8 @@
     "correct_answer": "B",
     "explanation": "Busy work does not add value to the project and is not a benefit of agile demos and reviews. The actual benefits include catching mistakes early, reducing cost overruns, and creating multiple feedback loops that help deliver value.",
     "video_time": 3459,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.7"
   },
   {
     "number": 34,
@@ -473,7 +506,8 @@
     "correct_answer": "A",
     "explanation": "Continuous integration aims to merge the code and have a working build once a day, then executes automated tests quickly to see if anything is broken. This frequent checking ensures less time passes before a problem is identified.",
     "video_time": 3534,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.7"
   },
   {
     "number": 35,
@@ -487,7 +521,8 @@
     "correct_answer": "B",
     "explanation": "Acceptance tests and criteria are given before the development of a deliverable and during elaboration, often in a given/when/then format (behavior-driven development). We need acceptance criteria before development starts so that the team can deliver to those criteria.",
     "video_time": 3631,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.7"
   },
   {
     "number": 36,
@@ -501,7 +536,8 @@
     "correct_answer": "A",
     "explanation": "The agile project management approach includes dynamic requirements repeated until correct with frequent smaller deliveries, as stated in the Agile Practice Guide from the Project Management Institute and the Agile Alliance.",
     "video_time": 3736,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 37,
@@ -515,7 +551,8 @@
     "correct_answer": "C",
     "explanation": "Continuous integration is designed to merge all changes made to the software and test them automatically, discovering any defects or issues on a daily basis. This is one of the fastest ways to find defects and ensure that everything works as a whole.",
     "video_time": 3832,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 38,
@@ -529,7 +566,8 @@
     "correct_answer": "A",
     "explanation": "Crystal's core values include people, interaction, and community, in the same way that agile is based around individuals and interactions over processes and tools. Crystal was created by Alistair Cockburn in the early 1990s and was an input into agile.",
     "video_time": 3891,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.6"
   },
   {
     "number": 39,
@@ -543,7 +581,8 @@
     "correct_answer": "B",
     "explanation": "Crystal Clear, Yellow, Orange, and Red are based on factors such as the number of people involved (zero to eight and beyond), money involved, and the general comfort level of the project often involving risk. These scaling methodologies help agile teams apply the right practices for their project size.",
     "video_time": 4017,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 40,
@@ -557,7 +596,8 @@
     "correct_answer": "D",
     "explanation": "Stand-ups are used to micro-commit to each other, uncover blockers, and ensure the work flows freely through the team. While everyone including an executive is welcome to join, stand-ups are not specifically for reporting to an executive team.",
     "video_time": 4120,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.2"
   },
   {
     "number": 41,
@@ -571,7 +611,8 @@
     "correct_answer": "C",
     "explanation": "Agile key performance indicators include team velocity (rate of progress in story points) and remaining work shown on a burn down chart. Reviewing these KPIs gives the most reliable picture of how the project is tracking against the allotted time.",
     "video_time": 4213,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 42,
@@ -585,7 +626,8 @@
     "correct_answer": "C",
     "explanation": "The MoSCoW method of prioritization labels tasks as must have, should have, could have, and will not have (or would like to have). Other prioritization techniques include multi-voting with dots, monopoly money, kano analysis, and fist of five.",
     "video_time": 4371,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.8"
   },
   {
     "number": 43,
@@ -599,7 +641,8 @@
     "correct_answer": "C",
     "explanation": "In agile, work is taken on based on team velocity. The kanban board shows work in progress and who is working on what. Research has proven that multitasking or switching tasks reduces team effectiveness as the team gets up to speed again, so WIP limits protect the team from over-commitment.",
     "video_time": 4488,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.1"
   },
   {
     "number": 44,
@@ -613,7 +656,8 @@
     "correct_answer": "A",
     "explanation": "A servant leader includes the team in decisions and grows the team through education and coaching. Those convinced against their will are of the same opinion still, so dictating or simply asserting past success is less effective than genuine coaching and engagement.",
     "video_time": 4672,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.13"
   },
   {
     "number": 45,
@@ -627,7 +671,8 @@
     "correct_answer": "A",
     "explanation": "Frequent touch points in agile ensure that business features are reviewed regularly, meet stakeholder expectations, and that risks are addressed throughout development. Stand-ups, demonstrations, reviews, and retrospectives all allow changes to be raised early and quality to be everyone's responsibility.",
     "video_time": 4797,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.9"
   },
   {
     "number": 46,
@@ -641,7 +686,8 @@
     "correct_answer": "D",
     "explanation": "Agile teams are open and transparent and encourage stakeholders to pull information and work when needed — anyone can attend, learn, watch, or contribute. Stand-ups are time boxed to 15 minutes, the team walks through the kanban board, and any team member can and should be encouraged to facilitate.",
     "video_time": 4898,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.2"
   },
   {
     "number": 47,
@@ -655,7 +701,8 @@
     "correct_answer": "B",
     "explanation": "Agile sprint reviews or feature demonstrations occur at the end of an iteration or when enough cards or features have been completed into a set that can be showcased to the customer or product owner.",
     "video_time": 4980,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 48,
@@ -669,7 +716,8 @@
     "correct_answer": "C",
     "explanation": "Agile works transparently for all stakeholders; self-promotion is not part of the agile way. Instead the team serves each other, ensures blockers are removed, and information is freely available to everyone inside or outside the team.",
     "video_time": 5097,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 49,
@@ -683,7 +731,8 @@
     "correct_answer": "A",
     "explanation": "Learning oriented, goal driven, and scalable are all themes within agile in general and are key principles of the Disciplined Agile framework. These reflect the core agile values of continuous improvement, outcome focus, and the ability to grow across the organization.",
     "video_time": 5258,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 50,
@@ -697,7 +746,8 @@
     "correct_answer": "A",
     "explanation": "DSDM focuses on the business need and delivers on time; scope is often variable while schedule is often set, meaning features are managed and prioritized with the product owner so the highest-value items are delivered first within the fixed time constraint.",
     "video_time": 5363,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 51,
@@ -711,7 +761,8 @@
     "correct_answer": "D",
     "explanation": "Red green refactor is the TDD cycle: a test is written first (red/fail), code is added until the test passes (green), then the code is refactored or streamlined. This is the core process of test driven development (TDD).",
     "video_time": 5590,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.7"
   },
   {
     "number": 52,
@@ -725,7 +776,8 @@
     "correct_answer": "C",
     "explanation": "Agile develops and delivers in features or increments, meaning tasks are prioritized for each increment and tested for each increment as well. Quality testing is still important even when delivering quickly, as quality is everyone's responsibility.",
     "video_time": 5760,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.8"
   },
   {
     "number": 53,
@@ -739,7 +791,8 @@
     "correct_answer": "D",
     "explanation": "The longer a feature takes to deliver, the higher the risk that it will no longer provide the value it was intended to provide. Value driven delivery prioritizes features by highest value and delivers them quickly for maximum customer benefit.",
     "video_time": 5898,
-    "eco_domain": "Business Environment"
+    "eco_domain": "Business Environment",
+    "eco_task": "3.2"
   },
   {
     "number": 54,
@@ -753,7 +806,8 @@
     "correct_answer": "A",
     "explanation": "An agile team delivers in increments and iterates towards improvement by prioritizing high risk features first, so that future risks for the project are reduced. Addressing high risk items early is a key principle of agile risk management.",
     "video_time": 6070,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.3"
   },
   {
     "number": 55,
@@ -767,7 +821,8 @@
     "correct_answer": "A",
     "explanation": "Agile works with changing scope and cost as the product is completed incrementally, but primarily with a fixed schedule and quality. When working with procurement, the contract must accommodate those changing requirements so the agile way of work is not inhibited.",
     "video_time": 6191,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.11"
   },
   {
     "number": 56,
@@ -781,7 +836,8 @@
     "correct_answer": "A",
     "explanation": "Agile methods as we know them today work with a variable scope while cost, quality and schedule are often set — the opposite of a predictive waterfall method which sets scope up front. DSDM formalizes this through constraint driven delivery.",
     "video_time": 6372,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 57,
@@ -795,7 +851,8 @@
     "correct_answer": "D",
     "explanation": "Agile methods work with multiple features releasing them in increments so the customer can use them and provide feedback. Having a single release at the end is a waterfall approach and is not a benefit of the agile iterative model.",
     "video_time": 6525,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.7"
   },
   {
     "number": 58,
@@ -809,7 +866,8 @@
     "correct_answer": "B",
     "explanation": "All answers are correct as enterprise scrum practices except B — role playing the role of scrum master before the first iteration is not a part of enterprise scrum. Enterprise scrum is all about scaling the scrum methodology to use it across teams as well as within teams.",
     "video_time": 6651,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 59,
@@ -823,7 +881,8 @@
     "correct_answer": "D",
     "explanation": "Directing teams to take on agile all at once is opposite to the agile approach — it is more of a waterfall approach. Adopting agile is itself an incremental approach where changes are treated as experiments using a backlog and kanban board to track progress.",
     "video_time": 6770,
-    "eco_domain": "Business Environment"
+    "eco_domain": "Business Environment",
+    "eco_task": "3.4"
   },
   {
     "number": 60,
@@ -837,7 +896,8 @@
     "correct_answer": "A",
     "explanation": "Agile core practices from XP include the whole team approach and an informative workplace such as visual management using kanban, burn down charts and backlogs. Writing executive reports, rotating roles, and single releases are not primary XP practices.",
     "video_time": 6887,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 61,
@@ -851,7 +911,8 @@
     "correct_answer": "A",
     "explanation": "An agile project manager charters both the project and the team. A project charter focuses on the business case, project purpose, high level requirements, stakeholders, and risks; a team charter focuses on the agreements in how the team will operate and is created by the team for the team.",
     "video_time": 7034,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.12"
   },
   {
     "number": 62,
@@ -865,7 +926,8 @@
     "correct_answer": "C",
     "explanation": "The definition of done is an important part of the team charter to ensure the team knows when a task is completed, when they can pull the next tasks, and so everyone agrees what success looks like. The project sponsor should be included in the team charter but does not need to sign off on it.",
     "video_time": 7147,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.12"
   },
   {
     "number": 63,
@@ -880,7 +942,8 @@
     "correct_answer": "C",
     "explanation": "Gaining consensus by developing a wireframe or storyboard will confirm everyone has a complete understanding of what the output is — it acts as an early increment that stakeholders can see, feel, and adjust in the moment, which aligns with agile's iterative and communication-focused approach.",
     "video_time": 7282,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.4"
   },
   {
     "number": 64,
@@ -894,7 +957,8 @@
     "correct_answer": "C",
     "explanation": "An agile project team aims to work in a co-located space where ideas and information can flow freely. Face-to-face communication provides the best opportunity to ask questions, get immediate feedback, and understand body language, while kanban boards and other visual tools in the team area further support transparency.",
     "video_time": 7484,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.11"
   },
   {
     "number": 65,
@@ -908,7 +972,8 @@
     "correct_answer": "C",
     "explanation": "An agile team makes project information visible and accessible to all. Agile teams also prefer people and interactions over processes and tools, as stated in the agile manifesto, so ceremonies like stand-ups, retrospectives, and iteration planning are the primary vehicles for knowledge sharing.",
     "video_time": 7683,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.10"
   },
   {
     "number": 66,
@@ -922,7 +987,8 @@
     "correct_answer": "A",
     "explanation": "The extreme programming primary practices include real customer involvement, team continuity, and working at a sustainable pace. Agile encourages all of these through stand-ups, backlog grooming with the real customer or product owner, and planning to the team's velocity.",
     "video_time": 7844,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 67,
@@ -936,7 +1002,8 @@
     "correct_answer": "D",
     "explanation": "Extreme programming works with 12 primary principles including planning with user stories, test first programming, and incremental design — all of which align with core agile principles. 'First in best rest' is not an agile or extreme programming principle.",
     "video_time": 8234,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 68,
@@ -950,7 +1017,8 @@
     "correct_answer": "A",
     "explanation": "Extreme programming works with continuous integration — deploying a single code base on a daily basis and running automated regression tests so defects are picked up quickly. Regular refactoring (simplifying and cleaning the code) also ensures it is easier to work with and fix defects.",
     "video_time": 8232,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.7"
   },
   {
     "number": 69,
@@ -964,7 +1032,8 @@
     "correct_answer": "C",
     "explanation": "Building slack into a sprint means adding a refactoring card to the iteration that can be removed if an emergency arises. If no emergency occurs, the team uses that time to clean and streamline the code base, making it easier to work with in the future.",
     "video_time": 8443,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 70,
@@ -978,7 +1047,8 @@
     "correct_answer": "B",
     "explanation": "An agile sprint is based on the team's velocity — the amount of points, cards, or features the team is able to complete on average during a regular sprint. You will need to complete at least one sprint to get an idea of the velocity, which then allows you to plan a sustainable pace for future sprints.",
     "video_time": 8610,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 71,
@@ -992,7 +1062,8 @@
     "correct_answer": "A",
     "explanation": "Agile ceremonies such as stand-ups, iteration planning, sprint reviews, and retrospectives are all designed to encourage individuals and interactions as a team. Agile does not require high-tech tools and can be run with a whiteboard or sticky notes.",
     "video_time": 8777,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.6"
   },
   {
     "number": 72,
@@ -1006,7 +1077,8 @@
     "correct_answer": "A",
     "explanation": "An agile leader is primarily a servant leader — the focus is on removing blockers for the team, helping them problem-solve, and growing their skills. Directive, visionary, and laissez-faire styles do not reflect the collaborative and team-empowering approach required in agile.",
     "video_time": 8967,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.2"
   },
   {
     "number": 73,
@@ -1020,7 +1092,8 @@
     "correct_answer": "B",
     "explanation": "An agile leader focuses on coaching the team, removing blockers, and ensuring interaction. Teaching the purpose of key ceremonies (stand-ups, sprint reviews, retrospectives) and ensuring clear agendas helps re-engage the team. (Agile Practice Guide)",
     "video_time": 9117,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.5"
   },
   {
     "number": 74,
@@ -1034,7 +1107,8 @@
     "correct_answer": "B",
     "explanation": "Agile methods foster team empowerment through collective agreement and shared decision-making, where the team and stakeholders arrive at decisions together rather than one party directing. (Agile Practice Guide — team empowerment and decision making)",
     "video_time": 9259,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.4"
   },
   {
     "number": 75,
@@ -1048,7 +1122,8 @@
     "correct_answer": "D",
     "explanation": "With a visible show-of-hands vote there is no discussion, and team members are more easily influenced by others' decisions — especially those they report to outside the project. Methods like anonymous voting or fist-of-five allow concerns to be raised and discussed first. (Agile Practice Guide — decision making)",
     "video_time": 9407,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.4"
   },
   {
     "number": 76,
@@ -1062,7 +1137,8 @@
     "correct_answer": "B",
     "explanation": "Extreme programming (XP) has 14 secondary practices including root cause analysis, focusing on features that bring in the most revenue with pay per use, and shrinking teams through improvements over time. These are not practices of Scrum or Kanban. (XP secondary practices)",
     "video_time": 9600,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 77,
@@ -1076,7 +1152,8 @@
     "correct_answer": "B",
     "explanation": "Feature Driven Development (FDD) focuses on core engineering best practices such as developing by feature, working in feature teams, inspections, regular builds, and visibility of progress. Working in feature teams allows members to become domain experts. (FDD core practices)",
     "video_time": 9736,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 78,
@@ -1090,7 +1167,8 @@
     "correct_answer": "C",
     "explanation": "More advanced FDD core engineering practices include configuration management (ensuring changes are known and tracked) and individual class ownership (assigning parts of the code to a single owner who becomes the expert). These are specific to FDD and move the team deeper into the methodology. (FDD engineering practices)",
     "video_time": 9913,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 79,
@@ -1104,7 +1182,8 @@
     "correct_answer": "D",
     "explanation": "Agile FDD starts with an overall model, then plans, designs and builds by those features. Once a feature is complete, the process can begin again, incorporating any learning from the previous feature — making it a true test-and-learn approach. (FDD — Agile Practice Guide)",
     "video_time": 10096,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 80,
@@ -1118,7 +1197,8 @@
     "correct_answer": "B",
     "explanation": "The key to kanban is making progress visible — story cards on the kanban board are a primary measure of progress, and visible progress naturally improves team engagement. Blockers are clear for everyone to see, enabling the team to swarm around problems. (Kanban — Agile Practice Guide)",
     "video_time": 10203,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.1"
   },
   {
     "number": 81,
@@ -1132,7 +1212,8 @@
     "correct_answer": "B",
     "explanation": "In agile thumb voting, a sideways thumb signals that the team member has a concern or conflict with the decision and would like to discuss it further — the same principle applies to the fist of five technique. This keeps discussion open rather than forcing a silent for/against split.",
     "video_time": 10314,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.1"
   },
   {
     "number": 82,
@@ -1146,7 +1227,8 @@
     "correct_answer": "D",
     "explanation": "Giving ownership in decisions to the team and stakeholders is one way to gain their buy-in; if stakeholders are involved in decision-making they will be more committed to any decision made and to the project itself. Studies show people are more likely to reject ideas they had no ownership in.",
     "video_time": 10434,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.9"
   },
   {
     "number": 83,
@@ -1160,7 +1242,8 @@
     "correct_answer": "C",
     "explanation": "Visible progress helps maintain and obtain team engagement and is facilitated through the use of the information radiator — the team area containing the kanban board, burn-down chart, and product backlog — making it clearly visible to everyone.",
     "video_time": 10576,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.9"
   },
   {
     "number": 84,
@@ -1173,7 +1256,8 @@
     "correct_answer": "C",
     "explanation": "Agile methods recommend a team of 12 or fewer, typically between three and nine members; this keeps communication channels small and ensures information travels quickly so the team can do their work efficiently.",
     "video_time": 10716,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 85,
@@ -1187,7 +1271,8 @@
     "correct_answer": "B",
     "explanation": "A generalising specialist (T-shaped person) has one deep knowledge area or skill and a wide range of general interests or skills; an agile team is ideally made up of these generalising specialists who can do more than one thing but also do their core role well.",
     "video_time": 10885,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.6"
   },
   {
     "number": 86,
@@ -1201,7 +1286,8 @@
     "correct_answer": "A",
     "explanation": "The Agile Manifesto is made up of four core values, one of which is valuing individuals and interactions over processes and tools. This foundational value underpins how agile teams prioritise collaboration and communication.",
     "video_time": 10989,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 87,
@@ -1215,7 +1301,8 @@
     "correct_answer": "B",
     "explanation": "The team's velocity is the amount of work they complete on average in a given iteration, measured in points, cards, features, or any method the team agrees on; the number of stories selected for a sprint is based on the average velocity from previous iterations.",
     "video_time": 11061,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 88,
@@ -1229,7 +1316,8 @@
     "correct_answer": "C",
     "explanation": "The daily stand-up in an agile team asks in round-robin fashion what each member did, what they plan to do, and whether anything is blocking them; the team typically talks to the cards in flight on the kanban board to make progress visual.",
     "video_time": 11180,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.2"
   },
   {
     "number": 89,
@@ -1243,7 +1331,8 @@
     "correct_answer": "D",
     "explanation": "An incremental project lifecycle specifically delivers features in increments of value over the life cycle of a project; while agile is a combination of iterative and incremental, the strict PMI definition of delivering regularly released features aligns with the incremental lifecycle.",
     "video_time": 11261,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 90,
@@ -1257,7 +1346,8 @@
     "correct_answer": "A",
     "explanation": "A hybrid project life cycle approach incorporates parts of predictive, iterative, incremental, and agile methodologies; it allows the project manager to tailor the approach to suit the situation, drawing on whichever elements best fit the project's needs.",
     "video_time": 11367,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 91,
@@ -1271,7 +1361,8 @@
     "correct_answer": "D",
     "explanation": "A safe environment for disagreement empowers teams by encouraging constructive discussion and disagreement to ensure risks and alternative ideas are found. This is only maintainable in a team with high psychological safety, and is a key aspect of servant leadership in agile.",
     "video_time": 11485,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.4"
   },
   {
     "number": 92,
@@ -1285,7 +1376,8 @@
     "correct_answer": "A",
     "explanation": "If the team has already worked together, they have been through much of the forming and storming stages and may already be performing together. Using the same ceremonies and methods means they have already worked through what new project teams must navigate. This can help skip or shorten the early Tuckman stages.",
     "video_time": 11640,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.6"
   },
   {
     "number": 93,
@@ -1299,7 +1391,8 @@
     "correct_answer": "B",
     "explanation": "The project coach role in agile centres around servant leadership — coaching the team, gathering feedback, helping them along their journey, and removing blockers. The agile lead or scrum master functions as a project coach who grows the team rather than directing them.",
     "video_time": 11793,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.13"
   },
   {
     "number": 94,
@@ -1313,7 +1406,8 @@
     "correct_answer": "B",
     "explanation": "Aligning project goals to each team member's personal goals is the most powerful approach to improve engagement. If a previous retrospective did not elicit information, holding another one would be doing the same thing but expecting a different result; aligning goals to individuals' strengths naturally helps people work harder and care more.",
     "video_time": 11883,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.14"
   },
   {
     "number": 95,
@@ -1327,7 +1421,8 @@
     "correct_answer": "C",
     "explanation": "Agile focuses on individuals and interaction — co-locating the team allows information to be gained by osmosis (overheard background conversations) while face-to-face discussion is the recommended communication method. This replaces slow email-based and weekly-meeting-based communication.",
     "video_time": 12002,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.11"
   },
   {
     "number": 96,
@@ -1341,7 +1436,8 @@
     "correct_answer": "A",
     "explanation": "Kanban is a framework from the Toyota Production System utilized in software and knowledge work; it focuses on the kanban board to show and limit the current work in progress, enabling pull and flow. Cards are pulled only when ready, and the flow of tasks through the board is monitored to remove blockers.",
     "video_time": 12159,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 97,
@@ -1355,7 +1451,8 @@
     "correct_answer": "B",
     "explanation": "Kanban allows team members to pull new work onto the kanban board only when they are ready, limiting the amount of work in progress and encouraging an optimal flow of work. If something is blocked the team can swarm around that problem and fix it.",
     "video_time": 12268,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 98,
@@ -1369,7 +1466,8 @@
     "correct_answer": "D",
     "explanation": "Kanban is a method borrowed from the Toyota Production System/lean that focuses on limiting WIP, ensuring feedback loops are in place, and making work visible so blockages are clear. 'Follow procedures and don't deviate from the plan' is the opposite of the agile/kanban approach of continuous improvement.",
     "video_time": 12372,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 99,
@@ -1383,7 +1481,8 @@
     "correct_answer": "D",
     "explanation": "Kanban, like agile itself, encourages team participation over directive leadership; it keeps work visible and makes blockers clear. Directive leadership is contrary to the servant leadership philosophy at the core of both kanban and agile.",
     "video_time": 12482,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 100,
@@ -1397,7 +1496,8 @@
     "correct_answer": "B",
     "explanation": "One of the four core values of the Agile Manifesto is 'working software over comprehensive documentation' — releasing working features that customers can see, feel, and touch rather than writing manuals about them. Agile prefers releasing small increments of working software.",
     "video_time": 12572,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 101,
@@ -1411,7 +1511,8 @@
     "correct_answer": "D",
     "explanation": "Osmotic communication refers to the accidental overhearing of background information that may later end up being important — team members absorb knowledge passively by being co-located. This is a key benefit of co-locating an agile team.",
     "video_time": 12666,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.11"
   },
   {
     "number": 102,
@@ -1425,7 +1526,8 @@
     "correct_answer": "A",
     "explanation": "It may not be feasible to move entire teams or hire new ones; utilizing the many electronic options so the team can still get the benefit of frequent contact is the most cost-effective approach. Tools like group messaging, daily teleconference stand-ups, and electronic kanban boards allow agile practices even for distributed teams.",
     "video_time": 12780,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.11"
   },
   {
     "number": 103,
@@ -1439,7 +1541,8 @@
     "correct_answer": "C",
     "explanation": "Pair programming is a common technique in agile and can be used for most tasks; pairing up team members on a task or iteration gives them the opportunity to talk and work with each other one on one. Rotating pairs ensures different team members get to know each other across iterations.",
     "video_time": 12889,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.11"
   },
   {
     "number": 104,
@@ -1453,7 +1556,8 @@
     "correct_answer": "B",
     "explanation": "A burn down chart is a line chart showing the iteration tasks completed versus what was planned over the iteration. The same idea can be used for features over the life of a project or even risks, and can be measured in hours, tasks, cards, or stories as the team agrees.",
     "video_time": 13012,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 105,
@@ -1467,7 +1571,8 @@
     "correct_answer": "A",
     "explanation": "Team velocity is the amount of work a team can complete in a given iteration, whether measured by points, hours, story cards, tasks, or features. The velocity chart shows the number of chosen units per iteration, making it essential for iteration planning.",
     "video_time": 13091,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 106,
@@ -1481,7 +1586,8 @@
     "correct_answer": "C",
     "explanation": "The agile manifesto is made up of four core values, one of which is customer collaboration over contract negotiation. This means valuing working closely with the customer and responding to their feedback rather than locking everything into a contract.",
     "video_time": 13220,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 107,
@@ -1495,7 +1601,8 @@
     "correct_answer": "D",
     "explanation": "The iterative project lifecycle analyzes, designs, tests, builds, and repeats these activities until correct, then delivers in one release. Incremental delivers small increments of value (features), agile combines iterative and incremental, and predictive does one release with no feedback.",
     "video_time": 13323,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 108,
@@ -1509,7 +1616,8 @@
     "correct_answer": "C",
     "explanation": "Large-scale scrum has many similarities to normal scrum extended across teams, including one single product backlog, one definition of done for all teams, complete cross-functional teams, one product owner, and one potentially shippable product increment at the end of each sprint. Valuing individuals over results is not a stated similarity, as both individuals and results are valued.",
     "video_time": 13432,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 109,
@@ -1523,7 +1631,8 @@
     "correct_answer": "B",
     "explanation": "Large-scale scrum adds techniques to scrum to scale across teams, including sprint planning divided into 'what and how', overall cross-team refinement, cross-team coordination, and cross-team retrospectives. A single release with no stakeholder feedback contradicts the agile principle of continuous feedback and was not added.",
     "video_time": 13579,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 110,
@@ -1537,7 +1646,8 @@
     "correct_answer": "A",
     "explanation": "When the situation is fairly definable and well known and the risks are also fairly well known, you can choose a predictive project lifecycle that plans most of the project up front with one single release. Agile is used to respond to change and high uncertainty, not low-risk definable work.",
     "video_time": 13728,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 111,
@@ -1551,7 +1661,8 @@
     "correct_answer": "B",
     "explanation": "Adaptive planning allows the team to deliver usable features incrementally while the product owner continuously re-prioritizes the backlog based on business value, ensuring maximum value is delivered throughout the project. This aligns with agile's core principle of responding to change and delivering value iteratively.",
     "video_time": 13846,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 112,
@@ -1565,7 +1676,8 @@
     "correct_answer": "A",
     "explanation": "While value is typically determined by features that customers want, the priority is ultimately decided by the product owner who represents the customer or the business and constantly grooms and prioritizes the backlog of features. Just as important is developing high-risk items and considering the development effort versus the benefit.",
     "video_time": 14015,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 113,
@@ -1579,7 +1691,8 @@
     "correct_answer": "A",
     "explanation": "While effort on a story card may be time boxed, the best example of a time box is an iteration, usually around two weeks, which is a time box that delivers a feature or part of a feature that a customer can see, feel, or touch. Time boxing is used to combat Parkinson's Law, where work expands to fill the time allotted.",
     "video_time": 14155,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 114,
@@ -1593,7 +1706,8 @@
     "correct_answer": "A",
     "explanation": "Agile favors a bottom-up approach to estimating where work is broken down to its lowest level, typically a user story, and estimated by the development team including testers and business analysts. This gives the best estimate of the effort and time required to complete the feature.",
     "video_time": 14301,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 115,
@@ -1607,7 +1721,8 @@
     "correct_answer": "A",
     "explanation": "A user story is the smallest unit of work in an agile team — a task that can be completed in one to three days. If the task will take longer, it is common to try and break it into two or more pieces to accommodate that user story rule.",
     "video_time": 14543,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.8"
   },
   {
     "number": 116,
@@ -1621,7 +1736,8 @@
     "correct_answer": "B",
     "explanation": "An iterative project life cycle uses successive prototypes or proofs of concept to gather feedback and then releases in one go. Even though agile uses sprints or iterations, combining iterative and incremental approaches is what creates the agile way of work.",
     "video_time": 14703,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 117,
@@ -1635,7 +1751,8 @@
     "correct_answer": "D",
     "explanation": "The Agile Manifesto is made up of four core values, one of which values responding to change over following a plan. This means following a plan is still important, however agile values responding to change a little bit more, because customers often change their minds once they get their hands on the product.",
     "video_time": 14827,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 118,
@@ -1649,7 +1766,8 @@
     "correct_answer": "C",
     "explanation": "An agile project environment is created by combining incremental (where smaller features are released more regularly) and iterative (where the product improves through iterations and is released after feedback). Predictive is the waterfall approach and does not combine to create an agile environment.",
     "video_time": 14955,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 119,
@@ -1663,7 +1781,8 @@
     "correct_answer": "A",
     "explanation": "In a predictive or waterfall approach, all the planning is done up front and executed in a sequential process, ideal for definable work and products where the risk is well known. Prototypes indicate iterative, incremental releases indicate incremental, and agile tools like sprints and kanban are not specific to the project life cycle type.",
     "video_time": 15051,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 120,
@@ -1677,7 +1796,8 @@
     "correct_answer": "D",
     "explanation": "A project management plan is a key artifact in a predictive or waterfall project management approach, not an agile execution practice. Test at all levels, test driven development, and spikes are all agile execution practices.",
     "video_time": 15153,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 121,
@@ -1691,7 +1811,8 @@
     "correct_answer": "C",
     "explanation": "Managing project requirements via the product backlog is a fundamental agile practice; the product backlog is the source of truth and is continuously reprioritized to ensure maximum value is delivered first. Items are sorted by business priority, placed in an iteration, completed, and then removed.",
     "video_time": 15293,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.1"
   },
   {
     "number": 122,
@@ -1705,7 +1826,8 @@
     "correct_answer": "C",
     "explanation": "During backlog grooming, the development team is responsible for sizing or estimating the work; this allows the product owner to prioritize effectively based on value and time to delivery. The product owner needs to know the effort required to make sound prioritization decisions.",
     "video_time": 15421,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.8"
   },
   {
     "number": 123,
@@ -1719,7 +1841,8 @@
     "correct_answer": "C",
     "explanation": "A common agile practice is to rely on relative sizing such as story points or t-shirt sizing; team velocity is then measured using those same methods as the team completes a certain number of points per iteration. This is easier than trying to predict an exact time period.",
     "video_time": 15540,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 124,
@@ -1733,7 +1856,8 @@
     "correct_answer": "B",
     "explanation": "The story point sizing process is performed by the agile team, primarily estimated by developers and testers who will be doing the work, so they will know best. Servant leadership means helping people do their best work, not doing everything for them.",
     "video_time": 15693,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.8"
   },
   {
     "number": 125,
@@ -1747,7 +1871,8 @@
     "correct_answer": "B",
     "explanation": "Estimates for story cards should include all known activities required to complete that card, including testing and refactoring and the complexity and risk involved. Continuous integration merging should be automated, and daily standups are not part of card-level estimating.",
     "video_time": 15823,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 126,
@@ -1761,7 +1886,8 @@
     "correct_answer": "A",
     "explanation": "A team retrospective enables the team to answer questions that improve their team process and way of work, such as what went well, what could be improved, and what still puzzles me. Blame is not a part of agile — retrospectives focus on improving the process, not the people.",
     "video_time": 15982,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 127,
@@ -1775,7 +1901,8 @@
     "correct_answer": "C",
     "explanation": "Agile retrospectives help the team learn about their process and improve it over time through regular and structured feedback given and used together as a team. Prioritization is handled by the product owner in sprint planning, not through retrospectives.",
     "video_time": 16089,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 128,
@@ -1789,7 +1916,8 @@
     "correct_answer": "D",
     "explanation": "A team retrospective is there to gather feedback and improve on the team process once that process is in place; it is not held before the work or the process has begun as there is nothing to gather feedback on yet. Retrospectives require completed work to reflect upon.",
     "video_time": 16205,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 129,
@@ -1803,7 +1931,8 @@
     "correct_answer": "C",
     "explanation": "Project life cycles and how much you tailor them depends on many factors; having definable work or high uncertainty work are two of the most common factors. Projects should always be tailored because organizations, products, people, markets, and industries differ.",
     "video_time": 16285,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 130,
@@ -1817,7 +1946,8 @@
     "correct_answer": "D",
     "explanation": "Project life cycles and ways of working can be influenced by many factors — in fact almost everything will impact this decision, including the demand pattern, rate of process improvement needed, team size, whether work is certain or uncertain, and what the team is comfortable with.",
     "video_time": 16426,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 131,
@@ -1831,7 +1961,8 @@
     "correct_answer": "A",
     "explanation": "While most estimation methods will do, the best one in this case is affinity estimating using a similar example from a previous project. Agile estimating is most often done by breaking the features down into small tasks and then estimating on those tasks (bottom-up estimating); where that doesn't work, affinity estimating is the next best choice.",
     "video_time": 16511,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 132,
@@ -1845,7 +1976,8 @@
     "correct_answer": "C",
     "explanation": "A product roadmap is a visual display of the product releases similar to a Gantt chart or a project schedule but based around agile feature releases; it is a high level view adjusted as necessary and usually done by the product owner.",
     "video_time": 16656,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 133,
@@ -1859,7 +1991,8 @@
     "correct_answer": "D",
     "explanation": "In planning poker, if the estimates are different, the high and low estimators share their reasons; once shared, the team estimates again, and that is repeated until a consensus is reached or the team decides to gather more information.",
     "video_time": 16808,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 134,
@@ -1873,7 +2006,8 @@
     "correct_answer": "B",
     "explanation": "A spike is a time-boxed task to explore or investigate an issue; it is separate from development work and is only used if something needs to be figured out or investigated.",
     "video_time": 16898,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 135,
@@ -1887,7 +2021,8 @@
     "correct_answer": "C",
     "explanation": "Agile operates on the concept of delivering increments of value; 'fast failure' means that particular increment was not successful and did not deliver what was wanted, so the team needs to adjust. It is part of the beauty and power of agile.",
     "video_time": 16972,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.1"
   },
   {
     "number": 136,
@@ -1901,7 +2036,8 @@
     "correct_answer": "C",
     "explanation": "SAFe uses agile principles but scales them across teams and across the organization; these include systems thinking, visualizing work in progress, and building incrementally. Planning long-term for a single release is a predictive way of work, not an agile or SAFe principle.",
     "video_time": 17067,
-    "eco_domain": "Business Environment"
+    "eco_domain": "Business Environment",
+    "eco_task": "3.4"
   },
   {
     "number": 137,
@@ -1915,7 +2051,8 @@
     "correct_answer": "A",
     "explanation": "Agile focuses on individuals and interactions over processes and tools; making sure stakeholders know when you did more work than teammates is not a SAFe or agile principle. SAFe principles include cadence and synchronization, intrinsic motivation, and decentralized decision making.",
     "video_time": 17203,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 138,
@@ -1929,7 +2066,8 @@
     "correct_answer": "C",
     "explanation": "Scrum of scrums, Scaled Agile Framework, and Large Scale Scrum are all scaling agile frameworks. 'Kanban iteration retrospective' is not a real scaling methodology.",
     "video_time": 17306,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 139,
@@ -1943,7 +2081,8 @@
     "correct_answer": "A",
     "explanation": "The agile project life cycle is a combination of iterative (where we gather feedback) and incremental (where we deliver smaller usable features of value to our customer). Predictive approaches plan everything up front and deliver in one go, which is not agile.",
     "video_time": 17369,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 140,
@@ -1957,7 +2096,8 @@
     "correct_answer": "B",
     "explanation": "An iterative project life cycle iterates towards success; it uses prototypes and unreleased versions of the product to gather feedback and improve it before releasing in one go. PMBoC Guide citation: iterative life cycle.",
     "video_time": 17464,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 141,
@@ -1971,7 +2111,8 @@
     "correct_answer": "B",
     "explanation": "Velocity is the average amount of work a team completes over previous sprints, measured in story points or another agreed unit, and comparing it against the planned story card points tells you how much can be completed in the upcoming sprint. Other teams' velocity is not relevant as every team measures differently.",
     "video_time": 17520,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 142,
@@ -1985,7 +2126,8 @@
     "correct_answer": "A",
     "explanation": "The average velocity or work completed during each iteration is the best predictor of future velocity because previous iterations typically include all those tasks and pitfalls that might be encountered again. Velocity is a measurement of work flow, not a cap set by the scrum master.",
     "video_time": 17627,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 143,
@@ -1999,7 +2141,8 @@
     "correct_answer": "D",
     "explanation": "During iteration planning, the team should have already broken down features into story cards; now is the time to re-prioritize those cards based on business value and team velocity. Breaking down features and writing acceptance criteria are done by the development team, business analysts, and product owner.",
     "video_time": 17726,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 144,
@@ -2013,7 +2156,8 @@
     "correct_answer": "C",
     "explanation": "The daily stand-up is a time-boxed 15-minute meeting held once a day where team members report what they have done, what they plan to do, and most importantly any blockers preventing progress. It is held around the kanban board and focuses on identifying and resolving impediments quickly.",
     "video_time": 17830,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 145,
@@ -2027,7 +2171,8 @@
     "correct_answer": "C",
     "explanation": "Agile risks are prioritized early in development to reduce and remove them; discovery work is typically done with a spike card, and the solution is then prioritized earlier so it is addressed without stopping delivery of value. The longer a risk remains unaddressed the more expensive it becomes to fix.",
     "video_time": 17909,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 146,
@@ -2041,7 +2186,8 @@
     "correct_answer": "D",
     "explanation": "Scrum works with a product backlog and sprint backlog as artifacts and delivers in increments or features; agile teams are typically recommended to work in a co-located space, but the team area is not one of the defined events or artifacts from scrum itself.",
     "video_time": 18031,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 147,
@@ -2055,7 +2201,8 @@
     "correct_answer": "D",
     "explanation": "Sprint planning, the daily scrum, and the sprint review are all scrum ceremonies; the change control board is a typical part of a predictive or waterfall project life cycle, not an agile or scrum way of work.",
     "video_time": 18176,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 148,
@@ -2069,7 +2216,8 @@
     "correct_answer": "D",
     "explanation": "Risk and quality are the responsibility of the whole team in an agile way of work; the three roles in scrum are the product owner, the development team, and the scrum master — a dedicated risk manager is a role associated with predictive project life cycles.",
     "video_time": 18256,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.6"
   },
   {
     "number": 149,
@@ -2083,7 +2231,8 @@
     "correct_answer": "D",
     "explanation": "Agile and servant leadership work by building towards psychological safety, openness, growth, and ensuring work is free from blockers; reporting on low performers is not a servant leadership characteristic — the goal is to grow and coach team members, not assess and report them.",
     "video_time": 18379,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.2"
   },
   {
     "number": 150,
@@ -2097,7 +2246,8 @@
     "correct_answer": "C",
     "explanation": "An incremental project life cycle or way of work delivers small increments that a customer can use immediately, gain value from, and provide feedback on. Deliverables must be complete and usable, and value is delivered through multiple releases rather than a single big-bang delivery.",
     "video_time": 18450,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 151,
@@ -2111,7 +2261,8 @@
     "correct_answer": "B",
     "explanation": "Agile accommodates changing scope through prioritization, ruling out A and D; the best explanation is technical debt, where code is rushed to production without being simplified or refactored, creating more and more work to build around the disorganized code with each subsequent release.",
     "video_time": 18530,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 152,
@@ -2125,7 +2276,8 @@
     "correct_answer": "C",
     "explanation": "Cycle time is the time for shorter tasks — most often story cards in an agile environment — while lead time measures the time to complete a feature (a collection of story cards) from beginning to end; these are key lean metrics (PMBOK/Agile Practice Guide).",
     "video_time": 18699,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 153,
@@ -2139,7 +2291,8 @@
     "correct_answer": "A",
     "explanation": "Velocity and throughput measure the work completed by the entire team; if one team member's productivity increases it lifts the whole team's velocity. Removing backlog items or re-estimating cards does not increase completed points per sprint.",
     "video_time": 18802,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.3"
   },
   {
     "number": 154,
@@ -2153,7 +2306,8 @@
     "correct_answer": "B",
     "explanation": "Cycle time is the measure of time for a smaller increment — often a story card — from start to finish; applied to defects, it is the elapsed time from when a defect is found to when it is fixed (Agile Practice Guide / Lean metrics).",
     "video_time": 18876,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.7"
   },
   {
     "number": 155,
@@ -2167,7 +2321,8 @@
     "correct_answer": "C",
     "explanation": "Escaped defects are defects that pass through testing and release into the live (production) environment; the cost and risk increases the closer they are to customers, making them the most expensive type of defect to fix (Agile Practice Guide).",
     "video_time": 18956,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.7"
   },
   {
     "number": 156,
@@ -2181,7 +2336,8 @@
     "correct_answer": "A",
     "explanation": "A servant leader starts with the 'why' — the purpose behind the work — then grows and develops people, and finally ensures a solid process for making the work happen; this mirrors Simon Sinek's 'Start with Why' and the PMI Agile Practice Guide servant leadership model.",
     "video_time": 19055,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.2"
   },
   {
     "number": 157,
@@ -2195,7 +2351,8 @@
     "correct_answer": "D",
     "explanation": "The servant leader in agile coaches the team, promotes psychological safety and trust, and promotes the intelligence and energy of others; directive leadership or forcing others to do what you say is not part of a servant leadership approach (PMI Agile Practice Guide).",
     "video_time": 19159,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.2"
   },
   {
     "number": 158,
@@ -2209,7 +2366,8 @@
     "correct_answer": "A",
     "explanation": "In lean and the Toyota Production System, variation is separated into common cause (normal, everyday operations) and special cause (special or new factors outside normal operations). Citation: Lean/Toyota Production System variation terminology.",
     "video_time": 19259,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.7"
   },
   {
     "number": 159,
@@ -2223,7 +2381,8 @@
     "correct_answer": "B",
     "explanation": "The product owner role requires deep expertise in the business or customer domain, but does not require previous agile experience — that can be coached and taught. Citation: Agile product owner role definition.",
     "video_time": 19379,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.5"
   },
   {
     "number": 160,
@@ -2237,7 +2396,8 @@
     "correct_answer": "C",
     "explanation": "Agile Unified Process principles mirror agile values: tailor your approach, ensure the team knows what it is doing (using generalizing specialists), and focus on highest-value activities first. Collective agreement of scope before delivery is not an AUP principle — scope is managed by the product owner, not by collective pre-delivery agreement. Citation: Agile Unified Process (AUP) principles.",
     "video_time": 19532,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 161,
@@ -2251,7 +2411,8 @@
     "correct_answer": "A",
     "explanation": "One of the 12 agile clarifying principles is that the highest priority is to satisfy the customer through early and continuous delivery of valuable software (or knowledge work). The other options reflect waterfall or non-agile thinking. Citation: Agile Manifesto 12 Clarifying Principles.",
     "video_time": 19739,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 162,
@@ -2265,7 +2426,8 @@
     "correct_answer": "B",
     "explanation": "Agile works on continuous, sustainable delivery; pushing beyond the team's known limits is not agile practice. Setting the WIP limit at the maximum achieved velocity (35) ensures the team is not overburdened, and can be adjusted upward if the team completes all work. Citation: Agile sustainable pace and WIP limit principles.",
     "video_time": 19885,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 163,
@@ -2279,7 +2441,8 @@
     "correct_answer": "C",
     "explanation": "A risk-adjusted backlog is created by raising risk response tasks as cards and prioritizing them against normal feature cards, so risks are addressed early in the project. Creating a risk register and sign-off is a waterfall approach. Citation: Agile risk-adjusted backlog practices.",
     "video_time": 20087,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.3"
   },
   {
     "number": 164,
@@ -2293,7 +2456,8 @@
     "correct_answer": "B",
     "explanation": "Risk is highest early in the project before items have been completed; by completing high-risk items first you significantly reduce those risks and the threat of unknowns later in the project. Citation: Agile risk management — risk-adjusted backlog prioritization.",
     "video_time": 20219,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.3"
   },
   {
     "number": 165,
@@ -2307,7 +2471,8 @@
     "correct_answer": "B",
     "explanation": "Retrospectives, sprint reviews, and daily stand-ups are all specifically designed to reveal and solve problems during product delivery. Writing user stories is a useful practice but is not itself designed for revealing and solving problems. Citation: Agile ceremonies and transparency tools.",
     "video_time": 20348,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 166,
@@ -2321,7 +2486,8 @@
     "correct_answer": "B",
     "explanation": "The team facilitator role is to facilitate discussion and elicit collaboration within the team; no specific degree is required — the role can be performed by anyone on the team with the right servant leadership skills. Citation: Agile whole team approach — team facilitator role.",
     "video_time": 20478,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.6"
   },
   {
     "number": 167,
@@ -2335,7 +2501,8 @@
     "correct_answer": "A",
     "explanation": "An agile team is made up of generalizing specialists or T-shaped people who have a broad range of knowledge across disciplines and one deep specialty, enabling cross-functional delivery. Citation: Agile cross-functional team composition — T-shaped / generalizing specialists.",
     "video_time": 20629,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.6"
   },
   {
     "number": 168,
@@ -2349,7 +2516,8 @@
     "correct_answer": "A",
     "explanation": "In agile, blockers are raised as soon as possible — at least once a day during the daily stand-up — so the team can swarm around the problem, get help from any experts needed, and move on. This leverages the whole-team approach to problem-solving.",
     "video_time": 21002,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.15"
   },
   {
     "number": 169,
@@ -2363,7 +2531,8 @@
     "correct_answer": "C",
     "explanation": "Psychological safety is one of the most important parts of a high-functioning team, meaning having the safety to be vulnerable, admit to problems, ask for help, and improve. It starts with the leader, and servant leadership contributes directly to this safe environment.",
     "video_time": 21122,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.14"
   },
   {
     "number": 170,
@@ -2377,7 +2546,8 @@
     "correct_answer": "B",
     "explanation": "Demonstrating the usable increment developed during an iteration to the customer or product owner ensures feedback is gathered more quickly than only at the end of a project. Retrospectives are another agile way to gather and act on feedback.",
     "video_time": 21243,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.4"
   },
   {
     "number": 171,
@@ -2391,7 +2561,8 @@
     "correct_answer": "A",
     "explanation": "An agile team ultimately serves the customer. Showing the business representative the team velocity versus the points allotted gives them control over what is actually delivered within the team's capacity, making everyone feel better about what is happening.",
     "video_time": 21345,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.8"
   },
   {
     "number": 172,
@@ -2405,7 +2576,8 @@
     "correct_answer": "D",
     "explanation": "Visual management is the best agile tool to detect and prevent problems. A visible kanban board, prioritized backlog, and velocity chart can be integrated seamlessly into a waterfall environment as a hybrid approach, allowing everyone to see what the team is up to and spot blockers early.",
     "video_time": 21471,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.12"
   },
   {
     "number": 173,
@@ -2419,7 +2591,8 @@
     "correct_answer": "C",
     "explanation": "One of the 12 agile clarifying principles is to deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter time scale. This is a direct clarifying principle that adds detail to the agile manifesto values.",
     "video_time": 21608,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 174,
@@ -2433,7 +2606,8 @@
     "correct_answer": "D",
     "explanation": "One of the agile clarifying principles states that business people and developers must work together daily throughout the project. From the various agile approaches, the product owner who represents the business must collaborate with developers daily, and when this happens, engagement and speed increase significantly.",
     "video_time": 21712,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.9"
   },
   {
     "number": 175,
@@ -2447,7 +2621,8 @@
     "correct_answer": "D",
     "explanation": "Agile is about building projects around motivated individuals — cross-functional or T-shaped people with a broad range of expertise and one deep specialty — giving them the support they need by removing blockers and ensuring a flow of work. This is a direct agile clarifying principle.",
     "video_time": 21810,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.6"
   },
   {
     "number": 176,
@@ -2461,7 +2636,8 @@
     "correct_answer": "A",
     "explanation": "An agile team knows that communicating close in person, place, and time is the most efficient and effective way — often in a co-located team so other team members can pick up information by osmosis. Face-to-face communication is faster, picks up non-verbal cues, and reduces misinterpretation.",
     "video_time": 21967,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.11"
   },
   {
     "number": 177,
@@ -2475,7 +2651,8 @@
     "correct_answer": "B",
     "explanation": "In an agile team, working software or a working product — increments and features delivered — is the primary measure of progress. Delivering in increments and features and getting customer feedback every time is central to the agile approach.",
     "video_time": 22131,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 178,
@@ -2489,7 +2666,8 @@
     "correct_answer": "B",
     "explanation": "Agile retrospectives held at the end of each iteration ask the whole team what went well, what did not go well, what did they learn, and what still puzzles them; the lessons are actioned and built back into future iterations to continuously improve. This is more effective than end-of-project post-mortems and keeps the whole team involved.",
     "video_time": 22198,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.3"
   },
   {
     "number": 179,
@@ -2503,7 +2681,8 @@
     "correct_answer": "B",
     "explanation": "Agile uses visual mock-ups or prototypes such as storyboards, wireframes, or models to get a quick understanding of requirements and consensus from everyone involved. Creating a high level prototype allows the team to see, discuss, and collectively agree on requirements.",
     "video_time": 22315,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.4"
   },
   {
     "number": 180,
@@ -2517,7 +2696,8 @@
     "correct_answer": "C",
     "explanation": "Lead time is a concept from lean and the Toyota Production System; when calculating cycle time and lead time you must take into consideration both value-added time (directly working on stories contributing to the customer outcome) and non-value-added time (waste such as waiting, handoffs, and context switching). Both must be accounted for to get an accurate total lead time.",
     "video_time": 22452,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.6"
   },
   {
     "number": 181,
@@ -2531,7 +2711,8 @@
     "correct_answer": "D",
     "explanation": "Prototypes, wireframes, and storyboards are important ways to gather feedback that allows all stakeholders to discuss and agree on the requirements and product features before the money is spent on actual development. This ensures shared understanding and reduces rework.",
     "video_time": 22600,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.4"
   },
   {
     "number": 182,
@@ -2545,7 +2726,8 @@
     "correct_answer": "C",
     "explanation": "Retrospectives are a set meeting at the end of each sprint asking for feedback with questions such as what went well, what didn't go well, what did I learn, and what still puzzles me; the actions from these are built back into the process to continuously improve. The whole team must be involved as everyone may have different feedback.",
     "video_time": 22681,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.3"
   },
   {
     "number": 183,
@@ -2559,7 +2741,8 @@
     "correct_answer": "D",
     "explanation": "The whole team approach aims to bring all necessary people into the project team, ideally in a co-located space; it involves cross-functional team members who specialise in one skill and are fluent enough in a wide range of other skills, reducing silos and handoffs. This makes quality everyone's responsibility and removes reliance on external inputs.",
     "video_time": 22768,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.6"
   },
   {
     "number": 184,
@@ -2573,7 +2756,8 @@
     "correct_answer": "A",
     "explanation": "This describes the whole team approach where all the necessary team members and their skills are brought into the project team, reducing silos and handoffs and making sure the project can be delivered as one team. Raising change requests, issue logs, or risk registers are old-school waterfall approaches, not agile.",
     "video_time": 22880,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.7"
   },
   {
     "number": 185,
@@ -2587,7 +2771,8 @@
     "correct_answer": "C",
     "explanation": "Agile promotes sustainable development — be wary of often switching tasks or pushing for too much work during an iteration as this will burn out individuals and ultimately slow down progress. Sponsors, developers, and users should be able to maintain a constant pace indefinitely.",
     "video_time": 22974,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 186,
@@ -2601,7 +2786,8 @@
     "correct_answer": "C",
     "explanation": "The agile clarifying principle states that continuous attention to technical excellence — for example extreme programming principles — and good design enhances agility and quality. While quality is everyone's responsibility and testing is important, only continuous attention to technical excellence and good design is the actual clarifying principle from this list.",
     "video_time": 23127,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.7"
   },
   {
     "number": 187,
@@ -2615,7 +2801,8 @@
     "correct_answer": "D",
     "explanation": "The agile clarifying principle on simplicity states that simplicity — the art of maximizing the amount of work not done — is essential; this is Occam's razor applied to project work, making things as simple as possible but no simpler. The other options do not match the actual clarifying principle.",
     "video_time": 23272,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.8"
   },
   {
     "number": 188,
@@ -2629,7 +2816,8 @@
     "correct_answer": "B",
     "explanation": "The five whys is a problem solving technique from lean or the Toyota Production System that asks why a problem occurred; for each answer the team asks why again until they get to the real cause of the issue. It is used during retrospectives to find the root cause of problems slowing the team down.",
     "video_time": 23614,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.15"
   },
   {
     "number": 189,
@@ -2643,7 +2831,8 @@
     "correct_answer": "D",
     "explanation": "The team self-assessment is used to gauge the team members' performance together, with results helping to identify what is working well and where improvements can be made; the team then meets to problem solve improvements and celebrate what is working well. It is a key agile practice for continuous improvement.",
     "video_time": 23718,
-    "eco_domain": "People"
+    "eco_domain": "People",
+    "eco_task": "1.3"
   },
   {
     "number": 190,
@@ -2657,7 +2846,8 @@
     "correct_answer": "C",
     "explanation": "A premortem looks at reasons for failure before they happen and is a great way to brainstorm risk for a card or feature; typically team members write their reasons down and discuss them round-robin style, then group similar ideas together using an affinity diagram. This is the agile approach to risk identification for a specific feature.",
     "video_time": 23782,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.3"
   },
   {
     "number": 191,
@@ -2671,7 +2861,8 @@
     "correct_answer": "A",
     "explanation": "When an issue is raised, the best course of action is to get to the root cause; of the options presented, fishbone (Ishikawa diagram) analysis is the best tool for root cause analysis. It uses brainstorming buckets such as people, information, process and system (PIPS) to identify the underlying causes of a problem.",
     "video_time": 23893,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.15"
   },
   {
     "number": 192,
@@ -2685,7 +2876,8 @@
     "correct_answer": "C",
     "explanation": "A hybrid project management method means using predictive and adaptive methods together; predictive brings traditional waterfall elements such as pre-planned project plans, scope, schedule and risk, while adaptive adds a prioritized backlog of features, kanban boards, iteration planning and retrospectives. This combined approach is common in organizations transitioning to agile.",
     "video_time": 24007,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.13"
   },
   {
     "number": 193,
@@ -2699,7 +2891,8 @@
     "correct_answer": "A",
     "explanation": "The three C's of user story creation are Card, Conversation and Confirmation — in that order; you first create the card (the physical or digital media describing the user story), then have a conversation with the product owner and developers to explain how the software or design will be used, and finally confirm the acceptance criteria against the definition of done. Creating the card is the essential first step.",
     "video_time": 24129,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.8"
   },
   {
     "number": 194,
@@ -2713,7 +2906,8 @@
     "correct_answer": "C",
     "explanation": "Agile story cards should have the requirement, criticality, test details and clear acceptance criteria; this gives the team everything needed to develop, test and confirm completion of the story against the definition of done. While wireframes and benefit statements are useful, the core mandatory content is the requirement, its priority, estimates and acceptance criteria.",
     "video_time": 24240,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.8"
   },
   {
     "number": 195,
@@ -2727,6 +2921,7 @@
     "correct_answer": "B",
     "explanation": "Following the three C's of user story creation (Card, Conversation, Confirmation), after creating the card the next step is to have a conversation with the developers about how the software will be used, and then confirm the acceptance criteria and definition of done before placing it in the backlog. Prioritization and placement on the kanban board come after the card is fully fleshed out.",
     "video_time": 24365,
-    "eco_domain": "Process"
+    "eco_domain": "Process",
+    "eco_task": "2.8"
   }
 ]
