@@ -94,7 +94,7 @@
 
   // ---- master cross-walk diagram ----
   const MASTER=
-    'graph LR\n'+
+    'graph TD\n'+
     'ECO["PMI ECO<br/>3 domains · 35 tasks"]:::eco\n'+
     'P7["PMBOK 7<br/>12 principles · 8 domains"]:::p7\n'+
     'PG["Process Groups<br/>Initiating→Closing"]:::proc\n'+
@@ -109,7 +109,7 @@
 
   // ---- ECO domains diagram (compact, horizontal) ----
   const ECODIAG=
-    'graph LR\n'+
+    'graph TD\n'+
     'ECO(("PMI ECO")):::root\n'+
     'ECO --> P["People · 42%<br/>build and lead the team · manage conflict · engage stakeholders"]:::people\n'+
     'ECO --> R["Process · 50%<br/>scope / schedule / cost · quality / risk / procurement · integration and change"]:::process\n'+
@@ -186,7 +186,7 @@
   function lbl(title,arr){ return title+"<br/>"+arr.map(san).join(" · "); }
   function areaDiagram(a){
     // one wide node per category so the graph stays compact and horizontal
-    let g='graph LR\n'+'KA(("'+san(a.name)+'")):::ka\n';
+    let g='graph TD\n'+'KA(("'+san(a.name)+'")):::ka\n';
     g+='KA --> P7["'+lbl("PMBOK 7 domains",a.p7)+'"]:::p7\n';
     g+='KA --> EC["'+lbl("ECO tasks",a.eco)+'"]:::eco\n';
     g+='KA --> PR["'+lbl("Processes",a.proc)+'"]:::proc\n';
