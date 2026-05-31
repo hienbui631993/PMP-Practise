@@ -1,0 +1,1057 @@
+{
+  "video_id": "2gmCr40uT4U",
+  "title": "The Complete Project Management Body of Knowledge in One Video (PMBOK 7th Edition)",
+  "source": "David McLachlan",
+  "parts": [
+    {
+      "title": "The 12 Principles of Project Management",
+      "sections": [
+        {
+          "title": "The 12 Principles of Project Management",
+          "video_time": 19,
+          "intro": "PMBOK 7th Edition opens by outlining twelve guiding principles that define how project managers should think and behave across all project contexts.",
+          "subsections": [
+            {
+              "title": "Stewardship",
+              "video_time": 19,
+              "points": [
+                "Be a diligent, respectful, and caring steward on behalf of the organization and stakeholders.",
+                "Stewardship implies a duty of care and accountability for project outcomes."
+              ]
+            },
+            {
+              "title": "Team",
+              "video_time": 19,
+              "points": [
+                "Create a collaborative team environment where people can work effectively together.",
+                "Foster trust, shared ownership, and cooperation among project team members."
+              ]
+            },
+            {
+              "title": "Stakeholders",
+              "video_time": 25,
+              "points": [
+                "Effectively engage with stakeholders throughout the project.",
+                "Understand stakeholder needs and ensure their involvement supports project success."
+              ]
+            },
+            {
+              "title": "Value",
+              "video_time": 25,
+              "points": [
+                "Maintain a constant focus on the value being delivered to the business, organization, or customers.",
+                "All project decisions and activities should be evaluated against the value they contribute."
+              ]
+            },
+            {
+              "title": "Systems Thinking",
+              "video_time": 32,
+              "points": [
+                "Recognize, evaluate, and respond to the many system interactions present in a project.",
+                "Projects operate within complex, interconnected environments that must be understood holistically."
+              ]
+            },
+            {
+              "title": "Leadership",
+              "video_time": 37,
+              "points": [
+                "Demonstrate leadership behaviors that help team members and stakeholders thrive.",
+                "Leadership is about influencing and motivating people, not just managing tasks."
+              ]
+            },
+            {
+              "title": "Tailoring",
+              "video_time": 44,
+              "points": [
+                "Tailor the project approach based on the organizational context, content, or product being delivered.",
+                "There is no one-size-fits-all method; adapt processes to fit the specific situation."
+              ]
+            },
+            {
+              "title": "Quality",
+              "video_time": 50,
+              "points": [
+                "Build quality into processes and deliverables from the start to prevent mistakes.",
+                "Proactive quality management reduces rework and ensures outputs meet requirements."
+              ]
+            },
+            {
+              "title": "Complexity",
+              "video_time": 50,
+              "points": [
+                "Navigate complexity by recognizing the dynamic, interconnected factors that affect projects.",
+                "Use appropriate tools and judgment to manage ambiguity and unpredictable interactions."
+              ]
+            },
+            {
+              "title": "Risk",
+              "video_time": 57,
+              "points": [
+                "Optimize risk responses by continuously uncovering and addressing risks in the project.",
+                "Both threats and opportunities should be identified and actively managed."
+              ]
+            },
+            {
+              "title": "Adaptability and Resiliency",
+              "video_time": 63,
+              "points": [
+                "Embrace adaptability and resiliency to respond effectively to changing conditions.",
+                "Help the team build the capacity to absorb disruption and adjust course as needed."
+              ]
+            },
+            {
+              "title": "Change",
+              "video_time": 68,
+              "points": [
+                "Enable change to achieve the envisioned future state, recognizing that projects are fundamentally about change.",
+                "Project managers must champion change and prepare stakeholders to transition to new ways of working."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Section I — Project Performance Domains",
+      "sections": [
+        {
+          "title": "Stakeholder Performance Domain",
+          "video_time": 110,
+          "intro": "The Stakeholder Performance Domain focuses on building productive working relationships, securing stakeholder agreement with project objectives, and keeping beneficiaries supportive and satisfied throughout delivery.",
+          "subsections": [
+            {
+              "title": "Desired Outcomes",
+              "video_time": 116,
+              "points": [
+                "Productive working relationships with all stakeholders",
+                "Stakeholder agreement with and support for project objectives",
+                "Beneficiaries remain satisfied with what is being delivered"
+              ]
+            },
+            {
+              "title": "Key Terms and Stakeholder Definition",
+              "video_time": 129,
+              "points": [
+                "A stakeholder is anyone affected by the project or perceived to be affected by it",
+                "Circles of influence expand outward from the project manager to governing bodies, PMOs, steering committees, suppliers, customers, end users, and regulatory bodies"
+              ]
+            },
+            {
+              "title": "Stakeholder Engagement Steps",
+              "video_time": 152,
+              "points": [
+                "Identify stakeholders — using tools such as an organizational chart",
+                "Understand stakeholders — using a stakeholder engagement assessment matrix or similar tool",
+                "Analyze stakeholders — using a salience chart or an impact-vs-influence chart",
+                "Prioritize stakeholders to ensure the right people are engaged at the right times",
+                "Engage stakeholders regularly and monitor that engagement on an ongoing basis"
+              ]
+            },
+            {
+              "title": "Communication Methods",
+              "video_time": 186,
+              "points": [
+                "Engagement and communication channels include meetings, phone calls, brainstorming sessions, and product demos",
+                "Push communication: sender pushes information out via email or telephone calls",
+                "Pull communication: recipients retrieve information themselves from bulletin boards, websites, or SharePoint sites",
+                "Quick feedback loops verify whether the recipient understood the message, agrees with it, and has all the information needed"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Team Performance Domain",
+          "video_time": 230,
+          "intro": "Team performance focuses on achieving shared ownership, high-performing teams, and leadership demonstrated at all levels of the project.",
+          "subsections": [
+            {
+              "title": "Outcomes and Key Terms",
+              "video_time": 230,
+              "points": [
+                "Desired outcomes: shared project ownership, high-performing teams, and leadership displayed by all team members.",
+                "Key roles: project manager, project management team (managing), and project team (doing the work).",
+                "Management = meeting objectives, maintaining effective processes, and monitoring work.",
+                "Leadership = growing people, influencing, motivating, listening, and enabling the team."
+              ]
+            },
+            {
+              "title": "Centralized vs. Distributed Leadership",
+              "video_time": 257,
+              "points": [
+                "Centralized leadership: accountability rests on one person (e.g., the project manager); a project charter can clarify scope and roles.",
+                "Distributed leadership: shared across the team; teams are self-organizing with a facilitator, coach, or lead role.",
+                "Distributed teams have autonomy to operate as needed, as long as project goals are met.",
+                "Servant leadership: leaders remove blockers, shield the team from interruptions, and focus on team growth and development."
+              ]
+            },
+            {
+              "title": "Team Development and Culture",
+              "video_time": 333,
+              "points": [
+                "Team development covers: clear vision and objectives, defined roles and responsibilities, team operating norms, and ongoing growth.",
+                "Project managers must establish a safe, respectful environment that enables open communication (psychological safety).",
+                "Cultural values include: transparency, integrity, respect, positive discourse, courage, and celebrating success.",
+                "Support behaviors: encouragement, empathy, and active listening."
+              ]
+            },
+            {
+              "title": "High-Performing Team Factors",
+              "video_time": 360,
+              "points": [
+                "Open communication and shared understanding of work and goals.",
+                "Shared ownership, trust, and collaboration among team members.",
+                "Adaptability and resilience when facing change.",
+                "Empowerment to take necessary actions and recognition for accomplishments."
+              ]
+            },
+            {
+              "title": "Leadership Skills",
+              "video_time": 391,
+              "points": [
+                "Establishing vision: developed collaboratively with stakeholders; answers what the project is for, what it delivers, and what defines success.",
+                "Critical thinking: awareness of personal bias, researching and analyzing data; uses deductive reasoning (general to specific) and inductive reasoning (specific to general).",
+                "Motivation: intrinsic (belief in work, achievement, self-direction, relatedness, personal growth) vs. extrinsic (money, bonuses, status).",
+                "Emotional intelligence: self-awareness, self-management, social awareness, and social skill.",
+                "Decision making and conflict management are also essential leadership skills."
+              ]
+            },
+            {
+              "title": "Conflict Management",
+              "video_time": 458,
+              "points": [
+                "Keep communication respectful throughout conflicts.",
+                "Focus on the issue, not the person involved.",
+                "Address the present situation; avoid bringing up past grievances.",
+                "Search for alternatives and solutions collaboratively."
+              ]
+            },
+            {
+              "title": "Tailoring Leadership Styles",
+              "video_time": 481,
+              "points": [
+                "Consider team members' experience with the type of project being undertaken.",
+                "Account for the maturity level of project team members.",
+                "Be aware of organizational governance structures that may constrain leadership approach.",
+                "For distributed teams, determine what communication tools are needed (video, chat, messaging) based on team location."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Development Approach and Life Cycle Domain",
+          "video_time": 492,
+          "intro": "This domain covers how the chosen development approach, delivery cadence, and life cycle phases must align with the nature of the deliverables and project context.",
+          "subsections": [
+            {
+              "title": "Domain Outcomes and Key Terms",
+              "video_time": 497,
+              "points": [
+                "The development approach must be consistent with the deliverables being created.",
+                "The project life cycle should connect value delivery to all stakeholders from start to finish.",
+                "Deliverable: the product or feature being produced.",
+                "Development approach: the method used to create the deliverable.",
+                "Cadence: the rhythm of meetings and interactions on the project.",
+                "Project phase: related activities that complete a deliverable; life cycle = all phases combined."
+              ]
+            },
+            {
+              "title": "Delivery Cadence",
+              "video_time": 532,
+              "points": [
+                "The type of deliverable, risk/uncertainty, complexity, and need for change all influence cadence.",
+                "Single delivery: the entire product is delivered once.",
+                "Multiple deliveries: several features are delivered across the project.",
+                "Periodic deliveries: features delivered on a fixed schedule, similar to continuous delivery in DevOps."
+              ]
+            },
+            {
+              "title": "Development Approaches",
+              "video_time": 576,
+              "points": [
+                "Predictive (waterfall): useful when work is easily defined, scope is collected upfront, investment is large or risk is high; relies on frequent reviews and change control.",
+                "Adaptive (agile): uses iterative and incremental approaches.",
+                "Iterative: feedback is gathered throughout but the final product is still delivered in one go.",
+                "Incremental: usable features are delivered progressively along the timeline while also taking feedback.",
+                "Hybrid: combines predictive and adaptive elements; likely the most common real-world approach."
+              ]
+            },
+            {
+              "title": "Selecting a Development Approach",
+              "video_time": 625,
+              "points": [
+                "Product factors: degree of innovation needed, certainty of requirements, scope stability, ease of change, delivery increment options, risk and regulatory requirements.",
+                "Project factors: availability of a product owner, schedule constraints, and funding availability.",
+                "Organizational factors: flat vs. bureaucratic structure, culture, capability, and team size and location."
+              ]
+            },
+            {
+              "title": "Life Cycle Phases",
+              "video_time": 687,
+              "points": [
+                "Common phases: feasibility, design, build, test, deploy/release, and close.",
+                "Waterfall executes each phase once across the entire project.",
+                "Adaptive (agile) iterates through all phases for each increment delivered.",
+                "Kanban uses a flow-based, pull approach with no fixed phases — work is pulled only when capacity is available."
+              ]
+            },
+            {
+              "title": "Aligning Cadence, Approach, and Life Cycle",
+              "video_time": 727,
+              "points": [
+                "Cadence covers the rhythm and meetings, supporting single or multiple deliveries.",
+                "Development approach choices — predictive, hybrid, or adaptive (incremental/iterative) — must match project needs.",
+                "The life cycle (design, build, test, deploy, close) is applied differently depending on the chosen approach."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Planning Domain",
+          "video_time": 745,
+          "intro": "The Planning performance domain covers how projects progress in an organized, deliberate manner by using evolving information to deliver outputs and adapt plans to emerging needs.",
+          "subsections": [
+            {
+              "title": "Outcomes and Key Terms",
+              "video_time": 745,
+              "points": [
+                "Project progresses in an organized, deliberate manner using evolving information to produce deliverables.",
+                "Plans are adjusted as needed based on emerging needs or conditions.",
+                "Accuracy: how correct an estimate is — did it hit the target?",
+                "Precision: how repeatable an estimate is — can it do it over and over?",
+                "Schedule crashing: throwing money and resources at a schedule to bring the end date closer.",
+                "Schedule fast tracking: doing activities in parallel to compress the schedule."
+              ]
+            },
+            {
+              "title": "Planning Variables",
+              "video_time": 807,
+              "points": [
+                "Development style: predictive (lots of upfront planning) vs. adaptive/rolling-wave (plan each increment in detail only as it approaches).",
+                "Project deliverables: construction may need more upfront planning; software may be more flexible.",
+                "Organizational requirements: governance policies, processes, and culture may dictate certain ways of working.",
+                "Market conditions: speed-to-market pressures may influence how quickly plans must be set.",
+                "Legal or regulatory restrictions must be factored into planning."
+              ]
+            },
+            {
+              "title": "Delivery Planning Foundations",
+              "video_time": 828,
+              "points": [
+                "Planning begins with understanding the business case and feasibility study.",
+                "Stakeholder requirements define what is actually needed.",
+                "Product scope = all features in the product; project scope = the work performed to deliver those features.",
+                "Break both scopes down into a Work Breakdown Structure (WBS) so individuals or teams can act on them."
+              ]
+            },
+            {
+              "title": "Estimating",
+              "video_time": 865,
+              "points": [
+                "Estimates start broad (wide range) and become more refined as the project delivery date approaches.",
+                "Adjust estimates for uncertainty by building in reserves (extra funds/time for things going off track).",
+                "Use simulations such as mock-ups, storyboards, or prototypes to manage uncertainty.",
+                "Confidence in estimates increases with experience; deterministic = single point, probabilistic = range with probabilities.",
+                "Absolute estimates give a number; relative estimates compare to other work (e.g., story points in agile).",
+                "Flow-based estimates use cycle time (time to complete one item) and throughput (items completed per period)."
+              ]
+            },
+            {
+              "title": "Scheduling",
+              "video_time": 946,
+              "points": [
+                "Decompose project scope into specific activities via WBS, then sequence them (e.g., Gantt chart).",
+                "Estimate effort, duration, and required people/resources; allocate them, then adjust until the schedule is agreed.",
+                "Leads: pulling an activity forward (e.g., start editing photos partway through a shoot).",
+                "Lags: delaying an activity (e.g., waiting for concrete to set before framing).",
+                "Dependency types: mandatory (cannot change), discretionary (can change), external (outside project), internal (within project).",
+                "Rolling-wave planning: far-out items kept at high level; near-term items planned in detail."
+              ]
+            },
+            {
+              "title": "Budgeting",
+              "video_time": 1057,
+              "points": [
+                "Estimates applied to project work create the cost baseline.",
+                "Add a contingency reserve (for known-unknown risks) to reach the project budget.",
+                "Add a management reserve (for unexpected activities) on top to reach the total project cost."
+              ]
+            },
+            {
+              "title": "Team Composition and Structure",
+              "video_time": 1083,
+              "points": [
+                "Choose between internal and external team members based on cost, expertise, and location.",
+                "Consider whether proximity is required or whether a distributed global team is acceptable."
+              ]
+            },
+            {
+              "title": "Communication Planning",
+              "video_time": 1101,
+              "points": [
+                "Good communication planning helps engage stakeholders effectively.",
+                "Key questions: who needs information, what do they need, why share it, how to deliver it, when and how often, and where does the information come from."
+              ]
+            },
+            {
+              "title": "Physical Resources Planning",
+              "video_time": 1119,
+              "points": [
+                "Covers all non-human resources: estimating quantities, managing supply chain and logistics.",
+                "Consider lead times for delivery, movement, transport, and storage of materials.",
+                "Order materials strategically so they are available when needed without causing delays."
+              ]
+            },
+            {
+              "title": "Procurement Planning",
+              "video_time": 1149,
+              "points": [
+                "Once scope is known, perform a make-or-buy analysis.",
+                "Compare upfront cost of buying externally vs. making in-house AND the ongoing costs — ongoing costs are often overlooked."
+              ]
+            },
+            {
+              "title": "Planning for Change",
+              "video_time": 1175,
+              "points": [
+                "Prepare a process for adapting the plan throughout the project lifecycle.",
+                "Change mechanisms include: formal change control process, re-prioritizing the product backlog with the product owner, and re-baselining artifacts.",
+                "Change may arise from environmental shifts, customer requests, or a deeper understanding of scope."
+              ]
+            },
+            {
+              "title": "Metrics and Alignment",
+              "video_time": 1203,
+              "points": [
+                "Metrics define how project work is measured; a dedicated Measurement domain covers this in depth.",
+                "All planning artifacts must remain integrated: requirements align with scope; scope aligns with schedule and cost plans.",
+                "Quality, testing, logistics, and resource plans must all align with one another.",
+                "The overall project management plan integrates every sub-plan together."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Project Work Domain",
+          "video_time": 1233,
+          "intro": "The Project Work domain covers the ongoing activities needed to keep project execution efficient, including managing processes, communications, physical resources, procurements, and continuous learning.",
+          "subsections": [
+            {
+              "title": "Outcomes and Key Terms",
+              "video_time": 1240,
+              "points": [
+                "Desired outcomes: efficient project performance, appropriate processes, good stakeholder communication, efficient resource and procurement management, and improved team capability through continuous learning.",
+                "Bid documents are proposals from sellers; bidder conferences gather ideas from multiple bidders.",
+                "Explicit knowledge can be codified into a process; tacit knowledge is personal (beliefs, experience)."
+              ]
+            },
+            {
+              "title": "Project Processes",
+              "video_time": 1277,
+              "points": [
+                "Periodically review and tailor the project process to fit the current environment.",
+                "Use lean methods, retrospectives, and lessons learned to identify what is working and what needs improvement.",
+                "Apply cost-benefit analysis and value stream mapping to evaluate process changes.",
+                "Balancing competing constraints (scope, quality, cost, time) is an ongoing activity.",
+                "In agile projects scope is variable; in predictive/waterfall projects scope is usually fixed and other constraints are more variable.",
+                "Trade-off sliders visually show which constraints are fixed and which are flexible."
+              ]
+            },
+            {
+              "title": "Maintaining Project Team Focus",
+              "video_time": 1344,
+              "points": [
+                "Maintaining team focus is the project manager's responsibility.",
+                "Includes short- and long-term projections of progress toward goals.",
+                "Balance workload across the team to prevent overload or underutilisation.",
+                "Assess whether team members are satisfied with their work."
+              ]
+            },
+            {
+              "title": "Communications and Engagement",
+              "video_time": 1368,
+              "points": [
+                "Communications may be formal, informal, verbal, or written.",
+                "Information is collected through meetings and conversations or pulled from repositories.",
+                "Communications are distributed according to the communications plan.",
+                "Abundant ad hoc requests signal insufficient communication; respond by communicating more or in different ways."
+              ]
+            },
+            {
+              "title": "Managing Physical Resources",
+              "video_time": 1400,
+              "points": [
+                "Resources include materials and supplies from third parties.",
+                "Resource process steps: planning, ordering, transporting, storing, tracking, and controlling.",
+                "Large resource volumes require a formal logistics system documented in company policies.",
+                "Apply lean principles to eliminate waste: defects/rework, overproduction, waiting, unnecessary transport, excess inventory, excessive motion, and excessive processing."
+              ]
+            },
+            {
+              "title": "Working with Procurements",
+              "video_time": 1444,
+              "points": [
+                "Procurements involve contracts for materials, equipment, labor, or services.",
+                "Project managers work with contracting officers and technical experts; they typically do not write contracts themselves.",
+                "PM may help develop a request for proposal, statement of work, and terms and conditions.",
+                "Bidding documents: RFI (gather market info), RFP (complex scope needs proposals), RFQ (price is the main factor).",
+                "Vendor source selection is based on price, delivery terms, and vendor experience.",
+                "Once selected, update the project plan with vendor details; the vendor becomes a project stakeholder."
+              ]
+            },
+            {
+              "title": "Monitoring New Work and Changes",
+              "video_time": 1505,
+              "points": [
+                "Scope may evolve throughout the project life.",
+                "In adaptive projects, the PM works with the product owner to prioritise the product backlog; low-priority items may be deferred.",
+                "In predictive projects, a change request is raised, reviewed by the change control board, and assessed for impact on cost, quality, scope, and schedule.",
+                "Approved changes are added to project documents and communicated to all stakeholders."
+              ]
+            },
+            {
+              "title": "Learning Throughout the Project",
+              "video_time": 1538,
+              "points": [
+                "Maintain a knowledge management process to capture lessons learned via retrospectives or reviews.",
+                "Explicit knowledge (process-based, teachable) and tacit knowledge (beliefs and experience) both need to be captured.",
+                "Captured knowledge is stored for other projects to use in the future."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Delivery Domain",
+          "video_time": 1554,
+          "intro": "The Delivery performance domain focuses on how projects contribute to business objectives by managing requirements, scope, quality, and deliverables to realize intended benefits.",
+          "subsections": [
+            {
+              "title": "Delivery Outcomes and Key Terms",
+              "video_time": 1560,
+              "points": [
+                "Projects must contribute to business objectives and overall strategy.",
+                "Intended outcomes and benefits should be realized within the expected timeframe.",
+                "Stakeholders must accept and be satisfied with the deliverables.",
+                "Key terms: requirement, work breakdown structure (WBS), definition of done, quality, cost of quality.",
+                "A deliverable is an increment of value — a feature or product."
+              ]
+            },
+            {
+              "title": "Delivering Value",
+              "video_time": 1596,
+              "points": [
+                "Adaptive approaches (incremental/iterative) deliver value continuously along the journey.",
+                "Predictive approaches deliver value all at once at the end.",
+                "Value persists long after the project finishes.",
+                "A business case defines and monitors value from the very beginning.",
+                "Baseline documents within the project track value delivery across different deliverables."
+              ]
+            },
+            {
+              "title": "Requirements Management",
+              "video_time": 1628,
+              "points": [
+                "A requirement is a conditional capability that must be met to satisfy the customer need.",
+                "Requirements elicitation draws out requirements from customers and stakeholders.",
+                "Good requirements are clear, concise, verifiable, consistent, complete, and traceable.",
+                "Evolving requirements can be discovered using prototypes, storyboards, and mock-ups.",
+                "Ineffective requirements lead to rework, scope creep, dissatisfaction, budget overruns, schedule delays, and project failure.",
+                "Manage requirements using a backlog or traceability matrix; one person is ultimately accountable for deliverables."
+              ]
+            },
+            {
+              "title": "Scope Decomposition",
+              "video_time": 1690,
+              "points": [
+                "Scope decomposition uses a WBS: themes break into epics, then into user stories people can deliver.",
+                "Alternatively, a product roadmap breaks themes into features, then into work packages.",
+                "Regardless of naming, the concept is the same: progressively decompose scope into workable items."
+              ]
+            },
+            {
+              "title": "Defining Completion",
+              "video_time": 1722,
+              "points": [
+                "Completion criteria include acceptance criteria, technical performance measures, definition of ready, and definition of done.",
+                "Done drift occurs when targets shift due to uncertainty, changing markets, or evolving project conditions.",
+                "Moving targets of completion are common in projects operating in uncertain environments."
+              ]
+            },
+            {
+              "title": "Quality and Cost of Quality",
+              "video_time": 1754,
+              "points": [
+                "Quality requirements are reflected in completion criteria, definition of done, statement of work, and requirements documentation.",
+                "Those who receive the benefit ultimately bear the cost of bad quality.",
+                "Prevention costs: effort spent stopping defects from occurring in the first place.",
+                "Appraisal costs: checking work during development to find bad quality early.",
+                "Internal failure costs: defects found before reaching the customer but still requiring rework.",
+                "External failure costs: the most expensive — defects discovered by the customer after delivery."
+              ]
+            },
+            {
+              "title": "Sub-optimal Outcomes",
+              "video_time": 1822,
+              "points": [
+                "Projects may not always meet their intended outcomes due to complexity and uncertainty.",
+                "Risks include uncertain environments, changing markets, or competitors reaching the market first.",
+                "Effective project management reduces but cannot eliminate risk — risk must always be managed."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Measurement Domain",
+          "video_time": 1841,
+          "intro": "The Measurement performance domain focuses on establishing reliable metrics, baselines, and dashboards to understand project status, support timely decisions, and generate business value.",
+          "subsections": [
+            {
+              "title": "Outcomes and Key Terms",
+              "video_time": 1841,
+              "points": [
+                "Desired outcomes: reliable understanding of project status, actionable data, timely actions, achieving targets, and generating business value.",
+                "Key terms include metrics, baselines (schedule, scope, cost), and dashboards.",
+                "Measurement is used to evaluate performance vs. plan, track resources, demonstrate accountability, and inform trade-off conversations."
+              ]
+            },
+            {
+              "title": "Establishing Effective Measures",
+              "video_time": 1886,
+              "points": [
+                "Use KPIs (Key Performance Indicators) or OKRs (Objectives and Key Results) to guide measurement.",
+                "Leading indicators: project size, backlog items remaining, lack of clear processes.",
+                "Lagging indicators: deliverables completed, schedule/cost variance already incurred, resources consumed — used to assess if the project is on track.",
+                "Effective metrics are SMART: Specific, Measurable, Achievable, Relevant, and Timely."
+              ]
+            },
+            {
+              "title": "What to Measure: Deliverable and Delivery Metrics",
+              "video_time": 1929,
+              "points": [
+                "Deliverable metrics: errors/defects, performance, efficiency, reliability, and technical performance measures.",
+                "Delivery metrics: work in progress, lead time, cycle time, queue size, and batch size (e.g., story points per sprint)."
+              ]
+            },
+            {
+              "title": "Project Efficiency and Baseline Performance",
+              "video_time": 1966,
+              "points": [
+                "Compare planned vs. actual start/finish dates, effort, and duration.",
+                "Track schedule variance (SV) and Schedule Performance Index (SPI).",
+                "Track feature completion rates, actual vs. planned cost, cost variance (CV), and Cost Performance Index (CPI).",
+                "Measure planned vs. actual resource use and resource cost."
+              ]
+            },
+            {
+              "title": "Business Value and Stakeholder Metrics",
+              "video_time": 1995,
+              "points": [
+                "Business value metrics: cost-benefit ratio, planned vs. actual benefits delivery, ROI, and NPV.",
+                "Stakeholder metrics: Net Promoter Score (NPS) for engagement, mood charts for team morale, and team turnover.",
+                "Forecast metrics: Estimate to Complete (ETC), Estimate at Completion (EAC), Variance at Completion (VAC), and To-Complete Performance Index (TCPI).",
+                "Use regression analysis for trend forecasting and throughput analysis to track flow speed."
+              ]
+            },
+            {
+              "title": "Presenting Information",
+              "video_time": 2038,
+              "points": [
+                "Use dashboards and information radiators (e.g., visible backlogs, burndown charts, risk displays).",
+                "Visual controls include task boards, burn charts, and other project charts."
+              ]
+            },
+            {
+              "title": "Measurement Pitfalls",
+              "video_time": 2055,
+              "points": [
+                "Hawthorne Effect: measuring something changes people's behavior, so choose measures carefully.",
+                "Vanity metrics: figures that look good but do not drive meaningful outcomes.",
+                "Demoralization: unachievable targets demotivate the team.",
+                "Misusing metrics: using data for harmful rather than constructive purposes.",
+                "Confirmation bias: seeking data that confirms a pre-existing belief rather than the truth.",
+                "Correlation vs. causation: concurrent events do not imply a causal relationship."
+              ]
+            },
+            {
+              "title": "Troubleshooting and Intent of Measurement",
+              "video_time": 2098,
+              "points": [
+                "Agree in advance on plans for responding when measurements fall outside threshold ranges.",
+                "The intent of displaying data is to learn and improve.",
+                "Report information that facilitates real decisions, helps avoid future issues, or prevents performance breakdown."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Uncertainty and Risk Domain",
+          "video_time": 2121,
+          "intro": "This domain covers how to identify and respond to uncertainty, ambiguity, complexity, volatility, and risk in order to minimize negative impacts and realize opportunities on the project.",
+          "subsections": [
+            {
+              "title": "Domain Outcomes and Key Terms",
+              "video_time": 2121,
+              "points": [
+                "Desired outcomes: awareness of the political, environmental, social, technological, and legal environment (PESTLE).",
+                "Proactively explore uncertainty and understand the interdependence of multiple project variables (complexity).",
+                "Anticipate threats and opportunities and understand their consequences on delivery.",
+                "Minimize impact of unforeseen events; realize opportunities to improve performance.",
+                "Use cost and schedule reserves to meet objectives when uncertain events occur.",
+                "Key terms: uncertainty, ambiguity, complexity, volatility, risk; frameworks PESTLE and VUCA."
+              ]
+            },
+            {
+              "title": "General Uncertainty",
+              "video_time": 2125,
+              "points": [
+                "Gather information to reduce unknowns before committing.",
+                "Prepare for multiple outcomes so the team is not caught off guard.",
+                "Use set-based design or prototyping—build models before spending real money.",
+                "Build resilience into the process and be ready to respond or change quickly."
+              ]
+            },
+            {
+              "title": "Ambiguity",
+              "video_time": 2194,
+              "points": [
+                "Conceptual ambiguity: a general lack of understanding of an item.",
+                "Situational ambiguity: more than one outcome is possible and it is unclear which path to take.",
+                "Use progressive elaboration—deliver smaller features more often to work through different paths.",
+                "Run experiments with smaller items before full delivery to save cost.",
+                "Use prototyping to clarify requirements before committing to a solution."
+              ]
+            },
+            {
+              "title": "Complexity",
+              "video_time": 2225,
+              "points": [
+                "Complexity: a characteristic that makes something difficult to manage due to many interconnected influences.",
+                "Decouple interconnected parts to reduce the number of variables in play.",
+                "Use Monte Carlo simulation (thousands of runs with different variables) to see the range of possible outcomes.",
+                "Reframe complexity by bringing in diverse perspectives.",
+                "Balance lagging and leading data; use iterative or incremental delivery to uncover complexity gradually.",
+                "Engage stakeholders more and error-proof (fail-safe) the deliverable where possible."
+              ]
+            },
+            {
+              "title": "Volatility",
+              "video_time": 2283,
+              "points": [
+                "Volatility: something subject to rapid or unpredictable change.",
+                "Perform alternatives analysis—examine different options and weigh pros and cons.",
+                "Use contingency reserves and management reserves to absorb the impact if volatile events occur."
+              ]
+            },
+            {
+              "title": "Risk — Threats",
+              "video_time": 2301,
+              "points": [
+                "Capture each risk with its probability of occurring and its impact if it does occur.",
+                "Avoid: eliminate the threat entirely.",
+                "Escalate: pass the threat to a manager or sponsor if it is outside the team's authority.",
+                "Transfer: shift the threat to another department or organization (e.g., insurance).",
+                "Mitigate: apply controls to reduce probability or impact.",
+                "Accept: acknowledge the risk if it is within the organization's risk tolerance."
+              ]
+            },
+            {
+              "title": "Risk — Opportunities",
+              "video_time": 2338,
+              "points": [
+                "Exploit: take action to ensure the opportunity definitely occurs.",
+                "Escalate: refer the opportunity to management if approval is needed.",
+                "Share: partner with another department or organization to capture the opportunity.",
+                "Enhance: increase the probability or impact of the opportunity.",
+                "Accept: be ready to take advantage of the opportunity if it arises without actively pursuing it.",
+                "Maintain management and contingency reserves and conduct regular risk reviews."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Section II — Tailoring",
+      "sections": [
+        {
+          "title": "Tailoring",
+          "video_time": 2361,
+          "intro": "Tailoring is the deliberate adaptation of project management approach, governance, or processes to suit the specific environment, size, duration, complexity, and maturity of the organization and project.",
+          "subsections": [
+            {
+              "title": "Why Tailor?",
+              "video_time": 2391,
+              "points": [
+                "Tailoring should reflect the size, duration, and complexity of the project.",
+                "Adapted to the industry and the project management maturity of the organization.",
+                "Less experienced teams may use an out-of-the-box method; more experienced teams may tailor to their individual needs.",
+                "Goal is to suit the situation and achieve successful delivery."
+              ]
+            },
+            {
+              "title": "What to Tailor",
+              "video_time": 2410,
+              "points": [
+                "Life cycle and development approach: combine predictive (waterfall), hybrid, iterative, incremental, and adaptive/agile approaches.",
+                "Processes: decide which portions to add, modify, remove, blend, or align (e.g., consistent risk definitions).",
+                "Engagement: choose who to involve, determine appropriate empowerment vs. supervision based on experience.",
+                "Integration: build a diverse project team including external members.",
+                "Tools: select software or equipment considering cost, organizational preferences, and existing assets.",
+                "Methods and artifacts: tailor documents and methods to be appropriate for the project and organization."
+              ]
+            },
+            {
+              "title": "The Tailoring process",
+              "video_time": 2477,
+              "points": [
+                "Step 1 — Select the initial development approach, applying knowledge of the product, delivery cadence, and meeting rhythm; use a suitability filter (predictive for high risk/long timeframe; adaptive for changing requirements/early value delivery).",
+                "Step 2 — Tailor for the organization: consider existing methodology, established governance, and any contract terms.",
+                "Step 3 — Tailor for the project: consider compliance/criticality, industry/technology, timeframe, requirement stability, security, team size/geography, experience, customer access, and organizational culture.",
+                "Step 4 — Implement ongoing improvements: assess whether the approach is working and continuously improve it."
+              ]
+            },
+            {
+              "title": "Tailoring the Performance Domains",
+              "video_time": 2589,
+              "points": [
+                "Stakeholders: consider collaborative environment, internal vs. external stakeholders, available communication technology, language/jargon diversity, number of stakeholders, and existing relationships.",
+                "Team: consider co-located vs. dispersed, diverse cultures/viewpoints, internal vs. contractor composition, existing team culture, tools and training needs, and special requirements.",
+                "Development approach and life cycle: choose approach based on speed, quality, and scope needs; check for existing formal/informal audit or governance policies.",
+                "Planning: assess environmental factors, resource productivity, cost-estimating policies, adaptive process existence, procurement complexity, and contracting laws or regulations.",
+                "Project work and delivery: address knowledge management, lessons learned repositories, requirements management systems, change/quality control policies, industry standards, and unstable requirements.",
+                "Uncertainty and measurement: evaluate risk appetite, threat/opportunity identification processes, complexity impact, project strategic importance, how value (financial and non-financial) is measured, and status reporting requirements."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Section III — Models, Methods & Artifacts",
+      "sections": [
+        {
+          "title": "Models",
+          "video_time": 2819,
+          "intro": "Models help explain how things work in the real world; PMBOK 7 covers situational leadership, communication, motivation, change, complexity, team development, conflict, negotiation, planning, process groups, and stakeholder salience models.",
+          "subsections": [
+            {
+              "title": "Situational leadership and coaching models",
+              "video_time": 2824,
+              "points": [
+                "Ken Blanchard's Situational Leadership II: measures a person's competence and commitment to adapt leadership style accordingly.",
+                "OSCAR coaching model: focuses on Outcome, current Situation, Choices/Consequences, Actions, and Review."
+              ]
+            },
+            {
+              "title": "Communication models",
+              "video_time": 2872,
+              "points": [
+                "Cross-cultural communication: messages are shaped by sender's and receiver's knowledge, experience, language, and communication style — must be adjusted for differences.",
+                "Alistair Cockburn's communication channel effectiveness: measured by richness (multiple cues, rapid feedback, natural language) and effectiveness over time; face-to-face is highest richness.",
+                "Donald Norman's Gulf of Execution and Evaluation: Gulf of Execution asks whether a system does what the user expected; Gulf of Evaluation asks whether it supports users in discovering how to interact with it."
+              ]
+            },
+            {
+              "title": "Motivation models",
+              "video_time": 2909,
+              "points": [
+                "Herzberg's Two-Factor Theory: hygiene factors (salary, fair policies, physical environment) prevent dissatisfaction; motivational factors (achievement, growth) drive true motivation.",
+                "Intrinsic vs. Extrinsic motivation: intrinsic = autonomy, mastery, purpose; extrinsic = money, bonuses, status.",
+                "McClelland's Theory of Needs: people are driven by achievement, power, or affiliation.",
+                "McGregor's Theory X, Y, Z: X = people motivated only by income, need micromanagement; Y = intrinsically motivated, managed as a coach; Z = motivated by a higher calling, job-for-life orientation."
+              ]
+            },
+            {
+              "title": "Change models",
+              "video_time": 2985,
+              "points": [
+                "PMI Change Management model: formulate, plan, implement, sustain the change, then manage the transition to the new state.",
+                "ADKAR model: Awareness, Desire, Knowledge, Ability, and Reinforcement of change.",
+                "Kotter's 8 Steps: create urgency, form a coalition, create a vision, communicate the vision, remove obstacles, create short-term wins, build on change, anchor changes in culture.",
+                "Virginia Satir Change Model: late status quo → foreign element → chaos → transforming idea → practice and integration → new status quo.",
+                "William Bridges Transition Model: ending (losing and letting go) → neutral zone → new beginning."
+              ]
+            },
+            {
+              "title": "Complexity models",
+              "video_time": 3072,
+              "points": [
+                "Cynefin Framework (Dave Snowden): obvious = use best practices; complicated = assess facts and use good practices; complex/unknown unknowns = probe and iterate; chaotic = stabilize first; disordered = break into smaller parts.",
+                "Stacey Matrix (Ralph Stacy): plots uncertainty of deliverable and technology against simplicity, complexity, or chaos to guide approach."
+              ]
+            },
+            {
+              "title": "Team development models",
+              "video_time": 3100,
+              "points": [
+                "Tuckman's Ladder: Forming → Storming (conflict over roles) → Norming (establishing rhythms) → Performing → Adjourning.",
+                "Drexler-Sibbet Team Performance Model: Orientation (why) → Trust building (who does what) → Goal clarification (what) → Commitment (how) → Implementation (plan) → High performance → Renewal."
+              ]
+            },
+            {
+              "title": "Conflict, negotiation, planning, process groups, and stakeholder models",
+              "video_time": 3158,
+              "points": [
+                "Conflict model: approaches include confront/problem-solve (collaborate), compromise, smooth/accommodate, force, or withdraw/avoid.",
+                "Negotiation approaches: win-win (requires character, maturity, and trust), win-lose, lose-win, or lose-lose (compromise is typically lose-lose since both parties give something up).",
+                "Barry Boehm's Planning Sweet Spot: balance between upfront planning to reduce risk and time-to-market speed — optimum lies somewhere in the middle.",
+                "PMI Process Groups model: Initiating → Planning → Executing → Monitoring and Controlling → Closing.",
+                "Salience Model: evaluates stakeholders by power, legitimacy, and urgency to prioritize engagement."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Methods",
+          "video_time": 3239,
+          "intro": "A method is a means for achieving an outcome, result, or deliverable; PMBOK 7 groups commonly used methods into data gathering and analysis, estimating, meetings and events, and other methods.",
+          "subsections": [
+            {
+              "title": "Data Gathering and Analysis",
+              "video_time": 3245,
+              "points": [
+                "Alternatives analysis, assumption and constraint analysis, benchmarking across teams or organizations",
+                "Business justification analysis: payback period, internal rate of return, ROI, NPV, cost-benefit analysis",
+                "Check sheets, cost of quality (prevention, appraisal, internal/external failure), decision tree analysis",
+                "Earned value analysis, expected monetary value, forecasting, influence diagrams, life cycle assessment",
+                "Make-or-buy analysis, probability and impact matrix, process analysis (flowcharts), regression analysis",
+                "Reserve analysis, root cause analysis (Ishikawa/5-Whys), sensitivity analysis (tornado chart), simulations (Monte Carlo), stakeholder analysis, SWOT, trend analysis, value stream mapping, variance analysis, what-if scenario analysis"
+              ]
+            },
+            {
+              "title": "Estimating Methods",
+              "video_time": 3331,
+              "points": [
+                "Affinity grouping and analogous estimating (based on similar past work)",
+                "Function point metrics (business functionality in information systems)",
+                "Multi-point estimating: (optimistic + most likely + pessimistic) / 3",
+                "Parametric estimating (uses a unit parameter, e.g. $80/hour)",
+                "Relative estimating (agile; estimates relative to each other) and single-point estimating",
+                "Story point estimating using Fibonacci sequence (1,2,3,5,8,13,21) and wideband Delphi (iterative rounds converging on accuracy)"
+              ]
+            },
+            {
+              "title": "Meetings and Events",
+              "video_time": 3390,
+              "points": [
+                "Agile/adaptive ceremonies: iteration planning, backlog refinement, daily stand-ups, iteration review, retrospectives",
+                "Kick-off meeting and change control board",
+                "Bid conferences and lessons learned sessions",
+                "Planning meetings, project closeout meetings, project reviews",
+                "Release planning, risk review meetings, status meetings, steering committee meetings"
+              ]
+            },
+            {
+              "title": "Other Methods",
+              "video_time": 3413,
+              "points": [
+                "Impact mapping and modeling",
+                "Net Promoter Score: 'on a scale of 1–10 how likely to recommend?' used as a customer metric",
+                "Prioritization schemas such as MoSCoW (Must have, Should have, Could have, Won't have)",
+                "Time boxing an item"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Artifacts",
+          "video_time": 3438,
+          "intro": "Artifacts are the templates, documents, and deliverables commonly produced across projects, grouped into eight categories: strategic artifacts, logs and registers, plans, hierarchy charts, baselines, visual data and reports, agreements and contracts, and other artifacts.",
+          "subsections": [
+            {
+              "title": "Strategic Artifacts",
+              "video_time": 3444,
+              "points": [
+                "Business case",
+                "Business model canvas",
+                "Project brief and project charter",
+                "Project vision statement",
+                "Product roadmap"
+              ]
+            },
+            {
+              "title": "Logs and Registers",
+              "video_time": 3456,
+              "points": [
+                "Assumption log",
+                "Backlog and risk-adjusted backlog (risk items folded into the backlog)",
+                "Change log and issue log",
+                "Lessons learned register",
+                "Risk register",
+                "Stakeholder register"
+              ]
+            },
+            {
+              "title": "Plans",
+              "video_time": 3481,
+              "points": [
+                "Change control plan, communications management plan, cost management plan",
+                "Iteration plan (agile), procurement management plan",
+                "Project management plan (ties all subsidiary plans together)",
+                "Quality management plan, release plan, requirements management plan",
+                "Resource management plan, risk management plan, scope management plan",
+                "Schedule management plan, stakeholder engagement plan, test plan"
+              ]
+            },
+            {
+              "title": "Hierarchy Charts",
+              "video_time": 3511,
+              "points": [
+                "Organizational breakdown structure (OBS)",
+                "Product breakdown structure (PBS)",
+                "Resource breakdown structure (RBS)",
+                "Risk breakdown structure",
+                "Work breakdown structure (WBS)"
+              ]
+            },
+            {
+              "title": "Baselines",
+              "video_time": 3524,
+              "points": [
+                "Budget baseline (original cost estimate)",
+                "Milestone schedule baseline",
+                "Performance measurement baseline (scope, schedule, cost)",
+                "Project schedule baseline",
+                "Scope baseline: scope statement, WBS, and WBS dictionary"
+              ]
+            },
+            {
+              "title": "Visual Data and Reports",
+              "video_time": 3542,
+              "points": [
+                "Affinity diagrams, burn-up/burn-down charts, cause-and-effect diagrams, cumulative flow diagrams, cycle-time charts",
+                "Dashboards, flow charts, Gantt charts, histograms, information radiators, lead-time charts",
+                "Prioritization matrix, schedule network diagram, requirements traceability matrix, resource assignment matrix",
+                "Scatter diagram, S-curve, stakeholder engagement assessment matrix, story map",
+                "Throughput chart, use cases, value stream maps, velocity charts",
+                "Quality report, risk report, status report"
+              ]
+            },
+            {
+              "title": "Agreements and Contracts",
+              "video_time": 3598,
+              "points": [
+                "Fixed-price contracts",
+                "Cost-reimbursable contracts: cost plus award fee, cost plus fixed fee, cost plus incentive fee",
+                "Time and materials contracts",
+                "Indefinite delivery / indefinite quantity (IDIQ) contracts",
+                "Other agreements: memorandum of understanding (MOU), memorandum of agreement (MOA), service level agreement (SLA), basic ordering agreement (BOA)"
+              ]
+            },
+            {
+              "title": "Other Artifacts",
+              "video_time": 3628,
+              "points": [
+                "Activity list",
+                "Bid documents: request for information (RFI), request for quote (RFQ), request for proposal (RFP)",
+                "Metrics",
+                "Project calendar and project team charter",
+                "Requirements documentation",
+                "User stories"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -60,6 +60,86 @@ Last updated: 2026-05-30.
   validated (every `correct_answer` maps to an existing option; all 150 present). A few answers where
   the instructor was ambiguous reflect the option he leaned toward.
 
+## 5) 110 Drag & Drop — David McLachlan (`dnd2_dataset.json` / `dnd2.html`)
+- Extracted from the spoken transcript ("110 DND by David McLachlan.md", video `wwNUBe21jtM`). There is
+  no source PDF — items, terms, answers and explanations are paraphrased from the narration, grounded
+  only in the transcript. PMBOK / Process Groups / Agile Practice Guide page citations are the ones the
+  instructor read aloud.
+- **111 questions, not 110:** the video ends with an explicit "bonus question 11" (a Myers-Briggs match),
+  so the dataset has the 110 main questions plus that bonus = 111. The page is titled "110 (+1 bonus)".
+- `video_time` is read from the per-line `M:SS` / `H:MM:SS` markers at each question's start (this is a
+  ~2.5-hour video). One timestamp on the scope/quality question was auto-corrected during assembly
+  (a stray value past the outro → its true 2:26:48 start).
+- Each question is 1-to-1 matching (options count = items count), so the engine runs in "consume" mode:
+  a placed chip is removed from the pool. Extracted via 11 parallel passes (one per section), then
+  re-assembled and validated (every item's answer exists in its options; 0 issues).
+
+## 6) 200 Agile PMP — David McLachlan (`agile_dataset.json` / `agile.html`)
+- Extracted from the spoken transcript ("200 AGILE PMP.md", video `tNIHysh2ZW4`). Questions, options,
+  answers and explanations are paraphrased from the narration, grounded only in the transcript.
+- **195 questions, not 200:** the video is titled "200 Agile" but the instructor ends Section 28 after
+  the genuine last question ("we're out of questions, we completed all of these"). After removing 3
+  duplicate re-extractions at a chunk boundary (confirmed identical text/options/timestamps), the set
+  contains **195 distinct questions**, numbered 1–195 with no gaps. The page keeps the "200 Agile" name.
+- `video_time` is read from the per-line `M:SS` / `H:MM:SS` markers (this is a ~6.8-hour video); the
+  full timeline is monotonic after dedup. Extracted via 20 parallel windowed passes, then de-duplicated,
+  re-sorted, renumbered and validated (every answer maps to an option; 0 issues).
+- Some questions reuse a common intro stem (e.g. the Agile Manifesto "in 2001 a group of individuals…")
+  across different sub-questions — these are distinct questions with different options/answers, kept as-is.
+
+## 7) Process Groups Practice Guide knowledge page (`processgroups_dataset.json` / `processgroups.html`)
+- A KNOWLEDGE page (not a quiz), distilled from David McLachlan's mind-map walkthrough video
+  (`b5X3Z6X56uk`) of the PMI Process Groups Practice Guide (formerly PMBOK 6). 8 sections / 52 subsections.
+- Bullet points are concise paraphrases of the instructor's spoken explanation — meaning preserved,
+  not verbatim, and not copied from the PMI guide itself.
+- Each section and subsection has a `video_time` read from the per-line `M:SS` markers (minutes run
+  past 59 in this ~62-min video); Watch links jump to that spot. Inner subsection timestamps are
+  approximate to where the instructor begins that topic.
+- Extracted via 8 parallel section passes, then assembled and validated (0 issues).
+
+## 8) PMBOK 7 Body of Knowledge page (`pmbok7guide_dataset.json` / `pmbok7guide.html`)
+- A KNOWLEDGE page (not a quiz), distilled from David McLachlan's PMBOK 7th Edition walkthrough video
+  (`2gmCr40uT4U`). Structure: the 12 Principles, 8 Performance Domains, Tailoring, and Models/Methods/
+  Artifacts — 13 sections / 94 subsections.
+- Bullet points are concise paraphrases of the narration (meaning preserved, not verbatim, not copied
+  from the PMI guide). Each section/subsection `video_time` comes from the per-line `M:SS` markers
+  (minutes run past 59 in this ~61-min video); Watch links jump to that spot.
+- Extracted via 13 parallel section passes, then assembled and validated (0 issues). Reuses the same
+  generic knowledge-page renderer as the Process Groups page.
+
+## 9) PMBOK 8 — All 40 Processes page (`pmbok8guide_dataset.json` / `pmbok8guide.html`)
+- A KNOWLEDGE page (not a quiz), distilled from David McLachlan's PMBOK 8th Edition walkthrough video
+  (`LcZvGRTJnLo`). PMBOK 8 returns to process groups; the page maps all 40 processes across the 5 groups
+  (Initiating 2, Planning 19, Executing 8, Monitoring & Controlling 10, Closing 1), each with
+  Inputs / Tools & Techniques / Outputs subsections.
+- The 40th process ("Close the Project or Phase") has no standalone heading in the transcript — the
+  instructor transitions inline (~1:12:02); captured correctly so the count is the full 40.
+- Bullets are concise paraphrases of the narration (not verbatim, not copied from the PMI guide). Each
+  process `video_time` comes from the per-line `M:SS`/`H:MM:SS` markers; Watch links jump to that spot.
+- Process titles/group assignments follow the instructor's order; PMBOK 8 is draft/exposure material
+  (the instructor notes it appears in the PMP exam from July 2026), so names may be refined by PMI.
+- Extracted via 8 parallel block passes, assembled, grouped, and validated (40 processes, monotonic
+  timestamps, 0 issues).
+
+## 10) 100 Waterfall PMP — David McLachlan (`waterfall_dataset.json` / `waterfall.html`)
+- Extracted from the spoken transcript ("100 Waterfall PMP Questions and Answers.md", video `xIH-u81XCxM`,
+  drawn from PMBOK 6 / predictive). Questions, options, answers and explanations are paraphrased from the
+  narration and grounded only in the transcript.
+- 100 questions, clean 10-per-chapter structure; extracted via 10 parallel passes, assembled and validated
+  (every answer maps to an option; 1–100 with no gaps/dups; 0 issues).
+- `video_time` is read from the per-line `M:SS` markers (this is a long ~4.8-hour video). Two minor
+  timestamp dips at the Q60 and Q71 chapter boundaries are harmless (distinct questions; links still land
+  in the right segment).
+
+## 11) 63 Project Management Tools page (`tools_dataset.json` / `tools.html`)
+- A KNOWLEDGE page (not a quiz), distilled from David McLachlan's "63 Project Management Tools" video
+  (`vi0drXKr7PM`), which walks the tools through an example project (PetBuddy) from initiation to risk.
+- Organised into 11 phase sections; **64 distinct tool entries** are presented (the video is titled "63"
+  — the page keeps that name; the heading count came out at 64, likely a one-off split in the source).
+- Each tool has 2-4 paraphrased bullets and a `video_time` from the per-line `M:SS` markers (Watch links
+  jump to that tool). Tool timeline verified monotonic; extracted via 11 parallel phase passes, validated
+  (0 issues). Bullets are faithful paraphrases, not verbatim PMI text.
+
 ## Tooling / process notes
 - During the DnD build, the sandbox intermittently ate/garbled tool stdout, which caused a failed
   silent append and a mis-extraction before they were caught and fixed. If we do another large

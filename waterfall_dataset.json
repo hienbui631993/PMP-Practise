@@ -1,0 +1,1302 @@
+[
+  {
+    "number": 1,
+    "question": "You're working on a project to build a new parkland for the community. The person in charge of parkland design approaches you as they are not sure what they are supposed to be working on. What will you do next?",
+    "options": {
+      "A": "Review the project scope statement to see what the team is delivering.",
+      "B": "Review the WBS dictionary to see the detailed description of the scope, the work, and who it is assigned to.",
+      "C": "Review the requirements traceability matrix to see where the scope comes from.",
+      "D": "Review the assumption log to see who we assume should do the work."
+    },
+    "correct_answer": "B",
+    "explanation": "The work breakdown structure dictionary contains detailed descriptions of scope and work broken down to the work package level, including acceptance criteria, assignee, cost, schedule, and resource information. PMBOK Guide 6th edition, page 162.",
+    "video_time": 45
+  },
+  {
+    "number": 2,
+    "question": "You have taken over as a project manager for a project that has had issues delivering on time. You review the earned value management and find the schedule performance index (SPI) is 0.86 and the cost performance index (CPI) is 1.12. You advise the project sponsor, who asks you to bring the project back on track within the next two months. What will you do next?",
+    "options": {
+      "A": "Apply schedule crashing to bring the project back on track.",
+      "B": "Apply fast tracking to bring the project back on track.",
+      "C": "Update the risk register and assign the risk of project failure to an executive with the power to bring it back on track.",
+      "D": "Reduce the project scope to bring the project back on track."
+    },
+    "correct_answer": "A",
+    "explanation": "The project is behind schedule (SPI < 1) but under budget (CPI > 1), meaning there is money available to spend. Schedule crashing throws money and resources at the project to get it done faster, making it the best option. PMBOK Guide 6th edition, page 215 (schedule compression).",
+    "video_time": 187
+  },
+  {
+    "number": 3,
+    "question": "You're working on a change that includes stakeholders at all levels from the front-line workers to the senior executives. After performing stakeholder analysis, you and your team group the stakeholders according to their level of influence and the impact the change will have on them. The project sponsor asks what engagement strategy you will use for the front-line workers. What will you do next?",
+    "options": {
+      "A": "Manage them closely (high influence, high impact).",
+      "B": "Keep them satisfied (high influence, low impact).",
+      "C": "Monitor them only (low influence, low impact).",
+      "D": "Keep them informed (low influence, high impact)."
+    },
+    "correct_answer": "D",
+    "explanation": "Using an impact over influence grid, front-line workers have a low influence but receive a high impact from the project, so the correct engagement strategy is to keep them informed. PMBOK Guide 6th edition, page 512 (impact over influence grid).",
+    "video_time": 399
+  },
+  {
+    "number": 4,
+    "question": "You are working directly with the project sponsor in the initial phase of a brand new project. The project sponsor asks for your help in creating a document that formally authorizes the project, including details such as the cost-benefit analysis, feasibility study, and high-level risks. What will you do next?",
+    "options": {
+      "A": "Create a milestone project chart.",
+      "B": "Create a business case.",
+      "C": "Create a project charter.",
+      "D": "Create a project management plan."
+    },
+    "correct_answer": "C",
+    "explanation": "The project charter is the document that formally authorizes the project. The business case, cost-benefit analysis, and feasibility studies are inputs into this document, and it links the project to the strategic objectives of the organization. PMBOK Guide 6th edition, page 75 (develop project charter).",
+    "video_time": 594
+  },
+  {
+    "number": 5,
+    "question": "You are working as a project manager and your team is about to deliver the completed system to the customer. During the final round of testing, the customer points out that a major piece of functionality is missing which should have been in scope but was not previously thought of. What will you do next?",
+    "options": {
+      "A": "Deliver the system to the customer as it is with a promise to add the functionality later.",
+      "B": "Ask the sponsor to accept the risk and move on.",
+      "C": "Utilize the project's contingency reserves.",
+      "D": "Utilize the project's management reserves."
+    },
+    "correct_answer": "D",
+    "explanation": "Management reserves are withheld for management control purposes and reserved for unforeseen work that is within the scope of the project. This situation involves in-scope work that was not previously thought of, making management reserves the appropriate resource. PMBOK Guide 6th edition, page 202 (reserve analysis).",
+    "video_time": 701
+  },
+  {
+    "number": 6,
+    "question": "You and your team have completed the work on the project and the customer has confirmed the formal acceptance of the product delivered. You set a meeting with your team to document the lessons learned, and release and reassign the personnel as needed. What will you do next?",
+    "options": {
+      "A": "Gain final sign-off on the risk report with the steering committee.",
+      "B": "Archive all of the project information for future use by the organization.",
+      "C": "Review project documents for any open risks or issues.",
+      "D": "Ask the customer for a formal contract closure letter."
+    },
+    "correct_answer": "B",
+    "explanation": "Archiving all project information for future use by the organization is part of the project closure activities, preserving captured knowledge for future reference after the time-boxed project ends. PMBOK Guide 6th edition, page 123 (close project or phase).",
+    "video_time": 851
+  },
+  {
+    "number": 7,
+    "question": "You're working as a project manager for a medium-sized software project. The project sponsor believes that the team have not completed enough work in the last two weeks and comes to talk to you about it. What will you do next?",
+    "options": {
+      "A": "Review the team burn down chart to see the flow of work versus what was committed.",
+      "B": "Review the project risk register and raise a risk on project performance.",
+      "C": "Ask the team to work harder, putting in overtime where possible.",
+      "D": "Tell the project sponsor to focus on their area and let you manage the project."
+    },
+    "correct_answer": "A",
+    "explanation": "It is best to solve problems with real data and confirm there is a real problem before acting. The iteration burn down chart tracks work remaining versus work committed in the iteration backlog, showing variance against what was planned. PMBOK Guide 6th edition, page 226 (iteration burn down chart).",
+    "video_time": 1027
+  },
+  {
+    "number": 8,
+    "question": "You're working on a project that involves the renovation and removal of an old industrial plant. When investigating the area with your team to capture the project scope, you notice there are old chemicals left behind which hurt your lungs when you breathe them in. What will you do next?",
+    "options": {
+      "A": "Accept the risk and do nothing about it.",
+      "B": "Escalate the risk to your manager.",
+      "C": "Transfer the risk by hiring an external company to remove the chemicals.",
+      "D": "Avoid the risk by working on areas which don't have chemicals."
+    },
+    "correct_answer": "C",
+    "explanation": "When something is genuinely dangerous or highly risky, transferring it to a third party (such as hiring a specialist external company) is the best approach. Mitigating through proper controls would also be valid but was not presented as an option. PMBOK Guide 6th edition, page 443 (strategies for threats).",
+    "video_time": 1159
+  },
+  {
+    "number": 9,
+    "question": "During user acceptance testing, a senior user points out a major change needed to the project scope for it to be successful. You realize you may not have enough money or resources to complete your project, but you will need approval to increase either. What will you do next?",
+    "options": {
+      "A": "Review the change management plan for the correct change control process, including approvers on the Change Control Board.",
+      "B": "Review the configuration management plan to find out which documents need to be baselined.",
+      "C": "Review the scope management plan to see how changes to scope should be handled.",
+      "D": "Review the quality management plan to see rules for user acceptance."
+    },
+    "correct_answer": "A",
+    "explanation": "The change management plan provides the process for managing change control, including the Change Control Board membership and process. While the scope management plan is also relevant, the change management plan specifically addresses the change control process and approvers needed here. PMBOK Guide 6th edition, pages 88, 129, and 286.",
+    "video_time": 1303
+  },
+  {
+    "number": 10,
+    "question": "A new executive has started in the functional area that you are delivering to. They are concerned that the project is not delivering what they need and they put pressure on you to deliver more than what was originally agreed. You agree to meet and talk through the scope baseline so you are on the same page. What will you do next?",
+    "options": {
+      "A": "Gather the requirements traceability matrix and the feature Gantt chart.",
+      "B": "Gather the feature list and the current sprint backlog.",
+      "C": "Gather the approved scope management plan.",
+      "D": "Gather the project scope statement, work breakdown structure, and WBS dictionary."
+    },
+    "correct_answer": "D",
+    "explanation": "The scope baseline consists of the project scope statement, the work breakdown structure, and the WBS dictionary (work packages and planning packages are also included). These three components together form the scope baseline to review with the executive. PMBOK Guide 6th edition, page 161 (scope baseline).",
+    "video_time": 1460
+  },
+  {
+    "number": 11,
+    "question": "You are working on a project where you discover a certain negative risk with a potential impact of two million dollars. You meet with your project stakeholders who determine that this is within their risk appetite provided that you meet a risk threshold of 10%. What will you do next?",
+    "options": {
+      "A": "Note the acceptable risk level as a threat of two hundred thousand dollars, which is ten percent.",
+      "B": "Note the acceptable risk level as a threat of 1.8 million to 2.2 million, which is a 10% variance.",
+      "C": "Note the impact as outside the acceptable risk level of two million dollars.",
+      "D": "Note the impact as an opportunity of two hundred thousand dollars, which is ten percent."
+    },
+    "correct_answer": "B",
+    "explanation": "Risk appetite describes the level of uncertainty or risk stakeholders are willing to accept, and the risk threshold is the measure of acceptable variation around an objective that reflects the risk appetite. A 10% variation around 2 million is 1.8 to 2.2 million. (PMBOK 7th edition, page 54, under Risk)",
+    "video_time": 1575
+  },
+  {
+    "number": 12,
+    "question": "A risk has been raised in your project around insufficient building materials. One risk response assigned to the functional manager suggests to use a brand new material which has not been fully tested before in a building project. Half of your stakeholder group are happy with this risk response but the other half are not and refuse to sign off on it. What will you do next?",
+    "options": {
+      "A": "Suggest a quantitative risk approach to give a more accurate financial impact.",
+      "B": "Suggest they proceed with the proposed risk response and ensure it is followed through.",
+      "C": "Suggest a different risk owner as an executive may have more power to respond to the risk.",
+      "D": "Suggest a different risk response, as they should be timely, cost-effective, realistic, and agreed to by relevant stakeholders."
+    },
+    "correct_answer": "D",
+    "explanation": "Risk responses should be appropriate and timely to the significance of the risk, cost-effective, realistic within the project context, agreed to by relevant stakeholders, and owned by a responsible person. (PMBOK 7th edition, page 54, under Risk)",
+    "video_time": 1711
+  },
+  {
+    "number": 13,
+    "question": "Your project is starting to go off track due to a large amount of uncertainty in the requirements and resources. At a significant cost you manage to rein in these issues. However, your project management office would like you to brainstorm ways to improve with your team so that it does not happen again. What will you do next?",
+    "options": {
+      "A": "Ask your team to increase the project contingency reserve to allow for these impacts.",
+      "B": "Ask your team to change the project methodology from waterfall to Agile.",
+      "C": "Ask your team to use short feedback loops, continuous improvement, and transparent planning.",
+      "D": "Ask your team to check their work twice before sending it to the next part of the process."
+    },
+    "correct_answer": "C",
+    "explanation": "A project team needs to embrace adaptability and resiliency with methods such as using short feedback loops, continuous learning and improvement, regular inspection and adaptation of project work, diverse project teams, transparent planning, using prototypes, and more. (PMBOK 7th edition, page 56, under Embrace Adaptability and Resiliency)",
+    "video_time": 1881
+  },
+  {
+    "number": 14,
+    "question": "As your project progresses, many of the business stakeholders are starting to voice their concerns, question some of the changes, and even miss key meetings while trying to sabotage your efforts. What will you do next?",
+    "options": {
+      "A": "Communicate the vision and benefits for the change clearly, along with the impact to their work.",
+      "B": "Create an impact over influence chart to determine who should be engaged appropriately.",
+      "C": "Escalate the matter to your project sponsor and arrange for different stakeholders.",
+      "D": "Map the current state and the proposed future state of the change for the stakeholders."
+    },
+    "correct_answer": "A",
+    "explanation": "Change management is a structured approach to transitioning groups to a future state; too much change or a lack of understanding can lead to resistance and change fatigue. Methods include communicating the vision, goals, and benefits of the change early, along with the impact to work processes. (PMBOK 7th edition, page 59, Enable Change to Achieve the Envisioned Future State)",
+    "video_time": 2055
+  },
+  {
+    "number": 15,
+    "question": "You are analyzing your stakeholders through an impact over influence chart and have found more than 100 different groups of people and over 3,000 impacted stakeholders. Other parts of your project are starting to fall behind as you try to keep up with a large amount of people. What will you do next?",
+    "options": {
+      "A": "Ask your project team to engage different groups of stakeholders so everyone is covered.",
+      "B": "Clearly prioritize the stakeholders and engage and communicate with the highly impacted and influential groups early and often.",
+      "C": "Monitor the stakeholders for signs of stress and respond to the groups most stressed about the project.",
+      "D": "Create a SharePoint page for the changes that any stakeholder can gather information from at any time."
+    },
+    "correct_answer": "B",
+    "explanation": "The stakeholder engagement process includes: identify, understand and analyze, prioritize, engage, and monitor stakeholders. Where you have too many to engage effectively, prioritization is key, using impact, influence, power, beliefs, expectations, and proximity to the project. (PMBOK 7th edition, pages 11-12, under Stakeholder Engagement, Prioritize and Engage)",
+    "video_time": 2208
+  },
+  {
+    "number": 16,
+    "question": "You are managing a project which communicates to the customer using mostly pull communication. When monitoring the engagement of your stakeholders, you notice a trend that they are not clear on the impacts or benefits of the project. You decide to add push communication to your communication plan. What will you do next?",
+    "options": {
+      "A": "Create a web page or SharePoint with all the project information that your stakeholders can see.",
+      "B": "Push more funding for your project and communicate this to the project sponsor.",
+      "C": "Push your stakeholders to engage in more two-way communication.",
+      "D": "Send a weekly email to stakeholders with a project update including the impacts and benefits."
+    },
+    "correct_answer": "D",
+    "explanation": "Push communication is sent to stakeholders using memos, emails, status reports, voicemail, and more. Pull communication is something a customer can pull at any time from a bulletin, a web page, a whiteboard, or anything visual. (PMBOK 7th edition, page 13, Types of Communication)",
+    "video_time": 2388
+  },
+  {
+    "number": 17,
+    "question": "You have taken over on a project with a vendor where scope and requirements have been missed. You notice that miscommunication and mixed messages are common. You set a meeting with your team and the vendor's team. The meeting is extremely important to get right. What will you do next?",
+    "options": {
+      "A": "Speak slowly and clearly with the vendor's team at a louder volume if necessary.",
+      "B": "Confirm they hear your message, determine if they agree, and identify any nuanced or unintended messages that they may have received.",
+      "C": "Only communicate with the vendor in writing so you have a trail of proof if anything goes wrong in the future.",
+      "D": "Prepare a claim for the mishandled scope of your project through the procurement team."
+    },
+    "correct_answer": "B",
+    "explanation": "With all forms of communication, quick feedback loops provide the information you need by confirming they heard the message, determining if they agree, and identifying any nuances or additions to the message they may have added or heard themselves. (PMBOK 7th edition, page 13, Stakeholder Engagement, Engage)",
+    "video_time": 2548
+  },
+  {
+    "number": 18,
+    "question": "Your stakeholders seem to be engaged, however there are frequent changes to scope and requirements causing delays. Issues are often raised and result in multiple rounds of feedback. You are not sure who or what could be the cause. What will you do next?",
+    "options": {
+      "A": "Perform root cause analysis with your project team on the problem to brainstorm ideas.",
+      "B": "Raise a risk in the risk register for the project delay and review responses with your team.",
+      "C": "Review the issue log, the risk register, and the change log for the most frequent requesters, then update your stakeholder engagement approach for those people.",
+      "D": "Ensure your project budget has enough contingency reserves to meet the multiple reviews and delays."
+    },
+    "correct_answer": "C",
+    "explanation": "A significant number of changes or modifications to project requirements or scope may indicate stakeholders are not engaged or aligned with the project objectives. A review of the project issue register or risk register can identify challenges associated with individual stakeholders, so you can update your engagement approach accordingly. (PMBOK 7th edition, page 15, Checking Outcomes, Stakeholder Performance)",
+    "video_time": 2968
+  },
+  {
+    "number": 19,
+    "question": "You have been working on a project where the manager leads in a dictatorship style. Over time, the team have stopped making suggestions, sick days and mental health days have become more frequent, and the pace of work has slowed. The manager comes to you for help. You suggest a servant leadership style instead. What will they do next?",
+    "options": {
+      "A": "Serve the team as much as they can, ensuring their every need is met.",
+      "B": "Focus on obstacle removal, encouragement, and development opportunities.",
+      "C": "Ensure the team is serving other team members and helping each other succeed.",
+      "D": "Serve the team new ways to do the work and engage them through additional variety."
+    },
+    "correct_answer": "B",
+    "explanation": "Servant leaders allow project teams to self-organize when possible and increase levels of autonomy by passing appropriate decision-making opportunities to project team members. Servant leadership behaviors also include obstacle removal, being a diversion shield, and providing development opportunities to help the team grow. (PMBOK 7th edition, page 18, Distributed Management and Leadership)",
+    "video_time": 2964
+  },
+  {
+    "number": 20,
+    "question": "You have been allocated to a new project team with members from different parts of the functional business area. It soon becomes clear that very few of them have worked on a project before. There is a lot of miscommunication and rework occurring amongst the team, which is starting to cause delays. What will you do next?",
+    "options": {
+      "A": "Set a daily stand-up with your team to ensure they update what they completed.",
+      "B": "Review the resource assignment matrix with your team to ensure they are doing their job.",
+      "C": "Help the team set their vision and objectives, roles and responsibilities, and team operations, usually done through a team charter.",
+      "D": "Send your team members on training in their roles to increase their capability."
+    },
+    "correct_answer": "C",
+    "explanation": "When project teams form across different organizations, more work may be required up front to establish a one-team mindset. Team development such as establishing a vision, clear roles and responsibilities, and a way of working are key. (PMBOK 7th edition, page 18, Common Aspects of Team Development)",
+    "video_time": 3099
+  },
+  {
+    "number": 21,
+    "question": "You are nearing the end of a difficult project where the vendor providing the system to your company has taken longer than anticipated. The deliverables have been quality tested, validated and verified with the project sponsor and validated against the acceptance criteria. Your project sponsor is keen to finish the project and close it off. What will you do next?",
+    "options": {
+      "A": "Review the project management plan and approve change requests",
+      "B": "Review the procurement agreement and accepted deliverables",
+      "C": "Review the requirements management plan and requirements traceability matrix",
+      "D": "Review outstanding risks, issues, and approved change requests"
+    },
+    "correct_answer": "B",
+    "explanation": "When closing a project involving a vendor, the procurement agreements and accepted deliverables are inputs to the Close Project or Phase process. Once deliverables have been verified and accepted by the project sponsor, you can formally close the project or phase. (PMBOK 6 p.124, Close Project or Phase)",
+    "video_time": 3246
+  },
+  {
+    "number": 22,
+    "question": "You're managing a team through a difficult project which has been made more difficult by many team members being new and inexperienced and not having the right capability to get the work done. You're getting pressure from your steering committee to improve the performance of your project. What will you do next?",
+    "options": {
+      "A": "Use Tuckman's ladder of forming, storming, norming, performing with your team",
+      "B": "Use co-location, a shared knowledge portal, training, and team assessments",
+      "C": "Use conflict management, influencing, and emotional intelligence to get your team on side",
+      "D": "Use brainstorming and root cause analysis to get to the heart of the problem"
+    },
+    "correct_answer": "B",
+    "explanation": "Developing the team in Resource Management includes tools and techniques such as co-location, interpersonal skills, communication technology, training, team assessments, and recognition and rewards, which directly address capability and performance gaps. (PMBOK 6 p.340-342, Develop Team Tools and Techniques)",
+    "video_time": 3351
+  },
+  {
+    "number": 23,
+    "question": "You've planned the scope, schedule, cost, and resources with your team. You've also identified a large number of risks within the project. You're in the process of assigning the probability and impact to the risks when one of the risks occurs. Your project sponsor immediately worries about a worst-case scenario. What will you do next?",
+    "options": {
+      "A": "Utilize the management reserve for your project to mitigate the risk",
+      "B": "Review or create the risk response in the risk register and then use the appropriate contingency reserve to implement it",
+      "C": "Perform quantitative analysis on the risk to ensure you know how much it will cost",
+      "D": "Accept the risk for now as the risk analysis is not yet complete"
+    },
+    "correct_answer": "B",
+    "explanation": "This scenario describes performing qualitative risk analysis. Once done, risks are placed in the risk register with their responses and an appropriate contingency reserve is added to the work package for these known-unknown risks. The contingency reserve covers identified risks, not unforeseen scope. (PMBOK 6 p.440, Risk Register)",
+    "video_time": 3520
+  },
+  {
+    "number": 24,
+    "question": "A significant change has been made to the project scope after finding a serious system flaw. This scope change will impact the scope, cost, and schedule of the project. You analyze the impacts to each, raise an issue in the issue log, and are about to raise a change request. What will you do next?",
+    "options": {
+      "A": "Review the configuration management plan for the baseline project items",
+      "B": "Add the detail as a project delivery risk in your risk register",
+      "C": "Update the change log and implement the changes required",
+      "D": "Check the change management plan for the Change Control Board members and process"
+    },
+    "correct_answer": "D",
+    "explanation": "The change management plan provides direction for managing the Change Control process and documents the roles and responsibilities of the Change Control Board (CCB). Before raising a change request you need to know the process and who to submit it to. (PMBOK 6 p.116, Change Management Plan)",
+    "video_time": 3701
+  },
+  {
+    "number": 25,
+    "question": "Five major defects have been found during quality testing, resulting in the scope changing significantly and affecting your schedule and budget. You have analyzed the impacts and raised change requests for each. The Change Control Board has approved two changes, rejected two changes, and deferred one. What will you do next?",
+    "options": {
+      "A": "Record the outcomes in the change log and communicate the deferred and rejected changes to the change requester",
+      "B": "Review and re-prioritize the project scope to fit the must-have items into delivery",
+      "C": "Raise a risk for the affected changes to give them a better chance of approval",
+      "D": "Raise a claim on the affected changes to give them a better chance of approval"
+    },
+    "correct_answer": "A",
+    "explanation": "The outcomes of all change requests are recorded in the change log, and deferred or rejected change requests must be communicated back to the person or group requesting the change. This ensures all stakeholders are informed of CCB decisions. (PMBOK 6 p.120)",
+    "video_time": 3891
+  },
+  {
+    "number": 26,
+    "question": "You're working through the scope of a newly kicked-off project. The senior user is unsure on how the requirements and scope come together to create a deliverable that will work for him and the functional manager. Your program manager suggests you use decomposition in this circumstance. What will you do next?",
+    "options": {
+      "A": "Estimate activity resources for who is required to deliver the item",
+      "B": "Define a project scope for the functional manager",
+      "C": "Create a work breakdown structure and define the activities in your schedule",
+      "D": "Create the project charter and the project management plan for a clear view of the project"
+    },
+    "correct_answer": "C",
+    "explanation": "Decomposition is breaking things down into smaller and more manageable parts. It is a tool and technique used in both the Create Work Breakdown Structure and the Define Activities processes, making option C the correct answer. (PMBOK 6 p.156 and p.185)",
+    "video_time": 4025
+  },
+  {
+    "number": 27,
+    "question": "You have been assigned to take over a project in your organization and it has gone off track with scope creep causing the schedule and cost to increase. You can't quite understand the current cadence and the way of working within the team, so you decide to find out their development approach including any modifications. What will you do next?",
+    "options": {
+      "A": "Review the project charter as this was the original agreed document",
+      "B": "Review the schedule management plan as this will have team cadence schedules",
+      "C": "Review the project management plan as this will house the cadence approach",
+      "D": "Review the stakeholder register for stakeholder cadence needs"
+    },
+    "correct_answer": "C",
+    "explanation": "The development approach, including any modifications, is included in the project management plan. This defines whether a predictive, iterative, agile, or hybrid approach will be used on the project. (PMBOK 6 p.88, Project Management Plan)",
+    "video_time": 4150
+  },
+  {
+    "number": 28,
+    "question": "You're working on a complex engineering project where a significant amount of risk has been found with your team and the customer. The functional manager approaches to ask if she can work with your team to plan any risk responses. You agree to help her. What will you update the risk register with?",
+    "options": {
+      "A": "Risk triggers, agreed response strategies, and residual risks after mitigation",
+      "B": "Risk contingency reserves and quantitative analysis",
+      "C": "The list of risks, their probability and impact, and their overall risk rating",
+      "D": "Risk owners, assumptions, and mitigations"
+    },
+    "correct_answer": "A",
+    "explanation": "The Plan Risk Responses process updates the risk register with agreed-upon response strategies, triggers or warning signs of risk occurrence, and residual risks that are expected to remain after responses are implemented. (PMBOK 6 p.448, Plan Risk Responses)",
+    "video_time": 4279
+  },
+  {
+    "number": 29,
+    "question": "Your project is nearing completion. You have monitored and controlled quality through testing and risks with mitigations throughout your project life. The project sponsor is concerned that she won't know if the product being delivered has the desired effect on her business area once it is released. What will you do next?",
+    "options": {
+      "A": "Consult the quality management plan and act in accordance with that process",
+      "B": "Consult the benefits management plan and act in accordance with that process",
+      "C": "Consult the business case",
+      "D": "Consult the risk register"
+    },
+    "correct_answer": "B",
+    "explanation": "The benefits management plan is a business document that describes how and when the benefits will be delivered and the process to measure those benefits. During closing it is reviewed to measure whether the benefits of the project were achieved as planned. (PMBOK 6 p.125, Benefits Management Plan)",
+    "video_time": 4432
+  },
+  {
+    "number": 30,
+    "question": "You are the project manager on a higher-profile software project that involves automation technology not used before in your company. Because of this, your team have no resources to complete that part of the project. The steering committee approves outsourcing this work. What will you do next?",
+    "options": {
+      "A": "Perform a make-or-buy analysis to ensure a correct decision",
+      "B": "Approach your procurement department for a suitable contract to proceed with, such as a Cost Plus Incentive Fee",
+      "C": "Create the procurement statement of work and source selection criteria",
+      "D": "Review the current agreements and change requests impacting third-party work"
+    },
+    "correct_answer": "C",
+    "explanation": "In the beginning stages of procuring a vendor, the correct process is Plan Procurement Management, whose outputs include the procurement statement of work and source selection criteria used to find suitable vendors. The time for make-or-buy analysis has passed with the third-party approach already approved. (PMBOK 6 p.460, 477-478)",
+    "video_time": 4561
+  },
+  {
+    "number": 31,
+    "question": "You are a project manager working in the initial phases of a project trying to put together a document for your stakeholders to have your project approved. You remember the five C's of communication from your studies and decide to use them here. What will you do next?",
+    "options": {
+      "A": "Connect each part of the communication to create a bond between the message sender and receiver",
+      "B": "Ensure clear purpose and expression directed to the needs of the reader",
+      "C": "Care about the subject and the person",
+      "D": "Use correct grammar and spelling, concise expression, elimination of excess words, clear purpose and expression directed to the needs of the reader, and coherent logical flow of ideas"
+    },
+    "correct_answer": "D",
+    "explanation": "The five C's of communication are: correct grammar and spelling, concise expression, elimination of excess words, clear purpose and expression directed to the needs of the reader, and coherent logical flow of ideas. See PMBOK 6 page 363 under key concepts for project Communications.",
+    "video_time": 4766
+  },
+  {
+    "number": 32,
+    "question": "You have been working with the stakeholders in your project for some time and the communication has been getting more and more tense with each interaction. You perform a stakeholder engagement assessment and discover the majority of your stakeholders are either resistant or neutral. What will you NOT do next?",
+    "options": {
+      "A": "Ensure you are actively listening with each interaction, speaking less and listening more",
+      "B": "Increase your awareness of cultural and personal differences",
+      "C": "Identify, set, and manage stakeholder expectations correctly",
+      "D": "Escalate the stakeholder issue to their functional manager to bring them back in line"
+    },
+    "correct_answer": "D",
+    "explanation": "The four things that support the five C's in stakeholder engagement are: listening actively, awareness of cultural and personal differences, identifying and managing stakeholder expectations, and enhancement of skills in negotiation, coaching, and conflict resolution. Escalating to a functional manager is a last resort, not a first step. See PMBOK 6 page 363.",
+    "video_time": 4871
+  },
+  {
+    "number": 33,
+    "question": "You have been working on a large database transfer project when the manager for data in your organization identifies the aging systems as a threat to your project. You review this with your project team and decide to perform qualitative risk analysis on the threat. What will you do next?",
+    "options": {
+      "A": "Review the quality of the data",
+      "B": "Assign a probability of occurrence and an impact to the threat",
+      "C": "Perform analysis on a range of outcomes",
+      "D": "Add a risk trigger, mitigation, and owner to the threat"
+    },
+    "correct_answer": "B",
+    "explanation": "Qualitative risk analysis is the process of prioritizing individual project risks by assessing their probability of occurrence and their impact, and sometimes other characteristics. See PMBOK 6 page 419 under Perform Qualitative Risk Analysis.",
+    "video_time": 5033
+  },
+  {
+    "number": 34,
+    "question": "You're managing a project that has formed organically around an important process improvement. You have been given limited resources and a very small budget from the project sponsor. You are planning risk management with your team but you do not have the resources to complete all the necessary risk tasks. Which step will you remove in such a project?",
+    "options": {
+      "A": "Qualitative risk analysis",
+      "B": "Quantitative risk analysis",
+      "C": "Identify the risks",
+      "D": "Plan risk management"
+    },
+    "correct_answer": "B",
+    "explanation": "Quantitative risk analysis consumes additional time and cost and is more likely appropriate for large, complex, or strategically important projects. A small project with limited resources can skip it. See PMBOK 6 page 429.",
+    "video_time": 5176
+  },
+  {
+    "number": 35,
+    "question": "You are the project manager on a waterfall project and you have planned the requirements, scope, and schedule with your team. You now need to create the cost estimates for your project. What will you NOT do as part of your cost estimates?",
+    "options": {
+      "A": "Include contingency amounts to account for identified risks",
+      "B": "Include the known cost of project changes and managing project change",
+      "C": "Include indirect costs at the activity level if they are included in the project estimate",
+      "D": "Include a management reserve for unforeseen scope changes"
+    },
+    "correct_answer": "B",
+    "explanation": "Cost estimates include contingency and management reserves for risks and scope, and indirect costs if included in the project estimate. Managing project change is part of normal day-to-day project management and is not a component of cost estimates. See PMBOK 6 page 246 under Cost Estimates.",
+    "video_time": 5297
+  },
+  {
+    "number": 36,
+    "question": "You've just taken over as project manager on a difficult waterfall project. Multiple project stakeholders have approached you and asked to make changes to different parts of the scope, cost, and schedule of your project. You're trying to figure out which items need change approval and which can just be done. What will you do next?",
+    "options": {
+      "A": "Review the change management plan for the change approval process",
+      "B": "Review the scope management plan for how scope will be managed and changed",
+      "C": "Review the configuration management plan for baselined items",
+      "D": "Review the requirements traceability matrix for requirements matching"
+    },
+    "correct_answer": "C",
+    "explanation": "The configuration management plan shows which items in your project are baselined and need to go through the change management process. The change management plan explains the change process itself but does not identify which items are baselined. See PMBOK 6 page 169 under Configuration Management Plan.",
+    "video_time": 5462
+  },
+  {
+    "number": 37,
+    "question": "You're new to a project and you've been approached by the functional manager. No one has been able to tell them exactly what the project is about and what they need to be aware of, including the high-level scope, schedule, risks, and who approved the project in the first place. What will you do next?",
+    "options": {
+      "A": "Check the project activity list and schedule",
+      "B": "Hold a Sprint review to see what the team have developed so far",
+      "C": "Review the project Charter and identify the stakeholders impacted by the change",
+      "D": "Visit the project management office to gather organizational process assets"
+    },
+    "correct_answer": "C",
+    "explanation": "The project Charter holds the high-level information needed including project purpose, high-level requirements and deliverables, summary milestone schedule, project risks, stakeholders, and more. See PMBOK 6 page 155 under Project Charter.",
+    "video_time": 5711
+  },
+  {
+    "number": 38,
+    "question": "The project manager on your project recently left and you agreed to see the project through as it is nearly complete. The deliverables have been accepted and you just need to communicate the release to any and all affected stakeholders in the way that they agreed. What will you do next?",
+    "options": {
+      "A": "Review the communications management plan for how communication is managed",
+      "B": "Review the stakeholder engagement plan to see how they prefer to be engaged",
+      "C": "Review the stakeholder register for the people you need to communicate to",
+      "D": "Review the resource management plan for the resources affected by your project"
+    },
+    "correct_answer": "A",
+    "explanation": "The communications management plan describes how the project communications will be planned, structured, implemented, and monitored for effectiveness, containing stakeholder communication requirements, information to be communicated, reason for distribution, and more. See PMBOK 6 page 377 under Communications Management Plan.",
+    "video_time": 5831
+  },
+  {
+    "number": 39,
+    "question": "You have been working on a project in your organization for some time. In the latest working group meeting, the project sponsor adds a new executive member to the group. As soon as they arrive, they raise a new scope item that was not in the original plan. What will you do next?",
+    "options": {
+      "A": "Raise a change request to change the scope baseline",
+      "B": "Update the stakeholder register with the new stakeholder details",
+      "C": "Raise an issue for the scope change in the issue log",
+      "D": "Update the change log with the initial details of the scope change"
+    },
+    "correct_answer": "B",
+    "explanation": "When a new stakeholder joins the project, the very next step is to update the stakeholder register with their identification information, assessment information, and classification. The change control process can come next after analyzing the stakeholder's impact on the project. See PMBOK 6 page 514 under Stakeholder Register.",
+    "video_time": 5830
+  },
+  {
+    "number": 40,
+    "question": "Your project team have been complaining about poor stakeholder engagement in a certain part of the organization for some time. It's now impacting the project schedule and you may need to use your contingency reserve to crash the schedule and bring it back on track. What will you do next?",
+    "options": {
+      "A": "Review the cost management plan and access the appropriate contingency reserve",
+      "B": "Perform root cause analysis on the problem with your team",
+      "C": "Raise the engagement as a risk and escalate it immediately to the functional manager",
+      "D": "Change the way of working to Agile to increase stakeholder engagement"
+    },
+    "correct_answer": "B",
+    "explanation": "Root cause analysis is an analytical technique used for identifying root causes and problem solving. A responsible project manager should try to solve the problem first before accessing contingency reserves, and risks must go through the proper process of analysis, assignment, and mitigation before deciding to escalate. See PMBOK 6 page 292 under Root Cause Analysis.",
+    "video_time": 6003
+  },
+  {
+    "number": 41,
+    "question": "You are delivering a brand new product line into your organization, partly utilizing a third-party system. You have been working with the functional manager and her team to gather their expert judgment throughout development when they raise a concern that the third-party system is being discontinued and losing support in the next 12 months. What will you do next?",
+    "options": {
+      "A": "Update the risk register",
+      "B": "Update the issue log",
+      "C": "Ignore the concern",
+      "D": "Escalate the concern to your project sponsor"
+    },
+    "correct_answer": "A",
+    "explanation": "The discontinued system is a future risk, not a current issue, so it should be recorded in the risk register. One of the outputs of the Identify Risks process is the updated risk register (PMBOK 6, page 409).",
+    "video_time": 6224
+  },
+  {
+    "number": 42,
+    "question": "You have joined a car manufacturing company as a new project manager. Senior management have asked you to take the necessary steps that will enable you to kick-start a project in a corresponding area for designing a new electronic dashboard. What will you do next?",
+    "options": {
+      "A": "Review the marketplace conditions",
+      "B": "Create a cost benefit analysis and feasibility study for a business case",
+      "C": "Gather the high-level requirements, scope, milestones, and risks for a project charter",
+      "D": "Start the project through a kickoff meeting immediately and begin gathering resources"
+    },
+    "correct_answer": "C",
+    "explanation": "Developing the project charter is the first step in the initiating stage; it formally authorizes the project and captures high-level scope, milestones, risks, and deliverables. This is covered on pages 25 and 81 of PMBOK 6.",
+    "video_time": 6424
+  },
+  {
+    "number": 43,
+    "question": "Your project team have just finished defining the scope of the project. They have matched the scope to the original requirements on a requirements traceability matrix. The team cannot agree on what to do next. What will you ask them to do?",
+    "options": {
+      "A": "Ask your quality team to verify the scope so the project can proceed",
+      "B": "Approach the project sponsor for acceptance of the project scope",
+      "C": "Break down the scope into activities and place them on a project schedule",
+      "D": "Review the scope management plan for direction on creating the work breakdown structure"
+    },
+    "correct_answer": "D",
+    "explanation": "After defining scope, the next step is to create the work breakdown structure; the scope management plan outlines the process for creating the WBS and scope baseline. This is covered on pages 130–137 of PMBOK 6.",
+    "video_time": 6593
+  },
+  {
+    "number": 44,
+    "question": "You have just taken over a project that is approximately halfway through and has used around 75 percent of its budget. A change to one of the features has been requested after extensive user acceptance testing and your project team cannot agree on what to do next or whether changes should be made. What will you do next?",
+    "options": {
+      "A": "Check the change management plan for details on how to make changes",
+      "B": "Check the requirements traceability matrix for how the requirements should be traced",
+      "C": "Blame the previous project manager loudly for not having a process to deal with this situation",
+      "D": "Check the scope management plan for details on how to manage the scope"
+    },
+    "correct_answer": "D",
+    "explanation": "Because the team is unsure whether changes should be made at all, the scope management plan is checked first since it documents how project scope will be defined, validated, monitored, and controlled. Page 169 of PMBOK 6 covers the scope management plan.",
+    "video_time": 6933
+  },
+  {
+    "number": 45,
+    "question": "You have been asked to work on a process improvement within your team. The manager has secured a developer to assist you with automating the process once it is streamlined, but you will need to make sure that they understand the process thoroughly, including the criteria to test the automation against. What will you do next?",
+    "options": {
+      "A": "Gather your team and developer and create a flowchart together",
+      "B": "Use an affinity diagram to group things together",
+      "C": "Gather your team and perform a cost benefit analysis for the automation",
+      "D": "Gather your team and create a quality management plan"
+    },
+    "correct_answer": "A",
+    "explanation": "A flowchart shows the process from start to finish including decision points and people, departments, or systems involved, making it ideal for helping the developer understand the process and derive acceptance criteria. This is a quality planning tool on page 282 of PMBOK 6.",
+    "video_time": 7055
+  },
+  {
+    "number": 46,
+    "question": "You are working on a new project where the design and the project work, including all of the scope and cost, have been planned up front. However, part of the project relies on a vendor creating a new add-on for your project, which will be subject to multiple changes as the core product is created. What product development lifecycle approach will you recommend to the team?",
+    "options": {
+      "A": "Predictive or waterfall",
+      "B": "Iterative",
+      "C": "Incremental",
+      "D": "A hybrid approach combining pre-planned activities then iterations and ceremonies that promote collaboration and feedback for the changeable parts of the project"
+    },
+    "correct_answer": "D",
+    "explanation": "A hybrid lifecycle combines a predictive cycle for well-known fixed requirements and an adaptive cycle for evolving elements, which fits this project perfectly. Page 19 of PMBOK 6 covers hybrid project and development lifecycles.",
+    "video_time": 7173
+  },
+  {
+    "number": 47,
+    "question": "The project you are managing has defined the scope and created the scope baseline with the scope statement, the work breakdown structure, and the work breakdown structure dictionary. The project sponsor is unhappy with the planning process and would like to know how much this scope will cost to deliver. What is the next best action you should take?",
+    "options": {
+      "A": "Create the project budget",
+      "B": "Define and sequence the activities and estimate their durations",
+      "C": "Create the resource management plan",
+      "D": "Review the project charter for the high-level project scope, schedule, and costs"
+    },
+    "correct_answer": "B",
+    "explanation": "You cannot create the budget without first knowing the activities, their durations, and the resources required; the schedule must be developed before cost can be estimated. Page 174 under Plan Schedule Management in PMBOK 6 covers this sequence.",
+    "video_time": 7334
+  },
+  {
+    "number": 48,
+    "question": "You are working on a project charter for the initiating stage of a new project that will deliver a new data system. You approach your enterprise data team and ask them for an estimate to deliver these changes. However, your project sponsor believes a third-party vendor will provide the best solution. What will you do next?",
+    "options": {
+      "A": "Create the project charter and let the steering committee decide",
+      "B": "Perform a make or buy analysis with a payback period",
+      "C": "Ask the enterprise data team for their lowest quote to ensure they win",
+      "D": "Take an agile approach to the project and deliver it in increments"
+    },
+    "correct_answer": "B",
+    "explanation": "A make-or-buy analysis, which may include payback period, net present value, and cost-benefit analysis, is used to decide between internal and external delivery options. Page 473 under Data Analysis in PMBOK 6 covers make-or-buy analysis.",
+    "video_time": 7501
+  },
+  {
+    "number": 49,
+    "question": "You are working on a project where the functional manager is unhappy with the changes being brought about to his part of the organization. He argues constantly, misses key meetings, demands multiple sign-offs to slow progress, and more. The project sponsor asks you to go for a win-win approach to this conflict. What will you do next?",
+    "options": {
+      "A": "Smooth and accommodate, emphasizing areas of agreement",
+      "B": "Collaborate and problem solve with the manager",
+      "C": "Compromise and reconcile with the manager",
+      "D": "Force and direct"
+    },
+    "correct_answer": "B",
+    "explanation": "Only collaborating and problem solving results in a win-win outcome; smoothing/accommodating is lose-win, compromising is lose-lose, and forcing is win-lose. Page 348 under Conflict Management in PMBOK 6 covers this.",
+    "video_time": 7682
+  },
+  {
+    "number": 50,
+    "question": "You are working on a large multi-year project. You realize that the estimates from a year ago are extremely inaccurate and the project is now off track. You would like to try a different approach that gives a high-level view of future work and a detailed view of near-term work. What are you going to do next?",
+    "options": {
+      "A": "Recommend a decomposition approach",
+      "B": "Recommend following the process in the schedule management plan",
+      "C": "Recommend an iterative approach to development",
+      "D": "Recommend a rolling wave planning approach"
+    },
+    "correct_answer": "D",
+    "explanation": "Rolling wave planning means planning near-term work in detail while keeping future work at a high level and progressively elaborating as the project advances. Page 185 on rolling wave planning in PMBOK 6 covers this technique.",
+    "video_time": 7818
+  },
+  {
+    "number": 51,
+    "question": "You are in the initiating stages of a project working for a car manufacturer. Their vehicles have been losing market share due to the high price of fuel and the organization wants to build more fuel-efficient cars. You've been asked to put together a business case outlining the various options with a specific order to perform benchmarking. What will you do next?",
+    "options": {
+      "A": "Find which competitor products have been benchmarked for future production",
+      "B": "Compare the specifications of popular branded fuel efficient cars available in the market with your products",
+      "C": "Create a project Charter to use as a benchmark for your future project management plan",
+      "D": "Benchmark your current scope, cost and schedule to baseline values for project performance"
+    },
+    "correct_answer": "B",
+    "explanation": "Benchmarking involves comparing actual or planned products, processes and practices to those of comparable organizations to identify best practices, generate ideas for improvement, and provide a basis for measuring performance. PMBOK 6 page 143.",
+    "video_time": 8013
+  },
+  {
+    "number": 52,
+    "question": "When reviewing the project performance with your team you notice the following: Activity A is on the critical path delayed by 5 days; Activity B is not on the critical path; Activity C is on the critical path; Activity D is not on the critical path. Where will you ask the team to focus their efforts and in which order to bring the project back on track?",
+    "options": {
+      "A": "A, B, C, D",
+      "B": "D, A, B, C",
+      "C": "A, C, B, D",
+      "D": "C, A, B, D"
+    },
+    "correct_answer": "C",
+    "explanation": "Tasks on the critical path should be addressed first as they are critical to the project schedule. After that, items that are delayed by the most should be addressed as soon as possible. PMBOK 6 page 210 (critical path method).",
+    "video_time": 8106
+  },
+  {
+    "number": 53,
+    "question": "As your project begins it becomes clear that most of the business analysts, developers and testers are not familiar with the system that they'll be modifying. The project sponsor asks you to address this as a potential future quality issue and asks you to add a series of training sessions for the team with associated cost. What type of cost is this?",
+    "options": {
+      "A": "Appraisal costs",
+      "B": "Preventative costs",
+      "C": "Internal failure costs",
+      "D": "Sunk costs"
+    },
+    "correct_answer": "B",
+    "explanation": "Preventative cost is the best answer here, as through training we are preventing future quality issues. Appraisal cost is the cost of auditing or checking work, internal failure costs are caught before release, and sunk cost is money already spent. PMBOK 6 page 282 (cost of quality).",
+    "video_time": 8323
+  },
+  {
+    "number": 54,
+    "question": "You have finished project planning, all baselines and documents have been approved and the project team is ready to begin project execution. Your team have planned and estimated the activities and resources required. What are you going to do next?",
+    "options": {
+      "A": "Define with the team how to estimate, acquire, manage and use team and physical resources",
+      "B": "Estimate the team resources and the type and quantities of materials, equipment and suppliers necessary to perform the project work",
+      "C": "Obtain the team members, facilities, equipment, materials, supplies and other resources necessary to complete the project work",
+      "D": "Monitor the plan versus actual utilization of resources and take corrective action if it goes off course"
+    },
+    "correct_answer": "C",
+    "explanation": "After planning and estimating resources comes acquiring those resources during project execution. Acquiring resources is described as obtaining team members, facilities, equipment, materials, supplies and other resources necessary to complete the project work. PMBOK 6 page 328 (acquiring resources); page 25 for process mapping groups.",
+    "video_time": 8520
+  },
+  {
+    "number": 55,
+    "question": "You've been working on a large waterfall project for some time and one of the business analysts working with you has shown interest in taking on higher duties and moving into a project management role. What advice will you give them?",
+    "options": {
+      "A": "Work on their soft skills for communication, conflict management and negotiation",
+      "B": "Ensure that they can create a project Charter and a project management plan",
+      "C": "Work on their knowledge and skills in leadership, and strategic and business management",
+      "D": "Work on contract and procurement skills"
+    },
+    "correct_answer": "C",
+    "explanation": "The Project Manager Talent Triangle includes technical project management skills, leadership, and strategic and business management. All three areas are needed to be a well-rounded project manager. PMBOK 6 page 56 (project manager competencies).",
+    "video_time": 8704
+  },
+  {
+    "number": 56,
+    "question": "You're working as a project manager in an organization with a new project management office. They advise all project managers to fulfill their numerous roles within their sphere of influence. What is your responsibility when it comes to the organization as a project manager?",
+    "options": {
+      "A": "Proactively interact with other project managers for demands on the same resources, funding, and alignment of project goals to the organization",
+      "B": "Communicate within your project",
+      "C": "Ensure an understanding of changing market niches and standards",
+      "D": "Educate other professionals in the organization regarding the value of project management"
+    },
+    "correct_answer": "A",
+    "explanation": "Being proactive with other project managers for resources and funding is influencing within the organization sphere. Communicating within your project is the project sphere, understanding of market niches is the industry sphere, and educating other professionals is across disciplines. PMBOK 6 page 52 (project manager's sphere of influence).",
+    "video_time": 8908
+  },
+  {
+    "number": 57,
+    "question": "You have just joined an organization and you're about to be allocated to an existing project delivering a new human resources system. You've heard that the project is behind its delivery milestones and is over budget by forty thousand dollars so far. There are multiple stakeholders with differing needs. What will you do next?",
+    "options": {
+      "A": "Create a project management plan outlining the processes for each phase",
+      "B": "Perform a stakeholder engagement assessment to see who is sabotaging the project",
+      "C": "Start by understanding how the organization works, including its politics and power",
+      "D": "Meet with the project sponsor to understand why the project is off track"
+    },
+    "correct_answer": "C",
+    "explanation": "Being new to the organization and new to the project, the best thing to do is to understand the internal Enterprise Environmental Factors (EEFs) — the environment you are delivering in. Stakeholders are not your first concern; you need to know how to get things done. PMBOK 6 page 62 (politics, power and getting things done).",
+    "video_time": 9130
+  },
+  {
+    "number": 58,
+    "question": "You're working in an organization where a large change is happening to multiple departments. You have been asked to manage this change as a project and allocate people within your project team with sufficient leadership skills. What will you NOT look for in potential candidates?",
+    "options": {
+      "A": "People who build trust, balance opposing goals and apply persuasion and conflict resolution",
+      "B": "People who give feedback constructively and accept feedback constructively",
+      "C": "People who can describe the product goals and objectives of the project",
+      "D": "People who ensure the work is done their way to ensure the fastest approach"
+    },
+    "correct_answer": "D",
+    "explanation": "The qualities and skills of a leader include integrity, being a visionary, being collaborative and using influence appropriately. They do not include dictating or doing things their own way without taking feedback from the team. PMBOK 6 page 61 (qualities and skills of a leader).",
+    "video_time": 9308
+  },
+  {
+    "number": 59,
+    "question": "You've started as a junior project manager on an internal process improvement project within your existing team. Your project manager asks you to be aware of and use the various forms of power available to you. What is the best type of power available to you in this situation?",
+    "options": {
+      "A": "Situational power",
+      "B": "Positional power",
+      "C": "Coercive power",
+      "D": "Informational power"
+    },
+    "correct_answer": "D",
+    "explanation": "As a junior project manager you have limited ability to discipline others or provide rewards. The change is in your existing team, so the best action is to use informational power as you will have existing expert judgment from within your own team. PMBOK 6 page 63 (politics, power and getting things done).",
+    "video_time": 9431
+  },
+  {
+    "number": 60,
+    "question": "You're working on a new waterfall project where the scope and cost have been planned up front. As the project progresses you notice several tasks going off track and falling behind. Luckily these tasks are not on the critical path and they have several days of float available. You can adjust their dates without affecting the overall project. What technique will you use to keep the project on track?",
+    "options": {
+      "A": "Resource smoothing",
+      "B": "Resource leveling",
+      "C": "Schedule fast tracking",
+      "D": "Schedule crashing"
+    },
+    "correct_answer": "A",
+    "explanation": "Resource smoothing is when we use available float to adjust tasks without affecting the overall schedule. Leveling moves tasks further out in sequence, fast tracking does tasks in parallel instead of in sequence, and crashing adds costs and resources to reduce schedule time. PMBOK 6 page 211 (resource optimization).",
+    "video_time": 9305
+  },
+  {
+    "number": 61,
+    "question": "About a third of your project team have worked on a similar project in the past. They have gathered the requirements and created a high level scope. It is time to estimate the size and effort involved. However, the customer believes things are taking too long and would like to see some progress as soon as possible. What will you do next?",
+    "options": {
+      "A": "Ask the customer to wait so we can plan the project properly",
+      "B": "Estimate the scope using parametric estimating",
+      "C": "Break the high level scope into smaller parts using a work breakdown structure",
+      "D": "Estimate the scope using analogous estimating"
+    },
+    "correct_answer": "D",
+    "explanation": "Analogous estimating uses information regarding resources from a previous similar project as the basis for estimating a future project. It is a quick estimating method used when the project manager can only identify a few top levels of the work breakdown structure. PMBOK Guide 6th Edition, page 324 under Analogous Estimating.",
+    "video_time": 9503
+  },
+  {
+    "number": 62,
+    "question": "You have been asked to monitor the changes to a product before completing your next project phase. You review the control chart. The data is within the upper and lower limits. You have an upward trend of four data points and six points above the average line. Based on this, what will you do next?",
+    "options": {
+      "A": "Proceed with the next phase as the process is within control",
+      "B": "Delay the next phase and rework the current release as the process is out of control",
+      "C": "Ask the project sponsor to validate the released deliverable",
+      "D": "Proceed with quality testing to verify the created deliverables"
+    },
+    "correct_answer": "A",
+    "explanation": "The rules for control charts indicate a process is out of control if seven or more consecutive points are above the center line, five or more points are trending in one direction, or any point falls outside the control limits. With only four trending points and six above the average line, the process remains within control. Reference: Green Belt Handbook, page 404, Statistical Quality Control.",
+    "video_time": 9691
+  },
+  {
+    "number": 63,
+    "question": "You are working in the process of planning the resources required for your project. Work on your project has not started as your team are not sure what they should be doing. You decide to create the resource management plan with your team. What output do you specifically need from this plan so people know what they need to do?",
+    "options": {
+      "A": "Stakeholder register",
+      "B": "Project charter",
+      "C": "Requirement traceability matrix",
+      "D": "Roles and responsibilities with their role details, authority and competence"
+    },
+    "correct_answer": "D",
+    "explanation": "The specific output of planning resource management is roles and responsibilities, including role details, authority, and competence. The stakeholder register captures people involved with the project but not necessarily project team members and their roles. PMBOK Guide 6th Edition, page 318 under Resource Management Plan Outputs.",
+    "video_time": 9855
+  },
+  {
+    "number": 64,
+    "question": "A quality assurance manager has been hired externally to test the project and manage defects. She executed the process in the quality management plan with her testing team where they found a high number of low impact defects. You need to see where the biggest impacts actually are. What will you do next?",
+    "options": {
+      "A": "Flowchart",
+      "B": "Matrix diagram",
+      "C": "Affinity diagram",
+      "D": "Histogram"
+    },
+    "correct_answer": "D",
+    "explanation": "A histogram is a bar chart that counts the number of occurrences of each item, making it the best tool for identifying the most common defect types and where the biggest concentrations of defects exist. PMBOK Guide 6th Edition, page 293 under Histograms.",
+    "video_time": 9969
+  },
+  {
+    "number": 65,
+    "question": "The project you are working on has recently started and the team has come together from many different parts of the organization, each with their own agenda. There are lots of small conflicts in the team and there is little work getting done. The program manager asks you to use your positional power to resolve these conflicts as the team starts to find its rhythm. What will you do?",
+    "options": {
+      "A": "Withdraw from the conflict",
+      "B": "Force a decision for the conflicts",
+      "C": "Smooth and accommodate all sides in the conflicts",
+      "D": "Problem solve conflicts with the team"
+    },
+    "correct_answer": "B",
+    "explanation": "Using positional power is forcing your viewpoint at the expense of others, mostly offering win-lose solutions. This approach works best to resolve conflicts in a quick timeframe when the project manager has the authority to approve changes. PMBOK Guide 6th Edition, page 349, Conflict Management.",
+    "video_time": 10092
+  },
+  {
+    "number": 66,
+    "question": "During your project your company was taken over by another larger company and the project management office and its policies were changed. The project customer has already formally accepted the deliverables. The project has completed delivery and it is ready to be closed. What will you do next?",
+    "options": {
+      "A": "Refer to the charter for the closing procedures",
+      "B": "Refer to the scope management plan for the deliverables acceptance",
+      "C": "Gather the details of the accepted deliverables, any agreements and procurement documentation in order to close the project",
+      "D": "The project cannot be closed as the project outcomes need to be measured and accepted"
+    },
+    "correct_answer": "C",
+    "explanation": "Inputs into the Close Project or Phase process include accepted deliverables, agreements, and procurement documentation if there are any vendors or third parties. PMBOK Guide 6th Edition, page 126.",
+    "video_time": 10264
+  },
+  {
+    "number": 67,
+    "question": "One of your stakeholders with a very high influence within the company has raised an urgent change that they want implemented within the next two weeks. You check the change management plan and see that changes can be approved by the project manager. You raise a change request and review the impact on the project schedule and cost. What are you going to do next?",
+    "options": {
+      "A": "Review the configuration management plan to see which documents are baselined",
+      "B": "Review the schedule earned value reports for your project",
+      "C": "Decide on the changes, approve the changes and track the changes",
+      "D": "Review the requirement traceability matrix for the requirement acceptance and sign off"
+    },
+    "correct_answer": "C",
+    "explanation": "Earned value reports on cost or schedule variances are an input to the Change Control process. Since the project manager has the authority to approve change requests on this project, the steps are to decide, approve, and track those changes once the impact has been determined. PMBOK Guide 6th Edition, page 119 under Change Control Tools.",
+    "video_time": 10407
+  },
+  {
+    "number": 68,
+    "question": "You are in the process of measuring the outcome of one of your deliverables on the business. The data shows that there seems to be an improvement but the range of results is very wide. You are able to get very clear results. Based on these results, what will you do next?",
+    "options": {
+      "A": "The results have high accuracy and high precision - no further action is needed",
+      "B": "The results have low accuracy but high precision - the deliverable process should be improved",
+      "C": "The results have low accuracy and low precision - the measurement equipment should be calibrated",
+      "D": "The results have high accuracy but low precision - the measurement equipment should be replaced"
+    },
+    "correct_answer": "B",
+    "explanation": "Low accuracy means a large range of outputs; high precision means results are very clearly defined. When results show low accuracy but high precision, the deliverable process should be improved to narrow the range of outcomes. PMBOK Guide 7th Edition, page 54, section 2.4 under Estimating.",
+    "video_time": 10578
+  },
+  {
+    "number": 69,
+    "question": "In the last few months your project team have had a large amount of conflict finding their role and place within the team. They are starting to work together and adjust their work habits and behaviors to support the team. As a leader, what will you do next?",
+    "options": {
+      "A": "The team is in the forming stage - set clear goals and expectations",
+      "B": "The team is in the storming stage - use positional power to resolve conflicts",
+      "C": "The team is in the norming stage - help them move into performing so they can truly deliver great outcomes",
+      "D": "The team is in the performing stage - delegate more responsibility to the team"
+    },
+    "correct_answer": "C",
+    "explanation": "These are the Tuckman stages of team development. A team that has moved through conflict (storming) and is starting to work together is in the norming stage. The leader should help them use this momentum and move into performing so they can truly deliver great outcomes. PMBOK Guide 6th Edition, page 338, Tuckman Ladder.",
+    "video_time": 10752
+  },
+  {
+    "number": 70,
+    "question": "You have used a project charter and statement to create the project management plan. You present the plan to key stakeholders including the project sponsor and you sense a high level of dissatisfaction by the customer executives. They do not believe that the project will produce the results that they had expected. What should you do next?",
+    "options": {
+      "A": "Request a written statement from the customer detailing their concerns",
+      "B": "Proceed as normal - your project plan will produce a convincing product for the customer",
+      "C": "Arrange a change request, re-plan your project where necessary and go ahead with the project work",
+      "D": "Work together with your customer to create a narrative scope statement outlining the deliverables"
+    },
+    "correct_answer": "D",
+    "explanation": "A collaborative and direct approach, combined with the proper outputs of defining scope such as the scope statement including description, deliverables, and acceptance criteria, is the best path forward to align customer expectations. PMBOK Guide 6th Edition, page 154 under Project Scope Statement.",
+    "video_time": 10857
+  },
+  {
+    "number": 71,
+    "question": "You have planned, executed, and monitored a project to completion. The customer has just received the finished product and would like to close the project. The customer advises you that they are not happy with the received product, that your team did not listen when they raised quality concerns, and that they are raising a claim against your company. What will you do next?",
+    "options": {
+      "A": "Raise a change request for their proposed changes and update the project plan.",
+      "B": "Call their bluff, take the claim to a dispute, and then appeal if necessary.",
+      "C": "Review the claims process in the contract and negotiate with them to settle the claim.",
+      "D": "Review the earned value management report for any impact to the schedule and cost of your project."
+    },
+    "correct_answer": "C",
+    "explanation": "The claims handling process is outlined in the procurement contract, and the preferred way to handle claims is to settle them through negotiation. PMBOK Guide 6th edition, page 498, under Claims Administration.",
+    "video_time": 10436
+  },
+  {
+    "number": 72,
+    "question": "You are in the process of creating a project charter for your organization to try and gain resources for an automated process improvement. The project sponsor is also the functional manager in charge of the resources for that area, and she rejects your project charter noting that you have outlined everything you want from her team but nothing about what her area will get in return. What will you do next?",
+    "options": {
+      "A": "Rework the project charter to include the benefits management plan and success measures.",
+      "B": "Escalate the project charter to the project sponsor's manager as this project is important.",
+      "C": "Ask the project sponsor to work agile and start delivering a minimum viable product.",
+      "D": "Begin work on the requirements management plan as this will show the sponsor how their requirements will be added and tracked."
+    },
+    "correct_answer": "A",
+    "explanation": "The project charter should ideally include the project benefits management plan, including the target benefits, strategic alignment, and time frame for realizing them, and may include success measures such as return on investment (ROI) or the payback period. PMBOK Guide 6th edition, pages 343–344, under Project Success Measures.",
+    "video_time": 10593
+  },
+  {
+    "number": 73,
+    "question": "You are working on a complex, high-value project to replace the telecommunications system across your organization. You have created a request for quote for vendors to respond to, including source selection criteria and a statement of work, and you have already selected a seller based on multiple vendor responses. What will you do next?",
+    "options": {
+      "A": "Record the new vendor in your stakeholder register and begin engaging them to deliver the project.",
+      "B": "Draft an appropriate contract such as fixed price incentive fee to proceed with the implementation.",
+      "C": "Replace the approved request for quote in your procurement management plan and proceed with the delivery of the project.",
+      "D": "Approach organizational senior management for approval to award the contract."
+    },
+    "correct_answer": "D",
+    "explanation": "Final approval of complex, high-value, high-risk procurements will generally require organizational senior management approval prior to award; only then can the contract be drafted and signed. PMBOK Guide 6th edition, page 488, under Conduct Procurements outputs and Selected Sellers.",
+    "video_time": 10779
+  },
+  {
+    "number": 74,
+    "question": "You have been planning your project using a waterfall methodology and need to estimate the resources required with your team. Your project management office recently stopped using third parties or off-site workers and mandated resources to be on-site only. You review the activity list based on your project scope and realize that some essential project resources currently work off-site. What will you do next?",
+    "options": {
+      "A": "Discuss the available options with the project sponsor.",
+      "B": "Perform alternatives analysis on the impact of both on-site and off-site workers for the project.",
+      "C": "Update the resource management plan with the on-site worker mandate.",
+      "D": "Update the resource calendar with the available people, locations, and dates before baselining your project plan."
+    },
+    "correct_answer": "B",
+    "explanation": "Alternatives analysis assists in providing the best solution to perform project activities within defined constraints; you need to understand the options and their impacts before discussing with the sponsor or updating plans. PMBOK Guide 6th edition, page 325, under Estimate Resources – Data Analysis.",
+    "video_time": 10993
+  },
+  {
+    "number": 75,
+    "question": "You have been working on a project where the organization wanted only on-site workers. While you believed the project needed specific skills that were only available off-site, you worked through the various options and agreed to use the on-site workers available. As your project progresses, however, it becomes clear that the project is not being done to specification and you really do need the off-site workers. What will you do next?",
+    "options": {
+      "A": "Update the issue log and the resource calendar with the resource requirements.",
+      "B": "Use problem solving with your team and negotiation with the project sponsor.",
+      "C": "Gather work performance information from your team and raise a change request.",
+      "D": "Raise a risk in the risk register and brainstorm risk responses with your team."
+    },
+    "correct_answer": "B",
+    "explanation": "This refers to the tools and techniques used when monitoring and controlling resources; these techniques include problem solving and negotiation. A change request is for impacted baselined items affecting schedule or cost, not the immediate next step here. PMBOK Guide 6th edition, pages 356–357, under Problem Solving and Interpersonal and Team Skills.",
+    "video_time": 11168
+  },
+  {
+    "number": 76,
+    "question": "You are working on a very high infrastructure project that is critical to your organization. The team are experienced in this area after working on this project for the past 12 months. During a working group meeting they mentioned they are stuck and cannot implement part of the project. You raise an issue in the issue log and decide to problem solve with your team. What will you do next?",
+    "options": {
+      "A": "Escalate the problem outside your team as they clearly cannot move forward.",
+      "B": "Review the lessons learned register for lessons to help solve similar problems.",
+      "C": "Define the problem with data, identify the root cause, and generate possible solutions to choose from.",
+      "D": "Raise a risk to project delivery and note the impact and likelihood of the risk."
+    },
+    "correct_answer": "C",
+    "explanation": "Various problem-solving methods generally include defining the problem with data, finding the root cause, and generating solutions to choose from and test; going outside the experienced team may complicate things further. PMBOK Guide 6th edition, pages 295 and 356, under Problem Solving.",
+    "video_time": 11335
+  },
+  {
+    "number": 77,
+    "question": "You are creating a high-level project charter which has now been approved. The project sponsor expects you to get to work straight away and you do not know who to approach or who is available to help you with this project. What will you do next?",
+    "options": {
+      "A": "Identify stakeholders with an organizational breakdown chart and include this in your project plan.",
+      "B": "Create a RACI or a resource assignment matrix.",
+      "C": "Review and update the resource calendar.",
+      "D": "Review the high-level stakeholders in the project charter and begin your project."
+    },
+    "correct_answer": "A",
+    "explanation": "The next step after creating the project charter is to identify stakeholders; an organizational breakdown chart is one tool to do this, and there is no point updating resource calendars or creating a RACI when you do not yet know who is involved. PMBOK Guide 6th edition, page 316 under Data Representation and page 25 under Process Group and Knowledge Area Mapping.",
+    "video_time": 11502
+  },
+  {
+    "number": 78,
+    "question": "You have been assigned to address the fast-moving competition that is rapidly taking market share from your company. Your executive manager advises you that the company only has 12 months before jobs will be lost, but there are currently no projects to address these concerns. As a project manager, what will you do next?",
+    "options": {
+      "A": "Ask the executive manager to come up with the project ideas to address the situation.",
+      "B": "Perform benchmarking against various companies for process improvement opportunities.",
+      "C": "Create a project charter with a high-level scope, milestones, and cost for approval.",
+      "D": "Create a project business case including the business need, the situation analysis, and solution options."
+    },
+    "correct_answer": "D",
+    "explanation": "Before a project charter can be created, it needs a business case to determine how the project will address the business goals, including a strategy and analysis of the situation and various options to address them; benchmarking is a good input but is not as complete as the business case. PMBOK Guide 6th edition, pages 30–31, under Project Business Case.",
+    "video_time": 11640
+  },
+  {
+    "number": 79,
+    "question": "You have just started work on a project that has been in development for the past six months. You notice it has been through a large amount of project steps that you are unfamiliar with, such as concept development, feasibility study, commissioning, milestone review, and more. These do not match the normal phases of design, build, and test. What will you do next?",
+    "options": {
+      "A": "Advise the project to reduce and update its phases for less admin and faster delivery.",
+      "B": "Ask the project to adhere to the normal phases of design, build, and test as per the PMBOK guide.",
+      "C": "Familiarize yourself with the organization's process and adhere to the enterprise environmental factors.",
+      "D": "Remove the phases altogether and work through the waterfall delivery in one big release."
+    },
+    "correct_answer": "C",
+    "explanation": "Each organization can be different with different politics, ways of working, governance, and approvals; the best immediate course of action is to adhere to the enterprise environmental factors (EEFs) and familiarize yourself with organizational best practice. PMBOK Guide 6th edition, page 20, under Project Phase.",
+    "video_time": 11781
+  },
+  {
+    "number": 80,
+    "question": "The project management office is looking for your help in hiring and coaching new project managers and they ask you to interview the next candidate for roles in upcoming projects. In speaking with the candidate, they do not have any industry experience. What will you do next?",
+    "options": {
+      "A": "Ask them whether they prefer waterfall or agile to see if they work the same way as your organization.",
+      "B": "Ask them whether they would like a different job within the company with less focus on industry experience.",
+      "C": "Ask them if they can dictate and command a team to get fast results.",
+      "D": "Ask them what their focus on a project would be: the schedule, financial reports, or the issue log."
+    },
+    "correct_answer": "D",
+    "explanation": "Part of the skills of a qualified project manager are technical project management skills (such as focus on schedule, financial reports, and the issue log), business management skills, and leadership skills; a dictatorship can get fast results but at the expense of team psychological safety and long-term performance. PMBOK Guide 6th edition, page 58, under Technical Project Management Skills.",
+    "video_time": 11945
+  },
+  {
+    "number": 81,
+    "question": "Your project Charter has recently been approved and you are gathering the customer requirements that will form the basis of your project. The project customer advises that they have been burned by previous project deliveries in the past where the project did not deliver what they really needed. What will you do next?",
+    "options": {
+      "A": "Create an initial list of requirements as part of a solid requirements management plan",
+      "B": "Call a focus group with the customer experts and brainstorm requirements with them",
+      "C": "Perform benchmarking between the area process and external organizations",
+      "D": "Create a requirements traceability Matrix to ensure requirements are tracked properly"
+    },
+    "correct_answer": "B",
+    "explanation": "Given the customer has had difficulties in the past, the best option is direct collaboration through focus groups and brainstorming, going to the source to ask what they actually want. Page 138 under collect requirements tools and techniques in the PMBOK Guide Sixth Edition.",
+    "video_time": 11925
+  },
+  {
+    "number": 82,
+    "question": "Your deliverables have recently been quality checked by a specialist testing team and passed with flying colors. You take them to the project sponsor for approval so you can move to project closure. The project sponsor accepts all the deliverables except for two — one she notes as a defect and one is a missed requirement. What will you do next?",
+    "options": {
+      "A": "Make the changes as soon as possible to avoid further delays",
+      "B": "Raise an issue in the issue log as this will delay your project",
+      "C": "Raise a change request for the items along with the reasons for non-acceptance of those deliverables",
+      "D": "Proceed as normal as you have delivered them as per the project needs"
+    },
+    "correct_answer": "C",
+    "explanation": "For completed deliverables that have not been formally accepted, change requests are raised along with the reasons for non-acceptance of those deliverables. Page 166 under validate scope outputs — change requests in the PMBOK Guide.",
+    "video_time": 12117
+  },
+  {
+    "number": 83,
+    "question": "You have gathered the customer requirements with your team and are finishing the creation of the scope statement. You need to baseline the project scope to ensure future changes are tracked as necessary. What will you do next?",
+    "options": {
+      "A": "Take the scope statement to the project sponsor and steering committee for approval",
+      "B": "Ask the project sponsor to approve the project Charter and the project management plan with the included high-level scope",
+      "C": "Update the configuration management plan with the scope statement as a baselined document",
+      "D": "Create a work breakdown structure and work breakdown structure dictionary with your team"
+    },
+    "correct_answer": "D",
+    "explanation": "The scope baseline includes the scope statement, work breakdown structure, work breakdown structure dictionary, and work packages; as the scope statement is already created, the next best step is to create the WBS and WBS dictionary. Page 161 and 162 under scope baseline in the PMBOK Guide.",
+    "video_time": 12213
+  },
+  {
+    "number": 84,
+    "question": "You've been planning your project using a waterfall methodology. The project team have collected the requirements from the customer who is eager to begin work as soon as possible. You set a meeting with the business analysts in your team to create the scope statement based on these requirements. What will you do next?",
+    "options": {
+      "A": "Include the scope description, deliverables, acceptance criteria, and exclusions",
+      "B": "Include the scope description, work breakdown structure, and work breakdown structure dictionary",
+      "C": "Include the scope management plan, statement of work, and requirements traceability Matrix",
+      "D": "Include the project Charter, project management plan, and accepted deliverables"
+    },
+    "correct_answer": "A",
+    "explanation": "The project scope statement includes the scope description, deliverables, acceptance criteria, and any exclusions; do not confuse this with the scope baseline which includes the scope description, WBS, WBS dictionary, and work packages. Page 154 under the project scope statement in the PMBOK Guide Sixth Edition.",
+    "video_time": 12378
+  },
+  {
+    "number": 85,
+    "question": "You've been assigned to a project that is behind schedule. Some of your team approach you and ask you what they should be working on. You check with your team and one of your senior analysts recommends you work together to create the work breakdown structure dictionary. What will you do next?",
+    "options": {
+      "A": "Create a scope breakdown with unique identifier, description, and acceptance criteria",
+      "B": "Work with the senior analyst to create a resource assignment Matrix instead and coach them on the difference between a resource assignment Matrix and work breakdown structure dictionary",
+      "C": "Gather the project scope and break it down into smaller work packages",
+      "D": "Create a scope breakdown with unique identifier, description, and resource requirements"
+    },
+    "correct_answer": "B",
+    "explanation": "A resource assignment Matrix is the best approach, showing the project resources assigned to each work package and illustrating the connections between work packages and project team members, which answers what the team should be working on. Page 317 for the resource assignment Matrix in the PMBOK Guide.",
+    "video_time": 12511
+  },
+  {
+    "number": 86,
+    "question": "The project Charter has been approved and you've identified the stakeholders you'll be working with and who will be impacted as the project progresses. You notice multiple stakeholders who seem to be actively trying to sabotage your project and your efforts. What will you do next?",
+    "options": {
+      "A": "Review the stakeholder engagement assessment Matrix and invite feedback from those who are resistant",
+      "B": "Remove the people who seem to be slowing your project from your project team",
+      "C": "Escalate the problem to their functional managers for disciplinary action",
+      "D": "Review the impact over influence Matrix to determine how to engage with the stakeholders"
+    },
+    "correct_answer": "A",
+    "explanation": "Assessing stakeholder engagement and gathering their feedback is the best answer; this question involves determining which stakeholders are at risk and then using communication, interpersonal, and team skills to engage them. Page 521 and 527 under manage stakeholder engagement communication skills in the PMBOK Guide.",
+    "video_time": 12712
+  },
+  {
+    "number": 87,
+    "question": "Your project involves nearly a dozen teams who are dispersed around the country at different sites with thousands of impacted stakeholders. The executives in these areas are concerned with the changes the project will bring and are starting to push back on your planning efforts. What will you do next?",
+    "options": {
+      "A": "Create the project Charter and arrange for sign off by the executives",
+      "B": "Create the communications management plan to ensure that their communication needs are met",
+      "C": "Raise a change request for the project to arrange to co-locate all the teams",
+      "D": "Create the requirements traceability Matrix so you can trace the executive's requirements back to the scope you deliver and keep them engaged"
+    },
+    "correct_answer": "B",
+    "explanation": "The communications management plan contains stakeholder communication requirements and is the current plan for collecting, creating, and distributing information in a timely manner; it identifies team members, stakeholders, and the work involved in the communications process. Page 377 communications management plan in the PMBOK Guide.",
+    "video_time": 12938
+  },
+  {
+    "number": 88,
+    "question": "A number of risks have been raised on your project. You perform qualitative analysis to get a subjective risk rating but your project customer is not satisfied. They would like you to perform additional qualitative risk analysis beyond impact and likelihood. What will you analyze next?",
+    "options": {
+      "A": "Simulation, sensitivity analysis, and decision tree analysis",
+      "B": "Cost of failure, cost of appraisal, and cost of prevention",
+      "C": "Executive needs, political needs, and promotion needs",
+      "D": "Urgency, proximity, and strategic impact of the risks"
+    },
+    "correct_answer": "D",
+    "explanation": "As part of qualitative risk analysis, other risk parameters you might measure include urgency, proximity, dormancy, manageability, controllability, detectability, strategic impact, and propinquity. Page 423-424 under qualitative risk analysis assessment of other parameters in the PMBOK Guide.",
+    "video_time": 13085
+  },
+  {
+    "number": 89,
+    "question": "One of the risks on your project is significantly large and could seriously impact your company if it ever came about. It has captured the attention of high-ranking executives who have each proposed a response and think that theirs is the best. You decide to solve the argument with a decision tree. What will you do next?",
+    "options": {
+      "A": "Rate the risks for their probability and impact and get a rating for each",
+      "B": "Note each of the options on a vertical bar chart for their impact sensitivity on cost",
+      "C": "Note the various response options with their cost impact and their probability of occurrence",
+      "D": "Perform a simulation in depth of all the responses against multiple criteria to test their impact"
+    },
+    "correct_answer": "C",
+    "explanation": "A decision tree shows various options with their benefit or cost and various often controllable outcomes with their probability of occurrence, allowing you to choose the path with the least cost and the least probability of impact. Page 435 under decision tree analysis in the PMBOK Guide.",
+    "video_time": 13378
+  },
+  {
+    "number": 90,
+    "question": "You've recently become a project manager for a large organization and you're not sure what to expect. Your colleague tells you that the organization is large enough to have a substantial project management office and it is a directing PMO. What will you do next?",
+    "options": {
+      "A": "Collaborate with the other project managers in the PMO to find a project that suits your skill set",
+      "B": "Get started on a business case in your work area to initiate a project",
+      "C": "Await being assigned to a project by the PMO",
+      "D": "Review the project management frameworks, templates, and tools mandated for use by the PMO"
+    },
+    "correct_answer": "C",
+    "explanation": "There are three types of PMOs: supportive (templates and guidelines), controlling (adherence to frameworks and templates), and directive (high degree of control where they directly manage the projects and assign project managers). Page 48 under project management office in the PMBOK Guide Sixth Edition.",
+    "video_time": 13685
+  },
+  {
+    "number": 91,
+    "question": "The project customer approaches you as they are worried that the project is not delivering fast enough. You review the project schedule and cost so you can see how the project is tracking. The actual cost is $648,000, the earned value is $601,000, and the planned value is $629,000. Which best describes the project status?",
+    "options": {
+      "A": "Ahead of schedule and under budget",
+      "B": "Ahead of schedule and over budget",
+      "C": "Behind schedule and over budget",
+      "D": "Behind schedule and under budget"
+    },
+    "correct_answer": "C",
+    "explanation": "The schedule variance (EV - PV = 601k - 629k = -28k) shows the project is behind schedule, and the cost variance (EV - AC = 601k - 648k = -47k) shows it is over budget. See PMBOK 6th Edition page 261 under Earned Value Analysis.",
+    "video_time": 14349
+  },
+  {
+    "number": 92,
+    "question": "The people and resources involved in your project are currently costing a large amount of money and your project sponsor comments about it frequently. You check how the project is tracking. The planned value is $840,000, the earned value is $795,000, and the actual cost is $755,000. What will you do next?",
+    "options": {
+      "A": "Utilize the project contingency reserves",
+      "B": "Raise a change request to reduce the project scope and bring the cost back on track",
+      "C": "Reduce the project resources to bring the project cost back on track",
+      "D": "Add more resources to bring the project schedule back on track"
+    },
+    "correct_answer": "D",
+    "explanation": "The project is behind schedule (EV - PV = 795k - 840k = -45k) but under budget (EV - AC = 795k - 755k = +40k), so adding more resources with the available budget will bring the schedule back on track. See PMBOK 6th Edition page 262 under Variance Analysis.",
+    "video_time": 14493
+  },
+  {
+    "number": 93,
+    "question": "Team members from parts of the organization have been assigned to your project at an agreed level of 50% availability. As the project progresses you notice that they are being pulled back into their normal roles. You also notice that your project is falling behind schedule. What will you do next?",
+    "options": {
+      "A": "Talk with the project steering committee and arrange for more resources to assist your project",
+      "B": "Talk with the functional managers and negotiate clear and written assignments with reliable scheduling priorities",
+      "C": "Raise a risk to project delivery and assign it to the functional managers",
+      "D": "Raise an issue in the issue log and raise it at the next project working group"
+    },
+    "correct_answer": "B",
+    "explanation": "The best approach is to directly and collaboratively negotiate with the functional managers, establishing clear written assignments and reliable scheduling priorities before escalating. See PMBOK 6th Edition pages 332-333 under Interpersonal and Team Skills: Negotiation.",
+    "video_time": 14855
+  },
+  {
+    "number": 94,
+    "question": "You have been planning a project with the manager of a functional area who needs to increase their profit by 57% in the next three years. You are helping him put together a business case. He has come up with 18 different project ideas to reach the goal but that will take approximately seven years. The manager pushes you to find a way to do them all in three years. What will you do next?",
+    "options": {
+      "A": "Prioritize the ideas based on impact and cost and note the required, desired, or optional next to each of the projects in the business case",
+      "B": "Advise the manager that good things take time to deliver",
+      "C": "Add the appropriate amount of cost for extra resources to your project plan to get the work done",
+      "D": "Set a meeting with the functional area experts and ask them to pick the top ideas for delivery"
+    },
+    "correct_answer": "A",
+    "explanation": "The project business case includes analysis of the situation with decision criteria where courses of action may be assessed as required, desired, or optional, helping to prioritize by impact and cost. See PMBOK 6th Edition page 31 under Project Business Case.",
+    "video_time": 15222
+  },
+  {
+    "number": 95,
+    "question": "Your project Charter has been approved and your stakeholder analysis reveals multiple impacted highly paid executives with the power to influence your career. As you approach some of these stakeholders they raise their concerns about the project, how it is progressing, and what it involves. What will you do next?",
+    "options": {
+      "A": "Perform an impact over influence analysis on all your stakeholders",
+      "B": "Create your project management plan and review its detail regularly with the impacted or influential stakeholders",
+      "C": "Circulate the signed project Charter to anyone who needs convincing that the project is needed",
+      "D": "Reduce your communication with most stakeholders as they cannot resist what they don't know about"
+    },
+    "correct_answer": "B",
+    "explanation": "Developing the project management plan and reviewing it regularly with stakeholders assists with their engagement; this step logically follows the approved project Charter and stakeholder identification. See PMBOK 6th Edition page 82 under Develop Project Management Plan.",
+    "video_time": 15601
+  },
+  {
+    "number": 96,
+    "question": "You have just created your project management plan and are reviewing it with your stakeholders. It includes the subsidiary plans of scope management, schedule management, cost management, resources, and quality. Some of your stakeholders raise concerns that they cannot see what needs to be baselined or how to measure the project performance and changes. What will you do next?",
+    "options": {
+      "A": "Advise your stakeholders the information they need is in the subsidiary plans",
+      "B": "Meet as often as needed with your project stakeholders to increase their engagement and acceptance of your project",
+      "C": "Show them the project budget timeline with costs projected on a schedule",
+      "D": "Create the configuration management plan, change management plan, and performance measurement baseline with your team and include them in your project management plan"
+    },
+    "correct_answer": "D",
+    "explanation": "The configuration management plan defines what needs to be baselined, the change management plan describes how to process changes, and the performance measurement baseline is the integrated scope-schedule-cost plan used to measure project performance. See PMBOK 6th Edition page 88 under Project Management Plan Additional Components.",
+    "video_time": 15996
+  },
+  {
+    "number": 97,
+    "question": "Part of your project work needs to be outsourced to a supplier. You are asked to ensure that the cost for the outsourced portion of the project does not exceed $1.2 million, and if the work comes in under cost and ahead of schedule you may provide additional money to the supplier. What sort of contract will you work with your procurement office to prepare?",
+    "options": {
+      "A": "Create a firm fixed price contract for the seller",
+      "B": "Create a fixed price incentive fee contract for the seller",
+      "C": "Create a Cost Plus fixed fee contract",
+      "D": "Create a Cost Plus Award fee contract"
+    },
+    "correct_answer": "B",
+    "explanation": "A fixed price incentive fee contract includes financial incentives tied to agreed-upon metrics and sets a price ceiling above which all costs are the seller's responsibility, matching the requirement for a cost ceiling plus a performance bonus. See PMBOK 6th Edition page 471 under Contract Types.",
+    "video_time": 16442
+  },
+  {
+    "number": 98,
+    "question": "You take the completed scope to your project sponsor for them to accept. The project sponsor advises she cannot accept the deliverables as she does not know the outcomes of testing and whether the scope met her requirements or needs further changes. What will you do next?",
+    "options": {
+      "A": "Set a meeting with the project sponsor directly to address their concerns",
+      "B": "Review the requirements traceability matrix and show the sponsor how each requirement is met by project scope",
+      "C": "Review the quality report together with your testing leader and note which items may need change requests if any",
+      "D": "Review the change requests for the project to show the sponsor whether any corrective actions needed to be made"
+    },
+    "correct_answer": "C",
+    "explanation": "The quality report includes corrective action recommendations, defect and rework summaries, and findings from the control quality process, making it the ideal document to show the sponsor the state of the deliverables before acceptance. See PMBOK 6th Edition page 296 under Quality Reports.",
+    "video_time": 16719
+  },
+  {
+    "number": 99,
+    "question": "Multiple unforeseen events have happened that have set your project behind schedule and in trying to bring it back on track you have spent a considerable amount of money. Now the project sponsor has threatened to stop the project unless they can see how much money the project will cost by the time it is finished. What will you do next?",
+    "options": {
+      "A": "Perform a reserve analysis on the remaining contingency and management reserves",
+      "B": "Create a project estimate at completion and compare it to the budget at completion",
+      "C": "Create the to-complete performance index with your team to meet your project goal",
+      "D": "Review the cost performance index to see how the project cost is tracking"
+    },
+    "correct_answer": "B",
+    "explanation": "As the project progresses the team develops a forecast for the estimate at completion (EAC), which may differ from the original budget at completion (BAC) based on project performance, providing the sponsor a revised total cost figure. See PMBOK 6th Edition pages 264 and 269 under Forecasting and Control Costs: Cost Forecasts.",
+    "video_time": 16980
+  },
+  {
+    "number": 100,
+    "question": "Your project plan includes an estimate of how long the project will take via a project schedule, how much it will cost, and the resources that will be required. The project sponsor believes the project can be done with around 34% fewer resources. What will you do next?",
+    "options": {
+      "A": "Dismiss the sponsor's comments as uneducated and proceed with your plan as is",
+      "B": "Reduce the resources in your project plan so the project can meet your sponsor's expectations",
+      "C": "Create a basis of estimates with your project team and review this with your sponsor to agree on a way forward",
+      "D": "Raise a risk to your project delivery in the risk register if the plan goes ahead with fewer resources"
+    },
+    "correct_answer": "C",
+    "explanation": "The basis of estimates provides a clear and complete understanding of how estimates are derived, including assumptions, constraints, and ranges, helping the sponsor understand the reasoning and agree on the best way forward together. See PMBOK 6th Edition page 204 under Basis of Estimates.",
+    "video_time": 17200
+  }
+]

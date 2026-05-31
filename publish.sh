@@ -23,9 +23,30 @@ cp "$SRC/index.html" \
    "$SRC/100 pmp dnd.md" \
    "$SRC/eco.html" \
    "$SRC/exam.html" \
+   "$SRC/processgroups.html" \
+   "$SRC/processgroups_dataset.json" \
+   "$SRC/Process Groups Practice Guide.md" \
+   "$SRC/pmbok7guide.html" \
+   "$SRC/pmbok7guide_dataset.json" \
+   "$SRC/Project Management Body of Knowledge.md" \
+   "$SRC/pmbok8guide.html" \
+   "$SRC/pmbok8guide_dataset.json" \
+   "$SRC/PMBOK Guide 8th Edition.md" \
+   "$SRC/tools.html" \
+   "$SRC/tools_dataset.json" \
+   "$SRC/63 Project Management Tools Explained.md" \
    "$SRC/pmbok7.html" \
    "$SRC/pmbok7_dataset.json" \
    "$SRC/150 PMBOK 7 by David McLachlan.md" \
+   "$SRC/dnd2.html" \
+   "$SRC/dnd2_dataset.json" \
+   "$SRC/110 DND by David McLachlan.md" \
+   "$SRC/agile.html" \
+   "$SRC/agile_dataset.json" \
+   "$SRC/200 AGILE PMP.md" \
+   "$SRC/waterfall.html" \
+   "$SRC/waterfall_dataset.json" \
+   "$SRC/100 Waterfall PMP Questions and Answers.md" \
    "$SRC/pmp-examination-content-outline.pdf" \
    "$SRC/README.md" \
    "$SRC/progress.md" \

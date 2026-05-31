@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>PMP Quiz Study</title>
+<title>200 Agile PMP Questions — David McLachlan</title>
 <style>
   :root {
     --bg: #0f172a;
@@ -11,14 +11,14 @@
     --card2: #273449;
     --text: #e2e8f0;
     --muted: #94a3b8;
-    --accent: #38bdf8;
-    --accent-ink: #06283d;
+    --accent: #fbbf24;
+    --accent-ink: #3a2600;
     --good: #22c55e;
     --bad: #ef4444;
     --border: #334155;
     --good-bg: #14321f;
     --bad-bg: #3a1a1a;
-    --sel-bg: #2a3b54;
+    --sel-bg: #3a2e12;
   }
   body.light {
     --bg: #eef2f7;
@@ -26,14 +26,14 @@
     --card2: #f1f5f9;
     --text: #0f172a;
     --muted: #64748b;
-    --accent: #0284c7;
+    --accent: #d97706;
     --accent-ink: #ffffff;
     --good: #16a34a;
     --bad: #dc2626;
     --border: #cbd5e1;
     --good-bg: #dcfce7;
     --bad-bg: #fee2e2;
-    --sel-bg: #e0f2fe;
+    --sel-bg: #fef3c7;
   }
   * { box-sizing: border-box; }
   body {
@@ -149,13 +149,14 @@
 <body>
 <header>
   <div class="topbar">
-    <h1>📘 PMP Quiz Study <span style="font-size:12px;font-weight:400;color:var(--muted)">· 200 Ultra-Hard Q&amp;A by Andrew Ramdayal</span></h1>
+    <h1>🔁 200 Agile PMP — Scenario Questions (David McLachlan)</h1>
     <div class="stats">
       <span>Answered: <b id="st-answered">0</b>/<b id="st-total">0</b></span>
       <span>Score: <b id="st-score">0</b></span>
       <span>This Q: <b id="st-qtime">0s</b></span>
       <span>Total: <b id="st-total-time">0m 0s</b></span>
       <span id="cd-wrap" style="display:none">⏱ <b id="st-countdown">--</b> left</span>
+      <a href="banks.html" class="small" style="text-decoration:none; color:var(--text); background:var(--card2); border:1px solid var(--border); padding:6px 12px; border-radius:8px;">📚 Banks</a>
       <a href="index.html" class="small" style="text-decoration:none; color:var(--text); background:var(--card2); border:1px solid var(--border); padding:6px 12px; border-radius:8px;">🏠 Home</a>
       <button id="themeBtn" class="small">🌙 Dark</button>
     </div>
@@ -209,7 +210,7 @@
       <span class="hint" style="margin:0">🎯 Random practice set:</span>
       <button class="exam small" data-n="15">15 Q</button>
       <button class="exam small" data-n="50">50 Q</button>
-      <button class="exam small" data-n="180">180 Q</button>
+      <button class="exam small" data-n="195">All Q</button>
       <label class="chk"><input type="checkbox" id="timedChk" /> with time limit</label>
     </div>
 
@@ -233,10 +234,10 @@
 <div class="overlay" id="fileOverlay">
   <div class="modal">
     <h2>Load quiz data</h2>
-    <p>Could not auto-load <code>qa_dataset.json</code> (browsers block local file reads when opened directly).</p>
+    <p>Could not auto-load <code>agile_dataset.json</code> (browsers block local file reads when opened directly).</p>
     <p>Either run a local server in this folder, or pick the JSON file:</p>
     <input type="file" id="filePicker" accept=".json" />
-    <p class="hint">Server tip: open a terminal here and run <code>python -m http.server</code>, then visit <code>http://localhost:8000/quiz.html</code></p>
+    <p class="hint">Server tip: open a terminal here and run <code>python -m http.server</code>, then visit <code>http://localhost:8000/agile.html</code></p>
   </div>
 </div>
 
@@ -291,7 +292,8 @@
 (function () {
   "use strict";
 
-  const LS_KEY = "pmp_quiz_state_v1";
+  const LS_KEY = "pmp_agile_quiz_state_v1";
+  const VIDEO_ID = "tNIHysh2ZW4";
   const REMINDER_MS = 30 * 60 * 1000;       // 30 minutes
   const SECS_PER_Q = 75;                    // time-limit budget per question
 
@@ -366,8 +368,8 @@
   }
   function fmtClock(secs) {
     secs = Math.max(0, Math.round(secs));
-    const m = Math.floor(secs / 60), s = secs % 60;
-    return m + ":" + (s < 10 ? "0" : "") + s;
+    const h = Math.floor(secs / 3600), m = Math.floor((secs % 3600) / 60), s = secs % 60;
+    return (h > 0 ? h + ":" + (m < 10 ? "0" : "") : "") + m + ":" + (s < 10 ? "0" : "") + s;
   }
   function getSelected(num) {
     const a = state.answers[num];
@@ -422,7 +424,7 @@
     var wl = document.getElementById("watchLink");
     if (q.video_time != null) {
       wl.style.display = "";
-      wl.href = "https://www.youtube.com/watch?v=1sWpc6765AI&t=" + q.video_time + "s";
+      wl.href = "https://www.youtube.com/watch?v=" + VIDEO_ID + "&t=" + q.video_time + "s";
       wl.textContent = "▶ Watch " + fmtClock(q.video_time);
     } else { wl.style.display = "none"; }
     document.getElementById("qtext").textContent = q.question;
@@ -656,7 +658,7 @@
     const csv = rows.map(r => r.map(v => '"' + String(v).replace(/"/g, '""') + '"').join(",")).join("\n");
     const blob = new Blob([csv], { type: "text/csv" });
     const a = document.createElement("a");
-    a.href = URL.createObjectURL(blob); a.download = "quiz_results.csv"; a.click();
+    a.href = URL.createObjectURL(blob); a.download = "agile_quiz_results.csv"; a.click();
   }
 
   // ---------- reminder ----------
@@ -767,7 +769,7 @@
     });
   }
 
-  fetch("qa_dataset.json")
+  fetch("agile_dataset.json")
     .then(r => { if (!r.ok) throw new Error("no"); return r.json(); })
     .then(initApp)
     .catch(showFilePicker);

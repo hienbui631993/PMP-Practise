@@ -1,0 +1,1331 @@
+{
+  "video_id": "LcZvGRTJnLo",
+  "title": "PMBOK Guide 8th Edition - All 40 Processes Explained",
+  "source": "David McLachlan",
+  "parts": [
+    {
+      "title": "Initiating Process Group",
+      "sections": [
+        {
+          "title": "Initiate the Project or Phase",
+          "video_time": 86,
+          "intro": "This process officially authorizes the start of a project or phase by validating the business case and issuing the project charter.",
+          "subsections": [
+            {
+              "title": "Inputs",
+              "points": [
+                "Business case — establishes the reason and value behind the project and whether the benefit justifies the cost",
+                "Benefits management plan — describes how benefits will be delivered and measured",
+                "Existing agreements — any contracts or agreements already in place relevant to the project"
+              ]
+            },
+            {
+              "title": "Tools & Techniques",
+              "points": [
+                "Expert judgment — leveraging expertise to evaluate the business case and project scope",
+                "Data gathering — brainstorming, focus groups, and surveys to understand project needs",
+                "Conflict management — facilitating differing stakeholder ideas about what the project should deliver",
+                "Meetings and facilitation — bringing ideas together through structured discussion",
+                "Responsibility assignment matrix (RACI) — defining what roles and responsibilities are needed to do the project work"
+              ]
+            },
+            {
+              "title": "Outputs",
+              "points": [
+                "Project charter — formally authorizes the project and grants permission to use funding and resources; approved by the project sponsor",
+                "Assumption log — documents assumptions made during project initiation"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Identify Stakeholders",
+          "video_time": 163,
+          "intro": "This process identifies all individuals and groups who are or believe themselves to be involved in or impacted by the project, so they can be engaged appropriately.",
+          "subsections": [
+            {
+              "title": "Inputs",
+              "points": [
+                "Project charter — may already list potential stakeholders",
+                "Business documents (business case, benefits management plan) — contain stakeholders who need to be engaged",
+                "Communications management plan and stakeholder engagement plan — provide existing stakeholder information",
+                "Change requests and issue logs — individuals frequently raising changes or issues are stakeholders to engage",
+                "Existing agreements — contracts and agreements may identify additional stakeholders"
+              ]
+            },
+            {
+              "title": "Tools & Techniques",
+              "points": [
+                "Expert judgment — organizational insiders who know which stakeholders need to be involved",
+                "Data gathering — questionnaires, surveys, and brainstorming to surface stakeholder information",
+                "Data analysis — analyzing stakeholders to understand how to engage each one appropriately",
+                "Data representation (stakeholder mapping) — mapping stakeholders by impact and influence to prioritize engagement"
+              ]
+            },
+            {
+              "title": "Outputs",
+              "points": [
+                "Stakeholder register — the primary list of all identified stakeholders and relevant information about them",
+                "Change requests — may be raised for updates to the stakeholder engagement plan",
+                "Project management plan updates — communications management plan and risk register may be updated with new stakeholder information",
+                "Project document updates — assumption log, issue log, and risk register updated based on stakeholder findings"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Planning Process Group",
+      "sections": [
+        {
+          "title": "Integrate and Align Project Plan",
+          "video_time": 300,
+          "intro": "This process creates the project management plan by integrating all subsidiary plans into one documented baseline that governs future change requests.",
+          "subsections": [
+            {
+              "title": "Inputs",
+              "points": [
+                "Project charter (provides high-level delivery ideas)",
+                "Outputs from all other planning processes (all subsidiary plans feed in)",
+                "Organizational process assets such as existing templates"
+              ]
+            },
+            {
+              "title": "Tools & Techniques",
+              "points": [
+                "Expert judgment",
+                "Data gathering",
+                "Interpersonal and team skills",
+                "Meetings",
+                "Project canvas"
+              ]
+            },
+            {
+              "title": "Outputs",
+              "points": [
+                "Project management plan (the integrated, documented plan shared with key stakeholders)"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Plan Sourcing Strategy",
+          "video_time": 398,
+          "intro": "This process creates a clear framework for defining what needs to be acquired externally or internally, how it will be acquired, and when, replacing the former Procurements process.",
+          "subsections": [
+            {
+              "title": "Inputs",
+              "points": [
+                "Project charter (high-level ideas on external sourcing needs)",
+                "Project management plan (scope baseline, schedule, quality)",
+                "Project documents: milestones, quality metrics, stakeholder register, risk register, project team assignments"
+              ]
+            },
+            {
+              "title": "Tools & Techniques",
+              "points": [
+                "Expert judgment",
+                "Market research (identifying available vendors)",
+                "Source selection criteria and analysis",
+                "Make-or-buy analysis",
+                "Document analysis"
+              ]
+            },
+            {
+              "title": "Outputs",
+              "points": [
+                "Sourcing strategy plan",
+                "Insourcing or outsourcing decisions",
+                "Source selection criteria (agreed criteria for choosing vendors, e.g., cost, reputation, speed)"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Plan Stakeholder Engagement",
+          "video_time": 539,
+          "intro": "This process defines how the project team will engage stakeholders effectively throughout the project lifecycle.",
+          "subsections": [
+            {
+              "title": "Inputs",
+              "points": [
+                "Project charter",
+                "Project management plan (resources, communications, risk sections)",
+                "Project documents: change log, issue log, assumptions log, prior agreements"
+              ]
+            },
+            {
+              "title": "Tools & Techniques",
+              "points": [
+                "Expert judgment",
+                "Benchmarking against past successful stakeholder engagement",
+                "Data analysis (e.g., root cause analysis for issues)",
+                "Stakeholder prioritization",
+                "Data representation: mind mapping, stakeholder engagement assessment matrix"
+              ]
+            },
+            {
+              "title": "Outputs",
+              "points": [
+                "Stakeholder engagement plan (updated continuously throughout the project)"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Plan Communications Management",
+          "video_time": 621,
+          "intro": "This process establishes how the project will communicate to stakeholders, defining the right channels, frequency, and methods for each audience.",
+          "subsections": [
+            {
+              "title": "Inputs",
+              "points": [
+                "Project charter (stakeholders and prior agreements)",
+                "Project documents: stakeholder register",
+                "Resource management plan and stakeholder engagement plan"
+              ]
+            },
+            {
+              "title": "Tools & Techniques",
+              "points": [
+                "Expert judgment",
+                "Communication requirements analysis (asking stakeholders how they want to be communicated with)",
+                "Communications technology (same room vs. video conferencing tools)",
+                "Communication models and methods",
+                "Interpersonal and team skills",
+                "Data representation using stakeholder engagement assessment matrix"
+              ]
+            },
+            {
+              "title": "Outputs",
+              "points": [
+                "Communications management plan",
+                "Updates to stakeholder engagement plan",
+                "Updates to stakeholder register and project schedule (if communications activities are scheduled)"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Plan Scope Management",
+          "video_time": 700,
+          "intro": "This process defines how scope will be gathered, managed, and controlled on the project, producing a roadmap for scope and requirements activities.",
+          "subsections": [
+            {
+              "title": "Inputs",
+              "points": [
+                "Project charter (high-level scope ideas)",
+                "Project management plan",
+                "Project documents: risks, stakeholder information, existing requirements documentation"
+              ]
+            },
+            {
+              "title": "Tools & Techniques",
+              "points": [
+                "Expert judgment",
+                "Interviews, focus groups, questionnaires, and surveys",
+                "Test and inspection planning (to ensure quality activities are planned)"
+              ]
+            },
+            {
+              "title": "Outputs",
+              "points": [
+                "Scope management plan",
+                "Requirements management plan (also known as the business analysis plan, describing how requirements are gathered and elicited)"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Elicit and Analyze Requirements",
+          "video_time": 789,
+          "intro": "This process actively gathers and analyzes project requirements from stakeholders, turning them into documented scope that drives project activities and delivery.",
+          "subsections": [
+            {
+              "title": "Inputs",
+              "points": [
+                "Project charter and business case (high-level requirements ideas)",
+                "Prior agreements",
+                "Project documents: assumptions log, lessons learned register, stakeholder register",
+                "Project management plan: scope management plan and requirements management plan"
+              ]
+            },
+            {
+              "title": "Tools & Techniques",
+              "points": [
+                "Expert judgment and decision-making techniques",
+                "Data gathering (interviews, surveys, workshops)",
+                "Data analysis and data representation",
+                "Interpersonal and team skills",
+                "Nominal group technique (anonymous voting to avoid group bias)",
+                "Design thinking, prioritization, and ranking of requirements"
+              ]
+            },
+            {
+              "title": "Outputs",
+              "points": [
+                "Requirements documentation (may include product backlog, detailed requirements document, prototypes, mockups, acceptance criteria — varies by project approach)"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Define Scope",
+          "video_time": 908,
+          "intro": "This process clearly specifies what is in scope and what is out of scope, and on predictive projects decomposes scope into a work breakdown structure, while on agile projects it produces a product backlog of user stories.",
+          "subsections": [
+            {
+              "title": "Inputs",
+              "points": [
+                "Project charter",
+                "Assumption log",
+                "Project management plan",
+                "Requirements documentation"
+              ]
+            },
+            {
+              "title": "Tools & Techniques",
+              "points": [
+                "Expert judgment (customers and senior users)",
+                "Decision-making on what to deliver",
+                "Data analysis and scope decomposition into smaller pieces",
+                "Facilitation of brainstorming meetings"
+              ]
+            },
+            {
+              "title": "Outputs",
+              "points": [
+                "Project scope statement (high-level description of scope including key features and deliverables)",
+                "Updates to requirements documentation"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Develop Scope Structure",
+          "video_time": 995,
+          "intro": "This process breaks down the defined scope into a work breakdown structure (or agile backlog) at a level where team members can actually execute the work.",
+          "subsections": [
+            {
+              "title": "Inputs",
+              "points": [
+                "Project management plan",
+                "Project documents",
+                "Approved changes"
+              ]
+            },
+            {
+              "title": "Tools & Techniques",
+              "points": [
+                "Expert judgment (customers, senior users, business analysts)",
+                "Brainstorming with the project team",
+                "Decomposition (breaking work into smaller work packages or user stories)"
+              ]
+            },
+            {
+              "title": "Outputs",
+              "points": [
+                "Scope baseline",
+                "Work breakdown structure (WBS)",
+                "WBS dictionary (adds details such as resources, cost, and duration per work package)",
+                "User stories (for agile projects)",
+                "Product backlog (for agile projects)"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Plan Resource Management",
+          "video_time": 1062,
+          "intro": "Defines the process for identifying, acquiring, and managing the people and materials needed to complete the project.",
+          "subsections": [
+            {
+              "name": "Inputs",
+              "bullets": [
+                "Risk register and stakeholder register to identify who is already involved and may become project resources.",
+                "Existing project documents providing context on what needs to be delivered."
+              ]
+            },
+            {
+              "name": "Tools & Techniques",
+              "bullets": [
+                "Data gathering and expert judgment, including SWOT analysis to find the right resources.",
+                "Hierarchical charts such as organizational breakdown structures and organizational charts.",
+                "Responsibility assignment matrix (RACI) to assign responsibility, accountability, consultation, and information roles per deliverable.",
+                "Text-based lists as a simpler alternative to charts.",
+                "Organizational theory to support team engagement and green human resource management (environmental impact of resource use)."
+              ]
+            },
+            {
+              "name": "Outputs",
+              "bullets": [
+                "Resource management plan — the process for how resources will be managed on the project.",
+                "Team charter — a team agreement on how the group will work together.",
+                "Updates to assumptions log and risk register."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Estimate Resources",
+          "video_time": 1204,
+          "intro": "Determines how many people or how much material is needed to complete each project activity.",
+          "subsections": [
+            {
+              "name": "Inputs",
+              "bullets": [
+                "Resource management plan — the process just created guides the estimation approach.",
+                "Schedule and scope baseline — what must be delivered and when affects resource quantity needed.",
+                "Project documents including activity lists and cost estimates to assess whether funding exists for planned resources."
+              ]
+            },
+            {
+              "name": "Tools & Techniques",
+              "bullets": [
+                "Bottom-up, analogous, and parametric estimating techniques.",
+                "Project management information system (PMIS) for storing and accessing project data.",
+                "Meetings and data gathering with the team.",
+                "Artificial intelligence including predictive analytics, virtual reality, augmented reality, branch-and-bound (decision-tree trimming), constructive cost models, and genetic algorithms to identify the optimal resource path."
+              ]
+            },
+            {
+              "name": "Outputs",
+              "bullets": [
+                "Resource requirements — the quantity and type of resources needed per activity.",
+                "Basis of estimates — documentation of the methodology and assumptions behind each estimate.",
+                "Resource breakdown structure — a hierarchy of project team members or materials to be used."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Plan Schedule Management",
+          "video_time": 1362,
+          "intro": "Establishes the policies and procedures for planning, developing, managing, and controlling the project schedule.",
+          "subsections": [
+            {
+              "name": "Inputs",
+              "bullets": [
+                "Project charter — provides high-level milestones as a guide.",
+                "Project management plan including scope management plan (what is being delivered) and development approach (waterfall vs. agile)."
+              ]
+            },
+            {
+              "name": "Tools & Techniques",
+              "bullets": [
+                "Expert judgment from people with scheduling expertise.",
+                "Alternatives analysis to evaluate different scheduling approaches and identify the critical path."
+              ]
+            },
+            {
+              "name": "Outputs",
+              "bullets": [
+                "Schedule management plan — the defined process for creating, managing, and controlling the project schedule."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Develop Schedule",
+          "video_time": 1425,
+          "intro": "Integrates scope, activity sequences, resource assignments, and duration estimates into an approved schedule baseline.",
+          "subsections": [
+            {
+              "name": "Inputs",
+              "bullets": [
+                "Project charter for high-level schedule insights and milestones.",
+                "Project management plan including scope management plan and development approach (waterfall delivers all at end; agile uses a product roadmap with incremental releases).",
+                "Project documents: activity list, basis of estimates, duration estimates, milestone list, schedule network diagrams, and existing agreements."
+              ]
+            },
+            {
+              "name": "Tools & Techniques",
+              "bullets": [
+                "Rolling wave planning — near-term work planned in detail, future work planned at a high level.",
+                "Decomposition, precedence diagramming method, logical relationships, leads and lags, and dependencies.",
+                "Estimation techniques, reserves, and what-if analysis or simulation.",
+                "Schedule compression techniques: fast tracking and crashing.",
+                "Critical path method to determine the shortest possible project duration.",
+                "Critical chain method, resource leveling, and resource optimization."
+              ]
+            },
+            {
+              "name": "Outputs",
+              "bullets": [
+                "Schedule baseline — the approved schedule (Gantt or milestone chart) locked in for waterfall; requires a change request to modify.",
+                "Schedule data and project calendars showing resource availability.",
+                "Change requests, schedule management plan updates, and basis of estimates."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Plan Financial Management",
+          "video_time": 1621,
+          "intro": "Creates the process for how money, budget, and finances will be managed throughout the project.",
+          "subsections": [
+            {
+              "name": "Inputs",
+              "bullets": [
+                "Project charter for initial financial context.",
+                "Project management plan including risk management plan and schedule management plan to understand timing and scope impacts on cost."
+              ]
+            },
+            {
+              "name": "Tools & Techniques",
+              "bullets": [
+                "Expert judgment from financial specialists.",
+                "Data analysis to evaluate budget alternatives.",
+                "Meetings to consolidate financial planning decisions."
+              ]
+            },
+            {
+              "name": "Outputs",
+              "bullets": [
+                "Financial management plan — the documented process for managing project finances.",
+                "Funding strategy — defines whether funding is received all at once or in tranches, whether it is internal or external, and whether mechanisms such as share issuance, bonds, or an IPO are required."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Estimate Costs",
+          "video_time": 1702,
+          "intro": "Develops approximations of the monetary resources needed to complete each project activity based on scope, quality, schedule, and resource requirements.",
+          "subsections": [
+            {
+              "name": "Inputs",
+              "bullets": [
+                "Quality management plan and scope baseline — higher quality requirements increase cost.",
+                "Lessons learned register from prior projects.",
+                "Project schedule, risk register, and resource requirements.",
+                "Make-or-buy decisions and work package estimates from the WBS."
+              ]
+            },
+            {
+              "name": "Tools & Techniques",
+              "bullets": [
+                "Bottom-up estimating — aggregating work-package-level estimates to an overall total.",
+                "Parametric estimating — using a rate such as cost per meter.",
+                "Analogous estimating — using a similar past feature or deliverable as a reference.",
+                "Expert judgment, multipoint (three- or six-point) estimating, and voting.",
+                "PMIS for storing and retrieving cost and financial data."
+              ]
+            },
+            {
+              "name": "Outputs",
+              "bullets": [
+                "Cost estimates — the monetary estimate for each activity or work package.",
+                "Basis of estimates — rationale, methodology, and assumptions behind each estimate.",
+                "Project document updates including risks and assumptions log."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Develop Budget",
+          "video_time": 1821,
+          "intro": "Aggregates estimated costs of all activities and adds reserves to establish an authorized cost baseline and overall project budget.",
+          "subsections": [
+            {
+              "name": "Inputs",
+              "bullets": [
+                "Project management plan: financial management plan (the agreed process), resource management plan, and scope baseline.",
+                "Cost estimates and basis of estimates.",
+                "Risk register, project schedule, business case, and benefits management plan.",
+                "Prior agreements with vendors or systems that will affect the budget."
+              ]
+            },
+            {
+              "name": "Tools & Techniques",
+              "bullets": [
+                "Expert judgment from relevant business and financial stakeholders.",
+                "Cost aggregation (bottom-up estimating) — rolling up work-package costs to an overall total.",
+                "Data analysis and reserves analysis — contingency reserves for known risks, management reserves for unknown in-scope risks.",
+                "Historical information review, financing options, and funding limit reconciliation to verify actual spending aligns with the plan."
+              ]
+            },
+            {
+              "name": "Outputs",
+              "bullets": [
+                "Cost baseline — the approved budget (work packages + contingency reserves) locked in; requires a change request to modify on a predictive project.",
+                "Project funding requirements — the total funds needed including management reserve.",
+                "Project document updates including risk register and cost estimate revisions."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Plan Risk Management",
+          "video_time": 1961,
+          "intro": "Establish how risk management activities will be conducted throughout the project by creating a risk management plan.",
+          "subsections": [
+            {
+              "name": "Tools & Techniques",
+              "bullets": [
+                "Expert judgment from a dedicated risk person to help analyze risks",
+                "Interviews to gather risk-related insights",
+                "Stakeholder analysis to understand risk ownership and tolerances",
+                "Meetings to consolidate inputs and agree on the risk process"
+              ]
+            },
+            {
+              "name": "Outputs",
+              "bullets": [
+                "Risk management plan — defines the overall risk management process for the project"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Identify Risks",
+          "video_time": 2028,
+          "intro": "Identify and document all potential risks (threats and opportunities) that could impact the project, capturing them in the risk register.",
+          "subsections": [
+            {
+              "name": "Inputs",
+              "bullets": [
+                "All project management plans (schedule, finance, quality, resources, risk) — risk can come from any area",
+                "Cost estimates — incorrect estimates represent potential future risk",
+                "Issue log — current issues may trigger future risks",
+                "Lessons learned and stakeholder register — for context and risk ownership",
+                "Prior agreements that may introduce obligations or constraints"
+              ]
+            },
+            {
+              "name": "Tools & Techniques",
+              "bullets": [
+                "Expert judgment from people familiar with the project domain",
+                "Data analysis: SWOT analysis and root cause analysis (5 Whys, Ishikawa/fishbone diagrams)",
+                "Interpersonal and team skills — facilitated meetings",
+                "Artificial intelligence to brainstorm risks and potential responses",
+                "Prompt lists — organizational lists of previously encountered risks used for brainstorming"
+              ]
+            },
+            {
+              "name": "Outputs",
+              "bullets": [
+                "Risk register — records each risk with its likelihood, impact, and current controls",
+                "Risk report — high-level overview of all risks, urgent items, and planned responses sent to stakeholders",
+                "Updates to assumptions log, issue log, and lessons learned"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Perform Risk Analysis",
+          "video_time": 2169,
+          "intro": "Analyze identified risks to assess their likelihood and potential impact so that the most critical risks can be prioritized for response planning.",
+          "subsections": [
+            {
+              "name": "Inputs",
+              "bullets": [
+                "Project management plan including the risk management plan — follow the agreed process",
+                "Scope, schedule, and cost baselines — changes to these are primary risk targets",
+                "Project documents (e.g., risk register) and enterprise environmental factors such as templates"
+              ]
+            },
+            {
+              "name": "Tools & Techniques",
+              "bullets": [
+                "Expert judgment from team members and stakeholders",
+                "Interviews and facilitation to gather probability and impact assessments",
+                "Risk categorization — grouping risks into high, medium, or low tiers",
+                "Data analysis: simulations (e.g., Monte Carlo) to model cost and schedule probability distributions",
+                "Decision tree analysis and influence diagrams",
+                "Probability and impact matrix — rates each risk on both dimensions to assign an overall rating"
+              ]
+            },
+            {
+              "name": "Outputs",
+              "bullets": [
+                "Updated risk register — risks ranked and rated by probability and impact",
+                "Risk report — distributed to stakeholders with the analyzed risk information"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Plan Risk Responses",
+          "video_time": 2301,
+          "intro": "Develop options and actions to address overall project risk and individual risks, selecting appropriate response strategies to reduce threats and enhance opportunities.",
+          "subsections": [
+            {
+              "name": "Inputs",
+              "bullets": [
+                "Risk management plan — defines the agreed process and thresholds",
+                "Cost baseline and resource management plan",
+                "Project schedule, risk register, and risk report — provide the full list of analyzed risks to respond to"
+              ]
+            },
+            {
+              "name": "Tools & Techniques",
+              "bullets": [
+                "Expert judgment",
+                "Interviews and facilitation",
+                "Strategies for threats: accept, mitigate, escalate, transfer, and one additional strategy",
+                "Strategies for opportunities — mirror strategies applied to positive risks",
+                "Contingent response strategies — actions triggered only if specific conditions occur",
+                "Strategies for overall project risk"
+              ]
+            },
+            {
+              "name": "Outputs",
+              "bullets": [
+                "Change requests — responding to risks may require changes to baselined items",
+                "Updates to project management plans affected by chosen responses",
+                "Updates to project documents: assumptions log, cost forecasts, risk register (with response details), and risk report"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Executing Process Group",
+      "sections": [
+        {
+          "title": "Manage Project Execution",
+          "video_time": 2440,
+          "intro": "Direct and perform the work defined in the project management plan to produce the project deliverables.",
+          "subsections": [
+            {
+              "name": "Tools & Techniques",
+              "bullets": [
+                "Expert judgment from team members and subject-matter experts",
+                "PMIS (Project Management Information System) to gather and track project data",
+                "Meetings to coordinate and integrate work across the team"
+              ]
+            },
+            {
+              "name": "Outputs",
+              "bullets": [
+                "Deliverables — the actual value or product being produced for the organization",
+                "Work performance data showing scope delivery, cost, schedule status, and defect counts",
+                "Issue and change logs capturing any problems or change requests encountered",
+                "Project management plan updates as execution reveals needed adjustments",
+                "Project document updates including activities, assumptions, lessons learned, risks, and stakeholder information"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Manage Quality Assurance",
+          "video_time": 2544,
+          "intro": "Apply planned quality processes and audits to ensure the project is using the right practices and continuously improving.",
+          "subsections": [
+            {
+              "name": "Key Distinction",
+              "bullets": [
+                "Quality assurance = confirming the right processes are being followed (process-focused)",
+                "Quality control = confirming deliverables meet defined specifications (product-focused)"
+              ]
+            },
+            {
+              "name": "Inputs",
+              "bullets": [
+                "Project management plan",
+                "Project documents",
+                "Organizational policies, procedures, and regulations"
+              ]
+            },
+            {
+              "name": "Tools & Techniques",
+              "bullets": [
+                "Audits to review whether processes comply with best practices",
+                "Checklists for systematic quality verification",
+                "Data representation tools: affinity diagrams, flowcharts, Ishikawa (cause-and-effect) diagrams",
+                "Decision-making, problem solving, and process improvement techniques"
+              ]
+            },
+            {
+              "name": "Outputs",
+              "bullets": [
+                "Quality report summarizing quality findings and issues",
+                "Change requests to address defects or quality gaps",
+                "Project management plan updates for any quality-driven component changes"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Manage Project Knowledge",
+          "video_time": 2622,
+          "intro": "Leverage existing organizational knowledge and create new knowledge to improve project outcomes and build lessons learned.",
+          "subsections": [
+            {
+              "name": "Key Concepts",
+              "bullets": [
+                "Explicit knowledge can be codified in words and numbers (e.g., documented processes)",
+                "Tacit knowledge is experiential — beliefs, insights, and intuition that are harder to document"
+              ]
+            },
+            {
+              "name": "Inputs",
+              "bullets": [
+                "Project management plans, lessons learned register, stakeholder register",
+                "Deliverables themselves as a source of knowledge"
+              ]
+            },
+            {
+              "name": "Tools & Techniques",
+              "bullets": [
+                "Expert judgment from those with relevant expertise",
+                "Knowledge management and information management systems (PMIS)",
+                "After-action reviews (AARs) and postmortems — similar to retrospectives",
+                "Storytelling, retrospective meetings, interpersonal and team skills, facilitation"
+              ]
+            },
+            {
+              "name": "Outputs",
+              "bullets": [
+                "Lessons learned register updated with new insights",
+                "Project management plan updates reflecting process improvements"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Manage Stakeholder Engagement",
+          "video_time": 2704,
+          "intro": "Work with stakeholders throughout the project to understand their needs, address concerns, and foster appropriate involvement.",
+          "subsections": [
+            {
+              "name": "Inputs",
+              "bullets": [
+                "Communications management plan — reviewing whether communication is happening in the right ways and at the right times",
+                "Risk management plan, stakeholder engagement plan, and change management plan",
+                "Change log and issue log — high volumes of changes or issues from one person signal a need for deeper engagement"
+              ]
+            },
+            {
+              "name": "Tools & Techniques",
+              "bullets": [
+                "Expert judgment",
+                "Communication skills: giving feedback, managing conflict, cultural awareness, negotiation",
+                "Observation and conversation (job shadowing) to understand stakeholder context",
+                "Political awareness of how the organization operates",
+                "Ground rules for meetings to maintain productive interactions"
+              ]
+            },
+            {
+              "name": "Outputs",
+              "bullets": [
+                "Change requests arising from stakeholder interactions",
+                "Updates to communications management plan or stakeholder engagement plan if gaps are identified",
+                "Issue and change log updates"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Manage Communications",
+          "video_time": 2814,
+          "intro": "Ensure timely and appropriate creation, collection, distribution, storage, and retrieval of project information for all stakeholders.",
+          "subsections": [
+            {
+              "name": "Inputs",
+              "bullets": [
+                "Resource management plan — guides communication with project resources",
+                "Communications management plan — defines methods and processes for stakeholder communication",
+                "Stakeholder engagement plan — identifies who to engage and how",
+                "Change log, issue log, quality report, and risk report — used to determine who needs increased communication",
+                "Stakeholder register and work performance reports — show project status and who may need attention"
+              ]
+            },
+            {
+              "name": "Tools & Techniques",
+              "bullets": [
+                "Communications technology (e.g., video conferencing and other platforms)",
+                "Communication methods and communication skills",
+                "Nonverbal communication awareness (words are only ~7% of overall communication; body language and tone are dominant)",
+                "Project reporting, interpersonal and team skills (e.g., active listening)",
+                "Meetings to bring everything together"
+              ]
+            },
+            {
+              "name": "Outputs",
+              "bullets": [
+                "Project communications — the actual information shared with stakeholders",
+                "Updates to communications management plan or stakeholder management plan if process gaps are found",
+                "Project document updates including lessons learned, issue log, risk register, and stakeholder register"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Acquire Resources",
+          "video_time": 2930,
+          "intro": "Obtain the physical and human resources needed to carry out project work.",
+          "subsections": [
+            {
+              "name": "Inputs",
+              "bullets": [
+                "Resource management plan and project documents describing resource needs",
+                "Organizational process assets such as policies for resource acquisition"
+              ]
+            },
+            {
+              "name": "Tools & Techniques",
+              "bullets": [
+                "Decision-making to select among resource options",
+                "Interpersonal and team skills including negotiation and problem-solving to obtain resources from the business",
+                "Pre-assignment when someone has already agreed to work on the project",
+                "Virtual teams using video conferencing, online portals, and messaging systems"
+              ]
+            },
+            {
+              "name": "Outputs",
+              "bullets": [
+                "Physical or virtual resource assignments confirming what resources have been obtained",
+                "Resource calendars showing when each resource is available",
+                "Project team assignments documenting who is assigned to which work",
+                "Change requests if required resources cannot be obtained, potentially adjusting resources or scope",
+                "Updates to project documents, project management plans, and organizational process assets related to resources"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Lead the Team",
+          "video_time": 3047,
+          "intro": "Direct and develop the project team to perform project work and achieve project objectives.",
+          "subsections": [
+            {
+              "name": "Inputs",
+              "bullets": [
+                "Resource management plan defining the process for managing and leading team resources",
+                "Project documents including the issue log, schedule, and resource calendars showing availability",
+                "Team charter documenting agreed ways of working within the team",
+                "Team performance assessments to gauge how team members are performing"
+              ]
+            },
+            {
+              "name": "Tools & Techniques",
+              "bullets": [
+                "Colocation (putting everyone together) or virtual teams using Slack, messaging, or video conferencing",
+                "Communication technology and interpersonal and team skills to manage team dynamics",
+                "Problem-solving using the six thinking hats (new in PMBOK 8th edition) and retrospectives to improve processes",
+                "Recognition and rewards, individual and team assessments, and meetings",
+                "Emotional intelligence, organizational cultural intelligence, leadership, and the Tuckman ladder",
+                "Virtual collaboration tools and the PMIS to house and access team information"
+              ]
+            },
+            {
+              "name": "Outputs",
+              "bullets": [
+                "Team performance assessments evaluating how the team is performing",
+                "Change requests if adjustments to how the team is managed are needed",
+                "Updates to the resource management plan, issue log, and team charter as needed"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Implement Risk Responses",
+          "video_time": 3201,
+          "intro": "Execute the agreed risk response plans to address threats and opportunities that occur during project execution.",
+          "subsections": [
+            {
+              "name": "Inputs",
+              "bullets": [
+                "Risk management plan defining the process for handling risks",
+                "Risk register and risk report detailing identified risks and their status for stakeholders"
+              ]
+            },
+            {
+              "name": "Tools & Techniques",
+              "bullets": [
+                "Expert judgment from people with expertise in the affected area",
+                "Influencing to enact responses across the organization",
+                "PMIS housing risk information and impacted project components"
+              ]
+            },
+            {
+              "name": "Outputs",
+              "bullets": [
+                "Change requests to adjust aspects of the project resulting from risk responses",
+                "Updates to the risk register and risk report reflecting response actions taken",
+                "Potential updates to team assignments if risk responses affect resource allocation"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Monitoring & Controlling Process Group",
+      "sections": [
+        {
+          "title": "Monitor and Control Project Performance",
+          "video_time": 3271,
+          "intro": "Collects work performance data and turns it into work performance reports to communicate project status to stakeholders.",
+          "subsections": [
+            {
+              "name": "Tools & Techniques",
+              "bullets": [
+                "Expert judgment and data analysis",
+                "Decision-making",
+                "Meetings",
+                "Project dashboards to visualize performance data",
+                "Visual controls and information radiators displaying status in team areas"
+              ]
+            },
+            {
+              "name": "Outputs",
+              "bullets": [
+                "Work performance reports sent to stakeholders showing project progress",
+                "Change requests arising from performance issues",
+                "Project management plan updates to any component",
+                "Updates to issues, risks, and schedule forecasts"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Assess and Implement Changes",
+          "video_time": 3369,
+          "intro": "Evaluates submitted change requests through a formal change control process and implements those that are approved.",
+          "subsections": [
+            {
+              "name": "Inputs",
+              "bullets": [
+                "Change management plan describing how changes are managed",
+                "Configuration management plan for version control and baselining",
+                "Scope, schedule, and cost baselines that may be impacted",
+                "Change log, basis of estimates, and requirements traceability matrix",
+                "Risk report and work performance reports",
+                "Change requests themselves"
+              ]
+            },
+            {
+              "name": "Tools & Techniques",
+              "bullets": [
+                "Expert judgment to assess impact and alternatives",
+                "Change control tools and data analysis to explore options",
+                "Decision-making including voting on the best path forward",
+                "Meetings and integrated change control",
+                "Managing the product backlog (agile: product owner reprioritizes without formal change control)"
+              ]
+            },
+            {
+              "name": "Outputs",
+              "bullets": [
+                "Approved change requests endorsed by the change control board",
+                "Project management plan updates for components affected by the change"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Monitor Stakeholder Engagement",
+          "video_time": 3547,
+          "intro": "Oversees stakeholder relationships throughout the project to ensure information flows smoothly in both directions.",
+          "subsections": [
+            {
+              "name": "Inputs",
+              "bullets": [
+                "Communications management plan for stakeholder communication processes",
+                "Stakeholder engagement plan",
+                "Change management plan identifying who to consult on changes",
+                "Risk management plan for risk owners and emerging risks",
+                "Change logs and issue logs"
+              ]
+            },
+            {
+              "name": "Tools & Techniques",
+              "bullets": [
+                "Expert judgment",
+                "Communication skills",
+                "Conflict negotiation and cultural awareness",
+                "Interpersonal skills to smooth stakeholder issues",
+                "Ground rules for team meetings"
+              ]
+            },
+            {
+              "name": "Outputs",
+              "bullets": [
+                "Change requests resulting from stakeholder engagement issues",
+                "Updates to communications management plan or stakeholder engagement plan",
+                "Updates to change log, issue log, lessons learned, and stakeholder register"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Monitor Communications",
+          "video_time": 3638,
+          "intro": "Reviews actual communications sent and received to confirm they are reaching the right people at the right time and producing the desired results.",
+          "subsections": [
+            {
+              "name": "Inputs",
+              "bullets": [
+                "Resource management plan, communications management plan, and stakeholder engagement plan",
+                "Project documents including issues and lessons learned",
+                "Work performance data representing actual communications sent and results obtained"
+              ]
+            },
+            {
+              "name": "Tools & Techniques",
+              "bullets": [
+                "Expert judgment to assess communication effectiveness",
+                "PMIS (e.g., Jira, Confluence, SharePoint) for storing project information",
+                "Data representation using a stakeholder engagement matrix",
+                "Observation, conversation, and meetings"
+              ]
+            },
+            {
+              "name": "Outputs",
+              "bullets": [
+                "Work performance information synthesizing communication data into meaningful conclusions",
+                "Work performance reports shared with stakeholders as needed",
+                "Change requests",
+                "Updates to communications or stakeholder engagement plans",
+                "Updates to issues log and stakeholder register"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Monitor and Control Scope",
+          "video_time": 3764,
+          "intro": "Tracks project scope against the baseline to prevent scope creep and gold-plating while ensuring deliverables meet quality standards.",
+          "subsections": [
+            {
+              "name": "Inputs",
+              "bullets": [
+                "Scope management plan and quality management plan (including test/evaluation approach)",
+                "Performance measurement baseline",
+                "Quality test and evaluation documents, quality metrics",
+                "Approved change requests and deliverables"
+              ]
+            },
+            {
+              "name": "Tools & Techniques",
+              "bullets": [
+                "Data analysis including defect analysis and performance reviews",
+                "Audits and inspections",
+                "Data representations",
+                "Process automations",
+                "Testing and product evaluations"
+              ]
+            },
+            {
+              "name": "Outputs",
+              "bullets": [
+                "Quality report summarizing defect rates and whether deliverables are ready for release",
+                "Verified deliverables (quality-tested items ready for sponsor acceptance)",
+                "Change requests for defects or issues found",
+                "Updates to quality control measures, scope and quality management plans, and requirements documentation"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Validate Scope",
+          "video_time": 3924,
+          "intro": "Obtains formal acceptance of completed deliverables from the project sponsor or customer before releasing them.",
+          "subsections": [
+            {
+              "name": "Inputs",
+              "bullets": [
+                "Scope baseline",
+                "Quality reports indicating defect levels and readiness",
+                "Verified deliverables (already quality-tested)"
+              ]
+            },
+            {
+              "name": "Tools & Techniques",
+              "bullets": [
+                "Data analysis and inspection of deliverables",
+                "Decision-making",
+                "Customer talks and tests to discuss issues and workarounds",
+                "Process analysis and review meetings"
+              ]
+            },
+            {
+              "name": "Outputs",
+              "bullets": [
+                "Accepted deliverables formally approved by the customer or project sponsor",
+                "Change requests for unaccepted items",
+                "Quality reports and work performance information"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Monitor and Control Resourcing",
+          "video_time": 4001,
+          "intro": "Track resource usage and performance, identifying and resolving constraints to keep the team and physical resources on track.",
+          "subsections": [
+            {
+              "name": "Tools & Techniques",
+              "bullets": [
+                "Problem-solving methods such as value stream mapping to identify bottlenecks.",
+                "Theory of constraints — used when work piles up in a specific area (e.g., too many items in testing).",
+                "Control charts to monitor resource performance trends.",
+                "Branch and bound for optimization decisions."
+              ]
+            },
+            {
+              "name": "Outputs",
+              "bullets": [
+                "Work performance information reflecting current resource status.",
+                "Change requests to address resource issues.",
+                "Project management plan updates — resource management plan, schedule baseline, cost baseline.",
+                "Project document updates — issues log, lessons learned register, physical resource assignments, and resource breakdown structure (team structure changes)."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Monitor and Control Schedule",
+          "video_time": 4116,
+          "intro": "Ensure the project schedule remains on track by comparing actual progress to the baseline and applying corrective actions as needed.",
+          "subsections": [
+            {
+              "name": "Inputs",
+              "bullets": [
+                "Schedule management plan outlining how schedule will be controlled.",
+                "Scope baseline and performance measurement baseline (e.g., planned delivery date vs. actual).",
+                "Product backlog, project documents, and work performance data."
+              ]
+            },
+            {
+              "name": "Tools & Techniques",
+              "bullets": [
+                "Earned value analysis, burn-up/burndown charts, and trend analysis.",
+                "Critical path method — may be updated as the project progresses.",
+                "Resource optimization to shuffle people and realign capacity.",
+                "Project Management Information System (PMIS) to consolidate data.",
+                "Schedule compression — fast-tracking or crashing.",
+                "Agile techniques: velocity, daily stand-ups, sprint reviews, backlog refinement."
+              ]
+            },
+            {
+              "name": "Outputs",
+              "bullets": [
+                "Work performance information comparing schedule progress and scope delivered.",
+                "Schedule forecasts projecting future performance.",
+                "Change requests for schedule baseline adjustments.",
+                "Updates to project management plan and project documents (lessons learned, project schedule)."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Monitor and Control Finance",
+          "video_time": 4212,
+          "intro": "Keep the project budget under control by comparing actual costs against the cost baseline and using earned value analysis to forecast financial health.",
+          "subsections": [
+            {
+              "name": "Inputs",
+              "bullets": [
+                "Financial management plan and cost baseline defining the approved budget.",
+                "Performance measurement baseline used to assess cost variance.",
+                "Lessons learned register and project funding requirements (incremental or lump-sum funding)."
+              ]
+            },
+            {
+              "name": "Tools & Techniques",
+              "bullets": [
+                "Expert judgment for financial assessment.",
+                "Data analysis including earned value analysis — compares value delivered to value that should have been delivered.",
+                "To-complete performance index (TCPI) to determine cost efficiency needed to meet objectives.",
+                "Project Management Information System (PMIS)."
+              ]
+            },
+            {
+              "name": "Outputs",
+              "bullets": [
+                "Work performance information showing whether the budget is on track.",
+                "Cost forecasts for remaining work.",
+                "Change requests if cost baseline or financial management plan needs updating.",
+                "Project document updates — issues, assumptions, and basis-of-estimates changes."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Monitor Risks",
+          "video_time": 4297,
+          "intro": "Continuously track identified risks, identify and analyze new risks, and plan updated responses throughout the project lifecycle.",
+          "subsections": [
+            {
+              "name": "Inputs",
+              "bullets": [
+                "Risk management plan describing the monitoring process.",
+                "Issues log, risk register, and risk report (highlighting top risks and responses for stakeholders).",
+                "Work performance data and work performance reports that may affect risk monitoring."
+              ]
+            },
+            {
+              "name": "Tools & Techniques",
+              "bullets": [
+                "Technical performance analysis to assess whether technical objectives are being met.",
+                "Reserve analysis — contingency reserve for identified risks; management reserve for unforeseen in-scope work."
+              ]
+            },
+            {
+              "name": "Outputs",
+              "bullets": [
+                "Work performance information on risk status.",
+                "Change requests to implement risk responses that affect scope, schedule, or cost.",
+                "Updates to project management plan components (schedule, scope, cost) in response to risks.",
+                "Project document updates — assumptions log, issues log, risk register, and risk report."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Closing Process Group",
+      "sections": [
+        {
+          "title": "Close the Project or Phase",
+          "video_time": 4322,
+          "intro": "Formally confirm acceptance of all deliverables, finalize vendor claims, capture final lessons learned, transfer outputs to operations, and archive project information.",
+          "subsections": [
+            {
+              "name": "Key Activities",
+              "bullets": [
+                "Confirm delivery and formal acceptance of deliverables — quality-verified by the team, validated and accepted by the project sponsor.",
+                "Finalize any open procurement claims with vendors.",
+                "Measure product benefits against the business case and benefits management plan.",
+                "Conduct a final lessons learned session.",
+                "Transfer all deliverables and operational responsibilities to the business.",
+                "Close financial accounts and archive all project information."
+              ]
+            },
+            {
+              "name": "Inputs",
+              "bullets": [
+                "Project management plan — all components (scope, schedule, cost, resources, risks, communications, stakeholders).",
+                "Project documents — assumptions, change log, issues log, lessons learned, milestones.",
+                "Quality reports, risk register, accepted deliverables, business case, benefits management plan, and agreements."
+              ]
+            },
+            {
+              "name": "Tools & Techniques",
+              "bullets": [
+                "Expert judgment for final evaluation.",
+                "Data analysis — trend and variance analysis across the project for lessons learned.",
+                "Meetings to consolidate final information."
+              ]
+            },
+            {
+              "name": "Outputs",
+              "bullets": [
+                "Final product, service, or result transitioned to the business/operations.",
+                "Final report summarizing project performance, variances, and lessons learned.",
+                "Updates to organizational process assets — lessons learned repository and revised templates."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

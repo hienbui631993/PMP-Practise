@@ -1,0 +1,2537 @@
+[
+  {
+    "number": 1,
+    "question": "You're working as an agile project manager and the executive manager who will own the product would like to focus primarily on only set processes and tools to manage the project. What would you recommend to them instead of set processes and tools?",
+    "options": {
+      "A": "Focus on the definition of success as defined by the project manager",
+      "B": "Focus primarily on the individuals and interactions involved",
+      "C": "Focus primarily on the scope of the project",
+      "D": "Focus primarily on the schedule of the project"
+    },
+    "correct_answer": "B",
+    "explanation": "The Agile Manifesto recommends focusing on individuals and interactions over processes and tools. Projects are run by people, products are developed by people for people to use, and interactions either make or break a project.",
+    "video_time": 35
+  },
+  {
+    "number": 2,
+    "question": "The executive management in your organization has assembled a new team and dictated that they will use agile for their product development. As the project progresses there is confusion about product scope and the definition of what done looks like. As an agile project manager, what will you recommend to the executive team?",
+    "options": {
+      "A": "Select a person from each part of the organization to assist to ensure diversity",
+      "B": "Have the functional manager select their friends or their favorite team members",
+      "C": "Encourage a self-organizing team to form including the people who asked for the requirements in the first place and the outcomes",
+      "D": "Hire external consultants to run the project and create the product"
+    },
+    "correct_answer": "C",
+    "explanation": "Agile encourages self-organizing teams composed of the people who created the requirements and had the desired outcome in the first place. This gives a higher level of ownership and product expertise that cannot be bought.",
+    "video_time": 132
+  },
+  {
+    "number": 3,
+    "question": "You're running an agile project and you meet with the team for the next sprint planning meeting. What will you do next?",
+    "options": {
+      "A": "Negotiate the scope and costs of the project with the project sponsor",
+      "B": "Walk through the three questions with the team: what did I do yesterday, what will I do today, and is there anything blocking me",
+      "C": "The development team demonstrates the working feature to the product owner who marks it as complete",
+      "D": "The product owner shares the updated backlog and the team discusses it to ensure a shared understanding"
+    },
+    "correct_answer": "D",
+    "explanation": "The product owner should share the updated backlog items in prioritized order and the entire team discusses them to ensure a shared understanding of what will be developed during the next sprint.",
+    "video_time": 266
+  },
+  {
+    "number": 4,
+    "question": "You're a project manager working on an agile project and you want your team to maximize the value they bring to the customer. What can you eliminate in order to maximize project value?",
+    "options": {
+      "A": "Daily stand-ups",
+      "B": "Unnecessary features",
+      "C": "Sprint reviews",
+      "D": "Testing"
+    },
+    "correct_answer": "B",
+    "explanation": "Value can be maximized by eliminating unnecessary features, partially done work, delays, extra processes, task switching, waiting, defects, rework, and handoffs — all of which are considered waste in agile.",
+    "video_time": 402
+  },
+  {
+    "number": 5,
+    "question": "You're working on a project and the team have recently moved to an agile way of work. One of the team members is confused about scrum and what typically happens after the sprint review. What will you tell them happens next?",
+    "options": {
+      "A": "Hold a sprint retrospective with the team",
+      "B": "Perform a backlog refinement with the product owner",
+      "C": "Perform a story card elaboration with the three amigos (business/product owner, developers, and testers)",
+      "D": "Hold a daily scrum"
+    },
+    "correct_answer": "A",
+    "explanation": "A sprint retrospective is held with the whole team after the sprint review but before the next sprint planning meeting. It is used to gather lessons learned and look for opportunities for improvement so the team continuously gets better.",
+    "video_time": 522
+  },
+  {
+    "number": 6,
+    "question": "You're working in an agile team and preparing the agile team charter. You work with the agile team to ensure the team charter answers four questions: why are we doing this project, and who benefits from the project. What are the other two questions the team charter should answer?",
+    "options": {
+      "A": "When will the project end, and what do we do with the product",
+      "B": "What does done mean for the project, and how are we going to work together",
+      "C": "How much risk is on the project, and what is the project scope",
+      "D": "How many defects are allowed in the product, and how many testers are there"
+    },
+    "correct_answer": "B",
+    "explanation": "According to the Agile Practice Guide, the agile team charter typically covers why we are doing the project, who benefits, what does done look like, and how are we going to work together.",
+    "video_time": 626
+  },
+  {
+    "number": 7,
+    "question": "You're working with a new agile project manager and explain that agile favors value-based measurements instead of predictive-based measurements on a project. What is an example of value-based measurements?",
+    "options": {
+      "A": "Earned value management",
+      "B": "Schedule performance index",
+      "C": "Feature burn down chart, features delivered, and customer satisfaction",
+      "D": "Variance at completion and cost performance index"
+    },
+    "correct_answer": "C",
+    "explanation": "Agile works with value delivered as its primary measurement. All other options are predictive measurements from traditional project management methodologies.",
+    "video_time": 733
+  },
+  {
+    "number": 8,
+    "question": "Agile Unified Process is an auxiliary agile method that focuses on performing more iterative cycles across seven key disciplines, incorporating associated feedback before formal delivery. What is NOT one of the seven key disciplines within a release for Agile Unified Process?",
+    "options": {
+      "A": "Discipline of the high level model",
+      "B": "Discipline in managing stakeholders' expectations",
+      "C": "Discipline in testing",
+      "D": "Discipline in configuration management"
+    },
+    "correct_answer": "B",
+    "explanation": "Agile focuses on transparency to ensure customer needs are met, not specifically on managing customer expectations. According to the Agile Practice Guide, managing stakeholders' expectations is not one of the seven key disciplines of Agile Unified Process.",
+    "video_time": 828
+  },
+  {
+    "number": 9,
+    "question": "You're leading a coaching session with your project team on the additional agile and lean frameworks that have contributed to the agile way of work. What frameworks will you share with the team?",
+    "options": {
+      "A": "Project management plan and project charter",
+      "B": "Scaled Agile Framework and Large-Scale Scrum",
+      "C": "Working group meetings, post-mortem project meetings",
+      "D": "Flow charting and affinity diagrams"
+    },
+    "correct_answer": "B",
+    "explanation": "Agile and lean frameworks include the Scaled Agile Framework (SAFe), Large-Scale Scrum (LeSS), Scrum of Scrums (SoS), Dynamic Systems Development Method (DSDM), Kanban, Extreme Programming (XP), and Scrum, as noted in the Agile Practice Guide.",
+    "video_time": 950
+  },
+  {
+    "number": 10,
+    "question": "Introduced by Alistair Cockburn in his book Crystal Clear and created by IBM in 1991, this framework focuses on individuals and their interactions opposed to processes and tools. It is not a set process but a guideline for the team to collaborate and communicate. Which of the following is NOT one of the core beliefs of Crystal?",
+    "options": {
+      "A": "Technologies change techniques",
+      "B": "People change functions",
+      "C": "Cultures change norms",
+      "D": "Distances change communication"
+    },
+    "correct_answer": "B",
+    "explanation": "Crystal Clear describes the three core beliefs as technologies changing techniques, cultures changing norms, and distances changing communication. These are reasons behind core agile practices such as stand-ups, collaborative user story creation, retrospectives, and the whole team approach.",
+    "video_time": 1049
+  },
+  {
+    "number": 11,
+    "question": "You're working on a project in the role of Scrum Master and have set a meeting with the team and the product owner to refine the product backlog. What should the team do in this meeting?",
+    "options": {
+      "A": "Estimate and refine the work items",
+      "B": "Prioritize the work items",
+      "C": "Add features to the product backlog",
+      "D": "Identify fixes"
+    },
+    "correct_answer": "A",
+    "explanation": "The product owner adjusts the priority of the product backlog items before the meeting; the team is responsible for estimating and refining those work items. The team needs to estimate as a team and figure out how much can be completed during a sprint, refining estimates with higher levels of detail each time.",
+    "video_time": 1208
+  },
+  {
+    "number": 12,
+    "question": "You're working with a team who would like to become agile. The functional manager asks you what the difference between Kanban and Scrum is. What will you tell them?",
+    "options": {
+      "A": "Kanban teams plan their work in sprints or iterations",
+      "B": "There are no work-in-progress limits in Kanban",
+      "C": "Kanban teams work on a project as a whole",
+      "D": "Kanban teams employ a pull system"
+    },
+    "correct_answer": "D",
+    "explanation": "The main difference between Scrum and Kanban is that Kanban teams employ a pull system — when an item of work is completed it triggers someone to pull the next item into the queue onto the board. Kanban teams work off a Kanban board that displays each task and limits how much work in progress can be in place.",
+    "video_time": 1281
+  },
+  {
+    "number": 13,
+    "question": "You're working on a new project with an agile product development team who have self-formed and chosen a Scrum Master called Jeremy. Jeremy immediately sets a meeting with the team to explain and flesh out their team charter. What has made Jeremy a good choice for Scrum Master?",
+    "options": {
+      "A": "He likes to work within set processes",
+      "B": "He has been with the company for more than five years",
+      "C": "He shows servant leadership and engages the team in team decisions",
+      "D": "He sticks to the plan and does not change"
+    },
+    "correct_answer": "C",
+    "explanation": "Jeremy shows the traits of servant leadership by engaging the team in team decisions, starting with the team charter and ground rules so everyone knows where they stand. By communicating the reasons for his decisions he is a suitable Scrum Master — less focused on command and control, increasing engagement and team output.",
+    "video_time": 1362
+  },
+  {
+    "number": 14,
+    "question": "You're managing a project as an agile project manager and a business representative for the product you're delivering asks you how many defects were found in the latest round of testing. You don't know the answer off the top of your head. What should you do?",
+    "options": {
+      "A": "Guess the number of defects and then change the subject",
+      "B": "Tell the business partner you will send an email with the information",
+      "C": "Take him to the team area where the information radiator with project information is displayed",
+      "D": "Ask the business partner to call the Scrum Master to get the correct answer"
+    },
+    "correct_answer": "C",
+    "explanation": "A core component of agile is visual management and transparency through the information radiator, which is in a common co-located place that anyone can see at any time. It includes team velocity, the Kanban board, product backlog, burn-down chart, latest test results, issues, and retrospective results.",
+    "video_time": 1451
+  },
+  {
+    "number": 15,
+    "question": "You're working in a company that is moving from a waterfall methodology to agile. You mention to the business unit manager that the team will be better prepared to respond to change and meet customer needs using agile. Why is this?",
+    "options": {
+      "A": "The agile team works directly with a business owner or representative to constantly prioritize delivered value",
+      "B": "The agile team delivers the product all in one go",
+      "C": "The agile team is for developers only so development will improve",
+      "D": "The business partners review statuses and ask for recommendations"
+    },
+    "correct_answer": "A",
+    "explanation": "Working with business partners or a customer representative almost daily is a key part of agile — the team hears what the business would like the results to be. Meeting face to face is better than reading requirements like emails or documents, providing much more information and enabling constant reprioritization of delivered value.",
+    "video_time": 1572
+  },
+  {
+    "number": 16,
+    "question": "For agile life cycles two kinds of planning occur: release planning and iteration planning. In release planning, business representatives such as the product owner establish and prioritize the user stories for release in collaboration with the team, refining larger user stories into smaller ones. What is the INCORRECT description below regarding iteration planning and backlog preparation?",
+    "options": {
+      "A": "The backlog is the ordered list of all of the work presented in story form for a team",
+      "B": "The coach encourages the team to work alone so no one bothers them",
+      "C": "The facilitator encourages the team to work in triads of developer, tester, and product owner or business analyst",
+      "D": "The triad discuss, write, and then place enough stories into an iteration and enough features for a first release"
+    },
+    "correct_answer": "B",
+    "explanation": "Answers A, C, and D are correct descriptions of backlog preparation for iteration planning according to the Agile Practice Guide from the Agile Alliance and PMI. Option B is incorrect because agile emphasizes continuous collaboration as a team, not working alone in isolation.",
+    "video_time": 1670
+  },
+  {
+    "number": 17,
+    "question": "Behaviour Driven Development (BDD) allows a developer to focus on testing code based on the expected behavior of the software and is a method of writing user stories and acceptance criteria. What is the correct description regarding Behaviour Driven Development acceptance-based criteria?",
+    "options": {
+      "A": "Make, buy, and do",
+      "B": "Tell, show, and repeat",
+      "C": "Find, create, and perform",
+      "D": "Given, when, then"
+    },
+    "correct_answer": "D",
+    "explanation": "Given, when, then is how Behaviour Driven Development is used — particularly when outlining user story cards for iteration. It highlights: given a certain situation, when something happens, then we want this to happen.",
+    "video_time": 1787
+  },
+  {
+    "number": 18,
+    "question": "Every project has characteristics around requirements, delivery, change, and goals. Understanding the different types of life cycle allows you to choose the right one for your project. What is the correct description for a waterfall approach?",
+    "options": {
+      "A": "Predictive, fixed requirements, performed once for the entire project, in a single delivery",
+      "B": "Predictive, variable requirements, performed once for the entire project, in a single delivery",
+      "C": "Predictive, fixed requirements, performed multiple times, in multiple deliveries",
+      "D": "Predictive, dynamic requirements, repeated until correct, in a single delivery"
+    },
+    "correct_answer": "A",
+    "explanation": "A predictive or waterfall project management life cycle focuses on fixed requirements performed once for the project in a single delivery. Agile, by contrast, continually releases features and delivers value in smaller, more frequent increments.",
+    "video_time": 1862
+  },
+  {
+    "number": 19,
+    "question": "Every project has characteristics around requirements, delivery, change, and goals. Understanding the different types of life cycle allows you to choose the right one for the circumstances of your project. What is the correct description for an iterative project approach?",
+    "options": {
+      "A": "Fixed requirements, repeated until correct, in multiple deliveries",
+      "B": "Dynamic requirements, repeated until correct, in a single delivery",
+      "C": "Dynamic requirements, performed once for a given increment, in frequent smaller deliveries",
+      "D": "Fixed requirements, performed once for the project, in a single delivery"
+    },
+    "correct_answer": "B",
+    "explanation": "Iterative methods have dynamic requirements that are ever-changing and ever-improving — repeated with feedback until correct — but they are delivered only once (a single delivery). This contrasts with incremental approaches which have multiple smaller deliveries.",
+    "video_time": 1958
+  },
+  {
+    "number": 20,
+    "question": "The team charter is also a social contract. Which of the below is NOT usually a part of an agile team charter?",
+    "options": {
+      "A": "Team values such as sustainable pace and core hours",
+      "B": "Working agreements such as what ready means and what done means",
+      "C": "Ground rules such as one person talking in a meeting",
+      "D": "Schedule performance index and cost performance index for the project"
+    },
+    "correct_answer": "D",
+    "explanation": "The agile team charter focuses on the vision, the why, and the team's way of work. The SPI and CPI (cost performance index) are earned value management metrics from a predictive/waterfall project methodology and are not part of a traditional agile team charter.",
+    "video_time": 2062
+  },
+  {
+    "number": 21,
+    "question": "The team charter is also a social contract. Which of the below is NOT usually a part of an agile team charter?\nA) Team values such as sustainable pace and core hours\nB) Working agreements such as what 'ready' means and what 'done' means\nC) Ground rules such as one person talking in a meeting\nD) Schedule performance index and cost performance index for the project",
+    "options": {
+      "A": "Team values such as sustainable pace and core hours",
+      "B": "Working agreements such as what 'ready' means and what 'done' means",
+      "C": "Ground rules such as one person talking in a meeting",
+      "D": "Schedule performance index and cost performance index for the project"
+    },
+    "correct_answer": "D",
+    "explanation": "The agile team charter focuses on the vision, the 'why', and the team's way of work. SPI and CPI are earned value management metrics from a predictive (waterfall) project methodology and are not part of a traditional agile team charter.",
+    "video_time": 2062
+  },
+  {
+    "number": 22,
+    "question": "You're working with a team that is new to agile and you're using Scrum to manage the project. The business representative is confused about the difference between a sprint review and a sprint retrospective. What will you tell them?\nA) Sprint reviews demonstrate the work completed in the sprint; sprint retrospectives look at all the work completed in the project\nB) Sprint reviews discuss what is worked on in the sprint; sprint retrospectives are done at the end of the project for a lessons learned opportunity\nC) Sprint reviews review the lessons learned; sprint retrospectives look at the history of the product retrospectively\nD) Sprint reviews are for product demonstrations; sprint retrospectives are for lessons learned",
+    "options": {
+      "A": "Sprint reviews demonstrate the work completed in the sprint; sprint retrospectives look at all the work completed in the project",
+      "B": "Sprint reviews discuss what is worked on in the sprint; sprint retrospectives are done at the end of the project for a lessons learned opportunity",
+      "C": "Sprint reviews review the lessons learned; sprint retrospectives look at the history of the product retrospectively",
+      "D": "Sprint reviews are for product demonstrations; sprint retrospectives are for lessons learned"
+    },
+    "correct_answer": "D",
+    "explanation": "Sprint reviews are for product demonstrations to the business or customer, while sprint retrospectives are for lessons learned (what went well, what didn't, what did I learn), ideally performed at the end of each iteration to continuously improve the team's process.",
+    "video_time": 2134
+  },
+  {
+    "number": 23,
+    "question": "The agile team for which you're the project manager has determined several key features to deliver to the customer. How should these tasks be tackled by the team?\nA) The features should be prioritized, tested, and delivered incrementally\nB) The features should be delivered quickly whether or not they're complete to gather feedback\nC) The features should be delivered according to the project plan\nD) All the features should be delivered at the end of the project",
+    "options": {
+      "A": "The features should be prioritized, tested, and delivered incrementally",
+      "B": "The features should be delivered quickly whether or not they're complete to gather feedback",
+      "C": "The features should be delivered according to the project plan",
+      "D": "All the features should be delivered at the end of the project"
+    },
+    "correct_answer": "A",
+    "explanation": "Agile is a combination of incremental delivery and iterative development, so business value is continuously and iteratively improved and prioritized. Features should be complete, tested, and quality is everyone's responsibility — not just delivered fast but delivered with quality built in.",
+    "video_time": 2305
+  },
+  {
+    "number": 24,
+    "question": "You're working on an agile project and the project team have just finished an iteration. All tasks for the iteration have been completed and you're ready to move on to the next iteration, but you're not sure what the team should work on. What will you do next?\nA) Follow the project plan developed early in the project\nB) Follow the project management office who has already determined how the project should progress\nC) Ask the product owner who continuously prioritizes the backlog\nD) Ask the project coach or team leader to determine the next iteration",
+    "options": {
+      "A": "Follow the project plan developed early in the project",
+      "B": "Follow the project management office who has already determined how the project should progress",
+      "C": "Ask the product owner who continuously prioritizes the backlog",
+      "D": "Ask the project coach or team leader to determine the next iteration"
+    },
+    "correct_answer": "C",
+    "explanation": "The product owner represents the customer and continuously prioritizes the backlog of features. The team works through the list of items that have identifiable value and have been prioritized by the customer, ensuring business value is always being maximized.",
+    "video_time": 2405
+  },
+  {
+    "number": 25,
+    "question": "While meeting with the customers or business owners, they introduce several pieces of new functionality into the product backlog. The deadline for the product cannot be changed. What will you do next?\nA) Tell the team to work overtime in order to deliver the project\nB) Stand by your team and tell the customers the project will not be delivered on time\nC) Be sure the customers understand that lower priority features may drop off the project completely\nD) Agree with the customers to have all new items put into a separate category that will be completed if time allows",
+    "options": {
+      "A": "Tell the team to work overtime in order to deliver the project",
+      "B": "Stand by your team and tell the customers the project will not be delivered on time",
+      "C": "Be sure the customers understand that lower priority features may drop off the project completely",
+      "D": "Agree with the customers to have all new items put into a separate category that will be completed if time allows"
+    },
+    "correct_answer": "C",
+    "explanation": "An agile project can accept changes even late in development. While cost, quality, and schedule are often fixed in agile, scope can vary over time — some lower priority features may drop off while others become prioritized above them. A maintainable pace is also required so project managers must not overwork the team.",
+    "video_time": 2501
+  },
+  {
+    "number": 26,
+    "question": "Every project has characteristics around requirements, delivery, change, and goals. Understanding the different types of lifecycle will allow you to choose the right one for the circumstances of your project. What is the correct description for an incremental project management approach?\nA) Fixed requirements, activities performed once, in multiple deliveries\nB) Dynamic requirements, activity is repeated until correct, in one large delivery\nC) Dynamic requirements, performed once for a given increment, with frequent smaller deliveries\nD) Fixed requirements, performed once, infrequent smaller deliveries",
+    "options": {
+      "A": "Fixed requirements, activities performed once, in multiple deliveries",
+      "B": "Dynamic requirements, activity is repeated until correct, in one large delivery",
+      "C": "Dynamic requirements, performed once for a given increment, with frequent smaller deliveries",
+      "D": "Fixed requirements, performed once, infrequent smaller deliveries"
+    },
+    "correct_answer": "C",
+    "explanation": "An incremental project management approach includes dynamic requirements performed once for each increment, with those increments delivered in frequent smaller deliveries. When combined with iterative improvement this forms the foundation of an agile approach.",
+    "video_time": 2664
+  },
+  {
+    "number": 27,
+    "question": "There are certain core practices that are common amongst various agile frameworks and are used within any team that calls themselves agile. Which of the below is NOT a core agile practice?\nA) Team iteration planning\nB) Collaborative user story creation between the business, customer, developers, and testers\nC) Demonstrations and reviews of the features\nD) Autocratic leadership to ensure the work gets done",
+    "options": {
+      "A": "Team iteration planning",
+      "B": "Collaborative user story creation between the business, customer, developers, and testers",
+      "C": "Demonstrations and reviews of the features",
+      "D": "Autocratic leadership to ensure the work gets done"
+    },
+    "correct_answer": "D",
+    "explanation": "The preferred style of leadership in an agile team is servant leadership, not autocratic leadership. Autocratic leadership is a one-person top-down affair, while servant leadership builds psychological safety by serving and growing the team so everyone can engage and contribute. All other items listed are core agile practices.",
+    "video_time": 2767
+  },
+  {
+    "number": 28,
+    "question": "Poor specifications are often a major reason for project failure. In agile development, user stories are written with developers, testers, and business representatives with frequent reviews to ensure they are correct. Which of the following is NOT correct regarding collaborative user story creation?\nA) A user story addresses both functional and non-functional requirements\nB) The project sponsor must sign off on all user stories in advance\nC) A user story includes acceptance criteria for the feature\nD) Characteristics for acceptance criteria must be estimable, small, and testable",
+    "options": {
+      "A": "A user story addresses both functional and non-functional requirements",
+      "B": "The project sponsor must sign off on all user stories in advance",
+      "C": "A user story includes acceptance criteria for the feature",
+      "D": "Characteristics for acceptance criteria must be estimable, small, and testable"
+    },
+    "correct_answer": "B",
+    "explanation": "While it is common for developers, testers, and business representatives to agree on the story card criteria, it is not signed off by the project sponsor directly. The product owner, representing the business or customer, grooms the feature backlog to ensure the highest value items are always being delivered.",
+    "video_time": 2870
+  },
+  {
+    "number": 29,
+    "question": "In continuous integration, configuration management, compilation, software build, deployment, and testing are wrapped into a single automated repeatable process. Which of the following is correct regarding continuous integration?\nA) Defects in the code are not an issue, making it an ideal method\nB) Defects are detected more quickly because teams constantly integrate, build, and test their work\nC) Defects are integrated into the work as part of test-driven development\nD) Defects are collected and fixed in an iteration at the end of the project to avoid delay",
+    "options": {
+      "A": "Defects in the code are not an issue, making it an ideal method",
+      "B": "Defects are detected more quickly because teams constantly integrate, build, and test their work",
+      "C": "Defects are integrated into the work as part of test-driven development",
+      "D": "Defects are collected and fixed in an iteration at the end of the project to avoid delay"
+    },
+    "correct_answer": "B",
+    "explanation": "Continuous integration merges code to a test environment using an automated process including automated regression tests to ensure nothing is broken, which allows the team to find and fix defects more quickly. Test-driven development (writing a test first that fails, then writing code to make it pass) is a separate but related practice.",
+    "video_time": 2969
+  },
+  {
+    "number": 30,
+    "question": "Agile has certain core practices used within any team working in an agile way. Which of the following is NOT a core practice of agile?\nA) The whole team approach where any person who is needed is brought into the project team\nB) Early and frequent feedback\nC) Daily stand-ups to report progress and raise blockers\nD) Reporting to executives to ensure they're happy with your project",
+    "options": {
+      "A": "The whole team approach where any person who is needed is brought into the project team",
+      "B": "Early and frequent feedback",
+      "C": "Daily stand-ups to report progress and raise blockers",
+      "D": "Reporting to executives to ensure they're happy with your project"
+    },
+    "correct_answer": "D",
+    "explanation": "Reporting to executives is not a direct agile core practice. In agile, information is made visible and accessible to anyone who needs it — through burn-down charts, product backlogs, and demonstrations or reviews — rather than through formal executive reporting. All other items listed are agile core practices.",
+    "video_time": 3114
+  },
+  {
+    "number": 31,
+    "question": "You're working on an agile project as an agile project manager. You look at the product backlog and ensure that several features or minimum viable products (MVPs) can be scheduled for delivery throughout the duration of the project. Why is that a good idea?",
+    "options": {
+      "A": "To show executives that progress is being made by the development team",
+      "B": "To keep the project duration short",
+      "C": "To enable users to test the product for quality and give feedback",
+      "D": "To enable the business to get value quickly as the features are delivered"
+    },
+    "correct_answer": "D",
+    "explanation": "Minimum viable products are usable features in their own right and they are delivered incrementally, allowing business value to be gained more quickly. This also enables gathering feedback on whether the features are having the desired results.",
+    "video_time": 3225
+  },
+  {
+    "number": 32,
+    "question": "You're working on a complex software project but you see that the team uses a whiteboard and writes tasks on cards or sticky notes. The business representative seems put off by the use of these low-tech tools on such a high-profile technology project. What will you tell them?",
+    "options": {
+      "A": "The team are using low-tech tools so that low-tech people can understand them",
+      "B": "A whiteboard is actually a complex thing — they just don't know it yet",
+      "C": "The team is using the principle of visual management and by using a physical board it is transparent to anyone who needs that information",
+      "D": "The team will drop everything and develop a new software-based kanban board to avoid embarrassment"
+    },
+    "correct_answer": "C",
+    "explanation": "Visual management is a lean principle borrowed into agile where key pieces of information are made as accessible as possible, often found in the team area. It means anyone can walk through that area and see what they need at a glance, and a kanban board is an example of a low-tech high-touch tool.",
+    "video_time": 3321
+  },
+  {
+    "number": 33,
+    "question": "Agile teams practice frequent verification and validation during and at the end of each iteration through demonstrations and reviews. Which of the following is NOT a benefit of demos and reviews?",
+    "options": {
+      "A": "It enables the team to catch mistakes and mismatched customer expectations early",
+      "B": "It keeps everyone busy and gives them something to do",
+      "C": "It is easy to manage since there are multiple feedback loops",
+      "D": "It reduces cost overruns as mistakes are found early prior to additional tasks being built on a faulty foundation"
+    },
+    "correct_answer": "B",
+    "explanation": "Busy work does not add value to the project and is not a benefit of agile demos and reviews. The actual benefits include catching mistakes early, reducing cost overruns, and creating multiple feedback loops that help deliver value.",
+    "video_time": 3459
+  },
+  {
+    "number": 34,
+    "question": "You're on an agile software implementation project with a very short deadline. How do agile teams shorten the time between identifying a defect and resolving that defect?",
+    "options": {
+      "A": "Continuous integration",
+      "B": "Daily build and smoke tests",
+      "C": "Usability testing",
+      "D": "Exploration testing"
+    },
+    "correct_answer": "A",
+    "explanation": "Continuous integration aims to merge the code and have a working build once a day, then executes automated tests quickly to see if anything is broken. This frequent checking ensures less time passes before a problem is identified.",
+    "video_time": 3534
+  },
+  {
+    "number": 35,
+    "question": "With all the different methods of testing either a software or a product deliverable, when should the team determine the acceptance test criteria for the feature or story card?",
+    "options": {
+      "A": "When the first iteration is complete",
+      "B": "During the estimation and elaboration of the card with the product owner, business analysts, and development team",
+      "C": "Before the product or feature is prioritized",
+      "D": "At the end of the project"
+    },
+    "correct_answer": "B",
+    "explanation": "Acceptance tests and criteria are given before the development of a deliverable and during elaboration, often in a given/when/then format (behavior-driven development). We need acceptance criteria before development starts so that the team can deliver to those criteria.",
+    "video_time": 3631
+  },
+  {
+    "number": 36,
+    "question": "Every project has characteristics around requirements, delivery, change, and goals. Understanding the different types of life cycle will allow you to choose the right one for the circumstances of your project. Choose the correct description for an agile approach.",
+    "options": {
+      "A": "Dynamic requirements, repeated until correct, with frequent smaller deliveries",
+      "B": "Dynamic requirements, repeated until correct, in one large single delivery",
+      "C": "Fixed requirements, activities performed once, with infrequent small deliveries",
+      "D": "Fixed requirements, activities performed once, in one large delivery"
+    },
+    "correct_answer": "A",
+    "explanation": "The agile project management approach includes dynamic requirements repeated until correct with frequent smaller deliveries, as stated in the Agile Practice Guide from the Project Management Institute and the Agile Alliance.",
+    "video_time": 3736
+  },
+  {
+    "number": 37,
+    "question": "Continuous integration wraps software build, deployment, and testing into a single automated repeatable process. Which of the following best describes what this merging process does?",
+    "options": {
+      "A": "It separates each feature into its own development pool",
+      "B": "It ensures no code is changed",
+      "C": "It integrates all changed components regularly, at least once a day",
+      "D": "It enables new features for the product backlog"
+    },
+    "correct_answer": "C",
+    "explanation": "Continuous integration is designed to merge all changes made to the software and test them automatically, discovering any defects or issues on a daily basis. This is one of the fastest ways to find defects and ensure that everything works as a whole.",
+    "video_time": 3832
+  },
+  {
+    "number": 38,
+    "question": "Crystal is one of the original frameworks that contributed to agile. It is designed to scale and realizes that each project may require a slightly tailored set of practices based on the size and complexity of the project. What are the core values of Crystal?",
+    "options": {
+      "A": "People, interaction, and community",
+      "B": "Finding people, building people, and leading people",
+      "C": "Building products, buying products, and selling products",
+      "D": "Profit, persistence, and power"
+    },
+    "correct_answer": "A",
+    "explanation": "Crystal's core values include people, interaction, and community, in the same way that agile is based around individuals and interactions over processes and tools. Crystal was created by Alistair Cockburn in the early 1990s and was an input into agile.",
+    "video_time": 3891
+  },
+  {
+    "number": 39,
+    "question": "Crystal is designed to scale and realizes that each project may require a slightly different tailored set of practices based on its size and complexity. What are some of the ways that Crystal scales?",
+    "options": {
+      "A": "Crystal blue, indigo, and violet based on number of features",
+      "B": "Crystal clear, yellow, orange, and red based on the number of people",
+      "C": "Crystal metal, wood, and water based on the flow of story cards through the kanban board",
+      "D": "Crystal high, low, and medium based on dollars spent on the project"
+    },
+    "correct_answer": "B",
+    "explanation": "Crystal Clear, Yellow, Orange, and Red are based on factors such as the number of people involved (zero to eight and beyond), money involved, and the general comfort level of the project often involving risk. These scaling methodologies help agile teams apply the right practices for their project size.",
+    "video_time": 4017
+  },
+  {
+    "number": 40,
+    "question": "You're working through an agile project with your team meeting daily in a daily stand-up. What is NOT one of the reasons that agile teams use daily stand-ups?",
+    "options": {
+      "A": "To micro-commit to the team",
+      "B": "To uncover and remove blockers to ensure work flows freely through the team",
+      "C": "To ensure work flows freely through the team",
+      "D": "To report to the executive team"
+    },
+    "correct_answer": "D",
+    "explanation": "Stand-ups are used to micro-commit to each other, uncover blockers, and ensure the work flows freely through the team. While everyone including an executive is welcome to join, stand-ups are not specifically for reporting to an executive team.",
+    "video_time": 4120
+  },
+  {
+    "number": 41,
+    "question": "You're a project manager on an agile project that is halfway through the project. The project sponsor is starting to raise concerns that the project will not be completed in the allotted time. What will you do to gather the information necessary to answer the project sponsor to see how the project is actually going?",
+    "options": {
+      "A": "Review the kanban board and the current work in progress",
+      "B": "Check the product backlog for remaining features",
+      "C": "Review the team velocity, the product burn down chart, and other key performance indicators",
+      "D": "Have a team meeting and log everyone's status"
+    },
+    "correct_answer": "C",
+    "explanation": "Agile key performance indicators include team velocity (rate of progress in story points) and remaining work shown on a burn down chart. Reviewing these KPIs gives the most reliable picture of how the project is tracking against the allotted time.",
+    "video_time": 4213
+  },
+  {
+    "number": 42,
+    "question": "You're attending a kickoff meeting with the agile team and the business owners. The scrum master recommends using MoSCoW to help prioritize the work with the product and the business owners. How does MoSCoW prioritize the product backlog?",
+    "options": {
+      "A": "Using priority one, two, three and four",
+      "B": "Using low, medium, high",
+      "C": "Using must have, should have, could have, and will not have",
+      "D": "Using multiple dots that people can assign to features they like"
+    },
+    "correct_answer": "C",
+    "explanation": "The MoSCoW method of prioritization labels tasks as must have, should have, could have, and will not have (or would like to have). Other prioritization techniques include multi-voting with dots, monopoly money, kano analysis, and fist of five.",
+    "video_time": 4371
+  },
+  {
+    "number": 43,
+    "question": "Agile teams use different methods to manage their work in progress or WIP. The business sponsor believes that removing the limits to work in progress will help the team take on more work and get their product delivered faster. What will you tell the business sponsor?",
+    "options": {
+      "A": "Remove the work in progress limits to push as much work through as possible",
+      "B": "Dictate over time and no holidays for the team to get things done",
+      "C": "Work in progress limits ensure the team focuses on one main thing at a time and avoids the time cost of switching tasks",
+      "D": "Work in progress can be seen on the kanban board so it doesn't matter what the limit is"
+    },
+    "correct_answer": "C",
+    "explanation": "In agile, work is taken on based on team velocity. The kanban board shows work in progress and who is working on what. Research has proven that multitasking or switching tasks reduces team effectiveness as the team gets up to speed again, so WIP limits protect the team from over-commitment.",
+    "video_time": 4488
+  },
+  {
+    "number": 44,
+    "question": "You're working on an agile team that includes many stakeholders who have not worked with an agile project in the past. Several stakeholders have some valid concerns about some agile methods. As a servant leader or project coach, what will you do to make them more comfortable with the process?",
+    "options": {
+      "A": "Educate the stakeholders, address their concerns, and keep them engaged",
+      "B": "Tell them that it's worked in the past so it will work here too",
+      "C": "Dictate to the stakeholders that this is how all future projects must be executed",
+      "D": "Go back to a waterfall style project management method"
+    },
+    "correct_answer": "A",
+    "explanation": "A servant leader includes the team in decisions and grows the team through education and coaching. Those convinced against their will are of the same opinion still, so dictating or simply asserting past success is less effective than genuine coaching and engagement.",
+    "video_time": 4672
+  },
+  {
+    "number": 45,
+    "question": "You're working on an agile project with stakeholders who are keen to know why it is so important to incorporate multiple touch points with them before, during, and after iterations.",
+    "options": {
+      "A": "To raise and manage changes and to identify potential risks and issues",
+      "B": "To inform stakeholders of the development team's direction",
+      "C": "To ensure executive business executives hear about the team's value with multiple meetings",
+      "D": "To have them invest more time in the project so they are more committed"
+    },
+    "correct_answer": "A",
+    "explanation": "Frequent touch points in agile ensure that business features are reviewed regularly, meet stakeholder expectations, and that risks are addressed throughout development. Stand-ups, demonstrations, reviews, and retrospectives all allow changes to be raised early and quality to be everyone's responsibility.",
+    "video_time": 4797
+  },
+  {
+    "number": 46,
+    "question": "Teams use daily stand-ups to micro commit to each other, uncover and remove blockers, and ensure that work flows smoothly through the team. What is NOT true about stand-ups?",
+    "options": {
+      "A": "They're often time boxed to 15 minutes",
+      "B": "The team walks through the kanban or the task board",
+      "C": "The team facilitator or anyone in the team can facilitate",
+      "D": "Only people in the project team can attend"
+    },
+    "correct_answer": "D",
+    "explanation": "Agile teams are open and transparent and encourage stakeholders to pull information and work when needed — anyone can attend, learn, watch, or contribute. Stand-ups are time boxed to 15 minutes, the team walks through the kanban board, and any team member can and should be encouraged to facilitate.",
+    "video_time": 4898
+  },
+  {
+    "number": 47,
+    "question": "Features are completed in an agile project usually in the form of multiple user stories. When a feature is complete, the team periodically demonstrates the working product to the customer. When do these demonstrations or reviews occur?",
+    "options": {
+      "A": "Only at the end of a project when the stakeholders are available",
+      "B": "Often at the end of an iteration, or when enough features have been completed into a set that is coherent",
+      "C": "Often at the start of a project",
+      "D": "Often when the team wants to, as they are busy working"
+    },
+    "correct_answer": "B",
+    "explanation": "Agile sprint reviews or feature demonstrations occur at the end of an iteration or when enough cards or features have been completed into a set that can be showcased to the customer or product owner.",
+    "video_time": 4980
+  },
+  {
+    "number": 48,
+    "question": "Disciplined Agile is a process decision framework that blends various agile techniques. Which of the following principles are NOT a part of Disciplined Agile?",
+    "options": {
+      "A": "People first — enumerating roles and organization elements at various levels",
+      "B": "Learning oriented",
+      "C": "Self-promotion — working to improve your own personal brand",
+      "D": "Goal driven — tailoring processes to achieve specific outcomes"
+    },
+    "correct_answer": "C",
+    "explanation": "Agile works transparently for all stakeholders; self-promotion is not part of the agile way. Instead the team serves each other, ensures blockers are removed, and information is freely available to everyone inside or outside the team.",
+    "video_time": 5097
+  },
+  {
+    "number": 49,
+    "question": "Disciplined Agile is a process decision framework that blends various agile techniques. Which of the following are principles FROM Disciplined Agile?",
+    "options": {
+      "A": "Learning oriented, goal driven, and scalable",
+      "B": "Implementing, iterating, and integrating",
+      "C": "Excellence, guidance, and cadence",
+      "D": "Making, doing, and being"
+    },
+    "correct_answer": "A",
+    "explanation": "Learning oriented, goal driven, and scalable are all themes within agile in general and are key principles of the Disciplined Agile framework. These reflect the core agile values of continuous improvement, outcome focus, and the ability to grow across the organization.",
+    "video_time": 5258
+  },
+  {
+    "number": 50,
+    "question": "Dynamic Systems Delivery Method (DSDM) is one of the founding methods with an input into agile, designed to add more rigor to the rising iterative methods of the 1990s. It's most known for its emphasis on constraint-driven delivery. Which of the following best describes this emphasis?",
+    "options": {
+      "A": "Focus on the business need and deliver on time — scope is variable and prioritized to meet fixed constraints",
+      "B": "Add every feature and stop when done",
+      "C": "Find all the defects or don't approve the release",
+      "D": "Push fast delivery over quality so we can learn from our mistakes"
+    },
+    "correct_answer": "A",
+    "explanation": "DSDM focuses on the business need and delivers on time; scope is often variable while schedule is often set, meaning features are managed and prioritized with the product owner so the highest-value items are delivered first within the fixed time constraint.",
+    "video_time": 5363
+  },
+  {
+    "number": 51,
+    "question": "You are working with the developers in an agile team who are using a test driven development approach. They ask you whether they should operate using something called a red green refactor. What are they referring to?",
+    "options": {
+      "A": "Where no code is developed during a red status, some code is developed during a green status, and new features are taken in during refactor",
+      "B": "A traffic light approach to bringing in new features",
+      "C": "Only releasing features when they are given the green light",
+      "D": "Where a test is written first that fails, then it passes once the solution is developed, and then it can be refactored or streamlined"
+    },
+    "correct_answer": "D",
+    "explanation": "Red green refactor is the TDD cycle: a test is written first (red/fail), code is added until the test passes (green), then the code is refactored or streamlined. This is the core process of test driven development (TDD).",
+    "video_time": 5590
+  },
+  {
+    "number": 52,
+    "question": "You are an agile project manager and you are working with the product owner of the agile team. There are several key deliverables that have been identified and listed in the product backlog. What will the agile team do next?",
+    "options": {
+      "A": "All deliverables should go live only at the end of the project",
+      "B": "The tasks should be delivered but not tested to get value to the customer as quickly as possible",
+      "C": "The tasks should be prioritized, developed and tested incrementally",
+      "D": "Tasks should be planned carefully and delivered according to their plan"
+    },
+    "correct_answer": "C",
+    "explanation": "Agile develops and delivers in features or increments, meaning tasks are prioritized for each increment and tested for each increment as well. Quality testing is still important even when delivering quickly, as quality is everyone's responsibility.",
+    "video_time": 5760
+  },
+  {
+    "number": 53,
+    "question": "A team new to agile has worked closely with the product owner and has identified the highest value features of the project. What is one reason to break down those features into increments and deliver them as soon as possible?",
+    "options": {
+      "A": "To get all the work out of the way so the team can relax",
+      "B": "So the project life cycle can be shortened",
+      "C": "So the product owner can report to her executive manager that work is being done",
+      "D": "To reduce the risk of the feature no longer providing value for the customer"
+    },
+    "correct_answer": "D",
+    "explanation": "The longer a feature takes to deliver, the higher the risk that it will no longer provide the value it was intended to provide. Value driven delivery prioritizes features by highest value and delivers them quickly for maximum customer benefit.",
+    "video_time": 5898
+  },
+  {
+    "number": 54,
+    "question": "You are an agile project manager working closely with the scrum master and the agile team. The scrum master mentions that agile works differently with risk compared to a traditional project. He sets a meeting with you and the team to talk through agile risks. What will you do next?",
+    "options": {
+      "A": "Ensure the team notes and schedules high risk activities early in the project so they are mitigated quickly",
+      "B": "Ensure the team identifies risks, places them in a register, and mitigates them by the end of the project",
+      "C": "Ensure the team keeps the risk register to itself so other stakeholders don't think less of the project",
+      "D": "Ensure the risk is only captured around people because an agile team prefers individuals and interactions over processes and tools"
+    },
+    "correct_answer": "A",
+    "explanation": "An agile team delivers in increments and iterates towards improvement by prioritizing high risk features first, so that future risks for the project are reduced. Addressing high risk items early is a key principle of agile risk management.",
+    "video_time": 6070
+  },
+  {
+    "number": 55,
+    "question": "You are a project manager on an agile project that requires an external third party to develop software for one of your features. You have worked with the project team to gather the requirements and the backlog of product features. You begin working with your procurement department on a contract for the vendor. What will you do next?",
+    "options": {
+      "A": "Request that the contract is one that accommodates changes to product scope",
+      "B": "Go back to the business and ask them to deliver the feature",
+      "C": "Raise a risk to the delivery of your project based on the external vendor",
+      "D": "Find an existing time and materials contract from the organization's organizational process assets"
+    },
+    "correct_answer": "A",
+    "explanation": "Agile works with changing scope and cost as the product is completed incrementally, but primarily with a fixed schedule and quality. When working with procurement, the contract must accommodate those changing requirements so the agile way of work is not inhibited.",
+    "video_time": 6191
+  },
+  {
+    "number": 56,
+    "question": "Dynamic systems delivery method (DSDM) is one of the founding methods with an input into agile, designed to add more rigor to the rising iterative methods of the 1990s. It is most known for its emphasis on constraint driven delivery, which sets cost, quality and time at the beginning and then uses formalized prioritization of scope to meet those constraints. What is DSDM most known for its emphasis on?",
+    "options": {
+      "A": "Constraint driven delivery, which ensures that scope is variable while cost, quality and time are set",
+      "B": "Single delivery, which ensures everything is correct and approved before the project goes live",
+      "C": "Stakeholders, which ensures that everyone is involved in gathering scope, quality and cost requirements",
+      "D": "Cost, which ensures that the project closes once funds are depleted"
+    },
+    "correct_answer": "A",
+    "explanation": "Agile methods as we know them today work with a variable scope while cost, quality and schedule are often set — the opposite of a predictive waterfall method which sets scope up front. DSDM formalizes this through constraint driven delivery.",
+    "video_time": 6372
+  },
+  {
+    "number": 57,
+    "question": "Agile projects have short iterations enabling the project team to receive early and continuous feedback on product quality throughout the development cycle. By getting frequent customer feedback as the project progresses, agile teams can incorporate most new changes into the product and the development process. What is NOT one of the benefits of this approach?",
+    "options": {
+      "A": "Avoiding requirements misunderstandings that may not have been detected until later in the development cycle",
+      "B": "Clarifying customer feature requests, making them available for the customer to use early",
+      "C": "Discovering, isolating and resolving quality problems early",
+      "D": "Having one big release at the end of the project that everyone can celebrate"
+    },
+    "correct_answer": "D",
+    "explanation": "Agile methods work with multiple features releasing them in increments so the customer can use them and provide feedback. Having a single release at the end is a waterfall approach and is not a benefit of the agile iterative model.",
+    "video_time": 6525
+  },
+  {
+    "number": 58,
+    "question": "Enterprise scrum is a framework designed to apply the scrum method at an organizational level, not just within a single product development effort. What is NOT a part of leadership within enterprise scrum?",
+    "options": {
+      "A": "Extending the use of scrum across all aspects of the organization",
+      "B": "Role playing the role of scrum master before the first iteration",
+      "C": "Generalizing the scrum techniques to apply easily at various levels",
+      "D": "Scaling the scrum method with supplemental techniques as necessary"
+    },
+    "correct_answer": "B",
+    "explanation": "All answers are correct as enterprise scrum practices except B — role playing the role of scrum master before the first iteration is not a part of enterprise scrum. Enterprise scrum is all about scaling the scrum methodology to use it across teams as well as within teams.",
+    "video_time": 6651
+  },
+  {
+    "number": 59,
+    "question": "You are an agile project manager tasked with evolving your part of the organization into agile. What is NOT something that you would do when making this change?",
+    "options": {
+      "A": "Treat the change as an agile project with its own backlog of changes that could be introduced by the team based on perceived value",
+      "B": "Treat each of the changes as an experiment tested for a short period of time to determine suitability or the need for further refinement",
+      "C": "Use kanban boards to track progress, showing new approaches in use as done and things to be tried as in progress",
+      "D": "Direct the teams to take on agile in one go, moving ahead without wavering"
+    },
+    "correct_answer": "D",
+    "explanation": "Directing teams to take on agile all at once is opposite to the agile approach — it is more of a waterfall approach. Adopting agile is itself an incremental approach where changes are treated as experiments using a backlog and kanban board to track progress.",
+    "video_time": 6770
+  },
+  {
+    "number": 60,
+    "question": "Extreme programming (XP) is a software development method based on frequent cycles. It is known for popularizing a holistic set of 12 primary practices. Which of the following does XP outline as a requirement?",
+    "options": {
+      "A": "To sit together in the whole team approach in an informative workplace",
+      "B": "To write reports for the executive team",
+      "C": "Rotating the roles so everyone gets experience in something they like",
+      "D": "Developing all changes for a single release"
+    },
+    "correct_answer": "A",
+    "explanation": "Agile core practices from XP include the whole team approach and an informative workplace such as visual management using kanban, burn down charts and backlogs. Writing executive reports, rotating roles, and single releases are not primary XP practices.",
+    "video_time": 6887
+  },
+  {
+    "number": 61,
+    "question": "You are an agile project manager working with the project sponsor in the beginning stages of an agile project. The project sponsor mentions that they would like your help creating the project charter. You tell them that you will also do a team charter for your agile team that will include the project sponsor. What does this mean?",
+    "options": {
+      "A": "You'll capture the team values, communication guidelines, and decision making process separately to the project purpose, requirements, and summary schedule.",
+      "B": "You'll create a project plan with scope, schedule, cost and quality outlines to follow.",
+      "C": "You will take over from the project sponsor and direct the team on future customer requirements.",
+      "D": "You'll defer to the team for all queries in the way of a servant leader."
+    },
+    "correct_answer": "A",
+    "explanation": "An agile project manager charters both the project and the team. A project charter focuses on the business case, project purpose, high level requirements, stakeholders, and risks; a team charter focuses on the agreements in how the team will operate and is created by the team for the team.",
+    "video_time": 7034
+  },
+  {
+    "number": 62,
+    "question": "You're working with the team on the team charter and you've outlined the project vision, mission, and agreed meeting times and accepted team behaviour. What will you do next?",
+    "options": {
+      "A": "Ask the team to get to work straight away because agile teams move swiftly.",
+      "B": "Send the team charter to the project sponsor for their sign off so the project can begin.",
+      "C": "Agree on and include the definition of done for team features and tasks.",
+      "D": "Set a meeting for two weeks time so you can continue to develop the charter iteratively."
+    },
+    "correct_answer": "C",
+    "explanation": "The definition of done is an important part of the team charter to ensure the team knows when a task is completed, when they can pull the next tasks, and so everyone agrees what success looks like. The project sponsor should be included in the team charter but does not need to sign off on it.",
+    "video_time": 7147
+  },
+  {
+    "number": 63,
+    "question": "You are working on an agile project gathering requirements from the business stakeholders with the product owner. During the discussion, different people seem to have different understandings of what the feature will look like. What will you do next?",
+    "options": {
+      "A": "Ask the stakeholders to elaborate their ideas better and set another meeting in a week's time.",
+      "B": "Set another meeting in a week's time.",
+      "C": "Draw a storyboard prototype of the requirement so all stakeholders can see it, adjust it on the fly, and agree.",
+      "D": "Give your understanding of the feature and ask the stakeholders to agree or disagree.",
+      "E": "Park the feature for now and begin work on a feature that is elaborated better."
+    },
+    "correct_answer": "C",
+    "explanation": "Gaining consensus by developing a wireframe or storyboard will confirm everyone has a complete understanding of what the output is — it acts as an early increment that stakeholders can see, feel, and adjust in the moment, which aligns with agile's iterative and communication-focused approach.",
+    "video_time": 7282
+  },
+  {
+    "number": 64,
+    "question": "You're working as a project manager with an agile project team. The project sponsor sits on another floor and prefers to communicate by email only. What will you do next?",
+    "options": {
+      "A": "Ensure that you communicate by email only with the project sponsor so they are comfortable.",
+      "B": "Stop communicating with the project sponsor until they at least come to a few project meetings.",
+      "C": "Ask the project sponsor to co-locate with the agile team for a few days a week to ensure face-to-face communication and access to the visual project information.",
+      "D": "Set meetings with the project sponsor so you can update them personally."
+    },
+    "correct_answer": "C",
+    "explanation": "An agile project team aims to work in a co-located space where ideas and information can flow freely. Face-to-face communication provides the best opportunity to ask questions, get immediate feedback, and understand body language, while kanban boards and other visual tools in the team area further support transparency.",
+    "video_time": 7484
+  },
+  {
+    "number": 65,
+    "question": "As an agile project manager you understand the need to operate with openness and transparency with your team and with your stakeholders. How will you encourage knowledge sharing throughout the project?",
+    "options": {
+      "A": "Tell your team what to do during work hours so they can learn from you.",
+      "B": "Write process documents for the team to read through in their spare time.",
+      "C": "Make key information visible in the team area and ensure all impacted stakeholders are invited to the daily stand-ups, retrospectives, and even iteration planning.",
+      "D": "Form a key group of executive stakeholders to share project information with and ensure your good reputation within the company."
+    },
+    "correct_answer": "C",
+    "explanation": "An agile team makes project information visible and accessible to all. Agile teams also prefer people and interactions over processes and tools, as stated in the agile manifesto, so ceremonies like stand-ups, retrospectives, and iteration planning are the primary vehicles for knowledge sharing.",
+    "video_time": 7683
+  },
+  {
+    "number": 66,
+    "question": "You've been working in an agile team for some time and an executive from the business area asks how the team has been able to deliver so consistently over the past year. You tell him you're using extreme programming (XP). What are some of the primary practices of XP that contributed to the team's success?",
+    "options": {
+      "A": "Real customer involvement, team continuity, and a sustainable pace.",
+      "B": "Ensuring executive reports, testing continually, and raising defects.",
+      "C": "Pivoting frequently, ensuring long meetings, and one final delivery.",
+      "D": "Finding the right product, finding the right people, and finding the right price."
+    },
+    "correct_answer": "A",
+    "explanation": "The extreme programming primary practices include real customer involvement, team continuity, and working at a sustainable pace. Agile encourages all of these through stand-ups, backlog grooming with the real customer or product owner, and planning to the team's velocity.",
+    "video_time": 7844
+  },
+  {
+    "number": 67,
+    "question": "You're working with a seasoned agile team who are very familiar with extreme programming in their way of work. They walk through a set of principles that they frequently use. What is NOT one of the primary practices of XP?",
+    "options": {
+      "A": "Planning with user stories.",
+      "B": "Test first programming.",
+      "C": "Incremental design.",
+      "D": "First in best rest."
+    },
+    "correct_answer": "D",
+    "explanation": "Extreme programming works with 12 primary principles including planning with user stories, test first programming, and incremental design — all of which align with core agile principles. 'First in best rest' is not an agile or extreme programming principle.",
+    "video_time": 8234
+  },
+  {
+    "number": 68,
+    "question": "You are testing the product being delivered by an agile team in increments. You notice that there have been no defects passed on to the end user. You also notice that you're working with an extreme programming methodology for the team. What are the XP practices that led to this result?",
+    "options": {
+      "A": "Regular refactoring and daily deployment of an integrated code base.",
+      "B": "Having real users test the product when it's released.",
+      "C": "Moving team members around to different roles for a shared experience.",
+      "D": "Ensuring the team does exactly what the scrum master says."
+    },
+    "correct_answer": "A",
+    "explanation": "Extreme programming works with continuous integration — deploying a single code base on a daily basis and running automated regression tests so defects are picked up quickly. Regular refactoring (simplifying and cleaning the code) also ensures it is easier to work with and fix defects.",
+    "video_time": 8232
+  },
+  {
+    "number": 69,
+    "question": "You are an agile project manager working with an agile coach and planning the next sprint with the team. The agile coach advises you to build in some slack for the sprint. What does this mean?",
+    "options": {
+      "A": "To use the messaging service Slack to communicate as a team.",
+      "B": "Allowing the best performers in the team to slack off as a reward for their hard work.",
+      "C": "Adding a card for refactoring code that can be replaced if an emergency comes up.",
+      "D": "Creating a burn down chart and a burn up chart together."
+    },
+    "correct_answer": "C",
+    "explanation": "Building slack into a sprint means adding a refactoring card to the iteration that can be removed if an emergency arises. If no emergency occurs, the team uses that time to clean and streamline the code base, making it easier to work with in the future.",
+    "video_time": 8443
+  },
+  {
+    "number": 70,
+    "question": "The team are planning their first upcoming sprint on an agile project. They have worked with a product owner who has gathered a backlog of features in prioritized order. As an agile project manager, what must you do to ensure you can plan future sprints correctly?",
+    "options": {
+      "A": "Find the best performer in the team so you know who you can rely on.",
+      "B": "Find your team's velocity over the next few sprints so you can set a sustainable pace.",
+      "C": "Set a working group meeting to gain executive buy-in.",
+      "D": "Create the project management plan and draw out the schedule in advance."
+    },
+    "correct_answer": "B",
+    "explanation": "An agile sprint is based on the team's velocity — the amount of points, cards, or features the team is able to complete on average during a regular sprint. You will need to complete at least one sprint to get an idea of the velocity, which then allows you to plan a sustainable pace for future sprints.",
+    "video_time": 8610
+  },
+  {
+    "number": 71,
+    "question": "You are an agile project manager and your organization is moving away from a waterfall to an agile way of work. After reading the agile manifesto, the functional manager you are working with mentions 'individuals and interactions over processes and tools' and asks you how you will do it. What do you tell them?",
+    "options": {
+      "A": "Create ceremonies such as the daily stand up, iteration planning, demos and reviews, and retrospectives that encourage team interaction",
+      "B": "Create a process for the team to review that shows the way of work",
+      "C": "Ask the project sponsor to interact with the team by sharing some of their journey",
+      "D": "Ensure that the tools the team have to work with are state-of-the-art software solutions"
+    },
+    "correct_answer": "A",
+    "explanation": "Agile ceremonies such as stand-ups, iteration planning, sprint reviews, and retrospectives are all designed to encourage individuals and interactions as a team. Agile does not require high-tech tools and can be run with a whiteboard or sticky notes.",
+    "video_time": 8777
+  },
+  {
+    "number": 72,
+    "question": "You are an experienced functional manager who has been asked to lead an agile project team. Your executive manager is calling it the project coach or scrum master role. You know that agile leadership might be different to what you are used to. What sort of leadership style will you embody?",
+    "options": {
+      "A": "Servant leadership",
+      "B": "Directive leadership",
+      "C": "Visionary leadership",
+      "D": "Laissez-faire leadership"
+    },
+    "correct_answer": "A",
+    "explanation": "An agile leader is primarily a servant leader — the focus is on removing blockers for the team, helping them problem-solve, and growing their skills. Directive, visionary, and laissez-faire styles do not reflect the collaborative and team-empowering approach required in agile.",
+    "video_time": 8967
+  },
+  {
+    "number": 73,
+    "question": "You are working as an agile project manager in a new project team. Many project team members are despondent and do not show up for the meetings and ceremonies that you have set. What will you do next?",
+    "options": {
+      "A": "Raise a risk in the risk register around project goals and ask the project sponsor to mitigate the risk",
+      "B": "Have a coaching session with the team, teaching the what and the why behind agile ceremonies, and ensure each meeting has a clear outcome, time and agenda",
+      "C": "Cancel all meetings for now and write some documentation for the team on what you would like them to do",
+      "D": "Make the decisions yourself and dictate the outcomes to the team"
+    },
+    "correct_answer": "B",
+    "explanation": "An agile leader focuses on coaching the team, removing blockers, and ensuring interaction. Teaching the purpose of key ceremonies (stand-ups, sprint reviews, retrospectives) and ensuring clear agendas helps re-engage the team. (Agile Practice Guide)",
+    "video_time": 9117
+  },
+  {
+    "number": 74,
+    "question": "You are an experienced project manager who is used to a directive leadership style where people do exactly as you say. Now you are working in an agile team where that style of leadership is not accepted. What is one thing you can change to move to a more servant leadership style?",
+    "options": {
+      "A": "Ensure that the executive team makes all the decisions",
+      "B": "Ensure that stakeholders collectively agree on and share decisions",
+      "C": "Defer to the product owner and the business to make all the decisions",
+      "D": "Find an extremely competent person in the project team and delegate all the decisions to them"
+    },
+    "correct_answer": "B",
+    "explanation": "Agile methods foster team empowerment through collective agreement and shared decision-making, where the team and stakeholders arrive at decisions together rather than one party directing. (Agile Practice Guide — team empowerment and decision making)",
+    "video_time": 9259
+  },
+  {
+    "number": 75,
+    "question": "You are working on the requirements for the next iteration and a decision needs to be made by the team. The product owner suggests using a show of hands to indicate team members who are for or against the decision. As the agile project manager, you object to this approach. Why?",
+    "options": {
+      "A": "Agile is about software — the team should use software to vote for the decision",
+      "B": "The decision may not go in your favor, so it is best just to do it yourself",
+      "C": "Decisions should take time to work through and should not be voted on quickly",
+      "D": "By making the decisions visible, team members may be influenced by others in the team, especially executives, without the benefit of discussion"
+    },
+    "correct_answer": "D",
+    "explanation": "With a visible show-of-hands vote there is no discussion, and team members are more easily influenced by others' decisions — especially those they report to outside the project. Methods like anonymous voting or fist-of-five allow concerns to be raised and discussed first. (Agile Practice Guide — decision making)",
+    "video_time": 9407
+  },
+  {
+    "number": 76,
+    "question": "An agile team in your organization would like to add a few key agile processes to their way of work. The project manager mentions performing root cause analysis when problems appear on features, focusing on features that bring in the most revenue with pay per use, and daily stand-ups. What agile method is she most likely referring to?",
+    "options": {
+      "A": "Scrum",
+      "B": "Extreme programming",
+      "C": "Kanban",
+      "D": "Iteration planning"
+    },
+    "correct_answer": "B",
+    "explanation": "Extreme programming (XP) has 14 secondary practices including root cause analysis, focusing on features that bring in the most revenue with pay per use, and shrinking teams through improvements over time. These are not practices of Scrum or Kanban. (XP secondary practices)",
+    "video_time": 9600
+  },
+  {
+    "number": 77,
+    "question": "An agile team in your organization would like to include feature driven development practices into their way of work. You tell them that feature driven development activities are supported by a core set of software engineering best practices. What practices will the team start with?",
+    "options": {
+      "A": "Feature releases, feature celebrations and feature iterations",
+      "B": "Developing by feature, feature teams and visibility of progress and results",
+      "C": "Finding features, developing features, testing features",
+      "D": "Ensuring executive features are allocated and developed"
+    },
+    "correct_answer": "B",
+    "explanation": "Feature Driven Development (FDD) focuses on core engineering best practices such as developing by feature, working in feature teams, inspections, regular builds, and visibility of progress. Working in feature teams allows members to become domain experts. (FDD core practices)",
+    "video_time": 9736
+  },
+  {
+    "number": 78,
+    "question": "Your agile team has been working with feature driven development as a model for their agile way of work for some time and are ready to add more feature driven development practices to the things that they do. What can you do next as a team?",
+    "options": {
+      "A": "Ask the product owner for more features in the backlog",
+      "B": "Hold a retrospective to gather ways to improve",
+      "C": "Incorporate configuration management and individual class ownership",
+      "D": "Send key representatives to the scrum of scrums across the organization"
+    },
+    "correct_answer": "C",
+    "explanation": "More advanced FDD core engineering practices include configuration management (ensuring changes are known and tracked) and individual class ownership (assigning parts of the code to a single owner who becomes the expert). These are specific to FDD and move the team deeper into the methodology. (FDD engineering practices)",
+    "video_time": 9913
+  },
+  {
+    "number": 79,
+    "question": "An executive in your organization approaches you about working in an agile team. They have heard about feature driven development and would like to try it as a test and learn in your team. What do they mean by this?",
+    "options": {
+      "A": "Your team will rely on previous feature designs for your work",
+      "B": "Your team features certain abilities and showcases them to other teams",
+      "C": "Your team enjoys the feature of working with an agile organization",
+      "D": "Your team will trial developing an overall model, then planning, designing and building by those features"
+    },
+    "correct_answer": "D",
+    "explanation": "Agile FDD starts with an overall model, then plans, designs and builds by those features. Once a feature is complete, the process can begin again, incorporating any learning from the previous feature — making it a true test-and-learn approach. (FDD — Agile Practice Guide)",
+    "video_time": 10096
+  },
+  {
+    "number": 80,
+    "question": "For kanban, or flow-based agile, iterations follow the number of story cards in the work in progress (WIP) limit shown on the visual kanban board. The team pulls cards from the backlog column based on their capacity. These story cards provide an increment of value and are a what?",
+    "options": {
+      "A": "Primary driver of executive behavior",
+      "B": "Primary measure of progress",
+      "C": "Primary way to pay for the cost of an agile team",
+      "D": "Primary enabler of people's engagement"
+    },
+    "correct_answer": "B",
+    "explanation": "The key to kanban is making progress visible — story cards on the kanban board are a primary measure of progress, and visible progress naturally improves team engagement. Blockers are clear for everyone to see, enabling the team to swarm around problems. (Kanban — Agile Practice Guide)",
+    "video_time": 10203
+  },
+  {
+    "number": 81,
+    "question": "You have just come on board an agile team and a decision needs to be made about product requirements. The scrum master asks the team to show either thumbs up, thumbs down, or sideways. What does a thumb sideways mean?",
+    "options": {
+      "A": "The team member doesn't mind about the decision either way",
+      "B": "The team member has a concern or conflict that needs further discussion",
+      "C": "The team member defers to the executive sponsor to decide",
+      "D": "The decision is outside the team member's expertise and they choose not to vote"
+    },
+    "correct_answer": "B",
+    "explanation": "In agile thumb voting, a sideways thumb signals that the team member has a concern or conflict with the decision and would like to discuss it further — the same principle applies to the fist of five technique. This keeps discussion open rather than forcing a silent for/against split.",
+    "video_time": 10314
+  },
+  {
+    "number": 82,
+    "question": "You're at the beginning of a new iteration and about to plan and decide what gets worked on in the upcoming sprint. You decide to invite all project stakeholders to the planning meeting to decide what to work on next. Why is it important that all stakeholders are involved in decision making?",
+    "options": {
+      "A": "So you can keep an eye on what they're doing",
+      "B": "Business representatives can report back to their managers on the project",
+      "C": "The team feels important with lots of stakeholders present",
+      "D": "Project stakeholders don't reject a decision that wasn't theirs"
+    },
+    "correct_answer": "D",
+    "explanation": "Giving ownership in decisions to the team and stakeholders is one way to gain their buy-in; if stakeholders are involved in decision-making they will be more committed to any decision made and to the project itself. Studies show people are more likely to reject ideas they had no ownership in.",
+    "video_time": 10434
+  },
+  {
+    "number": 83,
+    "question": "You're on an agile team and notice that it is different to other project areas you have worked on. The project manager tells you there are certain ways to ensure that stakeholders stay engaged. What is he talking about?",
+    "options": {
+      "A": "Removing any team member who is not engaged in the project",
+      "B": "Giving any extra work to the better-engaged team members",
+      "C": "Ensuring visibility, transparency and progress of the work through charts and information in the common team area",
+      "D": "Offering a possible promotion to the most engaged team member at the end of the project"
+    },
+    "correct_answer": "C",
+    "explanation": "Visible progress helps maintain and obtain team engagement and is facilitated through the use of the information radiator — the team area containing the kanban board, burn-down chart, and product backlog — making it clearly visible to everyone.",
+    "video_time": 10576
+  },
+  {
+    "number": 84,
+    "question": "You've been identified as a stakeholder on an agile software development team. As you join the stand-up you're surprised that there are only eight people on the team and no more, even though the deliverable is quite large. Why is the team so small?",
+    "options": {
+      "A": "The agile methodology is being trialled as a cross-discipline self-forming team",
+      "B": "One person was selected for each role necessary and no more",
+      "C": "Agile methods recommend the delivery team to be 12 or fewer members"
+    },
+    "correct_answer": "C",
+    "explanation": "Agile methods recommend a team of 12 or fewer, typically between three and nine members; this keeps communication channels small and ensures information travels quickly so the team can do their work efficiently.",
+    "video_time": 10716
+  },
+  {
+    "number": 85,
+    "question": "As the lead on an agile project you have carefully cultivated a team of T-shaped people. What is a T-shaped person?",
+    "options": {
+      "A": "A person that has flat knowledge up top and long knowledge down the bottom",
+      "B": "A person with a wide range of general skills and one deep skill or knowledge area",
+      "C": "A person with a wide range of leadership skills, as everyone should lead on an agile team",
+      "D": "A person that has more contacts in the management layers and a few contacts in the team layer"
+    },
+    "correct_answer": "B",
+    "explanation": "A generalising specialist (T-shaped person) has one deep knowledge area or skill and a wide range of general interests or skills; an agile team is ideally made up of these generalising specialists who can do more than one thing but also do their core role well.",
+    "video_time": 10885
+  },
+  {
+    "number": 86,
+    "question": "In 2001 a group of individuals representing the most widely used lightweight software development methodologies agreed on a common set of values and principles which became known as the Agile Manifesto. In that manifesto they valued what?",
+    "options": {
+      "A": "Individuals and interactions over processes and tools",
+      "B": "Executive reporting over bottom-up reporting",
+      "C": "Scrum masters over project managers",
+      "D": "Doing the work over viewing the work"
+    },
+    "correct_answer": "A",
+    "explanation": "The Agile Manifesto is made up of four core values, one of which is valuing individuals and interactions over processes and tools. This foundational value underpins how agile teams prioritise collaboration and communication.",
+    "video_time": 10989
+  },
+  {
+    "number": 87,
+    "question": "You're planning the next iteration for your agile team as the agile lead. The team is going to select user stories from the prioritized release backlog, elaborate those user stories, and estimate the work needed for each user story. The number of stories selected is based on what?",
+    "options": {
+      "A": "What the scrum master says as they know best",
+      "B": "The team's velocity, which is the rate at which a team can complete work",
+      "C": "The feature driven development model",
+      "D": "What the team wants to work on to ensure individuals work within their strengths"
+    },
+    "correct_answer": "B",
+    "explanation": "The team's velocity is the amount of work they complete on average in a given iteration, measured in points, cards, features, or any method the team agrees on; the number of stories selected for a sprint is based on the average velocity from previous iterations.",
+    "video_time": 11061
+  },
+  {
+    "number": 88,
+    "question": "Your team is standing around a board with cards on it. Each person is answering these questions in a round-robin fashion: What did I complete since last time? What am I planning to complete between now and next time? Is anything blocking me? What is the team doing?",
+    "options": {
+      "A": "A luncheon loan",
+      "B": "A working group meeting",
+      "C": "The daily stand-up",
+      "D": "A retrospective"
+    },
+    "correct_answer": "C",
+    "explanation": "The daily stand-up in an agile team asks in round-robin fashion what each member did, what they plan to do, and whether anything is blocking them; the team typically talks to the cards in flight on the kanban board to make progress visual.",
+    "video_time": 11180
+  },
+  {
+    "number": 89,
+    "question": "There are multiple project life cycles you can choose from depending on the type of project environment, deliverable, and stakeholders. You're working on a project that requires features of an overall product to be delivered on a regular basis. What sort of project life cycle will you choose to work with?",
+    "options": {
+      "A": "Waterfall",
+      "B": "Agile",
+      "C": "Iterative",
+      "D": "Incremental"
+    },
+    "correct_answer": "D",
+    "explanation": "An incremental project lifecycle specifically delivers features in increments of value over the life cycle of a project; while agile is a combination of iterative and incremental, the strict PMI definition of delivering regularly released features aligns with the incremental lifecycle.",
+    "video_time": 11261
+  },
+  {
+    "number": 90,
+    "question": "You're working as an agile project manager in a new team that's not familiar with agile. The executives are not as comfortable using agile in full just yet. You suggest using a hybrid approach to begin with to help the organization meet their goals. What does a hybrid approach mean?",
+    "options": {
+      "A": "A tailored combination of predictive, iterative, incremental, and agile approaches",
+      "B": "Using a project management plan to plan the project while delivering features",
+      "C": "A combination of reactive and proactive approaches",
+      "D": "Using agile only when it's needed, such as in a software development team"
+    },
+    "correct_answer": "A",
+    "explanation": "A hybrid project life cycle approach incorporates parts of predictive, iterative, incremental, and agile methodologies; it allows the project manager to tailor the approach to suit the situation, drawing on whichever elements best fit the project's needs.",
+    "video_time": 11367
+  },
+  {
+    "number": 91,
+    "question": "The agile team leader works through servant leadership to the team and has built a safe environment for disagreement. How has this empowered the team to move forward without obstacles?",
+    "options": {
+      "A": "The team is able to create a list of reasons why tasks cannot be completed",
+      "B": "The team has no conflict and they get along so well",
+      "C": "The team leader takes responsibility for all decisions",
+      "D": "The team is encouraged to participate in discussion and even disagreement"
+    },
+    "correct_answer": "D",
+    "explanation": "A safe environment for disagreement empowers teams by encouraging constructive discussion and disagreement to ensure risks and alternative ideas are found. This is only maintainable in a team with high psychological safety, and is a key aspect of servant leadership in agile.",
+    "video_time": 11485
+  },
+  {
+    "number": 92,
+    "question": "New projects go through the Tuckman model of forming, storming, norming and performing. You've just taken the lead of this new project with a newly formed team and you're surprised to find little conflict and that the forming stage has gone so quickly. How did that happen? Which of the following might be the reason?",
+    "options": {
+      "A": "The team members have worked together on previous projects and are following the same agile ceremonies and methods",
+      "B": "You've made all the project decisions yourself so they don't have to worry",
+      "C": "The team is in line for a promotion so they really want to get along",
+      "D": "The team members really care about the product being delivered"
+    },
+    "correct_answer": "A",
+    "explanation": "If the team has already worked together, they have been through much of the forming and storming stages and may already be performing together. Using the same ceremonies and methods means they have already worked through what new project teams must navigate. This can help skip or shorten the early Tuckman stages.",
+    "video_time": 11640
+  },
+  {
+    "number": 93,
+    "question": "You're a project manager of a new agile project. You ask questions of your team to elicit their needs and help them problem solve issues as they arise. What role are you fulfilling in an agile team?",
+    "options": {
+      "A": "Project director",
+      "B": "Project coach",
+      "C": "Project support",
+      "D": "Project executive"
+    },
+    "correct_answer": "B",
+    "explanation": "The project coach role in agile centres around servant leadership — coaching the team, gathering feedback, helping them along their journey, and removing blockers. The agile lead or scrum master functions as a project coach who grows the team rather than directing them.",
+    "video_time": 11793
+  },
+  {
+    "number": 94,
+    "question": "You're an agile project manager leading a new software project. During the last retrospective there was very little engagement and feedback and the team seems to be losing interest in their work. What will you do to improve the situation?",
+    "options": {
+      "A": "Hold another retrospective to try and extract more information",
+      "B": "Align the project goals to each team member's personal goals",
+      "C": "Hold a vote on whether to continue the project or not",
+      "D": "Get executive management involved so team members can raise their engagement"
+    },
+    "correct_answer": "B",
+    "explanation": "Aligning project goals to each team member's personal goals is the most powerful approach to improve engagement. If a previous retrospective did not elicit information, holding another one would be doing the same thing but expecting a different result; aligning goals to individuals' strengths naturally helps people work harder and care more.",
+    "video_time": 11883
+  },
+  {
+    "number": 95,
+    "question": "You're working as a project manager in a team that is moving to an agile way of work. You've previously engaged the team in a single weekly meeting, a working group meeting, with email as the primary communication. What changes will you make in the new agile team?",
+    "options": {
+      "A": "Ensure that reports are created weekly for executive management",
+      "B": "Set up a teleconference with different parts of your project team",
+      "C": "Co-locate the team where possible and focus on frequent face-to-face communication",
+      "D": "Have frequent one-on-ones with your project team to get their point of view in private"
+    },
+    "correct_answer": "C",
+    "explanation": "Agile focuses on individuals and interaction — co-locating the team allows information to be gained by osmosis (overheard background conversations) while face-to-face discussion is the recommended communication method. This replaces slow email-based and weekly-meeting-based communication.",
+    "video_time": 12002
+  },
+  {
+    "number": 96,
+    "question": "Kanban translates to 'visual sign' or 'card' in Japanese and is a form of visual management taken from lean manufacturing. Which of the following best describes the primary focus of kanban in an agile team?",
+    "options": {
+      "A": "Monitoring work in progress and enabling pull and flow",
+      "B": "Enabling executive reporting",
+      "C": "Work velocity and story card elaboration",
+      "D": "Enabling team participation"
+    },
+    "correct_answer": "A",
+    "explanation": "Kanban is a framework from the Toyota Production System utilized in software and knowledge work; it focuses on the kanban board to show and limit the current work in progress, enabling pull and flow. Cards are pulled only when ready, and the flow of tasks through the board is monitored to remove blockers.",
+    "video_time": 12159
+  },
+  {
+    "number": 97,
+    "question": "You're working with an agile team who use kanban to manage the flow of work through the team. The scrum master or agile lead mentions the concept of 'pull' which helps the team manage the work. What does this mean?",
+    "options": {
+      "A": "The team gathers around the team velocity board each morning to ensure the work is being done",
+      "B": "The team pulls work only when they are ready instead of the work in progress constantly building up",
+      "C": "The team works with a pull and push approach between developers and testers",
+      "D": "The scrum master tells the team to pull the appropriate levers that enable the right features to be developed"
+    },
+    "correct_answer": "B",
+    "explanation": "Kanban allows team members to pull new work onto the kanban board only when they are ready, limiting the amount of work in progress and encouraging an optimal flow of work. If something is blocked the team can swarm around that problem and fix it.",
+    "video_time": 12268
+  },
+  {
+    "number": 98,
+    "question": "You're walking through the next feature with the product owner in an agile team. He is new to agile and unsure of what kanban really is. He lists a few things for you to check. Which of the below is NOT one of the core properties of kanban?",
+    "options": {
+      "A": "Visualize the workflow and limit the work in progress",
+      "B": "Manage flow and enable pull",
+      "C": "Implement feedback loops and improve collaboratively",
+      "D": "Follow procedures and don't deviate from the plan"
+    },
+    "correct_answer": "D",
+    "explanation": "Kanban is a method borrowed from the Toyota Production System/lean that focuses on limiting WIP, ensuring feedback loops are in place, and making work visible so blockages are clear. 'Follow procedures and don't deviate from the plan' is the opposite of the agile/kanban approach of continuous improvement.",
+    "video_time": 12372
+  },
+  {
+    "number": 99,
+    "question": "You're working on an agile project as an agile project manager and have been using kanban to monitor the work and keep it visible for all to see. What is NOT a defining principle of kanban?",
+    "options": {
+      "A": "Start with the current state and respect the current process",
+      "B": "Agree to pursue incremental evolutionary change",
+      "C": "Lead at all levels",
+      "D": "Directive leadership over wasteful team participation"
+    },
+    "correct_answer": "D",
+    "explanation": "Kanban, like agile itself, encourages team participation over directive leadership; it keeps work visible and makes blockers clear. Directive leadership is contrary to the servant leadership philosophy at the core of both kanban and agile.",
+    "video_time": 12482
+  },
+  {
+    "number": 100,
+    "question": "In 2001 a group of individuals representing the most widely used lightweight software development methodologies agreed on a common set of practices, values and principles which became known as the Agile Manifesto. Which of the following is one of the manifesto's core values?",
+    "options": {
+      "A": "Directive leading over servant leadership",
+      "B": "Working software over comprehensive documentation",
+      "C": "Making useful large features over making small increments",
+      "D": "Pushing work through quickly over limiting work in progress"
+    },
+    "correct_answer": "B",
+    "explanation": "One of the four core values of the Agile Manifesto is 'working software over comprehensive documentation' — releasing working features that customers can see, feel, and touch rather than writing manuals about them. Agile prefers releasing small increments of working software.",
+    "video_time": 12572
+  },
+  {
+    "number": 101,
+    "question": "You've joined a new project team. You're moving to an agile way of work and part of this is co-locating the team to gain the benefit of osmotic communication. Your project sponsor asks what this means. What do you tell them?",
+    "options": {
+      "A": "The team is able to meet more frequently",
+      "B": "It's easier to hand off work to someone if it meets their strengths",
+      "C": "It's a written process made available to everyone in the team for transparency",
+      "D": "The team will overhear conversations and information in the common area that will help them solve future problems"
+    },
+    "correct_answer": "D",
+    "explanation": "Osmotic communication refers to the accidental overhearing of background information that may later end up being important — team members absorb knowledge passively by being co-located. This is a key benefit of co-locating an agile team.",
+    "video_time": 12666
+  },
+  {
+    "number": 102,
+    "question": "You're working in an agile team and you are not co-located. They are in various locations around the country. As the agile lead, how will you get the benefit of agile without a co-located team?",
+    "options": {
+      "A": "Utilize group messaging, daily teleconference stand-ups, electronic kanban and backlogs",
+      "B": "Ask the organization to relocate the team",
+      "C": "Hire or find new team members from within the organization who are in the same place",
+      "D": "Remove all meetings so people can focus on their work without distraction"
+    },
+    "correct_answer": "A",
+    "explanation": "It may not be feasible to move entire teams or hire new ones; utilizing the many electronic options so the team can still get the benefit of frequent contact is the most cost-effective approach. Tools like group messaging, daily teleconference stand-ups, and electronic kanban boards allow agile practices even for distributed teams.",
+    "video_time": 12780
+  },
+  {
+    "number": 103,
+    "question": "You're leading an agile team that has team members in various locations. You've arranged daily stand-ups via phone with electronic kanban and backlogs, but the team is not able to meet face-to-face. What else will you do to help the team increase team working together and getting to know each other?",
+    "options": {
+      "A": "Have a team board with their backgrounds and pictures",
+      "B": "Swap roles throughout the team so each team member gets a feel for what others do",
+      "C": "Pair up team members to work on tasks and rotate those pairs for each feature",
+      "D": "Have a virtual lunch and learn where team members share something about themselves"
+    },
+    "correct_answer": "C",
+    "explanation": "Pair programming is a common technique in agile and can be used for most tasks; pairing up team members on a task or iteration gives them the opportunity to talk and work with each other one on one. Rotating pairs ensures different team members get to know each other across iterations.",
+    "video_time": 12889
+  },
+  {
+    "number": 104,
+    "question": "You're showing up the project sponsor around the team area for your agile project and you see the burn down chart next to the team kanban board. The project sponsor asks what the chart tells you. What will you say?",
+    "options": {
+      "A": "It shows how many team members are moving on and off the project",
+      "B": "It shows the remaining tasks versus what was planned for the iteration",
+      "C": "It shows the automated tests run as part of continuous integration",
+      "D": "It shows the return on investment for delivered features"
+    },
+    "correct_answer": "B",
+    "explanation": "A burn down chart is a line chart showing the iteration tasks completed versus what was planned over the iteration. The same idea can be used for features over the life of a project or even risks, and can be measured in hours, tasks, cards, or stories as the team agrees.",
+    "video_time": 13012
+  },
+  {
+    "number": 105,
+    "question": "You're working through the feature backlog with the functional manager of the organization who is also the product owner for your agile team. They ask about the velocity chart hanging in the team area. What do you tell them?",
+    "options": {
+      "A": "The number of points, tasks or features completed by the team in each iteration",
+      "B": "The number of team members working on the agile project",
+      "C": "How fast each team member completes their work each day",
+      "D": "The speed with which the project budget is being used up"
+    },
+    "correct_answer": "A",
+    "explanation": "Team velocity is the amount of work a team can complete in a given iteration, whether measured by points, hours, story cards, tasks, or features. The velocity chart shows the number of chosen units per iteration, making it essential for iteration planning.",
+    "video_time": 13091
+  },
+  {
+    "number": 106,
+    "question": "In 2001, a group of individuals representing the most widely used lightweight software development methodologies agreed on a common set of values and principles which became known as the agile manifesto. Which of the following is one of the manifesto's core values?",
+    "options": {
+      "A": "Developer negotiation",
+      "B": "Product owner interaction over scrum master delegation",
+      "C": "Customer collaboration over contract negotiation",
+      "D": "Getting things right over getting the right things"
+    },
+    "correct_answer": "C",
+    "explanation": "The agile manifesto is made up of four core values, one of which is customer collaboration over contract negotiation. This means valuing working closely with the customer and responding to their feedback rather than locking everything into a contract.",
+    "video_time": 13220
+  },
+  {
+    "number": 107,
+    "question": "You're working with your project team in a way that ensures you analyze the requirements, then design, build, and test for those requirements, repeating them until the product is correct and adjusting your product or approach as necessary, before releasing in one large feature. Which project life cycle are you using?",
+    "options": {
+      "A": "Predictive",
+      "B": "Agile",
+      "C": "Incremental",
+      "D": "Iterative"
+    },
+    "correct_answer": "D",
+    "explanation": "The iterative project lifecycle analyzes, designs, tests, builds, and repeats these activities until correct, then delivers in one release. Incremental delivers small increments of value (features), agile combines iterative and incremental, and predictive does one release with no feedback.",
+    "video_time": 13323
+  },
+  {
+    "number": 108,
+    "question": "Large-scale scrum (LeSS) aims to organize several development teams toward a common goal by extending the scrum method across teams. What is NOT one of the similarities between large-scale scrum and normal scrum?",
+    "options": {
+      "A": "One single product backlog",
+      "B": "One definition of done for all teams",
+      "C": "Valuing individuals over results",
+      "D": "One potentially shippable product increment at the end of each sprint"
+    },
+    "correct_answer": "C",
+    "explanation": "Large-scale scrum has many similarities to normal scrum extended across teams, including one single product backlog, one definition of done for all teams, complete cross-functional teams, one product owner, and one potentially shippable product increment at the end of each sprint. Valuing individuals over results is not a stated similarity, as both individuals and results are valued.",
+    "video_time": 13432
+  },
+  {
+    "number": 109,
+    "question": "Large-scale scrum aims to organize several development teams towards a common goal by extending scrum across teams. Which of the techniques below was NOT added to scrum to create LeSS?",
+    "options": {
+      "A": "Sprint planning more formally divided into two parts: what and how",
+      "B": "One single product release with no stakeholder feedback allowed",
+      "C": "Overall cross-team refinement",
+      "D": "Overall retrospective focused on cross-team improvements"
+    },
+    "correct_answer": "B",
+    "explanation": "Large-scale scrum adds techniques to scrum to scale across teams, including sprint planning divided into 'what and how', overall cross-team refinement, cross-team coordination, and cross-team retrospectives. A single release with no stakeholder feedback contradicts the agile principle of continuous feedback and was not added.",
+    "video_time": 13579
+  },
+  {
+    "number": 110,
+    "question": "You're working on a project with clear procedures based on past projects. The product is clear and the risks are fairly well known as the organization has done this before. Which is true from the below?",
+    "options": {
+      "A": "It's definable work so you can choose a predictive project lifecycle",
+      "B": "It's definable work so you can choose agile",
+      "C": "High uncertainty means you can use incremental",
+      "D": "High uncertainty means you can use iterative"
+    },
+    "correct_answer": "A",
+    "explanation": "When the situation is fairly definable and well known and the risks are also fairly well known, you can choose a predictive project lifecycle that plans most of the project up front with one single release. Agile is used to respond to change and high uncertainty, not low-risk definable work.",
+    "video_time": 13728
+  },
+  {
+    "number": 111,
+    "question": "You are an agile project manager leading a project team who is used to a waterfall way of work. The project sponsor wants to plan the entire project up front so they can see when the project will be delivered. You tell them that agile uses adaptive planning. Why might this be a better alternative?",
+    "options": {
+      "A": "Adaptive planning allows the project sponsor to adapt to the project plan over time",
+      "B": "Adaptive planning allows the team to deliver usable features while continually re-prioritizing the next pieces based on business value",
+      "C": "Adaptive planning ensures that users can adapt to the product",
+      "D": "Adaptive planning is stable after the prototype is complete"
+    },
+    "correct_answer": "B",
+    "explanation": "Adaptive planning allows the team to deliver usable features incrementally while the product owner continuously re-prioritizes the backlog based on business value, ensuring maximum value is delivered throughout the project. This aligns with agile's core principle of responding to change and delivering value iteratively.",
+    "video_time": 13846
+  },
+  {
+    "number": 112,
+    "question": "You're a scrum master and you're about to begin a new iteration in your agile project. New features have been added to the backlog and the team are unsure which of those features to work on next. How will you guide the product owner and the team when analyzing the next priority?",
+    "options": {
+      "A": "Analyze the value of each feature with the product owner versus the effort and the risk",
+      "B": "Focus on the shortest tasks first so you can deliver quickly",
+      "C": "Choose to deliver the entire project at the end",
+      "D": "By asking customers what they want delivered first"
+    },
+    "correct_answer": "A",
+    "explanation": "While value is typically determined by features that customers want, the priority is ultimately decided by the product owner who represents the customer or the business and constantly grooms and prioritizes the backlog of features. Just as important is developing high-risk items and considering the development effort versus the benefit.",
+    "video_time": 14015
+  },
+  {
+    "number": 113,
+    "question": "You're doing great coaching some of the team members who are new to agile and someone asks what you mean when you say a time box. What will you tell them?",
+    "options": {
+      "A": "It is a period of time in which certain work is completed, such as an iteration",
+      "B": "It is time spent on a retrospective",
+      "C": "It is time taken to complete the project with the box representing the finished product",
+      "D": "It is the effort assigned to a story card"
+    },
+    "correct_answer": "A",
+    "explanation": "While effort on a story card may be time boxed, the best example of a time box is an iteration, usually around two weeks, which is a time box that delivers a feature or part of a feature that a customer can see, feel, or touch. Time boxing is used to combat Parkinson's Law, where work expands to fill the time allotted.",
+    "video_time": 14155
+  },
+  {
+    "number": 114,
+    "question": "While on an agile project team, you prioritize the backlog of features with the product owner and agree what you will work on first. The project sponsor wants to know how long it will take to deliver some of this value. How will you estimate how long each of these features will take to complete?",
+    "options": {
+      "A": "Break down the feature into tasks or user stories, then estimate how long those tasks will take to complete with the development team",
+      "B": "Take the total number of people in the team multiplied by hours worked divided by the number of features",
+      "C": "Ask the project sponsor how many iterations the project is funded for and then plan to that",
+      "D": "Find a similar feature delivered by another part of the organization and use that as the estimate"
+    },
+    "correct_answer": "A",
+    "explanation": "Agile favors a bottom-up approach to estimating where work is broken down to its lowest level, typically a user story, and estimated by the development team including testers and business analysts. This gives the best estimate of the effort and time required to complete the feature.",
+    "video_time": 14301
+  },
+  {
+    "number": 115,
+    "question": "You're working with an agile team on your first iteration. The feature has been chosen by the product owner and the team breaks it down into user stories to work on. What is a user story?",
+    "options": {
+      "A": "A feature or functionality small enough to be completed in one to three days",
+      "B": "A description of the feature from the viewpoint of the customer",
+      "C": "A story about the end user so the team understands the feature completely",
+      "D": "A prioritized backlog"
+    },
+    "correct_answer": "A",
+    "explanation": "A user story is the smallest unit of work in an agile team — a task that can be completed in one to three days. If the task will take longer, it is common to try and break it into two or more pieces to accommodate that user story rule.",
+    "video_time": 14543
+  },
+  {
+    "number": 116,
+    "question": "You've begun working on a new project in a new organization and the project team mentions you are working in an iterative project environment. How do you know you're working within an iterative project life cycle?",
+    "options": {
+      "A": "The team iterates around one idea to make sure that it's right",
+      "B": "You are improving the product or result through successive prototypes or proofs of concept",
+      "C": "The project sponsor says the project life cycle is iterative",
+      "D": "You are using agile sprints or iterations to manage your work"
+    },
+    "correct_answer": "B",
+    "explanation": "An iterative project life cycle uses successive prototypes or proofs of concept to gather feedback and then releases in one go. Even though agile uses sprints or iterations, combining iterative and incremental approaches is what creates the agile way of work.",
+    "video_time": 14703
+  },
+  {
+    "number": 117,
+    "question": "In 2001, a group of individuals representing the most widely used lightweight software development methodologies agreed on a common set of values and principles that became known as the Agile Manifesto. Which of the following is one of the Agile Manifesto's core values?",
+    "options": {
+      "A": "Developing as much as possible to see what gets the best result",
+      "B": "Finding a product owner over finding a development team",
+      "C": "Cross-functional team members over executive buy-in",
+      "D": "Responding to change over following a plan"
+    },
+    "correct_answer": "D",
+    "explanation": "The Agile Manifesto is made up of four core values, one of which values responding to change over following a plan. This means following a plan is still important, however agile values responding to change a little bit more, because customers often change their minds once they get their hands on the product.",
+    "video_time": 14827
+  },
+  {
+    "number": 118,
+    "question": "You are working on a project where the organization wants to move towards an agile way of work. Which two project life cycles combine to create an agile environment?",
+    "options": {
+      "A": "Iterative and predictive",
+      "B": "Incremental and predictive",
+      "C": "Iterative and incremental",
+      "D": "Predictive and agile"
+    },
+    "correct_answer": "C",
+    "explanation": "An agile project environment is created by combining incremental (where smaller features are released more regularly) and iterative (where the product improves through iterations and is released after feedback). Predictive is the waterfall approach and does not combine to create an agile environment.",
+    "video_time": 14955
+  },
+  {
+    "number": 119,
+    "question": "You have come on board a new project team and you've been advised that the project works with a predictive style of project life cycle. How will you know you're working in a predictive or waterfall style approach?",
+    "options": {
+      "A": "The bulk of the planning is done up front and then executed in a single sequential process",
+      "B": "The bulk of planning is done up front, then prototypes are created",
+      "C": "A product roadmap is created and smaller features are designed and released as part of the whole",
+      "D": "The project uses feature sprints, kanban boards and retrospectives to manage their work"
+    },
+    "correct_answer": "A",
+    "explanation": "In a predictive or waterfall approach, all the planning is done up front and executed in a sequential process, ideal for definable work and products where the risk is well known. Prototypes indicate iterative, incremental releases indicate incremental, and agile tools like sprints and kanban are not specific to the project life cycle type.",
+    "video_time": 15051
+  },
+  {
+    "number": 120,
+    "question": "You're working as a project manager in an agile team. Which of the below are NOT examples of execution practices you will see in agile?",
+    "options": {
+      "A": "Test at all levels where the team applies end-to-end testing and unit testing",
+      "B": "Test driven development where we write the tests first and then write the code",
+      "C": "Spikes which are time-boxed research or experiments useful for estimating or learning something critical",
+      "D": "The project management plan where the project is planned in detail up front to avoid misunderstanding by project stakeholders"
+    },
+    "correct_answer": "D",
+    "explanation": "A project management plan is a key artifact in a predictive or waterfall project management approach, not an agile execution practice. Test at all levels, test driven development, and spikes are all agile execution practices.",
+    "video_time": 15153
+  },
+  {
+    "number": 121,
+    "question": "The product owner has worked with the development team to list all the work to be done, write up the user stories for each feature and place them into the product backlog. What will you do next?",
+    "options": {
+      "A": "Groom the backlog to ensure only important items are being worked on",
+      "B": "Create the schedule management plan",
+      "C": "Sort the items by business priority, place them in an iteration, complete the items and then remove them from the backlog",
+      "D": "Move the items into the requirements traceability matrix so you can report on their progress"
+    },
+    "correct_answer": "C",
+    "explanation": "Managing project requirements via the product backlog is a fundamental agile practice; the product backlog is the source of truth and is continuously reprioritized to ensure maximum value is delivered first. Items are sorted by business priority, placed in an iteration, completed, and then removed.",
+    "video_time": 15293
+  },
+  {
+    "number": 122,
+    "question": "The business partner or product owner continuously refines or grooms the product backlog. This includes adding new stories, reprioritizing stories and removing stories when needed. What role does the development team take during this process?",
+    "options": {
+      "A": "Developing the cards as soon as they are added to ensure maximum value",
+      "B": "Removing cards from the backlog that don't make sense to complete",
+      "C": "Estimating the work needed for each card so the product owner can prioritize based on value and effort",
+      "D": "Coming in to daily standups to report on what has been done yesterday and what will be done today"
+    },
+    "correct_answer": "C",
+    "explanation": "During backlog grooming, the development team is responsible for sizing or estimating the work; this allows the product owner to prioritize effectively based on value and time to delivery. The product owner needs to know the effort required to make sound prioritization decisions.",
+    "video_time": 15421
+  },
+  {
+    "number": 123,
+    "question": "You are working with your agile project team to estimate each task and how long they might take. The team is finding it difficult to give an exact figure and worries that it might impact project delivery. What can you show them to estimate more accurately?",
+    "options": {
+      "A": "Ask them to estimate by whole iteration to give a little room for variation",
+      "B": "Estimate the cards in full days instead of effort per card",
+      "C": "Use comparative estimates or relative sizing such as t-shirt sizing or story points",
+      "D": "Prioritize the backlog based on customer value"
+    },
+    "correct_answer": "C",
+    "explanation": "A common agile practice is to rely on relative sizing such as story points or t-shirt sizing; team velocity is then measured using those same methods as the team completes a certain number of points per iteration. This is easier than trying to predict an exact time period.",
+    "video_time": 15540
+  },
+  {
+    "number": 124,
+    "question": "You're an agile project manager and talking through the iteration with the product owner. They have created the list of items in the product backlog but there is confusion in the team about who should perform the process of story card sizing. What will you tell them?",
+    "options": {
+      "A": "The product owner works through the backlog to size the story cards",
+      "B": "The agile team work together to size the story cards relying mostly on information from the developers and testers",
+      "C": "The agile team leader or scrum master works to size the story cards for the team",
+      "D": "The customer sizes the story cards to ensure maximum value"
+    },
+    "correct_answer": "B",
+    "explanation": "The story point sizing process is performed by the agile team, primarily estimated by developers and testers who will be doing the work, so they will know best. Servant leadership means helping people do their best work, not doing everything for them.",
+    "video_time": 15693
+  },
+  {
+    "number": 125,
+    "question": "You've been estimating story cards with your agile project team but the effort captured has not been matching the time it ends up taking to complete. What is the most likely reason for this occurring?",
+    "options": {
+      "A": "The team have not included sick days in the estimate",
+      "B": "The team have not included testing or refactoring in the estimate",
+      "C": "The team have not included the time to merge the code for continuous integration",
+      "D": "The team have not included the time it takes for the daily stand up"
+    },
+    "correct_answer": "B",
+    "explanation": "Estimates for story cards should include all known activities required to complete that card, including testing and refactoring and the complexity and risk involved. Continuous integration merging should be automated, and daily standups are not part of card-level estimating.",
+    "video_time": 15823
+  },
+  {
+    "number": 126,
+    "question": "You're an agile team leader and talking through the process for your first retrospective. The team is curious as to what they should do. What is the way a team retrospective would normally work?",
+    "options": {
+      "A": "Discuss what was successful, what could be improved, and incorporate those into future iterations",
+      "B": "Discuss what the team liked about working with each other",
+      "C": "Discuss what went wrong and make sure the team knows who is to blame",
+      "D": "Discuss the validity of features being developed"
+    },
+    "correct_answer": "A",
+    "explanation": "A team retrospective enables the team to answer questions that improve their team process and way of work, such as what went well, what could be improved, and what still puzzles me. Blame is not a part of agile — retrospectives focus on improving the process, not the people.",
+    "video_time": 15982
+  },
+  {
+    "number": 127,
+    "question": "The 12th principle of agile is: at regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly. In practice this is a retrospective. What is the practical reason for including retrospectives in an agile team?",
+    "options": {
+      "A": "It reduces the communication time between the project sponsor and the developers",
+      "B": "It ensures features are released on schedule and on budget",
+      "C": "It helps the team learn about and improve their process over time",
+      "D": "It keeps the team focused on the main feature to deliver the most business value"
+    },
+    "correct_answer": "C",
+    "explanation": "Agile retrospectives help the team learn about their process and improve it over time through regular and structured feedback given and used together as a team. Prioritization is handled by the product owner in sprint planning, not through retrospectives.",
+    "video_time": 16089
+  },
+  {
+    "number": 128,
+    "question": "Retrospectives are typically held at the end of an iteration, but an agile team can hold retrospectives at any other time. What is NOT a time that an agile team might hold a retrospective?",
+    "options": {
+      "A": "When the team completes or ships something new",
+      "B": "When more than a few weeks have passed since the previous retrospective",
+      "C": "When the team appears to be stuck and completed work is not flowing",
+      "D": "When the feature backlog has not been created and work is yet to begin"
+    },
+    "correct_answer": "D",
+    "explanation": "A team retrospective is there to gather feedback and improve on the team process once that process is in place; it is not held before the work or the process has begun as there is nothing to gather feedback on yet. Retrospectives require completed work to reflect upon.",
+    "video_time": 16205
+  },
+  {
+    "number": 129,
+    "question": "You are in a new project team and working through which project life cycle or way of work to use in order to deliver the products to your customer and how far to modify that project lifecycle. What are some of the project factors that will influence your tailoring decisions to use agile or other methods?",
+    "options": {
+      "A": "Which project life cycle the customer wants to use",
+      "B": "What the latest life cycle is, the one that must be the best and most interesting to upper management",
+      "C": "Whether the flow of work is often interrupted by various delays or impediments and is easily definable or highly uncertain",
+      "D": "Project approaches should never be tailored"
+    },
+    "correct_answer": "C",
+    "explanation": "Project life cycles and how much you tailor them depends on many factors; having definable work or high uncertainty work are two of the most common factors. Projects should always be tailored because organizations, products, people, markets, and industries differ.",
+    "video_time": 16285
+  },
+  {
+    "number": 130,
+    "question": "You're in the forming stages of a new project team and deciding on the way of work. What are some of the factors that will influence how you tailor the product life cycle?",
+    "options": {
+      "A": "The demand pattern for value or delivery — is it steady or sporadic",
+      "B": "The rate of process improvement required by the team — do we need retrospectives or can we deliver in one big bang",
+      "C": "Is more than one team needed to build the product",
+      "D": "All of the above"
+    },
+    "correct_answer": "D",
+    "explanation": "Project life cycles and ways of working can be influenced by many factors — in fact almost everything will impact this decision, including the demand pattern, rate of process improvement needed, team size, whether work is certain or uncertain, and what the team is comfortable with.",
+    "video_time": 16426
+  },
+  {
+    "number": 131,
+    "question": "You're working through the backlog with the product owner and estimating the story cards with the development team. The team have never worked on a product like this before and they're unsure if the estimates are accurate enough. What will you recommend that they use to get accurate estimates?",
+    "options": {
+      "A": "Affinity estimating using actual effort from a similar feature on a different project",
+      "B": "T-shirt sizing using broad small, medium or large sizes to accommodate variation",
+      "C": "Three-point estimating where we have the pessimistic, most likely and optimistic and then average all of those out",
+      "D": "The product owner should estimate the story cards"
+    },
+    "correct_answer": "A",
+    "explanation": "While most estimation methods will do, the best one in this case is affinity estimating using a similar example from a previous project. Agile estimating is most often done by breaking the features down into small tasks and then estimating on those tasks (bottom-up estimating); where that doesn't work, affinity estimating is the next best choice.",
+    "video_time": 16511
+  },
+  {
+    "number": 132,
+    "question": "You're delivering features through your agile project and the project sponsor and product owner are happy with the progress. Your project sponsor raises a concern about future items and what that development will look like. What will you show them?",
+    "options": {
+      "A": "The project management plan",
+      "B": "The product backlog",
+      "C": "The product roadmap that shows planned future features and their approximate dates, similarly to a Gantt chart",
+      "D": "The team velocity chart that shows how much the team completes each iteration"
+    },
+    "correct_answer": "C",
+    "explanation": "A product roadmap is a visual display of the product releases similar to a Gantt chart or a project schedule but based around agile feature releases; it is a high level view adjusted as necessary and usually done by the product owner.",
+    "video_time": 16656
+  },
+  {
+    "number": 133,
+    "question": "The agile team is estimating story cards using planning poker for one of the larger features. Some of the team have estimated three points while the others have estimated eight points. How will you guide them to come to an agreement?",
+    "options": {
+      "A": "Ask them to average out the points and assign the value to the card",
+      "B": "Change the method of estimating to accommodate the team decision",
+      "C": "Change the feature to make it easier to estimate on",
+      "D": "Ask the high and the low estimators to discuss their reasons and the team to estimate again until a consensus is reached or more information is needed"
+    },
+    "correct_answer": "D",
+    "explanation": "In planning poker, if the estimates are different, the high and low estimators share their reasons; once shared, the team estimates again, and that is repeated until a consensus is reached or the team decides to gather more information.",
+    "video_time": 16808
+  },
+  {
+    "number": 134,
+    "question": "The agile team is working through a particularly complex feature that is difficult for the team to find a solution for. As the agile lead you recommend a spike. What is a spike?",
+    "options": {
+      "A": "A shifting of the feature into another iteration",
+      "B": "A time-boxed task to explore or investigate an issue",
+      "C": "A short meeting at the beginning of the day to discuss tasks in progress",
+      "D": "A demonstration of the feature to the product owner"
+    },
+    "correct_answer": "B",
+    "explanation": "A spike is a time-boxed task to explore or investigate an issue; it is separate from development work and is only used if something needs to be figured out or investigated.",
+    "video_time": 16898
+  },
+  {
+    "number": 135,
+    "question": "You've been completing small usable increments of value as part of your agile team. When reporting back to the project sponsor, the last iteration was referred to as a 'fast failure'. What does that actually mean?",
+    "options": {
+      "A": "The iteration did not complete all the story cards in the allotted time",
+      "B": "The project team found a bug before code delivery",
+      "C": "The proof of concept for that iteration did not have the intended outcome",
+      "D": "The product backlog was not well groomed to start the next iteration"
+    },
+    "correct_answer": "C",
+    "explanation": "Agile operates on the concept of delivering increments of value; 'fast failure' means that particular increment was not successful and did not deliver what was wanted, so the team needs to adjust. It is part of the beauty and power of agile.",
+    "video_time": 16972
+  },
+  {
+    "number": 136,
+    "question": "Scaled Agile Framework (SAFe) focuses on roles and activities in the portfolio, program and project levels and organizes the enterprise around value streams that provide value to the customer. What is NOT one of the principles of SAFe?",
+    "options": {
+      "A": "Take an economic view and apply systems thinking",
+      "B": "Visualize and limit the work in progress and reduce batch sizes",
+      "C": "Plan carefully for a large single feature release",
+      "D": "Build incrementally with fast integrated learning cycles"
+    },
+    "correct_answer": "C",
+    "explanation": "SAFe uses agile principles but scales them across teams and across the organization; these include systems thinking, visualizing work in progress, and building incrementally. Planning long-term for a single release is a predictive way of work, not an agile or SAFe principle.",
+    "video_time": 17067
+  },
+  {
+    "number": 137,
+    "question": "Scaled Agile Framework (SAFe) again focuses on detailing practices, roles and activities in the portfolio, program and project levels and organizes the enterprise around value streams. What is NOT one of the SAFe principles?",
+    "options": {
+      "A": "Make sure that stakeholders know when you did more work than your teammates",
+      "B": "Apply the cadence for synchronizing with cross-domain planning",
+      "C": "Unlock the intrinsic motivation of knowledge workers",
+      "D": "Decentralize decision making"
+    },
+    "correct_answer": "A",
+    "explanation": "Agile focuses on individuals and interactions over processes and tools; making sure stakeholders know when you did more work than teammates is not a SAFe or agile principle. SAFe principles include cadence and synchronization, intrinsic motivation, and decentralized decision making.",
+    "video_time": 17203
+  },
+  {
+    "number": 138,
+    "question": "Your agile project team has been delivering value to an organization in increments for some time. Executives within the organization would like to scale the approach across more teams to gain benefit from its way of work. Which of the below is NOT a scaling framework from agile that you might use?",
+    "options": {
+      "A": "Scrum of scrums",
+      "B": "SAFe (Scaled Agile Framework)",
+      "C": "Kanban iteration retrospective",
+      "D": "Large Scale Scrum (LeSS)"
+    },
+    "correct_answer": "C",
+    "explanation": "Scrum of scrums, Scaled Agile Framework, and Large Scale Scrum are all scaling agile frameworks. 'Kanban iteration retrospective' is not a real scaling methodology.",
+    "video_time": 17306
+  },
+  {
+    "number": 139,
+    "question": "The organization you're working in has decided to move towards an agile way of work and project life cycle approach. Which of the below is how you would describe an agile project life cycle?",
+    "options": {
+      "A": "Both iterative and incremental to refine work items and deliver frequently",
+      "B": "Both iterative and predictive",
+      "C": "Both fast and furious designed to deliver the most bang for your buck",
+      "D": "Both predictive and incremental"
+    },
+    "correct_answer": "A",
+    "explanation": "The agile project life cycle is a combination of iterative (where we gather feedback) and incremental (where we deliver smaller usable features of value to our customer). Predictive approaches plan everything up front and deliver in one go, which is not agile.",
+    "video_time": 17369
+  },
+  {
+    "number": 140,
+    "question": "There are four main project life cycle approaches to managing a project with variations in between. What is one of the characteristics of an iterative life cycle approach?",
+    "options": {
+      "A": "It does not allow feedback",
+      "B": "It allows feedback for unfinished work to improve and modify that work",
+      "C": "It focuses on delivery not feedback",
+      "D": "It plans the project up front and delivers in one go"
+    },
+    "correct_answer": "B",
+    "explanation": "An iterative project life cycle iterates towards success; it uses prototypes and unreleased versions of the product to gather feedback and improve it before releasing in one go. PMBoC Guide citation: iterative life cycle.",
+    "video_time": 17464
+  },
+  {
+    "number": 141,
+    "question": "You're working through a sprint planning meeting with your team. The team has sized up the cards and prioritized the backlog. What will you do next to determine how much work can be done during this iteration?",
+    "options": {
+      "A": "Count up the user stories that the product owner wants completed by the end of the iteration",
+      "B": "Check the team's velocity against the number of points for the story cards that we want to complete",
+      "C": "Ask the scrum master to allocate work to each team member in the fairest manner possible",
+      "D": "Look at the other teams and what they did in the last iteration to give us an idea for our team"
+    },
+    "correct_answer": "B",
+    "explanation": "Velocity is the average amount of work a team completes over previous sprints, measured in story points or another agreed unit, and comparing it against the planned story card points tells you how much can be completed in the upcoming sprint. Other teams' velocity is not relevant as every team measures differently.",
+    "video_time": 17520
+  },
+  {
+    "number": 142,
+    "question": "You're an agile project manager working on the next feature for your product. The product owner has asked you for an estimate on how long the remainder of the features may take to complete. You look to the team's velocity chart. Why is this?",
+    "options": {
+      "A": "The team's average velocity across previous iterations is the best predictor of future iterations",
+      "B": "The velocity ensures the team will never work harder than they have to",
+      "C": "The scrum master has the final say over team velocity to ensure the work gets done",
+      "D": "The velocity chart shows how quickly new items are picked up by the team"
+    },
+    "correct_answer": "A",
+    "explanation": "The average velocity or work completed during each iteration is the best predictor of future velocity because previous iterations typically include all those tasks and pitfalls that might be encountered again. Velocity is a measurement of work flow, not a cap set by the scrum master.",
+    "video_time": 17627
+  },
+  {
+    "number": 143,
+    "question": "You are the agile lead or scrum master for your agile team and planning the next iteration that is about to begin. What will you do before planning the next iteration?",
+    "options": {
+      "A": "Break down the features into user stories",
+      "B": "Write the story card acceptance criteria within the team",
+      "C": "Choose which stories the team will work on in the iteration",
+      "D": "Work with the product owner to prioritize the highest value ones to work on"
+    },
+    "correct_answer": "D",
+    "explanation": "During iteration planning, the team should have already broken down features into story cards; now is the time to re-prioritize those cards based on business value and team velocity. Breaking down features and writing acceptance criteria are done by the development team, business analysts, and product owner.",
+    "video_time": 17726
+  },
+  {
+    "number": 144,
+    "question": "You are in the middle of a sprint with your agile team and moving the project forward with daily stand-up meetings. What is a stand-up meeting?",
+    "options": {
+      "A": "A project kickoff meeting",
+      "B": "A project progress meeting to see how the proposed schedule stands up against the actual schedule",
+      "C": "A very quick meeting time-boxed at 15 minutes or less where the team says what they have accomplished and report any blockers",
+      "D": "A team training meeting"
+    },
+    "correct_answer": "C",
+    "explanation": "The daily stand-up is a time-boxed 15-minute meeting held once a day where team members report what they have done, what they plan to do, and most importantly any blockers preventing progress. It is held around the kanban board and focuses on identifying and resolving impediments quickly.",
+    "video_time": 17830
+  },
+  {
+    "number": 145,
+    "question": "You are the agile project manager working on a software project and the development team has identified a major risk for the delivery of a certain feature. That feature is not scheduled until very late in the project. What will you do next?",
+    "options": {
+      "A": "Wait until later in the project as the problem may be fixed by other features going in",
+      "B": "Ask the developers to find a way to proceed without that feature",
+      "C": "Plan a spike around the risk to identify a solution, then prioritize that feature earlier in development",
+      "D": "Remove all other story cards from the current sprint so the team can swarm around the issue and fix it"
+    },
+    "correct_answer": "C",
+    "explanation": "Agile risks are prioritized early in development to reduce and remove them; discovery work is typically done with a spike card, and the solution is then prioritized earlier so it is addressed without stopping delivery of value. The longer a risk remains unaddressed the more expensive it becomes to fix.",
+    "video_time": 17909
+  },
+  {
+    "number": 146,
+    "question": "Your agile project team is using scrum to manage the work and deliverables for your project. Which of the below is NOT one of the scrum events or artifacts?",
+    "options": {
+      "A": "The product backlog",
+      "B": "The sprint backlog",
+      "C": "Increments or features",
+      "D": "The team area"
+    },
+    "correct_answer": "D",
+    "explanation": "Scrum works with a product backlog and sprint backlog as artifacts and delivers in increments or features; agile teams are typically recommended to work in a co-located space, but the team area is not one of the defined events or artifacts from scrum itself.",
+    "video_time": 18031
+  },
+  {
+    "number": 147,
+    "question": "Your agile team has been working with scrum for some time now and have become quite familiar with its events and ceremonies. You're asked to explain this to other stakeholders. What is NOT an example of a scrum event or ceremony?",
+    "options": {
+      "A": "Sprint planning",
+      "B": "The daily scrum or stand-up",
+      "C": "The sprint review",
+      "D": "The change control board"
+    },
+    "correct_answer": "D",
+    "explanation": "Sprint planning, the daily scrum, and the sprint review are all scrum ceremonies; the change control board is a typical part of a predictive or waterfall project life cycle, not an agile or scrum way of work.",
+    "video_time": 18176
+  },
+  {
+    "number": 148,
+    "question": "Scrum is a single team framework for managing product development. There are certain events, ceremonies, and roles and responsibilities within a scrum team. Which of the below is NOT a role or responsibility in a scrum team?",
+    "options": {
+      "A": "Product owner",
+      "B": "Development team",
+      "C": "Scrum master",
+      "D": "Risk manager"
+    },
+    "correct_answer": "D",
+    "explanation": "Risk and quality are the responsibility of the whole team in an agile way of work; the three roles in scrum are the product owner, the development team, and the scrum master — a dedicated risk manager is a role associated with predictive project life cycles.",
+    "video_time": 18256
+  },
+  {
+    "number": 149,
+    "question": "Agile servant leadership is one of the key foundations to an agile team where leadership, team participation, and openness are encouraged. Which of the below is NOT one of the characteristics of a servant leader?",
+    "options": {
+      "A": "Promoting self-awareness and helping people grow",
+      "B": "Listening to others more than speaking yourself",
+      "C": "Serving those on the team by removing blockers",
+      "D": "Reporting on low performers to ensure the team is streamlined"
+    },
+    "correct_answer": "D",
+    "explanation": "Agile and servant leadership work by building towards psychological safety, openness, growth, and ensuring work is free from blockers; reporting on low performers is not a servant leadership characteristic — the goal is to grow and coach team members, not assess and report them.",
+    "video_time": 18379
+  },
+  {
+    "number": 150,
+    "question": "Your team are about to proceed with the development of a new product for the organization. Depending on the product, stakeholders, risk appetite, need for value, and more, the life cycle or way of work will change. Which of the below represents an incremental life cycle approach?",
+    "options": {
+      "A": "It provides unfinished deliverables",
+      "B": "It provides value in one release",
+      "C": "It provides multiple finished deliverables that the customer can use immediately",
+      "D": "It provides a way for the team to do less with more by releasing only a small feature"
+    },
+    "correct_answer": "C",
+    "explanation": "An incremental project life cycle or way of work delivers small increments that a customer can use immediately, gain value from, and provide feedback on. Deliverables must be complete and usable, and value is delivered through multiple releases rather than a single big-bang delivery.",
+    "video_time": 18450
+  },
+  {
+    "number": 151,
+    "question": "You are working with your agile team to size story cards and place them in upcoming iterations. You notice that the points allocated to the story cards are getting bigger and bigger with each release. Why might this be happening?",
+    "options": {
+      "A": "The product owner keeps adding scope to the project",
+      "B": "Technical debt is being built on from previous releases",
+      "C": "Team members are not working their full hours",
+      "D": "Team members are working too hard and being burnt out"
+    },
+    "correct_answer": "B",
+    "explanation": "Agile accommodates changing scope through prioritization, ruling out A and D; the best explanation is technical debt, where code is rushed to production without being simplified or refactored, creating more and more work to build around the disorganized code with each subsequent release.",
+    "video_time": 18530
+  },
+  {
+    "number": 152,
+    "question": "The project sponsor of your agile team is quite familiar with lean and agile terms and methods. She has asked you for the average cycle time and the average lead time for the project so far. What will you give her?",
+    "options": {
+      "A": "The average time for team leave and team attendance",
+      "B": "Time to complete stand-ups and time to complete retrospectives",
+      "C": "The average time to complete story cards and the time to complete features",
+      "D": "The average team downtime and the average time to complete releases"
+    },
+    "correct_answer": "C",
+    "explanation": "Cycle time is the time for shorter tasks — most often story cards in an agile environment — while lead time measures the time to complete a feature (a collection of story cards) from beginning to end; these are key lean metrics (PMBOK/Agile Practice Guide).",
+    "video_time": 18699
+  },
+  {
+    "number": 153,
+    "question": "You are going over the velocity of your agile team and notice it has increased over the past two iterations. What might be the reason for this?",
+    "options": {
+      "A": "The productivity of one team member has increased",
+      "B": "The team no longer tests each card",
+      "C": "The team estimated the story cards more accurately",
+      "D": "The product owner removed some features from the backlog of work"
+    },
+    "correct_answer": "A",
+    "explanation": "Velocity and throughput measure the work completed by the entire team; if one team member's productivity increases it lifts the whole team's velocity. Removing backlog items or re-estimating cards does not increase completed points per sprint.",
+    "video_time": 18802
+  },
+  {
+    "number": 154,
+    "question": "You are an agile project manager working with your agile team and talking through the defects raised on the project so far. To get a more accurate view of effort per card you ask the quality tester to begin tracking the defect cycle time. What will they report back on?",
+    "options": {
+      "A": "How many defects were discovered",
+      "B": "How long it took to fix a defect from the time it was found to the time it was fixed",
+      "C": "How many cycles it takes to raise a defect",
+      "D": "The number of features in the backlog that have experienced defects"
+    },
+    "correct_answer": "B",
+    "explanation": "Cycle time is the measure of time for a smaller increment — often a story card — from start to finish; applied to defects, it is the elapsed time from when a defect is found to when it is fixed (Agile Practice Guide / Lean metrics).",
+    "video_time": 18876
+  },
+  {
+    "number": 155,
+    "question": "You are checking in with the quality tester in your agile team and they advise you that there are a number of escaped defects in the most recently completed feature. What are they referring to?",
+    "options": {
+      "A": "A feature that was not completed by the end of the iteration",
+      "B": "Code that needs to be refactored",
+      "C": "Defects that have made it through testing and quality assurance",
+      "D": "Team members who did not attend the daily stand-up"
+    },
+    "correct_answer": "C",
+    "explanation": "Escaped defects are defects that pass through testing and release into the live (production) environment; the cost and risk increases the closer they are to customers, making them the most expensive type of defect to fix (Agile Practice Guide).",
+    "video_time": 18956
+  },
+  {
+    "number": 156,
+    "question": "Agile approaches emphasize servant leadership to empower teams. Servant leadership is the practice of leading through service to the team, understanding and addressing the needs and development of team members to enable the highest performance possible. Servant leaders approach project work in this order:",
+    "options": {
+      "A": "Purpose, people and process",
+      "B": "People's systems and technology",
+      "C": "Information, reporting and process",
+      "D": "Plant, people and machine"
+    },
+    "correct_answer": "A",
+    "explanation": "A servant leader starts with the 'why' — the purpose behind the work — then grows and develops people, and finally ensures a solid process for making the work happen; this mirrors Simon Sinek's 'Start with Why' and the PMI Agile Practice Guide servant leadership model.",
+    "video_time": 19055
+  },
+  {
+    "number": 157,
+    "question": "You have been part of an agile team for some time and working on the aspects of servant leadership to improve the results in your team. What is NOT one of the characteristics of a servant leader?",
+    "options": {
+      "A": "Coaching versus controlling",
+      "B": "Promoting safety",
+      "C": "Promoting the energy and intelligence of others",
+      "D": "Ensuring the team does what you say"
+    },
+    "correct_answer": "D",
+    "explanation": "The servant leader in agile coaches the team, promotes psychological safety and trust, and promotes the intelligence and energy of others; directive leadership or forcing others to do what you say is not part of a servant leadership approach (PMI Agile Practice Guide).",
+    "video_time": 19159
+  },
+  {
+    "number": 158,
+    "question": "You have delivered half of the features in your backlog for your agile project. You've noticed there's quite a difference in the number of defects over the last three iterations. You ask the team to investigate both the common cause and the special cause variation. What will they investigate?",
+    "options": {
+      "A": "Issues that arose from normal operations and issues that arose from a unique or new condition",
+      "B": "Issues caused by the common area and issues caused by the special software",
+      "C": "Issues found in the last release and issues found in this release",
+      "D": "Issues caused by continuous integration and issues caused by no integration"
+    },
+    "correct_answer": "A",
+    "explanation": "In lean and the Toyota Production System, variation is separated into common cause (normal, everyday operations) and special cause (special or new factors outside normal operations). Citation: Lean/Toyota Production System variation terminology.",
+    "video_time": 19259
+  },
+  {
+    "number": 159,
+    "question": "You have built an experienced agile team and have delivered constantly for your organization. The product owner who has been with you since the beginning has taken another job and a new teammate with very little experience joins the team. Which of the below will you NOT tell them regarding the product owner role?",
+    "options": {
+      "A": "The product owner represents the customer and generates, maintains, and prioritizes the backlog to ensure the highest business value without creating waste",
+      "B": "The product owner must have previous experience in agile to work in the team",
+      "C": "The product owner may work with stakeholders, customers, and the teams to define the product direction and rank the work based on business value",
+      "D": "Product owners typically have a business background and bring deep subject matter expertise to their decisions"
+    },
+    "correct_answer": "B",
+    "explanation": "The product owner role requires deep expertise in the business or customer domain, but does not require previous agile experience — that can be coached and taught. Citation: Agile product owner role definition.",
+    "video_time": 19379
+  },
+  {
+    "number": 160,
+    "question": "The intent of the agile unified process is to perform more iterative cycles across seven key disciplines and incorporate the associated feedback before formal delivery. Which of the following is NOT a principle that guides AUP disciplines?",
+    "options": {
+      "A": "Tailoring the approach to fit",
+      "B": "Ensuring the team knows what it is doing",
+      "C": "Collective agreement of scope before delivery",
+      "D": "Focus on high value activities"
+    },
+    "correct_answer": "C",
+    "explanation": "Agile Unified Process principles mirror agile values: tailor your approach, ensure the team knows what it is doing (using generalizing specialists), and focus on highest-value activities first. Collective agreement of scope before delivery is not an AUP principle — scope is managed by the product owner, not by collective pre-delivery agreement. Citation: Agile Unified Process (AUP) principles.",
+    "video_time": 19532
+  },
+  {
+    "number": 161,
+    "question": "The 12 clarifying principles in agile were defined to give more clarity to the agile manifesto and core values. Which of the following is one of the 12 clarifying principles?",
+    "options": {
+      "A": "Our highest priority is to satisfy the customer through early and continuous delivery of valuable software",
+      "B": "The highest priority is to ensure executive buy-in by delivering high-value items",
+      "C": "Our highest priority is to reduce the impact of change by keeping information to a minimum",
+      "D": "Our high priority is to plan thoroughly and execute with discipline"
+    },
+    "correct_answer": "A",
+    "explanation": "One of the 12 agile clarifying principles is that the highest priority is to satisfy the customer through early and continuous delivery of valuable software (or knowledge work). The other options reflect waterfall or non-agile thinking. Citation: Agile Manifesto 12 Clarifying Principles.",
+    "video_time": 19739
+  },
+  {
+    "number": 162,
+    "question": "You are working with a new agile team and have reviewed the team velocity over the past three iterations. The maximum number of points completed was 35 and the fewest was 25. What will you do next?",
+    "options": {
+      "A": "Push the team to complete 5 more than the maximum and roll over any incomplete cards to the next iteration",
+      "B": "Set 35 as the work in progress (WIP) limit and adjust it during future iterations if the team is able to pull more work",
+      "C": "Add more people to the team to complete the work because 35 is not enough",
+      "D": "Reduce the number of features in the backlog to suit the team velocity"
+    },
+    "correct_answer": "B",
+    "explanation": "Agile works on continuous, sustainable delivery; pushing beyond the team's known limits is not agile practice. Setting the WIP limit at the maximum achieved velocity (35) ensures the team is not overburdened, and can be adjusted upward if the team completes all work. Citation: Agile sustainable pace and WIP limit principles.",
+    "video_time": 19885
+  },
+  {
+    "number": 163,
+    "question": "You're the product owner in an agile team and have a list of features in a backlog that need to be developed. Each feature is assigned a dollar value representing the return on investment. You would like to create a risk-adjusted backlog. What will you do next?",
+    "options": {
+      "A": "Note the risk impacts in dollars against the return in dollars, then re-prioritize the backlog",
+      "B": "Adjust the backlog to focus on the largest features first",
+      "C": "Capture known risks for each feature and then place cards to control those risks and prioritize them in the backlog",
+      "D": "Create a risk register for the project and have it signed off by the risk owners"
+    },
+    "correct_answer": "C",
+    "explanation": "A risk-adjusted backlog is created by raising risk response tasks as cards and prioritizing them against normal feature cards, so risks are addressed early in the project. Creating a risk register and sign-off is a waterfall approach. Citation: Agile risk-adjusted backlog practices.",
+    "video_time": 20087
+  },
+  {
+    "number": 164,
+    "question": "You're an agile project manager analyzing the risk for each feature in your backlog by assigning a probability and an impact score to each risk, then multiplying them to calculate risk severity. How will the team handle items with the highest risk?",
+    "options": {
+      "A": "Place all the high risk items in a dedicated risk iteration",
+      "B": "Schedule them earlier in the project to reduce that risk impact over time",
+      "C": "Schedule them later in the project",
+      "D": "Change the requirements to reduce or remove the risk"
+    },
+    "correct_answer": "B",
+    "explanation": "Risk is highest early in the project before items have been completed; by completing high-risk items first you significantly reduce those risks and the threat of unknowns later in the project. Citation: Agile risk management — risk-adjusted backlog prioritization.",
+    "video_time": 20219
+  },
+  {
+    "number": 165,
+    "question": "The scrum master tells you that agile builds problem solving into its process in a number of ways using transparency tools and ceremonies. Which of the following is NOT something that is designed to reveal and solve problems?",
+    "options": {
+      "A": "Retrospectives",
+      "B": "Writing user stories",
+      "C": "Iteration demonstrations and reviews",
+      "D": "Raising blockers in the daily stand-up"
+    },
+    "correct_answer": "B",
+    "explanation": "Retrospectives, sprint reviews, and daily stand-ups are all specifically designed to reveal and solve problems during product delivery. Writing user stories is a useful practice but is not itself designed for revealing and solving problems. Citation: Agile ceremonies and transparency tools.",
+    "video_time": 20348
+  },
+  {
+    "number": 166,
+    "question": "The whole team approach and cross-functional teams are core to agile. The team facilitator is a key member within the whole team. What is NOT correct regarding the team facilitator role?",
+    "options": {
+      "A": "The team facilitator can be called project manager, scrum master, project lead, team coach, or portfolio manager",
+      "B": "The team facilitator must have a degree in business",
+      "C": "All agile teams need servant leadership on the team",
+      "D": "Team members should build up their own servant leadership skills of facilitation, coaching, and removing blockers"
+    },
+    "correct_answer": "B",
+    "explanation": "The team facilitator role is to facilitate discussion and elicit collaboration within the team; no specific degree is required — the role can be performed by anyone on the team with the right servant leadership skills. Citation: Agile whole team approach — team facilitator role.",
+    "video_time": 20478
+  },
+  {
+    "number": 167,
+    "question": "You're rearranging a current agile team and you know that agile teams are cross-functional. What sort of team members will you select as you rearrange the team?",
+    "options": {
+      "A": "Generalizing specialists with one focus specialty — a T-shaped person with one deep specialty and a wide range of experience in other skills",
+      "B": "Team leaders with a specialty in leadership so everyone can lead",
+      "C": "Risk specialists",
+      "D": "Do not add team members — shrink the team"
+    },
+    "correct_answer": "A",
+    "explanation": "An agile team is made up of generalizing specialists or T-shaped people who have a broad range of knowledge across disciplines and one deep specialty, enabling cross-functional delivery. Citation: Agile cross-functional team composition — T-shaped / generalizing specialists.",
+    "video_time": 20629
+  },
+  {
+    "number": 168,
+    "question": "You are working through the iteration with your agile team and are having some trouble completing one of the story cards in the sprint. It is dependent on something else being done and the contact is away. What will you do next?",
+    "options": {
+      "A": "Raise a blocker at the next daily stand-up so the team can swarm around the problem and solve it quickly.",
+      "B": "Bring the piece of work in-house so you don't have to worry anymore.",
+      "C": "Ask the product owner to remove that feature for now and revisit it later.",
+      "D": "Add cost to the budget and find a third party to complete the work."
+    },
+    "correct_answer": "A",
+    "explanation": "In agile, blockers are raised as soon as possible — at least once a day during the daily stand-up — so the team can swarm around the problem, get help from any experts needed, and move on. This leverages the whole-team approach to problem-solving.",
+    "video_time": 21002
+  },
+  {
+    "number": 169,
+    "question": "The product owner representing the business on your agile project is used to a more dictatorship style of leadership, telling people what to do. You explain that servant leadership is used in agile to ensure a safe and open environment. Why is this important to product development?",
+    "options": {
+      "A": "So the agile team lead knows who to blame when things go wrong.",
+      "B": "So the team can accurately count the defects.",
+      "C": "So the team feels free to ask for help, admit to problems or failures, and to improve.",
+      "D": "So the entire team can push work on each other if they know they have time."
+    },
+    "correct_answer": "C",
+    "explanation": "Psychological safety is one of the most important parts of a high-functioning team, meaning having the safety to be vulnerable, admit to problems, ask for help, and improve. It starts with the leader, and servant leadership contributes directly to this safe environment.",
+    "video_time": 21122
+  },
+  {
+    "number": 170,
+    "question": "Feedback in many different forms is one of the most important parts of a successful agile product delivery. Which of the below is an agile method for gathering and using feedback to improve?",
+    "options": {
+      "A": "Having a once-weekly working group meeting.",
+      "B": "Conducting sprint reviews or demonstrations that include all stakeholders.",
+      "C": "Sending out project reports to project stakeholders to view.",
+      "D": "Asking stakeholders for feedback only when development is blocked."
+    },
+    "correct_answer": "B",
+    "explanation": "Demonstrating the usable increment developed during an iteration to the customer or product owner ensures feedback is gathered more quickly than only at the end of a project. Retrospectives are another agile way to gather and act on feedback.",
+    "video_time": 21243
+  },
+  {
+    "number": 171,
+    "question": "You are working on an agile project where the product business representative is pushing for more and more features to be delivered in each iteration. You know what they are asking is not possible based on your team's current velocity. What will you do next?",
+    "options": {
+      "A": "Show them the team velocity and the points allotted to the cards in the backlog, then ask them to prioritize the features at the next sprint planning.",
+      "B": "Add more members to the team.",
+      "C": "Ask for another business representative who understands the technology better.",
+      "D": "Remove some of the features yourself and see if anyone notices."
+    },
+    "correct_answer": "A",
+    "explanation": "An agile team ultimately serves the customer. Showing the business representative the team velocity versus the points allotted gives them control over what is actually delivered within the team's capacity, making everyone feel better about what is happening.",
+    "video_time": 21345
+  },
+  {
+    "number": 172,
+    "question": "You are working on a traditional waterfall project and the functional manager wants to get the benefit of certain agile tools to uncover potential problems before they occur. What will you do next?",
+    "options": {
+      "A": "Write the change into your project management plan and circulate it with project stakeholders.",
+      "B": "Set a weekly working group meeting to discuss the project.",
+      "C": "Start iteration planning.",
+      "D": "Make the product backlog, iteration kanban board, and velocity chart all visible in a co-located team area."
+    },
+    "correct_answer": "D",
+    "explanation": "Visual management is the best agile tool to detect and prevent problems. A visible kanban board, prioritized backlog, and velocity chart can be integrated seamlessly into a waterfall environment as a hybrid approach, allowing everyone to see what the team is up to and spot blockers early.",
+    "video_time": 21471
+  },
+  {
+    "number": 173,
+    "question": "The agile manifesto has 12 clarifying principles added to it to help projects and teams understand the agile values. Which of the below is a correct clarifying principle?",
+    "options": {
+      "A": "Tailor the project approach to suit the project and the team.",
+      "B": "Ensure executive buy-in.",
+      "C": "Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter time scale.",
+      "D": "Ensure complete planning."
+    },
+    "correct_answer": "C",
+    "explanation": "One of the 12 agile clarifying principles is to deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter time scale. This is a direct clarifying principle that adds detail to the agile manifesto values.",
+    "video_time": 21608
+  },
+  {
+    "number": 174,
+    "question": "The agile manifesto has 12 clarifying principles. What is a correct 12th clarifying principle?",
+    "options": {
+      "A": "Business people should dictate to the development team what to do.",
+      "B": "Developers can code and release products at a schedule that suits them for complete autonomy.",
+      "C": "Business people and developers mustn't work together.",
+      "D": "Business people and developers must work together daily throughout the project."
+    },
+    "correct_answer": "D",
+    "explanation": "One of the agile clarifying principles states that business people and developers must work together daily throughout the project. From the various agile approaches, the product owner who represents the business must collaborate with developers daily, and when this happens, engagement and speed increase significantly.",
+    "video_time": 21712
+  },
+  {
+    "number": 175,
+    "question": "The agile manifesto has 12 clarifying principles added to it to help projects and teams understand the agile values. Which of the below is a correct clarifying principle?",
+    "options": {
+      "A": "Build projects around a core idea, then brainstorm frequently to get the job done.",
+      "B": "Find the right executive to support and ensure they tell you the product requirements.",
+      "C": "Deliver frequently whether an item has been tested or not, as quality is everyone's responsibility.",
+      "D": "Build projects around motivated individuals and give them the environment and support they need, and trust them to get the job done."
+    },
+    "correct_answer": "D",
+    "explanation": "Agile is about building projects around motivated individuals — cross-functional or T-shaped people with a broad range of expertise and one deep specialty — giving them the support they need by removing blockers and ensuring a flow of work. This is a direct agile clarifying principle.",
+    "video_time": 21810
+  },
+  {
+    "number": 176,
+    "question": "The 12 agile clarifying principles also match up with the best advice for projects, leadership, and communication. Which of the below is a correct clarifying principle when it comes to project communication?",
+    "options": {
+      "A": "The most efficient and effective method of conveying information to and within a development team is face-to-face communication.",
+      "B": "Communication is always done in writing to ensure proof.",
+      "C": "Agile teams ensure downward communication only, so the executive in charge directs the product features and the work.",
+      "D": "When communicating, ensure that various forms such as telephone, writing, and face-to-face are used to ensure variety."
+    },
+    "correct_answer": "A",
+    "explanation": "An agile team knows that communicating close in person, place, and time is the most efficient and effective way — often in a co-located team so other team members can pick up information by osmosis. Face-to-face communication is faster, picks up non-verbal cues, and reduces misinterpretation.",
+    "video_time": 21967
+  },
+  {
+    "number": 177,
+    "question": "The agile manifesto has 12 clarifying principles. Here is another clarifying principle. Which of the below is a correct agile clarifying principle?",
+    "options": {
+      "A": "Union attendance is required to ensure team welfare.",
+      "B": "Working software is the primary measure of progress.",
+      "C": "Finding risks is the only way to avoid failure.",
+      "D": "Learning new things helps keep a team engaged."
+    },
+    "correct_answer": "B",
+    "explanation": "In an agile team, working software or a working product — increments and features delivered — is the primary measure of progress. Delivering in increments and features and getting customer feedback every time is central to the agile approach.",
+    "video_time": 22131
+  },
+  {
+    "number": 178,
+    "question": "You're new to your agile project and the team are working through the forming stages. How do you help the team improve as the project progresses?",
+    "options": {
+      "A": "Ensure the team holds a project post-mortem and catches the lessons learned by the end of the project",
+      "B": "Hold a retrospective with the whole team at the end of each iteration and build those lessons learned into each new iteration",
+      "C": "Ask the product owner to show the team where they can improve",
+      "D": "Rotate tasks and roles during each iteration"
+    },
+    "correct_answer": "B",
+    "explanation": "Agile retrospectives held at the end of each iteration ask the whole team what went well, what did not go well, what did they learn, and what still puzzles them; the lessons are actioned and built back into future iterations to continuously improve. This is more effective than end-of-project post-mortems and keeps the whole team involved.",
+    "video_time": 22198
+  },
+  {
+    "number": 179,
+    "question": "You are the agile project manager working through the product requirements for the product owner and executive project sponsor. The project sponsor raises concerns that the development team do not fully understand the requirements. What will you do next?",
+    "options": {
+      "A": "Show them the project management plan which will have the scope statement listed in the scope baseline",
+      "B": "Ask the team to create a high level prototype of the requirements and then discuss and review that with all stakeholders",
+      "C": "Show the team the project schedule outlining the delivery dates",
+      "D": "Hold a retrospective to gather feedback and improve"
+    },
+    "correct_answer": "B",
+    "explanation": "Agile uses visual mock-ups or prototypes such as storyboards, wireframes, or models to get a quick understanding of requirements and consensus from everyone involved. Creating a high level prototype allows the team to see, discuss, and collectively agree on requirements.",
+    "video_time": 22315
+  },
+  {
+    "number": 180,
+    "question": "The scrum master on your agile project has asked you for the total lead time of a particular feature. You add up the cycle time of all the cards that contributed to that feature. What other two factors must you take into consideration when calculating total lead time?",
+    "options": {
+      "A": "Time for testing the code and time for merging the code",
+      "B": "Meeting times and lunch times",
+      "C": "Value-added time and non-value-added time",
+      "D": "Sprint planning time and review time"
+    },
+    "correct_answer": "C",
+    "explanation": "Lead time is a concept from lean and the Toyota Production System; when calculating cycle time and lead time you must take into consideration both value-added time (directly working on stories contributing to the customer outcome) and non-value-added time (waste such as waiting, handoffs, and context switching). Both must be accounted for to get an accurate total lead time.",
+    "video_time": 22452
+  },
+  {
+    "number": 181,
+    "question": "When working in an agile team it is common to use prototypes, demonstrations and reviews, wireframes, and storyboards to elicit feedback from the customer or product owner. What is the benefit of using these tools?",
+    "options": {
+      "A": "The development team don't have to create the real thing",
+      "B": "The team can get together and have another meeting",
+      "C": "It allows the users to create new forms that will be required for the new system",
+      "D": "It allows the product owner to discuss and agree on requirements with their stakeholders"
+    },
+    "correct_answer": "D",
+    "explanation": "Prototypes, wireframes, and storyboards are important ways to gather feedback that allows all stakeholders to discuss and agree on the requirements and product features before the money is spent on actual development. This ensures shared understanding and reduces rework.",
+    "video_time": 22600
+  },
+  {
+    "number": 182,
+    "question": "You're finishing up the first iteration of your agile project and have set a retrospective for the whole team. One member of the team asks why they have this meeting and if they really need to go. What will you tell them?",
+    "options": {
+      "A": "It helps the team prioritize product features for the next iteration",
+      "B": "It allows the team to blame others when things go wrong",
+      "C": "It's an opportunity for the whole team to look at their way of work and improve",
+      "D": "It showcases a part of the product so everyone can see what was delivered"
+    },
+    "correct_answer": "C",
+    "explanation": "Retrospectives are a set meeting at the end of each sprint asking for feedback with questions such as what went well, what didn't go well, what did I learn, and what still puzzles me; the actions from these are built back into the process to continuously improve. The whole team must be involved as everyone may have different feedback.",
+    "video_time": 22681
+  },
+  {
+    "number": 183,
+    "question": "You're in the beginning stages of a new project where the organization would like to use agile to manage the project work. The executive manager asks you how the team will make quality everyone's responsibility, leverage the various skill sets within the team, and remove reliance on external inputs. What agile method is she describing?",
+    "options": {
+      "A": "Servant leadership",
+      "B": "Sprint planning",
+      "C": "The daily stand up",
+      "D": "The whole team approach"
+    },
+    "correct_answer": "D",
+    "explanation": "The whole team approach aims to bring all necessary people into the project team, ideally in a co-located space; it involves cross-functional team members who specialise in one skill and are fluent enough in a wide range of other skills, reducing silos and handoffs. This makes quality everyone's responsibility and removes reliance on external inputs.",
+    "video_time": 22768
+  },
+  {
+    "number": 184,
+    "question": "You're working in an agile project for some time and have been blocked by the need for expertise in another team. What do you do to overcome organizational silos?",
+    "options": {
+      "A": "Work with the various managers of team members you need to have them dedicate the necessary individuals to our cross-functional team",
+      "B": "Raise a change request for review by the project change control board as the work will be delayed",
+      "C": "Raise an issue in the issue log for review and management by the project team",
+      "D": "Work with the risk team to raise a project risk and assign an owner to it and create controls for those risks"
+    },
+    "correct_answer": "A",
+    "explanation": "This describes the whole team approach where all the necessary team members and their skills are brought into the project team, reducing silos and handoffs and making sure the project can be delivered as one team. Raising change requests, issue logs, or risk registers are old-school waterfall approaches, not agile.",
+    "video_time": 22880
+  },
+  {
+    "number": 185,
+    "question": "The 12 agile clarifying principles also match up with the best advice for workflow and getting things done. Which of the below is a correct clarifying principle when it comes to project workflow?",
+    "options": {
+      "A": "Agile does not use processes as it prefers individuals and interactions over processes and tools",
+      "B": "Agile processes engage and support the team by ensuring sponsors, developers, and users all get what they want",
+      "C": "Agile processes promote sustainable development; the sponsors, developers, and users should be able to maintain a constant pace indefinitely",
+      "D": "Agile processes help as much work get done as possible; when the team thinks they can't go further agile pushes them to go the extra mile"
+    },
+    "correct_answer": "C",
+    "explanation": "Agile promotes sustainable development — be wary of often switching tasks or pushing for too much work during an iteration as this will burn out individuals and ultimately slow down progress. Sponsors, developers, and users should be able to maintain a constant pace indefinitely.",
+    "video_time": 22974
+  },
+  {
+    "number": 186,
+    "question": "The 12 agile clarifying principles also match up with the best quality advice for quality. Which of the below is a correct agile clarifying principle when it comes to project quality?",
+    "options": {
+      "A": "Continuous flow ensures work is done at a reasonable pace and defects are caught",
+      "B": "Testing is done at all levels from unit testing to end to end testing",
+      "C": "Continuous attention to technical excellence and good design enhances quality",
+      "D": "Quality is everyone's responsibility in an agile team meaning everyone will test the product"
+    },
+    "correct_answer": "C",
+    "explanation": "The agile clarifying principle states that continuous attention to technical excellence — for example extreme programming principles — and good design enhances agility and quality. While quality is everyone's responsibility and testing is important, only continuous attention to technical excellence and good design is the actual clarifying principle from this list.",
+    "video_time": 23127
+  },
+  {
+    "number": 187,
+    "question": "The 12 agile clarifying principles also match up with the best advice for keeping things simple in a project. Which of the below is a correct clarifying principle?",
+    "options": {
+      "A": "Simplicity is only possible when the team first understands how complex the system is",
+      "B": "Simplicity is part of every project; everyone naturally simplifies the work as part of their role",
+      "C": "Simplicity reduces cost in a project ensuring executives are always simplifying the process and the system",
+      "D": "Simplicity — the art of maximizing the amount of work not done — is essential"
+    },
+    "correct_answer": "D",
+    "explanation": "The agile clarifying principle on simplicity states that simplicity — the art of maximizing the amount of work not done — is essential; this is Occam's razor applied to project work, making things as simple as possible but no simpler. The other options do not match the actual clarifying principle.",
+    "video_time": 23272
+  },
+  {
+    "number": 188,
+    "question": "You are going through a retrospective with your team at the end of the sprint where the team have raised an issue that is slowing down their work. The scrum master guides the team to go through an exercise called the five whys. What is the purpose of this?",
+    "options": {
+      "A": "To ask who, what, where and when to find the cause of the problem",
+      "B": "To ask why the issue happened and then why for each reason after that until the cause is found",
+      "C": "To ask why the team is working on each feature to give the team purpose",
+      "D": "To allocate five whys to each story card to ensure the team knows the reason for working on it"
+    },
+    "correct_answer": "B",
+    "explanation": "The five whys is a problem solving technique from lean or the Toyota Production System that asks why a problem occurred; for each answer the team asks why again until they get to the real cause of the issue. It is used during retrospectives to find the root cause of problems slowing the team down.",
+    "video_time": 23614
+  },
+  {
+    "number": 189,
+    "question": "The scrum master in an agile team has asked the team to do a self-assessment. What is the focus of this self-assessment?",
+    "options": {
+      "A": "How often the team meets during the week",
+      "B": "How many story cards the team have completed",
+      "C": "How much yearly bonus the team should receive",
+      "D": "How the team performs and delivers together"
+    },
+    "correct_answer": "D",
+    "explanation": "The team self-assessment is used to gauge the team members' performance together, with results helping to identify what is working well and where improvements can be made; the team then meets to problem solve improvements and celebrate what is working well. It is a key agile practice for continuous improvement.",
+    "video_time": 23718
+  },
+  {
+    "number": 190,
+    "question": "You're working in an agile team and the business representative would like to get an idea of the risk associated with a particular feature. What will you do next?",
+    "options": {
+      "A": "Show the risk management plan from your project management plan to the business representative",
+      "B": "Ask the development team if they like the feature",
+      "C": "Hold a premortem where each team member writes reasons they think the task or feature might fail so these can be discussed",
+      "D": "Check your gut feel for the feature and if it doesn't feel right look into it more deeply"
+    },
+    "correct_answer": "C",
+    "explanation": "A premortem looks at reasons for failure before they happen and is a great way to brainstorm risk for a card or feature; typically team members write their reasons down and discuss them round-robin style, then group similar ideas together using an affinity diagram. This is the agile approach to risk identification for a specific feature.",
+    "video_time": 23782
+  },
+  {
+    "number": 191,
+    "question": "You're the agile team leader and are working through a team retrospective when an issue experienced by the team is raised. What will you do next?",
+    "options": {
+      "A": "Perform fishbone analysis",
+      "B": "Kano analysis",
+      "C": "Regression analysis",
+      "D": "Multi-vary chart analysis"
+    },
+    "correct_answer": "A",
+    "explanation": "When an issue is raised, the best course of action is to get to the root cause; of the options presented, fishbone (Ishikawa diagram) analysis is the best tool for root cause analysis. It uses brainstorming buckets such as people, information, process and system (PIPS) to identify the underlying causes of a problem.",
+    "video_time": 23893
+  },
+  {
+    "number": 192,
+    "question": "You've been hired to lead a new project team as an agile project manager. You come on board to learn that the organization uses a hybrid model. What does this mean?",
+    "options": {
+      "A": "The team is a hybrid of developers, designers and business users to get the best return on investment",
+      "B": "The product you are developing will use both electricity and fuel for power like a hybrid car",
+      "C": "A combination of predictive (for example a project plan planned in advance) and adaptive (for example iterations, backlogs, kanban) project methods will be used",
+      "D": "A hybrid team environment of physical and software reporting boards will be used"
+    },
+    "correct_answer": "C",
+    "explanation": "A hybrid project management method means using predictive and adaptive methods together; predictive brings traditional waterfall elements such as pre-planned project plans, scope, schedule and risk, while adaptive adds a prioritized backlog of features, kanban boards, iteration planning and retrospectives. This combined approach is common in organizations transitioning to agile.",
+    "video_time": 24007
+  },
+  {
+    "number": 193,
+    "question": "You're the product owner in an agile team working with the developers to create story cards to place in the product backlog. With the three C's of user story creation, what do you do first?",
+    "options": {
+      "A": "Create the card, which is the physical or software driven media describing a user story",
+      "B": "Confirm the acceptance criteria",
+      "C": "Have a conversation with the team to flesh out those requirements",
+      "D": "Catch defects before they're developed by working with quality testers before and after"
+    },
+    "correct_answer": "A",
+    "explanation": "The three C's of user story creation are Card, Conversation and Confirmation — in that order; you first create the card (the physical or digital media describing the user story), then have a conversation with the product owner and developers to explain how the software or design will be used, and finally confirm the acceptance criteria against the definition of done. Creating the card is the essential first step.",
+    "video_time": 24129
+  },
+  {
+    "number": 194,
+    "question": "You're working on the product backlog with your agile project team and creating user stories to be prioritized. Which of the below is the best answer for what should go into a user story card?",
+    "options": {
+      "A": "Key risks of the project and the feature being developed with their owners and mitigations",
+      "B": "A wireframe of the feature to be developed that developers can work with",
+      "C": "The requirement, its criticality, expected development and test duration, and the acceptance criteria for that story",
+      "D": "The benefit of the feature so that key stakeholders are aware of what they'll get"
+    },
+    "correct_answer": "C",
+    "explanation": "Agile story cards should have the requirement, criticality, test details and clear acceptance criteria; this gives the team everything needed to develop, test and confirm completion of the story against the definition of done. While wireframes and benefit statements are useful, the core mandatory content is the requirement, its priority, estimates and acceptance criteria.",
+    "video_time": 24240
+  },
+  {
+    "number": 195,
+    "question": "You're an agile project manager and have begun creating user stories with your agile project team to go into the product backlog. You have created the card and added requirements, criticality and acceptance criteria. What are you going to do next?",
+    "options": {
+      "A": "Place the card on the kanban board so that the team can clearly see the future work",
+      "B": "Have a conversation with the developers about how the software will be used and confirm the acceptance criteria and the definition of done",
+      "C": "Prioritize the card in the upcoming sprint backlog to ensure the work gets done",
+      "D": "Advise the project sponsor and risk manager of the feature details to ensure risks are captured"
+    },
+    "correct_answer": "B",
+    "explanation": "Following the three C's of user story creation (Card, Conversation, Confirmation), after creating the card the next step is to have a conversation with the developers about how the software will be used, and then confirm the acceptance criteria and definition of done before placing it in the backlog. Prioritization and placement on the kanban board come after the card is fully fleshed out.",
+    "video_time": 24365
+  }
+]

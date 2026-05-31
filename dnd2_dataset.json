@@ -1,0 +1,3743 @@
+[
+  {
+    "number": 1,
+    "prompt": "Match each estimating scenario to its estimating technique.",
+    "left_label": "Scenario",
+    "right_label": "Technique",
+    "items": [
+      {
+        "text": "The team uses data from a similar project (an analogy) to estimate.",
+        "answer": "Analogous estimating"
+      },
+      {
+        "text": "A builder uses a measurement such as $55 per meter or $100 per hour to estimate.",
+        "answer": "Parametric estimating"
+      },
+      {
+        "text": "The team adds together the smallest work packages in the work breakdown structure to get the overall estimate.",
+        "answer": "Bottom-up estimating"
+      },
+      {
+        "text": "The team takes the average of the optimistic, most likely, and pessimistic estimates (average of three points).",
+        "answer": "Three-point estimating"
+      }
+    ],
+    "options": [
+      "Analogous estimating",
+      "Parametric estimating",
+      "Bottom-up estimating",
+      "Three-point estimating"
+    ],
+    "explanation": "PMBOK Guide 7th edition, 2021, page 178, under Estimating.",
+    "video_time": 54
+  },
+  {
+    "number": 2,
+    "prompt": "Match each project need to the appropriate project tool or chart.",
+    "left_label": "Scenario",
+    "right_label": "Tool",
+    "items": [
+      {
+        "text": "The team needs to see their project activities visually on a calendar.",
+        "answer": "Gantt chart"
+      },
+      {
+        "text": "The business analyst needs to show how customer requirements meet their completed deliverables.",
+        "answer": "Requirements traceability matrix"
+      },
+      {
+        "text": "An agile team wants to show the planned trend of work versus the actual trend of work.",
+        "answer": "Burndown chart"
+      },
+      {
+        "text": "A project manager wants to see the number of items completed every day.",
+        "answer": "Throughput chart"
+      }
+    ],
+    "options": [
+      "Gantt chart",
+      "Requirements traceability matrix",
+      "Burndown chart",
+      "Throughput chart"
+    ],
+    "explanation": "PMBOK Guide 7th edition, Visual Data and Information, pages 188–190.",
+    "video_time": 130
+  },
+  {
+    "number": 3,
+    "prompt": "Match each description to its Earned Value Management calculation.",
+    "left_label": "Description",
+    "right_label": "Calculation",
+    "items": [
+      {
+        "text": "Earned value divided by actual cost (an index using actual cost).",
+        "answer": "Cost Performance Index (CPI)"
+      },
+      {
+        "text": "Earned value divided by planned value (an index using planned value).",
+        "answer": "Schedule Performance Index (SPI)"
+      },
+      {
+        "text": "Earned value minus actual cost.",
+        "answer": "Cost Variance (CV)"
+      },
+      {
+        "text": "Earned value minus planned value.",
+        "answer": "Schedule Variance (SV)"
+      }
+    ],
+    "options": [
+      "Cost Performance Index (CPI)",
+      "Schedule Performance Index (SPI)",
+      "Cost Variance (CV)",
+      "Schedule Variance (SV)"
+    ],
+    "explanation": "Process Groups Practice Guide, page 311, Earned Value Calculations Summary Table.",
+    "video_time": 201
+  },
+  {
+    "number": 4,
+    "prompt": "Match each scenario to its Earned Value Management term.",
+    "left_label": "Scenario",
+    "right_label": "Term",
+    "items": [
+      {
+        "text": "The project sponsor approves the total planned budget.",
+        "answer": "Budget at Completion (BAC)"
+      },
+      {
+        "text": "The project manager needs to see how much work should have been completed (planned) at this point in time.",
+        "answer": "Planned Value (PV)"
+      },
+      {
+        "text": "The team shows how much work has actually been completed (what has been earned).",
+        "answer": "Earned Value (EV)"
+      },
+      {
+        "text": "The project sponsor needs to know what has actually been spent.",
+        "answer": "Actual Cost (AC)"
+      }
+    ],
+    "options": [
+      "Budget at Completion (BAC)",
+      "Planned Value (PV)",
+      "Earned Value (EV)",
+      "Actual Cost (AC)"
+    ],
+    "explanation": "Process Groups Practice Guide, Earned Value Analysis.",
+    "video_time": 271
+  },
+  {
+    "number": 5,
+    "prompt": "Place the typical agile Sprint activities in the correct order.",
+    "left_label": "Order",
+    "right_label": "Sprint Activity",
+    "items": [
+      {
+        "text": "First activity at the start of the Sprint.",
+        "answer": "Sprint planning"
+      },
+      {
+        "text": "Regular short meeting to move blockers and report progress during the Sprint.",
+        "answer": "Daily standup"
+      },
+      {
+        "text": "Activity done during the Sprint to prepare user stories for upcoming Sprints.",
+        "answer": "Backlog refinement"
+      },
+      {
+        "text": "The team showcases completed work to the project customer.",
+        "answer": "Sprint review"
+      },
+      {
+        "text": "Final activity ending the Sprint to reflect and improve the process.",
+        "answer": "Sprint retrospective"
+      }
+    ],
+    "options": [
+      "Sprint planning",
+      "Daily standup",
+      "Backlog refinement",
+      "Sprint review",
+      "Sprint retrospective"
+    ],
+    "explanation": "Agile Practice Guide, Common Agile Practices.",
+    "video_time": 338
+  },
+  {
+    "number": 6,
+    "prompt": "Match each agile ceremony description to its ceremony name.",
+    "left_label": "Description",
+    "right_label": "Ceremony",
+    "items": [
+      {
+        "text": "The team updates user stories with acceptance criteria.",
+        "answer": "Backlog refinement"
+      },
+      {
+        "text": "The team reflects on their process and Lessons Learned to improve for the next iteration.",
+        "answer": "Sprint retrospective"
+      },
+      {
+        "text": "The team agrees on user stories to complete in the Sprint.",
+        "answer": "Sprint planning"
+      },
+      {
+        "text": "The team demonstrates the usable increment.",
+        "answer": "Sprint review"
+      },
+      {
+        "text": "The team updates on what they worked on yesterday, what they will do today, and raises any blockers.",
+        "answer": "Daily standup"
+      }
+    ],
+    "options": [
+      "Backlog refinement",
+      "Sprint retrospective",
+      "Sprint planning",
+      "Sprint review",
+      "Daily standup"
+    ],
+    "explanation": "Agile Practice Guide, Common Agile Practices, page 50.",
+    "video_time": 415
+  },
+  {
+    "number": 7,
+    "prompt": "Match each position description to the correct project role.",
+    "left_label": "Description",
+    "right_label": "Role",
+    "items": [
+      {
+        "text": "Emily prioritizes the product backlog to deliver the highest customer value first.",
+        "answer": "Product owner"
+      },
+      {
+        "text": "Liam approves the project funding and resources based on the project Charter.",
+        "answer": "Project sponsor"
+      },
+      {
+        "text": "Responsible for project planning and monitoring.",
+        "answer": "Project manager"
+      },
+      {
+        "text": "Servant leader who removes blockers for the project team.",
+        "answer": "Scrum master"
+      }
+    ],
+    "options": [
+      "Product owner",
+      "Project sponsor",
+      "Project manager",
+      "Scrum master"
+    ],
+    "explanation": "Process Groups Practice Guide, Definitions (sponsor, scrum master, project manager).",
+    "video_time": 482
+  },
+  {
+    "number": 8,
+    "prompt": "Match each cost management process to its key output or document.",
+    "left_label": "Process",
+    "right_label": "Output",
+    "items": [
+      {
+        "text": "Estimate costs",
+        "answer": "Basis of estimates"
+      },
+      {
+        "text": "Plan cost management",
+        "answer": "Cost management plan"
+      },
+      {
+        "text": "Determine the budget",
+        "answer": "Cost baseline"
+      },
+      {
+        "text": "Control costs",
+        "answer": "Cost forecasts"
+      }
+    ],
+    "options": [
+      "Basis of estimates",
+      "Cost management plan",
+      "Cost baseline",
+      "Cost forecasts"
+    ],
+    "explanation": "Process Groups Practice Guide, Plan Cost Management, page 99.",
+    "video_time": 546
+  },
+  {
+    "number": 9,
+    "prompt": "Match each scenario to the correct organizational term: project, program, or portfolio.",
+    "left_label": "Scenario",
+    "right_label": "Term",
+    "items": [
+      {
+        "text": "James is hired for a temporary endeavor to deliver a change or business value.",
+        "answer": "Project"
+      },
+      {
+        "text": "Alex has a range of related projects managed as a group together.",
+        "answer": "Program"
+      },
+      {
+        "text": "Rachel owns a collection of project groups and operational work to achieve an overall strategic objective.",
+        "answer": "Portfolio"
+      }
+    ],
+    "options": [
+      "Project",
+      "Program",
+      "Portfolio"
+    ],
+    "explanation": "Process Groups Practice Guide, page 9, The Relationship Among Portfolio, Programs, and Projects.",
+    "video_time": 597
+  },
+  {
+    "number": 10,
+    "prompt": "Match each PMO description to its PMO type.",
+    "left_label": "Description",
+    "right_label": "PMO Type",
+    "items": [
+      {
+        "text": "Provides a consultative role to projects and supplies templates and best practices (the weakest PMO).",
+        "answer": "Supportive PMO"
+      },
+      {
+        "text": "Requires compliance through adoption of methods or frameworks and controls through those frameworks.",
+        "answer": "Controlling PMO"
+      },
+      {
+        "text": "Assigns project managers directly to projects; project managers report to the PMO (the strongest PMO).",
+        "answer": "Directive PMO"
+      }
+    ],
+    "options": [
+      "Supportive PMO",
+      "Controlling PMO",
+      "Directive PMO"
+    ],
+    "explanation": "Process Groups Practice Guide, page 48, Types of PMOs.",
+    "video_time": 656
+  },
+  {
+    "number": 11,
+    "prompt": "Match each organizational description to its Matrix structure type.",
+    "left_label": "Description",
+    "right_label": "Matrix Type",
+    "items": [
+      {
+        "text": "Resource availability is high; project budget is managed by the project manager.",
+        "answer": "PMO"
+      },
+      {
+        "text": "Resource availability is moderate to high; strong project manager control.",
+        "answer": "Strong Matrix"
+      },
+      {
+        "text": "Resource availability is low; budget is managed by the functional manager.",
+        "answer": "Weak Matrix"
+      },
+      {
+        "text": "Budget is managed by the owner or operator.",
+        "answer": "Organic"
+      }
+    ],
+    "options": [
+      "PMO",
+      "Strong Matrix",
+      "Weak Matrix",
+      "Organic"
+    ],
+    "explanation": "The organizational matrix types range from PMO (strongest, highest resource availability) down through Strong Matrix, Weak Matrix, and Organic (weakest, budget managed by owner/operator). Reference: Process Groups Practice Guide, page 46.",
+    "video_time": 743
+  },
+  {
+    "number": 12,
+    "prompt": "Match each leadership description to its style.",
+    "left_label": "Description",
+    "right_label": "Leadership Style",
+    "items": [
+      {
+        "text": "The project manager takes a hands-off approach and allows the team to make their own decisions.",
+        "answer": "Laissez-faire"
+      },
+      {
+        "text": "Focuses on others' growth, learning, development, autonomy, and well-being.",
+        "answer": "Servant Leader"
+      },
+      {
+        "text": "Uses inspirational motivation.",
+        "answer": "Transformational"
+      },
+      {
+        "text": "High energy, self-confident, and holds strong convictions.",
+        "answer": "Charismatic"
+      }
+    ],
+    "options": [
+      "Laissez-faire",
+      "Servant Leader",
+      "Transformational",
+      "Charismatic"
+    ],
+    "explanation": "Leadership styles include laissez-faire (hands-off), servant leader (focuses on team growth), transformational (inspirational motivation), and charismatic (high energy, strong convictions). Reference: Process Groups Practice Guide, page 61, under Leadership Styles.",
+    "video_time": 824
+  },
+  {
+    "number": 13,
+    "prompt": "Match each dependency description to its Precedence Diagramming Method (PDM) relationship type.",
+    "left_label": "Description",
+    "right_label": "PDM Relationship",
+    "items": [
+      {
+        "text": "The next activity cannot start until the previous activity has finished.",
+        "answer": "Finish-to-Start"
+      },
+      {
+        "text": "The next activity cannot start until the previous activity has started.",
+        "answer": "Start-to-Start"
+      },
+      {
+        "text": "The next activity cannot finish until the previous activity has finished.",
+        "answer": "Finish-to-Finish"
+      },
+      {
+        "text": "The next activity cannot finish until the previous activity has started.",
+        "answer": "Start-to-Finish"
+      }
+    ],
+    "options": [
+      "Finish-to-Start",
+      "Start-to-Start",
+      "Finish-to-Finish",
+      "Start-to-Finish"
+    ],
+    "explanation": "PDM relationships define how activities depend on each other; the second part of the name refers to the successor activity's constraint point and the first part refers to the predecessor's trigger point. Reference: Process Groups Practice Guide 2023, page 284, under Precedence Diagramming Method.",
+    "video_time": 887
+  },
+  {
+    "number": 14,
+    "prompt": "Match each team motivation scenario to its concept.",
+    "left_label": "Scenario",
+    "right_label": "Concept",
+    "items": [
+      {
+        "text": "The project work is expanding to fit the time allotted to it.",
+        "answer": "Parkinson's Law"
+      },
+      {
+        "text": "The team waits until the last minute to complete work.",
+        "answer": "Student Syndrome"
+      },
+      {
+        "text": "The functional manager motivates people with money, bonuses, and power — things external to the individual.",
+        "answer": "Extrinsic Motivation"
+      },
+      {
+        "text": "The team finds motivation in the work itself through a strong sense of purpose.",
+        "answer": "Intrinsic Motivation"
+      },
+      {
+        "text": "There is not a smooth transition between tasks or team members — they are dropping the baton.",
+        "answer": "Multitasking"
+      }
+    ],
+    "options": [
+      "Parkinson's Law",
+      "Student Syndrome",
+      "Extrinsic Motivation",
+      "Intrinsic Motivation",
+      "Multitasking"
+    ],
+    "explanation": "Motivation concepts include Parkinson's Law (work expands to fill available time), Student Syndrome (procrastination), extrinsic vs intrinsic motivation, and poor task-handoff (multitasking/baton drop). Reference: Process Groups Practice Guide, page 96, under Motivation of Staff.",
+    "video_time": 966
+  },
+  {
+    "number": 15,
+    "prompt": "Match each Myers-Briggs description to its personality dimension.",
+    "left_label": "Description",
+    "right_label": "MBTI Dimension",
+    "items": [
+      {
+        "text": "Draws energy from solitary activities.",
+        "answer": "Introversion (I)"
+      },
+      {
+        "text": "Draws energy from social interaction and external activities.",
+        "answer": "Extroversion (E)"
+      },
+      {
+        "text": "Prefers focusing on concrete facts, details, and present realities.",
+        "answer": "Sensing (S)"
+      },
+      {
+        "text": "Focuses on patterns, possibilities, and ideas.",
+        "answer": "Intuition (N)"
+      },
+      {
+        "text": "Makes decisions based on logical analysis and thinking.",
+        "answer": "Thinking (T)"
+      },
+      {
+        "text": "Makes decisions based on personal values and emotions.",
+        "answer": "Feeling (F)"
+      },
+      {
+        "text": "Prefers a flexible, adaptable, or spontaneous approach.",
+        "answer": "Perceiving (P)"
+      },
+      {
+        "text": "Prefers an organized, planned, and structured approach to life.",
+        "answer": "Judging (J)"
+      }
+    ],
+    "options": [
+      "Introversion (I)",
+      "Extroversion (E)",
+      "Sensing (S)",
+      "Intuition (N)",
+      "Thinking (T)",
+      "Feeling (F)",
+      "Perceiving (P)",
+      "Judging (J)"
+    ],
+    "explanation": "Myers-Briggs Type Indicator (MBTI) assesses team personality across four dimensions to support emotional intelligence and tailored communication. Reference: Myers-Briggs on Wikipedia.",
+    "video_time": 1049
+  },
+  {
+    "number": 16,
+    "prompt": "Match each organizational management description to its motivational theory or concept.",
+    "left_label": "Description",
+    "right_label": "Theory/Concept",
+    "items": [
+      {
+        "text": "The team's needs are met from the bottom to the top — from safety to belonging to self-actualization.",
+        "answer": "Maslow's Hierarchy of Needs"
+      },
+      {
+        "text": "The team takes pride in their work and sees setbacks as a positive challenge.",
+        "answer": "McGregor's Theory Y"
+      },
+      {
+        "text": "Hygiene factors such as job security and fairness of salary, combined with motivational factors such as meaningful work.",
+        "answer": "Herzberg's Theory of Motivation"
+      }
+    ],
+    "options": [
+      "Maslow's Hierarchy of Needs",
+      "McGregor's Theory Y",
+      "Herzberg's Theory of Motivation"
+    ],
+    "explanation": "Motivational models include Maslow's hierarchy (needs from safety to self-actualization), McGregor's Theory X (lazy, avoids work) and Y (takes pride, positive challenge), and Herzberg's two-factor theory (hygiene vs motivators). Reference: PMBOK Guide 7th Edition, page 158, under Motivational Models.",
+    "video_time": 1165
+  },
+  {
+    "number": 17,
+    "prompt": "Match each team development description to its stage in Tuckman's Ladder.",
+    "left_label": "Description",
+    "right_label": "Stage",
+    "items": [
+      {
+        "text": "The team is coming together for the first time.",
+        "answer": "Forming"
+      },
+      {
+        "text": "The team experiences conflict as members figure out how to work together.",
+        "answer": "Storming"
+      },
+      {
+        "text": "The team establishes a normal, agreed-upon way of working.",
+        "answer": "Norming"
+      },
+      {
+        "text": "The team works together really well and is highly productive.",
+        "answer": "Performing"
+      },
+      {
+        "text": "The project ends and the team disbands.",
+        "answer": "Adjourning"
+      }
+    ],
+    "options": [
+      "Forming",
+      "Storming",
+      "Norming",
+      "Performing",
+      "Adjourning"
+    ],
+    "explanation": "Tuckman's Ladder describes the five stages of team development: Forming, Storming, Norming, Performing, and Adjourning. Reference: PMBOK Guide 7th Edition, page 166, under Tuckman's Ladder.",
+    "video_time": 1251
+  },
+  {
+    "number": 18,
+    "prompt": "Match each project role description to the correct role title.",
+    "left_label": "Description",
+    "right_label": "Role",
+    "items": [
+      {
+        "text": "Michael elicits requirements with the customer and monitors business value.",
+        "answer": "Business Analyst"
+      },
+      {
+        "text": "Penny oversees and coordinates multiple projects.",
+        "answer": "Program Manager"
+      },
+      {
+        "text": "A manager responsible for a particular area of the organization.",
+        "answer": "Functional Manager"
+      },
+      {
+        "text": "Responsible for the day-to-day workings of the company.",
+        "answer": "Operational Manager"
+      }
+    ],
+    "options": [
+      "Business Analyst",
+      "Program Manager",
+      "Functional Manager",
+      "Operational Manager"
+    ],
+    "explanation": "Project roles include the business analyst (requirements and business value), program manager (multiple projects), functional manager (organizational area), and operational manager (day-to-day operations). Reference: Process Groups Practice Guide, pages 324 and 338, under Definitions.",
+    "video_time": 1305
+  },
+  {
+    "number": 19,
+    "prompt": "Match each scope scenario to its correct scope concept.",
+    "left_label": "Scenario",
+    "right_label": "Concept",
+    "items": [
+      {
+        "text": "The approved version of the scope statement, work breakdown structure, and its associated WBS dictionary.",
+        "answer": "Scope Baseline"
+      },
+      {
+        "text": "Going above and beyond in scope when it is not required.",
+        "answer": "Gold Plating"
+      },
+      {
+        "text": "Uncontrolled increase in scope — stakeholders keep requesting extra features.",
+        "answer": "Scope Creep"
+      },
+      {
+        "text": "A description of the project, project scope, and major deliverables.",
+        "answer": "Scope Statement"
+      },
+      {
+        "text": "The launch date is pushed out because stakeholders kept adding features.",
+        "answer": "Schedule Drift"
+      }
+    ],
+    "options": [
+      "Scope Baseline",
+      "Gold Plating",
+      "Scope Creep",
+      "Scope Statement",
+      "Schedule Drift"
+    ],
+    "explanation": "Scope management concepts include scope baseline (approved scope documents), gold plating (unnecessary extras), scope creep (uncontrolled expansion), scope statement (project description), and schedule drift (timeline pushed due to added features). Reference: PMBOK Guide 7th Edition, page 83, under Managing Requirements.",
+    "video_time": 1372
+  },
+  {
+    "number": 20,
+    "prompt": "Match each agile framework description to its framework name.",
+    "left_label": "Description",
+    "right_label": "Framework",
+    "items": [
+      {
+        "text": "The organization applies Scrum ways of working to programs and portfolios.",
+        "answer": "Large Scale Scrum (LeSS)"
+      },
+      {
+        "text": "The company focuses on organizing project teams around value streams.",
+        "answer": "SAFe (Scaled Agile Framework)"
+      },
+      {
+        "text": "A small team uses a framework that emphasizes iterative development, real customer involvement, and shared code.",
+        "answer": "Extreme Programming (XP)"
+      },
+      {
+        "text": "Uses a constraint-driven delivery approach where schedule and cost are fixed.",
+        "answer": "DSDM (Dynamic Systems Development Method)"
+      }
+    ],
+    "options": [
+      "Large Scale Scrum (LeSS)",
+      "SAFe (Scaled Agile Framework)",
+      "Extreme Programming (XP)",
+      "DSDM (Dynamic Systems Development Method)"
+    ],
+    "explanation": "Agile scaling frameworks include LeSS (Scrum at scale), SAFe (value streams), XP (iterative with shared code), and DSDM (constraint-driven delivery). Reference: Agile Practice Guide, page 111, under Scaling Frameworks.",
+    "video_time": 1462
+  },
+  {
+    "number": 21,
+    "prompt": "Match each step to its place in the Change Control process in the correct order.",
+    "left_label": "Step description",
+    "right_label": "Change Control step",
+    "items": [
+      {
+        "text": "Any stakeholder can raise a change to the project.",
+        "answer": "Raise a change request"
+      },
+      {
+        "text": "Assess how the change might affect scope, schedule, cost, or the go-live date.",
+        "answer": "Analyze the impact"
+      },
+      {
+        "text": "Send the change to the CCB or designated approvers as outlined in the change management plan.",
+        "answer": "Submit for approval"
+      },
+      {
+        "text": "Inform stakeholders whether the change was approved, denied, or deferred.",
+        "answer": "Communicate the outcome"
+      },
+      {
+        "text": "Document the final decision in the change log and close the item.",
+        "answer": "Record and close"
+      }
+    ],
+    "options": [
+      "Raise a change request",
+      "Analyze the impact",
+      "Submit for approval",
+      "Communicate the outcome",
+      "Record and close"
+    ],
+    "explanation": "These five steps represent the PMI change management process for a project. Reference: PMI change management process (pmbok.com / PMI.org).",
+    "video_time": 1607
+  },
+  {
+    "number": 22,
+    "prompt": "Match each description to its step in the Risk Management process in the correct order.",
+    "left_label": "Step description",
+    "right_label": "Risk Management step",
+    "items": [
+      {
+        "text": "Determine what could go wrong on the project.",
+        "answer": "Identify risks"
+      },
+      {
+        "text": "Rate each risk by its impact and likelihood to assess urgency.",
+        "answer": "Qualitative risk analysis"
+      },
+      {
+        "text": "Add financial or simulation data to further evaluate risks.",
+        "answer": "Quantitative risk analysis"
+      },
+      {
+        "text": "Assign risk owners and define responses such as mitigate or transfer.",
+        "answer": "Plan risk responses"
+      },
+      {
+        "text": "Put the agreed risk responses into action.",
+        "answer": "Implement risk responses"
+      }
+    ],
+    "options": [
+      "Identify risks",
+      "Qualitative risk analysis",
+      "Quantitative risk analysis",
+      "Plan risk responses",
+      "Implement risk responses"
+    ],
+    "explanation": "These steps align with the risk management sequence. Reference: Plan Risk Management, page 113, Process Groups: A Practice Guide.",
+    "video_time": 1680
+  },
+  {
+    "number": 23,
+    "prompt": "Match each scenario to the correct schedule or resource optimization technique.",
+    "left_label": "Scenario",
+    "right_label": "Technique",
+    "items": [
+      {
+        "text": "The project manager adjusts activities within their free and total float when resources are unavailable.",
+        "answer": "Resource smoothing"
+      },
+      {
+        "text": "Some activities on the critical path are currently in sequence but can be done in parallel.",
+        "answer": "Fast tracking"
+      },
+      {
+        "text": "The project sponsor approves extra funding to expedite the delivery of activities.",
+        "answer": "Schedule crashing"
+      },
+      {
+        "text": "Resources have been overallocated to the same timeframe and must be redistributed across activities.",
+        "answer": "Resource leveling"
+      }
+    ],
+    "options": [
+      "Resource smoothing",
+      "Fast tracking",
+      "Schedule crashing",
+      "Resource leveling"
+    ],
+    "explanation": "These are key schedule compression and resource optimization techniques. Reference: Resource optimization, page 291, Process Groups: A Practice Guide.",
+    "video_time": 1746
+  },
+  {
+    "number": 24,
+    "prompt": "Match each description to the correct Agile role.",
+    "left_label": "Description",
+    "right_label": "Agile role",
+    "items": [
+      {
+        "text": "A servant leader who facilitates ceremonies and removes blockers for the team.",
+        "answer": "Scrum Master"
+      },
+      {
+        "text": "They perform the work and create value; also known as developers in a Scrum team.",
+        "answer": "Project team"
+      },
+      {
+        "text": "They represent the customer and prioritize features in the product backlog.",
+        "answer": "Product Owner"
+      },
+      {
+        "text": "Anyone affected by or perceived to be affected by the project.",
+        "answer": "Stakeholder"
+      }
+    ],
+    "options": [
+      "Scrum Master",
+      "Project team",
+      "Product Owner",
+      "Stakeholder"
+    ],
+    "explanation": "These are the four primary Agile roles described in the Agile Practice Guide. Reference: Agile roles, page 40, Agile Practice Guide.",
+    "video_time": 1828
+  },
+  {
+    "number": 25,
+    "prompt": "Match each constraint to whether it is Fixed or Variable in an Agile (adaptive) project versus a Predictive project.",
+    "left_label": "Constraint in project type",
+    "right_label": "Status",
+    "items": [
+      {
+        "text": "Scope in an Agile project",
+        "answer": "Variable"
+      },
+      {
+        "text": "Cost in an Agile project",
+        "answer": "Fixed"
+      },
+      {
+        "text": "Time in an Agile project",
+        "answer": "Fixed"
+      },
+      {
+        "text": "Scope in a Predictive project",
+        "answer": "Fixed"
+      },
+      {
+        "text": "Cost in a Predictive project",
+        "answer": "Variable"
+      },
+      {
+        "text": "Time in a Predictive project",
+        "answer": "Variable"
+      }
+    ],
+    "options": [
+      "Fixed",
+      "Variable"
+    ],
+    "explanation": "In Agile, scope is variable while cost and time are fixed (fixed team for a fixed duration). In Predictive, scope is fixed while cost and time are variable. Quality can be fixed or variable in either approach.",
+    "video_time": 1891
+  },
+  {
+    "number": 26,
+    "prompt": "Match each description to the correct stage of Tuckman's Ladder of team development.",
+    "left_label": "Description",
+    "right_label": "Tuckman stage",
+    "items": [
+      {
+        "text": "The team know each other's roles and find a regular rhythm of work.",
+        "answer": "Norming"
+      },
+      {
+        "text": "The project finishes and the team moves on to other things.",
+        "answer": "Adjourning"
+      },
+      {
+        "text": "Team members come together but are still independent and individual.",
+        "answer": "Forming"
+      },
+      {
+        "text": "The team comes to rely on each other and has high trust, getting things done faster.",
+        "answer": "Performing"
+      },
+      {
+        "text": "Conflicts arise as different personalities figure out where they fit and what their roles are.",
+        "answer": "Storming"
+      }
+    ],
+    "options": [
+      "Forming",
+      "Storming",
+      "Norming",
+      "Performing",
+      "Adjourning"
+    ],
+    "explanation": "Tuckman's Ladder describes the five stages of team development: Forming, Storming, Norming, Performing, and Adjourning. Reference: PMBOK Guide 7th Edition, page 166.",
+    "video_time": 1980
+  },
+  {
+    "number": 27,
+    "prompt": "Match each tool or technique to the process group planning process it belongs to.",
+    "left_label": "Tool / Technique",
+    "right_label": "Planning process",
+    "items": [
+      {
+        "text": "Communication styles assessment — understanding how stakeholders want to receive information.",
+        "answer": "Plan Communications Management"
+      },
+      {
+        "text": "Test and inspection planning — ensuring deliverables meet customer requirements.",
+        "answer": "Plan Quality Management"
+      },
+      {
+        "text": "Team charter — documenting the team's ways of working.",
+        "answer": "Plan Resource Management"
+      },
+      {
+        "text": "Resource breakdown structure — identifying where team members fit in the project.",
+        "answer": "Estimate Activity Resources"
+      },
+      {
+        "text": "SWOT analysis — identifying strengths, weaknesses, opportunities, and threats.",
+        "answer": "Plan Risk Management"
+      }
+    ],
+    "options": [
+      "Plan Communications Management",
+      "Plan Quality Management",
+      "Plan Resource Management",
+      "Estimate Activity Resources",
+      "Plan Risk Management"
+    ],
+    "explanation": "These tools and techniques are mapped to their respective planning processes. Reference: Process Groups: A Practice Guide, 2023, page 109 (Estimate Activity Resources) and related planning process sections.",
+    "video_time": 2050
+  },
+  {
+    "number": 28,
+    "prompt": "Match each description to the correct project phase in the correct order.",
+    "left_label": "Phase description",
+    "right_label": "Project phase",
+    "items": [
+      {
+        "text": "Develop the business case and project charter to determine if the project is worth doing.",
+        "answer": "Feasibility"
+      },
+      {
+        "text": "Gather requirements and create prototypes before building.",
+        "answer": "Design"
+      },
+      {
+        "text": "Construct the deliverable.",
+        "answer": "Build"
+      },
+      {
+        "text": "Perform quality assurance to ensure the deliverable meets the customer need.",
+        "answer": "Test"
+      },
+      {
+        "text": "Release the finished deliverable to the end users.",
+        "answer": "Deploy"
+      }
+    ],
+    "options": [
+      "Feasibility",
+      "Design",
+      "Build",
+      "Test",
+      "Deploy"
+    ],
+    "explanation": "These five phases represent typical project lifecycle phases. In agile, all phases are repeated per increment; in predictive, they are completed once at the end.",
+    "video_time": 2171
+  },
+  {
+    "number": 29,
+    "prompt": "Match each preferred Agile Manifesto value to what it is valued OVER.",
+    "left_label": "Preferred value",
+    "right_label": "Valued over",
+    "items": [
+      {
+        "text": "Individuals and interactions",
+        "answer": "Processes and tools"
+      },
+      {
+        "text": "Working software",
+        "answer": "Comprehensive documentation"
+      },
+      {
+        "text": "Customer collaboration",
+        "answer": "Contract negotiation"
+      },
+      {
+        "text": "Responding to change",
+        "answer": "Following a plan"
+      }
+    ],
+    "options": [
+      "Processes and tools",
+      "Comprehensive documentation",
+      "Contract negotiation",
+      "Following a plan"
+    ],
+    "explanation": "The four values of the Agile Manifesto describe what agile teams prefer, while still acknowledging value in the items on the right. Reference: Agile Manifesto and Mindset, page 8, Agile Practice Guide.",
+    "video_time": 2233
+  },
+  {
+    "number": 30,
+    "prompt": "Match each description to the correct quality tool.",
+    "left_label": "Description",
+    "right_label": "Quality tool",
+    "items": [
+      {
+        "text": "Repeatedly ask why something happens until you reach the underlying root cause.",
+        "answer": "Root cause analysis (Five Whys)"
+      },
+      {
+        "text": "Shows a series of steps that lead to a defect; also used to map how a process or system works.",
+        "answer": "Flowchart"
+      },
+      {
+        "text": "The problem is at the head and the root cause ideas branch out like fishbones; also called an Ishikawa diagram.",
+        "answer": "Fishbone diagram"
+      },
+      {
+        "text": "A count of data that focuses on the few causes with the biggest impact — the 80/20 principle.",
+        "answer": "Pareto analysis"
+      }
+    ],
+    "options": [
+      "Root cause analysis (Five Whys)",
+      "Flowchart",
+      "Fishbone diagram",
+      "Pareto analysis"
+    ],
+    "explanation": "These are four key quality tools used in project quality management. Reference: PMBOK Guide 7th Edition, page 249.",
+    "video_time": 2303
+  },
+  {
+    "number": 31,
+    "prompt": "Match each project activity or event to the correct process group.",
+    "left_label": "Activity",
+    "right_label": "Process Group",
+    "items": [
+      {
+        "text": "The project sponsor approves the project charter and the project manager identifies the project stakeholders.",
+        "answer": "Initiating"
+      },
+      {
+        "text": "The project manager develops the project management plan; the team collects requirements, defines scope, and creates the risk, quality, schedule, and cost plans.",
+        "answer": "Planning"
+      },
+      {
+        "text": "The team manages project knowledge, acquires resources, and implements risk responses.",
+        "answer": "Executing"
+      },
+      {
+        "text": "The project customer validates the project scope based on the quality test outcomes.",
+        "answer": "Monitoring and Controlling"
+      },
+      {
+        "text": "The team creates the final project report.",
+        "answer": "Closing"
+      }
+    ],
+    "options": [
+      "Initiating",
+      "Planning",
+      "Executing",
+      "Monitoring and Controlling",
+      "Closing"
+    ],
+    "explanation": "These activities correspond to the five process groups defined in the Process Groups Practice Guide. Initiating authorises the project, Planning establishes the roadmap, Executing does the work, Monitoring and Controlling measures performance, and Closing formalises completion.",
+    "video_time": 2396
+  },
+  {
+    "number": 32,
+    "prompt": "Match each situation to the correct project artifact.",
+    "left_label": "Situation",
+    "right_label": "Artifact",
+    "items": [
+      {
+        "text": "A project manager needs a feasibility study to confirm if a project will offer value.",
+        "answer": "Business Case"
+      },
+      {
+        "text": "A project sponsor needs to formally authorize a project.",
+        "answer": "Project Charter"
+      },
+      {
+        "text": "A project manager needs a plan for managing the project including the scope, schedule, cost, and quality, along with all subsidiary plans.",
+        "answer": "Project Management Plan"
+      },
+      {
+        "text": "A scrum master needs a collaborative document that outlines how the team will work effectively throughout the project.",
+        "answer": "Team Charter"
+      }
+    ],
+    "options": [
+      "Business Case",
+      "Project Charter",
+      "Project Management Plan",
+      "Team Charter"
+    ],
+    "explanation": "These artifacts are defined in the PMBOK Guide 7th edition under commonly used artifacts. The team charter is a key agile artifact that also appears in the Process Groups Practice Guide under resources.",
+    "video_time": 2485
+  },
+  {
+    "number": 33,
+    "prompt": "Match each process groups scenario to the correct ITTO (input, tool, technique, or output).",
+    "left_label": "Scenario",
+    "right_label": "ITTO",
+    "items": [
+      {
+        "text": "A project manager is working to acquire resources and needs to know who has been assigned within the team.",
+        "answer": "Project Team Assignments"
+      },
+      {
+        "text": "A project manager sees gaps in the team's work and needs to develop the team.",
+        "answer": "Team Performance Assessments"
+      },
+      {
+        "text": "A business analyst is facilitating a session to identify stakeholders.",
+        "answer": "Stakeholder Register"
+      },
+      {
+        "text": "The project management team directs and manages the project work and stores all project data and information to generate reports.",
+        "answer": "Project Management Information System"
+      }
+    ],
+    "options": [
+      "Project Team Assignments",
+      "Team Performance Assessments",
+      "Stakeholder Register",
+      "Project Management Information System"
+    ],
+    "explanation": "These are inputs, tools, techniques, and outputs from the Process Groups Practice Guide covering acquiring resources, developing the team, identifying stakeholders, and directing/managing project work.",
+    "video_time": 2541
+  },
+  {
+    "number": 34,
+    "prompt": "Match each stakeholder description to the correct direction of influence.",
+    "left_label": "Stakeholder Description",
+    "right_label": "Direction of Influence",
+    "items": [
+      {
+        "text": "Senior management, a sponsor, or a steering committee who are above the project team.",
+        "answer": "Upward"
+      },
+      {
+        "text": "Project team members or specialists providing knowledge or skills to the project — people within the project that the project manager is managing.",
+        "answer": "Downward"
+      },
+      {
+        "text": "Peers of the project manager such as middle managers and people in charge of resources in a functional area.",
+        "answer": "Sideward"
+      },
+      {
+        "text": "Suppliers, government departments, or users of the system or deliverable who are outside the project team.",
+        "answer": "Outward"
+      }
+    ],
+    "options": [
+      "Upward",
+      "Downward",
+      "Sideward",
+      "Outward"
+    ],
+    "explanation": "Directions of influence are defined in the Process Groups Practice Guide page 302. Upward is senior stakeholders, downward is the project team, sideward is peers, and outward is external parties.",
+    "video_time": 2613
+  },
+  {
+    "number": 35,
+    "prompt": "Match each communication scenario to the correct communication method.",
+    "left_label": "Communication Scenario",
+    "right_label": "Communication Method",
+    "items": [
+      {
+        "text": "Paul sends information to people by email who need to receive it.",
+        "answer": "Push"
+      },
+      {
+        "text": "Project stakeholders can access information on a web portal at their own discretion.",
+        "answer": "Pull"
+      },
+      {
+        "text": "In a straightforward linear process, a sender transmits a message to a receiver without confirmation that the message was received correctly.",
+        "answer": "Basic Communication"
+      },
+      {
+        "text": "Stakeholders have a two-way exchange emphasising ongoing dialogue and mutual understanding between parties.",
+        "answer": "Interactive Communication"
+      }
+    ],
+    "options": [
+      "Push",
+      "Pull",
+      "Basic Communication",
+      "Interactive Communication"
+    ],
+    "explanation": "Communication methods are covered on page 252 of the Process Groups Practice Guide. Push sends to recipients, pull lets recipients access on demand, basic is one-way transmission, and interactive is two-way dialogue.",
+    "video_time": 2685
+  },
+  {
+    "number": 36,
+    "prompt": "Match each team member's role to the correct RACI designation.",
+    "left_label": "Team Member Role",
+    "right_label": "RACI Designation",
+    "items": [
+      {
+        "text": "Olivia provides expert judgment on part of a system for a project.",
+        "answer": "Consulted"
+      },
+      {
+        "text": "Ben creates the system flowchart to show people how it works.",
+        "answer": "Responsible"
+      },
+      {
+        "text": "Sarah signs off on the project deliverable, approving it for release.",
+        "answer": "Accountable"
+      },
+      {
+        "text": "Frontline workers need to be told about changes to the system.",
+        "answer": "Informed"
+      }
+    ],
+    "options": [
+      "Responsible",
+      "Accountable",
+      "Consulted",
+      "Informed"
+    ],
+    "explanation": "The RACI (Responsible, Accountable, Consulted, Informed) matrix is covered on page 293 of the Process Groups Practice Guide under Responsibility Assignment Matrix.",
+    "video_time": 2759
+  },
+  {
+    "number": 37,
+    "prompt": "Match each conflict scenario to the correct conflict management technique.",
+    "left_label": "Conflict Scenario",
+    "right_label": "Technique",
+    "items": [
+      {
+        "text": "Ben stops talking to Anna and retreats from the conflict situation.",
+        "answer": "Withdraw/Avoid"
+      },
+      {
+        "text": "Amy concedes her position to the needs of others to maintain harmony and relationships.",
+        "answer": "Smooth/Accommodate"
+      },
+      {
+        "text": "Cla wants everyone to get along and asks each party to give something up to resolve the conflict.",
+        "answer": "Compromise/Reconcile"
+      },
+      {
+        "text": "Michael pushes his viewpoint on the issue at the expense of others.",
+        "answer": "Force/Direct"
+      }
+    ],
+    "options": [
+      "Withdraw/Avoid",
+      "Smooth/Accommodate",
+      "Compromise/Reconcile",
+      "Force/Direct"
+    ],
+    "explanation": "Conflict management techniques are outlined on page 258 of the Process Groups Practice Guide. Withdrawing avoids the issue, accommodating concedes to others, compromising finds middle ground, and forcing imposes one party's view.",
+    "video_time": 2830
+  },
+  {
+    "number": 38,
+    "prompt": "Match each scenario to the correct interpersonal or team skill.",
+    "left_label": "Scenario",
+    "right_label": "Interpersonal Skill",
+    "items": [
+      {
+        "text": "James gets stakeholders together in a workshop to quickly reconcile differences and reveal issues earlier.",
+        "answer": "Facilitation"
+      },
+      {
+        "text": "Isabelle thinks before she acts and is empathetic to others in a high stress situation.",
+        "answer": "Emotional Intelligence"
+      },
+      {
+        "text": "Benjamin acknowledges, clarifies, and confirms to ensure understanding.",
+        "answer": "Active Listening"
+      },
+      {
+        "text": "Maria clearly articulates points and positions, gathering information to reach agreements.",
+        "answer": "Influencing"
+      }
+    ],
+    "options": [
+      "Facilitation",
+      "Emotional Intelligence",
+      "Active Listening",
+      "Influencing"
+    ],
+    "explanation": "Interpersonal and team skills are defined on page 331 of the Process Groups Practice Guide. Facilitation brings parties together, emotional intelligence manages emotions, active listening confirms understanding, and influencing gathers support.",
+    "video_time": 2905
+  },
+  {
+    "number": 39,
+    "prompt": "Match each risk scenario to the correct threat response strategy.",
+    "left_label": "Risk Scenario",
+    "right_label": "Threat Strategy",
+    "items": [
+      {
+        "text": "Leah identifies a risk but doesn't have the authority to perform the response — it is outside of her control.",
+        "answer": "Escalate"
+      },
+      {
+        "text": "Riley asks the project team to remove some of their planned scope to eliminate the threat.",
+        "answer": "Avoid"
+      },
+      {
+        "text": "Owen hires a contracting company to deal with a dangerous part of their project.",
+        "answer": "Transfer"
+      },
+      {
+        "text": "Jan takes specific action to reduce the probability or the impact of the threat.",
+        "answer": "Mitigate"
+      },
+      {
+        "text": "Luke acknowledges that there is a risk in his functional area but decides to take no action.",
+        "answer": "Accept"
+      }
+    ],
+    "options": [
+      "Escalate",
+      "Avoid",
+      "Transfer",
+      "Mitigate",
+      "Accept"
+    ],
+    "explanation": "Threat response strategies are covered on page 303 of the Process Groups Practice Guide under Strategies for Overall Project Risk. Escalate delegates beyond authority, avoid removes the cause, transfer shifts to a third party, mitigate reduces likelihood/impact, and accept acknowledges without acting.",
+    "video_time": 2968
+  },
+  {
+    "number": 40,
+    "prompt": "Match each scenario to the correct opportunity response strategy.",
+    "left_label": "Opportunity Scenario",
+    "right_label": "Opportunity Strategy",
+    "items": [
+      {
+        "text": "Jade discovers an opportunity to improve the system but it's outside the scope of the project.",
+        "answer": "Escalate"
+      },
+      {
+        "text": "Liam wants to make sure that an opportunity for a joint venture definitely happens.",
+        "answer": "Exploit"
+      },
+      {
+        "text": "Sam finds an opportunity in the system but his project doesn't need it, so he offers it to someone else.",
+        "answer": "Share"
+      },
+      {
+        "text": "It takes steps to increase the probability of the opportunity occurring.",
+        "answer": "Enhance"
+      },
+      {
+        "text": "Sarah acknowledges that the opportunity is there but decides not to take any action.",
+        "answer": "Accept"
+      }
+    ],
+    "options": [
+      "Escalate",
+      "Exploit",
+      "Share",
+      "Enhance",
+      "Accept"
+    ],
+    "explanation": "Opportunity response strategies are also covered on page 303 of the Process Groups Practice Guide under Strategies for Overall Project Risk. Escalate refers outside scope, exploit ensures the opportunity occurs, share allocates it to another party, enhance increases its probability, and accept takes no specific action.",
+    "video_time": 3030
+  },
+  {
+    "number": 41,
+    "prompt": "Match each description of project activities to the correct development approach.",
+    "left_label": "Description",
+    "right_label": "Development Approach",
+    "items": [
+      {
+        "text": "Activities are performed once for the project with a single delivery at the end.",
+        "answer": "Predictive"
+      },
+      {
+        "text": "Activities are repeated until correct based on feedback, with a single delivery at the end.",
+        "answer": "Iterative"
+      },
+      {
+        "text": "Activities are performed once for a given increment.",
+        "answer": "Incremental"
+      },
+      {
+        "text": "Activities are repeated until correct with frequent small deliveries.",
+        "answer": "Agile"
+      },
+      {
+        "text": "Combines any elements of predictive and adaptive development approaches to get the job done.",
+        "answer": "Hybrid"
+      }
+    ],
+    "options": [
+      "Predictive",
+      "Iterative",
+      "Incremental",
+      "Agile",
+      "Hybrid"
+    ],
+    "explanation": "Each development approach is defined by how activities are performed and when deliverables are produced. Reference: Process Groups Practice Guide, Page 15, Project and Development Life Cycles.",
+    "video_time": 3118
+  },
+  {
+    "number": 42,
+    "prompt": "Match each scenario to the correct agile collaboration approach.",
+    "left_label": "Scenario",
+    "right_label": "Collaboration Approach",
+    "items": [
+      {
+        "text": "Emily asks the team to work in pairs to complete work, check, and learn together.",
+        "answer": "Pairing"
+      },
+      {
+        "text": "An issue is raised during standup and multiple team members meet afterwards to solve it quickly.",
+        "answer": "Swarming"
+      },
+      {
+        "text": "Oliver is a portfolio owner impacted by a recent change and asks multiple teams to come together for an outcome.",
+        "answer": "Mobbing"
+      }
+    ],
+    "options": [
+      "Pairing",
+      "Swarming",
+      "Mobbing"
+    ],
+    "explanation": "Pairing, swarming, and mobbing are agile collaboration techniques for completing work together. Reference: Agile Practice Guide, Page 152, under Definitions.",
+    "video_time": 3204
+  },
+  {
+    "number": 43,
+    "prompt": "Match each scenario to the correct agile tool.",
+    "left_label": "Scenario",
+    "right_label": "Agile Tool",
+    "items": [
+      {
+        "text": "Henry asks the team to display project information in the team location, such as backlogs and risks, where anyone can see it at any time.",
+        "answer": "Information Radiator"
+      },
+      {
+        "text": "Haley gathers the team around a visual tool used to track and manage workflow.",
+        "answer": "Kanban Board"
+      },
+      {
+        "text": "Lucas needs to see the planned trend of the work versus the actual trend of the work.",
+        "answer": "Burndown Chart"
+      },
+      {
+        "text": "Alice needs to know how many story points the team could complete in the next Sprint during Sprint planning.",
+        "answer": "Velocity Chart"
+      }
+    ],
+    "options": [
+      "Information Radiator",
+      "Kanban Board",
+      "Burndown Chart",
+      "Velocity Chart"
+    ],
+    "explanation": "Each agile tool serves a distinct purpose for visualising and managing team work. Reference: Agile Practice Guide, Page 150, under Definitions.",
+    "video_time": 3261
+  },
+  {
+    "number": 44,
+    "prompt": "Match each description to the correct agile artifact.",
+    "left_label": "Description",
+    "right_label": "Agile Artifact",
+    "items": [
+      {
+        "text": "The user stories the team decides that they can complete in a Sprint.",
+        "answer": "Sprint Backlog"
+      },
+      {
+        "text": "The prioritized list of features.",
+        "answer": "Product Backlog"
+      },
+      {
+        "text": "Adjusting the backlog to balance the highest cost risks with the highest value features.",
+        "answer": "Risk-Adjusted Backlog"
+      },
+      {
+        "text": "Part of a feature that is small enough to complete in a Sprint.",
+        "answer": "User Story"
+      }
+    ],
+    "options": [
+      "Sprint Backlog",
+      "Product Backlog",
+      "Risk-Adjusted Backlog",
+      "User Story"
+    ],
+    "explanation": "Agile artifacts organise and prioritise work at different levels of granularity. Reference: Agile Practice Guide, Page 152, under Definitions.",
+    "video_time": 3370
+  },
+  {
+    "number": 45,
+    "prompt": "Match each description to the correct agile decomposition concept (OKRs, user stories, and epics).",
+    "left_label": "Description",
+    "right_label": "Concept",
+    "items": [
+      {
+        "text": "A larger feature or deliverable, or a collection of stories around a central theme.",
+        "answer": "Epic"
+      },
+      {
+        "text": "A description of an end user's need that can be completed within an iteration, similar to a work package in a traditional project.",
+        "answer": "User Story"
+      },
+      {
+        "text": "An enterprise-led strategic direction shown as a business goal.",
+        "answer": "Objective"
+      },
+      {
+        "text": "A way to measure the enterprise-led strategic direction or business goal.",
+        "answer": "Key Result"
+      }
+    ],
+    "options": [
+      "Epic",
+      "User Story",
+      "Objective",
+      "Key Result"
+    ],
+    "explanation": "OKRs (Objectives and Key Results), user stories, and epics are agile decomposition concepts used to break down and communicate work. Reference: Agile Practice Guide, Page 150, under Definitions.",
+    "video_time": 3427
+  },
+  {
+    "number": 46,
+    "prompt": "Match each procurement scenario to the correct type of bid document.",
+    "left_label": "Scenario",
+    "right_label": "Bid Document",
+    "items": [
+      {
+        "text": "Emma isn't sure on what solution a particular vendor can provide and needs more information.",
+        "answer": "Request for Information (RFI)"
+      },
+      {
+        "text": "The project team have a complex problem to be solved by a vendor and need a proposal from that vendor on what they can do.",
+        "answer": "Request for Proposal (RFP)"
+      },
+      {
+        "text": "The PMO have a clear set of criteria that can be found in the market from multiple vendors and all they need is a price.",
+        "answer": "Request for Quote (RFQ)"
+      }
+    ],
+    "options": [
+      "Request for Information (RFI)",
+      "Request for Proposal (RFP)",
+      "Request for Quote (RFQ)"
+    ],
+    "explanation": "RFI, RFP, and RFQ are used in different procurement situations depending on how much is known about the solution and what information is needed from vendors. Reference: PMBOK Guide 7th Edition, Page 75, The Bid Process.",
+    "video_time": 3490
+  },
+  {
+    "number": 47,
+    "prompt": "Match each procurement scenario to the correct contract type.",
+    "left_label": "Scenario",
+    "right_label": "Contract Type",
+    "items": [
+      {
+        "text": "Scope is straightforward and requirements are well defined.",
+        "answer": "Fixed Price"
+      },
+      {
+        "text": "You want to incentivize the seller or works are expected to change.",
+        "answer": "Cost Reimbursable"
+      },
+      {
+        "text": "A precise statement of work is not available.",
+        "answer": "Time and Materials"
+      }
+    ],
+    "options": [
+      "Fixed Price",
+      "Cost Reimbursable",
+      "Time and Materials"
+    ],
+    "explanation": "The appropriate contract type depends on how well-defined the scope is and whether incentives or flexibility are needed. Reference: PMBOK Guide 7th Edition, Page 191, Agreements and Contracts.",
+    "video_time": 3539
+  },
+  {
+    "number": 48,
+    "prompt": "Match each description to the correct cost management concept.",
+    "left_label": "Description",
+    "right_label": "Cost Concept",
+    "items": [
+      {
+        "text": "Set aside to deal with planned risks.",
+        "answer": "Contingency Reserves"
+      },
+      {
+        "text": "Set aside for unexpected activities related to in-scope work.",
+        "answer": "Management Reserves"
+      },
+      {
+        "text": "All of the work package costs plus the contingency reserve.",
+        "answer": "Cost Baseline"
+      },
+      {
+        "text": "The cost baseline plus the management reserves.",
+        "answer": "Project Budget"
+      }
+    ],
+    "options": [
+      "Contingency Reserves",
+      "Management Reserves",
+      "Cost Baseline",
+      "Project Budget"
+    ],
+    "explanation": "Cost management distinguishes between planned and unplanned risk reserves, and how they combine to form the cost baseline and overall project budget. Reference: PMBOK Guide 7th Edition, Page 62, under Budget.",
+    "video_time": 3605
+  },
+  {
+    "number": 49,
+    "prompt": "Match each description to the correct agile concept related to leading and teaming.",
+    "left_label": "Description",
+    "right_label": "Agile Concept",
+    "items": [
+      {
+        "text": "Leading by serving the team, removing blockers and facilitating growth.",
+        "answer": "Servant Leadership"
+      },
+      {
+        "text": "Maintaining a manageable workload that allows the team to effectively work over the long term.",
+        "answer": "Sustainable Pace"
+      },
+      {
+        "text": "A developer, tester, and business representative meet to elicit user stories.",
+        "answer": "Three Amigos"
+      },
+      {
+        "text": "Stable, long-term, consistent teams that perform better over time.",
+        "answer": "Stable Teams"
+      }
+    ],
+    "options": [
+      "Servant Leadership",
+      "Sustainable Pace",
+      "Three Amigos",
+      "Stable Teams"
+    ],
+    "explanation": "These agile concepts focus on leadership style, team sustainability, collaboration practices, and team stability for improved performance. Reference: Agile Practice Guide, Page 34.",
+    "video_time": 3665
+  },
+  {
+    "number": 50,
+    "prompt": "Match each description to the correct agile concept.",
+    "left_label": "Description",
+    "right_label": "Agile Concept",
+    "items": [
+      {
+        "text": "Quality is integrated and maintained throughout every phase of development, from requirements to development.",
+        "answer": "Build In Quality"
+      },
+      {
+        "text": "The project team plans near-term work in detail and further away items at a high level.",
+        "answer": "Rolling Wave Planning"
+      },
+      {
+        "text": "The team removes silos by including everyone they need to deliver the project or the product.",
+        "answer": "Whole Team Approach"
+      },
+      {
+        "text": "Team information is clearly available to everyone so they can self-manage their work.",
+        "answer": "Visual Management"
+      }
+    ],
+    "options": [
+      "Build In Quality",
+      "Rolling Wave Planning",
+      "Whole Team Approach",
+      "Visual Management"
+    ],
+    "explanation": "These agile concepts, many originating from the Toyota Production System, promote quality, transparency, and collaborative planning throughout the project. Reference: Agile Practice Guide, Page 150, under Definitions.",
+    "video_time": 3742
+  },
+  {
+    "number": 51,
+    "prompt": "Match each agile scenario to the correct agile ceremony.",
+    "left_label": "Scenario",
+    "right_label": "Agile Ceremony",
+    "items": [
+      {
+        "text": "Getting opinions on the product and the process to increase learning for future releases",
+        "answer": "Retrospective"
+      },
+      {
+        "text": "The team come together and reflect on their process and the lessons learned",
+        "answer": "Retrospective"
+      },
+      {
+        "text": "The team finish a sprint and demonstrate the usable increment to the customer",
+        "answer": "Sprint Review"
+      },
+      {
+        "text": "The team have a visual display of project information for anyone to see",
+        "answer": "Information Radiator"
+      },
+      {
+        "text": "The team are meeting to update what they worked on yesterday, what they are going to do today, and raise any blockers",
+        "answer": "Daily Standup"
+      }
+    ],
+    "options": [
+      "Retrospective",
+      "Sprint Review",
+      "Information Radiator",
+      "Daily Standup"
+    ],
+    "explanation": "These are core agile ceremonies. Retrospectives gather opinions on product and process to improve future releases; Sprint Reviews demonstrate the usable increment to the customer. Reference: Agile Practice Guide, page 150, Definitions.",
+    "video_time": 3833
+  },
+  {
+    "number": 52,
+    "prompt": "Match each description to the correct agile concept.",
+    "left_label": "Description",
+    "right_label": "Agile Concept",
+    "items": [
+      {
+        "text": "A prioritized list of features to be delivered",
+        "answer": "Product Backlog"
+      },
+      {
+        "text": "The user stories the team decides they can complete in a sprint",
+        "answer": "Sprint Backlog"
+      },
+      {
+        "text": "The criteria the team agree on for when an item is ready to be worked on",
+        "answer": "Definition of Ready"
+      },
+      {
+        "text": "The criteria agreed on for when an item is complete",
+        "answer": "Definition of Done"
+      }
+    ],
+    "options": [
+      "Product Backlog",
+      "Sprint Backlog",
+      "Definition of Ready",
+      "Definition of Done"
+    ],
+    "explanation": "The Product Backlog holds all features to deliver; the Sprint Backlog is what the team commits to in a sprint. The Definition of Ready and Definition of Done set entry and exit criteria for work items. Reference: Agile Practice Guide, Definitions.",
+    "video_time": 3905
+  },
+  {
+    "number": 53,
+    "prompt": "Match each scenario to the correct agile practice or framework.",
+    "left_label": "Scenario",
+    "right_label": "Agile Practice",
+    "items": [
+      {
+        "text": "The project designs by feature, builds by feature, tests and releases by feature, and has dedicated feature teams",
+        "answer": "Feature Driven Development"
+      },
+      {
+        "text": "Developers write the test first, then write the code that will allow the test to pass",
+        "answer": "Test Driven Development"
+      },
+      {
+        "text": "Business analysts write the tests in user-centric language describing what customers want and what customers do",
+        "answer": "Behavior Driven Development"
+      },
+      {
+        "text": "Work is frequently incorporated into the main build and then tested as a whole",
+        "answer": "Continuous Integration"
+      },
+      {
+        "text": "Time-boxed research or learning, often for technical solutions or to determine acceptance criteria with a team",
+        "answer": "Spike"
+      }
+    ],
+    "options": [
+      "Feature Driven Development",
+      "Test Driven Development",
+      "Behavior Driven Development",
+      "Continuous Integration",
+      "Spike"
+    ],
+    "explanation": "These are common agile engineering practices: FDD organizes work by feature, TDD writes tests before code, BDD uses given-when-then language, CI integrates frequently, and a spike is time-boxed learning. Reference: Agile Practice Guide, Definitions.",
+    "video_time": 3965
+  },
+  {
+    "number": 54,
+    "prompt": "Match each description to the correct agile measurement.",
+    "left_label": "Description",
+    "right_label": "Agile Measurement",
+    "items": [
+      {
+        "text": "The time to complete a task or a smaller piece of work, for example a user story",
+        "answer": "Cycle Time"
+      },
+      {
+        "text": "The time from customer order to customer delivery for a feature",
+        "answer": "Lead Time"
+      },
+      {
+        "text": "How much was committed versus how much was completed, showing how predictable the process is",
+        "answer": "Velocity Chart"
+      },
+      {
+        "text": "The amount of work waiting to be completed",
+        "answer": "Queue Size"
+      },
+      {
+        "text": "The ratio of value-added (VA) work to non-value-added (NVA) work relative to total work time, showing how efficient the process is",
+        "answer": "Process Efficiency"
+      }
+    ],
+    "options": [
+      "Cycle Time",
+      "Lead Time",
+      "Velocity Chart",
+      "Queue Size",
+      "Process Efficiency"
+    ],
+    "explanation": "Agile teams track these measurements to improve delivery predictability and efficiency. Cycle time measures a single task; lead time spans the full customer journey. Reference: Agile Practice Guide, page 66.",
+    "video_time": 4046
+  },
+  {
+    "number": 55,
+    "prompt": "Place the steps of the Theory of Constraints in the correct order by matching each description to its step.",
+    "left_label": "Description",
+    "right_label": "Step",
+    "items": [
+      {
+        "text": "Find the bottleneck or constraint in the process",
+        "answer": "Identify"
+      },
+      {
+        "text": "Improve or streamline the process for the constraint without spending money on it",
+        "answer": "Exploit"
+      },
+      {
+        "text": "Keep the process just at capacity, doing the most possible without overloading it",
+        "answer": "Subordinate"
+      },
+      {
+        "text": "Spend money, add resources, or add system power to the constraint",
+        "answer": "Elevate"
+      },
+      {
+        "text": "Once the bottleneck is resolved, a new one will appear, so apply the process again",
+        "answer": "Repeat"
+      }
+    ],
+    "options": [
+      "Identify",
+      "Exploit",
+      "Subordinate",
+      "Elevate",
+      "Repeat"
+    ],
+    "explanation": "The Theory of Constraints, developed by Dr. Eli Goldratt, is a five-step process to systematically improve the most limiting constraint in a system. Reference: The Goal by Dr. Eli Goldratt.",
+    "video_time": 4126
+  },
+  {
+    "number": 56,
+    "prompt": "Match each description to the correct agile framework.",
+    "left_label": "Description",
+    "right_label": "Agile Framework",
+    "items": [
+      {
+        "text": "A workflow management method that optimizes work by limiting the work in progress so the team focuses on the work at hand",
+        "answer": "Kanban"
+      },
+      {
+        "text": "Facilitates iterative progress through timeboxed sprints",
+        "answer": "Scrum"
+      },
+      {
+        "text": "Focuses on continuous improvement, frequent releases, continuous feedback, and higher customer involvement",
+        "answer": "Extreme Programming"
+      },
+      {
+        "text": "A combination of Scrum and Kanban, using scrum structure with the flexibility of Kanban",
+        "answer": "Scrumban"
+      }
+    ],
+    "options": [
+      "Kanban",
+      "Scrum",
+      "Extreme Programming",
+      "Scrumban"
+    ],
+    "explanation": "These are common agile frameworks: Kanban limits WIP, Scrum uses timeboxed sprints, XP focuses on frequent releases and customer involvement, and Scrumban blends both Scrum and Kanban. Reference: Agile Practice Guide, pages 99–111.",
+    "video_time": 4210
+  },
+  {
+    "number": 57,
+    "prompt": "Match each description to the correct agile framework.",
+    "left_label": "Description",
+    "right_label": "Agile Framework",
+    "items": [
+      {
+        "text": "The project designs by feature, builds by feature, tests and releases by feature, and has dedicated feature teams",
+        "answer": "Feature Driven Development"
+      },
+      {
+        "text": "Focuses on constraint-driven delivery with formalized prioritization of scope, for example using MoSCoW (must have, should have, could have, will not have)",
+        "answer": "DSDM"
+      },
+      {
+        "text": "A family of methodologies that emphasizes tailoring practices to the specific needs of the project and team",
+        "answer": "Crystal"
+      },
+      {
+        "text": "Uses iterative cycles across seven key disciplines such as modeling, implementation, and test",
+        "answer": "Agile Unified Process"
+      }
+    ],
+    "options": [
+      "Feature Driven Development",
+      "DSDM",
+      "Crystal",
+      "Agile Unified Process"
+    ],
+    "explanation": "These agile frameworks each have distinct approaches: FDD organizes by feature, DSDM uses MoSCoW prioritization with fixed constraints, Crystal tailors practices by team size, and AUP applies iterative cycles across seven disciplines. Reference: Agile Practice Guide, pages 99–111.",
+    "video_time": 4288
+  },
+  {
+    "number": 58,
+    "prompt": "Match each description to the correct scaling framework.",
+    "left_label": "Description",
+    "right_label": "Scaling Framework",
+    "items": [
+      {
+        "text": "Applies scrum ways of working to programs and portfolios only when necessary",
+        "answer": "Large Scale Scrum"
+      },
+      {
+        "text": "Focuses on organizing project teams around value streams",
+        "answer": "SAFe"
+      },
+      {
+        "text": "A scaled approach where multiple scrum teams collaborate through cross-team meetings",
+        "answer": "Scrum of Scrums"
+      },
+      {
+        "text": "Aims to extend scrum practices to the organizational level across the organization",
+        "answer": "Enterprise Scrum"
+      },
+      {
+        "text": "A framework that uses agile and lean methodologies, now owned by the Project Management Institute",
+        "answer": "Disciplined Agile"
+      }
+    ],
+    "options": [
+      "Large Scale Scrum",
+      "SAFe",
+      "Scrum of Scrums",
+      "Enterprise Scrum",
+      "Disciplined Agile"
+    ],
+    "explanation": "Scaling frameworks extend agile beyond individual teams: LeSS recommends scaling only when necessary, SAFe organizes around value streams, Scrum of Scrums coordinates via cross-team meetings, Enterprise Scrum scales to the organization, and Disciplined Agile is now integrated under PMI. Reference: Agile Practice Guide, page 111.",
+    "video_time": 4403
+  },
+  {
+    "number": 59,
+    "prompt": "Match each scenario to the correct cost of quality category.",
+    "left_label": "Scenario",
+    "right_label": "Cost of Quality Category",
+    "items": [
+      {
+        "text": "William wants to improve the process and provide training for the whole project team to prevent a quality issue from happening",
+        "answer": "Prevention"
+      },
+      {
+        "text": "Sophia is a software tester and creates a plan to find defects or errors in the product",
+        "answer": "Appraisal"
+      },
+      {
+        "text": "The product fails during quality assurance testing and review with the senior user before reaching the customer",
+        "answer": "Internal Failure"
+      },
+      {
+        "text": "The project team have released the product but customer reviews show a major issue has reached the customer",
+        "answer": "External Failure"
+      }
+    ],
+    "options": [
+      "Prevention",
+      "Appraisal",
+      "Internal Failure",
+      "External Failure"
+    ],
+    "explanation": "Cost of quality includes prevention (avoiding defects), appraisal (inspecting for defects), internal failure (defects found before delivery), and external failure (defects found after delivery to the customer). Reference: PMBOK Guide 7th Edition, page 88.",
+    "video_time": 4504
+  },
+  {
+    "number": 60,
+    "prompt": "Match each agile action or practice to the pain point it addresses.",
+    "left_label": "Action / Practice",
+    "right_label": "Pain Point",
+    "items": [
+      {
+        "text": "Involve actual users of the system early and showcase to customers in the sprint review",
+        "answer": "Poor user experience"
+      },
+      {
+        "text": "Ensure the Three Amigos collaborate regularly to create the user stories",
+        "answer": "Unclear requirements"
+      },
+      {
+        "text": "Workshop the team charter to align the mission and high-level features",
+        "answer": "Unclear purpose for the team"
+      },
+      {
+        "text": "Establish the definition of ready and definition of done",
+        "answer": "Working agreements needed"
+      }
+    ],
+    "options": [
+      "Poor user experience",
+      "Unclear requirements",
+      "Unclear purpose for the team",
+      "Working agreements needed"
+    ],
+    "explanation": "Agile pain points have targeted solutions: poor UX is addressed by involving users early, unclear requirements by Three Amigos collaboration, unclear team purpose by workshopping the team charter, and working agreements by defining ready and done. Reference: Agile Practice Guide, page 58.",
+    "video_time": 4568
+  },
+  {
+    "number": 61,
+    "prompt": "Match each measurement description to the correct measurement type or indicator.",
+    "left_label": "Description",
+    "right_label": "Measurement Type",
+    "items": [
+      {
+        "text": "Proactive metrics that are used to predict future performance and identify potential issues",
+        "answer": "Leading indicators"
+      },
+      {
+        "text": "Metrics that reflect past performance and outcomes, providing insights into what has already occurred",
+        "answer": "Lagging indicators"
+      },
+      {
+        "text": "Measurable objectives or measurable values used to assess the success of project activities and overall performance",
+        "answer": "Key performance indicators (KPIs)"
+      },
+      {
+        "text": "A high-level written goal with the measures to get there",
+        "answer": "OKRs"
+      }
+    ],
+    "options": [
+      "Leading indicators",
+      "Lagging indicators",
+      "Key performance indicators (KPIs)",
+      "OKRs"
+    ],
+    "explanation": "Leading indicators are proactive and predict future performance, while lagging indicators reflect past outcomes. KPIs measure project success, and OKRs (Objectives and Key Results) pair a high-level goal with measurable results, commonly used in agile. See PMBOK Guide 7th edition page 94.",
+    "video_time": 4682
+  },
+  {
+    "number": 62,
+    "prompt": "Match each scenario to the correct measurement pitfall it represents.",
+    "left_label": "Scenario",
+    "right_label": "Measurement Pitfall",
+    "items": [
+      {
+        "text": "What we measure influences the behavior of the people being measured (e.g., measuring speed causes people to prioritize speed over quality)",
+        "answer": "Hawthorne effect"
+      },
+      {
+        "text": "Measuring things that are not actionable — we track them but cannot take any action on the data",
+        "answer": "Vanity metrics"
+      },
+      {
+        "text": "What we measure is not achievable, so the team becomes demoralized",
+        "answer": "Demoralization"
+      },
+      {
+        "text": "Using metrics to validate and confirm our own opinions rather than seeking objective truth",
+        "answer": "Confirmation bias"
+      }
+    ],
+    "options": [
+      "Hawthorne effect",
+      "Vanity metrics",
+      "Demoralization",
+      "Confirmation bias"
+    ],
+    "explanation": "These are key measurement pitfalls to be aware of in project management. Measuring the wrong things or using metrics incorrectly can harm team morale and decision quality. See PMBOK Guide 7th edition pages 111–112.",
+    "video_time": 4765
+  },
+  {
+    "number": 63,
+    "prompt": "Match each scenario to the correct measurement pitfall it illustrates.",
+    "left_label": "Scenario",
+    "right_label": "Measurement Pitfall",
+    "items": [
+      {
+        "text": "Tracking data that looks impressive but cannot be acted upon",
+        "answer": "Vanity metrics"
+      },
+      {
+        "text": "Using metrics as a beating stick and telling people to go faster instead of helping remove blockers",
+        "answer": "Misusing metrics"
+      },
+      {
+        "text": "Gathering data that aligns with a pre-existing opinion and ignoring contradicting data",
+        "answer": "Confirmation bias"
+      },
+      {
+        "text": "Assuming that because two things happen at the same time, one must have caused the other (e.g., ice cream sales and drowning rates)",
+        "answer": "Correlation vs causation"
+      }
+    ],
+    "options": [
+      "Vanity metrics",
+      "Misusing metrics",
+      "Confirmation bias",
+      "Correlation vs causation"
+    ],
+    "explanation": "Additional measurement pitfalls include misusing metrics as a management tool against teams rather than to improve outcomes, and confusing correlation with causation. See PMBOK Guide 7th edition pages 111–112.",
+    "video_time": 4862
+  },
+  {
+    "number": 64,
+    "prompt": "Match each description to the correct step in the benchmarking process, in the order the steps are performed.",
+    "left_label": "Description",
+    "right_label": "Benchmarking Step",
+    "items": [
+      {
+        "text": "Identify the process you want to improve",
+        "answer": "Select the process"
+      },
+      {
+        "text": "Identify your current process and the organizations you want to compare against",
+        "answer": "Determine current situation and comparators"
+      },
+      {
+        "text": "Thoroughly lay out your current process so you have a full picture of the current state",
+        "answer": "Document the current process"
+      },
+      {
+        "text": "Gather data from other organizations so you can compare it to your own process",
+        "answer": "Collect and compare data"
+      },
+      {
+        "text": "Identify improvements and put them into action",
+        "answer": "Plan and implement changes"
+      },
+      {
+        "text": "Evaluate the outcome of the changes and repeat the cycle",
+        "answer": "Review results and repeat"
+      }
+    ],
+    "options": [
+      "Select the process",
+      "Determine current situation and comparators",
+      "Document the current process",
+      "Collect and compare data",
+      "Plan and implement changes",
+      "Review results and repeat"
+    ],
+    "explanation": "Benchmarking compares your process against other organizations to find improvement opportunities. Consultancies like KPMG and McKinsey leverage benchmarking using data from multiple client engagements. See PMBOK Guide 7th edition page 249.",
+    "video_time": 4973
+  },
+  {
+    "number": 65,
+    "prompt": "Match each description to the correct type of analysis.",
+    "left_label": "Description",
+    "right_label": "Type of Analysis",
+    "items": [
+      {
+        "text": "Analysis on whether work should be completed internally or purchased from an external supplier",
+        "answer": "Make or buy analysis"
+      },
+      {
+        "text": "Prioritizing stakeholders by their influence and impact on the project",
+        "answer": "Stakeholder analysis"
+      },
+      {
+        "text": "Analyzing how much contingency and management reserves are remaining",
+        "answer": "Reserves analysis"
+      },
+      {
+        "text": "Evaluating how changes in key variables impact project outcomes",
+        "answer": "Sensitivity analysis"
+      }
+    ],
+    "options": [
+      "Make or buy analysis",
+      "Stakeholder analysis",
+      "Reserves analysis",
+      "Sensitivity analysis"
+    ],
+    "explanation": "These are common project analysis types. Sensitivity analysis is also known as a tornado chart because of the shape of its output diagram. See PMBOK Guide 7th edition pages 174–176.",
+    "video_time": 5057
+  },
+  {
+    "number": 66,
+    "prompt": "Match each description to the correct type of analysis.",
+    "left_label": "Description",
+    "right_label": "Type of Analysis",
+    "items": [
+      {
+        "text": "Analyzing a risk's probability and impact",
+        "answer": "Qualitative risk analysis"
+      },
+      {
+        "text": "Using 5 Whys, Ishikawa diagrams, or Pareto diagrams to find the root cause of a problem",
+        "answer": "Root cause analysis"
+      },
+      {
+        "text": "Using statistics to find trending data and trends over time",
+        "answer": "Regression analysis"
+      },
+      {
+        "text": "Analyzing strengths, weaknesses, opportunities, and threats",
+        "answer": "SWOT analysis"
+      }
+    ],
+    "options": [
+      "Qualitative risk analysis",
+      "Root cause analysis",
+      "Regression analysis",
+      "SWOT analysis"
+    ],
+    "explanation": "These analysis types cover risk assessment, problem solving, trend identification, and strategic planning. All are used across project management disciplines. See PMBOK Guide 7th edition pages 174–176.",
+    "video_time": 5170
+  },
+  {
+    "number": 67,
+    "prompt": "Match each description to the correct risk management term.",
+    "left_label": "Description",
+    "right_label": "Risk Term",
+    "items": [
+      {
+        "text": "A list of categories broken down from high level to low level used to brainstorm and organize risk categories",
+        "answer": "Risk breakdown structure"
+      },
+      {
+        "text": "Adjusting the backlog to balance the highest-cost risks with the highest-value features",
+        "answer": "Risk-adjusted backlog"
+      },
+      {
+        "text": "Evaluating risks based on their potential impact using subjective judgment and expert opinions",
+        "answer": "Qualitative risk analysis"
+      },
+      {
+        "text": "Analyzing risks based on statistical and mathematical methods",
+        "answer": "Quantitative risk analysis"
+      }
+    ],
+    "options": [
+      "Risk breakdown structure",
+      "Risk-adjusted backlog",
+      "Qualitative risk analysis",
+      "Quantitative risk analysis"
+    ],
+    "explanation": "Risk management tools range from structural (risk breakdown structure) to agile (risk-adjusted backlog) to analytical approaches (qualitative and quantitative). See Process Groups Practice Guide 2023, page 231.",
+    "video_time": 5295
+  },
+  {
+    "number": 68,
+    "prompt": "Match each description to the correct risk management component.",
+    "left_label": "Description",
+    "right_label": "Risk Component",
+    "items": [
+      {
+        "text": "Clear real-world measures of the risk impacts and likelihoods (e.g., defining what a likelihood of 1 out of 5 actually means in the organization)",
+        "answer": "Risk definitions"
+      },
+      {
+        "text": "The person accountable for the risk and its outcome",
+        "answer": "Risk owner"
+      },
+      {
+        "text": "The controls, mitigations, and other responses to identified risks",
+        "answer": "Risk responses"
+      },
+      {
+        "text": "A list of risks including the title, impact, status, owners, and responses",
+        "answer": "Risk register"
+      }
+    ],
+    "options": [
+      "Risk definitions",
+      "Risk owner",
+      "Risk responses",
+      "Risk register"
+    ],
+    "explanation": "Effective risk management requires clear definitions, ownership, planned responses, and a risk register to track everything. Organizations must define their own risk scales to make them meaningful. See PMBOK Guide 7th edition page 189.",
+    "video_time": 5312
+  },
+  {
+    "number": 69,
+    "prompt": "Match each description to the correct stakeholder management tool or document.",
+    "left_label": "Description",
+    "right_label": "Stakeholder Tool",
+    "items": [
+      {
+        "text": "Assessing stakeholders by their power, urgency, and legitimacy",
+        "answer": "Salience chart"
+      },
+      {
+        "text": "Prioritizing stakeholders according to their impact and influence",
+        "answer": "Stakeholder matrix"
+      },
+      {
+        "text": "A document that lists all project stakeholders, detailing their interests, influence, and impact on the project",
+        "answer": "Stakeholder register"
+      },
+      {
+        "text": "Classifying stakeholders by their current and desired level of support (unaware, resistant, neutral, supportive, leading)",
+        "answer": "Stakeholder engagement matrix"
+      }
+    ],
+    "options": [
+      "Salience chart",
+      "Stakeholder matrix",
+      "Stakeholder register",
+      "Stakeholder engagement matrix"
+    ],
+    "explanation": "Stakeholder management uses several tools: the salience chart adds a third dimension (legitimacy) compared to the standard matrix. The engagement matrix maps current (C) versus desired (D) support levels. See PMBOK Guide 7th edition page 250.",
+    "video_time": 5392
+  },
+  {
+    "number": 70,
+    "prompt": "Match each scenario to the correct prioritization technique.",
+    "left_label": "Scenario",
+    "right_label": "Prioritization Technique",
+    "items": [
+      {
+        "text": "Michael asks stakeholders to cast votes or rank and narrow down a list of features (participants may allocate multiple votes to a single item)",
+        "answer": "Multivoting"
+      },
+      {
+        "text": "Leia prioritizes items with the highest value and the lowest effort",
+        "answer": "Prioritization matrix"
+      },
+      {
+        "text": "Oliver is using SAFe and prioritizes features using a method similar to the cost of delay",
+        "answer": "Weighted shortest job first (WSJF)"
+      },
+      {
+        "text": "Ruby prioritizes features by must-haves, satisfiers, and delighters",
+        "answer": "Kano analysis"
+      }
+    ],
+    "options": [
+      "Multivoting",
+      "Prioritization matrix",
+      "Weighted shortest job first (WSJF)",
+      "Kano analysis"
+    ],
+    "explanation": "These prioritization techniques are common in agile environments. In Kano analysis, today's delighters become tomorrow's satisfiers and eventually must-haves as customer expectations evolve. See PMBOK Guide 7th edition page 250.",
+    "video_time": 5489
+  },
+  {
+    "number": 71,
+    "prompt": "Match each prioritization scenario to the correct prioritization method.",
+    "left_label": "Scenario",
+    "right_label": "Prioritization Method",
+    "items": [
+      {
+        "text": "Prioritizing by a dollar benefit versus the time it will take to deliver",
+        "answer": "Cost of Delay"
+      },
+      {
+        "text": "Prioritizing by Must Have, Should Have, Could Have, and Will Not Have",
+        "answer": "MoSCoW"
+      },
+      {
+        "text": "Evaluating and ranking options based on different criteria that we choose",
+        "answer": "Multicriteria Decision Analysis"
+      },
+      {
+        "text": "Prioritizing by effort and value",
+        "answer": "Prioritization Matrix"
+      }
+    ],
+    "options": [
+      "Cost of Delay",
+      "MoSCoW",
+      "Multicriteria Decision Analysis",
+      "Prioritization Matrix"
+    ],
+    "explanation": "These are four common prioritization techniques used in project and agile management. They are covered in the PMBOK Guide 7th Edition.",
+    "video_time": 5652
+  },
+  {
+    "number": 72,
+    "prompt": "Match each estimating description to the correct estimating method.",
+    "left_label": "Description",
+    "right_label": "Estimating Method",
+    "items": [
+      {
+        "text": "The team estimates on the effort; high and low estimates are discussed and then re-estimated until a consensus is reached",
+        "answer": "Wideband Delphi Estimating"
+      },
+      {
+        "text": "Estimating the size or effort of tasks by comparing them to the smallest one",
+        "answer": "Relative Estimating"
+      },
+      {
+        "text": "A weighted average of three estimates: optimistic, four times the most likely, and pessimistic, divided by six",
+        "answer": "Beta (PERT) Estimating"
+      },
+      {
+        "text": "Using something similar — an analogy — to estimate",
+        "answer": "Analogous Estimating"
+      }
+    ],
+    "options": [
+      "Wideband Delphi Estimating",
+      "Relative Estimating",
+      "Beta (PERT) Estimating",
+      "Analogous Estimating"
+    ],
+    "explanation": "These estimating methods are described in the PMBOK Guide 7th Edition, page 178. Wideband Delphi is the basis for planning poker in agile.",
+    "video_time": 5723
+  },
+  {
+    "number": 73,
+    "prompt": "Match each scenario to the correct visual data or information tool.",
+    "left_label": "Scenario",
+    "right_label": "Tool",
+    "items": [
+      {
+        "text": "James needs to see project activities visually as bars on a calendar",
+        "answer": "Gantt Chart"
+      },
+      {
+        "text": "Dylan has brainstormed dozens of ideas and needs to group them into similar categories",
+        "answer": "Affinity Diagram"
+      },
+      {
+        "text": "Hannah needs a count of defects on a bar chart so she can find the most occurring ones",
+        "answer": "Histogram"
+      },
+      {
+        "text": "Matthew has a complex defect and needs to find the root cause",
+        "answer": "Cause and Effect Diagram"
+      },
+      {
+        "text": "Mir is sequencing project activities and finding their dependencies",
+        "answer": "Schedule Network Diagram"
+      }
+    ],
+    "options": [
+      "Gantt Chart",
+      "Affinity Diagram",
+      "Histogram",
+      "Cause and Effect Diagram",
+      "Schedule Network Diagram"
+    ],
+    "explanation": "These visual data and information tools are covered in the PMBOK Guide 7th Edition, page 188. A cause and effect diagram is also known as a fishbone or Ishikawa diagram.",
+    "video_time": 5847
+  },
+  {
+    "number": 74,
+    "prompt": "Match each description to the correct scope document or component.",
+    "left_label": "Description",
+    "right_label": "Scope Component",
+    "items": [
+      {
+        "text": "A description of the project and the product scope and major deliverables",
+        "answer": "Scope Statement"
+      },
+      {
+        "text": "A visual example of the work decomposition into work packages",
+        "answer": "Work Breakdown Structure"
+      },
+      {
+        "text": "A matrix containing additional attributes for each work package, such as resources, cost, duration, and quality details",
+        "answer": "WBS Dictionary"
+      },
+      {
+        "text": "A piece of work or functionality small enough to be assigned to a person or team",
+        "answer": "Work Package"
+      },
+      {
+        "text": "Breaking down features into user stories mapped along the customer journey",
+        "answer": "Story Mapping"
+      }
+    ],
+    "options": [
+      "Scope Statement",
+      "Work Breakdown Structure",
+      "WBS Dictionary",
+      "Work Package",
+      "Story Mapping"
+    ],
+    "explanation": "These scope components make up the scope baseline, covered in the PMBOK Guide 7th Edition, page 236. In agile, user story mapping is the equivalent of work breakdown.",
+    "video_time": 5920
+  },
+  {
+    "number": 75,
+    "prompt": "Match each description to the correct Project Manager Talent Triangle competency.",
+    "left_label": "Description",
+    "right_label": "Competency",
+    "items": [
+      {
+        "text": "Agile, predictive, or hybrid project processes, ceremonies, and tools",
+        "answer": "Ways of Working"
+      },
+      {
+        "text": "Collaborative leadership, conflict management, team building, and effective communication",
+        "answer": "Power Skills"
+      },
+      {
+        "text": "Understanding value priorities, making good business decisions, delivering business value, and continuous improvement",
+        "answer": "Business Acumen"
+      }
+    ],
+    "options": [
+      "Ways of Working",
+      "Power Skills",
+      "Business Acumen"
+    ],
+    "explanation": "These three competencies form the Project Manager Talent Triangle and are covered in the Process Groups Practice Guide, page 58.",
+    "video_time": 6027
+  },
+  {
+    "number": 76,
+    "prompt": "Match each description to the correct critical path method or schedule concept.",
+    "left_label": "Description",
+    "right_label": "Schedule Concept",
+    "items": [
+      {
+        "text": "A sequence of activities that makes up the shortest possible duration for project completion",
+        "answer": "Critical Path"
+      },
+      {
+        "text": "The amount of time an activity can be delayed without affecting its successor activity",
+        "answer": "Free Float"
+      },
+      {
+        "text": "The amount of time an activity can be delayed and still keep the whole project on schedule",
+        "answer": "Total Float"
+      },
+      {
+        "text": "Dates when major items or deliverables will occur",
+        "answer": "Milestones"
+      },
+      {
+        "text": "The project days that are available for activities, including days off, holidays, and non-working days",
+        "answer": "Project Calendar"
+      }
+    ],
+    "options": [
+      "Critical Path",
+      "Free Float",
+      "Total Float",
+      "Milestones",
+      "Project Calendar"
+    ],
+    "explanation": "These critical path method concepts are covered in the Process Groups Practice Guide, page 262, under the critical path method.",
+    "video_time": 6089
+  },
+  {
+    "number": 77,
+    "prompt": "Place the scope planning steps in the correct order from first to last.",
+    "left_label": "Step",
+    "right_label": "Order",
+    "items": [
+      {
+        "text": "Create the Scope Management Plan",
+        "answer": "1st"
+      },
+      {
+        "text": "Collect (elicit/gather) Requirements from stakeholders",
+        "answer": "2nd"
+      },
+      {
+        "text": "Create the Scope Statement",
+        "answer": "3rd"
+      },
+      {
+        "text": "Create the Work Breakdown Structure",
+        "answer": "4th"
+      },
+      {
+        "text": "Create the WBS Dictionary",
+        "answer": "5th"
+      },
+      {
+        "text": "Identify the final list of Work Packages",
+        "answer": "6th"
+      }
+    ],
+    "options": [
+      "1st",
+      "2nd",
+      "3rd",
+      "4th",
+      "5th",
+      "6th"
+    ],
+    "explanation": "This is the standard sequence for planning scope, covered in the Process Groups Practice Guide under process groups and management phases, page 22.",
+    "video_time": 6153
+  },
+  {
+    "number": 78,
+    "prompt": "Place the schedule planning steps in the correct order from first to last.",
+    "left_label": "Step",
+    "right_label": "Order",
+    "items": [
+      {
+        "text": "Create the Schedule Management Plan",
+        "answer": "1st"
+      },
+      {
+        "text": "Create the list of activities based on scope and milestones",
+        "answer": "2nd"
+      },
+      {
+        "text": "Sequence the activities and identify dependencies",
+        "answer": "3rd"
+      },
+      {
+        "text": "Estimate the activity durations",
+        "answer": "4th"
+      },
+      {
+        "text": "Obtain approval to create the Baseline Schedule",
+        "answer": "5th"
+      }
+    ],
+    "options": [
+      "1st",
+      "2nd",
+      "3rd",
+      "4th",
+      "5th"
+    ],
+    "explanation": "This is the standard sequence for planning the project schedule, covered in the Process Groups Practice Guide, page 58, under schedules.",
+    "video_time": 6247
+  },
+  {
+    "number": 79,
+    "prompt": "Place the project integration steps in the correct order from first to last.",
+    "left_label": "Step",
+    "right_label": "Order",
+    "items": [
+      {
+        "text": "Business Case — assess feasibility and whether the project will deliver value",
+        "answer": "1st"
+      },
+      {
+        "text": "Project Charter — the project sponsor signs off and gives access to funding and resources",
+        "answer": "2nd"
+      },
+      {
+        "text": "Project Management Plan — plan procurement, risk, communications, and resources",
+        "answer": "3rd"
+      },
+      {
+        "text": "Project Management Information System (PMIS) — access and use throughout the project",
+        "answer": "4th"
+      },
+      {
+        "text": "Final Report — close the phase or project so everyone is on the same page",
+        "answer": "5th"
+      }
+    ],
+    "options": [
+      "1st",
+      "2nd",
+      "3rd",
+      "4th",
+      "5th"
+    ],
+    "explanation": "These are the five key steps of project integration, referenced in the Process Groups Practice Guide, pages 288 and 211, under final report and project management information system.",
+    "video_time": 6305
+  },
+  {
+    "number": 80,
+    "prompt": "Match each Earned Value Management result to the correct project status interpretation.",
+    "left_label": "EVM Result",
+    "right_label": "Project Status",
+    "items": [
+      {
+        "text": "Cost Performance Index (CPI) = 1.2",
+        "answer": "Under Budget"
+      },
+      {
+        "text": "Schedule Performance Index (SPI) = 0.8",
+        "answer": "Behind Schedule"
+      },
+      {
+        "text": "Cost Variance is less than zero",
+        "answer": "Over Budget"
+      },
+      {
+        "text": "Schedule Variance is greater than zero",
+        "answer": "Ahead of Schedule"
+      }
+    ],
+    "options": [
+      "Under Budget",
+      "Behind Schedule",
+      "Over Budget",
+      "Ahead of Schedule"
+    ],
+    "explanation": "For CPI and SPI, greater than 1 means more was delivered than planned (favorable); less than 1 means less was delivered (unfavorable). For variances, less than zero means unfavorable and greater than zero means favorable.",
+    "video_time": 6383
+  },
+  {
+    "number": 81,
+    "prompt": "Match each description to the correct technique for dealing with complexity.",
+    "left_label": "Description",
+    "right_label": "Technique",
+    "items": [
+      {
+        "text": "An iterative process of adding greater levels of detail as they become available.",
+        "answer": "Progressive elaboration"
+      },
+      {
+        "text": "A small, low-cost version of the real thing used to test whether the real thing might work.",
+        "answer": "Prototype"
+      },
+      {
+        "text": "Tests of similar items to the real thing in a controlled environment to identify cause and effect.",
+        "answer": "Experiment"
+      },
+      {
+        "text": "Similar scenarios or data used to find insights (e.g., Monte Carlo).",
+        "answer": "Simulation"
+      }
+    ],
+    "options": [
+      "Progressive elaboration",
+      "Prototype",
+      "Experiment",
+      "Simulation"
+    ],
+    "explanation": "These are techniques for dealing with complexity covered on page 120 of the PMBOK Guide 7th Edition. Progressive elaboration adds detail iteratively, a prototype is a low-cost model, experiments test cause and effect, and simulation (such as Monte Carlo) uses scenarios or data to find insights.",
+    "video_time": 6517
+  },
+  {
+    "number": 82,
+    "prompt": "Match each tailoring approach to the project situation that calls for it.",
+    "left_label": "Tailoring Approach",
+    "right_label": "Situation",
+    "items": [
+      {
+        "text": "Use value stream mapping and Kanban boards to visualize work and track issues.",
+        "answer": "High rates of scrap and waste in the process"
+      },
+      {
+        "text": "Streamline approval decisions through fewer people up to certain value thresholds.",
+        "answer": "Long delays for approvals"
+      },
+      {
+        "text": "Use feedback loops to check whether sufficient information is being shared.",
+        "answer": "Stakeholders not engaged"
+      },
+      {
+        "text": "Add more guidance, training, and verification.",
+        "answer": "People unsure of how to do the work"
+      }
+    ],
+    "options": [
+      "High rates of scrap and waste in the process",
+      "Long delays for approvals",
+      "Stakeholders not engaged",
+      "People unsure of how to do the work"
+    ],
+    "explanation": "These tailoring suggestions are found on page 151 of the PMBOK Guide 7th Edition. Value stream mapping identifies waste, streamlined approvals address long delays, feedback loops improve stakeholder engagement, and added guidance addresses skill uncertainty.",
+    "video_time": 6621
+  },
+  {
+    "number": 83,
+    "prompt": "Match each team behavior to the correct stage of Tuckman's Ladder.",
+    "left_label": "Team Behavior",
+    "right_label": "Tuckman Stage",
+    "items": [
+      {
+        "text": "Team members are getting acquainted, establishing ground rules, and forming initial impressions.",
+        "answer": "Forming"
+      },
+      {
+        "text": "Team members are disagreeing over roles and responsibilities, creating collaboration challenges.",
+        "answer": "Storming"
+      },
+      {
+        "text": "Team members are building relationships, resolving conflicts, and working together as a team.",
+        "answer": "Norming"
+      },
+      {
+        "text": "The team is operating efficiently, leveraging strong collaboration to achieve high levels of productivity.",
+        "answer": "Performing"
+      },
+      {
+        "text": "The team completes their tasks, reflects on their achievements, and transitions out of their roles.",
+        "answer": "Adjourning"
+      }
+    ],
+    "options": [
+      "Forming",
+      "Storming",
+      "Norming",
+      "Performing",
+      "Adjourning"
+    ],
+    "explanation": "Tuckman's Ladder is covered on page 166 of the PMBOK Guide 7th Edition. The five stages are Forming, Storming, Norming, Performing, and Adjourning, each reflecting a distinct phase of team development.",
+    "video_time": 6742
+  },
+  {
+    "number": 84,
+    "prompt": "Match each scenario to the correct project artifact.",
+    "left_label": "Scenario",
+    "right_label": "Artifact",
+    "items": [
+      {
+        "text": "Ken would like to transition the company to a new CRM system and needs to evaluate the benefits, costs, and risks to secure approval.",
+        "answer": "Business case"
+      },
+      {
+        "text": "Mary has received approval to develop new software and needs to outline the project scope, stakeholders, and roles to formally authorize the project.",
+        "answer": "Project charter"
+      },
+      {
+        "text": "Tim needs to develop a document defining how his project will be executed, monitored, controlled, and closed.",
+        "answer": "Project management plan"
+      },
+      {
+        "text": "Rob is developing strategies for engaging people, managing expectations, and ensuring effective communication throughout the project.",
+        "answer": "Stakeholder management plan"
+      }
+    ],
+    "options": [
+      "Business case",
+      "Project charter",
+      "Project management plan",
+      "Stakeholder management plan"
+    ],
+    "explanation": "These are strategy artifacts covered on page 184 of the PMBOK Guide 7th Edition. A business case justifies the project, the project charter formally authorizes it, the project management plan defines execution, and the stakeholder management plan guides engagement.",
+    "video_time": 6813
+  },
+  {
+    "number": 85,
+    "prompt": "Match each characteristic to either a Predictive or an Agile approach.",
+    "left_label": "Characteristic",
+    "right_label": "Approach",
+    "items": [
+      {
+        "text": "Fixed scope and requirements defined at the beginning; changes require a change request.",
+        "answer": "Predictive"
+      },
+      {
+        "text": "Adaptive planning that evolves throughout the project.",
+        "answer": "Agile"
+      },
+      {
+        "text": "Incremental delivery of value throughout the project.",
+        "answer": "Agile"
+      },
+      {
+        "text": "Sequential, step-by-step phases.",
+        "answer": "Predictive"
+      },
+      {
+        "text": "Detailed planning performed upfront.",
+        "answer": "Predictive"
+      },
+      {
+        "text": "Cross-functional teams with T-shaped (generalizing specialist) members.",
+        "answer": "Agile"
+      }
+    ],
+    "options": [
+      "Predictive",
+      "Agile"
+    ],
+    "explanation": "The PMBOK Guide 7th Edition contrasts predictive (waterfall) and agile approaches. Predictive uses fixed scope, sequential phases, and detailed upfront planning, while agile uses adaptive planning, incremental delivery, and cross-functional teams.",
+    "video_time": 6883
+  },
+  {
+    "number": 86,
+    "prompt": "Match each artifact or tool to either a Predictive or an Agile approach.",
+    "left_label": "Artifact or Tool",
+    "right_label": "Approach",
+    "items": [
+      {
+        "text": "Product backlog",
+        "answer": "Agile"
+      },
+      {
+        "text": "Sprint backlog",
+        "answer": "Agile"
+      },
+      {
+        "text": "Work breakdown structure (WBS)",
+        "answer": "Predictive"
+      },
+      {
+        "text": "Change management plan",
+        "answer": "Predictive"
+      },
+      {
+        "text": "Risk management plan",
+        "answer": "Predictive"
+      },
+      {
+        "text": "Burndown chart",
+        "answer": "Agile"
+      }
+    ],
+    "options": [
+      "Agile",
+      "Predictive"
+    ],
+    "explanation": "The PMBOK Guide 7th Edition associates specific artifacts with each approach. Product backlog, sprint backlog, and burndown charts are agile tools, while WBS, change management plan, and risk management plan are predictive artifacts.",
+    "video_time": 6946
+  },
+  {
+    "number": 87,
+    "prompt": "Match each artifact or planning approach to either Predictive, Agile, or Both.",
+    "left_label": "Artifact or Approach",
+    "right_label": "Classification",
+    "items": [
+      {
+        "text": "User stories",
+        "answer": "Agile"
+      },
+      {
+        "text": "Work breakdown structure (WBS)",
+        "answer": "Predictive"
+      },
+      {
+        "text": "Project charter",
+        "answer": "Both"
+      },
+      {
+        "text": "Rolling wave planning",
+        "answer": "Both"
+      }
+    ],
+    "options": [
+      "Agile",
+      "Predictive",
+      "Both"
+    ],
+    "explanation": "Per the PMBOK Guide 7th Edition, user stories are agile, WBS is predictive, while the project charter and rolling wave planning apply to both approaches (including hybrid projects). Every project needs a project charter to authorize access to resources.",
+    "video_time": 6995
+  },
+  {
+    "number": 88,
+    "prompt": "Match each project situation to the recommended agile or project management technique.",
+    "left_label": "Project Situation",
+    "right_label": "Technique",
+    "items": [
+      {
+        "text": "The project team is struggling with visibility into the project status, leading to confusion and delays in addressing issues.",
+        "answer": "Collocated teams"
+      },
+      {
+        "text": "The project team has been experiencing communication delays and misunderstandings.",
+        "answer": "Information radiator"
+      },
+      {
+        "text": "The development team is facing issues with frequent rework and misaligned expectations.",
+        "answer": "Continuous feedback loops"
+      },
+      {
+        "text": "The project is falling behind schedule due to unforeseen delays and the team needs to accelerate completion of critical tasks.",
+        "answer": "Schedule crashing"
+      }
+    ],
+    "options": [
+      "Information radiator",
+      "Continuous feedback loops",
+      "Collocated teams",
+      "Schedule crashing"
+    ],
+    "explanation": "These project situations are covered in the PMBOK Guide 7th Edition as common scenarios requiring targeted responses. Collocating teams improves visibility, information radiators address communication, feedback loops reduce rework, and schedule crashing accelerates critical path tasks by adding resources.",
+    "video_time": 7043
+  },
+  {
+    "number": 89,
+    "prompt": "Match each project situation to the correct tool or technique.",
+    "left_label": "Project Situation",
+    "right_label": "Tool or Technique",
+    "items": [
+      {
+        "text": "The team is planning a new project and needs to assess what they are good and bad at to make informed decisions.",
+        "answer": "SWOT analysis"
+      },
+      {
+        "text": "The team is struggling with aligning their development efforts and ensuring they deliver features in a strategic order.",
+        "answer": "Product roadmap"
+      },
+      {
+        "text": "After completing several sprints, the team is experiencing recurring issues and inefficiencies affecting their performance.",
+        "answer": "Retrospective"
+      },
+      {
+        "text": "The project manager needs to quickly estimate the duration and cost of a new project but lacks detailed information.",
+        "answer": "Analogous estimating"
+      }
+    ],
+    "options": [
+      "SWOT analysis",
+      "Product roadmap",
+      "Retrospective",
+      "Analogous estimating"
+    ],
+    "explanation": "These are common project management tools covered in the PMBOK Guide 7th Edition. SWOT analysis evaluates strengths and weaknesses, a product roadmap sequences feature delivery, retrospectives improve process after sprints, and analogous estimating uses similar projects for quick estimates.",
+    "video_time": 7142
+  },
+  {
+    "number": 90,
+    "prompt": "Match each scope-related concept to either a Predictive or an Agile approach.",
+    "left_label": "Concept",
+    "right_label": "Approach",
+    "items": [
+      {
+        "text": "Scope is fixed.",
+        "answer": "Predictive"
+      },
+      {
+        "text": "Scope is variable; reprioritized in the product backlog.",
+        "answer": "Agile"
+      },
+      {
+        "text": "Scope management plan (all scope planned upfront).",
+        "answer": "Predictive"
+      },
+      {
+        "text": "Product backlog with epics and user stories.",
+        "answer": "Agile"
+      },
+      {
+        "text": "Deliverables and work packages.",
+        "answer": "Predictive"
+      }
+    ],
+    "options": [
+      "Predictive",
+      "Agile"
+    ],
+    "explanation": "The PMBOK Guide 7th Edition contrasts how scope is managed in predictive versus agile approaches. Predictive projects fix scope upfront with a scope management plan, deliverables, and work packages, while agile projects manage variable scope through a product backlog with epics and user stories.",
+    "video_time": 7232
+  },
+  {
+    "number": 91,
+    "prompt": "Match each project artifact or practice to its project approach: Agile or Predictive.",
+    "left_label": "Artifact / Practice",
+    "right_label": "Approach",
+    "items": [
+      {
+        "text": "Product and Sprint reviews held at the end of each increment",
+        "answer": "Agile"
+      },
+      {
+        "text": "Close customer contact with face-to-face communication preferred",
+        "answer": "Agile"
+      },
+      {
+        "text": "Complete requirements document created upfront",
+        "answer": "Predictive"
+      },
+      {
+        "text": "System documentation used instead of reviewing the actual product",
+        "answer": "Predictive"
+      },
+      {
+        "text": "Schedule Network diagram (e.g., Gantt chart) used to show order of activities",
+        "answer": "Predictive"
+      },
+      {
+        "text": "Product road map used to sequence work",
+        "answer": "Agile"
+      }
+    ],
+    "options": [
+      "Agile",
+      "Predictive"
+    ],
+    "explanation": "In agile, sprint reviews and continuous customer collaboration replace upfront documentation; a product road map serves the same sequencing purpose as a schedule network diagram in predictive. Referenced in PMBOK Guide 7th edition.",
+    "video_time": 7320
+  },
+  {
+    "number": 92,
+    "prompt": "Match each process or tool/technique to its Planning Schedule Management process in the process groups.",
+    "left_label": "Process / Tool or Technique",
+    "right_label": "Schedule Management Process",
+    "items": [
+      {
+        "text": "Creating the schedule management plan (how we will manage the schedule)",
+        "answer": "Plan Schedule Management"
+      },
+      {
+        "text": "Precedence Diagramming Method — determining what comes first and what comes next",
+        "answer": "Sequence Activities"
+      },
+      {
+        "text": "Leads and Lags — adjusting timing relationships between activities",
+        "answer": "Sequence Activities"
+      },
+      {
+        "text": "Critical Path Method — calculating the longest path through the network",
+        "answer": "Develop Schedule"
+      },
+      {
+        "text": "Decomposition — breaking scope down into individual activities",
+        "answer": "Define Activities"
+      }
+    ],
+    "options": [
+      "Plan Schedule Management",
+      "Sequence Activities",
+      "Develop Schedule",
+      "Define Activities"
+    ],
+    "explanation": "Both the Precedence Diagramming Method and Leads and Lags are tools and techniques of Sequence Activities; Decomposition is used in Define Activities. See PMBOK Guide 7th edition page 89, Plan Schedule Management.",
+    "video_time": 7385
+  },
+  {
+    "number": 93,
+    "prompt": "Match each procurement description to its correct procurement term.",
+    "left_label": "Description",
+    "right_label": "Procurement Term",
+    "items": [
+      {
+        "text": "A benchmark quote prepared by an outside professional estimator, or commercial databases and consultancy firms providing industry cost data",
+        "answer": "Independent Cost Estimates"
+      },
+      {
+        "text": "Defining the scope to be included in the contract and the terms of reference that the vendor needs to bid on",
+        "answer": "Statement of Work"
+      },
+      {
+        "text": "Used to ensure all prospective vendors have a common understanding and no one receives preferential treatment",
+        "answer": "Bidder Conference"
+      }
+    ],
+    "options": [
+      "Independent Cost Estimates",
+      "Statement of Work",
+      "Bidder Conference"
+    ],
+    "explanation": "Independent cost estimates provide a benchmark; the statement of work defines what the vendor must deliver; a bidder conference levels the playing field for all sellers. See PMBOK Guide 7th edition page 74.",
+    "video_time": 7481
+  },
+  {
+    "number": 94,
+    "prompt": "Match each procurement description to its correct procurement term.",
+    "left_label": "Description",
+    "right_label": "Procurement Term",
+    "items": [
+      {
+        "text": "Used to explain the opportunity or expand the list of potential sellers, especially required for government contracts",
+        "answer": "Advertising"
+      },
+      {
+        "text": "Contested items in a project where the buyer and seller cannot agree on changes",
+        "answer": "Claims Administration"
+      },
+      {
+        "text": "Details on how the vendor is chosen, including capability criteria used to select the seller",
+        "answer": "Source Selection Criteria"
+      }
+    ],
+    "options": [
+      "Advertising",
+      "Claims Administration",
+      "Source Selection Criteria"
+    ],
+    "explanation": "Advertising widens the seller pool, claims administration handles disputes between buyer and seller, and source selection criteria define how vendors are evaluated. Referenced in PMBOK Guide 7th edition under working with procurements.",
+    "video_time": 7509
+  },
+  {
+    "number": 95,
+    "prompt": "Match each project management activity description to its correct process.",
+    "left_label": "Activity Description",
+    "right_label": "Process",
+    "items": [
+      {
+        "text": "Subdividing project deliverables into smaller, more manageable components",
+        "answer": "Create WBS"
+      },
+      {
+        "text": "Finding the number of work periods needed to complete individual activities",
+        "answer": "Estimate Activity Durations"
+      },
+      {
+        "text": "Developing approaches to involve project stakeholders based on their needs",
+        "answer": "Plan Stakeholder Engagement"
+      },
+      {
+        "text": "Developing the document that formally authorizes the project",
+        "answer": "Develop Project Charter"
+      }
+    ],
+    "options": [
+      "Create WBS",
+      "Estimate Activity Durations",
+      "Plan Stakeholder Engagement",
+      "Develop Project Charter"
+    ],
+    "explanation": "Each activity maps to a distinct planning or initiating process; the project charter formally authorizes the project while stakeholder engagement planning addresses involvement strategies. Referenced in the Process Groups Practice Guide.",
+    "video_time": 7608
+  },
+  {
+    "number": 96,
+    "prompt": "Match each risk parameter description to its correct risk assessment factor.",
+    "left_label": "Description",
+    "right_label": "Risk Parameter",
+    "items": [
+      {
+        "text": "The period of time needed to respond to the risk for the response to be effective",
+        "answer": "Urgency"
+      },
+      {
+        "text": "The ease with which the results of a risk can be recognized",
+        "answer": "Detectability"
+      },
+      {
+        "text": "The period of time between a risk occurring and when it might be discovered",
+        "answer": "Dormancy"
+      },
+      {
+        "text": "How related the risk is to other project risks — how connected it is to them",
+        "answer": "Connectivity"
+      }
+    ],
+    "options": [
+      "Urgency",
+      "Detectability",
+      "Dormancy",
+      "Connectivity"
+    ],
+    "explanation": "These four parameters — urgency, detectability, dormancy, and connectivity — are used in assessing other risk factors. See PMBOK Guide 7th edition page 247, Assessment of Other Risk Factors.",
+    "video_time": 7656
+  },
+  {
+    "number": 97,
+    "prompt": "Match each agile problem scenario to the recommended corrective action.",
+    "left_label": "Problem Scenario",
+    "right_label": "Corrective Action",
+    "items": [
+      {
+        "text": "The team is producing too many defects",
+        "answer": "Workshop the definition of done; use test-driven development, shoulder checks, and pair programming"
+      },
+      {
+        "text": "The team has inaccurate estimation",
+        "answer": "Reduce the user story size and estimate with the people doing the work"
+      },
+      {
+        "text": "The project has accumulated technical debt",
+        "answer": "Build a slack card to refactor code and ensure developers are part of user story creation"
+      },
+      {
+        "text": "Team progress is unclear",
+        "answer": "Use a Kanban board and daily standups to report blockers and micro-commit to next steps"
+      }
+    ],
+    "options": [
+      "Workshop the definition of done; use test-driven development, shoulder checks, and pair programming",
+      "Reduce the user story size and estimate with the people doing the work",
+      "Build a slack card to refactor code and ensure developers are part of user story creation",
+      "Use a Kanban board and daily standups to report blockers and micro-commit to next steps"
+    ],
+    "explanation": "These are agile pain points and troubleshooting techniques; a slack card addresses technical debt by dedicating sprint capacity to code refactoring. See Agile Practice Guide page 58.",
+    "video_time": 7723
+  },
+  {
+    "number": 98,
+    "prompt": "Match each project scenario to its correct process group.",
+    "left_label": "Scenario",
+    "right_label": "Process Group",
+    "items": [
+      {
+        "text": "The team is defining project goals, securing stakeholder buy-in, and creating the project charter",
+        "answer": "Initiating"
+      },
+      {
+        "text": "The team is developing a detailed schedule, allocating resources, and defining the project scope",
+        "answer": "Planning"
+      },
+      {
+        "text": "The team is completing deliverables, coordinating team activities, and managing resources",
+        "answer": "Executing"
+      },
+      {
+        "text": "The manager is tracking progress, measuring performance, and making adjustments",
+        "answer": "Monitoring and Controlling"
+      },
+      {
+        "text": "The team has completed all deliverables, reviewed outcomes, and is finalizing documentation and creating a final report",
+        "answer": "Closing"
+      }
+    ],
+    "options": [
+      "Initiating",
+      "Planning",
+      "Executing",
+      "Monitoring and Controlling",
+      "Closing"
+    ],
+    "explanation": "The five process groups — Initiating, Planning, Executing, Monitoring and Controlling, and Closing — each represent a distinct phase of project management activity. See PMBOK Guide 7th edition page 171 under Process Groups.",
+    "video_time": 7821
+  },
+  {
+    "number": 99,
+    "prompt": "Match each agile team problem to the recommended corrective action.",
+    "left_label": "Problem",
+    "right_label": "Corrective Action",
+    "items": [
+      {
+        "text": "Work is not completed within sprints",
+        "answer": "Reduce the story size and ensure the definition of done is crisp and clear"
+      },
+      {
+        "text": "The team is struggling with obstacles",
+        "answer": "Ensure the servant leader or Scrum Master escalates, problem-solves, or clears obstacles"
+      },
+      {
+        "text": "There is no improvement in the team process",
+        "answer": "Hold retrospectives regularly with no more than three action items for next time"
+      },
+      {
+        "text": "Teams or resources are siloed or not directly involved with the project",
+        "answer": "Work with managers of external resources to dedicate them to the team using a whole-team approach"
+      }
+    ],
+    "options": [
+      "Reduce the story size and ensure the definition of done is crisp and clear",
+      "Ensure the servant leader or Scrum Master escalates, problem-solves, or clears obstacles",
+      "Hold retrospectives regularly with no more than three action items for next time",
+      "Work with managers of external resources to dedicate them to the team using a whole-team approach"
+    ],
+    "explanation": "These agile troubleshooting strategies address common sprint and team collaboration problems. See Agile Practice Guide page 59, Agile Pain Points and Troubleshooting.",
+    "video_time": 7896
+  },
+  {
+    "number": 100,
+    "prompt": "Match each project situation to the correct project log or register.",
+    "left_label": "Situation",
+    "right_label": "Log / Register",
+    "items": [
+      {
+        "text": "Billy wants to add a feature to the project, but the scope is already baselined",
+        "answer": "Change Log"
+      },
+      {
+        "text": "One of the resources has been delayed, which is now impacting the project schedule",
+        "answer": "Issue Log"
+      },
+      {
+        "text": "The receiving organization tells you of a regulatory change that could impact scope in the future",
+        "answer": "Risk Register"
+      },
+      {
+        "text": "The team has estimated activity durations but noted they are only accurate given their current expertise",
+        "answer": "Assumption Log"
+      }
+    ],
+    "options": [
+      "Change Log",
+      "Issue Log",
+      "Risk Register",
+      "Assumption Log"
+    ],
+    "explanation": "Current problems are issues, future uncertainties are risks, scope requests against a baseline require a change log entry, and documented uncertainties about estimates belong in the assumption log. See PMBOK Guide 7th edition page 185 under Logs and Registers.",
+    "video_time": 7959
+  },
+  {
+    "number": 101,
+    "prompt": "Match each project checking-outcome scenario to the category it indicates.",
+    "left_label": "Scenario",
+    "right_label": "Checking outcome category",
+    "items": [
+      {
+        "text": "A significant number of changes are happening to the project requirements and scope.",
+        "answer": "Dissatisfied stakeholders"
+      },
+      {
+        "text": "Review the issue register for individual stakeholder challenges and use surveys and interviews.",
+        "answer": "Dissatisfied stakeholders"
+      },
+      {
+        "text": "Project team applies critical thinking and interpersonal skills.",
+        "answer": "Leadership"
+      },
+      {
+        "text": "Project team adapts to changing situations and is resilient in the face of challenges.",
+        "answer": "High-performing team"
+      }
+    ],
+    "options": [
+      "Dissatisfied stakeholders",
+      "Leadership",
+      "High-performing team"
+    ],
+    "explanation": "Checking outcomes for stakeholders and team is covered in PMBOK Guide 7th edition, page 15, under checking results stakeholder and checking results team.",
+    "video_time": 7476
+  },
+  {
+    "number": 102,
+    "prompt": "Match each change scenario to the correct project methodology (Adaptive or Predictive).",
+    "left_label": "Change scenario",
+    "right_label": "Methodology",
+    "items": [
+      {
+        "text": "A product owner reprioritizes the product backlog and adjusts the product roadmap.",
+        "answer": "Adaptive"
+      },
+      {
+        "text": "A change request is logged as per the process in the change management plan.",
+        "answer": "Predictive"
+      },
+      {
+        "text": "Project scope changes are updated on an information radiator.",
+        "answer": "Adaptive"
+      },
+      {
+        "text": "Changes are communicated to the correct stakeholders in the ways that they prefer using the communications management plan.",
+        "answer": "Predictive"
+      }
+    ],
+    "options": [
+      "Adaptive",
+      "Predictive"
+    ],
+    "explanation": "In adaptive (agile) work, changes flow through the product backlog and information radiators; in predictive work, changes follow a formal change management plan and communications management plan.",
+    "video_time": 7772
+  },
+  {
+    "number": 103,
+    "prompt": "Match each project question to the artifact or tool used to answer it.",
+    "left_label": "Project question",
+    "right_label": "Artifact or tool",
+    "items": [
+      {
+        "text": "Is the project supported by the organization and allowed the resources to proceed?",
+        "answer": "Project charter"
+      },
+      {
+        "text": "Is the project on track to realize the intended outcomes in the time frame planned?",
+        "answer": "Business case and benefits management plan"
+      },
+      {
+        "text": "Does the adaptive project team understand the product requirements?",
+        "answer": "Backlog and user stories"
+      },
+      {
+        "text": "Are stakeholders satisfied with and accepting the project deliverables?",
+        "answer": "Sprint reviews"
+      }
+    ],
+    "options": [
+      "Project charter",
+      "Business case and benefits management plan",
+      "Backlog and user stories",
+      "Sprint reviews"
+    ],
+    "explanation": "The project charter authorizes the project; the business case and benefits management plan track benefit realization; backlog and user stories capture adaptive requirements; sprint reviews are when stakeholders accept deliverables.",
+    "video_time": 7829
+  },
+  {
+    "number": 104,
+    "prompt": "Match each stakeholder or team measurement scenario to the correct measurement method.",
+    "left_label": "Scenario",
+    "right_label": "Measurement method",
+    "items": [
+      {
+        "text": "Asking project team members to rate their agreement with statements such as 'I feel my work contributes to the overall outcomes.'",
+        "answer": "Survey"
+      },
+      {
+        "text": "High rates of unplanned team turnover and lots of absenteeism.",
+        "answer": "Low team morale"
+      },
+      {
+        "text": "Measuring the degree to which a stakeholder or customer is willing to recommend a project or product to others.",
+        "answer": "Net promoter score"
+      },
+      {
+        "text": "Tracking how stakeholders are feeling using colors, numbers, or emojis.",
+        "answer": "Mood chart"
+      }
+    ],
+    "options": [
+      "Survey",
+      "Low team morale",
+      "Net promoter score",
+      "Mood chart"
+    ],
+    "explanation": "Methods for measuring stakeholders and team engagement are covered in PMBOK Guide 7th edition, page 103, under measures stakeholders.",
+    "video_time": 7894
+  },
+  {
+    "number": 105,
+    "prompt": "Match each uncertainty description to the correct VUCA element and its recommended response.",
+    "left_label": "Description",
+    "right_label": "VUCA element",
+    "items": [
+      {
+        "text": "Many interconnected influencers that behave in diverse ways; reframe or disconnect parts of the system.",
+        "answer": "Complexity"
+      },
+      {
+        "text": "An event that, if it occurs, has a positive or negative effect on one of the project objectives.",
+        "answer": "Risk"
+      },
+      {
+        "text": "The probability or possibility for rapid and unpredictable change; use alternatives and have reserves at the ready.",
+        "answer": "Volatility"
+      },
+      {
+        "text": "A state of being unclear or having difficulty identifying the underlying cause of events; use prototypes and experiments.",
+        "answer": "Ambiguity"
+      }
+    ],
+    "options": [
+      "Complexity",
+      "Risk",
+      "Volatility",
+      "Ambiguity"
+    ],
+    "explanation": "VUCA (Volatility, Uncertainty, Complexity, Ambiguity) and responses to uncertainty are covered in PMBOK Guide 7th edition, pages 119 to 122, under uncertainty.",
+    "video_time": 7987
+  },
+  {
+    "number": 106,
+    "prompt": "Match each estimate range to the correct estimate type.",
+    "left_label": "Estimate range",
+    "right_label": "Estimate type",
+    "items": [
+      {
+        "text": "-25% to +75%",
+        "answer": "Rough order of magnitude"
+      },
+      {
+        "text": "-15% to +50%",
+        "answer": "Preliminary estimate"
+      },
+      {
+        "text": "-10% to +25%",
+        "answer": "Budget estimate"
+      },
+      {
+        "text": "-5% to +10%",
+        "answer": "Definitive estimate"
+      },
+      {
+        "text": "0% (final amount, no wiggle room)",
+        "answer": "Final estimate"
+      }
+    ],
+    "options": [
+      "Rough order of magnitude",
+      "Preliminary estimate",
+      "Budget estimate",
+      "Definitive estimate",
+      "Final estimate"
+    ],
+    "explanation": "Estimate ranges narrow as the project progresses; from rough order of magnitude early on to the final estimate when work is complete and costs are settled.",
+    "video_time": 8077
+  },
+  {
+    "number": 107,
+    "prompt": "Match each project characteristic to the correct methodology: Adaptive or Predictive.",
+    "left_label": "Project characteristic",
+    "right_label": "Methodology",
+    "items": [
+      {
+        "text": "Fixed cost with a fixed team for a fixed amount of time continuously releasing features.",
+        "answer": "Adaptive"
+      },
+      {
+        "text": "Servant leadership style.",
+        "answer": "Adaptive"
+      },
+      {
+        "text": "Directing leadership style (command and control).",
+        "answer": "Predictive"
+      },
+      {
+        "text": "Prefers written communication such as system documents and requirements documents.",
+        "answer": "Predictive"
+      },
+      {
+        "text": "Prefers face-to-face communication.",
+        "answer": "Adaptive"
+      },
+      {
+        "text": "Requirements are progressively elaborated throughout the project.",
+        "answer": "Adaptive"
+      },
+      {
+        "text": "Requirements are defined at the beginning of the project.",
+        "answer": "Predictive"
+      }
+    ],
+    "options": [
+      "Adaptive",
+      "Predictive"
+    ],
+    "explanation": "Adaptive (agile) approaches use servant leadership, face-to-face communication, fixed-team cost models, and progressive elaboration; predictive approaches use directing leadership, written communication, and upfront requirements definition.",
+    "video_time": 8359
+  },
+  {
+    "number": 108,
+    "prompt": "Match each project team member's risk activity to the correct risk management process.",
+    "left_label": "Activity description",
+    "right_label": "Risk management process",
+    "items": [
+      {
+        "text": "Ben is numerically analyzing the effect of uncertainty on the project objectives using quantitative analysis.",
+        "answer": "Perform quantitative risk analysis"
+      },
+      {
+        "text": "Michael is defining the degree, type, and visibility of risk management activities for the project.",
+        "answer": "Plan risk management"
+      },
+      {
+        "text": "Sarah is finding and categorizing individual project risks as well as sources of overall project risk.",
+        "answer": "Identify risks"
+      },
+      {
+        "text": "Isabelle is developing options to address project risk exposure.",
+        "answer": "Plan risk responses"
+      }
+    ],
+    "options": [
+      "Perform quantitative risk analysis",
+      "Plan risk management",
+      "Identify risks",
+      "Plan risk responses"
+    ],
+    "explanation": "Risk management processes are described in the Process Groups Practice Guide, page 113, covering plan risk management, identify risks, perform quantitative risk analysis, and plan risk responses.",
+    "video_time": 8624
+  },
+  {
+    "number": 109,
+    "prompt": "Match each critical path scenario to the correct schedule technique.",
+    "left_label": "Scenario",
+    "right_label": "Schedule technique",
+    "items": [
+      {
+        "text": "Task B is on the critical path and is delayed by 3 days; bring it forward to recover the schedule.",
+        "answer": "Lead time"
+      },
+      {
+        "text": "Task D is on the critical path and has 2 days of available float; push it back within that float.",
+        "answer": "Lag time"
+      },
+      {
+        "text": "Task A and Task B are performed in sequence but can be done in parallel instead.",
+        "answer": "Schedule fast tracking"
+      },
+      {
+        "text": "The team brings Task C forward to start it while Task D is still being worked on.",
+        "answer": "Lead time"
+      },
+      {
+        "text": "Adding resources or overtime to ensure a critical path task is not delayed.",
+        "answer": "Schedule crashing"
+      }
+    ],
+    "options": [
+      "Lead time",
+      "Lag time",
+      "Schedule fast tracking",
+      "Schedule crashing"
+    ],
+    "explanation": "Critical path scheduling techniques including lead time, lag time, fast tracking, and crashing are covered in the Process Groups Practice Guide, page 262, under the critical path method.",
+    "video_time": 8889
+  },
+  {
+    "number": 110,
+    "prompt": "Match each project scenario to the correct scope or quality process.",
+    "left_label": "Scenario",
+    "right_label": "Process",
+    "items": [
+      {
+        "text": "Ensuring that the project outputs are complete, correct, and meet customer expectations.",
+        "answer": "Control quality"
+      },
+      {
+        "text": "The customer or project sponsor formally accepts the project deliverables.",
+        "answer": "Validate scope"
+      },
+      {
+        "text": "The process of reviewing and approving changes to the scope.",
+        "answer": "Perform integrated change control"
+      },
+      {
+        "text": "Monitoring the status of project scope and changes to the scope baseline.",
+        "answer": "Control scope"
+      }
+    ],
+    "options": [
+      "Control quality",
+      "Validate scope",
+      "Perform integrated change control",
+      "Control scope"
+    ],
+    "explanation": "These closely related processes are distinguished in the Process Groups Practice Guide, page 165, under perform integrated change control; control quality checks completeness and correctness, validate scope obtains formal acceptance, control scope monitors the scope baseline, and integrated change control approves scope changes.",
+    "video_time": 8808
+  },
+  {
+    "number": 111,
+    "prompt": "Match each Myers-Briggs personality description to the correct Myers-Briggs indicator letter.",
+    "left_label": "Description",
+    "right_label": "Myers-Briggs indicator",
+    "items": [
+      {
+        "text": "Enjoying social interaction.",
+        "answer": "E (Extrovert)"
+      },
+      {
+        "text": "Preferring solitude.",
+        "answer": "I (Introvert)"
+      },
+      {
+        "text": "Using senses to determine the reality of a situation.",
+        "answer": "S (Sensing)"
+      },
+      {
+        "text": "Using intuition to find patterns.",
+        "answer": "N (Intuition)"
+      },
+      {
+        "text": "Being logical and impersonal in decision-making.",
+        "answer": "T (Thinking)"
+      },
+      {
+        "text": "Using feelings and emotions in decision-making.",
+        "answer": "F (Feeling)"
+      },
+      {
+        "text": "Making firm, fast decisions.",
+        "answer": "J (Judging)"
+      },
+      {
+        "text": "Being flexible, seeing all options, and being adaptable.",
+        "answer": "P (Perceiving)"
+      }
+    ],
+    "options": [
+      "E (Extrovert)",
+      "I (Introvert)",
+      "S (Sensing)",
+      "N (Intuition)",
+      "T (Thinking)",
+      "F (Feeling)",
+      "J (Judging)",
+      "P (Perceiving)"
+    ],
+    "explanation": "The Myers-Briggs Type Indicator (MBTI) dimensions — Extroversion/Introversion, Sensing/Intuition, Thinking/Feeling, Judging/Perceiving — are presented as a bonus question to help candidates recognize personality types relevant to team dynamics.",
+    "video_time": 8911
+  }
+]

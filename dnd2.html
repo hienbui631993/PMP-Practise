@@ -3,17 +3,17 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>PMP Drag & Drop Questions</title>
+<title>110 PMP Drag & Drop Questions — David McLachlan</title>
 <style>
   :root {
     --bg:#0f172a; --card:#1e293b; --card2:#273449; --text:#e2e8f0; --muted:#94a3b8;
-    --accent:#2dd4bf; --ink:#06302b; --good:#22c55e; --bad:#ef4444; --border:#334155;
-    --good-bg:#14321f; --bad-bg:#3a1a1a; --sel-bg:#134e4a;
+    --accent:#34d399; --ink:#052e22; --good:#22c55e; --bad:#ef4444; --border:#334155;
+    --good-bg:#14321f; --bad-bg:#3a1a1a; --sel-bg:#13402f;
   }
   body.light {
     --bg:#eef2f7; --card:#ffffff; --card2:#f1f5f9; --text:#0f172a; --muted:#64748b;
-    --accent:#0d9488; --ink:#ffffff; --good:#16a34a; --bad:#dc2626; --border:#cbd5e1;
-    --good-bg:#dcfce7; --bad-bg:#fee2e2; --sel-bg:#ccfbf1;
+    --accent:#059669; --ink:#ffffff; --good:#16a34a; --bad:#dc2626; --border:#cbd5e1;
+    --good-bg:#dcfce7; --bad-bg:#fee2e2; --sel-bg:#d1fae5;
   }
   * { box-sizing:border-box; }
   body { margin:0; font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; background:var(--bg); color:var(--text); line-height:1.5; transition:background .2s,color .2s; }
@@ -73,7 +73,7 @@
 <body>
 <header>
   <div class="topbar">
-    <h1>🧩 PMP Drag &amp; Drop <span style="font-size:12px;font-weight:400;color:var(--muted)">· 100 Questions by Andrew Ramdayal</span></h1>
+    <h1>🧩 110 PMP Drag &amp; Drop <span style="font-size:12px;font-weight:400;color:var(--muted)">· 110 Questions (+1 bonus) by David McLachlan</span></h1>
     <div class="stats">
       <span>Solved: <b id="stSolved">0</b>/<b id="stTotal">0</b></span>
       <a id="watchLink" target="_blank" rel="noopener" class="badge" style="text-decoration:none;color:var(--accent);border-color:var(--accent);display:none">▶ Watch</a>
@@ -132,14 +132,14 @@
 
 <div class="overlay" id="fileOverlay"><div class="modal">
   <h3 style="margin-top:0">Load data</h3>
-  <p>Could not auto-load <code>dnd_dataset.json</code>. Pick the file, or run a local server.</p>
+  <p>Could not auto-load <code>dnd2_dataset.json</code>. Pick the file, or run a local server.</p>
   <input type="file" id="filePicker" accept=".json" />
 </div></div>
 
 <script>
 (function(){
   "use strict";
-  const LS="pmp_dnd_v1", VID="K7J4WGbR9Ig";
+  const LS="pmp_dnd2_v1", VID="wwNUBe21jtM";
   let DATA=[], order=[], pos=0, theme="dark";
   let placed={};          // per-question: {itemIndex: label}
   let solved={};          // qnum -> true
@@ -149,7 +149,7 @@
   function save(){ try{ localStorage.setItem(LS, JSON.stringify({theme,solved})); }catch(e){} }
   function load(){ try{ const r=JSON.parse(localStorage.getItem(LS)||"{}"); theme=r.theme||"dark"; solved=r.solved||{}; }catch(e){} }
   function esc(s){ return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
-  function fmtClock(s){ s=Math.max(0,Math.round(s||0)); var m=Math.floor(s/60),x=s%60; return m+":"+(x<10?"0":"")+x; }
+  function fmtClock(s){ s=Math.max(0,Math.round(s||0)); var h=Math.floor(s/3600),m=Math.floor((s%3600)/60),x=s%60; return (h>0?h+":"+(m<10?"0":""):"")+m+":"+(x<10?"0":"")+x; }
   function curQ(){ return DATA[order[pos]]; }
   function applyTheme(){ document.body.classList.toggle("light",theme==="light"); document.getElementById("themeBtn").textContent=theme==="light"?"☀️ Light":"🌙 Dark"; }
 
@@ -304,7 +304,7 @@
       r.readAsText(f);
     });
   }
-  fetch("dnd_dataset.json").then(r=>{ if(!r.ok) throw 0; return r.json(); }).then(init).catch(picker);
+  fetch("dnd2_dataset.json").then(r=>{ if(!r.ok) throw 0; return r.json(); }).then(init).catch(picker);
 })();
 </script>
 </body>

@@ -1,0 +1,687 @@
+{
+  "video_id": "vi0drXKr7PM",
+  "title": "63 Project Management Tools Explained — From the PMBOK Guide",
+  "source": "David McLachlan",
+  "parts": [
+    {
+      "title": "63 Project Management Tools (in project order)",
+      "sections": [
+        {
+          "title": "Initiation & Business Case",
+          "video_time": 44,
+          "intro": "These tools are used at the start of a project to justify its existence, formally authorise it, and identify the people and resources involved.",
+          "subsections": [
+            {
+              "title": "Project Business Case",
+              "video_time": 44,
+              "points": [
+                "A feasibility study that answers whether the project is worthwhile doing in the first place.",
+                "Covers a summary of the current problem, proposed solutions (the project), and a recommendation on whether to proceed.",
+                "For PetBuddy, the business case would evaluate whether building the pet-sitter mobile app is a justified investment before any work begins."
+              ]
+            },
+            {
+              "title": "Project Charter",
+              "video_time": 74,
+              "points": [
+                "The document that formally initiates the project; typically created by the business owner (Samantha) together with the project manager (Billy).",
+                "Captures high-level details: project background, start/finish dates, project manager, sponsor, benefit-to-cost ratio, key requirements, expected benefits, estimated cost ($800,000 for PetBuddy), milestones, team, stakeholders, high-level risks, and completion criteria.",
+                "Signed off by the business owner to authorise funding and the people needed, officially allowing the project to start.",
+                "Completion criteria for PetBuddy: the first working version of the app released to the mobile store."
+              ]
+            },
+            {
+              "title": "Organizational Breakdown Structure",
+              "video_time": 182,
+              "points": [
+                "An organisational chart of the business that helps identify all stakeholders and where they sit within the organisation.",
+                "For PetBuddy, Samantha (business owner) sits at the top, with customer service, marketing, operations, and IT support managers beneath her.",
+                "Used at project initiation to ensure the right stakeholders are found and engaged throughout the project."
+              ]
+            },
+            {
+              "title": "Resource Breakdown Structure",
+              "video_time": 230,
+              "points": [
+                "A hierarchical breakdown of all resources assigned to the project — effectively a project organisational chart.",
+                "For PetBuddy, Samantha is project sponsor at the top, with Billy (project manager) leading business analysts, developers, and testers beneath him.",
+                "Can also be represented as a spreadsheet; the structure makes it easy to see the full team decomposed at a glance."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Stakeholder Tools",
+          "video_time": 268,
+          "intro": "These four tools help identify, classify, and manage stakeholder engagement throughout a project.",
+          "subsections": [
+            {
+              "title": "Stakeholder Register",
+              "video_time": 268,
+              "points": [
+                "Records every stakeholder—including project team members—with their name, role, and project responsibility.",
+                "Always consult the stakeholder register to find stakeholders, and always update it when new stakeholders are identified.",
+                "Captures each stakeholder's level of influence over the project and the impact the project has on their area, typically rated 1–10."
+              ]
+            },
+            {
+              "title": "Stakeholder Classification Matrix",
+              "video_time": 332,
+              "points": [
+                "Plots stakeholders on a matrix using impact and influence as axes to determine the engagement strategy needed.",
+                "High influence + high impact: collaborate closely; high influence + low impact: maintain communication.",
+                "High impact + low influence: keep informed; low influence + low impact: monitor periodically."
+              ]
+            },
+            {
+              "title": "Salience Chart",
+              "video_time": 389,
+              "points": [
+                "An alternative classification tool that ranks stakeholders by three dimensions: power, legitimacy, and urgency.",
+                "Stakeholders possessing all three qualities are 'definitive' stakeholders requiring the most engagement.",
+                "Visualised as a Venn diagram (also called a 3D chart or cube matrix) showing overlaps between the three dimensions."
+              ]
+            },
+            {
+              "title": "Stakeholder Engagement Assessment",
+              "video_time": 430,
+              "points": [
+                "Tracks each stakeholder's Current (C) engagement level versus their Desired (D) level across five states: unaware, resistant, neutral, supportive, and leading.",
+                "Most stakeholders should be targeted at supportive or leading; those with minimal involvement may remain neutral.",
+                "Where a gap exists between current and desired state, increase communication and targeted information sharing to raise engagement."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Analysis & Feasibility",
+          "video_time": 510,
+          "intro": "Seven additional project initiation tools help validate direction and feasibility before committing to a project.",
+          "subsections": [
+            {
+              "title": "Benchmarking",
+              "video_time": 510,
+              "points": [
+                "Compare your product features against competitors to identify gaps and best practices.",
+                "Rate whether you or competitors currently have each feature to highlight areas for improvement.",
+                "Achieving a broader feature set than competitors allows your product to stand out in the market."
+              ]
+            },
+            {
+              "title": "Make or Buy Analysis",
+              "video_time": 569,
+              "points": [
+                "Weigh the total cost of building in-house versus purchasing from a vendor.",
+                "In the example, making costs $800,000 upfront and $350,000/year; buying costs $600,000/year.",
+                "Over time the in-house option becomes more cost-effective, making 'make' the better choice by year two."
+              ]
+            },
+            {
+              "title": "Cost Benefit Analysis",
+              "video_time": 636,
+              "points": [
+                "Compare costs and benefits year by year to determine whether the project is financially justified.",
+                "Early years may show net cost, but growing benefits (app revenue, location revenue) eventually outweigh costs.",
+                "A cost-to-benefit ratio of 1:2.6 by year three confirms the project is worthwhile."
+              ]
+            },
+            {
+              "title": "Business Model Canvas",
+              "video_time": 681,
+              "points": [
+                "A single-page tool that captures the full business model: customer segments, value proposition, key activities, partners, resources, and channels.",
+                "Also defines cost structure (subscription vs. one-off) and multiple revenue streams.",
+                "Provides a concise overview of the entire project or product on one page."
+              ]
+            },
+            {
+              "title": "Lean Canvas",
+              "video_time": 742,
+              "points": [
+                "A modified Business Model Canvas inspired by Lean Startup and Toyota Production System thinking.",
+                "Emphasises the customer problem, solution, unique value proposition, and 'unfair advantage' that competitors cannot easily copy.",
+                "Includes a high-level concept (elevator-pitch analogy) to ensure everyone understands the product quickly."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Process, Flow & Mapping",
+          "video_time": 803,
+          "intro": "These nine tools help teams define, visualize, and improve processes and systems — from problem definition through customer-journey mapping to system architecture.",
+          "subsections": [
+            {
+              "title": "DMAIC (Six Sigma)",
+              "video_time": 803,
+              "points": [
+                "DMAIC (Define, Measure, Analyze, Improve, Control) provides a predefined checklist that can serve as a project charter, framing the gap from current to desired state.",
+                "Define uses flowcharts, value stream maps, CTQs, and gap analysis; Measure uses check sheets and benchmarking data to capture the current state.",
+                "Analyze uses Pareto charts, histograms, affinity diagrams, the five whys, control charts, and fishbone root-cause analysis.",
+                "Improve implements the project changes; Control locks them in with control charts, failure-mode-and-effects analysis (risk register), and standard operating procedures."
+              ]
+            },
+            {
+              "title": "PDCA Deming Cycle",
+              "video_time": 927,
+              "points": [
+                "Plan-Do-Check-Act (the Shewhart/Deming cycle) is a lean alternative to DMAIC for framing a project charter, grounded in customer-driven quality, delivery, and cost metrics.",
+                "Plan: grasp the current situation using Pareto charts or value stream maps, then design the response; Do: execute the project and control it with a Kanban board or Gantt chart.",
+                "Check: gather data (histograms, etc.) to see whether the change worked; Act: adjust if it failed, or lock in the improvement with a standard operating procedure.",
+                "Lessons learned are captured at the end to confirm whether the intended outcomes were achieved."
+              ]
+            },
+            {
+              "title": "Swimlane Flow Chart",
+              "video_time": 1021,
+              "points": [
+                "A swimlane flowchart maps the customer journey — or any multi-party process — by showing how work flows across different areas (e.g., marketing, customer service, app features).",
+                "Standard icons include rectangles for process steps and diamonds for decision points (yes/no branches), plus symbols for databases and systems.",
+                "Swimlanes make hand-offs between parties visible and reveal pain points where the customer experience may break down."
+              ]
+            },
+            {
+              "title": "Basic Flow Chart",
+              "video_time": 1110,
+              "points": [
+                "A basic flowchart uses the same diamond-and-rectangle notation as a swimlane chart but can be arranged top-down or left-right — whichever makes the flow clearest.",
+                "It can include swimlanes or omit them; the goal is simply to ensure everyone understands the sequence of steps and the decisions being made.",
+                "Visualizing the flow helps the team anticipate customer pain points and justify future scope decisions."
+              ]
+            },
+            {
+              "title": "Value Stream Map",
+              "video_time": 1141,
+              "points": [
+                "A value stream map (from lean/Toyota Production System) traces the full flow from customer order through supplier fulfillment, using specialized icons for queues, systems, pull signals, and inventory.",
+                "The key feature is the timeline at the bottom: peaks represent non-value-added time (waiting, queuing) and valleys represent value-added time (work that directly benefits the customer).",
+                "The goal is to reduce non-value-added time as much as possible across each cycle of the process."
+              ]
+            },
+            {
+              "title": "Customer Journey Map",
+              "video_time": 1289,
+              "points": [
+                "A customer journey map plots each step the customer takes (e.g., download app, set up profile, match sitter) alongside satisfaction scores and verbatim feedback to surface pain points.",
+                "It includes a customer persona — a representative description of the typical user (goals, context, expectations) — to ground the journey in real needs.",
+                "Pain points identified in the map drive scope decisions, helping the team prioritize improvements that matter most to the customer."
+              ]
+            },
+            {
+              "title": "SIPOC",
+              "video_time": 1430,
+              "points": [
+                "SIPOC stands for Supplier, Input, Process step, Output, Customer — a structured table that maps each process step alongside what feeds it and what it produces.",
+                "For each process step, the 'customer' is whoever receives that step's output (not necessarily the end user), and the 'supplier' is whoever provides the required input.",
+                "SIPOC gives a clear, high-level picture of all inputs, outputs, and handoffs across the entire process flow."
+              ]
+            },
+            {
+              "title": "UML Sequence Diagram",
+              "video_time": 1536,
+              "points": [
+                "A Unified Modeling Language sequence diagram shows how information flows between system components (e.g., mobile app, customer database, payment system) from left to right and top to bottom.",
+                "Vertical rectangles on each component's lifeline indicate how long that component remains active during the interaction, making timing and dependencies visible.",
+                "It is used to map the technical, system-level view of interactions — complementing the customer-facing process maps."
+              ]
+            },
+            {
+              "title": "Context Diagram",
+              "video_time": 1636,
+              "points": [
+                "A context diagram (data flow diagram) places the central system (e.g., the Pet Buddy mobile app) in the middle and shows how data flows to and from all surrounding systems (payment, social networks, customer database).",
+                "It provides a high-level architecture overview so the whole team can see how systems interconnect without getting lost in internal details.",
+                "Context diagrams scale from simple sketches to large enterprise architecture documents with many interacting systems."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Requirements & Scope",
+          "video_time": 1719,
+          "intro": "The team collaborates to generate, group, and document all project requirements and scope items before decomposing them into traceable, structured deliverables.",
+          "subsections": [
+            {
+              "title": "Brainstorming",
+              "video_time": 1719,
+              "points": [
+                "The team writes down all ideas that could meet customer requirements within the target system.",
+                "Ideas are grouped into themed buckets such as user profiles, search and matchmaking, booking and scheduling, payment processing, and ratings and reviews.",
+                "Grouping during brainstorming is called affinity brainstorming."
+              ]
+            },
+            {
+              "title": "Affinity Diagram",
+              "video_time": 1777,
+              "points": [
+                "Visually organises brainstormed ideas by grouping items that share an affinity (similarity) with each other.",
+                "Each cluster represents a category such as booking and scheduling, user profiles, or payment processing.",
+                "Provides a clear, shared visual of how all ideas relate and belong together."
+              ]
+            },
+            {
+              "title": "Nominal Group Technique",
+              "video_time": 1803,
+              "points": [
+                "Brainstorming is done anonymously — team members write down ideas and reveal them simultaneously.",
+                "Prevents influence from managers, the highest-paid person, or the loudest voice in the room.",
+                "Ensures every team member has an equal say in the ideation process."
+              ]
+            },
+            {
+              "title": "Mind Map",
+              "video_time": 1839,
+              "points": [
+                "Used by business analysts to decompose and visualise project scope, placing the main idea at the centre.",
+                "Each branch represents a major feature area (e.g., search algorithm), with sub-branches for specific brainstormed ideas within that area.",
+                "Can be broken down to as many levels of detail as needed and is a natural follow-on from affinity brainstorming."
+              ]
+            },
+            {
+              "title": "Requirements Traceability Matrix",
+              "video_time": 1883,
+              "points": [
+                "Traces each original customer requirement to the specific scope item (feature or work package/user story) being delivered to meet it.",
+                "Captures test case IDs, assignees, and completion status so requirements can be tracked from inception to done.",
+                "Confirms that every requirement is quality-tested and links the 'what the customer wants' to 'what the team will build'."
+              ]
+            },
+            {
+              "title": "Work Breakdown Structure",
+              "video_time": 1966,
+              "points": [
+                "Hierarchically decomposes the project deliverable: top-level project breaks into features/deliverables, then into work packages or user stories.",
+                "Similar in appearance to a mind map but focused on structured decomposition of scope for execution.",
+                "Further levels of breakdown can be added whenever additional detail is required."
+              ]
+            },
+            {
+              "title": "WBS Dictionary",
+              "video_time": 1997,
+              "points": [
+                "Adds detailed supporting information to each WBS item: unique ID, description, owner, schedule duration, cost, status, and quality acceptance criteria.",
+                "Acceptance criteria are written as user stories (e.g., 'As a pet owner I want to...') to define exactly how quality will be measured.",
+                "Considered the heart of the project — it captures everything needed to deliver and verify each work package or user story."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Prioritization",
+          "video_time": 2084,
+          "intro": "Six tools for ranking project scope items by importance so teams focus on what delivers the most value first.",
+          "subsections": [
+            {
+              "title": "Prioritization Matrix",
+              "video_time": 2084,
+              "points": [
+                "Rank features by two dimensions — cost/effort (1–10) and benefit/value (1–10) — then plot on a matrix.",
+                "High-benefit, low-cost items appear in the priority quadrant and should be tackled first for maximum bang-for-buck.",
+                "High-cost, low-benefit items are deprioritized; the matrix makes these trade-offs visible at a glance."
+              ]
+            },
+            {
+              "title": "MoSCoW",
+              "video_time": 2197,
+              "points": [
+                "Categorise every feature as Must Have, Should Have, Could Have, or Won't Have (MoSCoW).",
+                "Maps onto the prioritization matrix: high-benefit/low-cost = Must Have; high-cost/low-benefit = Won't Have.",
+                "To prevent stakeholders from labelling everything 'Must Have', cap each bucket (e.g. five items per category) to force genuine trade-off conversations.",
+                "Trade-off sliders complement MoSCoW by clarifying which project constraint (time, cost, scope) is most fixed versus most flexible."
+              ]
+            },
+            {
+              "title": "Kano Analysis",
+              "video_time": 2300,
+              "points": [
+                "Classifies features into three satisfaction buckets: Must-Have quality, Satisfying quality, and Delighting quality.",
+                "Satisfaction level is mapped against where the feature sits in its product life cycle — newer features delight; mature features become baseline expectations.",
+                "Delighter features (e.g. electric windows in the 1980s) become Must-Haves over time as customers grow accustomed to them.",
+                "Prioritise Must-Haves and Satisfiers before investing in Delighters."
+              ]
+            },
+            {
+              "title": "Multi-Criteria Decision Matrix",
+              "video_time": 2382,
+              "points": [
+                "List features across the top and evaluation criteria (e.g. customer satisfaction, ease of use, ease of solution) down the side.",
+                "Score each feature against every criterion from 0–5, then calculate an average (or total) to produce a ranked list.",
+                "Particularly useful when multiple stakeholders have competing needs, since all their criteria can be incorporated into the matrix.",
+                "The highest-scoring features rise to the top as clear priorities."
+              ]
+            },
+            {
+              "title": "Multi-Voting",
+              "video_time": 2437,
+              "points": [
+                "Stakeholders receive a fixed budget of votes or points (e.g. 10 votes, 100 points) to distribute across scope items however they choose.",
+                "Points can be concentrated on one critical item or spread across several — also known as dot voting or Monopoly-money voting.",
+                "Aggregated results reveal the group's collective priorities without lengthy debate.",
+                "Decisions can be finalised by unanimous consent, simple majority (>50%), or plurality (largest single block)."
+              ]
+            },
+            {
+              "title": "Cost of Delay",
+              "video_time": 2487,
+              "points": [
+                "Estimate the expected weekly profit (or value) once a feature is delivered, then divide by the duration in weeks to deliver it.",
+                "This ratio is known as CD3 (Cost of Delay Divided by Duration) and produces a comparable score for every feature.",
+                "Rank features from highest to lowest CD3 score to sequence delivery for maximum return.",
+                "Effectively combines benefit (weekly profit) and effort (duration) in a single, easy-to-communicate metric."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Schedule",
+          "video_time": 2548,
+          "intro": "After prioritizing scope, four key schedule tools are used to sequence work, estimate durations, and track delivery progress.",
+          "subsections": [
+            {
+              "title": "Schedule Network Diagram",
+              "video_time": 2548,
+              "points": [
+                "Shows the order in which project features must be delivered, capturing any dependencies between items.",
+                "Includes duration estimates for each feature (e.g., 5 weeks, 3 weeks) to calculate the schedule.",
+                "Forward and backward pass through the diagram identifies the critical path — the sequence with the least float or slack.",
+                "Nothing on the critical path can be moved without shifting the entire project end date."
+              ]
+            },
+            {
+              "title": "Gantt Chart",
+              "video_time": 2641,
+              "points": [
+                "The most common way to display the overall project schedule, listing deliverables with start and end dates against a calendar.",
+                "Can be viewed on a weekly or daily basis to show when each item will be completed.",
+                "Provides a clear visual of the full project timeline and overall projected finish date."
+              ]
+            },
+            {
+              "title": "Duration Estimates",
+              "video_time": 2687,
+              "points": [
+                "The team estimates how long each work package will take to complete.",
+                "Estimated durations are recorded back into the WBS dictionary alongside resources, quality criteria, and other attributes.",
+                "The WBS dictionary serves as a central database of all project information, updated as estimates are refined."
+              ]
+            },
+            {
+              "title": "Kanban Board",
+              "video_time": 2716,
+              "points": [
+                "Visualizes work within a Sprint or iteration (typically two weeks) using cards that represent features.",
+                "Cards move across columns — Analysis, Development, Test, Sign-Off, Done — as work progresses.",
+                "Provides a short-term, real-time view of what the team is working on and what is ready for release.",
+                "Completed items are merged into the main branch once they reach the Done column."
+              ]
+            },
+            {
+              "title": "Burndown Chart",
+              "video_time": 2769,
+              "points": [
+                "Tracks remaining effort across a Sprint, comparing actual progress against an ideal burn-down trend line.",
+                "A line that rises during the Sprint indicates either a new card was added or an existing card was re-estimated — both considered poor practice.",
+                "Helps the team see at a glance whether they are on track to complete all committed work by the end of the iteration."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Budget & Cost",
+          "video_time": 2859,
+          "intro": "These six tools cover how to estimate, aggregate, and manage project costs from the work breakdown structure through to periodic funding releases.",
+          "subsections": [
+            {
+              "title": "Cost Attributes in WBSD",
+              "video_time": 2859,
+              "points": [
+                "Return to the Work Breakdown Structure Dictionary, which serves as a comprehensive database of all project scope and information.",
+                "Work with the team to estimate the cost of each item and record those estimates directly in the WBS Dictionary.",
+                "The WBS Dictionary now holds both duration estimates (for schedule) and cost estimates for every deliverable."
+              ]
+            },
+            {
+              "title": "Commercial Databases",
+              "video_time": 2902,
+              "points": [
+                "External commercial databases provide industry-specific cost data to supplement team estimates.",
+                "In construction, databases can give precise cost figures; in software, existing benchmarks indicate likely costs.",
+                "These databases complement rather than replace internal WBS cost estimates, offering additional market reference data."
+              ]
+            },
+            {
+              "title": "Bottom-Up Estimating in WBSD",
+              "video_time": 2943,
+              "points": [
+                "Cost items from the WBS Dictionary can also be visualised directly on the WBS diagram.",
+                "Bottom-up estimating aggregates costs from the smallest work packages or user stories up through features to the total project cost.",
+                "Gradually rolling up individual estimates gives a reliable overall project cost figure."
+              ]
+            },
+            {
+              "title": "Project Budget",
+              "video_time": 2976,
+              "points": [
+                "The budget lists project items with their planned costs and tracks actual spend, highlighting overspend in red and underspend in green.",
+                "A summary view shows whether each feature came in over or under budget, automatically calculated.",
+                "An S-curve chart plots actual cost (green) against planned value (orange) over time, giving a visual tracking of budget performance."
+              ]
+            },
+            {
+              "title": "Cost Reserves",
+              "video_time": 3042,
+              "points": [
+                "The approved project budget includes two types of reserves: contingency reserves for known risks and management reserves for unforeseen scope changes.",
+                "In the example, contingency reserve is $35,000 (known risks) and management reserve is $80,000 (unplanned scope), bringing the total budget to $880,000.",
+                "These reserves are not automatically available; they must be formally approved before use."
+              ]
+            },
+            {
+              "title": "Periodic Funding Requirements",
+              "video_time": 3087,
+              "points": [
+                "Contingency and management reserves each require explicit approval — contingency by the business owner and management reserve by the project sponsor.",
+                "Funding is released periodically rather than all at once; the project starts with an initial $200,000 tranche.",
+                "Subsequent funding releases are tied to demonstrated progress through milestones (releases 1–4), and funding can be cut off if progress is insufficient."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Quality",
+          "video_time": 3168,
+          "intro": "Seven quality tools help project teams define acceptance criteria, monitor process control, tally and prioritize defects, and perform root cause analysis.",
+          "subsections": [
+            {
+              "title": "Test & Inspection Plan",
+              "video_time": 3168,
+              "points": [
+                "Outlines the test approach, identifying the test lead and tester roles responsible for execution.",
+                "Specifies the acceptance criteria (ACs), the deliverable under test, and a pass/fail result for each criterion.",
+                "Acceptance criteria are written as user stories (I want / I can) or step-by-step reproduction steps.",
+                "Test and evaluation documents capture outcomes, screenshots of failures, and steps to reproduce any issues found."
+              ]
+            },
+            {
+              "title": "ACs in WBSD",
+              "video_time": 3232,
+              "points": [
+                "Acceptance criteria are added as attributes back into the Work Breakdown Structure Dictionary (WBSD).",
+                "The WBSD already holds duration, cost, and resources for each scope item; quality needs are now appended.",
+                "Each scope item in the dictionary also records who the acceptance criteria are currently assigned to."
+              ]
+            },
+            {
+              "title": "Control Chart",
+              "video_time": 3264,
+              "points": [
+                "A line chart that shows whether a process or product metric is 'in control' over time.",
+                "Includes a calculated average (center line) plus upper and lower control limits set at a chosen multiple of the standard deviation.",
+                "Points outside the control limits signal the process needs investigation; the example tracks bookings vs. cancellations.",
+                "In practice, using one standard deviation instead of the traditional three can make out-of-control signals more visible and actionable."
+              ]
+            },
+            {
+              "title": "Check Sheets",
+              "video_time": 3353,
+              "points": [
+                "A simple tally sheet where testers record every defect occurrence as it is found.",
+                "Defect categories (e.g., booking failures, display issues, app freezes) are listed and tallied each time they occur.",
+                "The cumulative counts show which defects are happening most frequently, directing where to focus effort first."
+              ]
+            },
+            {
+              "title": "Pareto Chart",
+              "video_time": 3408,
+              "points": [
+                "An advanced check sheet that sorts defect counts from largest to smallest in a bar chart.",
+                "A cumulative percentage line is overlaid, reaching 100% at the far right across all defect types.",
+                "Based on the Pareto Principle: roughly 20% of defect types cause 80% of overall issues.",
+                "The 80% (or any chosen) threshold line identifies the small set of top defects to prioritize and fix first."
+              ]
+            },
+            {
+              "title": "Ishikawa Diagram (Fishbone Diagram)",
+              "video_time": 3508,
+              "points": [
+                "A root cause analysis tool that places the problem or defect in the 'head' of a fish-bone structure.",
+                "Potential causes are brainstormed and grouped into buckets: People, Information, Process, and System issues.",
+                "Each branch of the diagram explores why the defect occurs, making hidden causes visible.",
+                "Can be drawn as a traditional fishbone or rendered in a spreadsheet that auto-calculates layout."
+              ]
+            },
+            {
+              "title": "The Five Whys",
+              "video_time": 3587,
+              "points": [
+                "A root cause technique that starts with a defect and repeatedly asks 'Why?' until the true root cause is reached.",
+                "Early answers are often symptoms; keep asking why to dig past surface explanations to the core issue.",
+                "The process ends when fixing the identified cause would genuinely resolve the original defect.",
+                "Example: 'glitches in booking logic' traced through five whys to 'the system lacks proper concurrency control'."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Resources & Team",
+          "video_time": 3663,
+          "intro": "Four essential tools help project managers assign responsibilities, align team ways of working, schedule meetings efficiently, and continuously improve performance.",
+          "subsections": [
+            {
+              "title": "RACI",
+              "video_time": 3663,
+              "points": [
+                "RACI stands for Responsible (who does the work), Accountable (who signs off), Consulted (who provides expert input), and Informed (who is kept in the loop).",
+                "A RACI matrix lists roles down the left and deliverables across the top, giving every team member absolute clarity on their obligations for each item.",
+                "Example: on Pet Buddy, Billy the PM is Responsible for the project plan, while senior developer Max is Accountable for source code and junior developers are Responsible for writing it."
+              ]
+            },
+            {
+              "title": "Team Charter",
+              "video_time": 3758,
+              "points": [
+                "A team charter documents the project background and mission, team roles and stakeholders, and agreed ways of working such as team values, communication channels, and decision-making processes.",
+                "It includes team ceremonies and a Definition of Ready (item has acceptance criteria before work begins) and a Definition of Done (item is developed, tested, and signed off).",
+                "The charter ensures the entire team shares a common understanding of how they will collaborate throughout the project."
+              ]
+            },
+            {
+              "title": "Meeting Cadence Planner",
+              "video_time": 3866,
+              "points": [
+                "A meeting cadence planner maps out all recurring team meetings (e.g., daily standups, twice-weekly user story elaboration) so the team agrees on the best times upfront.",
+                "The goal is to keep meetings purposeful and minimal — only hold a meeting when something truly needs face-to-face confirmation.",
+                "Scheduling accounts for individual commitments and time-zone differences to maximise attendance and focus."
+              ]
+            },
+            {
+              "title": "Retrospective",
+              "video_time": 3926,
+              "points": [
+                "A retrospective is held at the end of each iteration (typically two weeks) with the working team to reflect on and improve ways of working.",
+                "The team answers four questions: what went well, what were the challenges, what lessons were learned, and what still puzzles us.",
+                "Actions are taken from all four areas — including successes — so the team incrementally improves and grows into a high-performing unit."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Risk",
+          "video_time": 4031,
+          "intro": "Seven key risk management tools help teams identify, assess, and quantitatively analyze project risks and opportunities.",
+          "subsections": [
+            {
+              "title": "Risk Register",
+              "video_time": 4031,
+              "points": [
+                "The risk register is the central document for capturing brainstormed risks with the project team.",
+                "Each risk is rated by probability and impact (e.g., very low to very high, or 1–5 scale), then multiplied to produce an overall risk rating.",
+                "Controls or mitigations are defined for each risk to reduce either its probability or impact.",
+                "After controls are applied, the residual risk rating should be lower, resulting in a more manageable risk profile."
+              ]
+            },
+            {
+              "title": "Risk Matrix",
+              "video_time": 4109,
+              "points": [
+                "The risk matrix plots risks on a grid of probability vs. impact, visually separating critical risks (high probability, high impact) from moderate and low risks.",
+                "Critical risks must not be left unaddressed; controls are applied to bring them into sustainable or moderate zones.",
+                "Before controls, the matrix may show many critical risks; after controls, residual risks should fall into acceptable ranges.",
+                "Automated templates can map brainstormed risks directly onto the matrix for immediate visual feedback."
+              ]
+            },
+            {
+              "title": "SWOT Analysis",
+              "video_time": 4167,
+              "points": [
+                "SWOT stands for Strengths, Weaknesses, Opportunities, and Threats and is used to brainstorm risks with the team.",
+                "Project risks typically emerge from internal Weaknesses (e.g., reliance on an owner's personal brand, user trust concerns) and external Threats (e.g., dominant competitors, economic downturns).",
+                "Opportunities and strengths can also be identified to leverage in risk responses.",
+                "SWOT provides a structured starting point before populating the risk register."
+              ]
+            },
+            {
+              "title": "PESTEL Analysis",
+              "video_time": 4232,
+              "points": [
+                "PESTEL covers Political, Environmental, Social, Technological, Economic, and Legal risk categories.",
+                "Each category surfaces external factors that could positively (opportunities) or negatively (threats) affect the project.",
+                "Example risks include AI-driven feature opportunities, wearable pet tech integration, and zoning law constraints.",
+                "Findings feed directly into the risk register and risk matrix for further assessment."
+              ]
+            },
+            {
+              "title": "Decision Tree Analysis",
+              "video_time": 4289,
+              "points": [
+                "Decision tree analysis provides quantitative risk evaluation by mapping decision options with associated costs and probabilities along branching paths.",
+                "Each branch shows the probability of outcomes and the resulting cost or benefit, producing an expected monetary value at each end node.",
+                "Comparing the expected values across branches reveals the most favorable decision path.",
+                "It is used after qualitative risk assessment to add numerical depth when choosing between mitigation strategies."
+              ]
+            },
+            {
+              "title": "Force Field Analysis",
+              "video_time": 4381,
+              "points": [
+                "Force field analysis places the decision or change in the center, with supporting forces on one side and opposing forces on the other.",
+                "Each force is rated from 1 to 5 based on its strength, then all forces are summed on each side.",
+                "If the forces against outweigh the forces for, the decision is less likely to succeed and warrants further scrutiny.",
+                "It helps teams weigh the feasibility of pursuing a risk response or opportunity before committing resources."
+              ]
+            },
+            {
+              "title": "Sensitivity Analysis (Tornado Chart)",
+              "video_time": 4470,
+              "points": [
+                "Sensitivity analysis examines how changes in a single variable (e.g., commission rate) affect an overall outcome (e.g., total revenue).",
+                "Results are ranked from the highest positive to the highest negative impact and displayed as a horizontal bar chart that resembles a tornado.",
+                "The chart visually prioritizes which variables have the greatest influence on project outcomes.",
+                "It can represent both value-delivery opportunities and risk exposures, helping teams focus effort on the most sensitive factors."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

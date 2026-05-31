@@ -33,12 +33,21 @@
   .card.m { border-top:5px solid var(--accent2); }
   .card .icon { font-size:40px; }
   .card .count { font-size:13px; color:var(--muted); font-weight:700; letter-spacing:.04em; text-transform:uppercase; margin-top:12px; }
-  .card h2 { margin:4px 0 6px; font-size:22px; }
+  .card h2 { margin:4px 0 2px; font-size:22px; }
+  .card .by { font-size:12px; color:var(--muted); font-weight:600; margin:0 0 8px; }
   .card .desc { color:var(--muted); font-size:14px; flex:1; }
   .card ul { margin:14px 0 0; padding-left:18px; color:var(--muted); font-size:13px; }
   .card .go { margin-top:18px; align-self:flex-start; font-weight:700; padding:9px 18px; border-radius:9px; }
   .card.q .go { background:var(--accent); color:var(--ink); }
   .card.m .go { background:var(--accent2); color:#052e22; }
+  .card.d { border-top:5px solid #2dd4bf; }
+  .card.d .go { background:#2dd4bf; color:#06302b; }
+  .card.d2 { border-top:5px solid #a78bfa; }
+  .card.d2 .go { background:#a78bfa; color:#1e1b4b; }
+  .card.ag { border-top:5px solid #fbbf24; }
+  .card.ag .go { background:#fbbf24; color:#3a2600; }
+  .card.wf { border-top:5px solid #60a5fa; }
+  .card.wf .go { background:#60a5fa; color:#08224a; }
   footer { text-align:center; color:var(--muted); font-size:12px; padding:18px; }
 </style>
 </head>
@@ -54,7 +63,7 @@
 <main>
   <div class="hero">
     <h1>Pick a <span class="a">question bank</span></h1>
-    <p>Two full scenario-based banks — 350 questions in total — each with its own study UI and progress tracking.</p>
+    <p>Six full scenario-based banks — over 850 questions in total — each with its own study UI and progress tracking.</p>
   </div>
 
   <div class="grid">
@@ -62,6 +71,7 @@
       <div class="icon">📘</div>
       <div class="count">200 questions</div>
       <h2>200 Ultra-Hard Questions</h2>
+      <div class="by">✍ by Andrew Ramdayal</div>
       <div class="desc">Work through 200 tough scenario-based practice questions with explanations.</div>
       <ul>
         <li>Per-question answer &amp; time tracking</li>
@@ -76,6 +86,7 @@
       <div class="icon">📗</div>
       <div class="count">150 questions</div>
       <h2>150 PMBOK 7 Questions</h2>
+      <div class="by">✍ by David McLachlan</div>
       <div class="desc">Scenario-based Q&amp;A drawn from David McLachlan's PMBOK 7 video set.</div>
       <ul>
         <li>150 PMBOK&nbsp;7 scenario questions with explanations</li>
@@ -84,6 +95,66 @@
         <li>Watch links jump to the exact spot in the video</li>
       </ul>
       <span class="go">Start 150 PMBOK 7 →</span>
+    </a>
+
+    <a class="card ag" href="agile.html">
+      <div class="icon">🔁</div>
+      <div class="count">195 questions</div>
+      <h2>200 Agile PMP Questions</h2>
+      <div class="by">✍ by David McLachlan</div>
+      <div class="desc">Scenario-based Agile questions — ideal for the PMP, PMI-ACP or any agile exam.</div>
+      <ul>
+        <li>195 Agile scenario questions with explanations</li>
+        <li>Agile Manifesto, Scrum, Kanban, XP, scaling &amp; more</li>
+        <li>Answer/time tracking, shuffle, results</li>
+        <li>Watch links jump to the exact spot in the video</li>
+      </ul>
+      <span class="go">Start Agile →</span>
+    </a>
+
+    <a class="card wf" href="waterfall.html">
+      <div class="icon">🌊</div>
+      <div class="count">100 questions</div>
+      <h2>100 Waterfall PMP Questions</h2>
+      <div class="by">✍ by David McLachlan</div>
+      <div class="desc">Scenario-based waterfall questions drawn directly from the PMBOK 6 (predictive) approach.</div>
+      <ul>
+        <li>100 waterfall scenario questions with explanations</li>
+        <li>Scope, schedule, cost, risk, procurement, stakeholders</li>
+        <li>Answer/time tracking, shuffle, results</li>
+        <li>Watch links jump to the exact spot in the video</li>
+      </ul>
+      <span class="go">Start Waterfall →</span>
+    </a>
+
+    <a class="card d2" href="dnd.html">
+      <div class="icon">🧩</div>
+      <div class="count">100 questions · drag &amp; drop</div>
+      <h2>100 PMP Drag &amp; Drop</h2>
+      <div class="by">✍ by Andrew Ramdayal</div>
+      <div class="desc">Practice the matching / drag-and-drop question format you'll see on the exam.</div>
+      <ul>
+        <li>100 matching questions with explanations</li>
+        <li>Drag chips onto slots, or click to place</li>
+        <li>Methodology, risk, Tuckman, MBTI &amp; more</li>
+        <li>Check answers &amp; reveal the key, shuffle</li>
+      </ul>
+      <span class="go">Start drag &amp; drop →</span>
+    </a>
+
+    <a class="card d" href="dnd2.html">
+      <div class="icon">🧩</div>
+      <div class="count">110 + bonus · drag &amp; drop</div>
+      <h2>110 PMP Drag &amp; Drop</h2>
+      <div class="by">✍ by David McLachlan</div>
+      <div class="desc">Match-the-term drag-and-drop questions from PMBOK 7, the Process Groups &amp; Agile practice guides.</div>
+      <ul>
+        <li>110 matching questions (+1 bonus) with explanations</li>
+        <li>Drag chips onto slots, or click to place</li>
+        <li>Check answers &amp; reveal the key, shuffle</li>
+        <li>Watch links jump to the exact spot in the video</li>
+      </ul>
+      <span class="go">Start drag &amp; drop →</span>
     </a>
   </div>
 </main>

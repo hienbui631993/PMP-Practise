@@ -1,0 +1,587 @@
+{
+  "video_id": "b5X3Z6X56uk",
+  "title": "The Complete Process Groups Practice Guide (formerly PMBOK 6th Edition)",
+  "source": "David McLachlan",
+  "parts": [
+    {
+      "title": "Project Management Overview",
+      "sections": [
+        {
+          "title": "Overview & Importance of Project Management",
+          "video_time": 94,
+          "intro": "The instructor introduces the importance of project management, explaining how projects drive change and business value, and outlining key concepts from the project landscape including life cycles, data management, tailoring, and benefits.",
+          "subsections": [
+            {
+              "title": "Importance of Project Management",
+              "video_time": 94,
+              "points": [
+                "Without a project manager organizing all the pieces, projects often fall apart.",
+                "Projects drive change — moving from one state to a better state.",
+                "Projects are temporary endeavors with a defined start and end.",
+                "Projects deliver business value through that change."
+              ]
+            },
+            {
+              "title": "Projects, Programs, and Portfolios",
+              "video_time": 122,
+              "points": [
+                "Operations (business as usual / BAU) is the baseline day-to-day activity.",
+                "A project makes a discrete change to the operational state.",
+                "Multiple related projects combine to form a program.",
+                "Multiple programs (plus operations) combine to form a portfolio."
+              ]
+            },
+            {
+              "title": "Project Life Cycles and Phases",
+              "video_time": 141,
+              "points": [
+                "Life cycle options include predictive (waterfall), iterative, incremental, and adaptive (agile).",
+                "Waterfall follows sequential phases: requirements, analysis, design, coding, testing, then release to operations.",
+                "The project team selects the life cycle that best fits the specific project."
+              ]
+            },
+            {
+              "title": "Data, Information, and Tailoring",
+              "video_time": 166,
+              "points": [
+                "Throughout the project, raw data is collected and refined into meaningful information.",
+                "Meaningful information is shared with executives and other stakeholders.",
+                "Tailoring is critical because every project is different; processes must be adapted to fit.",
+                "Managing benefits and success measures requires starting with the end in mind.",
+                "A Project Charter formally kicks off the project; a Project Management Plan guides execution."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "The Project Management Environment",
+          "video_time": 201,
+          "intro": "Project managers must understand the environment they operate in, including enterprise environmental factors, organizational process assets, governance structures, organizational types, and the varying influence of the project manager across different structures.",
+          "subsections": [
+            {
+              "title": "EEFs and OPAs",
+              "video_time": 201,
+              "points": [
+                "Enterprise Environmental Factors (EEFs) describe the environment in which the project operates, including politics, physical vs. software contexts, and ways of working.",
+                "Organizational Process Assets (OPAs) are internal assets such as processes, governance frameworks, and templates.",
+                "Different product types require different approaches: physical products (e.g., a car) may be built step-by-step, while software products often require an iterative approach.",
+                "The nature of the environment drives the need to tailor the project approach."
+              ]
+            },
+            {
+              "title": "Organizational and Project Governance",
+              "video_time": 246,
+              "points": [
+                "Project managers must understand both organizational governance (how work gets done in the organization) and project governance (how work gets done within the project).",
+                "Management elements include the project manager's own role as well as managers within the broader organization.",
+                "Organizational structures range from project-oriented/PMO (high PM influence) through strong, balanced, and weak matrix, down to functional and organic (low PM influence).",
+                "In a functional or organic structure, functional managers run the show and may assign an ad hoc project manager or team member for small process improvements."
+              ]
+            },
+            {
+              "title": "PMO Types",
+              "video_time": 315,
+              "points": [
+                "Directive PMO: takes full control over projects and project management practices.",
+                "Controlling PMO: provides frameworks, methodologies, and standards and requires teams to operate within them.",
+                "Supportive PMO: offers templates, tools, and guidance on a voluntary basis with minimal control."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "The Role of the Project Manager",
+          "video_time": 341,
+          "intro": "The project manager operates across multiple spheres of influence and must combine power skills, business acumen, and integration capability to lead a project through its full lifecycle of planning, executing, controlling, and closing.",
+          "subsections": [
+            {
+              "title": "Sphere of Influence",
+              "video_time": 341,
+              "points": [
+                "Innermost sphere: the project team, where direct influence is strongest.",
+                "Middle sphere: governing bodies such as the PMO and steering committees, partially within influence.",
+                "Outer sphere: industry, suppliers, and customers, often outside direct control but still requiring negotiation and influence.",
+                "Personal power is the primary tool for influencing stakeholders outside the team."
+              ]
+            },
+            {
+              "title": "Project Manager Competencies",
+              "video_time": 365,
+              "points": [
+                "Power skills (soft skills): interpersonal and communication abilities essential to leading people.",
+                "Business acumen: understanding the business environment and organisational context of the project.",
+                "Ways of working: knowledge of project management process groups and methodologies.",
+                "These three competency areas align with the PMI Talent Triangle: leadership, strategic/business management, and technical project management."
+              ]
+            },
+            {
+              "title": "Leadership Styles",
+              "video_time": 379,
+              "points": [
+                "Servant leadership: the PM serves and removes obstacles for the team.",
+                "Directive leadership: the PM gives clear instructions and closely guides the team.",
+                "Laissez-faire (hands-off) leadership: the team operates with high autonomy.",
+                "Effective PMs adapt their style to the situation and team maturity."
+              ]
+            },
+            {
+              "title": "Performing Integration",
+              "video_time": 390,
+              "points": [
+                "Integration management is the PM's core function: connecting all process steps into a coherent whole.",
+                "The PM acts as the 'binding glue' that unifies scope, schedule, cost, quality, risk, and stakeholder activities.",
+                "Integration ensures that decisions in one knowledge area consider impacts on all others."
+              ]
+            },
+            {
+              "title": "High-Level Process Overview",
+              "video_time": 401,
+              "points": [
+                "Initiating: develop project charter and identify stakeholders.",
+                "Planning: create project management plan; plan scope (requirements, WBS), schedule (activities, network diagram, durations, Gantt), cost (estimates, budget), quality, resources, communications, risk (identify, qualitative, quantitative, response planning), procurement, and stakeholder engagement.",
+                "Executing: direct and manage project work; manage quality, resources, communications, risk responses, procurements, and stakeholder engagement.",
+                "Monitoring and Controlling: perform integrated change control, validate scope, and monitor/control risks, quality, resources, procurements, and stakeholder engagement.",
+                "Closing: close the project or phase; repeat the cycle for the next phase in iterative or phased delivery.",
+                "Each process has defined inputs, tools/techniques, and outputs (ITTOs) explored in detail in subsequent sections."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The Process",
+      "sections": [
+        {
+          "title": "Initiating Process Group",
+          "video_time": 649,
+          "intro": "The Initiating Process Group covers two PMBOK 6 processes—Develop Project Charter and Identify Stakeholders—establishing formal project authorization and a complete stakeholder register.",
+          "subsections": [
+            {
+              "title": "Develop Project Charter",
+              "video_time": 655,
+              "points": [
+                "Inputs: business documents (business case to confirm project worth, benefits management plan), existing agreements, enterprise environmental factors (working environment context), and organizational process assets (existing charter templates).",
+                "Tools: expert judgment from industry/product specialists; data gathering techniques including brainstorming, focus groups, and interviews to weigh project pros and cons.",
+                "Interpersonal and team skills: conflict management for competing ideas, facilitation of stakeholder groups, and meeting management.",
+                "Additional tool: meetings themselves as a formal technique.",
+                "Outputs: the signed project charter (authorized by the project sponsor) and a documented assumptions log capturing all assumptions made during charter development."
+              ]
+            },
+            {
+              "title": "Identify Stakeholders",
+              "video_time": 729,
+              "points": [
+                "Inputs: project charter (high-level stakeholder overview), business documents (business case and benefits management plan), and the evolving project management plan (communications management plan, stakeholder engagement plan).",
+                "Additional inputs: project documents such as change log, issue log, and requirements documentation; prior organizational agreements; EEF and OPA including existing stakeholder identification templates.",
+                "Tools: expert judgment from people within the business who know who the relevant stakeholders are.",
+                "Data gathering: questionnaires and surveys, stakeholder analysis, and document analysis.",
+                "Data representation: stakeholder mapping and representation techniques (power/interest grids, etc.).",
+                "Outputs: stakeholder register (primary output); potential change requests and updates to the project management plan and project documents (assumptions log, issue log, risk register) as new stakeholders are identified."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Planning Process Group",
+          "video_time": 836,
+          "intro": "The Planning Process Group is the largest group, covering the development of the project management plan and all subsidiary plans across every knowledge area, translating the project charter into a detailed roadmap for scope, schedule, cost, quality, resources, communications, risk, procurement, and stakeholder engagement.",
+          "subsections": [
+            {
+              "title": "Develop Project Management Plan",
+              "video_time": 836,
+              "points": [
+                "Requires a signed-off project charter from the project sponsor to confirm approval and resources",
+                "Inputs include outputs from all other planning processes (scope, schedule, cost, etc.) and the operating environment",
+                "Enterprise environmental factors and organizational process assets provide templates and context",
+                "Tools: expert judgment, data gathering (focus groups, checklists, interviews), interpersonal and team skills (conflict management), and meetings",
+                "Output is the project management plan itself, which is updated continuously throughout the project"
+              ]
+            },
+            {
+              "title": "Plan Scope Management",
+              "video_time": 903,
+              "points": [
+                "Inputs: project charter (high-level scope), project management plan, EEFs and OPAs",
+                "Tools: expert judgment, data analysis, meetings",
+                "Outputs: scope management plan (the process for managing scope) and requirements management plan (how requirements will be managed)",
+                "The scope management plan and requirements management plan together establish the governance for scope control"
+              ]
+            },
+            {
+              "title": "Collect Requirements",
+              "video_time": 960,
+              "points": [
+                "Inputs: project charter, project management plan, stakeholder register, business documents (business case contains high-level requirements), agreements, EEFs and OPAs",
+                "Tools: expert judgment, data gathering, data analysis, decision-making, data representation, interpersonal and team skills, context diagrams, prototypes (mockups, storyboards, models)",
+                "Outputs: requirements documentation (acceptance criteria for each deliverable) and requirements traceability matrix (tracking requirements through to deliverables, test cases, approvals)"
+              ]
+            },
+            {
+              "title": "Define Scope",
+              "video_time": 1040,
+              "points": [
+                "Inputs: project charter, project management plan, project documents (assumptions), EEFs and OPAs",
+                "Tools: expert judgment, data analysis (alternatives), decision-making (multicriteria decision analysis), facilitation, product analysis",
+                "Outputs: project scope statement (high-level scope) and project document updates including requirements documentation, stakeholder register, and requirements traceability matrix"
+              ]
+            },
+            {
+              "title": "Create WBS",
+              "video_time": 1102,
+              "points": [
+                "Inputs: scope management plan, project documents (requirements documentation), EEFs and OPAs",
+                "Tools: expert judgment and decomposition — breaking deliverables into progressively more detailed levels",
+                "Outputs: scope baseline and project document updates",
+                "The WBS process mirrors the decomposition approach used in building the process groups mind map itself"
+              ]
+            },
+            {
+              "title": "Schedule Planning",
+              "video_time": 1148,
+              "points": [
+                "Plan Schedule Management inputs: project charter (high-level milestones), project management plan, EEFs and OPAs; output: schedule management plan",
+                "Define Activities: decomposes WBS work packages into activities using rolling wave planning; outputs: activity list, activity attributes, milestone list",
+                "Sequence Activities: uses precedence diagramming method, dependency determination, leads and lags, PMIS; output: project schedule network diagrams",
+                "Estimate Activity Durations: uses analogous, parametric, three-point (optimistic/pessimistic/most likely average), and bottom-up estimating; outputs: duration estimates and basis of estimates",
+                "Develop Schedule: uses critical path method, resource optimization, what-if scenario analysis, schedule compression (fast-tracking/crashing), and agile release planning; outputs: schedule baseline, project schedule, schedule data, project calendars"
+              ]
+            },
+            {
+              "title": "Cost Planning",
+              "video_time": 1487,
+              "points": [
+                "Plan Cost Management inputs: project charter (initial high-level cost), project management plan, EEFs and OPAs; tools: expert judgment, data analysis (alternatives analysis), meetings; output: cost management plan",
+                "Estimate Costs: uses analogous, parametric, three-point, and bottom-up estimating; also cost of quality analysis; outputs: cost estimates and basis of estimates",
+                "Determine Budget: aggregates work package costs upward into features, deliverables, and overall project budget; includes management and contingency reserves, historical information review, and funding limit reconciliation; outputs: cost baseline, project funding requirements (milestone-based releases), project document updates"
+              ]
+            },
+            {
+              "title": "Quality Planning",
+              "video_time": 1672,
+              "points": [
+                "Inputs: project charter, project management plan, project documents, EEFs and OPAs",
+                "Tools: expert judgment, data gathering (benchmarking), data analysis, multicriteria decision analysis, data representation (mind mapping), test and inspection planning (acceptance criteria and test cases), meetings",
+                "Outputs: quality management plan, quality metrics (measures of success), project management plan updates, project document updates including requirements traceability matrix"
+              ]
+            },
+            {
+              "title": "Resource Planning",
+              "video_time": 1747,
+              "points": [
+                "Plan Resource Management inputs: project charter, project management plan (quality management plan, scope baseline), project documents, EEFs and OPAs; tools include organizational theory (e.g., Herzberg's motivation theory, Theory X/Y/Z) and data representation (hierarchical charts, resource breakdown structure); outputs: resource management plan, team charter",
+                "Estimate Activity Resources: uses bottom-up, analogous, and parametric estimating; PMIS (e.g., SharePoint, Jira, MS Project); outputs: resource requirements, resource breakdown structure, updated activity attributes and assumptions"
+              ]
+            },
+            {
+              "title": "Communications Planning",
+              "video_time": 1900,
+              "points": [
+                "Inputs: project charter, project management plan, project documents, EEFs and OPAs",
+                "Tools: expert judgment, communication requirements analysis (stakeholder preferences), communication technology, communication models, communication methods, interpersonal and team skills, data representation, meetings",
+                "Outputs: communications management plan, project management plan updates, project document updates (including stakeholder engagement plan)"
+              ]
+            },
+            {
+              "title": "Risk Planning",
+              "video_time": 1959,
+              "points": [
+                "Plan Risk Management: uses expert judgment, data analysis, and meetings; output: risk management plan",
+                "Identify Risks: brainstorming, root cause analysis, prompt lists (risk categories); outputs: risk register (list and categorization of risks) and risk report (sent to stakeholders regularly)",
+                "Perform Qualitative Risk Analysis: subjective assessment of impact and likelihood; probability and impact matrix; outputs: project document updates",
+                "Perform Quantitative Risk Analysis: data-driven (financial data, simulations, Monte Carlo analysis, histograms); outputs: risk report updates",
+                "Plan Risk Responses: strategies for threats, opportunities, contingent responses, and overall project risk; cost-benefit analysis and multicriteria decision analysis; outputs: change requests, project management plan updates (scope/schedule/cost may change)"
+              ]
+            },
+            {
+              "title": "Procurement Planning",
+              "video_time": 2232,
+              "points": [
+                "Inputs: project charter (potential vendors), business documents, project management plan, project documents (milestones, team assignments, requirements documentation), EEFs and OPAs",
+                "Tools: expert judgment, data gathering, data analysis, source selection and analysis (vendor approval criteria), meetings",
+                "Outputs: procurement management plan, bid documents (RFI, RFQ, RFP), procurement statement of work, source selection criteria, make-or-buy decisions, independent cost estimates, change requests, project and OPA updates"
+              ]
+            },
+            {
+              "title": "Stakeholder Engagement Planning",
+              "video_time": 2327,
+              "points": [
+                "Inputs: project charter (initial stakeholders), project management plan, project documents, organizational agreements, EEFs and OPAs",
+                "Tools: expert judgment, data gathering, data analysis, decision-making, data representation, meetings",
+                "Output: stakeholder engagement plan — the process for engaging stakeholders throughout the project",
+                "Completes the Planning Process Group before moving into Executing"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Executing Process Group",
+          "video_time": 2360,
+          "intro": "The Executing Process Group covers actually doing the project work, spanning processes from directing and managing work through delivering outputs, managing quality, acquiring and developing the team, communicating, implementing risk responses, conducting procurements, and engaging stakeholders.",
+          "subsections": [
+            {
+              "title": "Direct & Manage Project Work",
+              "video_time": 2360,
+              "points": [
+                "Inputs: project management plan, project documents (change log, communications), approved change requests, EEFs, and OPAs",
+                "Tools: expert judgment, project management information system (PMIS) such as Confluence, SharePoint, Jira, Monday.com, Asana, or Excel, and meetings",
+                "Outputs: deliverables (the actual project work), work performance data showing how everything is tracking",
+                "Also produces issue log, change requests, project management plan updates, project document updates, and OPA updates"
+              ]
+            },
+            {
+              "title": "Manage Project Knowledge",
+              "video_time": 2421,
+              "points": [
+                "Inputs: project management plan, project documents, and the deliverables themselves",
+                "Purpose: capture and retain lessons learned as the team executes the project",
+                "Tools: expert judgment, knowledge management techniques, information management systems, and interpersonal/team skills (facilitation and leadership)",
+                "Outputs: lessons learned register, project management plan updates, and OPA updates"
+              ]
+            },
+            {
+              "title": "Manage Quality",
+              "video_time": 2465,
+              "points": [
+                "Inputs: project management plan (quality management process), project documents including lessons learned, quality metrics, risks, and OPAs",
+                "Tools: checklists, data analysis (alternatives analysis), multicriteria decision analysis, data representation, auditing, and designing for X (e.g., ease of use)",
+                "Also uses problem solving and quality improvement methods to improve both the process and the product",
+                "Outputs: quality reports, test and evaluation documents, change requests for defects, project management plan updates, and project document updates"
+              ]
+            },
+            {
+              "title": "Acquire Resources",
+              "video_time": 2549,
+              "points": [
+                "Inputs: project management plan (resource management plan), project documents, EEFs, and OPAs",
+                "Tools: decision-making (multicriteria), interpersonal and team skills (negotiation), pre-assignment if people are already assigned, and virtual teams for geographically dispersed work",
+                "Outputs: physical resource assignments (materials), project team assignments (people), and resource calendars showing availability",
+                "Also produces change requests, project management plan updates, project document updates, and EEF/OPA updates"
+              ]
+            },
+            {
+              "title": "Develop Team",
+              "video_time": 2606,
+              "points": [
+                "Inputs: project management plan, project documents, EEFs, OPAs, lessons learned, and the team charter",
+                "Tools: colocation (same physical space), virtual teams, communication technology, conflict management, influencing, motivating, negotiating, and team building",
+                "Also uses recognition and rewards, training, and individual/team assessments to grow the team",
+                "Outputs: team performance assessments, change requests, project management plan updates, project document updates, and EEF/OPA updates"
+              ]
+            },
+            {
+              "title": "Manage Team",
+              "video_time": 2701,
+              "points": [
+                "Inputs: project management plan, project documents, work performance reports, team performance assessments, EEFs, and OPAs (resource management plan)",
+                "Tools: interpersonal and team skills focused on conflict management",
+                "Outputs: change requests, project management plan updates (including resource management plan), project document updates (issue log, project team assignments), and EEF updates",
+                "Covers reassigning people if roles or needs change during execution"
+              ]
+            },
+            {
+              "title": "Manage Communications",
+              "video_time": 2739,
+              "points": [
+                "Inputs: project management plan (communications process), project documents (issues, changes, quality report, risk report, work performance reports), EEFs, and OPAs",
+                "Tools: communication technology (messaging, email, reporting), communication methods (face-to-face or virtual), communication skills (non-verbal, presentations, feedback gathering)",
+                "Also uses PMIS, project reporting, interpersonal/team skills, and meetings",
+                "Outputs: project communications, project management plan updates, project document updates, and OPA updates"
+              ]
+            },
+            {
+              "title": "Implement Risk Responses",
+              "video_time": 2805,
+              "points": [
+                "Inputs: project management plan (risk management plan/process), project documents (lessons learned, risks, risk reports), and OPAs for existing risk response templates",
+                "Tools: expert judgment, influencing, and data from the PMIS",
+                "Outputs: change requests for any triggered risk responses, and project document updates including the issue log, risk register, and risk report"
+              ]
+            },
+            {
+              "title": "Conduct Procurements",
+              "video_time": 2842,
+              "points": [
+                "Inputs: procurement management plan, project documents, procurement documentation (RFPs, statements of work, source selection criteria), seller proposals, EEFs, and OPAs",
+                "Tools: expert judgment, advertising to attract more sellers, bid conferences to align all sellers simultaneously, data analysis, and interpersonal/team skills",
+                "Outputs: selected sellers, signed agreements, change requests, project management plan updates, project document updates, and OPA updates"
+              ]
+            },
+            {
+              "title": "Manage Stakeholder Engagement",
+              "video_time": 2912,
+              "points": [
+                "Inputs: stakeholder engagement plan, project documents, EEFs, and OPAs",
+                "Tools: expert judgment, communication skills (engaging stakeholders appropriately), interpersonal and team skills, ground rules, and meetings",
+                "Outputs: change requests for adjustments to stakeholder management approach, project management plan updates, and project document updates",
+                "Completing this process marks the end of Executing and the transition into Monitoring and Controlling"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Monitoring and Controlling Process Group",
+          "video_time": 2954,
+          "intro": "The Monitoring and Controlling Process Group covers all processes that track, review, and regulate project progress and performance, encompassing Monitor and Control Project Work, Perform Integrated Change Control, Validate/Control Scope, Control Schedule/Costs/Quality/Resources/Communications/Risks/Procurements, and Monitor Stakeholder Engagement.",
+          "subsections": [
+            {
+              "title": "Monitor and Control Project Work",
+              "video_time": 2954,
+              "points": [
+                "Inputs: project management plan, project documents, work performance information, agreements, EEFs, and OPAs.",
+                "Tools and techniques: expert judgment, data analysis, decision making, and meetings.",
+                "Output: work performance reports (raw data turned into reports for executives and stakeholders).",
+                "Additional outputs: change requests, project management plan updates, and project documents updates (e.g., issue logs, cost forecasts)."
+              ]
+            },
+            {
+              "title": "Perform Integrated Change Control",
+              "video_time": 3003,
+              "points": [
+                "Inputs: project management plan, project documents, work performance reports, change requests, EEFs, and OPAs.",
+                "Tools and techniques: expert judgment, change control tools, data analysis, decision making, and meetings.",
+                "Key output: approved change requests — only formally approved changes are implemented.",
+                "Additional outputs: project management plan updates and project documents updates (e.g., change log)."
+              ]
+            },
+            {
+              "title": "Validate Scope",
+              "video_time": 3041,
+              "points": [
+                "Involves the project sponsor or customer formally accepting completed deliverables.",
+                "Inputs: project management plan, project documents, verified deliverables (quality-checked), and work performance data including inspection results.",
+                "Tools and techniques: inspection and decision making.",
+                "Outputs: accepted deliverables, work performance information, change requests for any defects requiring rework, and project documents updates."
+              ]
+            },
+            {
+              "title": "Control Scope",
+              "video_time": 3085,
+              "points": [
+                "Manages changes to the scope baseline as the project progresses.",
+                "Inputs: project management plan, project documents, work performance data, and OPAs.",
+                "Tools and techniques: data analysis (trend analysis, variance analysis).",
+                "Outputs: work performance information, change requests, project management plan updates (scope baseline, scope management plan), and project documents updates (lessons learned, requirements traceability matrix)."
+              ]
+            },
+            {
+              "title": "Control Schedule",
+              "video_time": 3129,
+              "points": [
+                "Inputs: project management plan (schedule management plan), project documents, work performance data, and OPAs.",
+                "Tools and techniques: data analysis, critical path method, project management information system, resource optimization, leads and lags, and schedule compression (fast-tracking or crashing).",
+                "Outputs: work performance information, schedule forecasts, change requests, project management plan updates (schedule baseline, cost baseline), and project documents updates."
+              ]
+            },
+            {
+              "title": "Control Costs",
+              "video_time": 3192,
+              "points": [
+                "Inputs: project management plan, project documents, project funding requirements, work performance data, and OPAs.",
+                "Tools and techniques: expert judgment, data analysis (to-complete performance index, variance analysis, earned value management), and project management information system.",
+                "Earned value management is covered in much greater detail in the full course.",
+                "Outputs: work performance information, cost forecasts, change requests, project management plan updates, and project documents updates."
+              ]
+            },
+            {
+              "title": "Control Quality",
+              "video_time": 3246,
+              "points": [
+                "Inputs: project management plan, project documents, approved test cases, deliverables, work performance data, EEFs, and OPAs.",
+                "Tools and techniques: data gathering, data analysis, inspection of deliverables, testing and product evaluations, data representation (histograms, scatter diagrams), and meetings.",
+                "Notably, expert judgment is not listed here — a rare exception.",
+                "Outputs: quality control measurements, verified deliverables (ready for sponsor validation), work performance information, change requests, project management plan updates, and project documents updates."
+              ]
+            },
+            {
+              "title": "Control Resources",
+              "video_time": 3337,
+              "points": [
+                "Inputs: project management plan, project documents, work performance data, agreements, and OPAs.",
+                "Tools and techniques: data analysis (cost-benefit analysis, trend analysis), performance reviews, problem solving, interpersonal and team skills (negotiation, influence), and project management information system.",
+                "Outputs: work performance information (resource performance), change requests if off track, project management plan updates, and project documents updates."
+              ]
+            },
+            {
+              "title": "Monitor Communications",
+              "video_time": 3396,
+              "points": [
+                "Inputs: project management plan, project documents, work performance data, EEFs, and OPAs.",
+                "Tools and techniques: expert judgment, project management information system, data representation, interpersonal and team skills, and meetings.",
+                "Outputs: work performance information, change requests, project management plan updates, and project documents updates (issues, risks, stakeholder changes)."
+              ]
+            },
+            {
+              "title": "Monitor Risks",
+              "video_time": 3445,
+              "points": [
+                "Inputs: project management plan (risk management plan), project documents (risk register, risk reports), work performance data, and work performance reports.",
+                "Tools and techniques: data analysis, audits, and meetings.",
+                "Outputs: work performance information, change requests, project management plan updates, project documents updates, and OPAs updates."
+              ]
+            },
+            {
+              "title": "Control Procurements",
+              "video_time": 3494,
+              "points": [
+                "Inputs: project management plan (procurement management plan), project documents, agreements, procurement documentation (SOW, RFPs, vendor selection criteria), approved change requests, work performance data, EEFs, and OPAs.",
+                "Tools and techniques: expert judgment, claims administration (used when vendor disputes arise), data analysis, inspection, and audits.",
+                "Claims administration handles disputes where the vendor's work is contested and neither party agrees on the outcome.",
+                "Outputs: closed procurements, work performance information, procurement documentation updates, change requests, project management plan updates, project documents updates, and OPAs updates."
+              ]
+            },
+            {
+              "title": "Monitor Stakeholder Engagement",
+              "video_time": 3562,
+              "points": [
+                "Inputs: stakeholder engagement plan, project documents, work performance data, EEFs, and OPAs.",
+                "Tools and techniques: data analysis, decision making, data representation (stakeholder engagement assessment matrix), communication skills (feedback, presentations), interpersonal and team skills, and meetings.",
+                "Outputs: work performance information, change requests, project management plan updates, and project documents updates."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Closing Process Group",
+          "video_time": 3608,
+          "intro": "The Closing Process Group covers the single process of Close Project or Phase, detailing the inputs, tools and techniques, and outputs needed to formally close project work.",
+          "subsections": [
+            {
+              "title": "Inputs to Close Project or Phase",
+              "video_time": 3608,
+              "points": [
+                "Project Charter: verify that what was originally agreed to has been met",
+                "Project Management Plan: baseline documents used to confirm scope, schedule, and cost targets were achieved",
+                "Project Documents: includes basis of estimates, assumption log, and other supporting records",
+                "Accepted Deliverables: formally accepted outputs that confirm work was completed",
+                "Business Documents: business case and benefits management plan confirming business value was delivered",
+                "Agreements and Procurement Documentation: closed procurement contracts and related records",
+                "Organizational Process Assets (OPAs): existing ways of working and historical information"
+              ]
+            },
+            {
+              "title": "Tools and Techniques for Closing",
+              "video_time": 3634,
+              "points": [
+                "Expert Judgment: leverage expertise to assess completeness and compliance with requirements",
+                "Data Analysis: review performance data to evaluate how the project or phase concluded",
+                "Meetings: formal closure meetings to confirm acceptance and sign-off"
+              ]
+            },
+            {
+              "title": "Outputs of Close Project or Phase",
+              "video_time": 3640,
+              "points": [
+                "Project Documents Updates: updates to all project records, including the lessons learned register",
+                "Lessons Learned: captured knowledge transferred to the organization for future projects",
+                "Final Product, Service, or Result Transition: formal handover of deliverables to the customer or operations",
+                "Final Report: summary of how the project went, including outcomes and overall performance",
+                "Organizational Process Assets Updates: new or updated templates, processes, and historical data fed back into the organization"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
