@@ -69,31 +69,21 @@
   .modal { background:var(--card); border:1px solid var(--border); border-radius:12px; max-width:640px; width:100%; padding:24px; }
   .modal h2 { margin:0 0 6px; color:var(--accent); font-size:17px; }
   code { background:var(--card2); padding:1px 5px; border-radius:4px; }
-  /* WBS (work breakdown structure) tree */
-  .wbs, .wbs ul { display:flex; justify-content:center; padding:20px 0 0; margin:0; list-style:none; position:relative; }
-  .wbs { padding-top:0; }
-  .wbs li { list-style:none; position:relative; padding:20px 10px 0; text-align:center; }
-  .wbs li::before, .wbs li::after { content:''; position:absolute; top:0; right:50%; border-top:2px solid var(--border); width:50%; height:20px; }
-  .wbs li::after { right:auto; left:50%; border-left:2px solid var(--border); }
-  .wbs li:only-child::before, .wbs li:only-child::after { display:none; }
-  .wbs li:only-child { padding-top:0; }
-  .wbs li:first-child::before, .wbs li:last-child::after { border:0 none; }
-  .wbs li:last-child::before { border-right:2px solid var(--border); border-radius:0 6px 0 0; }
-  .wbs li:first-child::after { border-radius:6px 0 0 0; }
-  .wbs ul ul::before { content:''; position:absolute; top:0; left:50%; border-left:2px solid var(--border); width:0; height:20px; }
-  .wnode { display:inline-block; border:1px solid var(--border); border-radius:8px; padding:8px 12px; background:var(--card2); color:var(--text); font-size:13px; white-space:normal; max-width:230px; }
+  /* WBS — indented outline tree: every child sits directly under its parent */
+  .wbs, .wbs ul { list-style:none; margin:0; padding:0; }
+  .wbs { display:inline-block; min-width:100%; padding:4px 0 8px; }
+  .wbs ul { padding-left:30px; }
+  .wbs li { position:relative; padding:7px 0 0 0; }
+  .wbs li::before { content:''; position:absolute; left:-16px; top:0; height:100%; width:0; border-left:2px solid var(--border); }
+  .wbs li:last-child::before { height:24px; }
+  .wbs li::after { content:''; position:absolute; left:-16px; top:24px; width:15px; height:0; border-top:2px solid var(--border); }
+  .wbs > li { padding-top:0; }
+  .wbs > li::before, .wbs > li::after { display:none; }
+  .wnode { display:inline-block; border:1px solid var(--border); border-radius:8px; padding:7px 12px; background:var(--card2); color:var(--text); font-size:13px; white-space:nowrap; }
   .wnode.w0 { background:var(--accent); color:#fff; font-weight:700; border-color:var(--accent); }
   .wnode.w1 { font-weight:700; border-left:4px solid var(--accent); }
   .wnode.w2 { border-left:4px solid #60a5fa; }
-  .wnode.w3 { background:var(--card); color:var(--text); font-size:12px; max-width:none; white-space:nowrap; }
-  /* leaf level (subsections) shown vertically under the section */
-  .wbs ul.leaf { flex-direction:column; align-items:flex-start; padding:8px 0 0 30px; }
-  .wbs ul.leaf > li { padding:7px 0 0 0; margin:0; text-align:left; }
-  .wbs ul.leaf > li::before { content:'' !important; display:block !important; left:-16px !important; right:auto !important; top:0 !important; bottom:auto !important; width:0 !important; height:100% !important; border:0 !important; border-left:2px solid var(--border) !important; border-radius:0 !important; }
-  .wbs ul.leaf > li:last-child::before { height:24px !important; }
-  .wbs ul.leaf > li::after { content:'' !important; display:block !important; left:-16px !important; right:auto !important; top:24px !important; width:16px !important; height:0 !important; border:0 !important; border-top:2px solid var(--border) !important; border-radius:0 !important; }
-  .wbs ul.leaf::before { display:none !important; }
-  .wbs ul.leaf > li > .wnode { display:inline-block; }
+  .wnode.w3 { background:var(--card); color:var(--text); font-size:12px; }
 </style>
 </head>
 <body>
@@ -173,7 +163,7 @@
     var parts=DATA.parts.map(function(p){
       var secs=p.sections.map(function(s){
         var subs=(s.subsections||[]).map(function(ss){ return wbsNode(ss.title,'w3',''); }).join('');
-        return '<li><span class="wnode w2">'+esc(s.title)+'</span>'+(subs?'<ul class="leaf">'+subs+'</ul>':'')+'</li>';
+        return wbsNode(s.title,'w2',subs);
       }).join('');
       return wbsNode(p.title,'w1',secs);
     }).join('');
