@@ -70,6 +70,31 @@
   .modal { background:var(--card); border:1px solid var(--border); border-radius:12px; max-width:640px; width:100%; padding:24px; }
   .modal h2 { margin:0 0 6px; color:var(--accent); font-size:17px; }
   code { background:var(--card2); padding:1px 5px; border-radius:4px; }
+  /* WBS — horizontal org-chart for the upper levels */
+  .wbs, .wbs ul { display:flex; justify-content:center; padding:22px 0 0; margin:0; list-style:none; position:relative; }
+  .wbs { padding-top:0; }
+  .wbs li { list-style:none; position:relative; padding:22px 12px 0; text-align:center; }
+  .wbs li::before, .wbs li::after { content:''; position:absolute; top:0; right:50%; border-top:2px solid var(--border); width:50%; height:22px; }
+  .wbs li::after { right:auto; left:50%; border-left:2px solid var(--border); }
+  .wbs li:only-child::before, .wbs li:only-child::after { display:none; }
+  .wbs li:only-child { padding-top:0; }
+  .wbs li:first-child::before, .wbs li:last-child::after { border:0 none; }
+  .wbs li:last-child::before { border-right:2px solid var(--border); border-radius:0 6px 0 0; }
+  .wbs li:first-child::after { border-radius:6px 0 0 0; }
+  .wbs ul ul::before { content:''; position:absolute; top:0; left:50%; border-left:2px solid var(--border); width:0; height:22px; }
+  .wnode { display:inline-block; border:1px solid var(--border); border-radius:8px; padding:8px 12px; background:var(--card2); color:var(--text); font-size:13px; white-space:normal; max-width:230px; }
+  .wnode.w0 { background:var(--accent); color:#451a03; font-weight:700; border-color:var(--accent); }
+  .wnode.w1 { font-weight:700; border-left:4px solid var(--accent); }
+  .wnode.w2 { border-left:4px solid #60a5fa; }
+  .wnode.w3 { background:var(--card); color:var(--text); font-size:12px; max-width:none; white-space:nowrap; }
+  /* last level only (tools): vertical indented list under the phase */
+  .wbs ul.leaf { flex-direction:column; align-items:flex-start; padding:10px 0 0 30px; }
+  .wbs ul.leaf > li { padding:7px 0 0 0; margin:0; text-align:left; }
+  .wbs ul.leaf > li::before { content:'' !important; display:block !important; left:-16px !important; right:auto !important; top:0 !important; bottom:auto !important; width:0 !important; height:100% !important; border:0 !important; border-left:2px solid var(--border) !important; border-radius:0 !important; }
+  .wbs ul.leaf > li:last-child::before { height:24px !important; }
+  .wbs ul.leaf > li::after { content:'' !important; display:block !important; left:-16px !important; right:auto !important; top:24px !important; width:16px !important; height:0 !important; border:0 !important; border-top:2px solid var(--border) !important; border-radius:0 !important; }
+  .wbs ul.leaf::before { display:none !important; }
+  .wbs ul.leaf > li > .wnode { display:inline-block; }
 </style>
 </head>
 <body>
@@ -142,7 +167,14 @@
     DATA.parts.forEach(function(p,pi){ var pid; if(one){ pid="ROOT"; } else { pid="P"+pi; g+='ROOT --> '+pid+'["'+sanMM(p.title)+'"]\n'; }
       p.sections.forEach(function(s,si){ var sid="N"+pi+"_"+si; g+=pid+' --> '+sid+'["'+sanMM(s.title)+'"]\n'; }); });
     return g; }
-  function mindmapCard(){ return '<section class="sec" id="guide-mind-map"><div class="sechead"><span class="caret">▾</span><div class="st"><h2>🗺️ Mind map of this guide</h2><div class="intro">Visual overview of every section. Use the contents list or the sections below to dive in.</div></div></div><div class="body"><div id="mmguide" class="mermaid" style="text-align:center;overflow:auto">'+mmSrc()+'</div></div></section>'; }
+  function wbsNode(label,cls,kids){ return '<li><span class="wnode '+cls+'">'+esc(label)+'</span>'+(kids?'<ul>'+kids+'</ul>':'')+'</li>'; }
+  function wbsHtml(){ if(!DATA||!DATA.parts) return '';
+    function sec(s){ var subs=(s.subsections||[]).map(function(ss){ return wbsNode(ss.title,'w3',''); }).join('');
+      return '<li><span class="wnode w2">'+esc(s.title)+'</span>'+(subs?'<ul class="leaf">'+subs+'</ul>':'')+'</li>'; }
+    if(DATA.parts.length===1){ var secs1=DATA.parts[0].sections.map(sec).join(''); return '<ul class="wbs">'+wbsNode(mmRoot(),'w0',secs1)+'</ul>'; }
+    var parts=DATA.parts.map(function(p){ var secs=p.sections.map(sec).join(''); return wbsNode(p.title,'w1',secs); }).join('');
+    return '<ul class="wbs">'+wbsNode(mmRoot(),'w0',parts)+'</ul>'; }
+  function mindmapCard(){ return '<section class="sec" id="guide-mind-map"><div class="sechead"><span class="caret">▾</span><div class="st"><h2>🗺️ Work Breakdown Structure of this guide</h2><div class="intro">Every phase and tool as a WBS tree. Use ⤢ Fullscreen to zoom and pan.</div></div></div><div class="body"><div id="mmguide" style="overflow:auto;padding:6px 0 14px">'+wbsHtml()+'</div></div></section>'; }
   var MM_CACHE=null;
   function loadMermaid(cb){ if(window.mermaid){ cb(); return; } var s=document.createElement("script"); s.src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"; s.onload=cb; s.onerror=function(){ var e=document.getElementById("mmguide"); if(e) e.innerHTML='<span style="color:var(--muted)">(Connect to the internet to view the mind-map diagram.)</span>'; }; document.head.appendChild(s); }
   function drawMM(){ try{ var el=document.getElementById("mmguide"); if(!el||!window.mermaid) return; if(MM_CACHE==null) MM_CACHE=el.textContent; window.mermaid.initialize({startOnLoad:false,securityLevel:"loose",theme:document.body.classList.contains("light")?"default":"dark",flowchart:{htmlLabels:true,curve:"basis"}}); el.removeAttribute("data-processed"); el.innerHTML=MM_CACHE; window.mermaid.run({nodes:[el]}); }catch(e){} }
@@ -182,7 +214,6 @@
     });
     document.getElementById("loader").style.display="none";
     document.getElementById("layout").style.display="grid";
-    loadMermaid(drawMM);
   }
 
   function setAll(collapsed){ document.querySelectorAll(".sec").forEach(function(s){ s.classList.toggle("collapsed",collapsed); }); }
@@ -253,10 +284,10 @@
   window.addEventListener('mousemove',function(e){ if(!drag)return; tx=e.clientX-sx; ty=e.clientY-sy; apply(); });
   window.addEventListener('mouseup',function(){ drag=false; stage.classList.remove('grabbing'); });
   document.addEventListener('keydown',function(e){ if(e.key==='Escape'&&ov.classList.contains('show')) close(); });
-  window.__dzAttach=function(host,title){ if(!host||host.dataset.dz)return; host.dataset.dz='1'; host.classList.add('dz-host'); var b=document.createElement('button'); b.className='dz-open'; b.type='button'; b.textContent='⤢ Fullscreen'; b.addEventListener('click',function(ev){ ev.stopPropagation(); var svg=host.querySelector('svg'); if(svg) open(svg,title); }); host.appendChild(b); };
+  window.__dzAttach=function(host,title){ if(!host||host.dataset.dz)return; host.dataset.dz='1'; host.classList.add('dz-host'); var b=document.createElement('button'); b.className='dz-open'; b.type='button'; b.textContent='⤢ Fullscreen'; b.addEventListener('click',function(ev){ ev.stopPropagation(); var el=host.querySelector('svg')||host.querySelector('.wbs'); if(el) open(el,title); }); host.appendChild(b); };
   function scan(){ try{
     document.querySelectorAll('.diagram').forEach(function(d){ if(d.querySelector('svg')){ var s=d.closest('.sec'); var t=(s&&s.querySelector('h2'))?s.querySelector('h2').textContent:'Diagram'; window.__dzAttach(d,t); } });
-    var b=document.querySelector('#guide-mind-map .body'); if(b&&b.querySelector('svg')) window.__dzAttach(b,'Mind map of this guide');
+    var b=document.querySelector('#guide-mind-map .body'); if(b&&(b.querySelector('svg')||b.querySelector('.wbs'))) window.__dzAttach(b,'63 Tools — WBS');
   }catch(e){} }
   setInterval(scan,900); setTimeout(scan,1200);
 })();
