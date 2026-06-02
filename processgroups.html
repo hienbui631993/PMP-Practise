@@ -95,6 +95,8 @@
   .wbs ul.leaf > li::after { content:'' !important; display:block !important; left:-16px !important; right:auto !important; top:24px !important; width:16px !important; height:0 !important; border:0 !important; border-top:2px solid var(--border) !important; border-radius:0 !important; }
   .wbs ul.leaf::before { display:none !important; }
   .wbs ul.leaf > li > .wnode { display:inline-block; max-width:260px; white-space:normal; text-align:left; }
+  .wnode.wlink { text-decoration:none; cursor:pointer; }
+  .wnode.wlink:hover { border-color:var(--accent); color:var(--accent); }
 </style>
 </head>
 <body>
@@ -184,6 +186,21 @@
   function loadMermaid(cb){ if(window.mermaid){ cb(); return; } var s=document.createElement("script"); s.src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"; s.onload=cb; s.onerror=function(){ var e=document.getElementById("mmguide"); if(e) e.innerHTML='<span style="color:var(--muted)">(Connect to the internet to view the mind-map diagram.)</span>'; }; document.head.appendChild(s); }
   function drawMM(){ try{ var el=document.getElementById("mmguide"); if(!el||!window.mermaid) return; if(MM_CACHE==null) MM_CACHE=el.textContent; window.mermaid.initialize({startOnLoad:false,securityLevel:"loose",theme:document.body.classList.contains("light")?"default":"dark",flowchart:{htmlLabels:true,curve:"basis"}}); el.removeAttribute("data-processed"); el.innerHTML=MM_CACHE; window.mermaid.run({nodes:[el]}); }catch(e){} }
 
+  // per-process-group detail diagram that links to the 63 Tools & Techniques
+  function groupTools(title){ var t=title.toLowerCase(), m=[]; function add(l,s){ m.push([l,s]); }
+    if(t.indexOf('initiat')>=0){ add('Initiation & Business Case','initiation-business-case'); add('Stakeholder Tools','stakeholder-tools'); add('Analysis & Feasibility','analysis-feasibility'); }
+    else if(t.indexOf('planning')>=0){ add('Requirements & Scope','requirements-scope'); add('Prioritization','prioritization'); add('Schedule','schedule'); add('Budget & Cost','budget-cost'); add('Quality','quality'); add('Resources & Team','resources-team'); add('Risk','risk'); add('Process, Flow & Mapping','process-flow-mapping'); }
+    else if(t.indexOf('executing')>=0){ add('Resources & Team','resources-team'); add('Quality','quality'); add('Process, Flow & Mapping','process-flow-mapping'); add('Stakeholder Tools','stakeholder-tools'); }
+    else if(t.indexOf('monitoring')>=0){ add('Quality','quality'); add('Schedule','schedule'); add('Budget & Cost','budget-cost'); add('Risk','risk'); }
+    return m; }
+  function groupDiagram(sec){
+    var procs=(sec.subsections||[]).map(function(ss){ return wbsNode(ss.title,'w3',''); }).join('');
+    var tools=groupTools(sec.title);
+    var toolLis=tools.map(function(x){ return '<li><a class="wnode w3 wlink" href="tools.html#'+x[1]+'">🔧 '+esc(x[0])+'</a></li>'; }).join('');
+    var branches='<li><span class="wnode w1">Processes</span>'+(procs?'<ul class="leaf">'+procs+'</ul>':'')+'</li>';
+    if(tools.length) branches+='<li><span class="wnode w1">Tools &amp; techniques</span><ul class="leaf">'+toolLis+'</ul></li>';
+    return '<div class="part-title" style="margin:2px 0 6px">Process map &amp; related 63 Tools (click a tool to open it)</div><div class="gwbs" style="overflow:auto;padding:4px 0 12px"><ul class="wbs">'+wbsNode(sec.title,'w0',branches)+'</ul></div>';
+  }
   function render(){
     document.getElementById("watchTop").href=ytUrl(0);
     var toc=document.getElementById("toc");
@@ -206,7 +223,7 @@
           '<div class="sechead"><span class="caret">▾</span><div class="st"><h2>'+esc(sec.title)+'</h2>'+
             (sec.intro?'<div class="intro">'+esc(sec.intro)+'</div>':'')+'</div>'+
             (sec.video_time!=null?watchLink(sec.video_time):'')+'</div>'+
-          '<div class="body">'+subs+'</div></section>';
+          '<div class="body">'+(/Process Group/.test(sec.title)?groupDiagram(sec):'')+subs+'</div></section>';
       });
     });
     toc.innerHTML=tocHtml;
@@ -295,6 +312,7 @@
   function scan(){ try{
     document.querySelectorAll('.diagram').forEach(function(d){ if(d.querySelector('svg')){ var s=d.closest('.sec'); var t=(s&&s.querySelector('h2'))?s.querySelector('h2').textContent:'Diagram'; window.__dzAttach(d,t); } });
     var b=document.querySelector('#guide-mind-map .body'); if(b&&(b.querySelector('svg')||b.querySelector('.wbs'))) window.__dzAttach(b,'Process Groups — WBS');
+    document.querySelectorAll('.gwbs').forEach(function(g){ if(g.querySelector('.wbs')){ var sc=g.closest('.sec'); window.__dzAttach(g,(sc&&sc.querySelector('h2'))?sc.querySelector('h2').textContent:'Process group'); } });
   }catch(e){} }
   setInterval(scan,900); setTimeout(scan,1200);
 })();
