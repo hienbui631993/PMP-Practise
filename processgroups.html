@@ -194,16 +194,31 @@
     else if(t.indexOf('executing')>=0){ add('Resources & Team','resources-team'); add('Quality','quality'); add('Process, Flow & Mapping','process-flow-mapping'); add('Stakeholder Tools','stakeholder-tools'); }
     else if(t.indexOf('monitoring')>=0){ add('Quality','quality'); add('Schedule','schedule'); add('Budget & Cost','budget-cost'); add('Risk','risk'); }
     return m; }
-  function groupDiagram(sec){
-    // each process becomes a branch that expands into its detail (points)
-    var branches=(sec.subsections||[]).map(function(ss){
-      var items=(ss.points||[]).map(function(p){ return wbsNode(p,'w3',''); }).join('');
-      return '<li><span class="wnode w1">'+esc(ss.title)+'</span>'+(items?'<ul class="leaf">'+items+'</ul>':'')+'</li>';
+  // sort each process's detail lines into Inputs / Tools & Techniques / Outputs
+  function ittoBuckets(points){
+    var b={"Inputs":[],"Tools & Techniques":[],"Outputs":[]};
+    (points||[]).forEach(function(p){
+      var low=p.toLowerCase(), txt=p.replace(/^[^:]{1,46}:\s*/,'');
+      if(/^(additional inputs|inputs|input)\b/.test(low)) b["Inputs"].push(txt);
+      else if(/^(outputs|output)\b/.test(low)) b["Outputs"].push(txt);
+      else b["Tools & Techniques"].push(txt);
+    });
+    return b;
+  }
+  function ittoBranch(ss){
+    var b=ittoBuckets(ss.points);
+    var cats=["Inputs","Tools & Techniques","Outputs"].filter(function(k){return b[k].length;}).map(function(k){
+      var items=b[k].map(function(t){ return wbsNode(t,'w3',''); }).join('');
+      return '<li><span class="wnode w2">'+k+'</span>'+(items?'<ul class="leaf">'+items+'</ul>':'')+'</li>';
     }).join('');
+    return '<li><span class="wnode w1">'+esc(ss.title)+'</span>'+(cats?'<ul>'+cats+'</ul>':'')+'</li>';
+  }
+  function groupDiagram(sec){
+    var branches=(sec.subsections||[]).map(ittoBranch).join('');
     var tools=groupTools(sec.title);
     var toolLis=tools.map(function(x){ return '<li><a class="wnode w3 wlink" href="tools.html#'+x[1]+'">🔧 '+esc(x[0])+'</a></li>'; }).join('');
-    if(tools.length) branches+='<li><span class="wnode w1 wtools">Tools &amp; techniques</span><ul class="leaf">'+toolLis+'</ul></li>';
-    return '<div class="part-title" style="margin:2px 0 6px">Processes with detail &amp; related 63 Tools (click a tool to open it)</div><div class="gwbs" style="overflow:auto;padding:4px 0 12px"><ul class="wbs">'+wbsNode(sec.title,'w0',branches)+'</ul></div>';
+    if(tools.length) branches+='<li><span class="wnode w1 wtools">63 Tools &amp; techniques</span><ul class="leaf">'+toolLis+'</ul></li>';
+    return '<div class="part-title" style="margin:2px 0 6px">Each process → Inputs · Tools &amp; Techniques · Outputs (with detail) &amp; related 63 Tools</div><div class="gwbs" style="overflow:auto;padding:4px 0 12px"><ul class="wbs">'+wbsNode(sec.title,'w0',branches)+'</ul></div>';
   }
   function render(){
     document.getElementById("watchTop").href=ytUrl(0);
