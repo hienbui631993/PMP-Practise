@@ -87,10 +87,11 @@
   .wnode.w2 { border-left:4px solid #60a5fa; }
   .wnode.w3 { background:var(--card); color:var(--text); font-size:12px; max-width:none; white-space:nowrap; }
   /* leaf level (subsections) shown vertically under the section */
-  .wbs ul.leaf { flex-direction:column; align-items:flex-start; padding:10px 0 4px 16px; margin-left:10px; border-left:2px solid var(--border); }
-  .wbs ul.leaf > li { padding:6px 0 0 16px; margin:0; text-align:left; }
-  .wbs ul.leaf > li::before { content:'' !important; display:block !important; position:absolute; left:0; top:50%; width:14px; height:0; border:0 !important; border-top:2px solid var(--border) !important; border-radius:0 !important; }
-  .wbs ul.leaf > li::after { display:none !important; }
+  .wbs ul.leaf { flex-direction:column; align-items:flex-start; padding:8px 0 0 30px; }
+  .wbs ul.leaf > li { padding:7px 0 0 0; margin:0; text-align:left; }
+  .wbs ul.leaf > li::before { content:'' !important; display:block !important; left:-16px !important; right:auto !important; top:0 !important; bottom:auto !important; width:0 !important; height:100% !important; border:0 !important; border-left:2px solid var(--border) !important; border-radius:0 !important; }
+  .wbs ul.leaf > li:last-child::before { height:24px !important; }
+  .wbs ul.leaf > li::after { content:'' !important; display:block !important; left:-16px !important; right:auto !important; top:24px !important; width:16px !important; height:0 !important; border:0 !important; border-top:2px solid var(--border) !important; border-radius:0 !important; }
   .wbs ul.leaf::before { display:none !important; }
   .wbs ul.leaf > li > .wnode { display:inline-block; }
 </style>
