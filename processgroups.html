@@ -194,6 +194,9 @@
     else if(t.indexOf('executing')>=0){ add('Resources & Team','resources-team'); add('Quality','quality'); add('Process, Flow & Mapping','process-flow-mapping'); add('Stakeholder Tools','stakeholder-tools'); }
     else if(t.indexOf('monitoring')>=0){ add('Quality','quality'); add('Schedule','schedule'); add('Budget & Cost','budget-cost'); add('Risk','risk'); }
     return m; }
+  // split a detail line into list items on top-level commas/semicolons (keep text inside parentheses together)
+  function splitItems(s){ var out=[],depth=0,cur=''; for(var i=0;i<String(s).length;i++){ var c=s[i]; if(c==='(')depth++; else if(c===')')depth=Math.max(0,depth-1); if((c===','||c===';')&&depth===0){ if(cur.trim())out.push(cur.trim()); cur=''; } else cur+=c; } if(cur.trim())out.push(cur.trim());
+    return out.map(function(x){ return x.replace(/^and\s+/i,'').replace(/\.+$/,'').trim(); }).filter(Boolean); }
   // sort each process's detail lines into Inputs / Tools & Techniques / Outputs
   function ittoBuckets(points){
     var b={"Inputs":[],"Tools & Techniques":[],"Outputs":[]};
@@ -208,7 +211,7 @@
   function ittoBranch(ss){
     var b=ittoBuckets(ss.points);
     var cats=["Inputs","Tools & Techniques","Outputs"].filter(function(k){return b[k].length;}).map(function(k){
-      var items=b[k].map(function(t){ return wbsNode(t,'w3',''); }).join('');
+      var items=b[k].reduce(function(a,t){ return a.concat(splitItems(t)); },[]).map(function(t){ return wbsNode(t,'w3',''); }).join('');
       return '<li><span class="wnode w2">'+k+'</span>'+(items?'<ul class="leaf">'+items+'</ul>':'')+'</li>';
     }).join('');
     return '<li><span class="wnode w1">'+esc(ss.title)+'</span>'+(cats?'<ul>'+cats+'</ul>':'')+'</li>';
