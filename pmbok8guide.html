@@ -73,7 +73,7 @@
   /* WBS — horizontal org-chart for the upper levels */
   .wbs, .wbs ul { display:flex; justify-content:center; padding:22px 0 0; margin:0; list-style:none; position:relative; }
   .wbs { padding-top:0; }
-  .wbs li { list-style:none; position:relative; padding:22px 12px 0; text-align:center; }
+  .wbs li { list-style:none; position:relative; padding:22px 48px 0; text-align:center; }
   .wbs li::before, .wbs li::after { content:''; position:absolute; top:0; right:50%; border-top:2px solid var(--border); width:50%; height:22px; }
   .wbs li::after { right:auto; left:50%; border-left:2px solid var(--border); }
   .wbs li:only-child::before, .wbs li:only-child::after { display:none; }
@@ -82,13 +82,13 @@
   .wbs li:last-child::before { border-right:2px solid var(--border); border-radius:0 6px 0 0; }
   .wbs li:first-child::after { border-radius:6px 0 0 0; }
   .wbs ul ul::before { content:''; position:absolute; top:0; left:50%; border-left:2px solid var(--border); width:0; height:22px; }
-  .wnode { display:inline-block; border:1px solid var(--border); border-radius:8px; padding:8px 12px; background:var(--card2); color:var(--text); font-size:13px; white-space:normal; max-width:230px; }
+  .wnode { display:inline-block; border:1px solid var(--border); border-radius:8px; padding:8px 12px; background:var(--card2); color:var(--text); font-size:13px; white-space:normal; min-width:160px; max-width:230px; }
   .wnode.w0 { background:var(--accent); color:var(--accent-ink); font-weight:700; border-color:var(--accent); }
   .wnode.w1 { font-weight:700; border-left:4px solid var(--accent); }
   .wnode.w2 { border-left:4px solid #60a5fa; }
   .wnode.w3 { background:var(--card); color:var(--text); font-size:12px; }
   /* last level only (subsections): vertical indented list under the section */
-  .wbs ul.leaf { flex-direction:column; align-items:flex-start; padding:10px 0 0 30px; }
+  .wbs ul.leaf { flex-direction:column; align-items:flex-start; padding:0 0 0 40%; }
   .wbs ul.leaf > li { padding:7px 0 0 0; margin:0; text-align:left; }
   .wbs ul.leaf > li::before { content:'' !important; display:block !important; left:-16px !important; right:auto !important; top:0 !important; bottom:auto !important; width:0 !important; height:100% !important; border:0 !important; border-left:2px solid var(--border) !important; border-radius:0 !important; }
   .wbs ul.leaf > li:last-child::before { height:24px !important; }
