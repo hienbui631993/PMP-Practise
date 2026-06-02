@@ -96,6 +96,8 @@
   .wbs ul.leaf > li::after { content:'' !important; display:block !important; left:-16px !important; right:auto !important; top:24px !important; width:16px !important; height:0 !important; border:0 !important; border-top:2px solid var(--border) !important; border-radius:0 !important; }
   .wbs ul.leaf::before { display:none !important; }
   .wbs ul.leaf > li > .wnode { display:inline-block; max-width:260px; white-space:normal; text-align:left; }
+  .wnode.wlink { text-decoration:none; cursor:pointer; }
+  .wnode.wlink:hover { border-color:var(--accent); color:var(--accent); }
 </style>
 </head>
 <body>
@@ -168,10 +170,10 @@
     DATA.parts.forEach(function(p,pi){ var pid; if(one){ pid="ROOT"; } else { pid="P"+pi; g+='ROOT --> '+pid+'["'+sanMM(p.title)+'"]\n'; }
       p.sections.forEach(function(s,si){ var sid="N"+pi+"_"+si; g+=pid+' --> '+sid+'["'+sanMM(s.title)+'"]\n'; }); });
     return g; }
-  function wbsNode(label,cls,kids){ return '<li><span class="wnode '+cls+'">'+esc(label)+'</span>'+(kids?'<ul>'+kids+'</ul>':'')+'</li>'; }
+  function wbsNode(label,cls,kids,href){ var n=href?('<a class="wnode '+cls+' wlink" href="'+href+'">'+esc(label)+'</a>'):('<span class="wnode '+cls+'">'+esc(label)+'</span>'); return '<li>'+n+(kids?'<ul>'+kids+'</ul>':'')+'</li>'; }
   function wbsHtml(){ if(!DATA||!DATA.parts) return '';
-    function sec(s){ var subs=(s.subsections||[]).map(function(ss){ return wbsNode(ss.title,'w3',''); }).join('');
-      return '<li><span class="wnode w2">'+esc(s.title)+'</span>'+(subs?'<ul class="leaf">'+subs+'</ul>':'')+'</li>'; }
+    function sec(s){ var subs=(s.subsections||[]).map(function(ss){ return wbsNode(ss.title,'w3','','#tool-'+slug(ss.title)); }).join('');
+      return '<li><a class="wnode w2 wlink" href="#'+slug(s.title)+'">'+esc(s.title)+'</a>'+(subs?'<ul class="leaf">'+subs+'</ul>':'')+'</li>'; }
     if(DATA.parts.length===1){ var secs1=DATA.parts[0].sections.map(sec).join(''); return '<ul class="wbs">'+wbsNode(mmRoot(),'w0',secs1)+'</ul>'; }
     var parts=DATA.parts.map(function(p){ var secs=p.sections.map(sec).join(''); return wbsNode(p.title,'w1',secs); }).join('');
     return '<ul class="wbs">'+wbsNode(mmRoot(),'w0',parts)+'</ul>'; }
@@ -192,7 +194,7 @@
         tocHtml+='<a href="#'+id+'">'+esc(sec.title)+'<small>'+nt+' tools</small></a>';
         var subs=(sec.subsections||[]).map(function(ss){
           var lis=(ss.points||[]).map(function(p){return '<li>'+esc(p)+'</li>';}).join("");
-          return '<div class="sub" data-text="'+esc((ss.title+" "+(ss.points||[]).join(" ")).toLowerCase())+'">'+
+          return '<div class="sub" id="tool-'+slug(ss.title)+'" data-text="'+esc((ss.title+" "+(ss.points||[]).join(" ")).toLowerCase())+'">'+
                    '<div class="subhead"><h3>'+esc(ss.title)+'</h3>'+(ss.video_time!=null?watchLink(ss.video_time):'')+'</div>'+
                    (lis?'<ul>'+lis+'</ul>':'')+
                  '</div>';

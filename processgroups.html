@@ -172,12 +172,12 @@
       p.sections.forEach(function(s,si){ var sid="N"+pi+"_"+si; g+=pid+' --> '+sid+'["'+sanMM(s.title)+'"]\n';
         (s.subsections||[]).forEach(function(ss,ssi){ var ssid=sid+"_"+ssi; g+=sid+' --> '+ssid+'["'+sanMM(ss.title)+'"]\n'; }); }); });
     return g; }
-  function wbsNode(label,cls,kids){ return '<li><span class="wnode '+cls+'">'+esc(label)+'</span>'+(kids?'<ul>'+kids+'</ul>':'')+'</li>'; }
+  function wbsNode(label,cls,kids,href){ var n=href?('<a class="wnode '+cls+' wlink" href="'+href+'">'+esc(label)+'</a>'):('<span class="wnode '+cls+'">'+esc(label)+'</span>'); return '<li>'+n+(kids?'<ul>'+kids+'</ul>':'')+'</li>'; }
   function wbsHtml(){ if(!DATA||!DATA.parts) return '';
     var parts=DATA.parts.map(function(p){
       var secs=p.sections.map(function(s){
         var subs=(s.subsections||[]).map(function(ss){ return wbsNode(ss.title,'w3',''); }).join('');
-        return '<li><span class="wnode w2">'+esc(s.title)+'</span>'+(subs?'<ul class="leaf">'+subs+'</ul>':'')+'</li>';
+        return '<li><a class="wnode w2 wlink" href="#'+slug(s.title)+'">'+esc(s.title)+'</a>'+(subs?'<ul class="leaf">'+subs+'</ul>':'')+'</li>';
       }).join('');
       return wbsNode(p.title,'w1',secs);
     }).join('');
@@ -188,12 +188,16 @@
   function drawMM(){ try{ var el=document.getElementById("mmguide"); if(!el||!window.mermaid) return; if(MM_CACHE==null) MM_CACHE=el.textContent; window.mermaid.initialize({startOnLoad:false,securityLevel:"loose",theme:document.body.classList.contains("light")?"default":"dark",flowchart:{htmlLabels:true,curve:"basis"}}); el.removeAttribute("data-processed"); el.innerHTML=MM_CACHE; window.mermaid.run({nodes:[el]}); }catch(e){} }
 
   // per-process-group detail diagram that links to the 63 Tools & Techniques
-  function groupTools(title){ var t=title.toLowerCase(), m=[]; function add(l,s){ m.push([l,s]); }
-    if(t.indexOf('initiat')>=0){ add('Initiation & Business Case','initiation-business-case'); add('Stakeholder Tools','stakeholder-tools'); add('Analysis & Feasibility','analysis-feasibility'); }
-    else if(t.indexOf('planning')>=0){ add('Requirements & Scope','requirements-scope'); add('Prioritization','prioritization'); add('Schedule','schedule'); add('Budget & Cost','budget-cost'); add('Quality','quality'); add('Resources & Team','resources-team'); add('Risk','risk'); add('Process, Flow & Mapping','process-flow-mapping'); }
-    else if(t.indexOf('executing')>=0){ add('Resources & Team','resources-team'); add('Quality','quality'); add('Process, Flow & Mapping','process-flow-mapping'); add('Stakeholder Tools','stakeholder-tools'); }
-    else if(t.indexOf('monitoring')>=0){ add('Quality','quality'); add('Schedule','schedule'); add('Budget & Cost','budget-cost'); add('Risk','risk'); }
-    return m; }
+  // map each PMBOK-6 process name to its PMBOK-8 ITTO section anchor
+  var P8MAP={"develop project charter":"initiate-the-project-or-phase","identify stakeholders":"identify-stakeholders","develop project management plan":"integrate-and-align-project-plan","plan scope management":"plan-scope-management","collect requirements":"elicit-and-analyze-requirements","define scope":"define-scope","create wbs":"develop-scope-structure","schedule planning":"plan-schedule-management","cost planning":"plan-financial-management","quality planning":"manage-quality-assurance","resource planning":"plan-resource-management","communications planning":"plan-communications-management","risk planning":"plan-risk-management","procurement planning":"plan-sourcing-strategy","stakeholder engagement planning":"plan-stakeholder-engagement","direct & manage project work":"manage-project-execution","manage project knowledge":"manage-project-knowledge","manage quality":"manage-quality-assurance","acquire resources":"acquire-resources","develop team":"lead-the-team","manage team":"lead-the-team","manage communications":"manage-communications","implement risk responses":"implement-risk-responses","conduct procurements":"plan-sourcing-strategy","manage stakeholder engagement":"manage-stakeholder-engagement","monitor and control project work":"monitor-and-control-project-performance","perform integrated change control":"assess-and-implement-changes","validate scope":"validate-scope","control scope":"monitor-and-control-scope","control schedule":"monitor-and-control-schedule","control costs":"monitor-and-control-finance","control quality":"manage-quality-assurance","control resources":"monitor-and-control-resourcing","monitor communications":"monitor-communications","monitor risks":"monitor-risks","control procurements":"monitor-and-control-finance","monitor stakeholder engagement":"monitor-stakeholder-engagement"};
+  function pmbok8Anchor(t){ var k=String(t).toLowerCase(); if(P8MAP[k]) return P8MAP[k]; if(k.indexOf('clos')>=0) return 'close-the-project-or-phase'; return slug(t); }
+  // representative 63-tools per process group (linked to their exact tool on tools.html)
+  function groupTools(title){ var t=title.toLowerCase();
+    if(t.indexOf('initiat')>=0) return ['Project Business Case','Project Charter','Stakeholder Register','Stakeholder Classification Matrix','Salience Chart'];
+    if(t.indexOf('planning')>=0) return ['Work Breakdown Structure','WBS Dictionary','Requirements Traceability Matrix','MoSCoW','Schedule Network Diagram','Gantt Chart','Project Budget','Cost Benefit Analysis','Risk Register','RACI'];
+    if(t.indexOf('executing')>=0) return ['RACI','Team Charter','Retrospective','Meeting Cadence Planner'];
+    if(t.indexOf('monitoring')>=0) return ['Control Chart','Check Sheets','Pareto Chart','Ishikawa Diagram (Fishbone Diagram)','The Five Whys','Risk Matrix','Burndown Chart'];
+    return []; }
   // split a detail line into list items on top-level commas/semicolons (keep text inside parentheses together)
   function splitItems(s){ var out=[],depth=0,cur=''; for(var i=0;i<String(s).length;i++){ var c=s[i]; if(c==='(')depth++; else if(c===')')depth=Math.max(0,depth-1); if((c===','||c===';')&&depth===0){ if(cur.trim())out.push(cur.trim()); cur=''; } else cur+=c; } if(cur.trim())out.push(cur.trim());
     return out.map(function(x){ return x.replace(/^and\s+/i,'').replace(/\.+$/,'').trim(); }).filter(Boolean); }
@@ -214,12 +218,12 @@
       var items=b[k].reduce(function(a,t){ return a.concat(splitItems(t)); },[]).map(function(t){ return wbsNode(t,'w3',''); }).join('');
       return '<li><span class="wnode w2">'+k+'</span>'+(items?'<ul class="leaf">'+items+'</ul>':'')+'</li>';
     }).join('');
-    return '<li><span class="wnode w1">'+esc(ss.title)+'</span>'+(cats?'<ul>'+cats+'</ul>':'')+'</li>';
+    return '<li><a class="wnode w1 wlink" href="pmbok8guide.html#'+pmbok8Anchor(ss.title)+'" title="Open the ITTO detail on the PMBOK 8 page">'+esc(ss.title)+'</a>'+(cats?'<ul>'+cats+'</ul>':'')+'</li>';
   }
   function groupDiagram(sec){
     var branches=(sec.subsections||[]).map(ittoBranch).join('');
     var tools=groupTools(sec.title);
-    var toolLis=tools.map(function(x){ return '<li><a class="wnode w3 wlink" href="tools.html#'+x[1]+'">🔧 '+esc(x[0])+'</a></li>'; }).join('');
+    var toolLis=tools.map(function(name){ return '<li><a class="wnode w3 wlink" href="tools.html#tool-'+slug(name)+'">🔧 '+esc(name)+'</a></li>'; }).join('');
     if(tools.length) branches+='<li><span class="wnode w1 wtools">63 Tools &amp; techniques</span><ul class="leaf">'+toolLis+'</ul></li>';
     return '<div class="part-title" style="margin:2px 0 6px">Each process → Inputs · Tools &amp; Techniques · Outputs (with detail) &amp; related 63 Tools</div><div class="gwbs" style="overflow:auto;padding:4px 0 12px"><ul class="wbs">'+wbsNode(sec.title,'w0',branches)+'</ul></div>';
   }
