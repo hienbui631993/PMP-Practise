@@ -85,7 +85,14 @@
   .wnode.w0 { background:var(--accent); color:#fff; font-weight:700; border-color:var(--accent); }
   .wnode.w1 { font-weight:700; border-left:4px solid var(--accent); }
   .wnode.w2 { border-left:4px solid #60a5fa; }
-  .wnode.w3 { background:var(--card); color:var(--muted); font-size:12px; }
+  .wnode.w3 { background:var(--card); color:var(--text); font-size:12px; max-width:none; white-space:nowrap; }
+  /* leaf level (subsections) shown vertically under the section */
+  .wbs ul.leaf { flex-direction:column; align-items:flex-start; padding:10px 0 4px 16px; margin-left:10px; border-left:2px solid var(--border); }
+  .wbs ul.leaf > li { padding:6px 0 0 16px; margin:0; text-align:left; }
+  .wbs ul.leaf > li::before { content:'' !important; display:block !important; position:absolute; left:0; top:50%; width:14px; height:0; border:0 !important; border-top:2px solid var(--border) !important; border-radius:0 !important; }
+  .wbs ul.leaf > li::after { display:none !important; }
+  .wbs ul.leaf::before { display:none !important; }
+  .wbs ul.leaf > li > .wnode { display:inline-block; }
 </style>
 </head>
 <body>
@@ -165,7 +172,7 @@
     var parts=DATA.parts.map(function(p){
       var secs=p.sections.map(function(s){
         var subs=(s.subsections||[]).map(function(ss){ return wbsNode(ss.title,'w3',''); }).join('');
-        return wbsNode(s.title,'w2',subs);
+        return '<li><span class="wnode w2">'+esc(s.title)+'</span>'+(subs?'<ul class="leaf">'+subs+'</ul>':'')+'</li>';
       }).join('');
       return wbsNode(p.title,'w1',secs);
     }).join('');
