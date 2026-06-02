@@ -140,7 +140,8 @@
   function mmRoot(){ return sanMM((document.title||"Guide").split("—")[0].split("(")[0]); }
   function mmSrc(){ if(!DATA||!DATA.parts) return "graph TD\nROOT((Guide))"; var one=DATA.parts.length===1; var g="graph TD\nROOT((\""+mmRoot()+"\"))\n";
     DATA.parts.forEach(function(p,pi){ var pid; if(one){ pid="ROOT"; } else { pid="P"+pi; g+='ROOT --> '+pid+'["'+sanMM(p.title)+'"]\n'; }
-      p.sections.forEach(function(s,si){ var sid="N"+pi+"_"+si; g+=pid+' --> '+sid+'["'+sanMM(s.title)+'"]\n'; }); });
+      p.sections.forEach(function(s,si){ var sid="N"+pi+"_"+si; g+=pid+' --> '+sid+'["'+sanMM(s.title)+'"]\n';
+        (s.subsections||[]).forEach(function(ss,ssi){ var ssid=sid+"_"+ssi; g+=sid+' --> '+ssid+'["'+sanMM(ss.title)+'"]\n'; }); }); });
     return g; }
   function mindmapCard(){ return '<section class="sec" id="guide-mind-map"><div class="sechead"><span class="caret">▾</span><div class="st"><h2>🗺️ Mind map of this guide</h2><div class="intro">Visual overview of every section. Use the contents list or the sections below to dive in.</div></div></div><div class="body"><div id="mmguide" class="mermaid" style="text-align:center;overflow:auto">'+mmSrc()+'</div></div></section>'; }
   var MM_CACHE=null;
