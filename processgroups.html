@@ -97,6 +97,7 @@
   .wbs ul.leaf > li > .wnode { display:inline-block; max-width:260px; white-space:normal; text-align:left; }
   .wnode.wlink { text-decoration:none; cursor:pointer; }
   .wnode.wlink:hover { border-color:var(--accent); color:var(--accent); }
+  .wnode.wtools { border-left:4px solid #34d399; }
 </style>
 </head>
 <body>
@@ -194,12 +195,15 @@
     else if(t.indexOf('monitoring')>=0){ add('Quality','quality'); add('Schedule','schedule'); add('Budget & Cost','budget-cost'); add('Risk','risk'); }
     return m; }
   function groupDiagram(sec){
-    var procs=(sec.subsections||[]).map(function(ss){ return wbsNode(ss.title,'w3',''); }).join('');
+    // each process becomes a branch that expands into its detail (points)
+    var branches=(sec.subsections||[]).map(function(ss){
+      var items=(ss.points||[]).map(function(p){ return wbsNode(p,'w3',''); }).join('');
+      return '<li><span class="wnode w1">'+esc(ss.title)+'</span>'+(items?'<ul class="leaf">'+items+'</ul>':'')+'</li>';
+    }).join('');
     var tools=groupTools(sec.title);
     var toolLis=tools.map(function(x){ return '<li><a class="wnode w3 wlink" href="tools.html#'+x[1]+'">🔧 '+esc(x[0])+'</a></li>'; }).join('');
-    var branches='<li><span class="wnode w1">Processes</span>'+(procs?'<ul class="leaf">'+procs+'</ul>':'')+'</li>';
-    if(tools.length) branches+='<li><span class="wnode w1">Tools &amp; techniques</span><ul class="leaf">'+toolLis+'</ul></li>';
-    return '<div class="part-title" style="margin:2px 0 6px">Process map &amp; related 63 Tools (click a tool to open it)</div><div class="gwbs" style="overflow:auto;padding:4px 0 12px"><ul class="wbs">'+wbsNode(sec.title,'w0',branches)+'</ul></div>';
+    if(tools.length) branches+='<li><span class="wnode w1 wtools">Tools &amp; techniques</span><ul class="leaf">'+toolLis+'</ul></li>';
+    return '<div class="part-title" style="margin:2px 0 6px">Processes with detail &amp; related 63 Tools (click a tool to open it)</div><div class="gwbs" style="overflow:auto;padding:4px 0 12px"><ul class="wbs">'+wbsNode(sec.title,'w0',branches)+'</ul></div>';
   }
   function render(){
     document.getElementById("watchTop").href=ytUrl(0);
