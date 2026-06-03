@@ -14,6 +14,7 @@ mkdir -p "$DST/.claude"
 # Copy the files we publish (edit this list if you add/remove files)
 cp "$SRC/index.html" \
    "$SRC/banks.html" \
+   "$SRC/flashcards.html" \
    "$SRC/quiz.html" \
    "$SRC/qa_dataset.json" \
    "$SRC/principles.html" \

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>PMP Flashcards</title>
+<style>
+  :root{ --bg:#0f172a; --card:#1e293b; --card2:#273449; --text:#e2e8f0; --muted:#94a3b8;
+    --accent:#c084fc; --accent-ink:#2e1065; --good:#22c55e; --bad:#ef4444; --border:#334155; --sel:#3b2a52; }
+  body.light{ --bg:#eef2f7; --card:#ffffff; --card2:#f1f5f9; --text:#0f172a; --muted:#64748b;
+    --accent:#7c3aed; --accent-ink:#ffffff; --good:#16a34a; --bad:#dc2626; --border:#cbd5e1; --sel:#ede9fe; }
+  *{ box-sizing:border-box; }
+  body{ margin:0; font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; background:var(--bg); color:var(--text); line-height:1.5; transition:background .2s,color .2s; }
+  header{ background:var(--card); border-bottom:1px solid var(--border); position:sticky; top:0; z-index:10; }
+  .topbar{ display:flex; flex-wrap:wrap; gap:12px; align-items:center; justify-content:space-between; padding:12px 20px; }
+  h1{ font-size:18px; margin:0; color:var(--accent); }
+  .ctl{ display:flex; gap:8px; align-items:center; flex-wrap:wrap; font-size:13px; }
+  select,.btn,a.btn{ background:var(--card2); color:var(--text); border:1px solid var(--border); padding:7px 12px; border-radius:8px; cursor:pointer; font-size:13px; text-decoration:none; }
+  .btn:hover,a.btn:hover,select:hover{ border-color:var(--accent); }
+  label.chk{ display:inline-flex; align-items:center; gap:6px; color:var(--muted); cursor:pointer; }
+  main{ max-width:860px; margin:26px auto; padding:0 16px; }
+  .meta{ display:flex; justify-content:space-between; align-items:center; color:var(--muted); font-size:13px; margin-bottom:10px; gap:10px; flex-wrap:wrap; }
+  .badge{ font-size:12px; padding:2px 8px; border-radius:999px; background:var(--card2); border:1px solid var(--border); }
+  /* flip card */
+  .scene{ perspective:1600px; }
+  .flip{ position:relative; width:100%; min-height:360px; transition:transform .5s; transform-style:preserve-3d; cursor:pointer; }
+  .flip.flipped{ transform:rotateY(180deg); }
+  .face{ position:absolute; inset:0; backface-visibility:hidden; -webkit-backface-visibility:hidden; background:var(--card); border:1px solid var(--border); border-radius:16px; padding:24px; display:flex; flex-direction:column; overflow:auto; }
+  .face.back{ transform:rotateY(180deg); border-left:5px solid var(--accent); }
+  .face .tag{ font-size:12px; color:var(--muted); text-transform:uppercase; letter-spacing:.06em; margin-bottom:10px; display:flex; justify-content:space-between; gap:8px; align-items:center; }
+  .q{ font-size:18px; margin-bottom:14px; }
+  .opts{ display:flex; flex-direction:column; gap:7px; margin-top:auto; }
+  .o{ padding:8px 11px; border:1px solid var(--border); border-radius:8px; background:var(--card2); font-size:14px; }
+  .o.correct{ border-color:var(--good); background:rgba(34,197,94,.12); }
+  .o .l{ font-weight:700; color:var(--accent); margin-right:8px; }
+  .ans{ font-size:15px; }
+  .ans .c{ color:var(--good); font-weight:800; font-size:20px; }
+  .ans .ex{ margin-top:10px; color:var(--text); }
+  .flipnote{ text-align:center; color:var(--muted); font-size:12px; margin-top:8px; }
+  .watch{ font-size:12px; padding:3px 9px; border-radius:999px; background:var(--sel); color:var(--accent); border:1px solid var(--accent); text-decoration:none; white-space:nowrap; }
+  .bar{ display:flex; gap:10px; align-items:center; margin-top:16px; flex-wrap:wrap; }
+  .bar .spacer{ flex:1; }
+  .primary{ background:var(--accent); color:var(--accent-ink); border:none; padding:10px 18px; border-radius:8px; font-weight:700; cursor:pointer; }
+  .progress{ height:6px; background:var(--card2); border-radius:4px; overflow:hidden; margin-top:14px; }
+  .progress>div{ height:100%; background:var(--accent); width:0%; transition:width .3s; }
+  .loader{ text-align:center; padding:60px 20px; color:var(--muted); }
+  /* floating PiP video player */
+  #ytpip{ position:fixed; right:16px; bottom:16px; width:800px; max-width:94vw; background:#000; border:1px solid var(--border); border-radius:10px; box-shadow:0 10px 34px rgba(0,0,0,.55); z-index:1100; display:none; overflow:hidden; }
+  #ytpip.show{ display:block; } #ytpip.big{ width:1100px; }
+  #ytpipBar{ display:flex; gap:6px; align-items:center; padding:6px 8px; background:var(--card); color:var(--text); cursor:move; font-size:12px; }
+  #ytpipBar .t{ flex:1; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  #ytpipBar button,#ytpipBar a{ background:transparent; border:1px solid var(--border); color:inherit; border-radius:5px; padding:3px 8px; font-size:12px; cursor:pointer; text-decoration:none; }
+  #ytpipFrame{ position:relative; width:100%; aspect-ratio:16/9; background:#000; } #ytpipFrame iframe{ position:absolute; inset:0; width:100%; height:100%; border:0; }
+</style>
+</head>
+<body>
+<header>
+  <div class="topbar">
+    <h1>🃏 PMP Flashcards</h1>
+    <div class="ctl">
+      <select id="setSel">
+        <option value="qa">200 Ultra-Hard</option>
+        <option value="pmbok7">150 PMBOK 7</option>
+        <option value="agile">200 Agile</option>
+        <option value="waterfall">100 Waterfall</option>
+      </select>
+      <label class="chk"><input type="checkbox" id="shuffleChk" /> Shuffle</label>
+      <label class="chk"><input type="checkbox" id="hideKnownChk" /> Hide known</label>
+      <a class="btn" href="banks.html">📚 Banks</a>
+      <a class="btn" href="index.html">🏠 Home</a>
+      <button class="btn" id="themeBtn">🌙 Dark</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div id="loader" class="loader">Loading flashcards…</div>
+  <div id="app" style="display:none">
+    <div class="meta">
+      <span><b id="setName"></b> · <span id="counter"></span></span>
+      <span><span class="badge" id="knownCount"></span> <span class="badge" id="qtype"></span></span>
+    </div>
+    <div class="scene">
+      <div class="flip" id="flip">
+        <div class="face front" id="front"></div>
+        <div class="face back" id="back"></div>
+      </div>
+    </div>
+    <div class="flipnote">Click the card or press Space to flip · ← / → to move</div>
+    <div class="progress"><div id="pfill"></div></div>
+    <div class="bar">
+      <button class="btn" id="prevBtn">◀ Prev</button>
+      <button class="primary" id="flipBtn">Flip</button>
+      <button class="btn" id="nextBtn">Next ▶</button>
+      <button class="btn" id="knownBtn">✓ Mark known</button>
+      <div class="spacer"></div>
+      <button class="btn" id="resetBtn">↺ Reset known</button>
+    </div>
+  </div>
+</main>
+
+<!-- file picker fallback -->
+<div id="fileOverlay" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,.6); align-items:center; justify-content:center; z-index:200; padding:16px;">
+  <div style="background:var(--card); border:1px solid var(--border); border-radius:12px; max-width:520px; padding:24px;">
+    <h2 style="margin:0 0 6px; color:var(--accent)">Load flashcard data</h2>
+    <p>Could not auto-load the dataset (browsers block local file reads when opened directly). Pick the JSON file for the selected set:</p>
+    <input type="file" id="filePicker" accept=".json" />
+  </div>
+</div>
+
+<script>
+(function(){
+  "use strict";
+  var THEME_KEY="pmp_hub_theme";
+  var SETS={
+    qa:{file:"qa_dataset.json", name:"200 Ultra-Hard Questions", video:"1sWpc6765AI"},
+    pmbok7:{file:"pmbok7_dataset.json", name:"150 PMBOK 7 Questions", video:"Zht0-j03NfQ"},
+    agile:{file:"agile_dataset.json", name:"200 Agile Questions", video:"tNIHysh2ZW4"},
+    waterfall:{file:"waterfall_dataset.json", name:"100 Waterfall Questions", video:"xIH-u81XCxM"}
+  };
+  var $=function(id){return document.getElementById(id);};
+  function esc(s){ return String(s).replace(/[&<>"']/g,function(c){return({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]);}); }
+  function fmtClock(sec){ sec=Math.max(0,sec|0); var h=Math.floor(sec/3600),m=Math.floor((sec%3600)/60),s=sec%60; return (h>0?h+":"+(m<10?"0":""):"")+m+":"+(s<10?"0":"")+s; }
+  function correctSet(q){ return String(q.correct_answer).split(",").map(function(x){return x.trim().toUpperCase();}).filter(Boolean); }
+
+  // theme
+  function applyTheme(){ var l=localStorage.getItem(THEME_KEY)==="light"; document.body.classList.toggle("light",l); $("themeBtn").textContent=l?"☀️ Light":"🌙 Dark"; }
+  $("themeBtn").onclick=function(){ localStorage.setItem(THEME_KEY, localStorage.getItem(THEME_KEY)==="light"?"dark":"light"); applyTheme(); };
+  try{ applyTheme(); }catch(e){}
+
+  var DATA=[], order=[], pos=0, curSet="qa", known={};
+  function knownKey(){ return "pmp_flash_known_"+curSet; }
+  function loadKnown(){ try{ known=JSON.parse(localStorage.getItem(knownKey()))||{}; }catch(e){ known={}; } }
+  function saveKnown(){ try{ localStorage.setItem(knownKey(), JSON.stringify(known)); }catch(e){} }
+
+  function buildOrder(){
+    var idx=DATA.map(function(_,i){return i;});
+    if($("hideKnownChk").checked) idx=idx.filter(function(i){ return !known[DATA[i].number]; });
+    if(!idx.length) idx=DATA.map(function(_,i){return i;}); // don't end up empty
+    if($("shuffleChk").checked){ for(var i=idx.length-1;i>0;i--){ var j=Math.floor(Math.random()*(i+1)); var t=idx[i];idx[i]=idx[j];idx[j]=t; } }
+    order=idx; pos=0;
+  }
+  function curQ(){ return DATA[order[pos]]; }
+
+  function render(){
+    var q=curQ(); if(!q) return;
+    $("flip").classList.remove("flipped");
+    var cs=correctSet(q), multi=cs.length>1;
+    $("counter").textContent=(pos+1)+" of "+order.length;
+    $("qtype").textContent=multi?("select "+cs.length):"single answer";
+    var kc=DATA.filter(function(x){return known[x.number];}).length;
+    $("knownCount").textContent="✓ "+kc+" known";
+    $("knownBtn").textContent=known[q.number]?"✓ Known (undo)":"✓ Mark known";
+    // front
+    var fo=Object.keys(q.options).map(function(L){ return '<div class="o"><span class="l">'+L+'</span>'+esc(q.options[L])+'</div>'; }).join("");
+    $("front").innerHTML='<div class="tag"><span>Question '+q.number+'</span><span>'+esc(SETS[curSet].name)+'</span></div>'+
+      '<div class="q">'+esc(q.question)+'</div><div class="opts">'+fo+'</div>';
+    // back
+    var bo=Object.keys(q.options).map(function(L){ return '<div class="o'+(cs.includes(L)?" correct":"")+'"><span class="l">'+L+'</span>'+esc(q.options[L])+'</div>'; }).join("");
+    var watch=q.video_time!=null?'<a class="watch" target="_blank" rel="noopener" href="https://www.youtube.com/watch?v='+SETS[curSet].video+'&t='+q.video_time+'s">▶ Watch '+fmtClock(q.video_time)+'</a>':'';
+    $("back").innerHTML='<div class="tag"><span>Answer · Q'+q.number+'</span>'+watch+'</div>'+
+      '<div class="ans"><div>Correct answer: <span class="c">'+esc(q.correct_answer)+'</span></div><div class="opts" style="margin:10px 0">'+bo+'</div>'+
+      '<div class="ex">'+esc(q.explanation)+'</div></div>';
+    $("pfill").style.width=(order.length?((pos+1)/order.length*100):0)+"%";
+    $("prevBtn").disabled=pos===0; $("nextBtn").disabled=pos===order.length-1;
+  }
+  function go(d){ var n=pos+d; if(n<0||n>=order.length) return; pos=n; render(); }
+  function flip(){ $("flip").classList.toggle("flipped"); }
+
+  function initApp(data){
+    DATA=data.slice().sort(function(a,b){return a.number-b.number;});
+    loadKnown(); buildOrder();
+    $("setName").textContent=SETS[curSet].name;
+    $("loader").style.display="none"; $("app").style.display="block";
+    render();
+  }
+  function load(){
+    $("app").style.display="none"; $("loader").style.display="block"; $("loader").textContent="Loading flashcards…";
+    fetch(SETS[curSet].file).then(function(r){ if(!r.ok) throw 0; return r.json(); }).then(initApp).catch(showPicker);
+  }
+  function showPicker(){
+    $("loader").textContent="Waiting for "+SETS[curSet].file+"…";
+    $("fileOverlay").style.display="flex";
+    $("filePicker").onchange=function(e){ var f=e.target.files[0]; if(!f) return; var rd=new FileReader(); rd.onload=function(){ try{ var d=JSON.parse(rd.result); $("fileOverlay").style.display="none"; initApp(d);}catch(err){ alert("Invalid JSON"); } }; rd.readAsText(f); };
+  }
+
+  // wiring
+  $("flip").onclick=flip;
+  $("flipBtn").onclick=flip;
+  $("prevBtn").onclick=function(){ go(-1); };
+  $("nextBtn").onclick=function(){ go(1); };
+  $("knownBtn").onclick=function(){ var q=curQ(); if(known[q.number]) delete known[q.number]; else known[q.number]=1; saveKnown(); render(); };
+  $("resetBtn").onclick=function(){ if(confirm("Clear 'known' marks for this set?")){ known={}; saveKnown(); buildOrder(); render(); } };
+  $("shuffleChk").onchange=function(){ buildOrder(); render(); };
+  $("hideKnownChk").onchange=function(){ buildOrder(); render(); };
+  $("setSel").onchange=function(){ curSet=this.value; try{ localStorage.setItem("pmp_flash_set",curSet);}catch(e){} load(); };
+  document.addEventListener("keydown",function(e){
+    if(/^(INPUT|SELECT|TEXTAREA)$/.test(document.activeElement.tagName)) return;
+    if(e.key==="ArrowLeft") go(-1); else if(e.key==="ArrowRight") go(1);
+    else if(e.key===" "||e.key==="Enter"){ e.preventDefault(); flip(); }
+  });
+
+  // initial set (query param ?set= or last used)
+  var qp=new URLSearchParams(location.search).get("set");
+  var saved=null; try{ saved=localStorage.getItem("pmp_flash_set"); }catch(e){}
+  curSet=(qp&&SETS[qp])?qp:((saved&&SETS[saved])?saved:"qa");
+  $("setSel").value=curSet;
+  load();
+})();
+</script>
+
+<!-- floating picture-in-picture video player -->
+<script>
+(function(){
+  if(window.__ytpipReady) return; window.__ytpipReady=true;
+  var ov=document.createElement('div'); ov.id='ytpip';
+  ov.innerHTML='<div id="ytpipBar"><span class="t" id="ytpipTitle"></span><button id="ytpipSize">⤢</button><a id="ytpipOpen" target="_blank" rel="noopener">YouTube ↗</a><button id="ytpipClose">✕</button></div><div id="ytpipFrame"><iframe id="ytpipIfr" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe></div>';
+  document.body.appendChild(ov);
+  var ifr=document.getElementById('ytpipIfr'), box=ov;
+  function parse(u){ try{ var x=new URL(u,location.href); var v=x.searchParams.get('v'); var t=parseInt(String(x.searchParams.get('t')||'0').replace(/[^0-9]/g,''),10)||0; if(!v&&x.hostname.indexOf('youtu.be')>=0) v=x.pathname.slice(1); return v?{v:v,t:t}:null; }catch(e){ return null; } }
+  function play(u,title){ var p=parse(u); if(!p){ window.open(u,'_blank'); return; } ifr.src='https://www.youtube.com/embed/'+p.v+'?autoplay=1&start='+p.t+'&rel=0&modestbranding=1'; document.getElementById('ytpipOpen').href=u; document.getElementById('ytpipTitle').textContent='▶ '+(title||'Video'); box.classList.add('show'); }
+  document.getElementById('ytpipClose').onclick=function(){ box.classList.remove('show'); ifr.src=''; };
+  document.getElementById('ytpipSize').onclick=function(){ box.classList.toggle('big'); };
+  var bar=document.getElementById('ytpipBar'),drag=false,ox=0,oy=0,sx=0,sy=0;
+  bar.addEventListener('mousedown',function(e){ if(e.target.closest('button,a'))return; drag=true; var r=box.getBoundingClientRect(); ox=r.left;oy=r.top;sx=e.clientX;sy=e.clientY; box.style.right='auto';box.style.bottom='auto';box.style.left=ox+'px';box.style.top=oy+'px'; e.preventDefault(); });
+  window.addEventListener('mousemove',function(e){ if(!drag)return; box.style.left=Math.max(0,ox+e.clientX-sx)+'px'; box.style.top=Math.max(0,oy+e.clientY-sy)+'px'; });
+  window.addEventListener('mouseup',function(){ drag=false; });
+  document.addEventListener('keydown',function(e){ if(e.key==='Escape'&&box.classList.contains('show')) box.classList.remove('show'); });
+  document.addEventListener('click',function(e){ if(e.metaKey||e.ctrlKey||e.shiftKey) return; var a=e.target.closest('a.watch'); if(!a)return; var href=a.getAttribute('href')||''; if(href.indexOf('youtube')<0&&href.indexOf('youtu.be')<0) return; e.preventDefault(); play(href,'Flashcard'); });
+})();
+</script>
+</body>
+</html>
