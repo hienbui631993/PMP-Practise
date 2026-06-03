@@ -72,13 +72,13 @@
   .wnode.wn-biz { border-left:4px solid var(--biz); font-weight:700; }
   .wnode.wn-ka { border-left:4px solid #94a3b8; font-weight:700; }
   /* last level: vertical indented list */
-  .wbs ul.leaf { flex-direction:column; align-items:flex-start; padding:10px 0 0 32px; }
+  .wbs ul.leaf { flex-direction:column; align-items:flex-start; padding:0 0 0 40%; }
   .wbs ul.leaf > li { padding:7px 0 0 0; margin:0; text-align:left; }
   .wbs ul.leaf > li::before { content:'' !important; display:block !important; left:-16px !important; right:auto !important; top:0 !important; bottom:auto !important; width:0 !important; height:100% !important; border:0 !important; border-left:2px solid var(--border) !important; border-radius:0 !important; }
   .wbs ul.leaf > li:last-child::before { height:24px !important; }
   .wbs ul.leaf > li::after { content:'' !important; display:block !important; left:-16px !important; right:auto !important; top:24px !important; width:16px !important; height:0 !important; border:0 !important; border-top:2px solid var(--border) !important; border-radius:0 !important; }
   .wbs ul.leaf::before { display:none !important; }
-  .wbs ul.leaf > li > .wnode { display:inline-block; max-width:300px; white-space:normal; text-align:left; font-weight:400; font-size:12px; background:var(--card); }
+  .wbs ul.leaf > li > .wnode { display:inline-block; max-width:260px; white-space:normal; text-align:left; }
   /* diagram zoom */
   .dz-open { position:absolute; top:8px; right:8px; z-index:3; background:var(--card2); color:var(--text); border:1px solid var(--border); border-radius:6px; padding:4px 9px; font-size:12px; cursor:pointer; opacity:.85; }
   .dz-open:hover { opacity:1; border-color:var(--accent); }
